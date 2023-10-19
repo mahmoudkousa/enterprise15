@@ -6,6 +6,7 @@
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
 # Sergio Zanchetta <primes2h@gmail.com>, 2023
+# Marianna Ciofani, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-16 06:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2023\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Last-Translator: Marianna Ciofani, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -127,7 +128,7 @@ msgstr "Nome chiamata"
 #: code:addons/voip/models/voip_phonecall.py:0
 #, python-format
 msgid "Call duration: %(min)smin %(sec)ssec"
-msgstr ""
+msgstr "Durata chiamata: %(min)smin %(sec)ssec"
 
 #. module: voip
 #. openerp-web
@@ -491,7 +492,7 @@ msgstr "Attività collegata"
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_phonecall__mail_message_id
 msgid "Linked Chatter Message"
-msgstr ""
+msgstr "Messaggio chatter collegato"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_mail_activity__voip_phonecall_id
@@ -757,7 +758,7 @@ msgstr "Chiamata rifiutata in arrivo da %s"
 #: code:addons/voip/static/src/js/dialing_panel.js:0
 #, python-format
 msgid "Remember ?"
-msgstr ""
+msgstr "Ricorda ?"
 
 #. module: voip
 #. openerp-web

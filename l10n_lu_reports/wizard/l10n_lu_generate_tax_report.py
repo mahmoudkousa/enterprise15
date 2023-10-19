@@ -308,7 +308,7 @@ class L10nLuGenerateTaxReport(models.TransientModel):
         annex_options['group_by'] = 'account.tax'
         lines = self.env['account.generic.tax.report'].with_context(
             self.env['account.generic.tax.report']._set_context(annex_options))._get_lines(annex_options)
-        annex_fields, expenditures_table, total_base_amount, total_vat = self._add_annex_fields_expenditures(self, annex_fields, lines)
+        annex_fields, expenditures_table, total_base_amount, total_vat = self._add_annex_fields_expenditures(annex_fields, lines)
         # Annex totals
         if annex_fields:
             annex_fields['192'] = total_base_amount

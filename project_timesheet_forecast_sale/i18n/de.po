@@ -3,8 +3,8 @@
 # 	* project_timesheet_forecast_sale
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2021
+# Martin Trigaux, 2023
 # Larissa Manderfeld, 2023
 # 
 msgid ""
@@ -41,7 +41,7 @@ msgstr ""
 #. module: project_timesheet_forecast_sale
 #: model:ir.model,name:project_timesheet_forecast_sale.model_account_analytic_line
 msgid "Analytic Line"
-msgstr "Analytischer Buchungssatz"
+msgstr "Kostenstellenbuchung"
 
 #. module: project_timesheet_forecast_sale
 #: model:planning.role,name:project_timesheet_forecast_sale.planning_role_consultant
@@ -51,7 +51,7 @@ msgstr "Berater"
 #. module: project_timesheet_forecast_sale
 #: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_project_project__display_planning_timesheet_analysis
 msgid "Display Planning Timesheet Analysis"
-msgstr "Analyse der Zeiterfassungsplanung anzeigen"
+msgstr "Zeiterfassungs- und Planungsanalyse anzeigen"
 
 #. module: project_timesheet_forecast_sale
 #: model_terms:ir.ui.view,arch_db:project_timesheet_forecast_sale.project_update_default_description
@@ -76,7 +76,7 @@ msgstr "Projekt"
 #. module: project_timesheet_forecast_sale
 #: model:ir.model,name:project_timesheet_forecast_sale.model_project_update
 msgid "Project Update"
-msgstr "Projekt-Update"
+msgstr "Projektaktualisierung"
 
 #. module: project_timesheet_forecast_sale
 #: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_project_timesheet_forecast_report_analysis__sale_order_id
@@ -104,20 +104,21 @@ msgid ""
 "Sales Order Item to which the time spent on this task will be added, in "
 "order to be invoiced to your customer."
 msgstr ""
-"Kundenauftragsposition, zu der die für diese Aufgabe aufgewendete Zeit "
+"Verkaufsauftragsposition, zu der die für diese Aufgabe aufgewendete Zeit "
 "hinzugefügt wird, um sie Ihrem Kunden in Rechnung zu stellen."
 
 #. module: project_timesheet_forecast_sale
 #: model:ir.model,name:project_timesheet_forecast_sale.model_sale_order_line
 #: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_planning_slot__order_line_id
 msgid "Sales Order Line"
-msgstr "Auftragsposition"
+msgstr "Verkaufsauftragszeile"
 
 #. module: project_timesheet_forecast_sale
 #: model:ir.model.fields,help:project_timesheet_forecast_sale.field_project_project__display_planning_timesheet_analysis
 msgid "Should we display the planning and timesheet analysis button?"
 msgstr ""
-"Soll der Analyse-Button für Zeiterfassung und Planung angezeigt werden?"
+"Soll die Schaltfläche für die Zeiterfassungs- und Planungsanalyse angezeigt "
+"werden?"
 
 #. module: project_timesheet_forecast_sale
 #: model:planning.role,name:project_timesheet_forecast_sale.planning_role_junior_architect
@@ -148,4 +149,4 @@ msgstr "Zeiterfassung und Planung"
 #. module: project_timesheet_forecast_sale
 #: model_terms:ir.ui.view,arch_db:project_timesheet_forecast_sale.project_timesheet_forecast_view_kanban_inherit_sale_timesheet
 msgid "Timesheets and Planning Analysis"
-msgstr "Zeiterfassung und Planungsanalyse"
+msgstr "Zeiterfassungs- und Planungsanalyse"

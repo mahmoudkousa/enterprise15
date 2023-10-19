@@ -30,12 +30,12 @@ msgstr "<b class=\"d-block mb-2\">Página de Facebook</b>"
 #. module: social_facebook
 #: model_terms:ir.ui.view,arch_db:social_facebook.social_stream_post_view_kanban
 msgid "<i class=\"fa fa-comments\" title=\"Comments\"/>"
-msgstr "<i class=\"fa fa-comments\" title=\"Comments\"/>"
+msgstr "<i class=\"fa fa-comments\" title=\"Comentarios\"/>"
 
 #. module: social_facebook
 #: model_terms:ir.ui.view,arch_db:social_facebook.social_stream_post_view_kanban
 msgid "<i class=\"fa fa-thumbs-up\" title=\"Likes\"/>"
-msgstr "<i class=\"fa fa-thumbs-up\" title=\"Likes\"/>"
+msgstr "<i class=\"fa fa-thumbs-up\" title=\"Me gusta\"/>"
 
 #. module: social_facebook
 #: model:ir.model.fields,field_description:social_facebook.field_social_live_post__facebook_post_id
@@ -56,7 +56,7 @@ msgstr "ID de la aplicación"
 #. module: social_facebook
 #: model_terms:ir.ui.view,arch_db:social_facebook.res_config_settings_view_form
 msgid "App Secret"
-msgstr "Secreto de aplicación"
+msgstr "Secreto de la aplicación"
 
 #. module: social_facebook
 #. openerp-web
@@ -83,7 +83,7 @@ msgstr "Comentarios"
 #. module: social_facebook
 #: model:ir.model,name:social_facebook.model_res_config_settings
 msgid "Config Settings"
-msgstr "Opciones de configuración"
+msgstr "Ajustes de configuración"
 
 #. module: social_facebook
 #: model:ir.model.fields,field_description:social_facebook.field_social_post__display_facebook_preview
@@ -115,7 +115,7 @@ msgstr "ID de la cuenta de Facebook"
 #. module: social_facebook
 #: model:ir.model.fields,field_description:social_facebook.field_res_config_settings__facebook_app_id
 msgid "Facebook App ID"
-msgstr "ID de la aplicación de Faccebook"
+msgstr "ID de la aplicación de Facebook"
 
 #. module: social_facebook
 #: model:ir.model.fields,field_description:social_facebook.field_res_config_settings__facebook_client_secret
@@ -140,8 +140,8 @@ msgid ""
 "Facebook Page Access Token provided by the Facebook API, this should never be set manually.\n"
 "            It's used to authenticate requests when posting to or reading information from this account."
 msgstr ""
-"Token de acceso a la página de Facebook que dio el API de Facebook, esto se debería de configurar manualmente.\n"
-"            Se usa para autentificar peticiones cuando se publica o se le información de esta cuenta."
+"Token de acceso a la página de Facebook que proporcionó la API de Facebook, esto jamás se debe configurar de manera manual.\n"
+"            Se usa para autentificar peticiones cuando se publica o se lee información de esta cuenta."
 
 #. module: social_facebook
 #: model:ir.model.fields,help:social_facebook.field_social_account__facebook_account_id
@@ -221,7 +221,7 @@ msgstr ""
 #. module: social_facebook
 #: model_terms:ir.ui.view,arch_db:social_facebook.facebook_preview
 msgid "Published by Facebook Page •"
-msgstr "Se publicó en la página de Facebook •"
+msgstr "Publicado por página de Facebook •"
 
 #. module: social_facebook
 #: model:ir.model.fields,field_description:social_facebook.field_social_stream_post__facebook_reach
@@ -250,12 +250,12 @@ msgstr "Publicación en redes sociales en vivo"
 #. module: social_facebook
 #: model:ir.model,name:social_facebook.model_social_media
 msgid "Social Media"
-msgstr "Medios de comunicación en redes sociales"
+msgstr "Redes sociales"
 
 #. module: social_facebook
 #: model:ir.model,name:social_facebook.model_social_post
 msgid "Social Post"
-msgstr "Publicar en redes sociales"
+msgstr "Publicación en redes sociales"
 
 #. module: social_facebook
 #: model:ir.model,name:social_facebook.model_social_post_template
@@ -308,7 +308,8 @@ msgid ""
 "specific media ('facebook', 'twitter', ...)."
 msgstr ""
 "Se utiliza para hacer comparaciones cuando necesitamos restringir algunas "
-"características para una red social específica ('facebook', 'twitter', ...)."
+"características para una red social específica (\"Facebook\", \"Twitter\", "
+"...)."
 
 #. module: social_facebook
 #: model:ir.model.fields,field_description:social_facebook.field_social_stream_post__facebook_user_likes
@@ -331,8 +332,8 @@ msgid ""
 "We could not upload your image, try reducing its size and posting it again "
 "(error: %s)."
 msgstr ""
-"No pudimos subir su imagen, intente reducir el tamaño y después publíquela "
-"de nuevo (error: %s)."
+"No pudimos subir su imagen, intente reducir el tamaño y vuelva a intentarlo "
+"(error: %s)."
 
 #. module: social_facebook
 #: code:addons/social_facebook/models/social_media.py:0

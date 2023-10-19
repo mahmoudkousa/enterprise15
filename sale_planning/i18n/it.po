@@ -61,7 +61,7 @@ msgstr "Ore assegnate"
 #. module: sale_planning
 #: model:ir.ui.menu,name:sale_planning.sale_planning_menu_schedule_by_sale_order
 msgid "By Sales Order"
-msgstr ""
+msgstr "Per ordine di vendita"
 
 #. module: sale_planning
 #: model:product.product,name:sale_planning.developer_product
@@ -167,13 +167,13 @@ msgstr ""
 #. module: sale_planning
 #: model:ir.model.fields,field_description:sale_planning.field_sale_order__planning_first_sale_line_id
 msgid "Planning First Sale Line"
-msgstr ""
+msgstr "Pianificazione prima riga di vendita"
 
 #. module: sale_planning
 #: model:ir.model.fields,field_description:sale_planning.field_sale_order__planning_hours_planned
 #: model:ir.model.fields,field_description:sale_planning.field_sale_order_line__planning_hours_planned
 msgid "Planning Hours Planned"
-msgstr ""
+msgstr "Pianificazione ore pianificate"
 
 #. module: sale_planning
 #: model:ir.model.fields,field_description:sale_planning.field_sale_order__planning_hours_to_plan
@@ -184,7 +184,7 @@ msgstr "Pianificare le ore"
 #. module: sale_planning
 #: model:ir.model.fields,field_description:sale_planning.field_sale_order__planning_initial_date
 msgid "Planning Initial Date"
-msgstr ""
+msgstr "Pianificazione data iniziale"
 
 #. module: sale_planning
 #: model:ir.model,name:sale_planning.model_planning_role
@@ -201,7 +201,7 @@ msgstr "Turno pianificato"
 #. module: sale_planning
 #: model:ir.model.fields,field_description:sale_planning.field_sale_order_line__planning_slot_ids
 msgid "Planning Slot"
-msgstr ""
+msgstr "Slot di pianificazione"
 
 #. module: sale_planning
 #: model:ir.model,name:sale_planning.model_product_template

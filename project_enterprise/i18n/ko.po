@@ -45,17 +45,17 @@ msgstr "<span class=\"align-middle\">동시에 이 직원에게.</span>"
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_gantt
 msgid "<strong>Assignees — </strong>"
-msgstr ""
+msgstr "<strong>담당자 — </strong>"
 
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_gantt
 msgid "<strong>Customer — </strong>"
-msgstr ""
+msgstr "<strong>고객 — </strong>"
 
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_gantt
 msgid "<strong>Project — </strong>"
-msgstr ""
+msgstr "<strong>프로젝트 — </strong>"
 
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_map_view
@@ -77,7 +77,7 @@ msgstr "일자"
 #. module: project_enterprise
 #: model:ir.model.fields,field_description:project_enterprise.field_project_task__display_warning_dependency_in_gantt
 msgid "Display Warning Dependency In Gantt"
-msgstr ""
+msgstr "간트에서 종속성 경고 표시"
 
 #. module: project_enterprise
 #: model:ir.model.fields,field_description:project_enterprise.field_project_task__planned_date_end
@@ -184,7 +184,7 @@ msgstr "할당되지 않은 작업"
 #. module: project_enterprise
 #: model:ir.model.fields,field_description:project_enterprise.field_project_task__user_names
 msgid "User Names"
-msgstr ""
+msgstr "사용자 이름"
 
 #. module: project_enterprise
 #: code:addons/project_enterprise/models/project.py:0

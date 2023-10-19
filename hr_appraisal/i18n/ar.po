@@ -216,7 +216,7 @@ msgstr "<span class=\"bg-info\">جاهز</span>"
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_kanban
 msgid "<span class=\"bg-secondary\">Canceled</span>"
-msgstr "<span class=\"bg-secondary\">مخفي</span>"
+msgstr "<span class=\"bg-secondary\">ملغي</span>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_goal_view_kanban

@@ -5,6 +5,7 @@
 # Translators:
 # Martin Trigaux, 2021
 # Wichanon Jamwutthipreecha, 2022
+# Rasareeyar Lappiam, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Wichanon Jamwutthipreecha, 2022\n"
-"Language-Team: Thai (https://www.transifex.com/odoo/teams/41243/th/)\n"
+"Last-Translator: Rasareeyar Lappiam, 2023\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -28,7 +29,7 @@ msgstr "-> กระทบยอด"
 #. module: account_accountant
 #: model_terms:digest.tip,tip_description:account_accountant.digest_tip_account_accountant_0
 msgid "<b class=\"tip_title\">Tip: Bulk update journal items</b>"
-msgstr ""
+msgstr "<b class=\"tip_title\"> เคล็ดลับ: อัปเดตรายการสมุดรายวันจำนวนมาก </b>"
 
 #. module: account_accountant
 #: model_terms:digest.tip,tip_description:account_accountant.digest_tip_account_accountant_1
@@ -36,6 +37,8 @@ msgid ""
 "<b class=\"tip_title\">Tip: Find an Accountant or register your Accounting "
 "Firm</b>"
 msgstr ""
+"<b class=\"tip_title\">เคล็ดลับ: ค้นหานักบัญชี หรือ "
+"ลงทะเบียนให้กับสำนักงานบัญชีของคุณ</b>"
 
 #. module: account_accountant
 #. openerp-web
@@ -44,17 +47,17 @@ msgstr ""
 msgid ""
 "<br>See how to manage your customer invoices in the "
 "<b>Customers/Invoices</b> menu"
-msgstr ""
+msgstr "<br>ดูวิธีจัดการใบแจ้งหนี้ของลูกค้าใน เมนู <b>ลูกค้า/ใบแจ้งหนี้</b> "
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
 msgid "<i>Lock all journal entries</i>"
-msgstr ""
+msgstr "<i>ล็อครายการสมุดรายวันทั้งหมด</i>"
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
 msgid "<i>Lock specific journal entries</i>"
-msgstr ""
+msgstr "<i>ล็อครายการสมุดรายวันแบบเฉพาะ</i>"
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
@@ -75,12 +78,12 @@ msgstr ""
 #. module: account_accountant
 #: model_terms:digest.tip,tip_description:account_accountant.digest_tip_account_accountant_1
 msgid "<span class=\"tip_button_text\">Find an Accountant</span>"
-msgstr ""
+msgstr "<span class=\"tip_button_text\">ค้นหานักบัญชี</span>"
 
 #. module: account_accountant
 #: model_terms:digest.tip,tip_description:account_accountant.digest_tip_account_accountant_1
 msgid "<span class=\"tip_button_text\">Register your Accounting Firm</span>"
-msgstr ""
+msgstr "<span class=\"tip_button_text\">ลงทะเบียนสำนักงานบัญชีของคุณ</span>"
 
 #. module: account_accountant
 #. openerp-web
@@ -140,12 +143,12 @@ msgstr "บัญชี"
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
 msgid "Accounting Period Closing"
-msgstr ""
+msgstr "การปิดรอบระยะเวลาบัญชี"
 
 #. module: account_accountant
 #: model:ir.actions.act_window,name:account_accountant.action_view_account_change_lock_date
 msgid "Accounting closing dates"
-msgstr ""
+msgstr "วันปิดบัญชี"
 
 #. module: account_accountant
 #: model_terms:ir.actions.act_window,help:account_accountant.account_tag_action
@@ -155,7 +158,7 @@ msgstr "เพิ่มแท็กใหม่"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date__fiscalyear_lock_date
 msgid "All Users Lock Date"
-msgstr ""
+msgstr "วันที่ล็อคผู้ใช้ทั้งหมด"
 
 #. module: account_accountant
 #. openerp-web
@@ -198,7 +201,7 @@ msgstr "ป้ายกำกับการวิเคราะห์"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_res_config_settings__use_anglo_saxon
 msgid "Anglo-Saxon Accounting"
-msgstr ""
+msgstr "ระบบบัญชีแบบ Anglo-Saxon"
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_bank_statement_line__attachment_ids
@@ -210,7 +213,7 @@ msgstr "เอกสารแนบ"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_digest_digest__kpi_account_bank_cash
 msgid "Bank & Cash Moves"
-msgstr ""
+msgstr "การเคลื่อนย้ายธนาคารและเงินสด"
 
 #. module: account_accountant
 #. openerp-web
@@ -233,7 +236,7 @@ msgstr "ยกเลิก"
 #. module: account_accountant
 #: model:ir.model,name:account_accountant.model_account_change_lock_date
 msgid "Change Lock Date"
-msgstr ""
+msgstr "เปลี่ยนวันที่ล็อค"
 
 #. module: account_accountant
 #. openerp-web
@@ -243,6 +246,8 @@ msgid ""
 "Check & validate the bill. If no vendor has been found, add one before "
 "validating."
 msgstr ""
+"ตรวจสอบความถูกต้องของใบเรียกเก็บเงิน หากไม่พบผู้จำหน่าย "
+"ให้เพิ่มหนึ่งรายก่อนที่จะทำการตรวจสอบความถูกต้อง"
 
 #. module: account_accountant
 #. openerp-web
@@ -268,7 +273,7 @@ msgstr "ตรวจสอบ"
 #: code:addons/account_accountant/static/src/js/move_line_list_view.js:0
 #, python-format
 msgid "Choose a line to preview its attachments."
-msgstr ""
+msgstr "เลือกบรรทัดเพื่อดูตัวอย่างไฟล์แนบ"
 
 #. module: account_accountant
 #. openerp-web
@@ -288,6 +293,7 @@ msgid ""
 "Click here to find an accountant or if you want to list out your accounting "
 "services on Odoo"
 msgstr ""
+"คลิกที่นี่เพื่อ ค้นหานักบัญชี หรือ ลงรายการบริการด้านบัญชีของคุณบน Odoo"
 
 #. module: account_accountant
 #. openerp-web
@@ -340,7 +346,7 @@ msgstr ""
 #: code:addons/account_accountant/static/src/js/tours/account_accountant.js:0
 #, python-format
 msgid "Connect your bank and get your latest transactions."
-msgstr ""
+msgstr "เชื่อมต่อกับธนาคารของคุณและรับธุรกรรมล่าสุดของคุณ"
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_reconcile_model_widget_wizard
@@ -380,6 +386,8 @@ msgid ""
 "Create your first vendor bill.<br/><br/><i>Tip: If you don’t have one on "
 "hand, use our sample bill.</i>"
 msgstr ""
+"สร้างใบเรียกเก็บเงินผู้ขายครั้งแรกของคุณ<br/><br/><i>เคล็ดลับ: หากคุณไม่มี "
+"ให้ใช้ใบเรียกเก็บเงินตัวอย่างของเรา</i>"
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date__create_uid
@@ -411,7 +419,7 @@ msgstr "วันที่"
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
 msgid "Define fiscal years of more or less than one year"
-msgstr ""
+msgstr "ให้กำหนดปีของบัญชีมากกว่าหรือน้อยกว่าหนึ่งปี"
 
 #. module: account_accountant
 #. openerp-web
@@ -463,6 +471,10 @@ msgid ""
 "after installing Accounting if you were using only Invoicing before, before "
 "importing all your actual accounting data in to Odoo."
 msgstr ""
+"ทุกการชำระเงินและใบแจ้งหนี้ก่อนวันที่นี้จะได้รับสถานะ 'จากการออกใบแจ้งหนี้' "
+"ซึ่งจะซ่อนรายการทางบัญชีทั้งหมดที่เกี่ยวข้อง "
+"ใช้ตัวเลือกนี้หลังจากติดตั้งการบัญชี หากคุณเคยใช้เฉพาะการออกใบแจ้งหนี้มาก่อน"
+" ก่อนที่จะนำเข้าข้อมูลการบัญชีจริงทั้งหมดของคุณไปยัง Odoo"
 
 #. module: account_accountant
 #. openerp-web
@@ -517,6 +529,10 @@ msgid ""
 "feature to update multiple journal entries from the General Ledger, or any "
 "Journal view."
 msgstr ""
+"จากมุมมองรายการใดก็ตาม "
+"ให้เลือกบันทึกและรายการหลายรายการก็จะสามารถทำการแก้ไขได้ หากคุณอัปเดตเซลล์ "
+"บันทึกที่เลือกจะถูกอัปเดตทั้งหมดในครั้งเดียว "
+"ใช้ฟีเจอร์นี้เพื่ออัปเดตรายการบันทึกประจำวันหลายรายการจากบัญชีแยกประเภททั่วไปหรือมุมมองสมุดรายวัน"
 
 #. module: account_accountant
 #. openerp-web
@@ -530,7 +546,7 @@ msgstr "จากนี้ไปคุณอาจต้องการ:"
 #: code:addons/account_accountant/static/src/js/tours/account_accountant.js:0
 #, python-format
 msgid "Get back to the dashboard using your previous path…"
-msgstr ""
+msgstr "กลับไปที่แดชบอร์ดโดยใช้เส้นทางก่อนหน้าของคุณ..."
 
 #. module: account_accountant
 #. openerp-web
@@ -546,7 +562,7 @@ msgstr "ไปยังรายการเดินบัญชีของธ
 #: code:addons/account_accountant/static/src/js/tours/account_accountant.js:0
 #, python-format
 msgid "Go to invoicing"
-msgstr ""
+msgstr "ไปที่ใบแจ้งหนี้"
 
 #. module: account_accountant
 #. openerp-web
@@ -560,7 +576,7 @@ msgstr "เยี่ยม!"
 #: code:addons/account_accountant/static/src/js/tours/account_accountant.js:0
 #, python-format
 msgid "Great! Let’s continue."
-msgstr ""
+msgstr "ยอดเยี่ยม! มาดำเนินการกันต่อ"
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date__id
@@ -582,7 +598,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_accountant.field_res_company__invoicing_switch_threshold
 #: model:ir.model.fields,field_description:account_accountant.field_res_config_settings__invoicing_switch_threshold
 msgid "Invoicing Switch Threshold"
-msgstr ""
+msgstr "เกณฑ์การเปลี่ยนใบแจ้งหนี้"
 
 #. module: account_accountant
 #: code:addons/account_accountant/models/reconciliation_widget.py:0
@@ -608,7 +624,7 @@ msgstr "สมุดรายวัน"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date__period_lock_date
 msgid "Journal Entries Lock Date"
-msgstr ""
+msgstr "วันที่ล็อครายการสมุดรายวัน"
 
 #. module: account_accountant
 #: model:ir.model,name:account_accountant.model_account_move
@@ -637,7 +653,7 @@ msgstr "รายการสมุดบัญชีรายวัน"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_digest_digest__kpi_account_bank_cash_value
 msgid "Kpi Account Bank Cash Value"
-msgstr ""
+msgstr "มูลค่าเงินสดของธนาคารในบัญชี Kpi"
 
 #. module: account_accountant
 #. openerp-web
@@ -651,7 +667,7 @@ msgstr "ป้ายกำกับ"
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
 msgid "Last Day"
-msgstr ""
+msgstr "วันสุดท้าย"
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date____last_update
@@ -684,6 +700,8 @@ msgstr "อัพเดทครั้งสุดท้ายเมื่อ"
 #, python-format
 msgid "Let’s automate your bills, bank transactions and accounting processes."
 msgstr ""
+"มาทำให้ใบเรียกเก็บเงิน ธุรกรรมธนาคาร "
+"และขั้นตอนทางบัญชีของคุณเป็นอัตโนมัติไปด้วยกัน"
 
 #. module: account_accountant
 #. openerp-web
@@ -697,14 +715,14 @@ msgstr "กลับไปที่แดชบอร์ดกันเถอะ
 #: code:addons/account_accountant/static/src/js/tours/account_accountant.js:0
 #, python-format
 msgid "Let’s reconcile the fetched bank transactions."
-msgstr ""
+msgstr "มากระทบยอดธุรกรรมธนาคารที่ถูกดึงไปด้วยกัน"
 
 #. module: account_accountant
 #. openerp-web
 #: code:addons/account_accountant/static/src/js/tours/account_accountant.js:0
 #, python-format
 msgid "Let’s see how a bill looks like in form view."
-msgstr ""
+msgstr "มาดูกันว่าใบเรียกเก็บเงินจะมีหน้าตาอย่างไรในมุมมองแบบฟอร์ม"
 
 #. module: account_accountant
 #. openerp-web
@@ -714,6 +732,8 @@ msgid ""
 "Let’s use AI to fill in the form<br/><br/><i>Tip: If the OCR is not done "
 "yet, wait a few more seconds and try again.</i>"
 msgstr ""
+"มาใช้ AI เพื่อกรอกแบบฟอร์มกันดีกว่า<br/><br/><i>เคล็ดลับ: หาก OCR "
+"ยังไม่เสร็จสิ้น ให้รอสักครู่แล้วลองอีกครั้ง</i>"
 
 #. module: account_accountant
 #. openerp-web
@@ -725,7 +745,7 @@ msgstr "โหลดเพิ่ม... ("
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_res_config_settings__fiscalyear_lock_date
 msgid "Lock Date for All Users"
-msgstr ""
+msgstr "ล็อควันที่สำหรับผู้ใช้ทั้งหมด"
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_res_config_settings__period_lock_date
@@ -735,12 +755,12 @@ msgstr "วันที่"
 #. module: account_accountant
 #: model:ir.ui.menu,name:account_accountant.menu_action_change_lock_date
 msgid "Lock Dates"
-msgstr ""
+msgstr "ล็อควันที่"
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
 msgid "Management Closing"
-msgstr ""
+msgstr "ปิดการจัดการ"
 
 #. module: account_accountant
 #. openerp-web
@@ -783,7 +803,7 @@ msgstr "โมเดล"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_move_line__move_attachment_ids
 msgid "Move Attachment"
-msgstr ""
+msgstr "ย้ายสิ่งที่แนบมา"
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_fiscal_year__name
@@ -802,7 +822,7 @@ msgstr "ใหม่"
 #: code:addons/account_accountant/static/src/js/move_line_list_view.js:0
 #, python-format
 msgid "No attachments linked."
-msgstr ""
+msgstr "ไม่มีไฟล์แนบที่เชื่อมโยง"
 
 #. module: account_accountant
 #: model:ir.model.fields,help:account_accountant.field_res_config_settings__tax_lock_date
@@ -840,6 +860,7 @@ msgstr "ที่จะทำ"
 #, python-format
 msgid "Only Billing Administrators are allowed to change lock dates!"
 msgstr ""
+"เฉพาะผู้ดูแลระบบการเรียกเก็บเงินเท่านั้นที่ได้รับอนุญาตให้เปลี่ยนวันที่ล็อค!"
 
 #. module: account_accountant
 #: model:ir.model.fields,help:account_accountant.field_res_config_settings__period_lock_date
@@ -883,7 +904,7 @@ msgstr "การจับคู่การชําระเงิน"
 #: model:ir.model.fields,field_description:account_accountant.field_account_move__payment_state_before_switch
 #: model:ir.model.fields,field_description:account_accountant.field_account_payment__payment_state_before_switch
 msgid "Payment State Before Switch"
-msgstr ""
+msgstr "สถานะการชำระเงินก่อนเปลี่ยน"
 
 #. module: account_accountant
 #: model:ir.model,name:account_accountant.model_account_payment
@@ -904,7 +925,7 @@ msgstr "Payments without a customer can't be matched"
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
 msgid "Pick a date to lock"
-msgstr ""
+msgstr "เลือกวันที่ที่จะล็อค"
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
@@ -945,7 +966,7 @@ msgstr ""
 #: code:addons/account_accountant/static/src/js/tours/account_accountant.js:0
 #, python-format
 msgid "Process this transaction."
-msgstr ""
+msgstr "ประมวลผลธุรกรรมนี้"
 
 #. module: account_accountant
 #. openerp-web
@@ -975,7 +996,7 @@ msgstr "รายการกระทบยอดใบแจ้งยอดจ
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
 msgid "Record cost of goods sold in your journal entries"
-msgstr ""
+msgstr "บันทึกต้นทุนสินค้าที่ขายในรายการสมุดรายวันของคุณ"
 
 #. module: account_accountant
 #. openerp-web
@@ -1063,7 +1084,7 @@ msgstr "Tax Lock Date"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date__tax_lock_date
 msgid "Tax Return Lock Date"
-msgstr ""
+msgstr "ล็อกวันคืนภาษี"
 
 #. module: account_accountant
 #. openerp-web
@@ -1108,7 +1129,7 @@ msgstr "The ending date must not be prior to the starting date."
 msgid ""
 "The invoices up to this date will not be taken into account as accounting "
 "entries"
-msgstr ""
+msgstr "ใบแจ้งหนี้ที่ถึงวันนี้จะไม่ถูกนำมาพิจารณาเป็นรายการทางบัญชี"
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
@@ -1152,12 +1173,12 @@ msgstr ""
 #. module: account_accountant
 #: model:digest.tip,name:account_accountant.digest_tip_account_accountant_0
 msgid "Tip: Bulk update journal items"
-msgstr ""
+msgstr "เคล็ดลับ: อัปเดตรายการสมุดรายวันจำนวนมาก"
 
 #. module: account_accountant
 #: model:digest.tip,name:account_accountant.digest_tip_account_accountant_1
 msgid "Tip: Find an Accountant or register your Accounting Firm"
-msgstr ""
+msgstr "เคล็ดลับ: ค้นหานักบัญชี หรือ ลงทะเบียนสำนักงานบัญชีของคุณ"
 
 #. module: account_accountant
 #. openerp-web

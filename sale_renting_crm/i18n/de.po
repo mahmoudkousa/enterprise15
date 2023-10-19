@@ -3,8 +3,9 @@
 # 	* sale_renting_crm
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
+# Larissa Manderfeld, 2023
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 11:18+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Martin Trigaux, 2023\n"
+"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -23,7 +24,7 @@ msgstr ""
 #. module: sale_renting_crm
 #: model_terms:ir.ui.view,arch_db:sale_renting_crm.crm_case_form_view_oppor
 msgid "<span class=\"o_stat_text\"> Rental Orders</span>"
-msgstr "<span class=\"o_stat_text\">Mietaufträge</span>"
+msgstr "<span class=\"o_stat_text\"> Mietaufträge</span>"
 
 #. module: sale_renting_crm
 #: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead_rental__lead_id
@@ -93,7 +94,7 @@ msgstr "Zuletzt geändert am"
 #. module: sale_renting_crm
 #: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead_rental__write_uid
 msgid "Last Updated by"
-msgstr "Zuletzt aktualisiert durch"
+msgstr "Zuletzt aktualisiert von"
 
 #. module: sale_renting_crm
 #: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead_rental__write_date
@@ -103,12 +104,12 @@ msgstr "Zuletzt aktualisiert am"
 #. module: sale_renting_crm
 #: model:ir.model,name:sale_renting_crm.model_crm_lead
 msgid "Lead/Opportunity"
-msgstr "Interessent / Chance"
+msgstr "Lead/Verkaufschance"
 
 #. module: sale_renting_crm
 #: model:ir.model.fields.selection,name:sale_renting_crm.selection__crm_lead_rental__action__exist
 msgid "Link to an existing customer"
-msgstr "Verknüpfe mit Bestandskunde"
+msgstr "Mit bestehendem Kunden verknüpfen"
 
 #. module: sale_renting_crm
 #: model:ir.actions.act_window,name:sale_renting_crm.crm_lead_to_rental_action
@@ -130,12 +131,12 @@ msgstr "Anzahl der Mietangebote"
 #. module: sale_renting_crm
 #: model:ir.model.fields,field_description:sale_renting_crm.field_sale_order__opportunity_id
 msgid "Opportunity"
-msgstr "Chance"
+msgstr "Verkaufschance"
 
 #. module: sale_renting_crm
 #: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead_rental__action
 msgid "Rental Customer"
-msgstr ""
+msgstr "Mietkunde"
 
 #. module: sale_renting_crm
 #: code:addons/sale_renting_crm/models/crm_lead.py:0
@@ -162,7 +163,7 @@ msgstr "Summe der Mietaufträge"
 #. module: sale_renting_crm
 #: model:ir.model.fields,help:sale_renting_crm.field_crm_lead__rental_amount_total
 msgid "Untaxed Total of Confirmed Orders"
-msgstr "Unversteuerter Gesamtbetrag der bestätigten Aufträge"
+msgstr "Gesamter Nettobetrag der bestätigten Aufträge"
 
 #. module: sale_renting_crm
 #: code:addons/sale_renting_crm/wizard/crm_lead_rental.py:0

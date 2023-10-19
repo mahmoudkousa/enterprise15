@@ -5,7 +5,6 @@
 # Translators:
 # Martin Trigaux, 2021
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2021
-# Lucia Pacheco, 2021
 # Braulio D. López Vázquez <bdl@odoo.com>, 2022
 # Fernanda Alvarez, 2023
 # 
@@ -33,7 +32,7 @@ msgstr "%s Metas"
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 #, python-format
 msgid "1 Meeting"
-msgstr "1 Junta"
+msgstr "1 reunión"
 
 #. module: hr_appraisal
 #: model:ir.model.fields.selection,name:hr_appraisal.selection__hr_appraisal_goal__progression__100
@@ -313,7 +312,7 @@ msgstr ""
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_kanban
 msgid "<strong><span>Meeting: </span></strong>"
-msgstr "<strong><span>Junta: </span></strong>"
+msgstr "<strong><span>Reunión: </span></strong>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_report_view_gantt
@@ -405,7 +404,7 @@ msgstr "Nota de la evaluación"
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_employee__appraisal_child_ids
 msgid "Appraisal Child"
-msgstr "Evaluación hija"
+msgstr "Evaluación secundaria"
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_company__appraisal_confirm_mail_template
@@ -565,12 +564,12 @@ msgstr "Autor del mensaje"
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_company__appraisal_plan
 #: model:ir.model.fields,field_description:hr_appraisal.field_res_config_settings__appraisal_plan
 msgid "Automatically Generate Appraisals"
-msgstr "Generar evaluaciones automáticamente"
+msgstr "Generar valoración de forma automática"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.res_config_settings_view_employee_form
 msgid "Automatically generate appraisals"
-msgstr "Generar evaluaciones automáticamente "
+msgstr "Generar valoración de forma automática"
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__avatar_1920
@@ -743,8 +742,8 @@ msgid ""
 "Date of the appraisal, automatically updated when the appraisal is Done or "
 "Cancelled."
 msgstr ""
-"Fecha de la evaluación, se actualiza automáticamente cuando se cancela o se "
-"lleva a cabo la evaluación."
+"Fecha de la evaluación, se actualiza de forma automática cuando se cancela o"
+" se lleva a cabo la evaluación."
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__deadline
@@ -930,8 +929,8 @@ msgid ""
 "Final placeholder expression, to be copy-pasted in the desired template "
 "field."
 msgstr ""
-"Expresión de campos final, a ser copiada y pegada en el campo de la "
-"plantilla deseado."
+"Expresión final del marcador de posición, para copiar y pegar en el campo "
+"deseado de la plantilla."
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__message_follower_ids
@@ -943,13 +942,13 @@ msgstr "Seguidores"
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__message_partner_ids
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Seguidores (partners)"
+msgstr "Seguidores (contactos)"
 
 #. module: hr_appraisal
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal__activity_type_icon
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal_goal__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr "Icono de Font Awesome ej. fa-tasks"
+msgstr "Icono de Font Awesome, por ejemplo, fa-tasks"
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_request_appraisal__email_from
@@ -1001,7 +1000,7 @@ msgstr "Evaluación de RR. HH.: solicitar una evaluación del empleado"
 #. module: hr_appraisal
 #: model:mail.template,name:hr_appraisal.mail_template_appraisal_request
 msgid "Hr Appraisal: Request an Appraisal from Manager"
-msgstr "Evaluación de RR. HH.: solicitar una valoración del gerente"
+msgstr "Evaluación de RR. HH.: solicitar una evaluación del gerente"
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__id
@@ -1037,7 +1036,8 @@ msgstr ""
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal__message_has_error
 #: model:ir.model.fields,help:hr_appraisal.field_hr_appraisal_goal__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Si se encuentra seleccionado, algunos mensajes tienen error de envío."
+msgstr ""
+"Si se encuentra seleccionado, algunos mensajes presentan un error de envío."
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__image_1920
@@ -1267,7 +1267,7 @@ msgstr "Necesita mejorar"
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__activity_calendar_event_id
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_goal__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr "Siguiente evento en el calendario de actividades."
+msgstr "Siguiente evento en el calendario de actividades"
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__activity_date_deadline
@@ -1352,8 +1352,8 @@ msgstr ""
 "Idioma de traducción opcional (código ISO) a seleccionar para el envío de "
 "correos electrónicos. Si no se selecciona esta opción, se utilizará la "
 "versión en inglés. Por lo general, se usa una expresión de marcador de "
-"posición para indicar el idioma adecuado, por ejemplo, "
-"${object.partner_id.lang}."
+"posición para indicar el idioma adecuado, por ejemplo, {{ "
+"object.partner_id.lang }}."
 
 #. module: hr_appraisal
 #: model:ir.model.fields,help:hr_appraisal.field_request_appraisal__null_value
@@ -1365,7 +1365,7 @@ msgstr "Valor opcional a usar si el campo objetivo está vacío"
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_employee_base__parent_user_id
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_employee_public__parent_user_id
 msgid "Parent User"
-msgstr "Usuario padre"
+msgstr "Usuario principal"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_goal_view_search
@@ -1546,9 +1546,9 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Estado basado en actividades\n"
-"Vencida: la fecha límite ya pasó\n"
-"Hoy: la fecha límite es hoy\n"
+"Estado según las actividades\n"
+"Vencida: ya pasó la fecha límite\n"
+"Hoy: hoy es la fecha de la actividad\n"
 "Planeada: futuras actividades."
 
 #. module: hr_appraisal
@@ -1613,7 +1613,7 @@ msgid ""
 "(first appraisal + periodicity)."
 msgstr ""
 "La fecha de la siguiente evaluación se calcula de acuerdo a las fechas del "
-"plan de evaluación (primera evaluación + periodicidad)."
+"plan de valoraciones (primera valoración + periodicidad)."
 
 #. module: hr_appraisal
 #: model:ir.model.constraint,message:hr_appraisal.constraint_res_company_positif_number_months
@@ -1744,7 +1744,7 @@ msgid ""
 "document model the relationship goes to."
 msgstr ""
 "Cuando un campo de relación se selecciona como primer campo, este campo "
-"muestra el modelo de documento al que apunta la relación."
+"muestra el modelo de documento al que va dirigido."
 
 #. module: hr_appraisal
 #: code:addons/hr_appraisal/models/res_company.py:0
@@ -1753,15 +1753,15 @@ msgid ""
 "You arrived %s months ago. Your appraisal is created you can assess yourself"
 " here. Your manager will determinate the date for your '1to1' meeting."
 msgstr ""
-"Llegó hace %s meses. Su evaluación se creó y puede evaluarse a sí mismo "
-"aquí. Su gerente determinará la fecha de su reunión 1 a 1."
+"Lleva %s meses en este trabajo. Puede ver y realizar su evaluación aquí, su "
+"gerente le avisará qué día podrán tener su reunión 1 a 1."
 
 #. module: hr_appraisal
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 #, python-format
 msgid "You cannot delete appraisal which is not in draft or canceled state"
 msgstr ""
-"No puede eliminar una evaluación que no está en el estado de borrador o "
+"No puede eliminar una evaluación que no está en estado de borrador o "
 "cancelada."
 
 #. module: hr_appraisal
@@ -1784,9 +1784,8 @@ msgid ""
 "assess yourself here. Your manager will determinate the date for your '1to1'"
 " meeting."
 msgstr ""
-"Su última evaluación fue hace %s meses. Su evaluación se creó y puede "
-"evaluarse a sí mismo aquí. Su gerente determinará la fecha para su reunión 1"
-" a 1."
+"Su última evaluación fue hace %s meses. Puede ver y realizar su evaluación "
+"aquí, su gerente le avisará qué día podrán tener su reunión 1 a 1."
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_form

@@ -55,6 +55,8 @@ msgid ""
 "A set of condition and actions which will be available to all attachments "
 "matching the conditions"
 msgstr ""
+"Rangkaian ketentuan dan tindakan yang akan tersedia untuk semua lampiran "
+"yang cocok dengan ketentuan"
 
 #. module: documents_account
 #: model:ir.model.constraint,message:documents_account.constraint_documents_account_folder_setting_journal_unique
@@ -366,7 +368,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:documents_account.field_documents_account_folder_setting__folder_id
 #: model_terms:ir.ui.view,arch_db:documents_account.res_config_settings_view_form
 msgid "Workspace"
-msgstr ""
+msgstr "Ruang Kerja"
 
 #. module: documents_account
 #. openerp-web

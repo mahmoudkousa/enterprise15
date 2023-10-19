@@ -107,7 +107,7 @@ msgstr "マーケティングキャンペーン"
 #. module: marketing_automation_sms
 #: model:ir.model,name:marketing_automation_sms.model_marketing_trace
 msgid "Marketing Trace"
-msgstr ""
+msgstr "マーケティングトレース"
 
 #. module: marketing_automation_sms
 #: model:ir.model,name:marketing_automation_sms.model_mailing_mailing
@@ -148,7 +148,7 @@ msgstr ""
 #. module: marketing_automation_sms
 #: model_terms:ir.ui.view,arch_db:marketing_automation_sms.marketing_campaign_view_form
 msgid "SMS Sent"
-msgstr ""
+msgstr "SMS送信済"
 
 #. module: marketing_automation_sms
 #: model_terms:ir.ui.view,arch_db:marketing_automation_sms.marketing_activity_view_form
@@ -204,12 +204,12 @@ msgstr ""
 msgid ""
 "To use this feature you should be an administrator or belong to the "
 "marketing automation group."
-msgstr ""
+msgstr "この機能を使用するには、管理者であるか、マーケティング自動化グループに所属している必要があります。"
 
 #. module: marketing_automation_sms
 #: model:ir.model.fields,field_description:marketing_automation_sms.field_marketing_activity__trigger_category
 msgid "Trigger Category"
-msgstr ""
+msgstr "トリガカテゴリ"
 
 #. module: marketing_automation_sms
 #: model:ir.model.fields,field_description:marketing_automation_sms.field_marketing_activity__trigger_type

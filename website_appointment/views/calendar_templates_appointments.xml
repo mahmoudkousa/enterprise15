@@ -60,7 +60,7 @@
                     <span class="navbar-brand h4 my-0 mr-auto">Appointments</span>
                     <div class="d-flex flex-wrap pl-sm-3 pr-0">
                         <t t-call="website_appointment.appointments_search_box">
-                            <t t-set="_placeholder"><t t-out="'Search an appointment...'"/></t>
+                            <t t-set="_placeholder"><t t-out="None">Search...</t></t>
                         </t>
                     </div>
                 </div>

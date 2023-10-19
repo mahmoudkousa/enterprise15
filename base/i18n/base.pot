@@ -13143,6 +13143,15 @@ msgid "Error message returned when the constraint is violated."
 msgstr ""
 
 #. module: base
+#: code:addons/translate.py:0
+#, python-format
+msgid ""
+"Error while parsing view:\n"
+"\n"
+"%s"
+msgstr ""
+
+#. module: base
 #: code:addons/base/models/ir_ui_view.py:0
 #, python-format
 msgid ""
@@ -16239,6 +16248,12 @@ msgstr ""
 #: code:addons/base/models/res_users.py:0
 #, python-format
 msgid "Invalid 'group by' parameter"
+msgstr ""
+
+#. module: base
+#: code:addons/template_inheritance.py:0
+#, python-format
+msgid "Invalid Expression while parsing xpath %r"
 msgstr ""
 
 #. module: base
@@ -28246,6 +28261,12 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: code:addons/base/models/ir_config_parameter.py:0
+#, python-format
+msgid "You cannot delete the %s record."
+msgstr ""
+
+#. module: base
 #: code:addons/base/models/res_lang.py:0
 #, python-format
 msgid ""
@@ -28270,6 +28291,12 @@ msgstr ""
 msgid ""
 "You cannot reduce the number of decimal places of a currency already used on"
 " an accounting entry."
+msgstr ""
+
+#. module: base
+#: code:addons/base/models/ir_config_parameter.py:0
+#, python-format
+msgid "You cannot rename config parameters with keys %s"
 msgstr ""
 
 #. module: base

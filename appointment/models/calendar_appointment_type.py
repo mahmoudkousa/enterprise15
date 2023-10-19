@@ -626,3 +626,22 @@ class CalendarAppointmentType(models.Model):
             and ((slot['slot'].sudo().slot_type == 'recurring' and self_sudo.appointment_duration == duration) or
                  (slot['slot'].sudo().slot_type == 'unique' and slot['slot'].sudo().duration == duration))
         ])
+
+    @api.model
+    def _get_clean_appointment_context(self):
+        whitelist_default_fields = list(map(
+            lambda field: f'default_{field}',
+            self._get_calendar_view_appointment_type_default_context_fields_whitelist()))
+        return {
+            key: value for key, value in self.env.context.items()
+            if key in whitelist_default_fields or not key.startswith('default_')
+        }
+
+    @api.model
+    def _get_calendar_view_appointment_type_default_context_fields_whitelist(self):
+        """ White list of fields that can be defaulted in the context of the
+        calendar routes creating appointment types.
+        This is mainly used in /appointment/calendar_appointment_type/create_custom.
+        This list of fields can be updated the fields in other sub-modules.
+        """
+        return []

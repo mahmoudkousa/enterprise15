@@ -26,7 +26,7 @@
         <field name="name">Passivseite</field>
         <field name="code">SKR_BS_LIABILITIES_TOTAL</field>
         <field name="financial_report_id" ref="balance_sheet_l10n_de"/>
-        <field name="formulas">SKR_BS_LIABILITIES_A + SKR_BS_LIABILITIES_B + SKR_BS_LIABILITIES_C + SKR_BS_LIABILITIES_D + SKR_BS_LIABILITIES_E + SKR_BS_LIABILITIES_F</field>
+        <field name="formulas">SKR_BS_LIABILITIES_A + SKR_BS_LIABILITIES_B + SKR_BS_LIABILITIES_C + SKR_BS_LIABILITIES_D + SKR_BS_LIABILITIES_E</field>
         <field name="sequence" eval="2"/>
         <field name="level" eval="0" />
     </record>
@@ -416,49 +416,39 @@
         <field name="level" eval="1" />
     </record>
     <record id="skr_bs_liabilities_b" model="account.financial.html.report.line">
-        <field name="name">B. Sonderposten mit Rücklageanteil</field>
+        <field name="name">B. Rückstellungen</field>
         <field name="code">SKR_BS_LIABILITIES_B</field>
-        <field name="formulas">-sum</field>
+        <field name="formulas">SKR_BS_LIABILITIES_B1 + SKR_BS_LIABILITIES_B2 + SKR_BS_LIABILITIES_B3</field>
         <field name="parent_id" ref='skr_liabilities_total'/>
-        <field name="domain" eval="[('account_id.tag_ids', 'in', [ref('l10n_de.tag_de_liabilities_bs_B')])]"/>
-        <field name="groupby">account_id</field>
         <field name="sequence" eval="2"/>
         <field name="level" eval="1" />
     </record>
     <record id="skr_bs_liabilities_c" model="account.financial.html.report.line">
-        <field name="name">C. Rückstellungen</field>
+        <field name="name">C. Verbindlichkeiten</field>
         <field name="code">SKR_BS_LIABILITIES_C</field>
-        <field name="formulas">SKR_BS_LIABILITIES_C1 + SKR_BS_LIABILITIES_C2 + SKR_BS_LIABILITIES_C3</field>
+        <field name="formulas">SKR_BS_LIABILITIES_C1 + SKR_BS_LIABILITIES_C2 + SKR_BS_LIABILITIES_C3 + SKR_BS_LIABILITIES_C4 + SKR_BS_LIABILITIES_C5 + SKR_BS_LIABILITIES_C6 + SKR_BS_LIABILITIES_C7 + SKR_BS_LIABILITIES_C8</field>
         <field name="parent_id" ref='skr_liabilities_total'/>
         <field name="sequence" eval="3"/>
         <field name="level" eval="1" />
     </record>
     <record id="skr_bs_liabilities_d" model="account.financial.html.report.line">
-        <field name="name">D. Verbindlichkeiten</field>
+        <field name="name">D. Rechnungsabgrenzungsposten</field>
         <field name="code">SKR_BS_LIABILITIES_D</field>
-        <field name="formulas">SKR_BS_LIABILITIES_D1 + SKR_BS_LIABILITIES_D2 + SKR_BS_LIABILITIES_D3 + SKR_BS_LIABILITIES_D4 + SKR_BS_LIABILITIES_D5 + SKR_BS_LIABILITIES_D6 + SKR_BS_LIABILITIES_D7 + SKR_BS_LIABILITIES_D8</field>
+        <field name="formulas">-sum</field>
         <field name="parent_id" ref='skr_liabilities_total'/>
+        <field name="domain" eval="[('account_id.tag_ids', 'in', [ref('l10n_de.tag_de_liabilities_bs_D')])]"/>
+        <field name="groupby">account_id</field>
         <field name="sequence" eval="4"/>
         <field name="level" eval="1" />
     </record>
     <record id="skr_bs_liabilities_e" model="account.financial.html.report.line">
-        <field name="name">E. Rechnungsabgrenzungsposten</field>
+        <field name="name">E. Passive latente Steuern</field>
         <field name="code">SKR_BS_LIABILITIES_E</field>
         <field name="formulas">-sum</field>
         <field name="parent_id" ref='skr_liabilities_total'/>
         <field name="domain" eval="[('account_id.tag_ids', 'in', [ref('l10n_de.tag_de_liabilities_bs_E')])]"/>
         <field name="groupby">account_id</field>
         <field name="sequence" eval="5"/>
-        <field name="level" eval="1" />
-    </record>
-    <record id="skr_bs_liabilities_f" model="account.financial.html.report.line">
-        <field name="name">F. Passive latente Steuern</field>
-        <field name="code">SKR_BS_LIABILITIES_F</field>
-        <field name="formulas">-sum</field>
-        <field name="parent_id" ref='skr_liabilities_total'/>
-        <field name="domain" eval="[('account_id.tag_ids', 'in', [ref('l10n_de.tag_de_liabilities_bs_F')])]"/>
-        <field name="groupby">account_id</field>
-        <field name="sequence" eval="6"/>
         <field name="level" eval="1" />
     </record>
 
@@ -560,9 +550,41 @@
         <field name="level" eval="3" />
     </record>
 
+    <!-- Liabilities B sublevel -->
+    <record id="skr_bs_liabilities_b_1" model="account.financial.html.report.line">
+        <field name="name">1. Rückstellungen für Pensionen und ähnliche Verpflichtungen</field>
+        <field name="code">SKR_BS_LIABILITIES_B1</field>
+        <field name="formulas">-sum</field>
+        <field name="parent_id" ref='skr_bs_liabilities_b'/>
+        <field name="domain" eval="[('account_id.tag_ids', 'in', [ref('l10n_de.tag_de_liabilities_bs_B_1')])]"/>
+        <field name="groupby">account_id</field>
+        <field name="sequence" eval="1"/>
+        <field name="level" eval="2" />
+    </record>
+    <record id="skr_bs_liabilities_b_2" model="account.financial.html.report.line">
+        <field name="name">2. Steuerrückstellungen</field>
+        <field name="code">SKR_BS_LIABILITIES_B2</field>
+        <field name="formulas">-sum</field>
+        <field name="parent_id" ref='skr_bs_liabilities_b'/>
+        <field name="domain" eval="[('account_id.tag_ids', 'in', [ref('l10n_de.tag_de_liabilities_bs_B_2')])]"/>
+        <field name="groupby">account_id</field>
+        <field name="sequence" eval="2"/>
+        <field name="level" eval="2" />
+    </record>
+    <record id="skr_bs_liabilities_b_3" model="account.financial.html.report.line">
+        <field name="name">3. Sonstige Rückstellungen</field>
+        <field name="code">SKR_BS_LIABILITIES_B3</field>
+        <field name="formulas">-sum</field>
+        <field name="parent_id" ref='skr_bs_liabilities_b'/>
+        <field name="domain" eval="[('account_id.tag_ids', 'in', [ref('l10n_de.tag_de_liabilities_bs_B_3')])]"/>
+        <field name="groupby">account_id</field>
+        <field name="sequence" eval="3"/>
+        <field name="level" eval="2" />
+    </record>
+
     <!-- Liabilities C sublevel -->
     <record id="skr_bs_liabilities_c_1" model="account.financial.html.report.line">
-        <field name="name">1. Rückstellungen für Pensionen und ähnliche Verpflichtungen</field>
+        <field name="name">1. Anleihen, davon konvertibeln</field>
         <field name="code">SKR_BS_LIABILITIES_C1</field>
         <field name="formulas">-sum</field>
         <field name="parent_id" ref='skr_bs_liabilities_c'/>
@@ -572,7 +594,7 @@
         <field name="level" eval="2" />
     </record>
     <record id="skr_bs_liabilities_c_2" model="account.financial.html.report.line">
-        <field name="name">2. Steuerrückstellungen</field>
+        <field name="name">2. Verbindlichkeiten gegenüber Kreditinstituten</field>
         <field name="code">SKR_BS_LIABILITIES_C2</field>
         <field name="formulas">-sum</field>
         <field name="parent_id" ref='skr_bs_liabilities_c'/>
@@ -582,7 +604,7 @@
         <field name="level" eval="2" />
     </record>
     <record id="skr_bs_liabilities_c_3" model="account.financial.html.report.line">
-        <field name="name">3. Sonstige Rückstellungen</field>
+        <field name="name">3. Erhaltene Anzahlungen auf Bestellungen</field>
         <field name="code">SKR_BS_LIABILITIES_C3</field>
         <field name="formulas">-sum</field>
         <field name="parent_id" ref='skr_bs_liabilities_c'/>
@@ -591,84 +613,52 @@
         <field name="sequence" eval="3"/>
         <field name="level" eval="2" />
     </record>
-
-    <!-- Liabilities D sublevel -->
-    <record id="skr_bs_liabilities_d_1" model="account.financial.html.report.line">
-        <field name="name">1. Anleihen, davon konvertibeln</field>
-        <field name="code">SKR_BS_LIABILITIES_D1</field>
-        <field name="formulas">-sum</field>
-        <field name="parent_id" ref='skr_bs_liabilities_d'/>
-        <field name="domain" eval="[('account_id.tag_ids', 'in', [ref('l10n_de.tag_de_liabilities_bs_D_1')])]"/>
-        <field name="groupby">account_id</field>
-        <field name="sequence" eval="1"/>
-        <field name="level" eval="2" />
-    </record>
-    <record id="skr_bs_liabilities_d_2" model="account.financial.html.report.line">
-        <field name="name">2. Verbindlichkeiten gegenüber Kreditinstituten</field>
-        <field name="code">SKR_BS_LIABILITIES_D2</field>
-        <field name="formulas">-sum</field>
-        <field name="parent_id" ref='skr_bs_liabilities_d'/>
-        <field name="domain" eval="[('account_id.tag_ids', 'in', [ref('l10n_de.tag_de_liabilities_bs_D_2')])]"/>
-        <field name="groupby">account_id</field>
-        <field name="sequence" eval="2"/>
-        <field name="level" eval="2" />
-    </record>
-    <record id="skr_bs_liabilities_d_3" model="account.financial.html.report.line">
-        <field name="name">3. Erhaltene Anzahlungen auf Bestellungen</field>
-        <field name="code">SKR_BS_LIABILITIES_D3</field>
-        <field name="formulas">-sum</field>
-        <field name="parent_id" ref='skr_bs_liabilities_d'/>
-        <field name="domain" eval="[('account_id.tag_ids', 'in', [ref('l10n_de.tag_de_liabilities_bs_D_3')])]"/>
-        <field name="groupby">account_id</field>
-        <field name="sequence" eval="3"/>
-        <field name="level" eval="2" />
-    </record>
-    <record id="skr_bs_liabilities_d_4" model="account.financial.html.report.line">
+    <record id="skr_bs_liabilities_c_4" model="account.financial.html.report.line">
         <field name="name">4. Verbindlichkeiten aus Lieferungen und Leistungen</field>
-        <field name="code">SKR_BS_LIABILITIES_D4</field>
+        <field name="code">SKR_BS_LIABILITIES_C4</field>
         <field name="formulas">-sum</field>
-        <field name="parent_id" ref='skr_bs_liabilities_d'/>
-        <field name="domain" eval="[('account_id.tag_ids', 'in', [ref('l10n_de.tag_de_liabilities_bs_D_4')])]"/>
+        <field name="parent_id" ref='skr_bs_liabilities_c'/>
+        <field name="domain" eval="[('account_id.tag_ids', 'in', [ref('l10n_de.tag_de_liabilities_bs_C_4')])]"/>
         <field name="groupby">account_id</field>
         <field name="sequence" eval="4"/>
         <field name="level" eval="2" />
     </record>
-    <record id="skr_bs_liabilities_d_5" model="account.financial.html.report.line">
+    <record id="skr_bs_liabilities_c_5" model="account.financial.html.report.line">
         <field name="name">5. Verbindlichkeiten aus der Annahme gezogener Wechsel und der Ausstellung eigener Wechsel</field>
-        <field name="code">SKR_BS_LIABILITIES_D5</field>
+        <field name="code">SKR_BS_LIABILITIES_C5</field>
         <field name="formulas">-sum</field>
-        <field name="parent_id" ref='skr_bs_liabilities_d'/>
-        <field name="domain" eval="[('account_id.tag_ids', 'in', [ref('l10n_de.tag_de_liabilities_bs_D_5')])]"/>
+        <field name="parent_id" ref='skr_bs_liabilities_c'/>
+        <field name="domain" eval="[('account_id.tag_ids', 'in', [ref('l10n_de.tag_de_liabilities_bs_C_5')])]"/>
         <field name="groupby">account_id</field>
         <field name="sequence" eval="5"/>
         <field name="level" eval="2" />
     </record>
-    <record id="skr_bs_liabilities_d_6" model="account.financial.html.report.line">
+    <record id="skr_bs_liabilities_c_6" model="account.financial.html.report.line">
         <field name="name">6. Verbindlichkeiten gegenüber verbundenen Unternehmen</field>
-        <field name="code">SKR_BS_LIABILITIES_D6</field>
+        <field name="code">SKR_BS_LIABILITIES_C6</field>
         <field name="formulas">-sum</field>
-        <field name="parent_id" ref='skr_bs_liabilities_d'/>
-        <field name="domain" eval="[('account_id.tag_ids', 'in', [ref('l10n_de.tag_de_liabilities_bs_D_6')])]"/>
+        <field name="parent_id" ref='skr_bs_liabilities_c'/>
+        <field name="domain" eval="[('account_id.tag_ids', 'in', [ref('l10n_de.tag_de_liabilities_bs_C_6')])]"/>
         <field name="groupby">account_id</field>
         <field name="sequence" eval="6"/>
         <field name="level" eval="2" />
     </record>
-    <record id="skr_bs_liabilities_d_7" model="account.financial.html.report.line">
+    <record id="skr_bs_liabilities_c_7" model="account.financial.html.report.line">
         <field name="name">7. Verbindlichkeiten gegenüber Unternehmen, mit denen ein Beteiligungsverhältnis besteht</field>
-        <field name="code">SKR_BS_LIABILITIES_D7</field>
+        <field name="code">SKR_BS_LIABILITIES_C7</field>
         <field name="formulas">-sum</field>
-        <field name="parent_id" ref='skr_bs_liabilities_d'/>
-        <field name="domain" eval="[('account_id.tag_ids', 'in', [ref('l10n_de.tag_de_liabilities_bs_D_7')])]"/>
+        <field name="parent_id" ref='skr_bs_liabilities_c'/>
+        <field name="domain" eval="[('account_id.tag_ids', 'in', [ref('l10n_de.tag_de_liabilities_bs_C_7')])]"/>
         <field name="groupby">account_id</field>
         <field name="sequence" eval="7"/>
         <field name="level" eval="2" />
     </record>
-    <record id="skr_bs_liabilities_d_8" model="account.financial.html.report.line">
+    <record id="skr_bs_liabilities_c_8" model="account.financial.html.report.line">
         <field name="name">8. Sonstige Verbindlichkeiten, davon aus Steuern, davon im Rahmen der sozialen Sicherheit</field>
-        <field name="code">SKR_BS_LIABILITIES_D8</field>
+        <field name="code">SKR_BS_LIABILITIES_C8</field>
         <field name="formulas">-sum</field>
-        <field name="parent_id" ref='skr_bs_liabilities_d'/>
-        <field name="domain" eval="[('account_id.tag_ids', 'in', [ref('l10n_de.tag_de_liabilities_bs_D_8')])]"/>
+        <field name="parent_id" ref='skr_bs_liabilities_c'/>
+        <field name="domain" eval="[('account_id.tag_ids', 'in', [ref('l10n_de.tag_de_liabilities_bs_C_8')])]"/>
         <field name="groupby">account_id</field>
         <field name="sequence" eval="8"/>
         <field name="level" eval="2" />

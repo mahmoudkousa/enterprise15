@@ -107,7 +107,7 @@ msgstr "Mapa"
 #: code:addons/web_map/static/src/js/map_model.js:0
 #, python-format
 msgid "MapBox servers unreachable"
-msgstr "No se puede acceder a los servidores de MapBox"
+msgstr "No se puede acceder a los servidores de Mapbox"
 
 #. module: web_map
 #. openerp-web
@@ -124,7 +124,7 @@ msgstr "Necesario para algunas funciones en la vista del mapa"
 #. module: web_map
 #: model_terms:ir.ui.view,arch_db:web_map.res_config_settings_view_form
 msgid "Set a MapBox account to activate routes and style"
-msgstr "Configurar una cuenta de MapBox para activar las rutas y estilo"
+msgstr "Configurar una cuenta de Mapbox para activar las rutas y estilo"
 
 #. module: web_map
 #. openerp-web
@@ -144,7 +144,7 @@ msgstr "Algunos puntos de enrutamiento están demasiado separados"
 #: code:addons/web_map/models/res_config_settings.py:0
 #, python-format
 msgid "The MapBox server is unreachable"
-msgstr "No se puede acceder al servidor de MapBox"
+msgstr "No se puede acceder al servidor de Mapbox"
 
 #. module: web_map
 #: code:addons/web_map/models/res_config_settings.py:0

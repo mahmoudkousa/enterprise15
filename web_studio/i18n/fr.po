@@ -1652,7 +1652,7 @@ msgstr "Alias de messagerie"
 #. module: web_studio
 #: model:ir.model,name:web_studio.model_mail_template
 msgid "Email Templates"
-msgstr "Modèles d'emails"
+msgstr "Modèles d'email"
 
 #. module: web_studio
 #: model:ir.model,name:web_studio.model_mail_thread

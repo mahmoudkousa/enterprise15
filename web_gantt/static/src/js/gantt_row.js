@@ -210,7 +210,7 @@ var GanttRow = Widget.extend({
             });
         } else {
             // Sort pills according to start date
-            this.pills = _.sortBy(this.pills, 'startDate');
+            this.pills.sort((a, b) => a.startDate - b.startDate || a[this.state.dateStartField] - b[this.state.dateStartField]);
             this.pills[0].level = 0;
             var levels = [{
                 pills: [this.pills[0]],

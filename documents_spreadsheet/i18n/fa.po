@@ -4,26 +4,29 @@
 # 
 # Translators:
 # Maziar Niaki <maziarmn@gmail.com>, 2022
-# Mohsen Mohammadi <iammohsen.123@gmail.com>, 2022
-# Far Har <fhari1234@gmail.com>, 2022
+# F Hariri <fhari1234@gmail.com>, 2022
 # M.Hossein S.Farvashani <Farvashani@gmail.com>, 2022
 # Hamid Darabi, 2022
 # arya sadeghi <aryasadeghy@gmail.com>, 2022
 # Zahed Alfak <tamass4116@gmail.com>, 2022
 # Faraz Sadri Alamdari <ifarazir@gmail.com>, 2022
 # Martin Trigaux, 2022
-# Hamed Mohammadi <hamed@dehongi.com>, 2022
 # Mohammad Tahmasebi <hit.tah75@gmail.com>, 2022
-# Hanna Kheradroosta, 2022
+# Mostafa Barmshory <mostafa.barmshory@gmail.com>, 2023
+# Ali Reza Feizi Derakhshi, 2023
+# Mohsen Mohammadi <iammohsen.123@gmail.com>, 2023
+# Hamed Mohammadi <hamed@dehongi.com>, 2023
+# Hanna Kheradroosta, 2023
+# Yousef Shadmanesh <y.shadmanesh@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~14.5+e\n"
+"Project-Id-Version: Odoo Server 15.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-22 09:02+0000\n"
+"POT-Creation-Date: 2023-07-20 12:29+0000\n"
 "PO-Revision-Date: 2021-09-14 12:39+0000\n"
-"Last-Translator: Hanna Kheradroosta, 2022\n"
-"Language-Team: Persian (https://www.transifex.com/odoo/teams/41243/fa/)\n"
+"Last-Translator: Yousef Shadmanesh <y.shadmanesh@gmail.com>, 2023\n"
+"Language-Team: Persian (https://app.transifex.com/odoo/teams/41243/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -103,7 +106,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.res_config_settings_view_form_inherit_documents_spreadsheet
 msgid ""
 "<strong>Spreadsheets</strong>\n"
-"                            <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+"                            <span class=\"fa fa-lg fa-building-o ml-1\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
 msgstr ""
 
 #. module: documents_spreadsheet
@@ -179,6 +182,13 @@ msgstr ""
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
+msgid "ABOUT"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
 msgid "Absolute value of a number."
 msgstr ""
 
@@ -210,6 +220,13 @@ msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/actions/control_panel/collaborative_cross_tab_bus_warning.js:0
+#, python-format
+msgid "An issue occurred while auto-saving"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Angle from the X axis to a point (x,y), in radians."
@@ -228,6 +245,13 @@ msgstr ""
 #, python-format
 msgid "Annual yield of a security paying periodic interest."
 msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Anonymous"
+msgstr "ناشناس"
 
 #. module: documents_spreadsheet
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.save_spreadsheet_template_view_form
@@ -327,7 +351,7 @@ msgstr "بازگشت"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Background color"
-msgstr ""
+msgstr "رنگ پس‌زمینه"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -347,8 +371,16 @@ msgstr ""
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Bold"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Borders"
 msgstr ""
 
 #. module: documents_spreadsheet
@@ -378,6 +410,13 @@ msgstr ""
 #, python-format
 msgid "Cancel"
 msgstr "لغو"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Cannot dispatch commands in the finalize state"
+msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -427,13 +466,20 @@ msgstr "نمودار"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Chart type"
-msgstr ""
+msgstr "نوع نمودار"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Circular reference"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Clear Format"
 msgstr ""
 
 #. module: documents_spreadsheet
@@ -816,6 +862,7 @@ msgstr "تاریخ"
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Date (9/26/2008)"
 msgstr "تاریخ (9/26/2008)"
@@ -829,6 +876,7 @@ msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Date time (9/26/2008 22:43:00)"
@@ -864,6 +912,13 @@ msgstr "دسامبر"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Decrease decimal places"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
 #, python-format
 msgid "Default Value"
@@ -871,6 +926,7 @@ msgstr "مقدار پیش‌فرض"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Delete"
@@ -1039,12 +1095,14 @@ msgstr ""
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Duration (27:51:38)"
 msgstr "مدت زمان (27:51:38)"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.spreadsheet_template_view_tree
@@ -1123,7 +1181,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Exponential"
-msgstr ""
+msgstr "نمایی"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1154,6 +1212,7 @@ msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Fill Color"
@@ -1213,8 +1272,15 @@ msgstr ""
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
+msgid "Font Size"
+msgstr "اندازه فونت"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
 msgid "Font size"
-msgstr ""
+msgstr "اندازه فونت"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1222,6 +1288,13 @@ msgstr ""
 #, python-format
 msgid "Format"
 msgstr "قالب"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Format as percent"
+msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1375,6 +1448,13 @@ msgstr "عمومی"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "General (no specific format)"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/registries/pivot_functions.js:0
 #, python-format
 msgid "Get the absolute ID of an element in the pivot"
@@ -1439,7 +1519,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Hide columns"
-msgstr ""
+msgstr "مخفی کردن ستون‌ها"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1474,13 +1554,20 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Hide rows"
-msgstr ""
+msgstr "مخفی کردن سطرها"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Hide rows %s - %s"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Horizontal align"
 msgstr ""
 
 #. module: documents_spreadsheet
@@ -1586,6 +1673,13 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "In [[FUNCTION_NAME]] evaluation, cannot find '%s' within '%s'."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Increase decimal places"
 msgstr ""
 
 #. module: documents_spreadsheet
@@ -1795,13 +1889,6 @@ msgstr ""
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
-msgid "Invalid merge zone"
-msgstr ""
-
-#. module: documents_spreadsheet
-#. openerp-web
-#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
-#, python-format
 msgid ""
 "Invalid number of arguments for the %s function. Expected %s maximum, but "
 "got %s instead."
@@ -1990,6 +2077,7 @@ msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
@@ -2328,6 +2416,13 @@ msgstr "آیتم‌های منو"
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
+msgid "Merge Cells"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
 msgid ""
 "Merged cells are preventing this operation. Unmerge those cells and try "
 "again."
@@ -2407,6 +2502,27 @@ msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/plugins/ui/list_autofill_plugin.js:0
+#, python-format
+msgid "Missing list #%s"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/plugins/ui/pivot_autofill_plugin.js:0
+#, python-format
+msgid "Missing pivot"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/plugins/ui/pivot_autofill_plugin.js:0
+#, python-format
+msgid "Missing pivot #%s"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/side_panels/list/listing_details_side_panel.xml:0
 #: code:addons/documents_spreadsheet/static/src/side_panels/pivot/pivot_details_side_panel.xml:0
 #, python-format
@@ -2445,6 +2561,13 @@ msgstr "ماه"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Month of the year a specific date falls in"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "More formats"
 msgstr ""
 
 #. module: documents_spreadsheet
@@ -2646,6 +2769,7 @@ msgstr "شماره"
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Number (1,000.12)"
 msgstr "عدد (1,000.12)"
@@ -2728,6 +2852,13 @@ msgid "One number divided by another."
 msgstr ""
 
 #. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Paint Format"
+msgstr ""
+
+#. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_revision__parent_revision_id
 msgid "Parent Revision"
 msgstr ""
@@ -2781,6 +2912,7 @@ msgstr ""
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Percent (10.12%)"
 msgstr "درصد (10.12%)"
@@ -2826,6 +2958,13 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Please enter a valid sheet name"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/actions/control_panel/collaborative_cross_tab_bus_warning.js:0
+#, python-format
+msgid "Please, close all other Odoo tabs and reload the current page."
 msgstr ""
 
 #. module: documents_spreadsheet
@@ -2933,9 +3072,17 @@ msgstr "رکورد #"
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Redo"
 msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Refresh"
+msgstr "تازه سازی"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2965,6 +3112,13 @@ msgstr ""
 #, python-format
 msgid "Relation"
 msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/actions/control_panel/collaborative_cross_tab_bus_warning.js:0
+#, python-format
+msgid "Reload"
+msgstr "بارگزاری مجدد"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3300,6 +3454,7 @@ msgstr ""
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Sheet"
 msgstr ""
@@ -3526,6 +3681,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Strikethrough"
 msgstr ""
@@ -3594,6 +3750,7 @@ msgstr "متن"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Text Color"
@@ -4222,7 +4379,6 @@ msgstr ""
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
-#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "This formula depends on invalid values"
 msgstr ""
@@ -4260,6 +4416,7 @@ msgstr "بند انگشتی"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Time (10:43:00 PM)"
@@ -4334,6 +4491,7 @@ msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Undo"
@@ -4731,6 +4889,13 @@ msgstr "و"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "by default"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/xml/pivot_dialog.xml:0
 #, python-format
 msgid "has no cell missing from this sheet"
@@ -4751,7 +4916,21 @@ msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "optional"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/spreadsheet_selector_dialog.xml:0
 #, python-format
 msgid "records of the list."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "repeatable"
 msgstr ""

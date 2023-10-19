@@ -127,4 +127,31 @@ tour.register('payment_terminals_tour', {
         trigger: '.receipt-screen .button.next.highlight:contains("New Order")',
         run: function() {}
     }]);
+
+tour.register('pos_iot_no_device_loaded_tour', {
+    test: true,
+    url: '/web',
+}, [tour.stepUtils.showAppsMenuItem(),
+    {
+        content: 'Select PoS app',
+        trigger: '.o_app[data-menu-xmlid="point_of_sale.menu_point_root"]',
+    }, {
+        content: 'Start session',
+        trigger: ".o_pos_kanban button.oe_kanban_action_button",
+    }, {
+        content: 'Waiting for loading to finish',
+        trigger: '.pos .pos-content',
+    }, {
+        content: "Check no IoT loaded",
+        trigger: ".pos",
+        run: function () {
+            if (posmodel.proxy.iot_boxes.length > 0) {
+                console.error(`There should be no IoT box loaded (currently ${posmodel.proxy.iot_boxes.length})`);
+            }
+        },
+    },
+    ]);
+
 });
+
+

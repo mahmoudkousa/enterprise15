@@ -5,6 +5,7 @@
 # Translators:
 # Martin Trigaux, 2021
 # Wichanon Jamwutthipreecha, 2021
+# Rasareeyar Lappiam, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:43+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Wichanon Jamwutthipreecha, 2021\n"
-"Language-Team: Thai (https://www.transifex.com/odoo/teams/41243/th/)\n"
+"Last-Translator: Rasareeyar Lappiam, 2023\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -33,7 +34,7 @@ msgstr "เข้าถึง"
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_account__account_data
 msgid "Account Data"
-msgstr ""
+msgstr "ข้อมูลบัญชี"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_account__name
@@ -44,7 +45,7 @@ msgstr "ชื่อบัญชี"
 #: model:ir.model.fields,help:account_online_synchronization.field_account_link_journal_line__name
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_account__name
 msgid "Account Name as provided by third party provider"
-msgstr ""
+msgstr "ชื่อบัญชีตามที่ผู้ให้บริการบุคคลที่สามให้ไว้"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_link_journal_line__account_number
@@ -57,7 +58,7 @@ msgstr "หมายเลขบัญชี"
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_journal__account_online_account_id
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_link__account_online_account_ids
 msgid "Account Online Account"
-msgstr ""
+msgstr "บัญชี บัญชีออนไลน์"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_bank_statement_import_journal_creation__account_online_link_id
@@ -65,7 +66,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_journal__account_online_link_id
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_account__account_online_link_id
 msgid "Account Online Link"
-msgstr ""
+msgstr "ลิงค์บัญชีออนไลน์"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_link_journal_line__account_online_wizard_id
@@ -82,7 +83,7 @@ msgstr ""
 #: model:ir.cron,cron_name:account_online_synchronization.online_sync_cron
 #: model:ir.cron,name:account_online_synchronization.online_sync_cron
 msgid "Account: Journal online sync"
-msgstr ""
+msgstr "บัญชี: การซิงค์สมุดรายวันออนไลน์"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_link_journal_line__action
@@ -103,12 +104,12 @@ msgstr "จํานวนสิ่งที่แนบมา"
 #: code:addons/account_online_synchronization/models/account_journal.py:0
 #, python-format
 msgid "Automated Bank Synchronization"
-msgstr ""
+msgstr "การซิงโครไนซ์ธนาคารอัตโนมัติ"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_link__auto_sync
 msgid "Automatic synchronization"
-msgstr ""
+msgstr "การซิงโครไนซ์อัตโนมัติ"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_link_journal_line__balance
@@ -120,7 +121,7 @@ msgstr "ยอดเงินคงเหลือ"
 #: model:ir.model.fields,help:account_online_synchronization.field_account_link_journal_line__balance
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_account__balance
 msgid "Balance of the account sent by the third party provider"
-msgstr ""
+msgstr "ยอดคงเหลือในบัญชีที่ส่งโดยผู้ให้บริการบุคคลที่สาม"
 
 #. module: account_online_synchronization
 #: model:ir.model,name:account_online_synchronization.model_account_bank_statement
@@ -145,7 +146,7 @@ msgstr "ไคลเอนต์"
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.account_online_link_view_form
 msgid "Client id"
-msgstr ""
+msgstr "รหัสลูกค้า"
 
 #. module: account_online_synchronization
 #: model:ir.model,name:account_online_synchronization.model_res_company
@@ -265,7 +266,7 @@ msgstr "ผิดพลาด"
 #. module: account_online_synchronization
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_account__account_data
 msgid "Extra information needed by third party provider"
-msgstr ""
+msgstr "ข้อมูลเพิ่มเติมที่จำเป็นโดยผู้ให้บริการบุคคลที่สาม"
 
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.account_online_link_view_form
@@ -275,7 +276,7 @@ msgstr ""
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.account_online_link_view_form
 msgid "Fetch Transactions"
-msgstr ""
+msgstr "ดึงข้อมูลการทำธุรกรรม"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_link__message_follower_ids
@@ -308,7 +309,7 @@ msgstr "รหัส"
 #. module: account_online_synchronization
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_account__online_identifier
 msgid "Id used to identify account by third party provider"
-msgstr ""
+msgstr "รหัสที่ใช้ในการระบุบัญชีโดยผู้ให้บริการบุคคลที่สาม"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_link__message_needaction
@@ -328,6 +329,7 @@ msgid ""
 "If possible, we will try to automatically fetch new transactions for this "
 "record"
 msgstr ""
+"หากเป็นไปได้ เราจะพยายามดึงข้อมูลธุรกรรมใหม่สำหรับบันทึกนี้โดยอัตโนมัติ"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_link__provider_data
@@ -337,19 +339,19 @@ msgstr ""
 #. module: account_online_synchronization
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_link__name
 msgid "Institution Name"
-msgstr ""
+msgstr "ชื่อสถาบัน"
 
 #. module: account_online_synchronization
 #: code:addons/account_online_synchronization/models/account_online.py:0
 #, python-format
 msgid "Internal Error"
-msgstr ""
+msgstr "ข้อผิดพลาดภายใน"
 
 #. module: account_online_synchronization
 #: code:addons/account_online_synchronization/models/account_online.py:0
 #, python-format
 msgid "Invalid value for proxy_mode config parameter."
-msgstr ""
+msgstr "ค่าไม่ถูกต้องสำหรับพารามิเตอร์การกำหนดค่า proxy_mode"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_link__message_is_follower
@@ -380,7 +382,7 @@ msgstr "แก้ไขครั้งสุดท้ายเมื่อ"
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_link__last_refresh
 msgid "Last Refresh"
-msgstr ""
+msgstr "รีเฟรชครั้งล่าสุด"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_link_journal__write_uid
@@ -401,12 +403,12 @@ msgstr "อัพเดทครั้งสุดท้ายเมื่อ"
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.account_online_link_view_form
 msgid "Last refresh"
-msgstr ""
+msgstr "รีเฟรชครั้งล่าสุด"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_account__last_sync
 msgid "Last synchronization"
-msgstr ""
+msgstr "การซิงโครไนซ์ครั้งล่าสุด"
 
 #. module: account_online_synchronization
 #: code:addons/account_online_synchronization/models/account_online.py:0
@@ -468,12 +470,12 @@ msgstr ""
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_link__next_refresh
 msgid "Next synchronization"
-msgstr ""
+msgstr "การซิงโครไนซ์ครั้งต่อไป"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields.selection,name:account_online_synchronization.selection__account_online_link__state__disconnected
 msgid "Not Connected"
-msgstr ""
+msgstr "ไม่ได้เชื่อมต่อ"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_link_journal__number_added
@@ -509,30 +511,30 @@ msgstr "จํานวนข้อความที่ยังไม่ได
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_bank_statement_line__online_account_id
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_link_journal_line__online_account_id
 msgid "Online Account"
-msgstr ""
+msgstr "บัญชีออนไลน์"
 
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.account_online_link_view_form
 msgid "Online Accounts"
-msgstr ""
+msgstr "บัญชีออนไลน์"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_account__online_identifier
 msgid "Online Identifier"
-msgstr ""
+msgstr "ตัวระบุออนไลน์"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_bank_statement_import_journal_creation__next_link_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_journal__next_link_synchronization
 msgid "Online Link Next synchronization"
-msgstr ""
+msgstr "ลิงค์ออนไลน์ การซิงโครไนซ์ถัดไป"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_bank_statement_line__online_partner_information
 #: model:ir.model.fields,field_description:account_online_synchronization.field_res_partner__online_partner_information
 #: model:ir.model.fields,field_description:account_online_synchronization.field_res_users__online_partner_information
 msgid "Online Partner Information"
-msgstr ""
+msgstr "ข้อมูลพาร์ทเนอร์ออนไลน์"
 
 #. module: account_online_synchronization
 #: model:ir.actions.act_window,name:account_online_synchronization.action_account_online_link_form
@@ -540,24 +542,24 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:account_online_synchronization.action_account_online_link_form
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.account_journal_dashboard_inherit_online_sync
 msgid "Online Synchronization"
-msgstr ""
+msgstr "การซิงโครไนซ์ออนไลน์"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_bank_statement_line__online_transaction_identifier
 msgid "Online Transaction Identifier"
-msgstr ""
+msgstr "ตัวระบุธุรกรรมออนไลน์"
 
 #. module: account_online_synchronization
 #: code:addons/account_online_synchronization/models/account_bank_statement.py:0
 #, python-format
 msgid "Opening statement: first synchronization"
-msgstr ""
+msgstr "คำสั่งเปิด: การซิงโครไนซ์ครั้งแรก"
 
 #. module: account_online_synchronization
 #: code:addons/account_online_synchronization/models/account_online.py:0
 #, python-format
 msgid "Please reconnect your online account."
-msgstr ""
+msgstr "โปรดเชื่อมต่อบัญชีออนไลน์ของคุณอีกครั้ง"
 
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.account_journal_dashboard_inherit_online_sync
@@ -567,12 +569,12 @@ msgstr ""
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_link__provider_data
 msgid "Provider Data"
-msgstr ""
+msgstr "ข้อมูลผู้ให้บริการ"
 
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.account_online_link_view_form
 msgid "Reconnect"
-msgstr ""
+msgstr "เชื่อมต่อใหม่"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_link__refresh_token
@@ -582,7 +584,7 @@ msgstr "รีเฟรชโทเคน"
 #. module: account_online_synchronization
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_link__client_id
 msgid "Represent a link for a given user towards a banking institution"
-msgstr ""
+msgstr "แสดงลิงก์สำหรับผู้ใช้ที่กำหนดไปยังสถาบันการธนาคาร"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_link__message_has_sms_error
@@ -593,7 +595,7 @@ msgstr "ข้อผิดพลาดในการส่ง SMS"
 #: model:ir.model.fields,help:account_online_synchronization.field_account_link_journal_line__account_number
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_account__account_number
 msgid "Set if third party provider has the full account number"
-msgstr ""
+msgstr "ตั้งค่าว่าผู้ให้บริการบุคคลที่สามมีหมายเลขบัญชีเต็มหรือไม่"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_bank_statement_import_journal_creation__account_online_link_state
@@ -635,6 +637,8 @@ msgid ""
 "The online synchronization service is not available at the moment. Please "
 "try again later."
 msgstr ""
+"บริการซิงโครไนซ์ออนไลน์ไม่สามารถใช้งานได้ในขณะนี้ "
+"กรุณาลองใหม่อีกครั้งในภายหลัง"
 
 #. module: account_online_synchronization
 #: code:addons/account_online_synchronization/models/account_online.py:0
@@ -643,6 +647,7 @@ msgid ""
 "The reference of your error is %s. Please mention it when contacting Odoo "
 "support."
 msgstr ""
+"การอ้างอิงข้อผิดพลาดของคุณคือ %s โปรดระบุเมื่อติดต่อฝ่ายช่วยเหลือของ Odoo"
 
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.view_account_link_journal_form_wizard
@@ -656,6 +661,8 @@ msgid ""
 "This version of Odoo appears to be outdated and does not support the '%s' "
 "sync mode. Installing the latest update might solve this."
 msgstr ""
+"ดูเหมือนว่า Odoo เวอร์ชันนี้จะล้าสมัยและไม่รองรับโหมดการซิงค์ '%s' "
+"การติดตั้งการอัปเดตล่าสุดอาจแก้ปัญหานี้ได้"
 
 #. module: account_online_synchronization
 #: model_terms:ir.actions.act_window,help:account_online_synchronization.action_account_online_link_form
@@ -667,12 +674,12 @@ msgstr ""
 #. module: account_online_synchronization
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_link__access_token
 msgid "Token used to access API."
-msgstr ""
+msgstr "โทเค็นที่ใช้ในการเข้าถึง API"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_link__refresh_token
 msgid "Token used to sign API request, Never disclose it"
-msgstr ""
+msgstr "โทเค็นที่ใช้ในการลงนามคำขอ API ห้ามเปิดเผยเด็ดขาด"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_link_journal__transactions
@@ -692,7 +699,7 @@ msgstr "ตัวนับข้อความที่ยังไม่ได
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.account_online_link_view_form
 msgid "Update Credentials"
-msgstr ""
+msgstr "อัปเดตข้อมูลประจำตัว"
 
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.account_journal_dashboard_inherit_online_sync
@@ -719,7 +726,7 @@ msgstr ""
 #: code:addons/account_online_synchronization/models/account_online.py:0
 #, python-format
 msgid "You cannot have two journals associated with the same Online Account."
-msgstr ""
+msgstr "คุณไม่สามารถมีสมุดรายวันสองฉบับที่เชื่อมโยงกับบัญชีออนไลน์เดียวกันได้"
 
 #. module: account_online_synchronization
 #: code:addons/account_online_synchronization/wizard/account_link_journal_wizard.py:0
@@ -744,4 +751,4 @@ msgstr ""
 #. module: account_online_synchronization
 #: model:ir.model,name:account_online_synchronization.model_account_online_account
 msgid "representation of an online bank account"
-msgstr ""
+msgstr "การแสดงบัญชีธนาคารออนไลน์"

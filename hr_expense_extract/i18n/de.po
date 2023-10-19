@@ -3,10 +3,10 @@
 # 	* hr_expense_extract
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Chris Egal <sodaswed@web.de>, 2021
 # Felix Schubert <felix.schubert@go-erp.com>, 2021
 # Friederike Fasterling-Nesselbosch, 2022
+# Martin Trigaux, 2023
 # Larissa Manderfeld, 2023
 # 
 msgid ""
@@ -43,7 +43,7 @@ msgstr "Dateianhang"
 #. module: hr_expense_extract
 #: model:ir.model.fields,field_description:hr_expense_extract.field_expense_sample_register__available_payment_method_line_ids
 msgid "Available Payment Method Line"
-msgstr "Zeile Verfügbare Zahlungsmethode"
+msgstr "Verfügbare Zahlungsmethodenzeile"
 
 #. module: hr_expense_extract
 #: model_terms:ir.ui.view,arch_db:hr_expense_extract.hr_expense_extract_view_form
@@ -58,7 +58,7 @@ msgstr "Kann den ocr erneut senden Button anzeigen"
 #. module: hr_expense_extract
 #: model:ir.model.fields,field_description:hr_expense_extract.field_hr_expense__extract_can_show_send_button
 msgid "Can show the ocr send button"
-msgstr "Kann den ocr senden Button zeigen"
+msgstr "Kann Schaltfläche zum OCR-Versand anzeigen"
 
 #. module: hr_expense_extract
 #: model_terms:ir.ui.view,arch_db:hr_expense_extract.expense_sample_register_view_form
@@ -70,7 +70,7 @@ msgstr "Abbrechen"
 #: code:addons/hr_expense_extract/static/src/js/tours/expense_tour.js:0
 #, python-format
 msgid "Choose a receipt."
-msgstr "Beleg auswählen."
+msgstr "Wählen Sie einen Beleg aus."
 
 #. module: hr_expense_extract
 #: model_terms:ir.ui.view,arch_db:hr_expense_extract.expense_sample_receipt_view_form
@@ -95,7 +95,7 @@ msgstr "Vollständiger Flow"
 #. module: hr_expense_extract
 #: model:ir.model,name:hr_expense_extract.model_res_config_settings
 msgid "Config Settings"
-msgstr "Konfiguration "
+msgstr "Konfigurationseinstellungen"
 
 #. module: hr_expense_extract
 #: model_terms:ir.ui.view,arch_db:hr_expense_extract.expense_sample_register_view_form
@@ -153,35 +153,35 @@ msgstr "Fehlermeldung"
 #: model:ir.model.fields,field_description:hr_expense_extract.field_expense_sample_register__sheet_id
 #: model:ir.model.fields,field_description:hr_expense_extract.field_hr_expense_extract_words__expense_id
 msgid "Expense"
-msgstr "betrieblicher Aufwand"
+msgstr "Ausgabe"
 
 #. module: hr_expense_extract
 #: model:ir.actions.server,name:hr_expense_extract.ir_cron_update_ocr_status_ir_actions_server
 #: model:ir.cron,cron_name:hr_expense_extract.ir_cron_update_ocr_status
 #: model:ir.cron,name:hr_expense_extract.ir_cron_update_ocr_status
 msgid "Expense OCR: Update All Status"
-msgstr "Auslagen OCR: Alle aktualisieren"
+msgstr "Spesen OCR: Alle Status aktualisieren"
 
 #. module: hr_expense_extract
 #: model:ir.model,name:hr_expense_extract.model_hr_expense_sheet
 msgid "Expense Report"
-msgstr "Auslagenabrechnung"
+msgstr "Spesenabrechnung"
 
 #. module: hr_expense_extract
 #: model:ir.model.fields,help:hr_expense_extract.field_hr_expense__extract_remote_id
 msgid "Expense extract id"
-msgstr ""
+msgstr "ID der Ausgabenextraktion"
 
 #. module: hr_expense_extract
 #: model:ir.model.fields,field_description:hr_expense_extract.field_res_config_settings__expense_extract_show_ocr_option_selection
 msgid "Expense processing option"
-msgstr "Verarbeitungsoptionen für Auslagen"
+msgstr "Verarbeitungsoptionen für Spesen"
 
 #. module: hr_expense_extract
 #: code:addons/hr_expense_extract/models/hr_expense.py:0
 #, python-format
 msgid "Expenses sent"
-msgstr "Auslagen gesendet"
+msgstr "Spesen gesendet"
 
 #. module: hr_expense_extract
 #: model:ir.model.fields,field_description:hr_expense_extract.field_hr_expense__extract_word_ids
@@ -212,7 +212,7 @@ msgstr "Teilweise verbergen"
 #. module: hr_expense_extract
 #: model:ir.model.fields,field_description:hr_expense_extract.field_expense_sample_register__hide_payment_method_line
 msgid "Hide Payment Method Line"
-msgstr "Zeile Zahlungsmethode ausblenden"
+msgstr "Zahlungsmethodenzeile ausblenden"
 
 #. module: hr_expense_extract
 #: model:ir.model.fields,field_description:hr_expense_extract.field_expense_sample_receipt__id
@@ -248,7 +248,7 @@ msgstr "Zuletzt geändert am"
 #: model:ir.model.fields,field_description:hr_expense_extract.field_expense_sample_register__write_uid
 #: model:ir.model.fields,field_description:hr_expense_extract.field_hr_expense_extract_words__write_uid
 msgid "Last Updated by"
-msgstr "Zuletzt aktualisiert durch"
+msgstr "Zuletzt aktualisiert von"
 
 #. module: hr_expense_extract
 #: model:ir.model.fields,field_description:hr_expense_extract.field_expense_sample_receipt__write_date
@@ -263,7 +263,7 @@ msgid ""
 "Let's try a sample receipt to test the automated processing of expenses with"
 " Artificial Intelligence."
 msgstr ""
-"Testen Sie die automatische Verarbeitung von Ausgaben mit künstlicher "
+"Testen Sie die automatische Verarbeitung von Spesen mit künstlicher "
 "Intelligenz mit einem Beispielbeleg."
 
 #. module: hr_expense_extract
@@ -277,11 +277,13 @@ msgid ""
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
 msgstr ""
 "Manuell: Bezahlen oder bezahlt werden mit einer beliebigen Methode außerhalb von Odoo.\n"
-"Acquirer für Zahlungen: Jeder Acquirer hat seine eigene Zahlungsmethode. Beantragen Sie eine Transaktion auf eine Karte dank eines Zahlungs-Tokens, das der Partner beim Online-Kauf oder -Abonnement gespeichert hat.\n"
-"Scheck: Bezahlen Sie Rechnungen per Scheck und drucken Sie aus Odoo heraus aus.\n"
-"Batch Deposit: Sammeln Sie mehrere Kundenschecks auf einmal, indem Sie eine Batch-Einzahlung erstellen und an Ihre Bank übermitteln. Das Modul account_batch_payment ist erforderlich.\n"
+"Zahlungsanbieter: Jeder Zahlungsanbieter hat seine eigene Zahlungsmethode. Beantragen Sie eine Transaktion mithilfe eines Zahlungstokens, das der Partner beim Online-Kauf oder -Abonnement gespeichert hat.\n"
+"Scheck: Bezahlen Sie Rechnungen per Scheck und drucken Sie ihn aus Odoo aus.\n"
+"Sammeleinzahlung: Sammeln Sie mehrere Kundenschecks auf einmal, indem Sie eine Sammeleinzahlung erstellen und an Ihre Bank übermitteln. Das Modul account_batch_payment ist erforderlich.\n"
 "SEPA-Überweisung: Zahlen Sie im SEPA-Raum, indem Sie eine SEPA-Überweisungsdatei an Ihre Bank übermitteln. Das Modul account_sepa ist erforderlich.\n"
 "SEPA-Lastschrift: Bezahlen Sie in der SEPA-Zone dank eines Mandats, das Ihnen Ihr Partner erteilt hat. Das Modul account_sepa ist erforderlich.\n"
+"\n"
+"\n"
 
 #. module: hr_expense_extract
 #: model:ir.model.fields.selection,name:hr_expense_extract.selection__expense_sample_register__partial_mode__paid
@@ -327,12 +329,12 @@ msgstr "Zahlungsmethode"
 #. module: hr_expense_extract
 #: model_terms:ir.ui.view,arch_db:hr_expense_extract.expense_sample_register_view_form
 msgid "Register Payment"
-msgstr "Zahlung erfassen"
+msgstr "Zahlung registrieren"
 
 #. module: hr_expense_extract
 #: model:ir.actions.act_window,name:hr_expense_extract.action_expense_sample_register
 msgid "Register Sample Payment"
-msgstr "Beispielzahlung erfassen"
+msgstr "Beispielzahlung registrieren"
 
 #. module: hr_expense_extract
 #: model:ir.model,name:hr_expense_extract.model_expense_sample_register
@@ -344,9 +346,7 @@ msgstr "Beispielzahlungen registrieren"
 #: code:addons/hr_expense_extract/static/src/js/tours/expense_tour.js:0
 #, python-format
 msgid "Report this expense to your manager for validation."
-msgstr ""
-"Reichen Sie diese Auslage bei Ihrem Manager ein, um Sie bestätigen zu "
-"lassen."
+msgstr "Reichen Sie diese Auslage zur Validierung bei Ihrem Manager ein."
 
 #. module: hr_expense_extract
 #: model_terms:ir.ui.view,arch_db:hr_expense_extract.hr_expense_extract_view_form
@@ -357,7 +357,7 @@ msgstr "Für Digitalisierung erneut versenden"
 #: code:addons/hr_expense_extract/wizard/expense_sample_receipt.py:0
 #, python-format
 msgid "Sample Employee"
-msgstr "Beispiel Mitarbeiter"
+msgstr "Beispielmitarbeiter"
 
 #. module: hr_expense_extract
 #: code:addons/hr_expense_extract/wizard/expense_sample_receipt.py:0
@@ -427,19 +427,19 @@ msgstr ""
 #: model:ir.actions.act_window,name:hr_expense_extract.action_expense_sample_receipt
 #: model_terms:ir.ui.view,arch_db:hr_expense_extract.expense_sample_receipt_view_form
 msgid "Try Sample Receipt"
-msgstr "Musterbeleg ausprobieren"
+msgstr "Beispielbeleg ausprobieren"
 
 #. module: hr_expense_extract
 #: model:ir.model,name:hr_expense_extract.model_expense_sample_receipt
 msgid "Try Sample Receipts"
-msgstr "Musterbelege ausprobieren"
+msgstr "Beispielbelege ausprobieren"
 
 #. module: hr_expense_extract
 #. openerp-web
 #: code:addons/hr_expense_extract/static/src/js/tours/expense_tour.js:0
 #, python-format
 msgid "Try the AI with a sample receipt."
-msgstr "Testen Sie die Künstliche Intelligenz mit einem Musterbeleg."
+msgstr "Testen Sie die Künstliche Intelligenz mit einem Beispielbeleg."
 
 #. module: hr_expense_extract
 #: code:addons/hr_expense_extract/models/hr_expense.py:0
@@ -489,7 +489,7 @@ msgstr "Worttext"
 #: code:addons/hr_expense_extract/models/hr_expense.py:0
 #, python-format
 msgid "You cannot send a expense that is not in draft state!"
-msgstr "Sie können Auslagen nur im Entwurf einreichen!"
+msgstr "Sie können Spesen nur im Entwurf einreichen!"
 
 #. module: hr_expense_extract
 #: model_terms:ir.ui.view,arch_db:hr_expense_extract.hr_expense_extract_view_form
@@ -510,8 +510,7 @@ msgstr "Sie müssen die gleiche Anzahl von Dokumenten und Dateinamen senden"
 #: code:addons/hr_expense_extract/static/src/js/tours/expense_tour.js:0
 #, python-format
 msgid "Your manager will have to approve (or refuse) your expense reports."
-msgstr ""
-"Ihr Manager muss Ihre Auslagenabrechnungen genehmigen (oder ablehnen)."
+msgstr "Ihr Manager muss Ihre Spesenabrechnungen genehmigen (oder ablehnen)."
 
 #. module: hr_expense_extract
 #: model:ir.model.fields,help:hr_expense_extract.field_hr_expense_extract_words__expense_id

@@ -1176,7 +1176,7 @@ msgstr ""
 #: selection:sale.subscription,state:0
 #: selection:sale.subscription.report,state:0
 msgid "New"
-msgstr "Nieuw"
+msgstr "Нов"
 
 #. module: sale_subscription
 #: model:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search

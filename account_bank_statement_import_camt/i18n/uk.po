@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2021
-# Alina Lisnenko <alinasemeniuk1@gmail.com>, 2022
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Alina Lisnenko <alinasemeniuk1@gmail.com>, 2022\n"
-"Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
+"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/odoo/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1466,6 +1466,16 @@ msgstr "Оплата праці"
 #, python-format
 msgid "Placement"
 msgstr "Розташування"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
+#, python-format
+msgid ""
+"Please check the currency on your bank journal.\n"
+"No statements in currency %s were found in this CAMT file."
+msgstr ""
+"Перевірте валюту на вашому банківському журналі.\n"
+"Немає виписок у валюті %s що знайдено у цьому файлі CAMT."
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0

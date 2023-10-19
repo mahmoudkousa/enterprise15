@@ -261,7 +261,7 @@
                     name="action_preview_worksheet"
                     icon="fa-globe" type="object"
                     groups="project.group_project_user"
-                    attrs="{'invisible': [('worksheet_signature', '=', False)]}">
+                    attrs="{'invisible': ['|', '|', ('allow_worksheets', '=', False), ('is_fsm', '=', False), ('worksheet_signature', '=', False)]}">
                 </button>
             </xpath>
             <xpath expr="//field[@name='child_ids']/tree/button[@name='action_open_task']" position="before">

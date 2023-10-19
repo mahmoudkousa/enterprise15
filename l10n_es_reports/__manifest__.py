@@ -40,7 +40,6 @@
         'wizard/aeat_tax_reports_wizards.xml',
         'wizard/aeat_boe_export_wizards.xml',
     ],
-    'post_init_hook': '_setup_mod_sequences',
     'installable': True,
     'auto_install': True,
     'license': 'OEEL-1',

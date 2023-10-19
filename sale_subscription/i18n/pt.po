@@ -12,7 +12,6 @@
 # Catarina Rocha <cr@opencloud.pro>, 2021
 # Martin Trigaux, 2021
 # Ricardo Martins <ricardo.nbs.martins@gmail.com>, 2021
-# Manuela Silva <mmsrs@sky.com>, 2021
 # Pedro Castro Silva <pedrocs@exo.pt>, 2021
 # Diogo Fonseca <dsf@thinkopensolutions.pt>, 2021
 # Pedro Filipe <pedro2.10@hotmail.com>, 2021
@@ -20,6 +19,8 @@
 # Marcelo Pereira <marcelo.pereira@arxi.pt>, 2022
 # Luiz Fernando <lfpsgs@outlook.com>, 2022
 # Reinaldo Ramos <reinaldo.ramos@arxi.pt>, 2022
+# Mónica Pinheiro, 2023
+# Manuela Silva <mmsrs@sky.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -27,8 +28,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:42+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Reinaldo Ramos <reinaldo.ramos@arxi.pt>, 2022\n"
-"Language-Team: Portuguese (https://www.transifex.com/odoo/teams/41243/pt/)\n"
+"Last-Translator: Manuela Silva <mmsrs@sky.com>, 2023\n"
+"Language-Team: Portuguese (https://app.transifex.com/odoo/teams/41243/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -829,7 +830,7 @@ msgstr "Ação Automatizada"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__auto_close_limit
 msgid "Automatic Closing"
-msgstr ""
+msgstr "Fecho Automático"
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/models/sale_subscription.py:0
@@ -1574,7 +1575,7 @@ msgstr "Grupos"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
 msgid "Happy face"
-msgstr ""
+msgstr "Cara feliz"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__has_message
@@ -3534,6 +3535,13 @@ msgid "This upsell order has been created from the subscription "
 msgstr ""
 
 #. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid ""
+"This will trigger the action on all linked subscriptions, regardless of "
+"possible timed conditions. Are you sure you want to proceed?"
+msgstr ""
+
+#. module: sale_subscription
 #: model:uom.category,name:sale_subscription.uom_categ_time
 msgid "Time"
 msgstr "Tempo"
@@ -3634,7 +3642,7 @@ msgstr ""
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr ""
+msgstr "Tipo de atividade de exceção registada."
 
 #. module: sale_subscription
 #: model:ir.model.constraint,message:sale_subscription.constraint_sale_subscription_uuid_uniq
@@ -3871,6 +3879,14 @@ msgstr ""
 #: model:product.template,uom_name:sale_subscription.product_office_cleaning_yearly_product_template
 #: model:uom.uom,name:sale_subscription.subscription_uom_year
 msgid "Years"
+msgstr ""
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/res_partner.py:0
+#, python-format
+msgid ""
+"You can't archive the partner as it is used in the following recurring "
+"orders: %s"
 msgstr ""
 
 #. module: sale_subscription

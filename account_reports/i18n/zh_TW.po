@@ -3,10 +3,11 @@
 # 	* account_reports
 # 
 # Translators:
-# 敬雲 林 <chingyun@yuanchih-consult.com>, 2022
 # Benson <Benson.Dr@Gmail.com>, 2023
+# 敬雲 林 <chingyun@yuanchih-consult.com>, 2023
 # Martin Trigaux, 2023
 # Tony Ng, 2023
+# Wil Odoo, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-18 09:51+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Tony Ng, 2023\n"
+"Last-Translator: Wil Odoo, 2023\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,13 +27,13 @@ msgstr ""
 #: code:addons/account_reports/models/account_report.py:0
 #, python-format
 msgid " and %s others"
-msgstr ""
+msgstr "及另外 %s 個"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_report.py:0
 #, python-format
 msgid " and one other"
-msgstr ""
+msgstr "及另一個"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
@@ -53,10 +54,7 @@ msgid ""
 "%s for Transactions(+) imported from your online bank account (dated today) "
 "that are not yet reconciled in Odoo (Waiting the final reconciliation "
 "allowing finding the right account)"
-msgstr ""
-"%s for Transactions(+) imported from your online bank account (dated today) "
-"that are not yet reconciled in Odoo (Waiting the final reconciliation "
-"allowing finding the right account)"
+msgstr "%s ：從你的線上銀行賬戶匯入（日期為今天）、尚未在 Odoo 對賬的交易(+)（正待最終對賬，以找出正確的賬戶）"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
@@ -65,10 +63,7 @@ msgid ""
 "%s for Transactions(-) imported from your online bank account (dated today) "
 "that are not yet reconciled in Odoo (Waiting the final reconciliation "
 "allowing finding the right account)"
-msgstr ""
-"%s for Transactions(-) imported from your online bank account (dated today) "
-"that are not yet reconciled in Odoo (Waiting the final reconciliation "
-"allowing finding the right account)"
+msgstr "%s ：從你的線上銀行賬戶匯入（日期為今天）、尚未在 Odoo 對賬的交易(-)（正待最終對賬，以找出正確的賬戶）"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.bank_reconciliation_report_cell_template_unexplained_difference
@@ -187,7 +182,7 @@ msgstr ""
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
 msgid "<span class=\"fa fa-calendar\" title=\"Dates\" role=\"img\" aria-label=\"Dates\"/>"
-msgstr "<span class=\"fa fa-calendar\" title=\"Dates\" role=\"img\" aria-label=\"Dates\"/>"
+msgstr "<span class=\"fa fa-calendar\" title=\"日期\" role=\"img\" aria-label=\"日期\"/>"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.template_aged_partner_balance_line_report
@@ -231,8 +226,6 @@ msgid ""
 "<span class=\"fa fa-circle color-transparent trust-partner\" role=\"img\" "
 "aria-label=\"Balance is normal\" title=\"Balance is normal\"/>"
 msgstr ""
-"<span class=\"fa fa-circle color-transparent trust-partner\" role=\"img\" "
-"aria-label=\"Balance is normal\" title=\"Balance is normal\"/>"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.line_template_partner_ledger_report
@@ -240,8 +233,6 @@ msgid ""
 "<span class=\"fa fa-circle color-transparent trust-partner\" role=\"img\" "
 "aria-label=\"Partner ledger is normal\" title=\"Partner ledger is normal\"/>"
 msgstr ""
-"<span class=\"fa fa-circle color-transparent trust-partner\" role=\"img\" "
-"aria-label=\"Partner ledger is normal\" title=\"Partner ledger is normal\"/>"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_ec_sale_code
@@ -291,8 +282,6 @@ msgid ""
 "<span class=\"fa fa-home\"/>\n"
 "                Tax Unit:"
 msgstr ""
-"<span class=\"fa fa-home\"/>\n"
-"                Tax Unit:"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.res_config_settings_view_form
@@ -300,8 +289,8 @@ msgid ""
 "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
-"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
-"specific.\" groups=\"base.group_multi_company\"/>"
+"<span class=\"fa fa-lg fa-building-o\" title=\"此處設定的值是特定於每間公司的。\" "
+"groups=\"base.group_multi_company\"/>"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_currency
@@ -324,7 +313,7 @@ msgid ""
 "trash-o\" role=\"img\" aria-label=\"Delete\" title=\"Delete\"/></span>"
 msgstr ""
 "<span class=\"o_account_reports_footnote_icons\"><i class=\"fa fa-fw fa-"
-"trash-o\" role=\"img\" aria-label=\"Delete\" title=\"Delete\"/></span>"
+"trash-o\" role=\"img\" aria-label=\"刪除\" title=\"刪除\"/></span>"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.res_config_settings_view_form
@@ -332,8 +321,8 @@ msgid ""
 "<span class=\"o_form_label\">Fiscal Country</span>\n"
 "                        <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" role=\"img\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
-"<span class=\"o_form_label\">Fiscal Country</span>\n"
-"                        <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" role=\"img\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\"/>"
+"<span class=\"o_form_label\">財政國家</span>\n"
+"                        <span class=\"fa fa-lg fa-building-o\" title=\"此處設定的值是特定於每間公司的。\" role=\"img\" aria-label=\"此處設定的值是特定於每間公司的。\" groups=\"base.group_multi_company\"/>"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.res_config_settings_view_form
@@ -341,8 +330,8 @@ msgid ""
 "<span class=\"o_form_label\">Tax Return Periodicity</span>\n"
 "                        <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" role=\"img\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
-"<span class=\"o_form_label\">Tax Return Periodicity</span>\n"
-"                        <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" role=\"img\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\"/>"
+"<span class=\"o_form_label\">報稅周期</span>\n"
+"                        <span class=\"fa fa-lg fa-building-o\" title=\"此處設定的值是特定於每間公司的。\" role=\"img\" aria-label=\"此處設定的值是特定於每間公司的。\" groups=\"base.group_multi_company\"/>"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.main_template_with_filter_input_accounts
@@ -364,8 +353,6 @@ msgid ""
 "<span>Intrastat taxes are applied on unexpected journal entries "
 "(intranational or between non intrastat countries).</span>"
 msgstr ""
-"<span>Intrastat taxes are applied on unexpected journal entries "
-"(intranational or between non intrastat countries).</span>"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.template_tax_report
@@ -385,18 +372,13 @@ msgstr "<span>Some partners are missing a VAT number.</span>"
 #: model_terms:ir.ui.view,arch_db:account_reports.template_tax_report
 msgid ""
 "<span>This company is part of a tax unit. You're currently not viewing the "
-"whole unit; to change that, tick the \"aggregate\" option of \"tax unit\" "
-"menu.</span>"
+"whole unit. To change that, use the Tax Unit filter.</span>"
 msgstr ""
-"<span>This company is part of a tax unit. You're currently not viewing the "
-"whole unit; to change that, tick the \"aggregate\" option of \"tax unit\" "
-"menu.</span>"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.template_multicurrency_report
 msgid "<span>This report only displays the data of the active company.</span>"
 msgstr ""
-"<span>This report only displays the data of the active company.</span>"
 
 #. module: account_reports
 #: model:ir.model.constraint,message:account_reports.constraint_account_financial_html_report_line_code_uniq
@@ -409,9 +391,7 @@ msgstr "具有相同代碼的報表行已經存在。"
 msgid ""
 "A tax unit can only be created between companies sharing the same main "
 "currency."
-msgstr ""
-"A tax unit can only be created between companies sharing the same main "
-"currency."
+msgstr "稅務單位只可在主要貨幣相同的公司之間建立。"
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_total_assets0
@@ -602,12 +582,12 @@ msgstr "到期的業務夥伴餘額"
 #: model:ir.ui.menu,name:account_reports.menu_action_account_report_aged_payable
 #, python-format
 msgid "Aged Payable"
-msgstr "到期的應付"
+msgstr "應付賬齡表"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.account_reports_journal_dashboard_kanban_view
 msgid "Aged Payables"
-msgstr "到期的應付"
+msgstr "應付賬齡表"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_aged_partner_balance.py:0
@@ -743,20 +723,20 @@ msgstr "套用"
 #: code:addons/account_reports/models/account_report.py:0
 #, python-format
 msgid "As of %s"
-msgstr "作為 %s"
+msgstr "截至 %s"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_aged_partner__period0
 #: model:ir.model.fields,field_description:account_reports.field_account_aged_payable__period0
 #: model:ir.model.fields,field_description:account_reports.field_account_aged_receivable__period0
 msgid "As of: "
-msgstr "As of: "
+msgstr "截至："
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_aged_partner_balance.py:0
 #, python-format
 msgid "As of: %s"
-msgstr "As of: %s"
+msgstr "截至： %s"
 
 #. module: account_reports
 #: model:ir.model.fields.selection,name:account_reports.selection__account_financial_html_report_line__special_date_changer__to_beginning_of_period
@@ -803,7 +783,7 @@ msgstr "平均債務天數"
 #: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation__balance
 #, python-format
 msgid "Balance"
-msgstr "餘額"
+msgstr "結餘"
 
 #. module: account_reports
 #: model:account.financial.html.report,name:account_reports.account_financial_report_balancesheet0
@@ -832,7 +812,7 @@ msgstr "Balance in GL"
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation__report_amount_currency
 msgid "Balance in foreign currency"
-msgstr "Balance in foreign currency"
+msgstr ""
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
@@ -844,19 +824,19 @@ msgstr "Balance of %s"
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "Balance tax advance payment account"
-msgstr "Balance tax advance payment account"
+msgstr "預繳稅項賬戶結餘"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "Balance tax current account (payable)"
-msgstr "Balance tax current account (payable)"
+msgstr "稅款往來賬戶結餘（應付）"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "Balance tax current account (receivable)"
-msgstr "Balance tax current account (receivable)"
+msgstr "稅款往來賬戶結餘（應收）"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
@@ -880,7 +860,7 @@ msgstr "Bank Reconciliation: %s"
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_bank_view0
 msgid "Bank and Cash Accounts"
-msgstr "銀行和現金"
+msgstr "銀行及現金賬戶"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_general_ledger.py:0
@@ -911,7 +891,7 @@ msgstr "取消"
 #: code:addons/account_reports/models/account_move.py:0
 #, python-format
 msgid "Carryover for period %s to %s"
-msgstr "Carryover for period %s to %s"
+msgstr "%s 至 %s 期間結轉"
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_cash0
@@ -929,7 +909,7 @@ msgstr "Cash Flow Report"
 #: model:ir.ui.menu,name:account_reports.menu_action_account_report_cash_flow
 #, python-format
 msgid "Cash Flow Statement"
-msgstr "現金流量表"
+msgstr "現金流報表"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_cash_flow_report.py:0
@@ -947,25 +927,25 @@ msgstr "現金及現金等價物，期末餘額"
 #: code:addons/account_reports/models/account_cash_flow_report.py:0
 #, python-format
 msgid "Cash flows from financing activities"
-msgstr "籌資活動現金流量"
+msgstr "融資活動現金流"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_cash_flow_report.py:0
 #, python-format
 msgid "Cash flows from investing & extraordinary activities"
-msgstr "投資以及超凡活動現金流量"
+msgstr "投資及特殊活動現金流"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_cash_flow_report.py:0
 #, python-format
 msgid "Cash flows from operating activities"
-msgstr "經營活動現金流量"
+msgstr "經營活動現金流"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_cash_flow_report.py:0
 #, python-format
 msgid "Cash flows from unclassified activities"
-msgstr "非保密活動現金流量"
+msgstr "未分類活動現金流"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_cash_flow_report.py:0
@@ -1008,12 +988,12 @@ msgstr "現金支出"
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_cash_surplus0
 msgid "Cash surplus"
-msgstr "現金結餘"
+msgstr "現金盈餘"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.template_aged_partner_balance_line_report
 msgid "Change expected payment date"
-msgstr "變更預計支付日期"
+msgstr "更改預計付款日期"
 
 #. module: account_reports
 #: model:ir.model,name:account_reports.model_account_coa_report
@@ -1089,9 +1069,7 @@ msgstr "公司"
 msgid ""
 "Company %s already belongs to a tax unit in %s. A company can at most be "
 "part of one tax unit per country."
-msgstr ""
-"Company %s already belongs to a tax unit in %s. A company can at most be "
-"part of one tax unit per country."
+msgstr "公司「%s」已屬於 %s 內的稅務單位。一家公司最多可以在每個國家/地區屬於一個稅務單位。"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.filter_info_template
@@ -1107,7 +1085,7 @@ msgstr "Company Only"
 #: code:addons/account_reports/models/account_report.py:0
 #, python-format
 msgid "Company Settings"
-msgstr "Company Settings"
+msgstr "公司設定"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.view_account_financial_report_line_form
@@ -1129,12 +1107,12 @@ msgstr "設定"
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "Configure your TAX accounts - %s"
-msgstr "Configure your TAX accounts - %s"
+msgstr "設定你的稅務賬戶 － %s"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.res_config_settings_view_form
 msgid "Configure your tax accounts"
-msgstr "Configure your tax accounts"
+msgstr "設定你的稅務賬戶"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_consolidated_journals.py:0
@@ -1427,17 +1405,17 @@ msgstr "Domain:"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_fiscal_position_choser
 msgid "Domestic"
-msgstr "Domestic"
+msgstr "本地"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.res_config_settings_view_form
 msgid "Domestic country of your accounting"
-msgstr "Domestic country of your accounting"
+msgstr "您的會計所在國家/地區"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.res_config_settings_view_form
 msgid "Download the Data Inalterability Check Report"
-msgstr "Download the Data Inalterability Check Report"
+msgstr "下載數據不變性檢查報告"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_partner_ledger.py:0
@@ -1455,7 +1433,7 @@ msgstr "到期時間"
 #: model:ir.ui.menu,name:account_reports.menu_action_account_report_sales
 #, python-format
 msgid "EC Sales List"
-msgstr "EC銷售明細行"
+msgstr "歐盟銷售清單"
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_equity0
@@ -1466,7 +1444,7 @@ msgstr "權益"
 #: code:addons/account_reports/models/account_report_coa.py:0
 #, python-format
 msgid "End Balance"
-msgstr "End Balance"
+msgstr "期末結餘"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_comparison
@@ -1496,8 +1474,6 @@ msgid ""
 "Error while validating the domain of line %s:\n"
 "%s"
 msgstr ""
-"Error while validating the domain of line %s:\n"
-"%s"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_financial_report.py:0
@@ -1508,33 +1484,33 @@ msgstr "Excess Journal Items"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.line_template_multicurrency_report
 msgid "Exclude"
-msgstr "Exclude"
+msgstr ""
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_account__exclude_from_aged_reports
 msgid "Exclude From Aged Reports"
-msgstr "Exclude From Aged Reports"
+msgstr ""
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_account__exclude_provision_currency_ids
 msgid "Exclude Provision Currency"
-msgstr "Exclude Provision Currency"
+msgstr "不包括準備金貨幣"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.line_template_multicurrency_report
 msgid "Exclude from adjustment/provisions entries"
-msgstr "Exclude from adjustment/provisions entries"
+msgstr ""
 
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_account_account__exclude_from_aged_reports
 msgid "Exclude this account from aged reports"
-msgstr "Exclude this account from aged reports"
+msgstr ""
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_multicurrency_revaluation_report.py:0
 #, python-format
 msgid "Excluded Accounts"
-msgstr "Excluded Accounts"
+msgstr "已排除賬戶"
 
 #. module: account_reports
 #: model:account.financial.html.report,name:account_reports.account_financial_report_executivesummary0
@@ -1581,18 +1557,18 @@ msgstr "通過客戶對帳單手動設定預計付款日期（例如：恰巧在
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_res_company__account_revaluation_expense_provision_account_id
 msgid "Expense Provision Account"
-msgstr "Expense Provision Account"
+msgstr "開支準備金賬戶"
 
 #. module: account_reports
 #: code:addons/account_reports/wizard/multicurrency_revaluation.py:0
 #, python-format
 msgid "Expense Provision for {for_cur}"
-msgstr "Expense Provision for {for_cur}"
+msgstr ""
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation_wizard__expense_provision_account_id
 msgid "Expense account"
-msgstr "Expense account"
+msgstr ""
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_expenses0
@@ -1611,17 +1587,17 @@ msgstr "匯出"
 #. module: account_reports
 #: model:ir.model,name:account_reports.model_account_reports_export_wizard_format
 msgid "Export format for accounting's reports"
-msgstr "Export format for accounting's reports"
+msgstr "會計報表匯出格式"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_reports_export_wizard__export_format_ids
 msgid "Export to"
-msgstr "Export to"
+msgstr "匯出至"
 
 #. module: account_reports
 #: model:ir.model,name:account_reports.model_account_reports_export_wizard
 msgid "Export wizard for accounting's reports"
-msgstr "Export wizard for accounting's reports"
+msgstr "會計報表匯出精靈"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.filter_info_template
@@ -1634,8 +1610,6 @@ msgid ""
 "Filters that can be used to filter and group lines in this report. This uses"
 " saved filters on journal items."
 msgstr ""
-"Filters that can be used to filter and group lines in this report. This uses"
-" saved filters on journal items."
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__financial_report_id
@@ -1683,7 +1657,7 @@ msgstr "所有帳戶和帳戶類型強制指定的日期"
 #: code:addons/account_reports/wizard/multicurrency_revaluation.py:0
 #, python-format
 msgid "Foreign currencies adjustment entry as of %s"
-msgstr "Foreign currencies adjustment entry as of %s"
+msgstr "外幣調整記項（截至 %s）"
 
 #. module: account_reports
 #. openerp-web
@@ -1725,7 +1699,7 @@ msgstr "從:"
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_reports_export_wizard_format__fun_to_call
 msgid "Function to Call"
-msgstr "Function to Call"
+msgstr "要呼叫的函數"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_general_ledger.py:0
@@ -1838,7 +1812,7 @@ msgstr "層級及小計"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.res_config_settings_view_form
 msgid "How often tax returns have to be made"
-msgstr "How often tax returns have to be made"
+msgstr "須多久提交一次稅務申報表"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_aged_payable__id
@@ -1858,12 +1832,12 @@ msgstr "ID"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.report_journal
 msgid "Impact On Grid"
-msgstr ""
+msgstr "對稅務規則影響"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.report_journal
 msgid "Impacted Tax Grids"
-msgstr ""
+msgstr "受影響稅務規則"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.line_template_multicurrency_report
@@ -1906,18 +1880,18 @@ msgstr "收入"
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation_wizard__income_provision_account_id
 msgid "Income Account"
-msgstr "收入科目"
+msgstr "收入賬戶"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_res_company__account_revaluation_income_provision_account_id
 msgid "Income Provision Account"
-msgstr "Income Provision Account"
+msgstr "收入準備金賬戶"
 
 #. module: account_reports
 #: code:addons/account_reports/wizard/multicurrency_revaluation.py:0
 #, python-format
 msgid "Income Provision for {for_cur}"
-msgstr "Income Provision for {for_cur}"
+msgstr ""
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
@@ -2012,7 +1986,7 @@ msgstr "稅務審計的日記帳項"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.main_template_control_domain
 msgid "Journal Items on the"
-msgstr "Journal Items on the"
+msgstr ""
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_consolidated_journals.py:0
@@ -2023,7 +1997,7 @@ msgstr "帳名稱(代碼)"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.main_template_control_domain
 msgid "Journal items on the"
-msgstr "Journal items on the"
+msgstr ""
 
 #. module: account_reports
 #: model:ir.actions.act_window,name:account_reports.action_account_print_journal_menu
@@ -2138,7 +2112,7 @@ msgstr "加載更多... (%s 剩餘)"
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_tax_unit__main_company_id
 msgid "Main Company"
-msgstr "Main Company"
+msgstr "主要公司"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.view_account_financial_report_line_form
@@ -2149,15 +2123,14 @@ msgstr "主要資訊"
 #: model:ir.model.fields,help:account_reports.field_account_tax_unit__main_company_id
 msgid ""
 "Main company of this unit; the one actually reporting and paying the taxes."
-msgstr ""
-"Main company of this unit; the one actually reporting and paying the taxes."
+msgstr "此單位的主要公司； 實際上報稅及納稅的人。"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_multicurrency_revaluation_report.py:0
 #: model_terms:ir.ui.view,arch_db:account_reports.view_account_multicurrency_revaluation_wizard
 #, python-format
 msgid "Make Adjustment Entry"
-msgstr "Make Adjustment Entry"
+msgstr "加入調整記項"
 
 #. module: account_reports
 #: model:ir.model,name:account_reports.model_account_report_manager
@@ -2178,7 +2151,7 @@ msgstr "匹配號碼"
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_account_tax_unit__company_ids
 msgid "Members of this unit"
-msgstr "Members of this unit"
+msgstr "此單位成員"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report__generated_menu_id
@@ -2245,7 +2218,7 @@ msgid ""
 "Multiple draft tax closing entries exist for fiscal position %s after %s. There should be at most one. \n"
 " %s"
 msgstr ""
-"Multiple draft tax closing entries exist for fiscal position %s after %s. There should be at most one. \n"
+"財務規則「%s」在 %s 之後有多個稅務結賬草稿記項。 最多應該只有一個。\n"
 " %s"
 
 #. module: account_reports
@@ -2255,7 +2228,7 @@ msgid ""
 "Multiple draft tax closing entries exist for your domestic region after %s. There should be at most one. \n"
 " %s"
 msgstr ""
-"Multiple draft tax closing entries exist for your domestic region after %s. There should be at most one. \n"
+"你的國內/本地地區在 %s 之後有多個稅務結賬草稿記項。 最多應該只有一個。\n"
 " %s"
 
 #. module: account_reports
@@ -2263,7 +2236,7 @@ msgstr ""
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "NET"
-msgstr "淨"
+msgstr "淨額"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_general_ledger.py:0
@@ -2282,7 +2255,7 @@ msgstr "名稱"
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_account_reports_export_wizard__doc_name
 msgid "Name to give to the generated documents."
-msgstr "Name to give to the generated documents."
+msgstr "為產生的文件命名的名稱。"
 
 #. module: account_reports
 #. openerp-web
@@ -2342,19 +2315,19 @@ msgstr "沒有單位"
 #: code:addons/account_reports/models/account_report.py:0
 #, python-format
 msgid "No VAT number associated with your company. Please define one."
-msgstr "No VAT number associated with your company. Please define one."
+msgstr "未有與你的公司關聯的稅務編號。 請定義一個。"
 
 #. module: account_reports
 #: code:addons/account_reports/wizard/multicurrency_revaluation.py:0
 #, python-format
 msgid "No adjustment needed"
-msgstr "No adjustment needed"
+msgstr "無需調整"
 
 #. module: account_reports
 #: code:addons/account_reports/wizard/multicurrency_revaluation.py:0
 #, python-format
 msgid "No provision needed was found."
-msgstr "No provision needed was found."
+msgstr "找不到所需的準備金。"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.filter_info_template
@@ -2398,7 +2371,7 @@ msgstr "過時"
 #: code:addons/account_reports/wizard/report_export_wizard.py:0
 #, python-format
 msgid "One of the formats chosen can not be exported in the DMS"
-msgstr "One of the formats chosen can not be exported in the DMS"
+msgstr "其中一種已選取格式無法在 DMS 匯出"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_sales_report.py:0
@@ -2410,7 +2383,7 @@ msgstr "One or more partners has no VAT Number."
 #: code:addons/account_reports/models/account_activity.py:0
 #, python-format
 msgid "Only Billing Administrators are allowed to change lock dates!"
-msgstr "Only Billing Administrators are allowed to change lock dates!"
+msgstr "只限賬單管理員才可更改鎖定日期！"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_extra_options
@@ -2464,7 +2437,7 @@ msgstr "上層路徑"
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_reports_export_wizard__report_id
 msgid "Parent Report Id"
-msgstr "Parent Report Id"
+msgstr "母項報告識別碼"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_reports_export_wizard_format__export_wizard_id
@@ -2526,7 +2499,7 @@ msgstr "合作夥伴"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.filter_info_template
 msgid "Partners:"
-msgstr "業務夥伴"
+msgstr "合作夥伴："
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_partner_ledger.py:0
@@ -2538,7 +2511,7 @@ msgstr "應付"
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "Payable tax amount"
-msgstr "Payable tax amount"
+msgstr "應付稅額"
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_current_liabilities_payable
@@ -2571,12 +2544,12 @@ msgstr "效能"
 #: model_terms:ir.ui.view,arch_db:account_reports.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:account_reports.setup_financial_year_opening_form
 msgid "Periodicity"
-msgstr "週期"
+msgstr "周期"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_financial_year_op__account_tax_periodicity
 msgid "Periodicity in month"
-msgstr "Periodicity in month"
+msgstr "周期（月）"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_financial_report.py:0
@@ -2585,23 +2558,21 @@ msgid ""
 "Please specify a Group by field when using '%s' in Formulas, on line with "
 "name '%s'"
 msgstr ""
-"Please specify a Group by field when using '%s' in Formulas, on line with "
-"name '%s'"
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_fixed_assets_view0
 msgid "Plus Fixed Assets"
-msgstr "加  固定資產"
+msgstr "加：固定資產"
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_non_current_assets_view0
 msgid "Plus Non-current Assets"
-msgstr "加  非流動資產"
+msgstr "加：非流動資產"
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_non_current_liabilities0
 msgid "Plus Non-current Liabilities"
-msgstr "加 非流動負債"
+msgstr "加：非流動負債"
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_position0
@@ -2611,7 +2582,7 @@ msgstr "位置"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_extra_options
 msgid "Posted Entries Only"
-msgstr "僅已過帳分錄"
+msgstr "只限已過賬記項"
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_prepayements0
@@ -2643,9 +2614,7 @@ msgstr "列印到新紙"
 msgid ""
 "Proceed with caution as there might be an existing adjustment for this "
 "period ("
-msgstr ""
-"Proceed with caution as there might be an existing adjustment for this "
-"period ("
+msgstr "請小心行事，因為此期間可能存在調整（"
 
 #. module: account_reports
 #: model:ir.actions.client,name:account_reports.action_account_report_pnl
@@ -2667,7 +2636,7 @@ msgstr "盈利能力"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.view_move_form_vat_return
 msgid "Proposition of tax closing journal entry."
-msgstr "Proposition of tax closing journal entry."
+msgstr "稅務結算日記賬記項的提案。"
 
 #. module: account_reports
 #: code:addons/account_reports/wizard/multicurrency_revaluation.py:0
@@ -2685,7 +2654,7 @@ msgstr "應收"
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "Receivable tax amount"
-msgstr "Receivable tax amount"
+msgstr "應收稅額"
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_debtors0
@@ -2848,8 +2817,6 @@ msgid ""
 "Set to True to automatically filter out journal items that are not tax "
 "exigible."
 msgstr ""
-"Set to True to automatically filter out journal items that are not tax "
-"exigible."
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.view_account_coa
@@ -2869,7 +2836,7 @@ msgstr "顯示domain"
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation_wizard__show_warning_move_id
 msgid "Show Warning Move"
-msgstr "Show Warning Move"
+msgstr "顯示警告分錄"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report__unfold_all_filter
@@ -2888,8 +2855,6 @@ msgid ""
 "Some of your tax groups are missing information in company %s. Please "
 "complete their configuration."
 msgstr ""
-"Some of your tax groups are missing information in company %s. Please "
-"complete their configuration."
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__special_date_changer
@@ -2902,17 +2867,13 @@ msgid ""
 "Specify a control domain that will raise a warning if the report line is not"
 " computed correctly."
 msgstr ""
-"Specify a control domain that will raise a warning if the report line is not"
-" computed correctly."
 
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_res_company__account_representative_id
 msgid ""
 "Specify an Accounting Firm that will act as a representative when exporting "
 "reports."
-msgstr ""
-"Specify an Accounting Firm that will act as a representative when exporting "
-"reports."
+msgstr "指定一家會計師事務所作為匯出報表時的代表。"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_comparison
@@ -2956,7 +2917,7 @@ msgstr "稅金總額"
 #: model:ir.model.fields,field_description:account_reports.field_account_move__tax_closing_end_date
 #: model:ir.model.fields,field_description:account_reports.field_account_payment__tax_closing_end_date
 msgid "Tax Closing End Date"
-msgstr "Tax Closing End Date"
+msgstr "稅務結算終結日期"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_general_ledger.py:0
@@ -2972,19 +2933,19 @@ msgstr "稅金陣列"
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_tax_unit__vat
 msgid "Tax ID"
-msgstr "稅ID"
+msgstr "稅務編號"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "Tax Paid Adjustment"
-msgstr "Tax Paid Adjustment"
+msgstr "已繳稅款調整"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "Tax Received Adjustment"
-msgstr "Tax Received Adjustment"
+msgstr "已收稅款調整"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
@@ -3003,30 +2964,30 @@ msgstr "稅金報告"
 #: model:ir.model.fields,field_description:account_reports.field_account_move__tax_report_control_error
 #: model:ir.model.fields,field_description:account_reports.field_account_payment__tax_report_control_error
 msgid "Tax Report Control Error"
-msgstr "Tax Report Control Error"
+msgstr "稅務報告控制錯誤"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.setup_financial_year_opening_form
 msgid "Tax Return"
-msgstr "Tax Return"
+msgstr "報稅"
 
 #. module: account_reports
 #: model:ir.model,name:account_reports.model_account_tax_unit
 #: model_terms:ir.ui.view,arch_db:account_reports.view_tax_unit_form
 msgid "Tax Unit"
-msgstr "Tax Unit"
+msgstr "稅務單位"
 
 #. module: account_reports
 #: model:ir.actions.act_window,name:account_reports.action_view_tax_units
 #: model:ir.model.fields,field_description:account_reports.field_res_company__account_tax_unit_ids
 #: model:ir.ui.menu,name:account_reports.menu_view_tax_units
 msgid "Tax Units"
-msgstr "Tax Units"
+msgstr "稅項單位"
 
 #. module: account_reports
 #: model:ir.model.fields.selection,name:account_reports.selection__mail_activity_type__category__tax_report
 msgid "Tax report"
-msgstr "Tax report"
+msgstr "稅務報表"
 
 #. module: account_reports
 #: code:addons/account_reports/models/res_company.py:0
@@ -3034,13 +2995,13 @@ msgstr "Tax report"
 #: code:addons/account_reports/models/res_company.py:0
 #, python-format
 msgid "Tax return for %s%s"
-msgstr "Tax return for %s%s"
+msgstr "稅務申報： %s%s"
 
 #. module: account_reports
 #: code:addons/account_reports/models/res_company.py:0
 #, python-format
 msgid "Tax return from %s to %s%s"
-msgstr "Tax return from %s to %s%s"
+msgstr "稅務申報（由 %s 至 %s%s）"
 
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_account_bank_statement_line__tax_closing_end_date
@@ -3050,13 +3011,11 @@ msgid ""
 "Technical field used for VAT closing, containig the end date of the period "
 "this entry closes."
 msgstr ""
-"Technical field used for VAT closing, containig the end date of the period "
-"this entry closes."
 
 #. module: account_reports
 #: model:ir.model,name:account_reports.model_ir_actions_account_report_download
 msgid "Technical model for accounting report downloads"
-msgstr "Technical model for accounting report downloads"
+msgstr "技術模型，用作會計報表下載"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_report_footnote__text
@@ -3067,14 +3026,14 @@ msgstr "文字"
 #: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
 #, python-format
 msgid "The Book balance in Odoo dated today"
-msgstr "The Book balance in Odoo dated today"
+msgstr ""
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "The amount will be : %s"
-msgstr "The amount will be : %s"
+msgstr ""
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
@@ -3087,14 +3046,12 @@ msgstr "The carried over balance will be : %s"
 msgid ""
 "The country in which this tax unit is used to group your companies' tax "
 "reports declaration."
-msgstr ""
-"The country in which this tax unit is used to group your companies' tax "
-"reports declaration."
+msgstr "使用此稅務單位對你公司的稅務報表申報進行分組的國家/地區。"
 
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_account_financial_html_report__country_id
 msgid "The country this report is intended to."
-msgstr "The country this report is intended to."
+msgstr ""
 
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_res_config_settings__account_fiscal_country_id
@@ -3108,8 +3065,6 @@ msgid ""
 "The current balance in the General Ledger %s doesn't match the balance of "
 "your last bank statement %s leading to an unexplained difference of %s."
 msgstr ""
-"The current balance in the General Ledger %s doesn't match the balance of "
-"your last bank statement %s leading to an unexplained difference of %s."
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
@@ -3120,13 +3075,13 @@ msgstr "The difference will be carried over to the next period's declaration."
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_account_tax_unit__vat
 msgid "The identifier to be used when submitting a report for this unit."
-msgstr "The identifier to be used when submitting a report for this unit."
+msgstr "提交該單位的報告時要使用的識別碼。"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_tax.py:0
 #, python-format
 msgid "The main company of a tax unit has to be part of it."
-msgstr "The main company of a tax unit has to be part of it."
+msgstr "稅務單位的主要公司必須是其一部分。"
 
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_account_financial_html_report__generated_menu_id
@@ -3136,17 +3091,17 @@ msgstr "為本報告生成的選單項，如果沒有，則沒有。"
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_res_company__account_tax_unit_ids
 msgid "The tax units this company belongs to."
-msgstr "The tax units this company belongs to."
+msgstr "此公司所屬稅務單位。"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.main_template
 msgid "There are"
-msgstr "這兒"
+msgstr "有"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.bank_reconciliation_report_main_template
 msgid "There are some"
-msgstr "There are some"
+msgstr "有一些"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
@@ -3173,25 +3128,25 @@ msgstr "在財務報表中允許設定合計的位置。"
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "This amount will be increased by the positive amount from"
-msgstr "This amount will be increased by the positive amount from"
+msgstr ""
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "This amount will be reduced by the negative amount from"
-msgstr "This amount will be reduced by the negative amount from"
+msgstr ""
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "This amount will be set to %s."
-msgstr "This amount will be set to %s."
+msgstr ""
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "This period is already closed for company %s"
-msgstr "This period is already closed for company %s"
+msgstr "%s 公司的此期間已關閉"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
@@ -3221,7 +3176,7 @@ msgstr "總計"
 #: code:addons/account_reports/models/account_general_ledger.py:0
 #, python-format
 msgid "Total %s"
-msgstr "總金額 %s"
+msgstr "%s總額"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
@@ -3229,9 +3184,7 @@ msgstr "總金額 %s"
 msgid ""
 "Transactions that were entered into Odoo, but not yet reconciled (Payments "
 "triggered by invoices/bills or manually)"
-msgstr ""
-"Transactions that were entered into Odoo, but not yet reconciled (Payments "
-"triggered by invoices/bills or manually)"
+msgstr "已輸入 Odoo 但尚未對賬的交易（由發票/賬單或手動觸發的付款）"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
@@ -3239,9 +3192,7 @@ msgstr ""
 msgid ""
 "Transactions(+) that were entered into Odoo, but not yet reconciled "
 "(Payments triggered by invoices/refunds or manually)"
-msgstr ""
-"Transactions(+) that were entered into Odoo, but not yet reconciled "
-"(Payments triggered by invoices/refunds or manually)"
+msgstr "已輸入 Odoo 但尚未對賬的交易(+)（由發票/退款或手動觸發的付款）"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
@@ -3263,7 +3214,7 @@ msgstr "試算表"
 #: code:addons/account_reports/models/account_sales_report.py:0
 #, python-format
 msgid "Triangular"
-msgstr "Triangular"
+msgstr "三角形"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__figure_type
@@ -3327,13 +3278,12 @@ msgstr "尚未調節"
 msgid ""
 "Use the dates that should normally be used, depending on the account types"
 msgstr ""
-"Use the dates that should normally be used, depending on the account types"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_sales_report_generic.py:0
 #, python-format
 msgid "VAT"
-msgstr "統一編號"
+msgstr "增值稅"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.view_company_form
@@ -3344,7 +3294,7 @@ msgstr "VAT Units"
 #: code:addons/account_reports/models/account_activity.py:0
 #, python-format
 msgid "Vat closing from %s to %s"
-msgstr "Vat closing from %s to %s"
+msgstr "增值稅關閉期間：由 %s 至 %s"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.line_caret_options
@@ -3356,7 +3306,7 @@ msgstr "查看銀行對帳單"
 #: code:addons/account_reports/static/src/xml/account_report_template.xml:0
 #, python-format
 msgid "View Carryover Lines"
-msgstr "View Carryover Lines"
+msgstr "檢視結轉資料行"
 
 #. module: account_reports
 #. openerp-web
@@ -3391,29 +3341,26 @@ msgstr "勾選的該明細行及其他行將被列印到一個新的頁面。"
 #: model_terms:ir.ui.view,arch_db:account_reports.res_config_settings_view_form
 msgid ""
 "When ticked, totals and subtotals appear below the sections of the report"
-msgstr ""
-"When ticked, totals and subtotals appear below the sections of the report"
+msgstr "若剔選，報表各分節下會顯示小計及總計"
 
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_res_company__totals_below_sections
 #: model:ir.model.fields,help:account_reports.field_res_config_settings__totals_below_sections
 msgid ""
 "When ticked, totals and subtotals appear below the sections of the report."
-msgstr "勾選後，總計和小計會顯示在報表的下一節。"
+msgstr "若剔選，報表各分節下會顯示小計及總計。"
 
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_account_account__exclude_provision_currency_ids
 msgid ""
 "Whether or not we have to make provisions for the selected foreign "
 "currencies."
-msgstr ""
-"Whether or not we have to make provisions for the selected foreign "
-"currencies."
+msgstr "是否必須為選定外幣撥備準備金。"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_extra_options
 msgid "With Draft Entries"
-msgstr "帶有草稿分錄"
+msgstr "包括草稿記項"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_report.py:0
@@ -3425,7 +3372,7 @@ msgstr "XLSX"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.template_multicurrency_report
 msgid "You are using custom exchange rates."
-msgstr "You are using custom exchange rates."
+msgstr "你正使用自訂匯率。"
 
 #. module: account_reports
 #: model:ir.model.fields.selection,name:account_reports.selection__res_company__account_tax_periodicity__year
@@ -3483,7 +3430,7 @@ msgstr "following accounts"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.bank_reconciliation_report_main_template
 msgid "having a starting balance different than the previous ending balance"
-msgstr "having a starting balance different than the previous ending balance"
+msgstr ""
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.bank_reconciliation_report_main_template
@@ -3493,12 +3440,12 @@ msgstr "journal items"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.main_template_control_domain
 msgid "might be listed in an incorrect section of the report."
-msgstr "might be listed in an incorrect section of the report."
+msgstr ""
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.main_template_control_domain
 msgid "might be missing from the proper section of the report."
-msgstr "might be missing from the proper section of the report."
+msgstr ""
 
 #. module: account_reports
 #: model:ir.model.fields.selection,name:account_reports.selection__res_company__account_tax_periodicity__monthly
@@ -3509,7 +3456,7 @@ msgstr "monthly"
 #: code:addons/account_reports/models/account_financial_report.py:0
 #, python-format
 msgid "n/a"
-msgstr "n/a"
+msgstr "(不適用)"
 
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_account_report_manager__report_name
@@ -3519,7 +3466,7 @@ msgstr "報告模組的名稱"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.main_template
 msgid "prior or included in this period"
-msgstr "prior or included in this period"
+msgstr "在此期間之前或包含在該期間內"
 
 #. module: account_reports
 #: model:ir.model.fields.selection,name:account_reports.selection__res_company__account_tax_periodicity__trimester
@@ -3546,7 +3493,7 @@ msgstr "statements"
 #: model:ir.model.fields,help:account_reports.field_account_move__tax_report_control_error
 #: model:ir.model.fields,help:account_reports.field_account_payment__tax_report_control_error
 msgid "technical field used to know if there was a failed control check"
-msgstr "technical field used to know if there was a failed control check"
+msgstr ""
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
@@ -3561,7 +3508,7 @@ msgstr "未過帳日記帳分錄"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.bank_reconciliation_report_main_template
 msgid "which doesn't result from a bank statement nor payments."
-msgstr "which doesn't result from a bank statement nor payments."
+msgstr "，它不是由銀行結單或付款產生的。"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.line_template_multicurrency_report
@@ -3576,7 +3523,7 @@ msgstr "⇒ Rates"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.template_multicurrency_report
 msgid "⇒ Reset to Odoo’s Rate"
-msgstr "⇒ Reset to Odoo’s Rate"
+msgstr "⇒ 重設至 Odoo 匯率"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.line_template_general_ledger_report
@@ -3602,4 +3549,4 @@ msgstr "並在必要時更正其稅項標籤。"
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "Journal items with archived tax tags"
-msgstr ""
+msgstr "附有已封存稅務標籤的日記賬項目"

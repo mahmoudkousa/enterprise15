@@ -5,7 +5,8 @@
 # Translators:
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2021
 # Martin Trigaux, 2021
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2022
+# Erwin van der Ploeg <erwin@odooexperts.nl>, 2023
+# Jolien De Paepe, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 08:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:41+0000\n"
-"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2022\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Last-Translator: Jolien De Paepe, 2023\n"
+"Language-Team: Dutch (https://app.transifex.com/odoo/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -827,7 +828,7 @@ msgstr "Geef diepte aan je"
 #: model_terms:ir.ui.view,arch_db:planning.planning_slot_template_view_search
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_search
 msgid "Group By"
-msgstr "Groepeer op"
+msgstr "Groeperen op"
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot_template__name
@@ -1620,6 +1621,13 @@ msgid "The schedule was successfully sent to your employees."
 msgstr "Het schema is succesvol verzonden naar je werknemers."
 
 #. module: planning
+#: code:addons/planning/models/planning_template.py:0
+#, python-format
+msgid "The selected duration creates a date too far into the future."
+msgstr ""
+"De geselecteerde duur creëert een datum die te ver in de toekomst ligt."
+
+#. module: planning
 #: code:addons/planning/models/planning.py:0
 #, python-format
 msgid "The shift has successfully been sent."
@@ -1649,6 +1657,12 @@ msgstr "De diensten zijn succesvol gepubliceerd en verzonden."
 #, python-format
 msgid "The shifts have successfully been published."
 msgstr "De verschuivingen zijn succesvol gepubliceerd."
+
+#. module: planning
+#: code:addons/planning/models/planning_template.py:0
+#, python-format
+msgid "The start hour must be greater or equal to 0 and lower than 24."
+msgstr "Het beginuur moet groter of gelijk zijn aan 0 en kleiner dan 24."
 
 #. module: planning
 #. openerp-web
@@ -1819,6 +1833,12 @@ msgstr "Je kunt geen negatieve duur hebben"
 #: model:ir.model.constraint,message:planning.constraint_planning_slot_template_check_start_time_lower_than_24
 msgid "You cannot have a start hour greater than 24"
 msgstr "Je kunt geen startuur hebben groter dan 24"
+
+#. module: planning
+#: code:addons/planning/models/planning_template.py:0
+#, python-format
+msgid "You cannot have a start hour greater than 24."
+msgstr "Je kan geen startuur hebben dat groter is dan 24."
 
 #. module: planning
 #: model:ir.model.constraint,message:planning.constraint_planning_slot_check_allocated_hours_positive

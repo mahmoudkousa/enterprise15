@@ -381,7 +381,7 @@ msgstr ""
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_stage_view_form
 msgid "Add a description..."
-msgstr ""
+msgstr "Pievienot aprakstu..."
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
@@ -494,12 +494,6 @@ msgstr ""
 #: code:addons/helpdesk/static/src/js/tours/helpdesk.js:0
 #, python-format
 msgid "Assign the ticket to a <b>member of your team</b>."
-msgstr ""
-
-#. module: helpdesk
-#: code:addons/helpdesk/models/helpdesk_ticket.py:0
-#, python-format
-msgid "Assign to me"
 msgstr ""
 
 #. module: helpdesk

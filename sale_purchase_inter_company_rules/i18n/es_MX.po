@@ -4,8 +4,9 @@
 # 
 # Translators:
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2021
-# Lucia Pacheco <lpo@odoo.com>, 2021
+# Lucia Pacheco, 2021
 # Martin Trigaux, 2022
+# Fernanda Alvarez, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 09:01+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Martin Trigaux, 2022\n"
-"Language-Team: Spanish (Mexico) (https://www.transifex.com/odoo/teams/41243/es_MX/)\n"
+"Last-Translator: Fernanda Alvarez, 2023\n"
+"Language-Team: Spanish (Mexico) (https://app.transifex.com/odoo/teams/41243/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -123,8 +124,9 @@ msgstr ""
 #. module: sale_purchase_inter_company_rules
 #: code:addons/sale_purchase_inter_company_rules/models/sale_order.py:0
 #, python-format
-msgid "Provide one user for intercompany relation for % "
-msgstr "Proporcionar un usuario para la relación interempresarial para %"
+msgid "Provide one user for intercompany relation for %(name)s "
+msgstr ""
+"Proporcionar un usuario para la relación interempresarial para %(name)s "
 
 #. module: sale_purchase_inter_company_rules
 #: model:ir.model,name:sale_purchase_inter_company_rules.model_purchase_order

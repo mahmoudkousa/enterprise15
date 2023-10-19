@@ -90,7 +90,7 @@ msgstr "Awalnya direncanakan jam"
 #: model_terms:ir.actions.act_window,help:project_forecast.action_project_task_view_planning
 #: model_terms:ir.actions.act_window,help:project_forecast.project_forecast_action_from_project
 msgid "Let's start your planning by adding a new shift."
-msgstr ""
+msgstr "Mari memulai perencanaan Anda dengan menambahkan shift baru."
 
 #. module: project_forecast
 #: model_terms:ir.actions.act_window,help:project_forecast.action_project_task_view_planning
@@ -116,12 +116,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:project_forecast.field_planning_slot__parent_id
 #: model_terms:ir.ui.view,arch_db:project_forecast.planning_slot_view_search
 msgid "Parent Task"
-msgstr ""
+msgstr "Task Induk"
 
 #. module: project_forecast
 #: model_terms:ir.ui.view,arch_db:project_forecast.project_view_form_inherit_project_forecast
 msgid "Plan your resources on project tasks"
-msgstr ""
+msgstr "Rencanakan sumber daya Anda pada task project"
 
 #. module: project_forecast
 #: model_terms:ir.ui.view,arch_db:project_forecast.project_view_form_inherit_project_forecast
@@ -158,12 +158,12 @@ msgstr "Sumber Daya"
 #. module: project_forecast
 #: model:ir.actions.act_window,name:project_forecast.planning_action_schedule_by_project
 msgid "Schedule by Project"
-msgstr ""
+msgstr "Jadwalkan berdasarkan Project"
 
 #. module: project_forecast
 #: model:ir.actions.act_window,name:project_forecast.project_forecast_action_schedule_by_employee
 msgid "Schedule by Resource"
-msgstr ""
+msgstr "Jadwalkan berdasarkan Sumber Daya"
 
 #. module: project_forecast
 #: code:addons/project_forecast/controllers/main.py:0
@@ -174,7 +174,7 @@ msgstr "Shift"
 #. module: project_forecast
 #: model:ir.model,name:project_forecast.model_planning_slot_template
 msgid "Shift Template"
-msgstr ""
+msgstr "Shfit Templat"
 
 #. module: project_forecast
 #: model_terms:ir.actions.act_window,help:project_forecast.planning_action_schedule_by_project
@@ -201,12 +201,12 @@ msgstr ""
 #. module: project_forecast
 #: model:ir.model.fields,field_description:project_forecast.field_project_project__total_forecast_time
 msgid "Total Forecast Time"
-msgstr ""
+msgstr "Total Waktu Forecast"
 
 #. module: project_forecast
 #: model:ir.model.fields,help:project_forecast.field_project_project__total_forecast_time
 msgid "Total number of forecast hours in the project rounded to the unit."
-msgstr ""
+msgstr "Total jumlah jam forecast di project dibulatkan sampai satuan."
 
 #. module: project_forecast
 #: model:ir.actions.act_window,name:project_forecast.action_project_task_view_planning

@@ -19,8 +19,8 @@
 # Linas Versada <linaskrisiukenas@gmail.com>, 2022
 # Martin Trigaux, 2022
 # Jonas Zinkevicius <jozi@odoo.com>, 2022
-# Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2022
 # Arunas V. <arunas@devoro.com>, 2023
+# Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -28,7 +28,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:42+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Arunas V. <arunas@devoro.com>, 2023\n"
+"Last-Translator: Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2023\n"
 "Language-Team: Lithuanian (https://app.transifex.com/odoo/teams/41243/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1483,7 +1483,7 @@ msgstr ""
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_log__event_date
 msgid "Event Date"
-msgstr ""
+msgstr "Renginio data"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
@@ -2613,7 +2613,7 @@ msgstr "Pasikartojimas:"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.product_template_view_form_recurring
 msgid "Recurring"
-msgstr ""
+msgstr "Yra prenumerata"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__recurring_invoice_day
@@ -2759,6 +2759,8 @@ msgstr ""
 #: model:ir.cron,name:sale_subscription.account_analytic_cron_for_invoice
 msgid "Sale Subscription: generate recurring invoices and payments"
 msgstr ""
+"Pardavimo prenumerata: generuokite pasikartojančias sąskaitas faktūras ir "
+"mokėjimus"
 
 #. module: sale_subscription
 #: model:ir.actions.server,name:sale_subscription.account_analytic_cron_ir_actions_server
@@ -3727,13 +3729,13 @@ msgstr "Mat. vnt."
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_form
 #: model_terms:ir.ui.view,arch_db:sale_subscription.wizard_form_view
 msgid "Upsell"
-msgstr ""
+msgstr "Papildymas"
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/models/sale_subscription.py:0
 #, python-format
 msgid "Upsell date: "
-msgstr ""
+msgstr "Papildymo data"
 
 #. module: sale_subscription
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order__subscription_management__upsell
@@ -3910,7 +3912,7 @@ msgstr ""
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__recurring_yearly
 msgid "Yearly Recurring Revenue"
-msgstr ""
+msgstr "Metinės prenumeratos pajamos"
 
 #. module: sale_subscription
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_template__recurring_rule_type__yearly

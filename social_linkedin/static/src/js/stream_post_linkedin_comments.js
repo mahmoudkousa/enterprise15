@@ -19,7 +19,7 @@ var StreamPostLinkedInComments = StreamPostComments.extend({
         this.totalLoadedComments = options.comments.length;
         this.offset = options.offset;
         this.summary = options.summary;
-
+        this.mediaType = 'linkedin';
         this._super.apply(this, arguments);
     },
 

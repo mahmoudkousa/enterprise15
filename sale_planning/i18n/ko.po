@@ -103,7 +103,7 @@ msgstr ""
 #. module: sale_planning
 #: model_terms:ir.actions.act_window,help:sale_planning.sale_planning_action_schedule_by_sale_order
 msgid "Let's start your planning by adding a new shift."
-msgstr ""
+msgstr "새 교대 근무를 추가하여 계획을 시작해 보세요."
 
 #. module: sale_planning
 #: model_terms:ir.actions.act_window,help:sale_planning.sale_planning_action_schedule_by_sale_order

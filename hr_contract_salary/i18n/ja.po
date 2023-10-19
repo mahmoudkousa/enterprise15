@@ -310,7 +310,7 @@ msgstr ""
 #: code:addons/hr_contract_salary/controllers/main.py:0
 #, python-format
 msgid "Contract Information:"
-msgstr ""
+msgstr "契約情報："
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_generate_simulation_link__contract_start_date
@@ -349,7 +349,7 @@ msgstr ""
 #. module: hr_contract_salary
 #: model:ir.model,name:hr_contract_salary.model_hr_contract_employee_report
 msgid "Contract and Employee Analysis Report"
-msgstr ""
+msgstr "連絡先と従業員分析レポート"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,help:hr_contract_salary.field_hr_contract_salary_advantage__res_field_id
@@ -1358,7 +1358,7 @@ msgstr ""
 #: code:addons/hr_contract_salary/controllers/main.py:0
 #, python-format
 msgid "Signature Request - %s"
-msgstr ""
+msgstr "署名ようきゅう - %s"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields.selection,name:hr_contract_salary.selection__hr_contract_salary_advantage__display_type__slider

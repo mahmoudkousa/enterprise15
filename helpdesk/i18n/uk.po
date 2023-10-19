@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2021
-# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2022
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 11:16+0000\n"
 "PO-Revision-Date: 2021-09-14 12:39+0000\n"
-"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2022\n"
-"Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
+"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/odoo/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -536,10 +536,6 @@ msgstr "Модель псевдоніма"
 
 #. module: helpdesk
 #: code:addons/helpdesk/controllers/portal.py:0
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla__priority__0
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla_report_analysis__priority__0
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket__priority__0
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket_report_analysis__priority__0
 #, python-format
 msgid "All"
 msgstr "Всі"
@@ -600,12 +596,6 @@ msgstr "Призначайте нові заявки на потрібних л�
 #, python-format
 msgid "Assign the ticket to a <b>member of your team</b>."
 msgstr "Призначте заявку <b>члену вашої команди</b>."
-
-#. module: helpdesk
-#: code:addons/helpdesk/models/helpdesk_ticket.py:0
-#, python-format
-msgid "Assign to me"
-msgstr "Призначити мені"
 
 #. module: helpdesk
 #: code:addons/helpdesk/controllers/portal.py:0
@@ -1870,10 +1860,10 @@ msgid "Low Priority"
 msgstr "Низький пріоритет"
 
 #. module: helpdesk
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla__priority__1
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla_report_analysis__priority__1
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket__priority__1
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket_report_analysis__priority__1
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla__priority__0
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla_report_analysis__priority__0
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket__priority__0
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket_report_analysis__priority__0
 msgid "Low priority"
 msgstr "Низький пріоритет"
 
@@ -1920,6 +1910,14 @@ msgstr "Канал"
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_tickets_view_search
 msgid "Medium Priority"
 msgstr "Пріоритет каналу"
+
+#. module: helpdesk
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla__priority__1
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla_report_analysis__priority__1
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket__priority__1
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket_report_analysis__priority__1
+msgid "Medium priority"
+msgstr "Середній пріоритет"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__message_has_error
@@ -2389,8 +2387,22 @@ msgstr "Плануйте втручання на місці"
 #. openerp-web
 #: code:addons/helpdesk/static/src/js/helpdesk_dashboard.js:0
 #, python-format
-msgid "Please enter an integer value"
-msgstr "Введіть ціле значення"
+msgid "Please enter a number."
+msgstr "Введіть номер."
+
+#. module: helpdesk
+#. openerp-web
+#: code:addons/helpdesk/static/src/js/helpdesk_dashboard.js:0
+#, python-format
+msgid "Please enter a percentage below 100."
+msgstr "Будь ласка, введіть відсоток менше 100."
+
+#. module: helpdesk
+#. openerp-web
+#: code:addons/helpdesk/static/src/js/helpdesk_dashboard.js:0
+#, python-format
+msgid "Please enter a positive value."
+msgstr "Введіть позитивне значення."
 
 #. module: helpdesk
 #: model:ir.model.fields,help:helpdesk.field_helpdesk_team__alias_contact

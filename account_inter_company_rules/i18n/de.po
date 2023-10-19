@@ -3,8 +3,8 @@
 # 	* account_inter_company_rules
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2021
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Martin Trigaux, 2023\n"
+"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -47,7 +47,7 @@ msgstr "Unternehmen"
 #. module: account_inter_company_rules
 #: model:ir.model,name:account_inter_company_rules.model_res_config_settings
 msgid "Config Settings"
-msgstr "Konfiguration "
+msgstr "Konfigurationseinstellungen "
 
 #. module: account_inter_company_rules
 #: model:ir.model.fields,field_description:account_inter_company_rules.field_res_company__intercompany_user_id
@@ -71,7 +71,7 @@ msgstr ""
 #. module: account_inter_company_rules
 #: model_terms:ir.ui.view,arch_db:account_inter_company_rules.view_company_inter_change_inherit_form
 msgid "Inter-Company Transactions"
-msgstr "Unternehmensinterne Transaktionen"
+msgstr "Zwischenbetriebliche Transaktionen"
 
 #. module: account_inter_company_rules
 #: model:ir.model.fields,field_description:account_inter_company_rules.field_res_company__intercompany_transaction_message
@@ -82,7 +82,7 @@ msgstr "Unternehmensinterne Transaktionsmiteilung"
 #. module: account_inter_company_rules
 #: model:ir.model,name:account_inter_company_rules.model_account_move
 msgid "Journal Entry"
-msgstr "Buchungssatz"
+msgstr "Journalbuchung"
 
 #. module: account_inter_company_rules
 #: model:ir.model,name:account_inter_company_rules.model_account_move_line
@@ -96,7 +96,7 @@ msgid ""
 "Responsible user for creation of documents triggered by intercompany rules."
 msgstr ""
 "Verantwortlicher Benutzer für die Erstellung von Dokumenten, die sich aus "
-"den konzerninternen Regeln ergeben."
+"den zwischenbetriebliche Regeln ergeben."
 
 #. module: account_inter_company_rules
 #: model:ir.model.fields,field_description:account_inter_company_rules.field_res_company__rule_type
@@ -107,24 +107,24 @@ msgstr "Regel"
 #. module: account_inter_company_rules
 #: model:ir.model.fields,field_description:account_inter_company_rules.field_res_config_settings__rules_company_id
 msgid "Select Company"
-msgstr "Wählen Sie das Unternehmen"
+msgstr "Unternehmen auswählen"
 
 #. module: account_inter_company_rules
 #: model:ir.model.fields,help:account_inter_company_rules.field_res_company__rule_type
 #: model:ir.model.fields,help:account_inter_company_rules.field_res_config_settings__rule_type
 msgid "Select the type to setup inter company rules in selected company."
 msgstr ""
-"Wählen Sie den Typ, um konzerninterne Regeln im ausgewählten Unternehmen "
-"aufzustellen."
+"Wählen Sie den Typ, um zwischenbetrieblich Regeln im ausgewählten "
+"Unternehmen aufzustellen."
 
 #. module: account_inter_company_rules
 #: model:ir.model.fields,field_description:account_inter_company_rules.field_account_bank_statement_line__auto_invoice_id
 #: model:ir.model.fields,field_description:account_inter_company_rules.field_account_move__auto_invoice_id
 #: model:ir.model.fields,field_description:account_inter_company_rules.field_account_payment__auto_invoice_id
 msgid "Source Invoice"
-msgstr "Herkunft Rechnung"
+msgstr "Referenzrechnung"
 
 #. module: account_inter_company_rules
 #: model:ir.model.fields.selection,name:account_inter_company_rules.selection__res_company__rule_type__invoice_and_refund
 msgid "Synchronize invoices/bills"
-msgstr "Rechnungen synchronisieren"
+msgstr "Ein-/Ausgangsrechnungen synchronisieren"

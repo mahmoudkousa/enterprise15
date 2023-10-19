@@ -7,6 +7,7 @@
 # JH CHOI <hwangtog@gmail.com>, 2021
 # Link Up링크업 <linkup.way@gmail.com>, 2021
 # Linkup <link-up@naver.com>, 2021
+# Daye Jeong, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:56+0000\n"
 "PO-Revision-Date: 2021-09-14 12:41+0000\n"
-"Last-Translator: Linkup <link-up@naver.com>, 2021\n"
-"Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
+"Last-Translator: Daye Jeong, 2023\n"
+"Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -31,6 +32,11 @@ msgid ""
 "                    1. Read the pairing code from a display or thermal printer connected to the IoT Box.<br/>\n"
 "                    2. Enter the code below and click on \"Pair\".<br/>"
 msgstr ""
+"0. IoT 박스 전원을 켭니다.<br/><br/>\n"
+"\n"
+"                    <strong>A. 이더넷에 연결합니다.</strong><br/>\n"
+"                    1. IoT Box에 연결된 디스플레이 또는 감열식 프린에서 페어링 코드를 불러옵니다.<br/>\n"
+"                    2. 아래의 코드를 입력하고 \"페어링\"을 클릭합니다.<br/>"
 
 #. module: iot
 #: model_terms:ir.ui.view,arch_db:iot.iot_device_view_kanban
@@ -52,6 +58,12 @@ msgid ""
 "                    4. You will be redirected to the IoT Box Homepage<br/>\n"
 "                    5. Paste the token in token field and follow the steps described on the IoT Box Homepage<br/>"
 msgstr ""
+"<strong>B. WiFi 연결 (또는 이더넷 연결이 작동하지 않음)</strong><br/>\n"
+"                    1. Make sure no ethernet cable is connected to the IoT Box<br/>\n"
+"                    2. Copy the token that is below<br/>\n"
+"                    3. Connect to the IoT Box WiFi network (you should see it in your available WiFi networks)<br/>\n"
+"                    4. You will be redirected to the IoT Box Homepage<br/>\n"
+"                    5. Paste the token in token field and follow the steps described on the IoT Box Homepage<br/>"
 
 #. module: iot
 #: model:ir.model,name:iot.model_add_iot_box
@@ -95,14 +107,14 @@ msgstr "카메라"
 #: code:addons/iot/static/src/js/iot_device_controllers.js:0
 #, python-format
 msgid "Check if the device is still connected"
-msgstr ""
+msgstr "디바이스가 아직 연결되어 있는지 확인"
 
 #. module: iot
 #. openerp-web
 #: code:addons/iot/static/src/js/action_manager.js:0
 #, python-format
 msgid "Check if the printer is still connected"
-msgstr ""
+msgstr "프린터가 아직 연결되어 있는지 확인"
 
 #. module: iot
 #. openerp-web
@@ -188,7 +200,7 @@ msgstr "장치에 연결하지 못했습니다"
 #: code:addons/iot/static/src/js/action_manager.js:0
 #, python-format
 msgid "Connection to printer failed"
-msgstr ""
+msgstr "프린터 연결 실패"
 
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_add_iot_box__create_uid
@@ -225,7 +237,7 @@ msgstr "장치 유형"
 #. module: iot
 #: model_terms:ir.ui.view,arch_db:iot.iot_device_view_kanban
 msgid "Device type is #{record.type.raw_value}"
-msgstr ""
+msgstr "디바이스 유형은 #{record.type.raw_value}입니다"
 
 #. module: iot
 #: model:ir.actions.act_window,name:iot.iot_device_action
@@ -252,7 +264,7 @@ msgstr "표시명"
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_iot_device__display_url
 msgid "Display URL"
-msgstr ""
+msgstr " URL 표시"
 
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_iot_box__ip
@@ -265,7 +277,7 @@ msgstr "도메인 주소"
 #: code:addons/iot/static/src/js/iot_widgets.js:0
 #, python-format
 msgid "Download Logs"
-msgstr ""
+msgstr "다운로드 기록"
 
 #. module: iot
 #. openerp-web
@@ -362,7 +374,7 @@ msgstr "IOT 장치"
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_iot_device__is_scanner
 msgid "Is Scanner"
-msgstr ""
+msgstr "스캐너"
 
 #. module: iot
 #: model:ir.model.fields.selection,name:iot.selection__iot_device__type__keyboard
@@ -412,17 +424,17 @@ msgstr "배치"
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_iot_device__manual_measurement
 msgid "Manual Measurement"
-msgstr ""
+msgstr "수동 측정"
 
 #. module: iot
 #: model:ir.model.fields,help:iot.field_iot_device__manual_measurement
 msgid "Manually read the measurement from the device"
-msgstr ""
+msgstr "장치에서 수동으로 측정값 읽기"
 
 #. module: iot
 #: model:ir.model.fields,help:iot.field_iot_device__is_scanner
 msgid "Manually switch the device type between keyboard and scanner"
-msgstr ""
+msgstr "키보드와 스캐너 간에 수동으로 디바이스 유형 전환하기"
 
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_iot_device__manufacturer
@@ -456,12 +468,12 @@ msgstr "Odoo는 IoT Box에 연결할 수 없습니다."
 #. module: iot
 #: model_terms:ir.ui.view,arch_db:iot.view_add_iot_box
 msgid "Pair"
-msgstr ""
+msgstr "페어링"
 
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_add_iot_box__pairing_code
 msgid "Pairing Code"
-msgstr ""
+msgstr "페어링 코드"
 
 #. module: iot
 #: model:ir.model.fields.selection,name:iot.selection__iot_device__type__payment
@@ -501,7 +513,7 @@ msgstr "프린터"
 #: code:addons/iot/static/src/js/action_manager.js:0
 #, python-format
 msgid "Printer "
-msgstr ""
+msgstr "프린터"
 
 #. module: iot
 #: model_terms:ir.ui.view,arch_db:iot.iot_device_view_form
@@ -556,7 +568,7 @@ msgstr "프린터로 성공적으로 전송되었습니다!"
 msgid ""
 "The pairing code you provided was not found in our system. Please check that"
 " you entered it correctly."
-msgstr ""
+msgstr "입력하신 페어링 코드는 시스템에서 찾을 수 없습니다. 올바르게 입력했는지 다시 확인해 주세요."
 
 #. module: iot
 #: model_terms:ir.actions.act_window,help:iot.iot_device_action_search_iot_box
@@ -609,7 +621,7 @@ msgstr "파생 상품"
 #: code:addons/iot/wizard/add_iot_box.py:0
 #, python-format
 msgid "We had troubles pairing your IoT Box. Please try again later."
-msgstr ""
+msgstr "IoT Box를 페어링하는 데 문제가 발생했습니다. 나중에 다시 시도하세요."
 
 #. module: iot
 #: model:ir.model.fields,help:iot.field_ir_actions_report__device_id

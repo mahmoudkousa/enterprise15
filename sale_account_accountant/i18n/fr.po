@@ -6,7 +6,7 @@
 # Martin Trigaux, 2021
 # Vincent Luba <vincent@biz-4-africa.com>, 2021
 # Jonathan Quique <jqu@odoo.com>, 2021
-# Ludvig Auvens <lau@odoo.com>, 2021
+# Jolien De Paepe, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,13 +14,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:42+0000\n"
-"Last-Translator: Ludvig Auvens <lau@odoo.com>, 2021\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Last-Translator: Jolien De Paepe, 2023\n"
+"Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. module: sale_account_accountant
 #: model:ir.model,name:sale_account_accountant.model_account_reconciliation_widget
@@ -47,7 +47,7 @@ msgstr "Bon de commande"
 #: code:addons/sale_account_accountant/static/src/js/account_reconciliation.js:0
 #, python-format
 msgid "Sale Orders"
-msgstr "Bons de commandes"
+msgstr "Commandes"
 
 #. module: sale_account_accountant
 #. openerp-web

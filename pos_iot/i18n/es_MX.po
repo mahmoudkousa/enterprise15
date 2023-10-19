@@ -112,7 +112,7 @@ msgstr "Falló la configuración de la terminal de pago"
 #: code:addons/pos_iot/static/src/js/payment.js:0
 #, python-format
 msgid "Connection to IoT Box failed"
-msgstr "La conexión a la caja IoT falló"
+msgstr "Falló la conexión a la caja IoT"
 
 #. module: pos_iot
 #. openerp-web

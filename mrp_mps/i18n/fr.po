@@ -569,7 +569,7 @@ msgstr "La combinaison d'entrepôt et article doit être unique !"
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "The confirmed demand, based on the confirmed sales orders."
-msgstr "La demande confirmée, basée sur les bons de commandes confirmés."
+msgstr "La demande confirmée, basée sur les commandes clients confirmées."
 
 #. module: mrp_mps
 #. openerp-web

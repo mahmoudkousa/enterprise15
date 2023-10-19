@@ -29,8 +29,8 @@ msgid ""
 "Allow notifications to be able to add talks into your favorite list or "
 "connect to other attendees."
 msgstr ""
-"Permita el uso de notificaciones para poder agregar pláticas a su lista "
-"favorita, o conectar con otros asistentes."
+"Permita el uso de notificaciones para poder agregar pláticas a su lista de "
+"favoritos o conectar con otros asistentes."
 
 #. module: website_event_social
 #: model:ir.model,name:website_event_social.model_res_partner

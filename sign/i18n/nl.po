@@ -6,8 +6,10 @@
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2021
 # Yip132 <yannick.renders@gmail.com>, 2021
 # Martin Trigaux, 2021
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2022
 # Camille Dantinne <cmd@odoo.com>, 2022
+# Erwin van der Ploeg <erwin@odooexperts.nl>, 2023
+# Wil Odoo, 2023
+# Jolien De Paepe, 2023
 # 
 msgid ""
 msgstr ""
@@ -15,8 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:42+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Camille Dantinne <cmd@odoo.com>, 2022\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Last-Translator: Jolien De Paepe, 2023\n"
+"Language-Team: Dutch (https://app.transifex.com/odoo/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -163,7 +165,7 @@ msgstr "<i class=\"fa fa-globe\"/>Bekijk"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign._doc_sign
 msgid "<i> Waiting Signature</i>"
-msgstr "<i>Wachten op handtekening</i>"
+msgstr "<i>Wachtend op handtekening</i>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_share_view_form
@@ -755,7 +757,7 @@ msgstr "Klant"
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_request_item__access_url
 msgid "Customer Portal URL"
-msgstr "Klant portaal URL"
+msgstr "Klantenportaal URL"
 
 #. module: sign
 #: model:ir.ui.menu,name:sign.sign_template_menu
@@ -843,7 +845,7 @@ msgstr "Negeren"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_item_view_form
 msgid "Display"
-msgstr "Tonen"
+msgstr "Weergave"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_duplicate_template_pdf__display_name
@@ -1173,7 +1175,7 @@ msgstr "Geweldig, het document is ondertekend!<br> Laten we deze bevestigen."
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "Group By"
-msgstr "Groepeer op"
+msgstr "Groeperen op"
 
 #. module: sign
 #: model:sign.template.tag,name:sign.sign_template_tag_1
@@ -1255,7 +1257,7 @@ msgstr "indien aangevinkt hebben sommige leveringen een fout."
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__in_progress_count
 msgid "In Progress Count"
-msgstr "Telling in uitvoering."
+msgstr "Telling in behandeling."
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_kanban
@@ -1276,7 +1278,7 @@ msgstr "Informatie"
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_item_type__item_type__initial
 msgid "Initial"
-msgstr "Initieel"
+msgstr "Initiaal"
 
 #. module: sign
 #. openerp-web
@@ -1496,6 +1498,12 @@ msgstr "E-mailupdate"
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_main_attachment_id
 msgid "Main Attachment"
 msgstr "Hoofdbijlage"
+
+#. module: sign
+#: code:addons/sign/models/sign_template.py:0
+#, python-format
+msgid "Malformed expression: %(exp)s"
+msgstr "Misvormde uitdrukking: %(exp)s"
 
 #. module: sign
 #. openerp-web
@@ -1736,7 +1744,7 @@ msgstr "Aantal lopende documenten voor deze sjabloon."
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 msgid "Number of documents signed for this template."
-msgstr "Aantal ondertekende documenten voor dit sjabloon."
+msgstr "Aantal ondertekende documenten voor deze sjabloon."
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_has_error_counter
@@ -1887,7 +1895,7 @@ msgstr "Telefoonnummer"
 #: model:ir.model.fields,field_description:sign.field_sign_item_type__placeholder
 #, python-format
 msgid "Placeholder"
-msgstr "Label"
+msgstr "Placeholder"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.doc_sign
@@ -2263,7 +2271,7 @@ msgid ""
 "Invited users can always edit the document template.\n"
 "Existing requests based on this template will not be affected by changes."
 msgstr ""
-"Stel in wie dit sjabloon kan gebruiken:\n"
+"Stel in wie deze sjabloon kan gebruiken:\n"
 "- Alle gebruikers: alle gebruikers van de Sign-applicatie kunnen het document sjabloon bekijken en gebruiken\n"
 "- Op uitnodiging bekijken en gebruiken: enkel uitgenodigde gebruikers kunnen het sjabloon bekijken en gebruiken. Uitgenodigde gebruikers kunnen altijd het sjabloon bewerken. Bestaande verzoeken op basis van het oorspronkelijke sjabloon zullen niet beïnvloed worden door wijzigingen."
 
@@ -2654,7 +2662,7 @@ msgstr "Datum ondertekening"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "Signing Events"
-msgstr "Evenementen tekenen"
+msgstr "Onderteken log"
 
 #. module: sign
 #. openerp-web
@@ -2676,7 +2684,7 @@ msgstr "Sommige velden moeten nog voltooid worden!"
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "Somebody is already filling a document which uses this template"
-msgstr "Iemand is dit document al aan het invullen dat dit sjabloon gebruikt"
+msgstr "Iemand is dit document al aan het invullen dat deze sjabloon gebruikt"
 
 #. module: sign
 #. openerp-web
@@ -2886,7 +2894,7 @@ msgid ""
 "on&amp;nbsp;"
 msgstr ""
 "Het definitieve document en de voltooiingsgeschiedenis zijn per e-mail "
-"verzonden on&amp;nbsp;"
+"verzonden op&amp;nbsp;"
 
 #. module: sign
 #: code:addons/sign/wizard/sign_send_request.py:0
@@ -2965,9 +2973,26 @@ msgid "The template doesn't exist anymore."
 msgstr "Het sjabloon bestaat niet meer."
 
 #. module: sign
+#: code:addons/sign/wizard/sign_duplicate_template_with_pdf.py:0
+#, python-format
+msgid "The uploaded file is not a valid PDF. Please upload a valid PDF file."
+msgstr ""
+
+#. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "There are no signatures request."
 msgstr "Er zijn geen handtekeningsverzoeken."
+
+#. module: sign
+#: code:addons/sign/models/sign_request.py:0
+#: code:addons/sign/models/sign_request.py:0
+#, python-format
+msgid ""
+"There was an issue downloading your document. Please contact an "
+"administrator."
+msgstr ""
+"Er is een probleem opgetreden tijdens het downloaden van je document. Neem "
+"contact op met een administrator."
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
@@ -3060,6 +3085,16 @@ msgid "Unable to send the SMS, please contact the sender of the document."
 msgstr ""
 "Niet in staat om het sms-bericht te verzenden, neem contact op met de "
 "afzender van het document."
+
+#. module: sign
+#: code:addons/sign/controllers/main.py:0
+#, python-format
+msgid ""
+"Unable to sign the document due to missing required data. Please contact an "
+"administrator."
+msgstr ""
+"Kan het document niet ondertekenen door ontbrekende vereiste gegevens. Neem "
+"contact op met een beheerder."
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_unread
@@ -3181,12 +3216,12 @@ msgstr "Bekeken/gedownload door"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "Waiting for me"
-msgstr "Wachten op mij"
+msgstr "Wachtend op mijn handtekening"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "Waiting for others"
-msgstr "Wachten op anderen"
+msgstr "Wachtend op anderen"
 
 #. module: sign
 #. openerp-web
@@ -3444,12 +3479,12 @@ msgstr "labels"
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
 msgid "this template to modify it."
-msgstr "dit sjabloon om het te wijzigen."
+msgstr "deze sjabloon om het te wijzigen."
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "to:"
-msgstr "t/m:"
+msgstr "naar:"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_completed

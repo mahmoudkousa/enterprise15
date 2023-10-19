@@ -6,6 +6,7 @@
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
 # Sergio Zanchetta <primes2h@gmail.com>, 2023
+# Stefano Consolaro <stefano.consolaro@mymage.it>, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:43+0000\n"
 "PO-Revision-Date: 2021-09-14 12:42+0000\n"
-"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2023\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Last-Translator: Stefano Consolaro <stefano.consolaro@mymage.it>, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -71,7 +72,7 @@ msgstr "Lotto/Seriale completato"
 #: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.quality_check_view_search_inherit_mrp_workorder
 #: model_terms:ir.ui.view,arch_db:quality_mrp_workorder.quality_point_view_search_inherit_mrp_workorder
 msgid "Manufacturing Steps"
-msgstr ""
+msgstr "Passi lavorazione"
 
 #. module: quality_mrp_workorder
 #: model:ir.model.fields,field_description:quality_mrp_workorder.field_mrp_workorder__measure

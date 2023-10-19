@@ -3,9 +3,9 @@
 # 	* web_studio
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Andy Cheng <andy.cheng@richsoda.com>, 2021
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2021
+# Martin Trigaux, 2023
 # Tony Ng, 2023
 # 
 msgid ""
@@ -798,7 +798,7 @@ msgstr ""
 #: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
 #, python-format
 msgid "Churn"
-msgstr ""
+msgstr "流失"
 
 #. module: web_studio
 #. openerp-web
@@ -1587,7 +1587,7 @@ msgstr ""
 #: code:addons/web_studio/models/ir_model.py:0
 #, python-format
 msgid "Email"
-msgstr "Email"
+msgstr "電郵"
 
 #. module: web_studio
 #. openerp-web
@@ -1688,7 +1688,7 @@ msgstr "匯出"
 #: code:addons/web_studio/static/src/legacy/js/reports/report_kanban_view.js:0
 #, python-format
 msgid "External"
-msgstr ""
+msgstr "外部"
 
 #. module: web_studio
 #. openerp-web
@@ -2063,7 +2063,7 @@ msgstr ""
 #: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
 #, python-format
 msgid "Hour"
-msgstr ""
+msgstr "小時"
 
 #. module: web_studio
 #. openerp-web
@@ -3203,7 +3203,7 @@ msgstr ""
 #: code:addons/web_studio/static/src/client_action/model_configurator/model_configurator.js:0
 #, python-format
 msgid "Restrict a record to a specific company"
-msgstr ""
+msgstr "將記錄限制至特定公司"
 
 #. module: web_studio
 #. openerp-web

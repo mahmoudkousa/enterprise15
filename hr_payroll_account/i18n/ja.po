@@ -6,6 +6,7 @@
 # Martin Trigaux, 2022
 # Yoshi Tashiro (Quartile) <tashiro@roomsfor.hk>, 2022
 # Ryoko Tsuda <ryoko@quartile.co>, 2022
+# Junko Augias, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:40+0000\n"
-"Last-Translator: Ryoko Tsuda <ryoko@quartile.co>, 2022\n"
-"Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
+"Last-Translator: Junko Augias, 2023\n"
+"Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -89,7 +90,7 @@ msgstr "従業員契約"
 #, python-format
 msgid ""
 "Incorrect journal: The journal must be in the same currency as the company"
-msgstr ""
+msgstr "間違った仕訳帳:仕訳帳の通貨は会社と同じである必要があります。"
 
 #. module: hr_payroll_account
 #: model:ir.model.fields,help:hr_payroll_account.field_hr_payslip__date

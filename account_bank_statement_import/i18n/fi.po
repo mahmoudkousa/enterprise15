@@ -967,6 +967,18 @@ msgid "You have to set a Default Account for the journal: %s"
 msgstr "Olet asettanut oletustilin päiväkirjalle: %s"
 
 #. module: account_bank_statement_import
+#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
+#, python-format
+msgid "The following files could not be imported:\n"
+msgstr "Seuraavia tiedostoja ei voitu tuoda:\n"
+
+#. module: account_bank_statement_import
+#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
+#, python-format
+msgid "View successfully imported statements"
+msgstr "Näytä onnistuneesti tuodut tiliotteet"
+
+#. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.journal_dashboard_view_inherit
 msgid "or"
 msgstr "tai"

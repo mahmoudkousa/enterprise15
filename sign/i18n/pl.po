@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Michał <michal.gorecki@esnc.pl>, 2021
+# Marcin Młynarczyk <mlynarczyk@gmail.com>, 2021
 # Grzegorz Krukar <grzegorzgk1@gmail.com>, 2021
 # Wiktor Kaźmierczak <wik92tor@wp.pl>, 2021
 # Natalia Gros <nag@odoo.com>, 2021
@@ -15,7 +16,6 @@
 # Judyta Kaźmierczak <judyta.kazmierczak@openglobe.pl>, 2021
 # Tomasz Leppich <t.leppich@gmail.com>, 2021
 # Mariusz, 2021
-# Marcin Młynarczyk <mlynarczyk@gmail.com>, 2021
 # Karol Rybak <karolrybak85@gmail.com>, 2021
 # Monika Grzelak <m.e.grzelak@gmail.com>, 2021
 # Andrzej Wiśniewski <a.wisniewski@hadron.eu.com>, 2021
@@ -527,7 +527,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "By"
-msgstr "według/przez"
+msgstr "przez"
 
 #. module: sign
 #. openerp-web
@@ -575,7 +575,7 @@ msgstr "Anuluj"
 #: model:ir.model.fields.selection,name:sign.selection__sign_request__state__canceled
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "Canceled"
-msgstr "Anulowano"
+msgstr "Anulowane"
 
 #. module: sign
 #. openerp-web
@@ -1190,7 +1190,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "Group By"
-msgstr "Grupuj wg."
+msgstr "Grupuj wg"
 
 #. module: sign
 #: model:sign.template.tag,name:sign.sign_template_tag_1
@@ -1512,6 +1512,12 @@ msgstr "Aktualizacja poczty"
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_main_attachment_id
 msgid "Main Attachment"
 msgstr "Główny załącznik"
+
+#. module: sign
+#: code:addons/sign/models/sign_template.py:0
+#, python-format
+msgid "Malformed expression: %(exp)s"
+msgstr "Zniekształcone wyrażenie: %(exp)s"
 
 #. module: sign
 #. openerp-web
@@ -2753,7 +2759,7 @@ msgstr "Temat"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template_tag__name
 msgid "Tag Name"
-msgstr "Nazwa znacznika"
+msgstr "Nazwa tagu"
 
 #. module: sign
 #: model:ir.model.constraint,message:sign.constraint_sign_template_tag_name_uniq
@@ -2764,7 +2770,7 @@ msgstr "Nazwa znacznika już istnieje!"
 #: model:ir.model.fields,field_description:sign.field_sign_template__tag_ids
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_form
 msgid "Tags"
-msgstr "Znaczniki"
+msgstr "Tagi"
 
 #. module: sign
 #. openerp-web
@@ -2987,6 +2993,15 @@ msgstr "Szablon już przesał istnieć."
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "There are no signatures request."
 msgstr "Brak żądań o podpis."
+
+#. module: sign
+#: code:addons/sign/models/sign_request.py:0
+#: code:addons/sign/models/sign_request.py:0
+#, python-format
+msgid ""
+"There was an issue downloading your document. Please contact an "
+"administrator."
+msgstr ""
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
@@ -3454,7 +3469,7 @@ msgstr "zacznij z naszym przykładowym szablonem"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "tags"
-msgstr "znaczniki"
+msgstr "tagi"
 
 #. module: sign
 #. openerp-web

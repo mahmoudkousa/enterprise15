@@ -205,7 +205,7 @@ class TransferModel(models.Model):
         # Get last generated move date if any (to know when to start)
         last_move_domain = [('transfer_model_id', '=', self.id), ('state', '=', 'posted'), ('company_id', '=', self.company_id.id)]
         move_ids = self.env['account.move'].search(last_move_domain, order='date desc', limit=1)
-        return move_ids[0].date if move_ids else self.date_start
+        return (move_ids[0].date + relativedelta(days=1)) if move_ids else self.date_start
 
     def _get_next_move_date(self, date):
         """ Compute the following date of automated transfer move, based on a date and the frequency """

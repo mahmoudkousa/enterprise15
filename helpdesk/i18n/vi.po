@@ -7,7 +7,7 @@
 # sao sang <saosangmo@yahoo.com>, 2021
 # Martin Trigaux, 2021
 # fanha99 <fanha99@hotmail.com>, 2021
-# Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2021
+# Nancy Momoland <thanh.np2502@gmail.com>, 2021
 # Duy BQ <duybq86@gmail.com>, 2021
 # Trinh Tran Thi Phuong <trinhttp@trobz.com>, 2021
 # Dung Nguyen Thi <dungnt@trobz.com>, 2021
@@ -15,7 +15,7 @@
 # Trần Hà <tranthuha13590@gmail.com>, 2021
 # Vo Thanh Thuy, 2022
 # Jinjiu Liu, 2022
-# Thi Huong Nguyen, 2022
+# Thi Huong Nguyen, 2023
 # 
 msgid ""
 msgstr ""
@@ -23,8 +23,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 11:16+0000\n"
 "PO-Revision-Date: 2021-09-14 12:39+0000\n"
-"Last-Translator: Thi Huong Nguyen, 2022\n"
-"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Last-Translator: Thi Huong Nguyen, 2023\n"
+"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -544,10 +544,6 @@ msgstr "Mô hình bí danh"
 
 #. module: helpdesk
 #: code:addons/helpdesk/controllers/portal.py:0
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla__priority__0
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla_report_analysis__priority__0
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket__priority__0
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket_report_analysis__priority__0
 #, python-format
 msgid "All"
 msgstr "Tất cả"
@@ -608,12 +604,6 @@ msgstr "Phân công phiếu hỗ trợ mới tới đúng người"
 #, python-format
 msgid "Assign the ticket to a <b>member of your team</b>."
 msgstr "Phân công phiếu hỗ trợ tới <b>một thành viên của đội</b>."
-
-#. module: helpdesk
-#: code:addons/helpdesk/models/helpdesk_ticket.py:0
-#, python-format
-msgid "Assign to me"
-msgstr "Phân công cho tôi"
 
 #. module: helpdesk
 #: code:addons/helpdesk/controllers/portal.py:0
@@ -735,7 +725,7 @@ msgstr "Cân đối"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Bill the time spent on your tickets to your customers"
-msgstr "Xuất hóa đơn thời gian xử lý phiếu hỗ trợ hỗ trợ cho khách hàng"
+msgstr "Xuất hóa đơn thời gian xử lý phiếu hỗ trợ cho khách hàng"
 
 #. module: helpdesk
 #: code:addons/helpdesk/models/helpdesk.py:0
@@ -844,7 +834,7 @@ msgstr "Đã đóng"
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_search_analysis
 #, python-format
 msgid "Closed Tickets"
-msgstr "phiếu hỗ trợ đã đóng"
+msgstr "Phiếu hỗ trợ đã đóng"
 
 #. module: helpdesk
 #: model:ir.actions.act_window,name:helpdesk.helpdesk_ticket_action_7days_analysis
@@ -1874,10 +1864,10 @@ msgid "Low Priority"
 msgstr "Ưu tiên thấp"
 
 #. module: helpdesk
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla__priority__1
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla_report_analysis__priority__1
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket__priority__1
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket_report_analysis__priority__1
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla__priority__0
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla_report_analysis__priority__0
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket__priority__0
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket_report_analysis__priority__0
 msgid "Low priority"
 msgstr "Ưu tiên thấp"
 
@@ -1923,6 +1913,14 @@ msgstr "Phương tiện"
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_report_analysis_view_search
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_tickets_view_search
 msgid "Medium Priority"
+msgstr "Ưu tiên trung bình"
+
+#. module: helpdesk
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla__priority__1
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla_report_analysis__priority__1
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket__priority__1
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket_report_analysis__priority__1
+msgid "Medium priority"
 msgstr "Ưu tiên trung bình"
 
 #. module: helpdesk
@@ -2392,8 +2390,22 @@ msgstr "Kế hoạch can thiệp tại chỗ"
 #. openerp-web
 #: code:addons/helpdesk/static/src/js/helpdesk_dashboard.js:0
 #, python-format
-msgid "Please enter an integer value"
-msgstr "Vui lòng nhập một giá trị số nguyên"
+msgid "Please enter a number."
+msgstr "Vui lòng nhập một số."
+
+#. module: helpdesk
+#. openerp-web
+#: code:addons/helpdesk/static/src/js/helpdesk_dashboard.js:0
+#, python-format
+msgid "Please enter a percentage below 100."
+msgstr "Vui lòng nhập phần trăm nhỏ hơn 100."
+
+#. module: helpdesk
+#. openerp-web
+#: code:addons/helpdesk/static/src/js/helpdesk_dashboard.js:0
+#, python-format
+msgid "Please enter a positive value."
+msgstr "Vui lòng nhập giá trị lớn hơn 0."
 
 #. module: helpdesk
 #: model:ir.model.fields,help:helpdesk.field_helpdesk_team__alias_contact

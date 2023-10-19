@@ -6,6 +6,7 @@
 # Martin Trigaux, 2021
 # sejun huang <sejun.huang@gmail.com>, 2021
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2022
+# Tony Ng, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 11:16+0000\n"
 "PO-Revision-Date: 2021-09-14 12:39+0000\n"
-"Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2022\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Last-Translator: Tony Ng, 2023\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -36,7 +37,7 @@ msgstr "1 個面試"
 #. module: hr_appraisal
 #: model:ir.model.fields.selection,name:hr_appraisal.selection__hr_appraisal_goal__progression__100
 msgid "100 %"
-msgstr ""
+msgstr "全寬（100%）"
 
 #. module: hr_appraisal
 #: model:ir.model.fields.selection,name:hr_appraisal.selection__hr_appraisal_goal__progression__25
@@ -51,7 +52,7 @@ msgstr "回饋"
 #. module: hr_appraisal
 #: model:ir.model.fields.selection,name:hr_appraisal.selection__hr_appraisal_goal__progression__50
 msgid "50 %"
-msgstr ""
+msgstr "50%"
 
 #. module: hr_appraisal
 #: model:ir.model.fields.selection,name:hr_appraisal.selection__hr_appraisal_goal__progression__75
@@ -172,6 +173,8 @@ msgid ""
 "<span class=\"o_form_label\">360 Feedback</span>\n"
 "                                <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" role=\"img\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
+"<span class=\"o_form_label\">360 回應</span>\n"
+"                                <span class=\"fa fa-lg fa-building-o\" title=\"此處設定的值是特定於每間公司的。\" role=\"img\" aria-label=\"此處設定的值是特定於每間公司的。\" groups=\"base.group_multi_company\"/>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.res_config_settings_view_employee_form
@@ -179,6 +182,8 @@ msgid ""
 "<span class=\"o_form_label\">Appraisals Plans</span>\n"
 "                                <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" role=\"img\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
+"<span class=\"o_form_label\">評核計劃</span>\n"
+"                                <span class=\"fa fa-lg fa-building-o\" title=\"此處設定的值是特定於每間公司的。\" role=\"img\" aria-label=\"此處設定的值是特定於每間公司的。\" groups=\"base.group_multi_company\"/>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.res_config_settings_view_employee_form
@@ -186,6 +191,8 @@ msgid ""
 "<span class=\"o_form_label\">Feedback Templates</span>\n"
 "                                <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" role=\"img\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
+"<span class=\"o_form_label\">回應範本</span>\n"
+"                                <span class=\"fa fa-lg fa-building-o\" title=\"此處設定的值是特定於每間公司的。\" role=\"img\" aria-label=\"此處設定的值是特定於每間公司的。\" groups=\"base.group_multi_company\"/>"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_employee_view_form
@@ -863,7 +870,7 @@ msgstr "Font awesome 圖示，例如，fa-task"
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_request_appraisal__email_from
 msgid "From"
-msgstr "來自"
+msgstr "由"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_search
@@ -955,7 +962,7 @@ msgstr "圖像"
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__image_128
 msgid "Image 128"
-msgstr "畫素 128"
+msgstr "圖像 128"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_appraisal_report_search
@@ -1509,7 +1516,7 @@ msgstr ""
 msgid ""
 "The date of the next appraisal is computed by the appraisal plan's dates "
 "(first appraisal + periodicity)."
-msgstr ""
+msgstr "下次評估日期是根據評估計劃的日期（首次評估 + 周期）計算。"
 
 #. module: hr_appraisal
 #: model:ir.model.constraint,message:hr_appraisal.constraint_res_company_positif_number_months
@@ -1572,7 +1579,7 @@ msgstr "記錄的異常活動的類型。"
 #: code:addons/hr_appraisal/wizard/request_appraisal.py:0
 #, python-format
 msgid "Unable to post message, please configure the sender's email address."
-msgstr "無法發佈信件，請配置發件人的EMail地址。"
+msgstr "未能張貼訊息。請配置發件人電郵地址。"
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal__uncomplete_goals_count
@@ -1668,7 +1675,7 @@ msgstr ""
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_hr_appraisal_form
 msgid "e.g. John Doe"
-msgstr "例如: John Doe"
+msgstr "例：陳大文"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_goal_view_form

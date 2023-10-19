@@ -5,6 +5,8 @@
 # Translators:
 # Martin Trigaux, 2021
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2021
+# Iran Villalobos López, 2023
+# Fernanda Alvarez, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,13 +14,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2021\n"
-"Language-Team: Spanish (Mexico) (https://www.transifex.com/odoo/teams/41243/es_MX/)\n"
+"Last-Translator: Fernanda Alvarez, 2023\n"
+"Language-Team: Spanish (Mexico) (https://app.transifex.com/odoo/teams/41243/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: es_MX\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. module: account_taxcloud
 #: model_terms:ir.ui.view,arch_db:account_taxcloud.res_config_settings_view_form
@@ -31,8 +33,9 @@ msgid ""
 "<i title=\"Import/update TICs from TaxCloud\" role=\"img\" aria-"
 "label=\"Import/update TICs from TaxCloud\" class=\"fa fa-refresh fa-fw\"/>"
 msgstr ""
-"<i title=\"Import/update TICs from TaxCloud\" role=\"img\" aria-"
-"label=\"Import/update TICs from TaxCloud\" class=\"fa fa-refresh fa-fw\"/>"
+"<i title=\"Importar/actualizar TICs desde TaxCloud\" role=\"img\" aria-"
+"label=\"Importar/actualizar TICs desde TaxCloud\" class=\"fa fa-refresh fa-"
+"fw\"/>"
 
 #. module: account_taxcloud
 #: model_terms:ir.ui.view,arch_db:account_taxcloud.res_config_settings_view_form
@@ -245,7 +248,7 @@ msgstr "Categorías de TaxCloud"
 #: model_terms:ir.ui.view,arch_db:account_taxcloud.product_category_view_form_inherit_account_taxcloud
 #: model_terms:ir.ui.view,arch_db:account_taxcloud.product_template_taxcloud_inherit_form
 msgid "TaxCloud Category"
-msgstr "Categoría TaxCloud"
+msgstr "Categoría de TaxCloud"
 
 #. module: account_taxcloud
 #: model:ir.model.fields,help:account_taxcloud.field_account_bank_statement_line__is_taxcloud

@@ -7,6 +7,7 @@ from werkzeug.urls import url_join
 from odoo import api, fields, models, _
 from odoo.exceptions import UserError
 from odoo.tools.float_utils import float_round
+from odoo.tools import file_open
 
 from .easypost_request import EasypostRequest
 
@@ -180,11 +181,8 @@ class DeliverCarrier(models.Model):
         json is to replace the static file request by an API request if easypost
         implements a way to do it.
         """
-        base_url = self.get_base_url()
-        response_package = requests.get(url_join(base_url, '/delivery_easypost/static/data/package_types_by_carriers.json'))
-        response_service = requests.get(url_join(base_url, '/delivery_easypost/static/data/services_by_carriers.json'))
-        packages = response_package.json()
-        services = response_service.json()
+        packages = json.load(file_open('delivery_easypost/static/data/package_types_by_carriers.json'))
+        services = json.load(file_open('delivery_easypost/static/data/services_by_carriers.json'))
         return packages, services
 
     @api.onchange('delivery_type')

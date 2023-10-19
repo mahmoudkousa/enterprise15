@@ -1099,7 +1099,7 @@ msgstr "POS andere"
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
 #, python-format
 msgid "Paid or reason for refused payment"
-msgstr ""
+msgstr "Bezahlt oder Grund für abgelehnte Zahlung"
 
 #. module: l10n_be_coda
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
@@ -1237,13 +1237,13 @@ msgstr "Zahlung mit Tankkarte"
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
 #, python-format
 msgid "Postage"
-msgstr ""
+msgstr "Porto"
 
 #. module: l10n_be_coda
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
 #, python-format
 msgid "Printing of forms"
-msgstr ""
+msgstr "Drucken von Formularen"
 
 #. module: l10n_be_coda
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
@@ -1255,37 +1255,37 @@ msgstr "Privat"
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
 #, python-format
 msgid "Provisionally unpaid"
-msgstr ""
+msgstr "Vorläufig unbezahlt"
 
 #. module: l10n_be_coda
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
 #, python-format
 msgid "Purchase of Smartcard"
-msgstr ""
+msgstr "Einkauf einer Smartcard"
 
 #. module: l10n_be_coda
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
 #, python-format
 msgid "Purchase of an international bank cheque"
-msgstr ""
+msgstr "Einkauf eines internationalen Bankschecks"
 
 #. module: l10n_be_coda
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
 #, python-format
 msgid "Purchase of fiscal stamps"
-msgstr ""
+msgstr "Einkauf von Stempelmarken"
 
 #. module: l10n_be_coda
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
 #, python-format
 msgid "Purchase of foreign bank notes"
-msgstr ""
+msgstr "Einkauf von ausländischen Banknoten"
 
 #. module: l10n_be_coda
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
 #, python-format
 msgid "Purchase of gold/pieces"
-msgstr ""
+msgstr "Einkauf von Gold/Stücken"
 
 #. module: l10n_be_coda
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
@@ -1346,7 +1346,7 @@ msgstr ""
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
 #, python-format
 msgid "Reimbursement of costs"
-msgstr ""
+msgstr "Kostenerstattung"
 
 #. module: l10n_be_coda
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
@@ -2538,7 +2538,7 @@ msgstr ""
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
 #, python-format
 msgid "terminal number"
-msgstr ""
+msgstr "Terminalnummer"
 
 #. module: l10n_be_coda
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
@@ -2558,7 +2558,7 @@ msgstr "nicht definiert"
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
 #, python-format
 msgid "unit price"
-msgstr ""
+msgstr "Einzelpreis"
 
 #. module: l10n_be_coda
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0

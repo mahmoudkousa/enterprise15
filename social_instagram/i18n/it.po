@@ -5,6 +5,7 @@
 # Translators:
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
+# Marianna Ciofani, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,13 +13,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:01+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Last-Translator: Marianna Ciofani, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. module: social_instagram
 #: model_terms:ir.ui.view,arch_db:social_instagram.instagram_preview
@@ -52,6 +53,9 @@ msgid ""
 "                <span>We don't automatically resize your image to avoid undesired result.</span><br/>\n"
 "                <span>More information on:</span>"
 msgstr ""
+"<span>La tua immagine deve avere le proporzioni richieste da Instagram pari a 4:5 e 1.91:1.</span><br/>\n"
+"                <span>Per evitare risultati indesiderati, non effettuiamo il ridimensionamento automatico dell'immagine .</span><br/>\n"
+"                <span>Più informazioni su:</span>"
 
 #. module: social_instagram
 #: model:ir.model.fields,field_description:social_instagram.field_social_post__instagram_access_token
@@ -136,6 +140,8 @@ msgid ""
 "Instagram Access Token provided by the Facebook API, this should never be set manually.\n"
 "        It's used to authenticate requests when posting to or reading information from this account."
 msgstr ""
+"Token di accesso a Instagram fornito dall'API di Facebook. Non deve mai essere impostato manualmente.\n"
+"        Viene utilizzato per autenticare le richieste di pubblicazione o di lettura informazioni dall'account."
 
 #. module: social_instagram
 #: model_terms:ir.ui.view,arch_db:social_instagram.res_config_settings_view_form
@@ -299,6 +305,8 @@ msgid ""
 "The Facebook ID of this Instagram post author, used to fetch the profile "
 "picture."
 msgstr ""
+"ID Facebook dell'autore di questo post Instagram, utilizzato per recuperare "
+"l'immagine del profilo."
 
 #. module: social_instagram
 #: code:addons/social_instagram/controllers/main.py:0
@@ -363,6 +371,8 @@ msgid ""
 "Your image has to be within the 4:5 and the 1.91:1 aspect ratio as required "
 "by Instagram."
 msgstr ""
+"La tua immagine deve avere le proporzioni richieste da Instagram, ovvero tra"
+" 4:5 e 1.91:1."
 
 #. module: social_instagram
 #. openerp-web

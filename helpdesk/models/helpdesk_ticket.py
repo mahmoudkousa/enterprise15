@@ -95,10 +95,10 @@ class HelpdeskSLAStatus(models.Model):
             if status.sla_id.exclude_stage_ids:
                 sla_hours += status._get_freezed_hours(working_calendar)
 
-                # Except if ticket creation time is later than the end time of the working day
-                deadline_for_working_cal = working_calendar.plan_hours(0, deadline)
-                if deadline_for_working_cal and deadline.day < deadline_for_working_cal.day:
-                    deadline = deadline.replace(hour=0, minute=0, second=0, microsecond=0)
+            # Except if ticket creation time is later than the end time of the working day
+            deadline_for_working_cal = working_calendar.plan_hours(0, deadline)
+            if deadline_for_working_cal and deadline.day < deadline_for_working_cal.day and time_days > 0:
+                deadline = deadline.replace(hour=0, minute=0, second=0, microsecond=0)
             # We should execute the function plan_hours in any case because, in a 1 day SLA environment,
             # if I create a ticket knowing that I'm not working the day after at the same time, ticket
             # deadline will be set at time I don't work (ticket creation time might not be in working calendar).
@@ -790,12 +790,18 @@ class HelpdeskTicket(models.Model):
             # we consider that posting a message with a specified recipient (not a follower, a specific one)
             # on a document without customer means that it was created through the chatter using
             # suggested recipients. This heuristic allows to avoid ugly hacks in JS.
-            new_partner = message.partner_ids.filtered(lambda partner: partner.email == self.partner_email)
+            email_normalized = tools.email_normalize(self.partner_email)
+            new_partner = message.partner_ids.filtered(
+                lambda partner: partner.email == self.partner_email or (email_normalized and partner.email_normalized == email_normalized)
+            )
             if new_partner:
+                if new_partner[0].email_normalized:
+                    email_domain = ('partner_email', 'in', [new_partner[0].email, new_partner[0].email_normalized])
+                else:
+                    email_domain = ('partner_email', '=', new_partner[0].email)
                 self.search([
-                    ('partner_id', '=', False),
-                    ('partner_email', '=', new_partner.email),
-                    ('stage_id.fold', '=', False)]).write({'partner_id': new_partner.id})
+                    ('partner_id', '=', False), email_domain, ('stage_id.fold', '=', False)
+                ]).write({'partner_id': new_partner[0].id})
         return super(HelpdeskTicket, self)._message_post_after_hook(message, msg_vals)
 
     def _track_template(self, changes):

@@ -186,7 +186,7 @@ class AccountMove(models.Model):
             'spot_amount': float_round(self.amount_total * (max_percent/100.0), precision_rounding=2),
             'Amount': float_repr(float_round(self.amount_total_signed * (max_percent/100.0), precision_rounding=2), precision_digits=2),
             'PaymentPercent': max_percent,
-            'spot_message': "Operación sujeta al sistema de Pago de Obligaciones Tributarias-SPOT, Banco de la Nacion %% %s Cod Serv. %s" % (
+            'spot_message': "Operación sujeta al sistema de Pago de Obligaciones Tributarias-SPOT, Banco de la Nacion %s%% Cod Serv. %s" % (
                 line.product_id.l10n_pe_withhold_percentage, line.product_id.l10n_pe_withhold_code) if self.amount_total_signed >= 700.0 else False
         }
 

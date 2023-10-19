@@ -113,7 +113,7 @@
                         <span class="o_account_report_summary_content" t-att-style="'' if report.get('summary') else 'display: none;'">
                             <t t-esc="report.get('summary','')" t-options="{'widget': 'text'}"/>
                         </span>
-                        <span class="o_account_report_summary_placeholder" t-att-style="'display: none;' if report.get('summary') or context.get('print_mode') else ''">
+                        <span t-if="not report.get('summary') and not context.get('print_mode')" class="o_account_report_summary_placeholder">
                             Add a note
                         </span>
                     </div>

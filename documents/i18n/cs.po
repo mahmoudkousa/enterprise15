@@ -10,7 +10,9 @@
 # Martin Trigaux, 2021
 # Rastislav Brencic <rastislav.brencic@azet.sk>, 2021
 # karolína schusterová <karolina.schusterova@vdp.sk>, 2021
-# trendspotter <jirka.p@volny.cz>, 2021
+# Aleš Fiala <f.ales1@seznam.cz>, 2023
+# Jiří Podhorecký, 2023
+# Jakub Smolka, 2023
 # 
 msgid ""
 msgstr ""
@@ -18,8 +20,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 08:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:39+0000\n"
-"Last-Translator: trendspotter <jirka.p@volny.cz>, 2021\n"
-"Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
+"Last-Translator: Jakub Smolka, 2023\n"
+"Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -67,6 +69,14 @@ msgstr "+ Přidat značku"
 #: model_terms:ir.ui.view,arch_db:documents.public_page_layout
 msgid ", expired on"
 msgstr ", vypršelo"
+
+#. module: documents
+#: model_terms:digest.tip,tip_description:documents.digest_tip_documents_0
+msgid ""
+". Scanned files will appear automatically in your workspace. Then, process "
+"your documents in bulk with the split tool: launch user defined actions, "
+"request a signature, convert to vendor bills with AI, etc."
+msgstr ""
 
 #. module: documents
 #: model:documents.tag,name:documents.documents_finance_fiscal_year_2017
@@ -549,6 +559,13 @@ msgstr "Již propojené dokumenty"
 #: model_terms:digest.tip,tip_description:documents.digest_tip_documents_0
 msgid ""
 "An easy way to process incoming mails is to configure your scanner to send "
+"PDFs to"
+msgstr ""
+
+#. module: documents
+#: model_terms:digest.tip,tip_description:documents.digest_tip_documents_0
+msgid ""
+"An easy way to process incoming mails is to configure your scanner to send "
 "PDFs to your workspace email. Scanned files will appear automatically in "
 "your workspace. Then, process your documents in bulk with the split tool: "
 "launch user defined actions, request a signature, convert to vendor bills "
@@ -560,16 +577,6 @@ msgstr ""
 "dokumenty hromadně pomocí nástroje pro rozdělení: spusťte uživatelem "
 "definované akce, vyžádejte si podpis, převeďte na faktury dodavatele pomocí "
 "AI atd."
-
-#. module: documents
-#: model_terms:digest.tip,tip_description:documents.digest_tip_documents_0
-msgid ""
-"An easy way to process incoming mails is to configure your scanner to send "
-"PDFs to {{ record.alias_id.display_name }}. Scanned files will appear "
-"automatically in your workspace. Then, process your documents in bulk with "
-"the split tool: launch user defined actions, request a signature, convert to"
-" vendor bills with AI, etc."
-msgstr ""
 
 #. module: documents
 #. openerp-web
@@ -994,7 +1001,7 @@ msgstr ""
 #. module: documents
 #: model:ir.model,name:documents.model_documents_workflow_action
 msgid "Document Workflow Tag Action"
-msgstr ""
+msgstr "Akce nad štítkem dokumentu"
 
 #. module: documents
 #: model:ir.model.fields.selection,name:documents.selection__documents_share__type__ids
@@ -1024,22 +1031,22 @@ msgstr "Dokumenty"
 #. module: documents
 #: model:ir.model,name:documents.model_documents_link_to_record_wizard
 msgid "Documents Link to Record"
-msgstr ""
+msgstr "Napojení dokumentů na záznam"
 
 #. module: documents
 #: model:ir.model,name:documents.model_documents_share
 msgid "Documents Share"
-msgstr ""
+msgstr "Sdílení dokumentů"
 
 #. module: documents
 #: model:ir.model,name:documents.model_documents_folder
 msgid "Documents Workspace"
-msgstr ""
+msgstr "Složka dokumentů"
 
 #. module: documents
 #: model:ir.model,name:documents.model_documents_mixin
 msgid "Documents creation mixin"
-msgstr ""
+msgstr "Mixin vytváření dokumentů"
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.workflow_rule_form_view
@@ -2171,7 +2178,7 @@ msgstr ""
 #. module: documents
 #: model:ir.ui.menu,name:documents.share_menu
 msgid "Shares & Emails"
-msgstr ""
+msgstr "Sdílení a emaily"
 
 #. module: documents
 #. openerp-web
@@ -2247,7 +2254,7 @@ msgstr "Tag"
 #: model:ir.model.fields,field_description:documents.field_documents_folder__facet_ids
 #: model_terms:ir.ui.view,arch_db:documents.folder_view_tree
 msgid "Tag Categories"
-msgstr ""
+msgstr "Kategorie štítků"
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.facet_view_form
@@ -2556,12 +2563,12 @@ msgstr "Týdny"
 #. module: documents
 #: model:ir.actions.act_window,name:documents.workflow_rule_action
 msgid "Workflow Actions"
-msgstr ""
+msgstr "Akce pracovních postupů"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_workflow_action__workflow_rule_id
 msgid "Workflow Rule"
-msgstr ""
+msgstr "Pravidlo pracovního postupu"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__folder_id
@@ -2572,13 +2579,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:documents.facet_view_search
 #: model_terms:ir.ui.view,arch_db:documents.folder_view_tree
 msgid "Workspace"
-msgstr ""
+msgstr "Pracovní prostor"
 
 #. module: documents
 #: model:ir.actions.act_window,name:documents.folder_action
 #: model:ir.ui.menu,name:documents.folder_menu
 msgid "Workspaces"
-msgstr ""
+msgstr "Pracovní prostory"
 
 #. module: documents
 #. openerp-web
@@ -2717,17 +2724,17 @@ msgstr "např. Prodiskutovat návrh"
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.folder_view_form
 msgid "e.g. Finance"
-msgstr ""
+msgstr "např. Finance"
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.documents_request_form_view
 msgid "e.g. Missing Expense"
-msgstr ""
+msgstr "např. chybějící výdaje"
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.facet_view_form
 msgid "e.g. Status"
-msgstr ""
+msgstr "e.g. Status"
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.tag_view_form
@@ -2742,7 +2749,7 @@ msgstr "např. Ověřit dokument"
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.documents_upload_url_view
 msgid "e.g. https://www.youtube.com/watch?v=CP96yVnXNrY"
-msgstr ""
+msgstr "např. https://www.youtube.com/watch?v=CP96yVnXNrY"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_link_to_record_wizard__is_readonly_model

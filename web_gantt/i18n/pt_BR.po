@@ -5,6 +5,7 @@
 # Translators:
 # Martin Trigaux, 2021
 # Marcos Rodrigues, 2021
+# Maitê Dietze, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,13 +13,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:01+0000\n"
 "PO-Revision-Date: 2021-09-14 12:44+0000\n"
-"Last-Translator: Marcos Rodrigues, 2021\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Last-Translator: Maitê Dietze, 2023\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. module: web_gantt
 #. openerp-web
@@ -39,7 +40,7 @@ msgstr ""
 #: code:addons/web_gantt/static/src/js/gantt_controller.js:0
 #, python-format
 msgid "Are you sure to delete this record?"
-msgstr ""
+msgstr "Você tem certeza de que quer excluir este registro?"
 
 #. module: web_gantt
 #: model:ir.model,name:web_gantt.model_base
@@ -51,7 +52,7 @@ msgstr "base"
 #: code:addons/web_gantt/static/src/xml/web_gantt.xml:0
 #, python-format
 msgid "Collapse rows"
-msgstr ""
+msgstr "Colapsar linhas"
 
 #. module: web_gantt
 #. openerp-web
@@ -73,7 +74,7 @@ msgstr "Dia"
 #: code:addons/web_gantt/static/src/xml/web_gantt.xml:0
 #, python-format
 msgid "Expand rows"
-msgstr ""
+msgstr "Expandir linhas"
 
 #. module: web_gantt
 #. openerp-web
@@ -93,25 +94,25 @@ msgstr "Visualização Gantt"
 #: code:addons/web_gantt/models/ir_ui_view.py:0
 #, python-format
 msgid "Gantt child can only be field or template, got %s"
-msgstr ""
+msgstr "Gantts secundários só podem ser campos ou modelos, há %s"
 
 #. module: web_gantt
 #: code:addons/web_gantt/models/ir_ui_view.py:0
 #, python-format
 msgid "Gantt must have a 'date_start' attribute"
-msgstr ""
+msgstr "Gantt deve ter um atributo \"date_start\""
 
 #. module: web_gantt
 #: code:addons/web_gantt/models/ir_ui_view.py:0
 #, python-format
 msgid "Gantt must have a 'date_stop' attribute"
-msgstr ""
+msgstr "Gantt deve ter um atributo \"date_stop\""
 
 #. module: web_gantt
 #: code:addons/web_gantt/models/ir_ui_view.py:0
 #, python-format
 msgid "Gantt view can contain only one templates tag"
-msgstr ""
+msgstr "A visão Gantt deve conter somente um marcador de modelo"
 
 #. module: web_gantt
 #. openerp-web
@@ -124,19 +125,20 @@ msgstr "O agrupamento por data não é suportado"
 #: code:addons/web_gantt/models/models.py:0
 #, python-format
 msgid "Insufficient fields for Gantt View!"
-msgstr ""
+msgstr "Campos insuficientes para a visão Gantt!"
 
 #. module: web_gantt
 #: code:addons/web_gantt/models/ir_ui_view.py:0
 #, python-format
 msgid "Invalid attributes (%s) in gantt view. Attributes must be in (%s)"
 msgstr ""
+"Atributos inválidos (%s) na visão Gantt. Atributos devem estar em (%s)"
 
 #. module: web_gantt
 #: code:addons/web_gantt/models/ir_ui_view.py:0
 #, python-format
 msgid "Invalid default_scale '%s' in gantt"
-msgstr ""
+msgstr "Default_scale \"%s\" inválida em Gantt"
 
 #. module: web_gantt
 #. openerp-web
@@ -178,7 +180,7 @@ msgstr "Plano"
 #: code:addons/web_gantt/static/src/xml/web_gantt.xml:0
 #, python-format
 msgid "Plan existing"
-msgstr ""
+msgstr "Plano existente"
 
 #. module: web_gantt
 #. openerp-web
@@ -213,7 +215,7 @@ msgstr "Hoje"
 #: code:addons/web_gantt/static/src/js/gantt_model.js:0
 #, python-format
 msgid "Undefined %s"
-msgstr ""
+msgstr "Indefinido %s"
 
 #. module: web_gantt
 #: model:ir.model,name:web_gantt.model_ir_ui_view

@@ -1513,6 +1513,12 @@ msgid "Main Attachment"
 msgstr "Pääliite"
 
 #. module: sign
+#: code:addons/sign/models/sign_template.py:0
+#, python-format
+msgid "Malformed expression: %(exp)s"
+msgstr "Virheellinen ilmaisu: %(exp)s"
+
+#. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
@@ -2967,9 +2973,24 @@ msgid "The template doesn't exist anymore."
 msgstr "Mallia ei ole enää olemassa."
 
 #. module: sign
+#: code:addons/sign/wizard/sign_duplicate_template_with_pdf.py:0
+#, python-format
+msgid "The uploaded file is not a valid PDF. Please upload a valid PDF file."
+msgstr ""
+
+#. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "There are no signatures request."
 msgstr "Allekirjoituspyyntöjä ei ole."
+
+#. module: sign
+#: code:addons/sign/models/sign_request.py:0
+#: code:addons/sign/models/sign_request.py:0
+#, python-format
+msgid ""
+"There was an issue downloading your document. Please contact an "
+"administrator."
+msgstr "Asiakirjasi lataamisessa ilmeni ongelma. Ota yhteyttä ylläpitäjään."
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
@@ -3059,6 +3080,16 @@ msgstr "UTC-aika"
 msgid "Unable to send the SMS, please contact the sender of the document."
 msgstr ""
 "Tekstiviestin lähettäminen ei onnistu, ota yhteyttä asiakirjan lähettäjään."
+
+#. module: sign
+#: code:addons/sign/controllers/main.py:0
+#, python-format
+msgid ""
+"Unable to sign the document due to missing required data. Please contact an "
+"administrator."
+msgstr ""
+"Asiakirjaa ei voida allekirjoittaa, koska vaaditut tiedot puuttuvat. Ota "
+"yhteyttä järjestelmänvalvojaan."
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_unread

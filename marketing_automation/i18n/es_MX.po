@@ -34,22 +34,22 @@ msgstr "# Correos"
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__total_participant_count
 msgid "# of active and completed participants"
-msgstr "N.º de participantes activos y que han completado las actividades"
+msgstr "Número de participantes activos que han completado las actividades"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__running_participant_count
 msgid "# of active participants"
-msgstr "N.º de participantes activos"
+msgstr "Número de participantes activos"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__completed_participant_count
 msgid "# of completed participants"
-msgstr "N.º de participantes que han completado las actividades"
+msgstr "Número de participantes que han completado las actividades"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__test_participant_count
 msgid "# of test participants"
-msgstr "# de participantes en la prueba"
+msgstr "Número de participantes en la prueba"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
@@ -83,12 +83,12 @@ msgstr ""
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
 msgid "<i class=\"fa fa-envelope-open-o\"/> Not opened within"
-msgstr "<i class=\"fa fa-envelope-open-o\"/>No se abrió dentro de"
+msgstr "<i class=\"fa fa-envelope-open-o\"/> No se abrió dentro de"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
 msgid "<i class=\"fa fa-envelope-open-o\"/> Opened after"
-msgstr "<i class=\"fa fa-envelope-open-o\"/>Se abrió después de"
+msgstr "<i class=\"fa fa-envelope-open-o\"/> Se abrió después de"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
@@ -103,7 +103,7 @@ msgstr "<i class=\"fa fa-hand-pointer-o\"/> Se hizo clic después de"
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
 msgid "<i class=\"fa fa-hand-pointer-o\"/> Not clicked within"
-msgstr "<i class=\"fa fa-hand-pointer-o\"/>No se le dio clic dentro de"
+msgstr "<i class=\"fa fa-hand-pointer-o\"/> No se le hizo clic dentro de"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
@@ -118,7 +118,7 @@ msgstr "<i class=\"fa fa-plus-circle\"/> Agregar actividad subordinada"
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
 msgid "<i class=\"fa fa-reply\"/> Not replied within"
-msgstr "<i class=\"fa fa-reply\"/>No se respondió dentro de"
+msgstr "<i class=\"fa fa-reply\"/> No se respondió dentro de"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
@@ -191,7 +191,7 @@ msgstr "<strong>¡Se ha modificado el flujo!</strong>"
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__ab_testing_mailings_count
 msgid "A/B Test Mailings #"
-msgstr "Test de pruebas A/B #"
+msgstr "Número de correos de prueba A/B"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__ab_testing_completed
@@ -277,7 +277,7 @@ msgstr "Todas las publicaciones relacionadas en las redes sociales"
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__allowed_parent_ids
 msgid "Allowed parents"
-msgstr "Padres permitidos"
+msgstr "Principales permitidos"
 
 #. module: marketing_automation
 #: model:ir.model.fields,help:marketing_automation.field_marketing_campaign__is_auto_campaign
@@ -375,7 +375,7 @@ msgid ""
 "Upcoming event, …)"
 msgstr ""
 "Marque esta casilla para asegurar que sus acciones no se ejecuten después de"
-" un período de tiempo específico después de la fecha programada. (Por "
+" un periodo de tiempo específico después de la fecha programada. (Por "
 "ejemplo: oferta por tiempo limitado, próximo evento, ...)"
 
 #. module: marketing_automation
@@ -398,7 +398,7 @@ msgstr "Seleccionado"
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__links_click_datetime
 msgid "Clicked On"
-msgstr "Clickeado en"
+msgstr "Se hizo clic en"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
@@ -416,7 +416,7 @@ msgid ""
 "Come back later once your campaigns are running to overview your "
 "participants."
 msgstr ""
-"Regrese cuando sus campañas estén funcionando para supervisar a los "
+"Regrese cuando sus campañas estén en curso para supervisar a los "
 "participantes."
 
 #. module: marketing_automation
@@ -479,13 +479,13 @@ msgstr "Días"
 msgid ""
 "Define workflows by chaining up activities and let Odoo handle the rest."
 msgstr ""
-"Encadene actividades para definir flujos de trabajo y deje que Odoo se "
+"Vincule actividades para definir flujos de trabajo y deje que Odoo se "
 "encargue del resto."
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__interval_type
 msgid "Delay Type"
-msgstr "Tipo de retraso"
+msgstr "Tipo de atraso"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
@@ -592,7 +592,7 @@ msgstr "Mensaje de error"
 #: code:addons/marketing_automation/models/marketing_activity.py:0
 #, python-format
 msgid "Error! You can't create recursive hierarchy of Activity."
-msgstr "¡Error! No puede crear una jerarquía recursiva de Actividad."
+msgstr "¡Error! No puede crear una jerarquía recursiva de actividad."
 
 #. module: marketing_automation
 #: code:addons/marketing_automation/models/marketing_activity.py:0
@@ -719,7 +719,7 @@ msgstr "Número de leads/oportunidades"
 #. module: marketing_automation
 #: model:ir.actions.act_window,name:marketing_automation.link_tracker_action_marketing_campaign
 msgid "Link Statistics"
-msgstr "Vincule estadísticas"
+msgstr "Estadísticas de enlaces"
 
 #. module: marketing_automation
 #: model:ir.ui.menu,name:marketing_automation.link_tracker_menu_reporting_marketing_automation
@@ -847,14 +847,14 @@ msgstr "Automatización de mensajes de marketing"
 #: model:ir.cron,cron_name:marketing_automation.ir_cron_campaign_execute_activities
 #: model:ir.cron,name:marketing_automation.ir_cron_campaign_execute_activities
 msgid "Marketing Automation: execute activities"
-msgstr "Marketing automatizado: ejecutar actividades"
+msgstr "Automatización de marketing: ejecutar actividades"
 
 #. module: marketing_automation
 #: model:ir.actions.server,name:marketing_automation.ir_cron_campaign_sync_participants_ir_actions_server
 #: model:ir.cron,cron_name:marketing_automation.ir_cron_campaign_sync_participants
 #: model:ir.cron,name:marketing_automation.ir_cron_campaign_sync_participants
 msgid "Marketing Automation: sync participants"
-msgstr "Marketing automatizado: sincronizar participantes"
+msgstr "Automatización de marketing: sincronizar participantes"
 
 #. module: marketing_automation
 #: model:ir.model,name:marketing_automation.model_marketing_campaign
@@ -960,7 +960,7 @@ msgstr "Sin actividad"
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
 msgid "No activity added"
-msgstr "No se ha añadido ninguna actividad"
+msgstr "No se ha agregado ninguna actividad"
 
 #. module: marketing_automation
 #: model_terms:ir.actions.act_window,help:marketing_automation.link_tracker_action_marketing_campaign
@@ -1019,7 +1019,7 @@ msgstr "Número de clics generados por la campaña."
 msgid ""
 "Number of interactions (likes, shares, comments ...) with the social posts"
 msgstr ""
-"Número de interacciones (me gusta, compartir, comentarios...) con las "
+"Número de interacciones (me gusta, compartir, comentarios...) en las "
 "publicaciones en redes sociales"
 
 #. module: marketing_automation
@@ -1303,13 +1303,13 @@ msgid ""
 "Some participants are already running on this campaign. Click on 'Update' to"
 " apply the modifications you've just made."
 msgstr ""
-"Algunos participantes ya están participando en esta campaña. Haga clic en "
+"Algunos participantes ya se encuentran en esta campaña. Haga clic en "
 "\"Actualizar\" para aplicar las modificaciones que acaba de realizar."
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__utm_source_id
 msgid "Source"
-msgstr "Origen"
+msgstr "Fuente"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__name
@@ -1358,7 +1358,7 @@ msgstr "Estado"
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
 msgid "Stop"
-msgstr "Parar"
+msgstr "Detener"
 
 #. module: marketing_automation
 #: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_campaign__state__stopped
@@ -1386,8 +1386,8 @@ msgid ""
 "your activity actions to match the new Target Model or delete them."
 msgstr ""
 "Cambiar el modelo objetivo invalida las actividades existentes. Deberá "
-"actualizar las acciones de la actividad para que sean las mismas que el "
-"mismo modelo, o eliminarlas."
+"actualizar las acciones de la actividad para que coincidan con el modelo "
+"objetivo o eliminarlas."
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__require_sync
@@ -1449,8 +1449,8 @@ msgid ""
 "This Activity has a dependant child activity. 'DELETE ALL' will delete all "
 "child activities."
 msgstr ""
-"Esta actividad tiene una actividad hija dependiente. La opción \"ELIMINAR "
-"TODO\" eliminará todas las actividades infantiles."
+"Esta actividad tiene una actividad subordinada que depende de esta. La "
+"opción \"ELIMINAR TODO\" eliminará todas las actividades subordinadas."
 
 #. module: marketing_automation
 #: code:addons/marketing_automation/models/marketing_activity.py:0
@@ -1459,13 +1459,13 @@ msgid ""
 "To use this feature you should be an administrator or belong to the "
 "marketing automation group."
 msgstr ""
-"Para usar esta función, debe ser administrador o pertenecer al grupo de "
-"automatización de mercadeo."
+"Es necesario ser administrador o pertenecer al grupo de automatización de "
+"marketing para poder utilizar esta función"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__ab_testing_total_pc
 msgid "Total A/B test percentage"
-msgstr "Porcentaje de testeo total de A/B"
+msgstr "Porcentaje total de prueba A/B"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__total_bounce
@@ -1520,7 +1520,7 @@ msgstr "Tipo de activador"
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__utm_campaign_id
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__utm_campaign_id
 msgid "UTM Campaign"
-msgstr "Campaña de UTM"
+msgstr "Campaña UTM"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
@@ -1551,7 +1551,7 @@ msgid ""
 "                want to process records which have the same email address"
 msgstr ""
 "Utilizado para evitar duplicados basados en el campo del modelo.\n"
-"P. ej.:\n"
+"Por ejemplo:\n"
 "                Para el modelo \"Clientes\", seleccione el campo del correo electrónico si no \n"
 "                desea procesar registros que tengan la misma dirección de correo electrónico"
 
@@ -1615,8 +1615,8 @@ msgid ""
 "You are trying to set the activity \"%s\" as \"%s\" while its child \"%s\" has the trigger type \"%s\"\n"
 "Please modify one of those activities before saving."
 msgstr ""
-"Está intentando configurar la actividad \"%s\" como \"%s\" mientras que su actividad hija es \"%s\" tiene el tipo de activación \"%s\"\n"
-"Por favor modifique una de esas actividades antes de guardarla."
+"Está intentando configurar la actividad \"%s\" como \"%s\" mientras que su actividad subordinada \"%s\" tiene \"%s\" como tipo de activación.\n"
+"Modifique una de esas actividades antes de guardarla."
 
 #. module: marketing_automation
 #: code:addons/marketing_automation/models/marketing_campaign.py:0
@@ -1638,4 +1638,4 @@ msgstr "inicio del flujo de trabajo"
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_activity_view_form
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
 msgid "e.g. eCommerce Offers"
-msgstr "p. ej., Ofertas de comercio electrónico"
+msgstr "Por ejemplo, Ofertas de Comercio electrónico"

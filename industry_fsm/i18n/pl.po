@@ -159,7 +159,7 @@ msgstr "Wg użytkowników"
 #. module: industry_fsm
 #: model:project.task.type,name:industry_fsm.planning_project_stage_4
 msgid "Cancelled"
-msgstr "Anulowano"
+msgstr "Anulowane"
 
 #. module: industry_fsm
 #: model:ir.model,name:industry_fsm.model_res_company
@@ -316,7 +316,7 @@ msgstr "Przyszłe"
 #. module: industry_fsm
 #: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
 msgid "Group By"
-msgstr "Grupuj wg."
+msgstr "Grupuj wg"
 
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_project_task__has_complete_partner_address
@@ -700,7 +700,7 @@ msgstr "Suma godzin efektywnych"
 #. module: industry_fsm
 #: model:ir.ui.menu,name:industry_fsm.menu_project_tags_act
 msgid "Tags"
-msgstr "Znaczniki"
+msgstr "Tagi"
 
 #. module: industry_fsm
 #: model:ir.model,name:industry_fsm.model_project_task

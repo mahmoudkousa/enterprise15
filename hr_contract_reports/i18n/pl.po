@@ -110,7 +110,7 @@ msgstr "Analiza pracowników"
 #. module: hr_contract_reports
 #: model_terms:ir.ui.view,arch_db:hr_contract_reports.contract_employee_report_view_search
 msgid "Group By"
-msgstr "Grupuj wg."
+msgstr "Grupuj wg"
 
 #. module: hr_contract_reports
 #: model:ir.model.fields,field_description:hr_contract_reports.field_hr_contract_employee_report__id
@@ -195,4 +195,4 @@ msgstr "Płaca"
 #. module: hr_contract_reports
 #: model_terms:ir.ui.view,arch_db:hr_contract_reports.contract_employee_report_view_dashboard
 msgid "months"
-msgstr "miesięcy"
+msgstr "miesiące"

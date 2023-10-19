@@ -121,7 +121,7 @@ msgstr ""
 #: code:addons/iot/static/src/js/iot_mixins.js:0
 #, python-format
 msgid "Click on Advanced/Show Details/Details/More information"
-msgstr ""
+msgstr "Klik pada Advanced/Tunjukkan Detail/Detail/Informasi lebih"
 
 #. module: iot
 #. openerp-web
@@ -131,6 +131,8 @@ msgid ""
 "Click on Proceed to .../Add Exception/Visit this website/Go on to the "
 "webpage"
 msgstr ""
+"Klik untuk Melanjutkan ke .../Tambahkan Pengecualian/Kunjungi website "
+"ini/Pergi ke laman website"
 
 #. module: iot
 #: model_terms:ir.actions.act_window,help:iot.iot_box_action
@@ -150,7 +152,7 @@ msgstr "Tutup"
 #: code:addons/iot/static/src/js/iot_mixins.js:0
 #, python-format
 msgid "Close this window and try again"
-msgstr ""
+msgstr "Tutup jendela ini dan coba lagi"
 
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_iot_box__company_id
@@ -168,14 +170,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:iot.field_iot_device__connection
 #: model_terms:ir.ui.view,arch_db:iot.iot_device_search
 msgid "Connection"
-msgstr ""
+msgstr "Connection"
 
 #. module: iot
 #. openerp-web
 #: code:addons/iot/static/src/js/iot_mixins.js:0
 #, python-format
 msgid "Connection to IoT Box failed"
-msgstr ""
+msgstr "Koneksi ke IoT Box gagal"
 
 #. module: iot
 #. openerp-web
@@ -183,7 +185,7 @@ msgstr ""
 #: code:addons/iot/static/src/js/iot_widgets.js:0
 #, python-format
 msgid "Connection to device failed"
-msgstr ""
+msgstr "Koneksi ke perangkat gagal"
 
 #. module: iot
 #. openerp-web
@@ -260,7 +262,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:iot.field_iot_box__ip
 #: model:ir.model.fields,field_description:iot.field_iot_device__iot_ip
 msgid "Domain Address"
-msgstr ""
+msgstr "Alamat Domain"
 
 #. module: iot
 #. openerp-web
@@ -302,7 +304,7 @@ msgstr "ID"
 #. module: iot
 #: model:ir.model,name:iot.model_iot_device
 msgid "IOT Device"
-msgstr ""
+msgstr "Perangkat IOT"
 
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_iot_device__identifier
@@ -326,6 +328,8 @@ msgstr ""
 msgid ""
 "If you are on a secure server (HTTPS) check if you accepted the certificate:"
 msgstr ""
+"Apabila Anda pada server aman (HTTPS) periksa apakah Anda menerima "
+"sertifikat:"
 
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_iot_box__version
@@ -342,7 +346,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:iot.field_iot_device__iot_id
 #: model_terms:ir.ui.view,arch_db:iot.iot_device_search
 msgid "IoT Box"
-msgstr ""
+msgstr "IoT Box"
 
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_iot_box__ip_url
@@ -359,7 +363,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:iot.field_ir_actions_report__device_id
 #: model_terms:ir.ui.view,arch_db:iot.iot_device_search
 msgid "IoT Device"
-msgstr ""
+msgstr "Perangkat IoT"
 
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_iot_device__is_scanner
@@ -429,7 +433,7 @@ msgstr ""
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_iot_device__manufacturer
 msgid "Manufacturer"
-msgstr ""
+msgstr "Produsen"
 
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_iot_box__name
@@ -484,14 +488,14 @@ msgstr ""
 #: code:addons/iot/static/src/js/iot_mixins.js:0
 #, python-format
 msgid "Please check if the IoT Box is still connected."
-msgstr ""
+msgstr "Mohon periksa apakah IoT Box masih terhubung."
 
 #. module: iot
 #. openerp-web
 #: code:addons/iot/static/src/js/iot_widgets.js:0
 #, python-format
 msgid "Please check if the device is still connected."
-msgstr ""
+msgstr "Mohon periksa apakah perangkat masih terhubung."
 
 #. module: iot
 #: model:ir.model.fields.selection,name:iot.selection__iot_device__type__printer
@@ -538,7 +542,7 @@ msgstr "Timbangan"
 #. module: iot
 #: model:ir.model.fields.selection,name:iot.selection__iot_device__connection__serial
 msgid "Serial"
-msgstr ""
+msgstr "Seri"
 
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_iot_device__connected

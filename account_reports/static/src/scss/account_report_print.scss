@@ -16,12 +16,17 @@
         color: black !important;
     }
     .o_account_reports_table {
-        word-break: break-word;
         margin-bottom: 0px;
         font-size: 12px !important;
         > tbody > tr {
             /* fix thead overlapping http://github.com/wkhtmltopdf/wkhtmltopdf/issues/1524 */
             page-break-inside: avoid;
+            /* Fix extra space in pdf: by overriding the original size of row, the extra space problem is gone */
+            line-height: normal !important;
+            > td {
+                vertical-align: middle;
+                word-break: break-word;
+            }
         }
     }
     .o_account_reports_level0, .o_account_reports_level1, .o_account_reports_level2, .o_account_reports_domain_total, .total {

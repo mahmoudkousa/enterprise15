@@ -5,6 +5,7 @@
 # Translators:
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
+# Larissa Manderfeld, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:41+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Larissa Manderfeld, 2023\n"
+"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -34,7 +35,7 @@ msgstr ""
 #. module: pos_loyalty
 #: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_reward_form
 msgid "<span class=\"oe_grey\">if 0, no limit</span>"
-msgstr "<span class=\"oe_grey\"/>"
+msgstr "<span class=\"oe_grey\"> falls 0, keine Begrenzung</span>"
 
 #. module: pos_loyalty
 #: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_kanban
@@ -189,7 +190,7 @@ msgstr "Zuletzt geändert am"
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__write_uid
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__write_uid
 msgid "Last Updated by"
-msgstr "Zuletzt aktualisiert durch"
+msgstr "Zuletzt aktualisiert von"
 
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__write_date
@@ -351,7 +352,7 @@ msgstr "Bitte wählen Sie eine Prämie"
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_pos_config
 msgid "Point of Sale Configuration"
-msgstr "Point Of Sale Konfiguration"
+msgstr "Kassensystem-Konfiguration"
 
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_pos_order
@@ -374,7 +375,7 @@ msgstr "Punkte"
 #. module: pos_loyalty
 #: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_form
 msgid "Points Rules"
-msgstr ""
+msgstr "Punkteregeln"
 
 #. module: pos_loyalty
 #. openerp-web
@@ -433,7 +434,7 @@ msgstr "Belohnung"
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__point_cost
 msgid "Reward Cost"
-msgstr ""
+msgstr "Belohnungskosten"
 
 #. module: pos_loyalty
 #: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_reward_form
@@ -459,7 +460,7 @@ msgstr "Punkte"
 #. module: pos_loyalty
 #: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__rule_domain
 msgid "Rule Domain"
-msgstr ""
+msgstr "Regelbereich"
 
 #. module: pos_loyalty
 #: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_rule_form

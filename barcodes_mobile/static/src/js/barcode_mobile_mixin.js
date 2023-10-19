@@ -1,7 +1,7 @@
 odoo.define('web_mobile.barcode_mobile_mixin', function (require) {
 "use strict";
 
-const BarcodeScanner = require('@web_enterprise/webclient/barcode/barcode_scanner');
+const BarcodeScanner = require('@web_enterprise/webclient/barcode/barcode_scanner')[Symbol.for("default")];
 const core = require('web.core');
 const _t = core._t;
 

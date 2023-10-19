@@ -90,6 +90,13 @@ class ProviderFedex(models.Model):
                                            ('FEDEX_NEXT_DAY_AFTERNOON', 'FEDEX_NEXT_DAY_AFTERNOON'),
                                            ('FEDEX_NEXT_DAY_END_OF_DAY', 'FEDEX_NEXT_DAY_END_OF_DAY'),
                                            ('FEDEX_EXPRESS_SAVER', 'FEDEX_EXPRESS_SAVER'),
+                                           ('FEDEX_REGIONAL_ECONOMY', 'FEDEX_REGIONAL_ECONOMY'),
+                                           ('FEDEX_FIRST', 'FEDEX_FIRST'),
+                                           ('FEDEX_PRIORITY_EXPRESS', 'FEDEX_PRIORITY_EXPRESS'),
+                                           ('FEDEX_PRIORITY', 'FEDEX_PRIORITY'),
+                                           ('FEDEX_PRIORITY_EXPRESS_FREIGHT', 'FEDEX_PRIORITY_EXPRESS_FREIGHT'),
+                                           ('FEDEX_PRIORITY_FREIGHT', 'FEDEX_PRIORITY_FREIGHT'),
+                                           ('FEDEX_ECONOMY_SELECT', 'FEDEX_ECONOMY_SELECT'),
                                            ],
                                           default='FEDEX_INTERNATIONAL_PRIORITY')
     fedex_duty_payment = fields.Selection([('SENDER', 'Sender'), ('RECIPIENT', 'Recipient')], required=True, default="SENDER")
@@ -408,6 +415,8 @@ class ProviderFedex(models.Model):
 
                     if _convert_curr_iso_fdx(order_currency.name) in request['price']:
                         carrier_price = request['price'][_convert_curr_iso_fdx(order_currency.name)]
+                    elif 'GBP' in request['price']:
+                        carrier_price = request['price']['GBP']
                     else:
                         _logger.info("Preferred currency has not been found in FedEx response")
                         company_currency = picking.company_id.currency_id

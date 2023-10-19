@@ -7,6 +7,7 @@
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
 # Sergio Zanchetta <primes2h@gmail.com>, 2022
+# Marianna Ciofani, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:42+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2022\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Last-Translator: Marianna Ciofani, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -804,14 +805,14 @@ msgstr "Elimina"
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Delete sign"
-msgstr ""
+msgstr "Elimina firma"
 
 #. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Delete sign item"
-msgstr ""
+msgstr "Elimina elemento firma"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_kanban
@@ -1306,7 +1307,7 @@ msgstr "È un follower"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__is_mail_sent
 msgid "Is Mail Sent"
-msgstr ""
+msgstr "L'e-mail è inviata"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template_share__is_one_responsible
@@ -1494,6 +1495,12 @@ msgstr "Aggiornamento mail"
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_main_attachment_id
 msgid "Main Attachment"
 msgstr "Allegato principale"
+
+#. module: sign
+#: code:addons/sign/models/sign_template.py:0
+#, python-format
+msgid "Malformed expression: %(exp)s"
+msgstr "Espressione non valida: %(exp)s"
 
 #. module: sign
 #. openerp-web
@@ -2323,17 +2330,17 @@ msgstr "Firma tutto"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_config_settings__use_sign_terms
 msgid "Sign Default Terms & Conditions"
-msgstr ""
+msgstr "Termini e condizioni predefiniti per la firma"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_company__sign_terms
 msgid "Sign Default Terms and Conditions"
-msgstr ""
+msgstr "Firma termini e condizioni predefiniti"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_company__sign_terms_html
 msgid "Sign Default Terms and Conditions as a Web page"
-msgstr ""
+msgstr "Termini e condizioni sulla pagina web"
 
 #. module: sign
 #. openerp-web
@@ -2409,7 +2416,7 @@ msgstr "Firma i termini e le condizioni come pagina web"
 #: model:ir.model.fields,field_description:sign.field_res_company__sign_terms_type
 #: model:ir.model.fields,field_description:sign.field_res_config_settings__sign_terms_type
 msgid "Sign Terms & Conditions format"
-msgstr ""
+msgstr "Formato termini e condizioni"
 
 #. module: sign
 #. openerp-web
@@ -2821,7 +2828,7 @@ msgstr "Termini e condizioni"
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__res_company__sign_terms_type__html
 msgid "Terms as Web Page"
-msgstr ""
+msgstr "Termini come pagina web"
 
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__res_company__sign_terms_type__plain
@@ -2962,9 +2969,26 @@ msgid "The template doesn't exist anymore."
 msgstr "Il modello non esiste più."
 
 #. module: sign
+#: code:addons/sign/wizard/sign_duplicate_template_with_pdf.py:0
+#, python-format
+msgid "The uploaded file is not a valid PDF. Please upload a valid PDF file."
+msgstr ""
+
+#. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "There are no signatures request."
 msgstr "Non sono presenti richieste di firma."
+
+#. module: sign
+#: code:addons/sign/models/sign_request.py:0
+#: code:addons/sign/models/sign_request.py:0
+#, python-format
+msgid ""
+"There was an issue downloading your document. Please contact an "
+"administrator."
+msgstr ""
+"Si è verificato un problema durante il download del tuo documento, Contatta "
+"un amministratore."
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
@@ -3055,6 +3079,16 @@ msgstr "UTC"
 #, python-format
 msgid "Unable to send the SMS, please contact the sender of the document."
 msgstr "Impossibile inviare l'SMS, contattare il mittente del documento."
+
+#. module: sign
+#: code:addons/sign/controllers/main.py:0
+#, python-format
+msgid ""
+"Unable to sign the document due to missing required data. Please contact an "
+"administrator."
+msgstr ""
+"Impossibile firmare il documento a causa della mancanza dei dati richiesti. "
+"Contatta l'amministratore."
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_unread
@@ -3446,4 +3480,4 @@ msgstr "a:"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_completed
 msgid "you"
-msgstr ""
+msgstr "tu"

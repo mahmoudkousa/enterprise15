@@ -5,6 +5,7 @@
 # Translators:
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
+# Marianna Ciofani, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:56+0000\n"
 "PO-Revision-Date: 2021-09-14 12:38+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Last-Translator: Marianna Ciofani, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -283,6 +284,8 @@ msgstr "PNG"
 #, python-format
 msgid "Package type used in pack %s is not configured for easypost."
 msgstr ""
+"Il tipo di imballaggio utilizzato per il pacco %s non è configurato per "
+"easypost."
 
 #. module: delivery_easypost
 #: code:addons/delivery_easypost/models/easypost_request.py:0
@@ -356,6 +359,8 @@ msgid ""
 "The %s carrier is missing (Missing field(s) :\n"
 " Default Package Type)"
 msgstr ""
+"Il vettore %s è mancante (Campo/i mancante/i:\n"
+"tipo imballaggio predefinito)"
 
 #. module: delivery_easypost
 #: code:addons/delivery_easypost/models/easypost_request.py:0

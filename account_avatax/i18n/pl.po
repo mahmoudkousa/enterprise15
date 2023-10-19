@@ -278,7 +278,7 @@ msgstr "Anuluj"
 #: model:ir.model.fields,field_description:account_avatax.field_avatax_validate_address__city
 #: model_terms:ir.ui.view,arch_db:account_avatax.avatax_validate_address_view_form
 msgid "City"
-msgstr "Miejscowość"
+msgstr "Miasto"
 
 #. module: account_avatax
 #: model:ir.model.fields,field_description:account_avatax.field_avatax_exemption__code

@@ -35,7 +35,6 @@ class AccountCashFlowReport(models.AbstractModel):
             'date_to': options['date']['date_to'],
             'strict_range': options['date']['date_from'] is not False,
         }
-        new_options['journals'] = []
         return new_options
 
     @api.model
@@ -157,6 +156,7 @@ class AccountCashFlowReport(models.AbstractModel):
         :return: query: The SQL query to retrieve the move IDs.
         '''
         new_options = self._get_options_current_period(options)
+        new_options['journals'] = []
         tables, where_clause, where_params = self._query_get(new_options, [('account_id', 'in', list(payment_account_ids))])
 
         query = self.env.cr.mogrify(f"""

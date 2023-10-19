@@ -288,7 +288,7 @@ msgid ""
 "<i class=\"fa fa-exclamation-circle text-warning\"/> This shift is already "
 "assigned to another employee."
 msgstr ""
-"<i class=\"fa fa-exclamation-circle text-warning\"/>Ya se le asignó este "
+"<i class=\"fa fa-exclamation-circle text-warning\"/> Ya se le asignó este "
 "turno a otro empleado."
 
 #. module: planning
@@ -414,7 +414,7 @@ msgstr "Administrador"
 msgid ""
 "All subsequent shifts will be deleted. Are you sure you want to continue?"
 msgstr ""
-"Todos los turnos subsecuentes se eliminarán. ¿Está seguro que desea "
+"Todos los turnos subsecuentes se eliminarán. ¿Está seguro de que desea "
 "continuar?"
 
 #. module: planning
@@ -633,12 +633,12 @@ msgstr "Fecha límite en días para desasignar el turno"
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_hr_employee__default_planning_role_id
 msgid "Default Planning Role"
-msgstr "Rol de planeación predeterminado"
+msgstr "Función de planeación predeterminada"
 
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_roles
 msgid "Define the different roles filled by your employees."
-msgstr "Defina los diferentes roles cumplidos por sus empleados."
+msgstr "Defina las distintas funciones que cumplen sus empleados."
 
 #. module: planning
 #: model:ir.model.fields,help:planning.field_res_company__planning_generation_interval
@@ -1063,7 +1063,7 @@ msgstr "Nombre"
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_report_action_analysis
 msgid "No data yet!"
-msgstr "¡No hay datos aún!"
+msgstr "Todavía no hay información"
 
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_roles
@@ -1885,7 +1885,7 @@ msgstr "días antes del inicio del turno"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.hr_employee_view_form_simplified
 msgid "e.g. John Doe"
-msgstr "Por ejemplo, John Doe"
+msgstr "Por ejemplo, Juan Pérez"
 
 #. module: planning
 #. openerp-web

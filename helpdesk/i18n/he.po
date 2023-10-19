@@ -19,9 +19,10 @@
 # Jonathan Spier, 2021
 # Lilach Gilliam <lilach.gilliam@gmail.com>, 2022
 # Netta Waizer, 2022
-# NoaFarkash, 2022
 # Roy Sayag, 2022
 # Ha Ketem <haketem@gmail.com>, 2022
+# NoaFarkash, 2023
+# yael terner, 2023
 # 
 msgid ""
 msgstr ""
@@ -29,8 +30,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 11:16+0000\n"
 "PO-Revision-Date: 2021-09-14 12:39+0000\n"
-"Last-Translator: Ha Ketem <haketem@gmail.com>, 2022\n"
-"Language-Team: Hebrew (https://www.transifex.com/odoo/teams/41243/he/)\n"
+"Last-Translator: yael terner, 2023\n"
+"Language-Team: Hebrew (https://app.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -40,7 +41,7 @@ msgstr ""
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__open_ticket_count
 msgid "# Open Tickets"
-msgstr ""
+msgstr "# קריאות שירות פתוחות"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__rating_count
@@ -448,10 +449,6 @@ msgstr "מודל בעל כינוי"
 
 #. module: helpdesk
 #: code:addons/helpdesk/controllers/portal.py:0
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla__priority__0
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla_report_analysis__priority__0
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket__priority__0
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket_report_analysis__priority__0
 #, python-format
 msgid "All"
 msgstr "הכל"
@@ -512,12 +509,6 @@ msgstr "הקצה קריאות שירות לאנשים הנכונים"
 #, python-format
 msgid "Assign the ticket to a <b>member of your team</b>."
 msgstr ""
-
-#. module: helpdesk
-#: code:addons/helpdesk/models/helpdesk_ticket.py:0
-#, python-format
-msgid "Assign to me"
-msgstr "שייך אלי"
 
 #. module: helpdesk
 #: code:addons/helpdesk/controllers/portal.py:0
@@ -1088,7 +1079,7 @@ msgstr "תיעוד"
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_ticket__domain_user_ids
 msgid "Domain User"
-msgstr ""
+msgstr "משתמש דומיין"
 
 #. module: helpdesk
 #: model:helpdesk.stage,name:helpdesk.stage_done
@@ -1320,7 +1311,7 @@ msgstr "פרצוף שמח"
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__has_external_mail_server
 msgid "Has External Mail Server"
-msgstr ""
+msgstr "בעל שרת דואר חיצוני"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__has_message
@@ -1433,12 +1424,12 @@ msgstr "שעות פתוחות"
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_ticket_report_analysis__ticket_assignation_hours
 msgid "Hours to Assign"
-msgstr ""
+msgstr "שעות להקצאה"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_ticket_report_analysis__ticket_close_hours
 msgid "Hours to Close"
-msgstr ""
+msgstr "שעות לסגירה"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_sla__id
@@ -1761,10 +1752,10 @@ msgid "Low Priority"
 msgstr "עדיפות נמוכה"
 
 #. module: helpdesk
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla__priority__1
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla_report_analysis__priority__1
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket__priority__1
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket_report_analysis__priority__1
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla__priority__0
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla_report_analysis__priority__0
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket__priority__0
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket_report_analysis__priority__0
 msgid "Low priority"
 msgstr "עדיפות נמוכה"
 
@@ -1806,6 +1797,14 @@ msgstr "בינוני"
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_report_analysis_view_search
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_tickets_view_search
 msgid "Medium Priority"
+msgstr "עדיפות בינונית"
+
+#. module: helpdesk
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla__priority__1
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla_report_analysis__priority__1
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket__priority__1
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket_report_analysis__priority__1
+msgid "Medium priority"
 msgstr "עדיפות בינונית"
 
 #. module: helpdesk
@@ -2091,7 +2090,7 @@ msgstr "מספר הודעות עם שגיאת משלוח"
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_ticket__partner_ticket_count
 msgid "Number of other tickets from the same partner"
-msgstr ""
+msgstr "מס כרטיסים שונים מאותו לקוח"
 
 #. module: helpdesk
 #: model:ir.model.fields,help:helpdesk.field_helpdesk_team__message_unread_counter
@@ -2224,7 +2223,7 @@ msgstr ""
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_ticket__partner_ticket_ids
 msgid "Partner Tickets"
-msgstr ""
+msgstr "כרטיס לקוח"
 
 #. module: helpdesk
 #: model:ir.model.fields,help:helpdesk.field_helpdesk_team__rating_percentage_satisfaction
@@ -2270,7 +2269,21 @@ msgstr "תכנן התערבויות במקום"
 #. openerp-web
 #: code:addons/helpdesk/static/src/js/helpdesk_dashboard.js:0
 #, python-format
-msgid "Please enter an integer value"
+msgid "Please enter a number."
+msgstr ""
+
+#. module: helpdesk
+#. openerp-web
+#: code:addons/helpdesk/static/src/js/helpdesk_dashboard.js:0
+#, python-format
+msgid "Please enter a percentage below 100."
+msgstr ""
+
+#. module: helpdesk
+#. openerp-web
+#: code:addons/helpdesk/static/src/js/helpdesk_dashboard.js:0
+#, python-format
+msgid "Please enter a positive value."
 msgstr ""
 
 #. module: helpdesk

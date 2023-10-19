@@ -4,8 +4,9 @@
 # 
 # Translators:
 # Martin Trigaux, 2021
-# grazziano <gra.negocia@gmail.com>, 2021
+# grazziano <grazziano.do+transifex@gmail.com>, 2021
 # Luiz Fernando <lfpsgs@outlook.com>, 2021
+# Layna Nascimento, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,13 +14,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:43+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Luiz Fernando <lfpsgs@outlook.com>, 2021\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Last-Translator: Layna Nascimento, 2023\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_account_payment_form_inherit_account_batch_payment
@@ -44,7 +45,7 @@ msgstr "<strong>Considere primeiro os seguintes avisos</strong>"
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.batch_error_wizard_form
 msgid "<strong>The following errors occurred</strong>"
-msgstr ""
+msgstr "<strong>Os seguintes erros ocorreram</strong>"
 
 #. module: account_batch_payment
 #: model:ir.model,name:account_batch_payment.model_account_batch_download_wizard
@@ -158,18 +159,19 @@ msgstr ""
 #. module: account_batch_payment
 #: model:ir.model,name:account_batch_payment.model_account_batch_error_wizard
 msgid "Batch payments error reporting wizard"
-msgstr ""
+msgstr "Assistente de relato de erros em pagamentos em lote"
 
 #. module: account_batch_payment
 #: model:ir.model,name:account_batch_payment.model_account_batch_error_wizard_line
 msgid "Batch payments error reporting wizard line"
-msgstr ""
+msgstr "Linha do assistente de relato de erros em pagamentos em lote"
 
 #. module: account_batch_payment
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
 #, python-format
 msgid "Cannot validate an empty batch. Please add some payments to it first."
 msgstr ""
+"Não é possível validar um lote vazio. Adicione alguns pagamentos primeiro."
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.download_xml_form
@@ -206,7 +208,7 @@ msgstr "Criar um novo lote de pagamentos de fornecedor"
 #. module: account_batch_payment
 #: model:ir.actions.server,name:account_batch_payment.action_account_create_batch_payment
 msgid "Create batch payment"
-msgstr ""
+msgstr "Criar pagamento em lote"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_download_wizard__create_uid
@@ -271,17 +273,17 @@ msgstr "Baixar o arquivo de exportação"
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_error_wizard__error_line_ids
 msgid "Error Line"
-msgstr ""
+msgstr "Linha de erro"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_error_wizard_line__error_wizard_id
 msgid "Error Wizard"
-msgstr ""
+msgstr "Assistente de erros"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.batch_error_wizard_line_tree
 msgid "Exclude Payments"
-msgstr ""
+msgstr "Excluir pagamentos"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_payment__export_file
@@ -412,7 +414,7 @@ msgstr "Nome do arquivo XML gerado"
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_payment__amount_signed
 msgid "Negative value of amount field if payment_type is outbound"
-msgstr ""
+msgstr "Valor negativo do campo de valor se payment_type for de saída"
 
 #. module: account_batch_payment
 #: model:ir.model.fields.selection,name:account_batch_payment.selection__account_batch_payment__state__draft
@@ -422,7 +424,7 @@ msgstr "Novo"
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_account_payment_search_inherit_account_batch_payment
 msgid "Not reconciled"
-msgstr ""
+msgstr "Não reconciliado"
 
 #. module: account_batch_payment
 #: model:ir.model.fields.selection,name:account_batch_payment.selection__account_batch_payment__batch_type__outbound
@@ -467,13 +469,13 @@ msgstr ""
 #: code:addons/account_batch_payment/wizard/batch_error.py:0
 #, python-format
 msgid "Payments in Error"
-msgstr ""
+msgstr "Pagamentos com erro"
 
 #. module: account_batch_payment
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
 #, python-format
 msgid "Payments must be posted to be added to a batch."
-msgstr ""
+msgstr "Os pagamentos devem ser lançados para serem adicionados a um lote."
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_batch_payment_form
@@ -488,12 +490,12 @@ msgstr "Imprimir Lote de Pagamento"
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.batch_error_wizard_form
 msgid "Proceed with validation"
-msgstr ""
+msgstr "Prosseguir com validação"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_batch_payment_form
 msgid "Re-generate Export File"
-msgstr ""
+msgstr "Gerar novamente arquivo de exportação"
 
 #. module: account_batch_payment
 #: model:ir.model.fields.selection,name:account_batch_payment.selection__account_batch_payment__state__reconciled
@@ -514,7 +516,7 @@ msgstr "Enviado"
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
 #, python-format
 msgid "Set payments state to \"posted\"."
-msgstr ""
+msgstr "Definir situação dos pagamentos como “lançado”."
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.batch_error_wizard_line_tree
@@ -524,24 +526,24 @@ msgstr "Exibir"
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_error_wizard_line__show_remove_button
 msgid "Show Remove Button"
-msgstr ""
+msgstr "Exibir botão de remover"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_error_wizard__show_remove_options
 msgid "Show Remove Options"
-msgstr ""
+msgstr "Exibir opções de remover"
 
 #. module: account_batch_payment
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
 #, python-format
 msgid "Some payments have already been matched with a bank statement."
-msgstr ""
+msgstr "Alguns pagamentos já foram correspondidos com um extrato bancário."
 
 #. module: account_batch_payment
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
 #, python-format
 msgid "Some payments have already been sent."
-msgstr ""
+msgstr "Alguns pagamentos já foram enviados."
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_payment__state
@@ -552,12 +554,12 @@ msgstr "Estado"
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.batch_error_wizard_form
 msgid "The batch cannot be validated."
-msgstr ""
+msgstr "O lote não pode ser validado."
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.batch_error_wizard_form
 msgid "The batch could not be validated"
-msgstr ""
+msgstr "O lote não pôde ser validado"
 
 #. module: account_batch_payment
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
@@ -578,6 +580,7 @@ msgid ""
 "The batch payment generating the errors and warnings displayed in this "
 "wizard."
 msgstr ""
+"O pagamento em lote que gera os erros e avisos exibidos nesse assistente."
 
 #. module: account_batch_payment
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
@@ -605,6 +608,8 @@ msgid ""
 "True if and only if the options to remove the payments causing the errors or"
 " warnings from the batch should be shown"
 msgstr ""
+"Verdadeiro somente se as opções para remover os pagamentos que causam os "
+"erros ou avisos do lote devem ser mostradas"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_batch_payment_search
@@ -619,12 +624,12 @@ msgstr "Validar"
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_error_wizard__warning_line_ids
 msgid "Warning Line"
-msgstr ""
+msgstr "Linha de aviso"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_error_wizard_line__warning_wizard_id
 msgid "Warning Wizard"
-msgstr ""
+msgstr "Assistente de avisos"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_payment__file_generation_enabled

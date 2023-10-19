@@ -6,6 +6,7 @@
 # Martin Trigaux, 2021
 # sejun huang <sejun.huang@gmail.com>, 2021
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2021
+# Tony Ng, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2021\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Last-Translator: Tony Ng, 2023\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -68,9 +69,9 @@ msgid ""
 "specific.\" role=\"img\" aria-label=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
-"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
-"specific.\" role=\"img\" aria-label=\"Values set here are company-"
-"specific.\" groups=\"base.group_multi_company\"/>"
+"<span class=\"fa fa-lg fa-building-o\" title=\"此處設定的值是特定於每間公司的。\" "
+"role=\"img\" aria-label=\"此處設定的值是特定於每間公司的。\" "
+"groups=\"base.group_multi_company\"/>"
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
@@ -423,7 +424,7 @@ msgstr "日期"
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
 msgid "Define fiscal years of more or less than one year"
-msgstr "Define fiscal years of more or less than one year"
+msgstr "將會計年度設定為長過或短過一年"
 
 #. module: account_accountant
 #. openerp-web
@@ -602,7 +603,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_accountant.field_res_company__invoicing_switch_threshold
 #: model:ir.model.fields,field_description:account_accountant.field_res_config_settings__invoicing_switch_threshold
 msgid "Invoicing Switch Threshold"
-msgstr "Invoicing Switch Threshold"
+msgstr "發票賬項生效門檻"
 
 #. module: account_accountant
 #: code:addons/account_accountant/models/reconciliation_widget.py:0
@@ -735,8 +736,6 @@ msgid ""
 "Let’s use AI to fill in the form<br/><br/><i>Tip: If the OCR is not done "
 "yet, wait a few more seconds and try again.</i>"
 msgstr ""
-"Let’s use AI to fill in the form<br/><br/><i>Tip: If the OCR is not done "
-"yet, wait a few more seconds and try again.</i>"
 
 #. module: account_accountant
 #. openerp-web
@@ -963,10 +962,7 @@ msgid ""
 "Prevents Tax Returns modification prior to the defined date (Journal Entries"
 " involving taxes). The Tax Return Lock Date is automatically set when the "
 "corresponding Journal Entry is posted."
-msgstr ""
-"Prevents Tax Returns modification prior to the defined date (Journal Entries"
-" involving taxes). The Tax Return Lock Date is automatically set when the "
-"corresponding Journal Entry is posted."
+msgstr "在設定的日期之前，防止用戶修改報稅表（涉及稅項的日記賬記項）。「報稅鎖定日期」會在相應的日記賬記項過賬時自動設置。"
 
 #. module: account_accountant
 #. openerp-web
@@ -1091,7 +1087,7 @@ msgstr "稅收鎖定日期"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date__tax_lock_date
 msgid "Tax Return Lock Date"
-msgstr "Tax Return Lock Date"
+msgstr "報稅鎖定日期"
 
 #. module: account_accountant
 #. openerp-web
@@ -1110,10 +1106,6 @@ msgid ""
 " allows keeping the former payment state, so that we can restore it if the "
 "user misconfigured the switch date and wants to change it."
 msgstr ""
-"Technical field to keep the value of payment_state when switching from "
-"invoicing to accounting (using invoicing_switch_threshold setting field). It"
-" allows keeping the former payment state, so that we can restore it if the "
-"user misconfigured the switch date and wants to change it."
 
 #. module: account_accountant
 #. openerp-web
@@ -1140,9 +1132,7 @@ msgstr "結束日期不能在開始日期之前。"
 msgid ""
 "The invoices up to this date will not be taken into account as accounting "
 "entries"
-msgstr ""
-"The invoices up to this date will not be taken into account as accounting "
-"entries"
+msgstr "以下日期及之前的發票，不會被視為會計記項"
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
@@ -1150,8 +1140,6 @@ msgid ""
 "The system will try to predict the accounts on vendor bill lines based on "
 "history of previous bills"
 msgstr ""
-"The system will try to predict the accounts on vendor bill lines based on "
-"history of previous bills"
 
 #. module: account_accountant
 #. openerp-web
@@ -1271,7 +1259,7 @@ msgstr ""
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_move_form_inherit
 msgid "You have suspense account moves that match this invoice."
-msgstr "您有與此憑單匹配的暫停帳戶移動。"
+msgstr "你有符合此發票的暫記賬分錄記項。"
 
 #. module: account_accountant
 #. openerp-web

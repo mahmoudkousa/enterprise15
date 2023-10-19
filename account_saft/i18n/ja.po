@@ -68,3 +68,9 @@ msgid ""
 "Please define at least one contact (Phone or Mobile) for the following "
 "partners: %s."
 msgstr ""
+
+#. module: account_saft
+#: code:addons/account_saft/models/account_general_ledger.py:0
+#, python-format
+msgid "Please define one or more Contacts belonging to your company."
+msgstr "会社に属する連絡先を1つ以上定義して下さい。"

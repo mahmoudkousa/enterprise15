@@ -63,6 +63,7 @@ const DialingPanel = Widget.extend({
 
         this.title = _t("VOIP");
 
+        this._hasIncomingCall = false;
         this._isFolded = false;
         this._isFoldedBeforeCall = false;
         this._isInCall = false;
@@ -236,7 +237,11 @@ const DialingPanel = Widget.extend({
             this.$('.o_dial_incoming_buttons').hide();
         } else {
             this.$('.o_dial_fold').css("bottom", 0);
-            this.$('.o_dial_main_buttons').show();
+            if (this._hasIncomingCall) {
+                this._activeTab._phoneCallDetails.receivingCall();
+            } else {
+                this.$('.o_dial_main_buttons').show();
+            }
         }
     },
     /**
@@ -482,7 +487,7 @@ const DialingPanel = Widget.extend({
      */
     async _toggleFold({ isFolded }={}) {
         if (!config.device.isMobile) {
-            if (this._isFolded) {
+            if (this._isFolded && !this._hasIncomingCall) {
                 await this._refreshPhoneCallsStatus();
             }
             this._isFolded = _.isBoolean(isFolded) ? isFolded : !this._isFolded;
@@ -747,6 +752,7 @@ const DialingPanel = Widget.extend({
         await this._activeTab.onIncomingCall(ev.data);
         this._$mainButtons.hide();
         this._$incomingCallButtons.show();
+        this._hasIncomingCall = true;
     },
     /**
      * @private
@@ -842,6 +848,7 @@ const DialingPanel = Widget.extend({
      * @return {Promise}
      */
     _onSipCancelIncoming(ev) {
+        this._hasIncomingCall = false;
         this._isInCall = false;
         this._isPostpone = false;
         this._missedCounter = this._missedCounter + 1;
@@ -942,6 +949,7 @@ const DialingPanel = Widget.extend({
      * @return {Promise}
      */
     _onSipRejected(ev) {
+        this._hasIncomingCall = false;
         this._cancelCall();
         return this._activeTab.onRejectedCall(ev.data);
     },

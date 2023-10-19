@@ -7,7 +7,8 @@
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2021
 # Pornvibool Tippayawat <pornvibool.t@gmail.com>, 2021
 # Odoo Thaidev <odoothaidev@gmail.com>, 2021
-# Wichanon Jamwutthipreecha, 2022
+# Wichanon Jamwutthipreecha, 2023
+# Rasareeyar Lappiam, 2023
 # 
 msgid ""
 msgstr ""
@@ -15,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 11:16+0000\n"
 "PO-Revision-Date: 2021-09-14 12:38+0000\n"
-"Last-Translator: Wichanon Jamwutthipreecha, 2022\n"
-"Language-Team: Thai (https://www.transifex.com/odoo/teams/41243/th/)\n"
+"Last-Translator: Rasareeyar Lappiam, 2023\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -43,7 +44,7 @@ msgstr "#{day['today_cls'] and 'Today' or ''}"
 #: code:addons/appointment/models/calendar_appointment_type.py:0
 #, python-format
 msgid "%s - Let's meet"
-msgstr ""
+msgstr "%s - นัดเจอกัน"
 
 #. module: appointment
 #: code:addons/appointment/controllers/main.py:0
@@ -345,6 +346,13 @@ msgid "Active"
 msgstr "เปิดใช้งาน"
 
 #. module: appointment
+#. openerp-web
+#: code:addons/appointment/static/src/js/wysiwyg.js:0
+#, python-format
+msgid "Add a specific appointment."
+msgstr ""
+
+#. module: appointment
 #: model:res.groups,name:appointment.group_calendar_manager
 msgid "Administrator"
 msgstr "ผู้ดูแลระบบ"
@@ -398,6 +406,13 @@ msgstr "ช่องประเภทที่ไม่ซ้ำควรมี
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_answer_view_form
 msgid "Answer"
 msgstr "ตอบ"
+
+#. module: appointment
+#. openerp-web
+#: code:addons/appointment/static/src/js/wysiwyg.js:0
+#, python-format
+msgid "Appointment"
+msgstr "การนัดหมาย"
 
 #. module: appointment
 #: model:mail.message.subtype,description:appointment.mt_calendar_event_booked
@@ -550,7 +565,18 @@ msgid "Available Employees"
 msgstr "พนักงานที่มีอยู่"
 
 #. module: appointment
+#. openerp-web
+#: code:addons/appointment/static/src/js/wysiwyg.js:0
+#: code:addons/appointment/static/src/js/wysiwyg.js:0
+#, python-format
+msgid "Basic blocks"
+msgstr ""
+
+#. module: appointment
+#. openerp-web
+#: code:addons/appointment/static/src/js/wysiwyg.js:0
 #: model:ir.ui.menu,name:appointment.calendar_appointment_type_menu_action
+#, python-format
 msgid "Calendar"
 msgstr "ปฏิทิน"
 
@@ -863,6 +889,13 @@ msgstr "ถ้าเลือก ข้อความใหม่จะต้�
 #: model:ir.model.fields,help:appointment.field_calendar_appointment_type__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr "ถ้าเลือก ข้อความบางข้อความมีข้อผิดพลาดในการส่ง"
+
+#. module: appointment
+#. openerp-web
+#: code:addons/appointment/static/src/js/wysiwyg.js:0
+#, python-format
+msgid "Insert Appointment Link"
+msgstr "ใส่ลิงค์การนัดหมาย"
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_insert_share_view_form
@@ -1213,6 +1246,13 @@ msgstr "กำหนดเวลาการสาธิต"
 #: model_terms:ir.ui.view,arch_db:appointment.appointments_list_layout
 msgid "Schedule an Appointment"
 msgstr "กำหนดการนัดหมาย"
+
+#. module: appointment
+#. openerp-web
+#: code:addons/appointment/static/src/js/wysiwyg.js:0
+#, python-format
+msgid "Schedule an appointment."
+msgstr ""
 
 #. module: appointment
 #: model_terms:ir.actions.act_window,help:appointment.calendar_event_action_report

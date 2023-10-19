@@ -25,7 +25,7 @@ msgstr ""
 #. module: sale_amazon_spapi
 #: model:ir.model.fields,field_description:sale_amazon_spapi.field_amazon_account__aws_access_key
 msgid "AWS Access Key"
-msgstr "AWS Access Key"
+msgstr "AWS-Zugriffsschlüssel"
 
 #. module: sale_amazon_spapi
 #: model:ir.model.fields,field_description:sale_amazon_spapi.field_amazon_account__aws_secret_key
@@ -141,7 +141,7 @@ msgstr "LWA Refresh Token"
 #. module: sale_amazon_spapi
 #: model_terms:ir.ui.view,arch_db:sale_amazon_spapi.amazon_account_view_form_inherit
 msgid "Link with Amazon"
-msgstr "Verknüpfung mit Amazon"
+msgstr "Mit Amazon verknüpfen"
 
 #. module: sale_amazon_spapi
 #: model_terms:ir.ui.view,arch_db:sale_amazon_spapi.amazon_account_view_form_inherit
@@ -307,6 +307,9 @@ msgid ""
 "This action will disconnect your account with Amazon and cannot be"
 "                                  undone. Are you sure you want to proceed?"
 msgstr ""
+"Diese Aktion trennt die Verbindung Ihres Kontos mit Amazon und kann nicht"
+"                                  rückgängig gemacht werden. Sind Sie "
+"sicher, dass Sie fortfahren möchten?"
 
 #. module: sale_amazon_spapi
 #: model:ir.model,name:sale_amazon_spapi.model_stock_picking

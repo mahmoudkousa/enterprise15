@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2021
+# Rasareeyar Lappiam, 2023
 # 
 msgid ""
 msgstr ""
@@ -11,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:38+0000\n"
-"Last-Translator: Martin Trigaux, 2021\n"
-"Language-Team: Thai (https://www.transifex.com/odoo/teams/41243/th/)\n"
+"Last-Translator: Rasareeyar Lappiam, 2023\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -33,17 +34,21 @@ msgid ""
 "                        The export of data from Winbooks for closed years might contain unbalanced entries. However if you want to try to import everything, Odoo will set the difference of balance in a Suspense Account.\n"
 "                    </span>"
 msgstr ""
+"<span/>\n"
+"                    <span class=\"text-warning mb4 mt16\" attrs=\"{'invisible': [('only_open', '=', True)]}\">\n"
+"                        การส่งออกข้อมูลจาก Winbooks สำหรับปีที่ปิดบัญชีอาจมีรายการที่ไม่สมดุล อย่างไรก็ตาม หากคุณต้องการลองนำเข้าทุกอย่าง Odoo จะกำหนดส่วนต่างของยอดคงเหลือในบัญชีพัก\n"
+"                    </span>"
 
 #. module: account_winbooks_import
 #: model:ir.model,name:account_winbooks_import.model_account_winbooks_import_wizard
 msgid "Account Winbooks import wizard"
-msgstr ""
+msgstr "โปรแกรมนำเข้าบัญชี Winbooks"
 
 #. module: account_winbooks_import
 #: code:addons/account_winbooks_import/wizard/import_wizard.py:0
 #, python-format
 msgid "Accounting Settings"
-msgstr ""
+msgstr "การตั้งค่าการบัญชี"
 
 #. module: account_winbooks_import
 #: model_terms:ir.ui.view,arch_db:account_winbooks_import.winbooks_import_form
@@ -59,14 +64,14 @@ msgstr "บริษัท"
 #: code:addons/account_winbooks_import/wizard/import_wizard.py:0
 #, python-format
 msgid "Company Settings"
-msgstr ""
+msgstr "การตั้งค่าบริษัท"
 
 #. module: account_winbooks_import
 #: code:addons/account_winbooks_import/wizard/import_wizard.py:0
 #: code:addons/account_winbooks_import/wizard/import_wizard.py:0
 #, python-format
 msgid "Counterpart (generated at import from Winbooks)"
-msgstr ""
+msgstr "สำเนา (สร้างเมื่อนำเข้าจาก Winbooks)"
 
 #. module: account_winbooks_import
 #: model:ir.model.fields,field_description:account_winbooks_import.field_account_winbooks_import_wizard__create_uid
@@ -105,9 +110,14 @@ msgid "Import"
 msgstr "นำเข้า"
 
 #. module: account_winbooks_import
+#: model_terms:ir.ui.view,arch_db:account_winbooks_import.winbooks_import_form
+msgid "Import (safe-mode)"
+msgstr "นำเข้า (โหมดปลอดภัย)"
+
+#. module: account_winbooks_import
 #: model:ir.model.fields,field_description:account_winbooks_import.field_account_winbooks_import_wizard__only_open
 msgid "Import only open years"
-msgstr ""
+msgstr "นำเข้าเฉพาะปีบัญชีที่เปิดเท่านั้น"
 
 #. module: account_winbooks_import
 #: model_terms:ir.ui.view,arch_db:account_winbooks_import.onboarding_winbooks_step
@@ -147,7 +157,7 @@ msgstr "ดูดีจัง !"
 #. module: account_winbooks_import
 #: model:ir.model.fields,help:account_winbooks_import.field_account_move_line__winbooks_matching_number
 msgid "Matching number that was used in Winbooks"
-msgstr ""
+msgstr "การจับคู่หมายเลขที่ใช้ใน Winbooks"
 
 #. module: account_winbooks_import
 #: model:ir.model.fields.selection,name:account_winbooks_import.selection__res_company__account_onboarding_winbooks_state__not_done
@@ -158,7 +168,7 @@ msgstr "ยังไม่เสร็จ"
 #: code:addons/account_winbooks_import/wizard/import_wizard.py:0
 #, python-format
 msgid "Please define the country on your company."
-msgstr ""
+msgstr "โปรดกำหนดประเทศของบริษัทของคุณ"
 
 #. module: account_winbooks_import
 #: model_terms:ir.ui.view,arch_db:account_winbooks_import.winbooks_import_form
@@ -168,19 +178,29 @@ msgstr "ค้นหาตามสถานะ"
 #. module: account_winbooks_import
 #: model:ir.model.fields,field_description:account_winbooks_import.field_res_company__account_onboarding_winbooks_state
 msgid "State of the onboarding winbooks step"
-msgstr ""
+msgstr "สถานะของขั้นตอนการเริ่มต้นใช้งาน winbooks"
 
 #. module: account_winbooks_import
 #: model:ir.model.fields,field_description:account_winbooks_import.field_account_winbooks_import_wizard__suspense_code
 msgid "Suspense Account Code"
-msgstr ""
+msgstr "รหัสบัญชีพัก"
 
 #. module: account_winbooks_import
 #: code:addons/account_winbooks_import/wizard/import_wizard.py:0
 #, python-format
 msgid ""
 "The code for the Suspense Account you entered doesn't match any account"
+msgstr "รหัสสำหรับบัญชีพักที่คุณป้อนไม่ตรงกับบัญชีใดๆ"
+
+#. module: account_winbooks_import
+#: code:addons/account_winbooks_import/wizard/import_wizard.py:0
+#, python-format
+msgid ""
+"The following banks were used for multiple partners in Winbooks, which is not allowed in Odoo. The bank number has been only set on one of each group:\n"
+"%s"
 msgstr ""
+"ธนาคารต่อไปนี้ถูกใช้สำหรับพาร์ทเนอร์หลายรายใน Winbooks ซึ่งไม่ได้รับอนุญาตใน Odoo หมายเลขธนาคารถูกกำหนดไว้เพียงกลุ่มเดียวเท่านั้น:\n"
+"%s"
 
 #. module: account_winbooks_import
 #: model:ir.model.fields,help:account_winbooks_import.field_account_winbooks_import_wizard__suspense_code
@@ -189,18 +209,21 @@ msgid ""
 "unbalanced moves. This might be an account from your Winbooks data, or an "
 "account that you created in Odoo before the import."
 msgstr ""
+"นี่คือรหัสของบัญชีที่คุณต้องการสมทบการเคลื่อนไหวที่ไม่สมดุล "
+"นี่อาจเป็นบัญชีจากข้อมูล Winbooks ของคุณ หรือบัญชีที่คุณสร้างใน Odoo "
+"ก่อนการนำเข้า"
 
 #. module: account_winbooks_import
 #: model:ir.actions.act_window,name:account_winbooks_import.winbooks_import_action
 #: model:ir.ui.menu,name:account_winbooks_import.menu_action_import_winbooks
 #: model_terms:ir.ui.view,arch_db:account_winbooks_import.onboarding_winbooks_step
 msgid "Winbooks Import"
-msgstr ""
+msgstr "การนำเข้า Winbooks"
 
 #. module: account_winbooks_import
 #: model:ir.model.fields,field_description:account_winbooks_import.field_account_move_line__winbooks_matching_number
 msgid "Winbooks Matching Number"
-msgstr ""
+msgstr "หมายเลขการจับคู่ Winbooks"
 
 #. module: account_winbooks_import
 #: model:ir.model.fields,help:account_winbooks_import.field_account_winbooks_import_wizard__only_open
@@ -208,12 +231,14 @@ msgid ""
 "Years closed in Winbooks are likely to have incomplete data. The counter "
 "part of incomplete entries will be set in a suspense account"
 msgstr ""
+"ปีบัญชีที่ปิดใน Winbooks มีแนวโน้มที่จะมีข้อมูลไม่ครบถ้วน "
+"ส่วนตัวนับของรายการที่ไม่สมบูรณ์จะถูกตั้งค่าในบัญชีพัก"
 
 #. module: account_winbooks_import
 #: code:addons/account_winbooks_import/wizard/import_wizard.py:0
 #, python-format
 msgid "You should install a Fiscal Localization first."
-msgstr ""
+msgstr "คุณควรติดตั้ง การประยุกต์ใช้ทางการเงิน ก่อน"
 
 #. module: account_winbooks_import
 #: code:addons/account_winbooks_import/wizard/import_wizard.py:0

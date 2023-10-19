@@ -7,7 +7,6 @@
 # DanielDemedziuk <daniel.demedziuk@gmail.com>, 2021
 # Jakobus Buntownikus <buntownix@gmail.com>, 2021
 # Andrzej Wiśniewski <a.wisniewski@hadron.eu.com>, 2021
-# Wiktor Kaźmierczak <wik92tor@wp.pl>, 2021
 # Piotr Strębski <strebski@gmail.com>, 2021
 # Dariusz Żbikowski <darek@krokus.com.pl>, 2021
 # Wojciech Warczakowski <w.warczakowski@gmail.com>, 2021
@@ -1686,7 +1685,7 @@ msgstr "Dobre zdrowie"
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
 msgid "Group By"
-msgstr "Grupuj wg."
+msgstr "Grupuj wg"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_form
@@ -3489,13 +3488,13 @@ msgstr "Podsumowanie"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__tag_id
 msgid "Tag"
-msgstr "Znacznik"
+msgstr "Tag"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__tag_ids
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__tag_ids
 msgid "Tags"
-msgstr "Znaczniki"
+msgstr "Tagi"
 
 #. module: sale_subscription
 #: model:base.automation,name:sale_subscription.subscription_alert_percent_revenue_base_automation
@@ -4216,7 +4215,7 @@ msgstr "brakujące płatności (od"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "months"
-msgstr "miesięcy"
+msgstr "miesiące"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription

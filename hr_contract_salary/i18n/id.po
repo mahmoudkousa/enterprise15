@@ -203,7 +203,7 @@ msgstr ""
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_personal_info__applies_on
 msgid "Applies On"
-msgstr ""
+msgstr "Diterapkan Pada"
 
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.salary_package_next_step_button
@@ -231,7 +231,7 @@ msgstr "Ditugaskan untuk"
 #. module: hr_contract_salary
 #: model:hr.contract.salary.personal.info.value,name:hr_contract_salary.hr_contract_salary_personal_info_certificate_bachelor
 msgid "Bachelor"
-msgstr ""
+msgstr "Bachelor"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields.selection,name:hr_contract_salary.selection__hr_contract_salary_personal_info__applies_on__bank_account
@@ -380,7 +380,7 @@ msgstr ""
 #. module: hr_contract_salary
 #: model:ir.model,name:hr_contract_salary.model_hr_contract_history
 msgid "Contract history"
-msgstr ""
+msgstr "Sejarah Kontrak"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields.selection,name:hr_contract_salary.selection__hr_contract_salary_advantage__activity_creation__countersigned
@@ -900,7 +900,7 @@ msgstr ""
 #. module: hr_contract_salary
 #: model:hr.contract.salary.personal.info.value,name:hr_contract_salary.hr_contract_salary_personal_info_certificate_master
 msgid "Master"
-msgstr ""
+msgstr "Master"
 
 #. module: hr_contract_salary
 #: code:addons/hr_contract_salary/models/hr_contract_salary_personal_info.py:0
@@ -941,7 +941,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_history__reference_monthly_wage
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_history_view_form
 msgid "Monthly Wage"
-msgstr ""
+msgstr "Gaji Bulanan"
 
 #. module: hr_contract_salary
 #: model:hr.contract.salary.personal.info,name:hr_contract_salary.hr_contract_salary_personal_info_name
@@ -1073,7 +1073,7 @@ msgstr "Buka Tautan"
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract__origin_contract_id
 msgid "Origin Contract"
-msgstr ""
+msgstr "Kontrak Awal"
 
 #. module: hr_contract_salary
 #: code:addons/hr_contract_salary/controllers/main.py:0
@@ -1244,7 +1244,7 @@ msgstr ""
 #. module: hr_contract_salary
 #: model:ir.ui.menu,name:hr_contract_salary.salary_package_menu
 msgid "Salary Package Configurator"
-msgstr ""
+msgstr "Konfigurator Paket Gaji"
 
 #. module: hr_contract_salary
 #: model:ir.model,name:hr_contract_salary.model_hr_contract_salary_personal_info
@@ -1287,7 +1287,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_personal_info__structure_type_id
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_resume__structure_type_id
 msgid "Salary Structure Type"
-msgstr ""
+msgstr "Tipe Struktur Gaji"
 
 #. module: hr_contract_salary
 #: model:hr.contract.salary.personal.info,name:hr_contract_salary.hr_contract_salary_personal_info_study_school

@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 # pylint: disable=C0326
 from unittest.mock import patch
+from freezegun import freeze_time
 
 from .common import TestAccountReportsCommon
 from odoo import fields, Command
 from odoo.tests import tagged
 from odoo.tests.common import Form
-from odoo.exceptions import UserError
 
 
 @tagged('post_install', '-at_install')
@@ -37,8 +37,8 @@ class TestTaxReport(TestAccountReportsCommon):
 
         # Setup fiscal data
         cls.company_data['company'].write({
-            'country_id': cls.fiscal_country.id, # Will also set fiscal_country_id
-            'state_id': cls. country_state_1.id, # Not necessary at the moment; put there for consistency and robustness with possible future changes
+            'country_id': cls.fiscal_country.id,  # Will also set fiscal_country_id
+            'state_id': cls.country_state_1.id,  # Not necessary at the moment; put there for consistency and robustness with possible future changes
             'account_tax_periodicity': 'trimester',
         })
 
@@ -1036,6 +1036,7 @@ class TestTaxReport(TestAccountReportsCommon):
 
         self.assertLinesValues(inv_report_lines, expected_columns, expected_lines)
 
+    @freeze_time('2023-10-05 02:00:00')
     def test_tax_report_grid_cash_basis(self):
         """ Cash basis moves create for taxes based on payments are handled differently
         by the report; we want to ensure their sign is managed properly.
@@ -1058,6 +1059,7 @@ class TestTaxReport(TestAccountReportsCommon):
             'payment_date': invoice.date,
         })._create_payments()
 
+    @freeze_time('2023-10-05 02:00:00')
     def test_tax_report_grid_cash_basis_refund(self):
         """ Cash basis moves create for taxes based on payments are handled differently
         by the report; we want to ensure their sign is managed properly. This
@@ -1080,6 +1082,7 @@ class TestTaxReport(TestAccountReportsCommon):
             on_all_invoices_created=reconcile_opposite_types
         )
 
+    @freeze_time('2023-10-05 02:00:00')
     def test_tax_report_grid_cash_basis_misc_pmt(self):
         """ Cash basis moves create for taxes based on payments are handled differently
         by the report; we want to ensure their sign is managed properly. This
@@ -1122,6 +1125,7 @@ class TestTaxReport(TestAccountReportsCommon):
             on_invoice_created=reconcile_with_misc_pmt
         )
 
+    @freeze_time('2023-10-05 02:00:00')
     def test_caba_no_payment(self):
         """ The cash basis taxes of an unpaid invoice should
         never impact the report.
@@ -1135,6 +1139,7 @@ class TestTaxReport(TestAccountReportsCommon):
             ]
         )
 
+    @freeze_time('2023-10-05 02:00:00')
     def test_caba_half_payment(self):
         """ Paying half the amount of the invoice should report half the
         base and tax amounts.
@@ -1561,6 +1566,7 @@ class TestTaxReport(TestAccountReportsCommon):
             ],
         )
 
+    @freeze_time('2023-10-05 02:00:00')
     def test_tax_report_grid_caba_negative_inv_line(self):
         """ Tests cash basis taxes work properly in case a line of the invoice
         has been made with a negative quantities and taxes (causing debit and
@@ -1971,6 +1977,7 @@ class TestTaxReport(TestAccountReportsCommon):
                 ],
             )
 
+    @freeze_time('2023-10-05 02:00:00')
     def test_tax_report_with_entries_with_sale_and_purchase_taxes (self):
         """ Ensure signs are managed properly for entry moves.
         This test runs the case where invoice/bill like entries are created and reverted.
@@ -2050,6 +2057,7 @@ class TestTaxReport(TestAccountReportsCommon):
             ],
         )
 
+    @freeze_time('2023-10-05 02:00:00')
     def test_invoice_like_entry_reverse_caba_report(self):
         """ Cancelling the reconciliation of an invoice using cash basis taxes should reverse the cash basis move
         in such a way that the original cash basis move lines' impact falls down to 0.
@@ -2162,5 +2170,244 @@ class TestTaxReport(TestAccountReportsCommon):
                 ('Invoice tax',                                 0),
                 ('Refund base',                                 0),
                 ('Refund tax',                                  0),
+            ],
+        )
+
+    def test_tax_report_w_rounding_line(self):
+        """Check that the tax report is correct when a rounding line is added to an invoice."""
+        self.env['res.config.settings'].create({
+            'company_id': self.company_data['company'].id,
+            'group_cash_rounding': True
+        })
+
+        rounding = self.env['account.cash.rounding'].create({
+            'name': 'Test rounding',
+            'rounding': 0.05,
+            'strategy': 'biggest_tax',
+            'rounding_method': 'HALF-UP',
+            'company_id': self.company_data['company'].id,
+        })
+
+        tax = self.sale_tax_percentage_incl_1.copy({
+            'name': 'The Tax Who Says Ni',
+            'amount': 21,
+        })
+
+        invoice = self.env['account.move'].create({
+            'move_type': 'out_invoice',
+            'partner_id': self.partner_a.id,
+            'invoice_line_ids': [
+                Command.create({
+                    'name': 'The Holy Grail',
+                    'quantity': 1,
+                    'price_unit': 1.26,
+                    'tax_ids': [Command.set(self.sale_tax_percentage_incl_1.ids)],
+                }),
+                Command.create({
+                    'name': 'What is your favourite colour?',
+                    'quantity': 1,
+                    'price_unit': 2.32,
+                    'tax_ids': [Command.set(tax.ids)],
+                })
+            ],
+            'invoice_cash_rounding_id': rounding.id,
+        })
+
+        invoice.action_post()
+
+        self.assertRecordValues(invoice.line_ids, [
+            {
+                'name': 'The Holy Grail',
+                'debit': 0.00,
+                'credit': 1.05,
+            },
+            {
+                'name': 'What is your favourite colour?',
+                'debit': 0.00,
+                'credit': 1.92,
+            },
+            {
+                'name': self.sale_tax_percentage_incl_1.name,
+                'debit': 0.00,
+                'credit': 0.21,
+            },
+            {
+                'name': tax.name,
+                'debit': 0.00,
+                'credit': 0.40,
+            },
+            {
+                'name': f'{tax.name} (rounding)',
+                'debit': 0.00,
+                'credit': 0.02,
+            },
+            {
+                'name': invoice.name,
+                'debit': 3.60,
+                'credit': 0.00,
+            }
+        ])
+
+        report = self.env['account.generic.tax.report']
+
+        report_options = self._init_options(self.env['account.generic.tax.report'], invoice.date, invoice.date, {'tax_report': 'generic'})
+
+        lines = report._get_lines(report_options)
+
+        self.assertLinesValues(
+            lines,
+            #   Name                                                                                      Base      Tax
+            [   0,                                                                                        1,        2],
+            [
+                ('Sales',                                                                                   "",     0.63),
+                (f'{self.sale_tax_percentage_incl_1.name} ({self.sale_tax_percentage_incl_1.amount}%)',   1.05,     0.21),
+                (f'{tax.name} ({tax.amount}%)',                                                           1.92,     0.42),
+            ],
+        )
+
+        report_options['tax_report'] = "generic_grouped_account_tax"
+
+        lines = report._get_lines(report_options)
+
+        self.assertLinesValues(
+            lines,
+            #   Name                                                                                      Base      Tax
+            [   0,                                                                                        1,        2],
+            [
+                ('Sales',                                                                                   "",     0.63),
+                (self.company_data['default_account_revenue'].display_name,                                 "",     0.63),
+                (f'{self.sale_tax_percentage_incl_1.name} ({self.sale_tax_percentage_incl_1.amount}%)',   1.05,     0.21),
+                (f'{tax.name} ({tax.amount}%)',                                                           1.92,     0.42),
+            ],
+        )
+
+        report_options['tax_report'] = "generic_grouped_tax_account"
+
+        lines = report._get_lines(report_options)
+
+        self.assertLinesValues(
+            lines,
+            #   Name                                                                                      Base      Tax
+            [   0,                                                                                        1,        2],
+            [
+                ('Sales',                                                                                   "",     0.63),
+                (f'{self.sale_tax_percentage_incl_1.name} ({self.sale_tax_percentage_incl_1.amount}%)',     "",     0.21),
+                (self.company_data['default_account_revenue'].display_name,                               1.05,     0.21),
+                (f'{tax.name} ({tax.amount}%)',                                                             "",     0.42),
+                (self.company_data['default_account_revenue'].display_name,                               1.92,     0.42),
+            ],
+        )
+
+    def setup_multi_vat_context(self):
+        """Setup 2 tax reports, taxes and partner to represent a multiVat context in which both taxes affect both tax report"""
+
+        def get_positive_tag(report_line):
+            return report_line.tag_ids.filtered(lambda x: not x.tax_negate)
+
+        foreign_country = self.env['res.country'].create({
+            'name': "The Principality of Zeon",
+            'code': 'PZ',
+        })
+
+        self.env['account.fiscal.position'].create({
+            'name': "FP With foreign VAT number",
+            'country_id': foreign_country.id,
+            'foreign_vat': '422211',
+            'auto_apply': True,
+        })
+
+        local_tax_report, foreign_tax_report = self.env['account.tax.report'].create([
+            {
+                'name': "The Local Tax Report",
+                'country_id': self.company_data['company'].account_fiscal_country_id.id,
+            },
+            {
+                'name': "The Foreign Tax Report",
+                'country_id': foreign_country.id,
+            },
+        ])
+        local_tax_report_base_line = self._create_tax_report_line("base_local", local_tax_report, sequence=1, code="base_local", tag_name="base_local")
+        local_tax_report_tax_line = self._create_tax_report_line("tax_local", local_tax_report, sequence=2, code="tax_local", tag_name="tax_local")
+        foreign_tax_report_base_line = self._create_tax_report_line("base_foreign", foreign_tax_report, sequence=1, code="base_foreign", tag_name="base_foreign")
+        foreign_tax_report_tax_line = self._create_tax_report_line("tax_foreign", foreign_tax_report, sequence=2, code="tax_foreign", tag_name="tax_foreign")
+
+        local_tax_affecting_foreign_tax_report = self.env['account.tax'].create({'name': "The local tax affecting the foreign report", 'amount': 20})
+        foreign_tax_affecting_local_tax_report = self.env['account.tax'].create({
+            'name': "The foreign tax affecting the local tax report",
+            'amount': 20,
+            'country_id': foreign_country.id,
+        })
+        for tax in (local_tax_affecting_foreign_tax_report, foreign_tax_affecting_local_tax_report):
+            base_line, tax_line = tax.invoice_repartition_line_ids
+            base_line.tag_ids = get_positive_tag(local_tax_report_base_line) + get_positive_tag(foreign_tax_report_base_line)
+            tax_line.tag_ids = get_positive_tag(local_tax_report_tax_line) + get_positive_tag(foreign_tax_report_tax_line)
+
+        local_partner = self.partner_a
+        foreign_partner = self.partner_a.copy()
+        foreign_partner.country_id = foreign_country
+
+        return {
+            'tax_report': (local_tax_report, foreign_tax_report,),
+            'taxes': (local_tax_affecting_foreign_tax_report, foreign_tax_affecting_local_tax_report,),
+            'partners': (local_partner, foreign_partner),
+        }
+
+    def test_local_tax_can_affect_foreign_tax_report(self):
+        setup_data = self.setup_multi_vat_context()
+        local_tax_report, foreign_tax_report = setup_data['tax_report']
+        local_tax_affecting_foreign_tax_report, _ = setup_data['taxes']
+        local_partner, _ = setup_data['partners']
+
+        generic_report = self.env['account.generic.tax.report']
+        invoice = self.init_invoice('out_invoice', partner=local_partner, invoice_date='2022-12-01', post=True, amounts=[100], taxes=local_tax_affecting_foreign_tax_report)
+        options = self._init_options(generic_report, invoice.date, invoice.date, {'tax_report': local_tax_report.id})
+        self.assertLinesValues(
+            generic_report._get_lines(options),
+            #   Name                                        Balance
+            [   0,                                                1],
+            [
+                ("base_local",                                100.0),
+                ("tax_local",                                  20.0),
+            ],
+        )
+
+        options = self._init_options(generic_report, invoice.date, invoice.date, {'tax_report': foreign_tax_report.id})
+        self.assertLinesValues(
+            generic_report._get_lines(options),
+            #   Name                                          Balance
+            [   0,                                                1],
+            [
+                ("base_foreign",                              100.0),
+                ("tax_foreign",                                20.0),
+            ],
+        )
+
+    def test_foreign_tax_can_affect_local_tax_report(self):
+        setup_data = self.setup_multi_vat_context()
+        local_tax_report, foreign_tax_report = setup_data['tax_report']
+        _, foreign_tax_affecting_local_tax_report = setup_data['taxes']
+        _, foreign_partner = setup_data['partners']
+
+        generic_report = self.env['account.generic.tax.report']
+        invoice = self.init_invoice('out_invoice', partner=foreign_partner, invoice_date='2022-12-01', post=True, amounts=[100], taxes=foreign_tax_affecting_local_tax_report)
+        options = self._init_options(generic_report, invoice.date, invoice.date, {'tax_report': local_tax_report.id})
+        self.assertLinesValues(
+            generic_report._get_lines(options),
+            #   Name                                        Balance
+            [   0,                                                1],
+            [
+                ("base_local",                                100.0),
+                ("tax_local",                                  20.0),
+            ],
+        )
+
+        options = self._init_options(generic_report, invoice.date, invoice.date, {'tax_report': foreign_tax_report.id})
+        self.assertLinesValues(
+            generic_report._get_lines(options),
+            #   Name                                          Balance
+            [   0,                                                1],
+            [
+                ("base_foreign",                              100.0),
+                ("tax_foreign",                                20.0),
             ],
         )

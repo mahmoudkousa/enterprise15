@@ -579,7 +579,7 @@ msgstr "Anulowanie wszystkich ocen po dacie zakończenia umowy."
 #: model:ir.model.fields.selection,name:hr_appraisal.selection__hr_appraisal__state__cancel
 #: model:ir.model.fields.selection,name:hr_appraisal.selection__hr_appraisal_report__state__cancel
 msgid "Cancelled"
-msgstr "Anulowano"
+msgstr "Anulowane"
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal_report__color
@@ -920,7 +920,7 @@ msgstr "Cele"
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.view_appraisal_report_search
 msgid "Group By"
-msgstr "Grupuj wg."
+msgstr "Grupuj wg"
 
 #. module: hr_appraisal
 #: model_terms:ir.ui.view,arch_db:hr_appraisal.hr_appraisal_search

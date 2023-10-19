@@ -3,13 +3,13 @@
 # 	* planning
 # 
 # Translators:
+# Piotr Strębski <strebski@gmail.com>, 2021
 # Dariusz Żbikowski <darek@krokus.com.pl>, 2021
 # Tomasz Leppich <t.leppich@gmail.com>, 2021
 # Marcin Młynarczyk <mlynarczyk@gmail.com>, 2021
 # Andrzej Wiśniewski <a.wisniewski@hadron.eu.com>, 2021
 # Paweł Wodyński <pw@myodoo.pl>, 2021
 # Natalia Gros <nag@odoo.com>, 2021
-# Piotr Strębski <strebski@gmail.com>, 2021
 # Martin Trigaux, 2021
 # Wojciech Warczakowski <w.warczakowski@gmail.com>, 2021
 # Grzegorz Grzelak <grzegorz.grzelak@openglobe.pl>, 2021
@@ -828,7 +828,7 @@ msgstr "Nadaj głębi swoim"
 #: model_terms:ir.ui.view,arch_db:planning.planning_slot_template_view_search
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_search
 msgid "Group By"
-msgstr "Grupuj wg."
+msgstr "Grupuj wg"
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot_template__name

@@ -1,6 +1,7 @@
 /** @odoo-module */
 
 import core from "web.core";
+import { sprintf } from "@web/core/utils/strings";
 import spreadsheet from "documents_spreadsheet.spreadsheet";
 import { formats } from "../../constants";
 import {
@@ -48,6 +49,9 @@ export default class PivotAutofillPlugin extends spreadsheet.UIPlugin {
             .map(astToFormula)
             .map((arg) => this.getters.evaluateFormula(arg));
         const pivotId = evaluatedArgs[0];
+        if (!this.getters.isExistingPivot(pivotId)) {
+            return formula;
+        }
         let builder;
         if (functionName === "PIVOT") {
             builder = this._autofillPivotValue.bind(this);
@@ -91,6 +95,13 @@ export default class PivotAutofillPlugin extends spreadsheet.UIPlugin {
             .map(astToFormula)
             .map((arg) => this.getters.evaluateFormula(arg));
         const pivotId = evaluatedArgs[0];
+
+        if (!this.getters.isExistingPivot(pivotId)) {
+            return [
+                { title: _t("Missing pivot"), value: sprintf(_t("Missing pivot #%s"), pivotId) },
+            ];
+        }
+
         if (functionName === "PIVOT") {
             return this._tooltipFormatPivot(pivotId, evaluatedArgs, isColumn);
         } else if (functionName === "PIVOT.HEADER") {

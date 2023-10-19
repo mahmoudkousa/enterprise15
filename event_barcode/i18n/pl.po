@@ -8,11 +8,11 @@
 # Dariusz Żbikowski <darek@krokus.com.pl>, 2021
 # Grzegorz Grzelak <grzegorz.grzelak@openglobe.pl>, 2021
 # Judyta Kaźmierczak <judyta.kazmierczak@openglobe.pl>, 2021
-# Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2021
 # Tomasz Leppich <t.leppich@gmail.com>, 2021
 # Piotr Szlązak <szlazakpiotr@gmail.com>, 2021
 # Slawomir Adamus <melthalion@gmail.com>, 2021
 # Maksym <ms@myodoo.pl>, 2021
+# Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -20,8 +20,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:39+0000\n"
-"Last-Translator: Maksym <ms@myodoo.pl>, 2021\n"
-"Language-Team: Polish (https://www.transifex.com/odoo/teams/41243/pl/)\n"
+"Last-Translator: Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2023\n"
+"Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -137,7 +137,7 @@ msgstr "Wydarzenia"
 #: code:addons/event_barcode/static/src/js/event_barcode.js:0
 #, python-format
 msgid "Invalid ticket"
-msgstr ""
+msgstr "Niepoprawne zgłoszenie"
 
 #. module: event_barcode
 #. openerp-web

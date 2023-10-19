@@ -30,7 +30,7 @@ msgstr ""
 "POT-Creation-Date: 2021-10-05 11:16+0000\n"
 "PO-Revision-Date: 2021-09-14 12:39+0000\n"
 "Last-Translator: Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2022\n"
-"Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
+"Language-Team: Mongolian (https://app.transifex.com/odoo/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -445,10 +445,6 @@ msgstr "Алиастай модел"
 
 #. module: helpdesk
 #: code:addons/helpdesk/controllers/portal.py:0
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla__priority__0
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla_report_analysis__priority__0
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket__priority__0
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket_report_analysis__priority__0
 #, python-format
 msgid "All"
 msgstr "Бүх"
@@ -509,12 +505,6 @@ msgstr ""
 #, python-format
 msgid "Assign the ticket to a <b>member of your team</b>."
 msgstr ""
-
-#. module: helpdesk
-#: code:addons/helpdesk/models/helpdesk_ticket.py:0
-#, python-format
-msgid "Assign to me"
-msgstr "Надад хариуцуулах"
 
 #. module: helpdesk
 #: code:addons/helpdesk/controllers/portal.py:0
@@ -1755,10 +1745,10 @@ msgid "Low Priority"
 msgstr ""
 
 #. module: helpdesk
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla__priority__1
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla_report_analysis__priority__1
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket__priority__1
-#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket_report_analysis__priority__1
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla__priority__0
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla_report_analysis__priority__0
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket__priority__0
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket_report_analysis__priority__0
 msgid "Low priority"
 msgstr "Бага урьтамж"
 
@@ -1800,6 +1790,14 @@ msgstr "Дундаж"
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_report_analysis_view_search
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_tickets_view_search
 msgid "Medium Priority"
+msgstr ""
+
+#. module: helpdesk
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla__priority__1
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla_report_analysis__priority__1
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket__priority__1
+#: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket_report_analysis__priority__1
+msgid "Medium priority"
 msgstr ""
 
 #. module: helpdesk
@@ -2265,7 +2263,21 @@ msgstr ""
 #. openerp-web
 #: code:addons/helpdesk/static/src/js/helpdesk_dashboard.js:0
 #, python-format
-msgid "Please enter an integer value"
+msgid "Please enter a number."
+msgstr ""
+
+#. module: helpdesk
+#. openerp-web
+#: code:addons/helpdesk/static/src/js/helpdesk_dashboard.js:0
+#, python-format
+msgid "Please enter a percentage below 100."
+msgstr ""
+
+#. module: helpdesk
+#. openerp-web
+#: code:addons/helpdesk/static/src/js/helpdesk_dashboard.js:0
+#, python-format
+msgid "Please enter a positive value."
 msgstr ""
 
 #. module: helpdesk

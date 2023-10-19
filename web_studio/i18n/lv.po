@@ -274,7 +274,7 @@ msgstr ""
 #: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
 #, python-format
 msgid "Add a description..."
-msgstr ""
+msgstr "Pievienot aprakstu..."
 
 #. module: web_studio
 #. openerp-web
@@ -424,7 +424,7 @@ msgstr ""
 #: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
 #, python-format
 msgid "Approvals"
-msgstr ""
+msgstr "Apstiprinājumi"
 
 #. module: web_studio
 #: code:addons/web_studio/models/studio_approval.py:0
@@ -1951,7 +1951,7 @@ msgstr "HTTP maršrutēšana"
 #: code:addons/web_studio/static/src/legacy/xml/view_editor_sidebar.xml:0
 #, python-format
 msgid "Half Day"
-msgstr ""
+msgstr "Puse dienas"
 
 #. module: web_studio
 #. openerp-web

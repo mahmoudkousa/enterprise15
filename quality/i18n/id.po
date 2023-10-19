@@ -35,12 +35,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:quality.field_quality_alert_team__alert_count
 #: model:ir.model.fields,field_description:quality.field_quality_check__alert_count
 msgid "# Quality Alerts"
-msgstr ""
+msgstr "# Peringatan Kualitas"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert_team__check_count
 msgid "# Quality Checks"
-msgstr ""
+msgstr "# Pemeriksaan Kualitas"
 
 #. module: quality
 #: model:ir.model.fields,help:quality.field_quality_alert_team__alias_defaults
@@ -62,7 +62,7 @@ msgstr "Perlu Tindakan"
 #. module: quality
 #: model:quality.alert.stage,name:quality.quality_alert_stage_2
 msgid "Action Proposed"
-msgstr ""
+msgstr "Action Diajukan"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_point__active
@@ -101,7 +101,7 @@ msgstr "Catatan Tambahan"
 #. module: quality
 #: model:ir.model.fields,help:quality.field_quality_check__additional_note
 msgid "Additional remarks concerning this check."
-msgstr ""
+msgstr "Catatan tambahan mengenai pemeriksaan ini."
 
 #. module: quality
 #: model:res.groups,name:quality.group_quality_manager
@@ -111,7 +111,7 @@ msgstr "Administrator"
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert_stage__done
 msgid "Alert Processed"
-msgstr ""
+msgstr "Peringatan Diproses"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_check__alert_ids
@@ -159,7 +159,7 @@ msgstr "Hitungan Lampiran"
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_point__reason
 msgid "Cause"
-msgstr ""
+msgstr "Penyebab"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__check_id
@@ -170,7 +170,7 @@ msgstr "Cek"
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_point__check_count
 msgid "Check Count"
-msgstr ""
+msgstr "Jumlah Pemeriksaan"
 
 #. module: quality
 #. openerp-web
@@ -214,12 +214,12 @@ msgstr "Dikonfirmasi"
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_check__control_date
 msgid "Control Date"
-msgstr ""
+msgstr "Tanggal Kontro"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_check__point_id
 msgid "Control Point"
-msgstr ""
+msgstr "Control Point"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__action_corrective
@@ -263,7 +263,7 @@ msgstr "Pesan Kustom yang Dikembalikan"
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__date_assign
 msgid "Date Assigned"
-msgstr ""
+msgstr "Tanggal Ditugaskan"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__date_close
@@ -278,17 +278,17 @@ msgstr "Nilai Baku"
 #. module: quality
 #: model:ir.model.fields,help:quality.field_quality_point__test_type_id
 msgid "Defines the type of the quality control point."
-msgstr ""
+msgstr "Mendefinisikan tipe control point kualitas."
 
 #. module: quality
 #: model_terms:ir.ui.view,arch_db:quality.quality_point_view_form
 msgid "Describe the quality check to do..."
-msgstr ""
+msgstr "Deskripsikan pemeriksaan kualitas yang harus dilakukan..."
 
 #. module: quality
 #: model_terms:ir.ui.view,arch_db:quality.quality_point_view_form
 msgid "Describe why you need to perform this quality check..."
-msgstr ""
+msgstr "Deskripsikan kenapa Anda harus melakukan pemeriksaan kualitas ini..."
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__description
@@ -446,7 +446,7 @@ msgstr "Dalam Proses"
 #. module: quality
 #: model_terms:ir.ui.view,arch_db:quality.quality_point_view_form
 msgid "Instructions"
-msgstr ""
+msgstr "Instruksi"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__message_is_follower
@@ -550,7 +550,7 @@ msgstr "Deadline Kegiatan Saya"
 #. module: quality
 #: model_terms:ir.ui.view,arch_db:quality.quality_alert_view_search
 msgid "My Alerts"
-msgstr ""
+msgstr "Peringatan Saya"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__name
@@ -607,6 +607,8 @@ msgid ""
 "No quality team found for this company.\n"
 "Please go to configuration and create one first."
 msgstr ""
+"Tidak ada tim kualitas yang ditemukan untuk perusahaan ini.\n"
+"Mohon pergi ke konfigurasi dan membuat tim terlebih dahulu."
 
 #. module: quality
 #: model:ir.model.fields.selection,name:quality.selection__quality_alert__priority__0
@@ -726,12 +728,12 @@ msgstr "Rekanan"
 #. module: quality
 #: model:quality.reason,name:quality.reason_parts
 msgid "Parts Quality"
-msgstr ""
+msgstr "Kualitas Suku Cadang"
 
 #. module: quality
 #: model:ir.model.fields.selection,name:quality.selection__quality_check__quality_state__pass
 msgid "Passed"
-msgstr ""
+msgstr "Lolo"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__picking_id
@@ -793,32 +795,32 @@ msgstr "Produk"
 #: model:ir.model,name:quality.model_quality_alert
 #: model_terms:ir.ui.view,arch_db:quality.quality_alert_view_search
 msgid "Quality Alert"
-msgstr ""
+msgstr "Peringatan Kualitas"
 
 #. module: quality
 #: model:ir.model,name:quality.model_quality_alert_stage
 msgid "Quality Alert Stage"
-msgstr ""
+msgstr "Peringatan Tahapan Kualitas"
 
 #. module: quality
 #: model:ir.model,name:quality.model_quality_alert_team
 msgid "Quality Alert Team"
-msgstr ""
+msgstr "Tim Peringatan Kualitas"
 
 #. module: quality
 #: model:ir.model,name:quality.model_quality_check
 msgid "Quality Check"
-msgstr ""
+msgstr "Pemeriksaan Kualita"
 
 #. module: quality
 #: model:ir.model,name:quality.model_quality_point
 msgid "Quality Control Point"
-msgstr ""
+msgstr "Control Point Kualitas"
 
 #. module: quality
 #: model:ir.model,name:quality.model_quality_point_test_type
 msgid "Quality Control Test Type"
-msgstr ""
+msgstr "Tipe Test Quality Control"
 
 #. module: quality
 #: model:ir.model.fields,help:quality.field_quality_point__product_category_ids
@@ -826,21 +828,23 @@ msgid ""
 "Quality Point will apply to every Products in the selected Product "
 "Categories."
 msgstr ""
+"Quality Point akan diterapkan ke tiap Produk di Kategori Produk yang "
+"dipilih."
 
 #. module: quality
 #: model:ir.model.fields,help:quality.field_quality_point__product_ids
 msgid "Quality Point will apply to every selected Products."
-msgstr ""
+msgstr "Quality Point akan diterapkan ke setiap Produk yang dipilih."
 
 #. module: quality
 #: model:ir.model,name:quality.model_quality_tag
 msgid "Quality Tag"
-msgstr ""
+msgstr "Tag Kualitas"
 
 #. module: quality
 #: model_terms:ir.ui.view,arch_db:quality.quality_alert_view_search
 msgid "Quality Team"
-msgstr ""
+msgstr "Tim Kualitas"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert_team__alias_force_thread_id
@@ -876,7 +880,7 @@ msgstr "Akar penyebab"
 #. module: quality
 #: model:ir.model,name:quality.model_quality_reason
 msgid "Root Cause for Quality Failure"
-msgstr ""
+msgstr "Akar Masalah untuk Kegagalan Kualitas"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__message_has_sms_error
@@ -943,7 +947,7 @@ msgstr "Label"
 #: code:addons/quality/static/src/xml/widget_template.xml:0
 #, python-format
 msgid "Take a Picture"
-msgstr ""
+msgstr "Ambil Foto"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__team_id
@@ -962,13 +966,13 @@ msgstr "Tim"
 #: model:ir.model.fields,field_description:quality.field_quality_point__test_type
 #: model:ir.model.fields,field_description:quality.field_quality_point_test_type__technical_name
 msgid "Technical name"
-msgstr ""
+msgstr "Nama tekni"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_check__test_type_id
 #: model:ir.model.fields,field_description:quality.field_quality_point__test_type_id
 msgid "Test Type"
-msgstr ""
+msgstr "Tipe Tes"
 
 #. module: quality
 #: model:ir.model.fields,help:quality.field_quality_alert_team__alias_model_id
@@ -1007,12 +1011,12 @@ msgstr ""
 #. module: quality
 #: model:res.groups,comment:quality.group_quality_manager
 msgid "The quality manager manages the quality process"
-msgstr ""
+msgstr "Manajer kualitas mengelola proses kualitas"
 
 #. module: quality
 #: model:res.groups,comment:quality.group_quality_user
 msgid "The quality user uses the quality process"
-msgstr ""
+msgstr "User kualitas menggunakan proses kualitas"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_check__title
@@ -1111,14 +1115,14 @@ msgstr "Sejarah komunikasi website"
 #. module: quality
 #: model:quality.reason,name:quality.reason_wo
 msgid "Work Operation"
-msgstr ""
+msgstr "Operasi Kerja"
 
 #. module: quality
 #: model:quality.reason,name:quality.reason_workcenter
 msgid "Workcenter Failure"
-msgstr ""
+msgstr "Kegagalan Pusat Kerja"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_point_test_type__active
 msgid "active"
-msgstr ""
+msgstr "aktif"

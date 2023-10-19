@@ -142,6 +142,10 @@ class Picking(models.Model):
         self.message_post(body=_('DTE has been created'), attachment_ids=attachment.ids)
         return self.print_delivery_guide_pdf()
 
+    def _get_effective_date(self):
+        self.ensure_one()
+        return fields.Date.context_today(self, self.date_done if self.date_done else self.scheduled_date)
+
     def print_delivery_guide_pdf(self):
         return self.env.ref('l10n_cl_edi_stock.action_delivery_guide_report_pdf').report_action(self)
 

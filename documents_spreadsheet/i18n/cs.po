@@ -8,19 +8,22 @@
 # Damian Brencic <brencicdamian12313@gmail.com>, 2021
 # Michal Veselý <michal@veselyberanek.net>, 2021
 # Rastislav Brencic <rastislav.brencic@azet.sk>, 2021
-# Martin Trigaux, 2021
-# trendspotter <jirka.p@volny.cz>, 2021
-# karolína schusterová <karolina.schusterova@vdp.sk>, 2021
 # David Kliment <daklime@gmail.com>, 2022
+# Aleš Fiala <f.ales1@seznam.cz>, 2023
+# karolína schusterová <karolina.schusterova@vdp.sk>, 2023
+# Martin Trigaux, 2023
+# Jiří Podhorecký, 2023
+# Wil Odoo, 2023
+# Jakub Smolka, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~14.5+e\n"
+"Project-Id-Version: Odoo Server 15.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-22 09:02+0000\n"
+"POT-Creation-Date: 2023-07-20 12:29+0000\n"
 "PO-Revision-Date: 2021-09-14 12:39+0000\n"
-"Last-Translator: David Kliment <daklime@gmail.com>, 2022\n"
-"Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
+"Last-Translator: Jakub Smolka, 2023\n"
+"Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -100,7 +103,7 @@ msgstr "(Nedefinováno)"
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.res_config_settings_view_form_inherit_documents_spreadsheet
 msgid ""
 "<strong>Spreadsheets</strong>\n"
-"                            <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+"                            <span class=\"fa fa-lg fa-building-o ml-1\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
 msgstr ""
 
 #. module: documents_spreadsheet
@@ -176,6 +179,13 @@ msgstr "Podřetězec od konce zadaného řetězce."
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
+msgid "ABOUT"
+msgstr "O nás..."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
 msgid "Absolute value of a number."
 msgstr ""
 
@@ -207,6 +217,13 @@ msgstr "Upravte také vzorce"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/actions/control_panel/collaborative_cross_tab_bus_warning.js:0
+#, python-format
+msgid "An issue occurred while auto-saving"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Angle from the X axis to a point (x,y), in radians."
@@ -225,6 +242,13 @@ msgstr ""
 #, python-format
 msgid "Annual yield of a security paying periodic interest."
 msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Anonymous"
+msgstr "Anonymní"
 
 #. module: documents_spreadsheet
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.save_spreadsheet_template_view_form
@@ -345,9 +369,17 @@ msgstr "Prázdný"
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Bold"
 msgstr "Tučný"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Borders"
+msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -376,6 +408,13 @@ msgstr ""
 #, python-format
 msgid "Cancel"
 msgstr "Zrušit"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Cannot dispatch commands in the finalize state"
+msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -440,6 +479,13 @@ msgstr "Kruhový odkaz"
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
+msgid "Clear Format"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
 msgid "Clear cells"
 msgstr ""
 
@@ -474,7 +520,7 @@ msgstr "Vymazat řádky %s - %s"
 #. module: documents_spreadsheet
 #: model:ir.model,name:documents_spreadsheet.model_spreadsheet_revision
 msgid "Collaborative spreadsheet revision"
-msgstr ""
+msgstr "Revize kolaborativní tabulky"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -817,6 +863,7 @@ msgstr "Datum"
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Date (9/26/2008)"
 msgstr "Datum (26. 9. 2008)"
@@ -830,6 +877,7 @@ msgstr "Datum několik měsíců před / po jiném datu."
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Date time (9/26/2008 22:43:00)"
@@ -865,6 +913,13 @@ msgstr "Prosinec"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Decrease decimal places"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
 #, python-format
 msgid "Default Value"
@@ -872,6 +927,7 @@ msgstr "Výchozí hodnota"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Delete"
@@ -1040,12 +1096,14 @@ msgstr "Duplikovaný štítek"
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Duration (27:51:38)"
 msgstr "Doba trvání (27:51:38)"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.spreadsheet_template_view_tree
@@ -1156,6 +1214,7 @@ msgstr "Obsah souboru (raw)"
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Fill Color"
 msgstr "Vyplň barvu"
@@ -1214,6 +1273,13 @@ msgstr "První pozice řetězce nalezená v textu, ignoruje velká a malá písm
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
+msgid "Font Size"
+msgstr "Velikost písma"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
 msgid "Font size"
 msgstr "Velikost písma"
 
@@ -1223,6 +1289,13 @@ msgstr "Velikost písma"
 #, python-format
 msgid "Format"
 msgstr "Formát"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Format as percent"
+msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1387,6 +1460,13 @@ msgstr "Obecný"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "General (no specific format)"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/registries/pivot_functions.js:0
 #, python-format
 msgid "Get the absolute ID of an element in the pivot"
@@ -1499,6 +1579,13 @@ msgstr ""
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
+msgid "Horizontal align"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
 msgid "Horizontal lookup"
 msgstr ""
 
@@ -1598,6 +1685,13 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "In [[FUNCTION_NAME]] evaluation, cannot find '%s' within '%s'."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Increase decimal places"
 msgstr ""
 
 #. module: documents_spreadsheet
@@ -1807,13 +1901,6 @@ msgstr ""
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
-msgid "Invalid merge zone"
-msgstr "Neplatná slučovací zóna"
-
-#. module: documents_spreadsheet
-#. openerp-web
-#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
-#, python-format
 msgid ""
 "Invalid number of arguments for the %s function. Expected %s maximum, but "
 "got %s instead."
@@ -2002,6 +2089,7 @@ msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
@@ -2340,6 +2428,13 @@ msgstr "Položky nabídky"
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
+msgid "Merge Cells"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
 msgid ""
 "Merged cells are preventing this operation. Unmerge those cells and try "
 "again."
@@ -2419,6 +2514,27 @@ msgstr "Minutová složka konkrétního času."
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/plugins/ui/list_autofill_plugin.js:0
+#, python-format
+msgid "Missing list #%s"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/plugins/ui/pivot_autofill_plugin.js:0
+#, python-format
+msgid "Missing pivot"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/plugins/ui/pivot_autofill_plugin.js:0
+#, python-format
+msgid "Missing pivot #%s"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/side_panels/list/listing_details_side_panel.xml:0
 #: code:addons/documents_spreadsheet/static/src/side_panels/pivot/pivot_details_side_panel.xml:0
 #, python-format
@@ -2458,6 +2574,13 @@ msgstr "Měsíc"
 #, python-format
 msgid "Month of the year a specific date falls in"
 msgstr "Měsíc roku, do kterého spadá konkrétní datum"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "More formats"
+msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2658,6 +2781,7 @@ msgstr "Číslo"
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Number (1,000.12)"
 msgstr "Počet (1 000,12)"
@@ -2740,6 +2864,13 @@ msgid "One number divided by another."
 msgstr "Jedno číslo děleno druhým."
 
 #. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Paint Format"
+msgstr ""
+
+#. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_revision__parent_revision_id
 msgid "Parent Revision"
 msgstr ""
@@ -2793,6 +2924,7 @@ msgstr "Vložit pouze hodnoty"
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Percent (10.12%)"
 msgstr "Procento (10,12%)"
@@ -2839,6 +2971,13 @@ msgstr "Vlastnosti otáčení"
 #, python-format
 msgid "Please enter a valid sheet name"
 msgstr "Zadejte platný název listu"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/actions/control_panel/collaborative_cross_tab_bus_warning.js:0
+#, python-format
+msgid "Please, close all other Odoo tabs and reload the current page."
+msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2945,9 +3084,17 @@ msgstr ""
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Redo"
 msgstr "znovu"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Refresh"
+msgstr "Obnovit"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2977,6 +3124,13 @@ msgstr "Související model"
 #, python-format
 msgid "Relation"
 msgstr "Vztah"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/actions/control_panel/collaborative_cross_tab_bus_warning.js:0
+#, python-format
+msgid "Reload"
+msgstr "Znovu nahrát"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3113,7 +3267,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:documents_spreadsheet.spreadsheet_revision_action
 #: model:ir.ui.menu,name:documents_spreadsheet.menu_technical_spreadsheet_revision
 msgid "Revisions"
-msgstr ""
+msgstr "Revize"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3313,6 +3467,7 @@ msgstr "Série"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Sheet"
@@ -3540,6 +3695,7 @@ msgstr "Přísně větší než."
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Strikethrough"
 msgstr "Přeškrtnutý"
@@ -3608,6 +3764,7 @@ msgstr "Text"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Text Color"
@@ -4236,7 +4393,6 @@ msgstr "Neexistuje žádný pivot s id \"%s\""
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
-#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "This formula depends on invalid values"
 msgstr "Tento vzorec závisí na neplatných hodnotách"
@@ -4276,6 +4432,7 @@ msgstr "Náhled"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Time (10:43:00 PM)"
@@ -4350,6 +4507,7 @@ msgstr "Podtržení"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Undo"
@@ -4632,7 +4790,7 @@ msgstr "Zda je poskytovaná hodnota sudá."
 #. module: documents_spreadsheet
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.res_config_settings_view_form_inherit_documents_spreadsheet
 msgid "Workspace"
-msgstr ""
+msgstr "Pracovní prostor"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4749,6 +4907,13 @@ msgstr "and"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "by default"
+msgstr "ve výchozím stavu"
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/xml/pivot_dialog.xml:0
 #, python-format
 msgid "has no cell missing from this sheet"
@@ -4769,7 +4934,21 @@ msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "optional"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/spreadsheet_selector_dialog.xml:0
 #, python-format
 msgid "records of the list."
 msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "repeatable"
+msgstr "opakovatelný"

@@ -1113,7 +1113,7 @@ msgstr "Fecha de la última valoración"
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 #, python-format
 msgid "Last Meeting"
-msgstr "Última junta"
+msgstr "Última reunión"
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_hr_appraisal____last_update
@@ -1299,13 +1299,13 @@ msgstr "Siguiente fecha de valoración"
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 #, python-format
 msgid "Next Meeting"
-msgstr "Próxima junta"
+msgstr "Próxima reunión"
 
 #. module: hr_appraisal
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0
 #, python-format
 msgid "No Meeting"
-msgstr "Sin juntas"
+msgstr "Sin reuniones"
 
 #. module: hr_appraisal
 #: code:addons/hr_appraisal/models/hr_appraisal.py:0

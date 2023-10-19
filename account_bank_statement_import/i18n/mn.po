@@ -15,6 +15,7 @@
 # Nomin Erdenchimeg <nomin.bmde@gmail.com>, 2021
 # tumenjargal hadbaatar <tumenjargal7903@gmail.com>, 2021
 # Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2022
+# Torbat Jargalsaikhan, 2023
 # 
 msgid ""
 msgstr ""
@@ -22,8 +23,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2022\n"
-"Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
+"Last-Translator: Torbat Jargalsaikhan, 2023\n"
+"Language-Team: Mongolian (https://app.transifex.com/odoo/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -867,7 +868,7 @@ msgstr "Оруулах"
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_view
 msgid "Upload Bank Statements"
-msgstr ""
+msgstr "Банкны хуулга оруулах"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence
@@ -934,13 +935,25 @@ msgstr ""
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_view
 msgid "You can upload your bank statement using:"
-msgstr ""
+msgstr "Та банкны хуулгаа дараах байдлаар оруулж болно:"
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
 msgid "You have to set a Default Account for the journal: %s"
 msgstr ""
+
+#. module: account_bank_statement_import
+#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
+#, python-format
+msgid "The following files could not be imported:\n"
+msgstr "Дараах файлуудыг импортлох боломжгүй байна:\n"
+
+#. module: account_bank_statement_import
+#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
+#, python-format
+msgid "View successfully imported statements"
+msgstr "Амжилттай импортлогдсон хуулгуудыг харах"
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.journal_dashboard_view_inherit

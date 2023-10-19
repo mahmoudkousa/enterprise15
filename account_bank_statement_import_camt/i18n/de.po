@@ -3,9 +3,9 @@
 # 	* account_bank_statement_import_camt
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
 # Larissa Manderfeld, 2023
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Larissa Manderfeld, 2023\n"
+"Last-Translator: Martin Trigaux, 2023\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +26,7 @@ msgstr ""
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "ACH Concentration"
-msgstr "ACH Konzentration"
+msgstr "ACH-Konzentration"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -44,7 +44,7 @@ msgstr "ACH-Unternehmenshandel"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "ACH Credit"
-msgstr "ACH Guthaben"
+msgstr "ACH-Guthaben"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -62,7 +62,7 @@ msgstr "ACH-Lastschrift"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "ACH Pre-Authorised"
-msgstr "ACH Vorab-Autorisiert"
+msgstr "ACH vorab autorisiert"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -98,7 +98,7 @@ msgstr "ACH-Abrechnung"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "ACH Transaction"
-msgstr "ACH Transaktion"
+msgstr "ACH-Transaktion"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -141,19 +141,19 @@ msgstr "Kontoübertrag"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Additional Info: %s"
-msgstr "Zusatzinformationen: %s"
+msgstr "Zusätzliche Infos: %s"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Additional Miscellaneous Credit Operations"
-msgstr "Zusätzliche verschiedene Kreditoperationen"
+msgstr "Zusätzliche sonstige Vorgänge im Haben"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Additional Miscellaneous Debit Operations"
-msgstr "Zusätzliche verschiedene Debitoperationen"
+msgstr "Zusätzliche sonstige Vorgänge im Soll"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -200,13 +200,13 @@ msgstr "Bankgebühren"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Blocked Transactions"
-msgstr "Gesperrte Transaktionen"
+msgstr "Blockierte Transaktionen"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Bonus Issue/Capitalisation Issue"
-msgstr "Gratisaktien/Kapitalisierung"
+msgstr "Ausgabe/Emission von Gratisaktien"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -219,7 +219,7 @@ msgstr "Leihgebühr"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Branch Account Transfer"
-msgstr "Übertrag Filialkonto"
+msgstr "Filialkontoüberweisung"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -249,19 +249,19 @@ msgstr "Ankauf-Verkauf"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "CSD Blocked Transactions"
-msgstr "Durch Zentralverwahrer gesperrte Transaktionen"
+msgstr "Durch Zentralverwahrer blockierte Transaktionen"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Call on intermediate securities"
-msgstr "Call auf Bucheffekten"
+msgstr "Call für intermediär-verwaltete Wertpapiere"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Capital Gains Distribution"
-msgstr "Verteilung von Kapitalerträgen"
+msgstr "Ausschüttung von Kapitalgewinnen"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -274,7 +274,7 @@ msgstr "Bareinzahlung"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Cash Dividend"
-msgstr "Barausschüttung"
+msgstr "Bardividende"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -434,7 +434,7 @@ msgstr "Entschädigung/Ansprüche"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Consumer Loans"
-msgstr "Kleinkredite"
+msgstr "Verbraucherkredite"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -467,13 +467,13 @@ msgstr "Übertragung auf das eigene Konto"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Corporate Rebate"
-msgstr "Firmenrabatt"
+msgstr "Unternehmensrabatt"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Corporate mark broker owned"
-msgstr "Unternehmensmarke im Besitz eines Maklers"
+msgstr "Unternehmensmarke im Besitz eines Brokers"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -497,13 +497,13 @@ msgstr "Gegengeschäfte"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Credit Adjustment"
-msgstr "Kreditanpassung"
+msgstr "Haben-Anpassung"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Credit Adjustments"
-msgstr "Kreditanpassung"
+msgstr "Haben-Anpassungen"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -553,7 +553,7 @@ msgstr "Internationale Kreditkartenzahlung"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Cross-Border Credit Transfer"
-msgstr "Grenzüberschreitende Geldüberweisung"
+msgstr "Internationale Geldüberweisung"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -567,7 +567,7 @@ msgstr "Grenzüberschreitendes Lastschriftverfahren"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Cross-Border Intra Company Transfer"
-msgstr "Grenzüberschreitende unternehmensinterne Überweisung"
+msgstr "Internationale unternehmensinterne Überweisung"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -622,7 +622,7 @@ msgstr "Soll"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Debit Adjustments"
-msgstr "Entgeltanpassungen"
+msgstr "Soll-Anpassungen"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -648,7 +648,7 @@ msgstr "Anzahlung"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Deposit/Contribution"
-msgstr "Kaution/Beitrag"
+msgstr "Einlage/Beitrag"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -697,7 +697,7 @@ msgstr "Nichteingelöster/Unbezahlter Wechsel"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Dividend Option"
-msgstr "Dividend Option"
+msgstr "Dividendenoption"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -748,7 +748,7 @@ msgstr "Inanspruchnahme"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Drawing"
-msgstr "Girokonto"
+msgstr "Abgabe"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -760,7 +760,7 @@ msgstr "Niederländische Auktion"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "End to end ID: %s"
-msgstr "End to end ID: %s"
+msgstr "Ende-zu-Ende-ID: %s"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -778,7 +778,7 @@ msgstr "Aktienprämienreserve"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Equity mark broker owned"
-msgstr "Aktienkapital im Besitz eines Maklers"
+msgstr "Aktienkapital im Besitz eines Brokers"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -790,13 +790,13 @@ msgstr "Aktienkapital im Besitz eines Kunden"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Exchange"
-msgstr "Austausch"
+msgstr "Wechsel"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Exchange Rate Adjustment"
-msgstr "Anpassung der Wechselkurse"
+msgstr "Anpassung des Wechselkurses"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -810,7 +810,7 @@ msgstr "Börsengehandelt"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Exchange Traded CCP"
-msgstr "Börsengehandelte Zentrale Gegenpartei"
+msgstr "Börsengehandelte CCP"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -823,7 +823,7 @@ msgstr "Börsengehandelte Nicht-CCP"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Extended Domain"
-msgstr "Erweiterte Domäne"
+msgstr "Erweiterte Domain"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -835,7 +835,7 @@ msgstr "Externe Kontoüberweisung"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Factor Update"
-msgstr "Faktor-Update"
+msgstr "Faktoraktualisierung"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -884,13 +884,13 @@ msgstr "Finanzinstitut Lastschriftzahlung"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Financial Institution Own Account Transfer"
-msgstr "Finanzinstitut Eigene Kontoübertragung"
+msgstr "Eigene Kontoübertragung von Finanzinstitut"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Fixed Deposit Interest Amount"
-msgstr "Festgeld Zinsbetrag"
+msgstr "Festgeld-Zinsbetrag"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -908,7 +908,7 @@ msgstr "Befristeter Kredit"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Float adjustment"
-msgstr "Floating-Anpassung"
+msgstr "Float-Anpassung"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -952,13 +952,16 @@ msgstr "Termingeschäfte"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Forwards broker owned collateral"
-msgstr "Termingeschäfte mit Sicherheiten im Besitz des Brokers"
+msgstr ""
+"Nicht börsengehandelte Termingeschäfte mit Sicherheiten im Besitz des "
+"Brokers"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Forwards client owned collateral"
-msgstr "Termingeschäfte mit Sicherheiten im Besitz des Kunden"
+msgstr ""
+"Nicht börsengehandelte Termingeschäfte mit Sicherheiten im Besitz des Kunden"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -976,7 +979,7 @@ msgstr "Vollständige Rückzahlung/Vorzeitige Tilgung"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Future Variation Margin"
-msgstr "Zukünftige Variation Margin"
+msgstr "Zukünftige Schwankungsmarge"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -984,19 +987,19 @@ msgstr "Zukünftige Variation Margin"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Futures"
-msgstr "Terminkontrakt"
+msgstr "Termingeschäft"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Futures Commission"
-msgstr "Provisionen auf Terminkontrakte"
+msgstr "Provisionen auf Termingeschäfte"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Futures Residual Amount"
-msgstr "Restbetrag von Terminkontrakten"
+msgstr "Restbetrag von Termingeschäften"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1013,7 +1016,7 @@ msgstr "Bankauszug importieren"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Inspeci/Share Exchange"
-msgstr "Inspeci/Aktienbörse"
+msgstr "Inspeci/Aktientausch"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1133,7 +1136,7 @@ msgstr "Krediteinnahmen"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Liquidation Dividend / Liquidation Payment"
-msgstr "Liquidationsdividende / Liquidationszahlung"
+msgstr "Liquidationsdividende/Liquidationszahlung"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1145,7 +1148,7 @@ msgstr "Börsennotierte Derivate - Termingeschäfte"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Listed Derivatives – Options"
-msgstr "börsennotierte Derivate"
+msgstr "Börsennotierte Derivate – Optionen"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1175,13 +1178,13 @@ msgstr "Mandat-ID: %s"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Margin Payments"
-msgstr "Einschussleistungen"
+msgstr "Einschusszahlungen"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Margin client owned cash collateral"
-msgstr "Marge Kundeneigene Barsicherheiten"
+msgstr "Marge kundeneigener Barsicherheiten"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1193,31 +1196,31 @@ msgstr "Händler-Kartentransaktionen"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Merger"
-msgstr "Merger"
+msgstr "Zusammenschluss"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Miscellaneous Credit Operations"
-msgstr "Verschiedene Kreditoperationen"
+msgstr "Sonstige Vorgänge im Haben"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Miscellaneous Debit Operations"
-msgstr "Verschiedene Debitoperationen"
+msgstr "Sonstige Vorgänge im Soll"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Miscellaneous Deposit"
-msgstr "Diverse Einlagen"
+msgstr "Sonstige Einlagen"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Miscellaneous Securities Operations"
-msgstr "Verschiedene Wertpapiergeschäfte"
+msgstr "Sonstige Wertpapiergeschäfte"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1263,7 +1266,7 @@ msgstr "Nicht abgerechnet"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Non Syndicated"
-msgstr " Nicht syndiziert"
+msgstr "Nicht syndiziert"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1328,7 +1331,7 @@ msgstr "OTC-Derivate - Kreditderivate"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "OTC Derivatives – Equity"
-msgstr "OTC-Derivate – Equity"
+msgstr "OTC-Derivate – Eigenkapital"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1353,7 +1356,7 @@ msgstr "OTC-Derivate - Swaps"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "OTC Non-CCP"
-msgstr "OTC Non-CCP"
+msgstr "OTC Nicht-CCP"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1385,13 +1388,13 @@ msgstr "Öffnung & Abschluss"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Option broker owned collateral"
-msgstr "Sicherheiten im Besitz des Optionsmaklers"
+msgstr "Option mit Sicherheiten im Besitz des Brokers"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Option client owned collateral"
-msgstr "Option kundeneigene Sicherheiten"
+msgstr "Option mit Sicherheiten im Besitz des Kunden"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1429,7 +1432,7 @@ msgstr "Überziehungsgebühr"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Pair-Off"
-msgstr "Koppeln"
+msgstr "Pairoff"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1441,13 +1444,13 @@ msgstr "Teilzahlung"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Partial Redemption Without Reduction of Nominal Value"
-msgstr "Teilweise Rückzahlung ohne Nennwertreduzierung"
+msgstr "Teilrückzahlung ohne Minderung des Nennwerts"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Partial Redemption with reduction of nominal value"
-msgstr "Teilweise Rückzahlung mit Herabsetzung des Nennwerts"
+msgstr "Teilrückzahlung mit Minderung des Nennwerts"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1496,19 +1499,19 @@ msgstr ""
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Point-of-Sale (POS) Payment"
-msgstr "Point-of-Sale (POS) Zahlung"
+msgstr "Kassenzahlung"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Point-of-Sale (POS) Payment - Debit Card"
-msgstr "Point-of-Sale (PoS) Zahlung - Bankkarte"
+msgstr "Kassenzahlung - Bankkarte"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Portfolio Move"
-msgstr "Portfolio-Bewegung"
+msgstr "Portfolio-Buchung"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1533,7 +1536,7 @@ msgstr "Edelmetall"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Principal Pay-down/pay-up"
-msgstr "Tilgung des Kapitals"
+msgstr "Kapitalrückzahlung/-tilgung"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1554,7 +1557,7 @@ msgstr "Vorrangige Überweisung"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Priority Issue"
-msgstr "Vorrangige Aufgabe"
+msgstr "Vorrangige Ausgabe"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1584,7 +1587,7 @@ msgstr "Eingegangene Überweisungen"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Received Direct Debits"
-msgstr "Empfangene Lastschriften"
+msgstr "Eingegangene Lastschriften"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1602,13 +1605,13 @@ msgstr "Tilgung"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Redemption Asset Allocation"
-msgstr "Tilgung Vermögensportfolio"
+msgstr "Tilgung Vermögensallokation"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Redemption Withdrawing Plan"
-msgstr "Tilgung Entnahmeplan"
+msgstr "Tilgungsverteilungsplan"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1635,7 +1638,7 @@ msgstr "Rückzahlung"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Repo"
-msgstr "Repo"
+msgstr "Pensionsgeschäft"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1656,7 +1659,7 @@ msgstr "Zahlung zurücksetzen"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Reversal due to Payment Cancellation Request"
-msgstr "Rückbuchung aufgrund eines Zahlungsstornoantrags"
+msgstr "Stornierung wegen eines Antrags auf Zahlungsstornierung"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1665,28 +1668,28 @@ msgstr "Rückbuchung aufgrund eines Zahlungsstornoantrags"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Reversal due to Payment Return/reimbursement of a Credit Transfer"
-msgstr "Storno wegen Zahlungsrückgabe/Rückerstattung einer Überweisung"
+msgstr "Stornierung wegen Zahlungsrückgabe/Rückerstattung einer Überweisung"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Reversal due to Payment Reversal"
-msgstr "Stornierung aufgrund von Zahlungsrückbuchungen"
+msgstr "Stornierung wegen Zahlungsstornierung"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Reversal due to Return/Unpaid Direct Debit"
-msgstr "Rückbuchung aufgrund von Rückgabe/unbezahlter Lastschrift"
+msgstr "Stornierung wegen Rückgabe/unbezahlter Lastschrift"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Reversal due to a Payment Cancellation Request"
-msgstr "Rückbuchung aufgrund eines Zahlungsstornoantrags"
+msgstr "Stornierung wegen eines Antrags auf Zahlungsstornierung"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1698,21 +1701,21 @@ msgstr "Umgekehrtes Pensionsgeschäft"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Rights Issue/Subscription Rights/Rights Offer"
-msgstr "Bezugsrechtsemission/Bezugsrecht/Rechtsangebot"
+msgstr "Bezugsrechtsemission/Bezugsrecht/Bezugsangebot"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "SEPA B2B Direct Debit"
-msgstr "SEPA B2B Lastschriftverfahren"
+msgstr "SEPA-Lastschriftverfahren (B2B)"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "SEPA Core Direct Debit"
-msgstr "SEPA-Basis-Lastschriftverfahren"
+msgstr "SEPA-Lastschriftverfahren (Standard)"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1721,7 +1724,7 @@ msgstr "SEPA-Basis-Lastschriftverfahren"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "SEPA Credit Transfer"
-msgstr "SEPA Überweisung"
+msgstr "SEPA-Überweisung"
 
 #. module: account_bank_statement_import_camt
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import_camt.account_bank_statement_import_camt
@@ -1745,13 +1748,13 @@ msgstr ""
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Same Day Value Credit Transfer"
-msgstr "Wertübertragungen am selben Tag"
+msgstr "Wertüberweisung am selben Tag"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Securities"
-msgstr "Sicherheiten"
+msgstr "Wertpapiere"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1765,7 +1768,7 @@ msgstr "Wertpapieranleihe"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Securities Lending"
-msgstr "Wertpapierleihgeschäft"
+msgstr "Wertpapierleihe"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1801,7 +1804,7 @@ msgstr "Abrechnung bei Fälligkeit"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Settlement of Sight Export document"
-msgstr "Abwicklung des Exportakkreditivdokuments"
+msgstr "Dokumentenakkreditiv zur Abwicklung eines Exportgeschäftes"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1863,7 +1866,7 @@ msgstr "Abonnement"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Subscription Asset Allocation"
-msgstr "Abonnement Vermögensportfolio"
+msgstr "Abonnement Vermögensallokation"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1881,7 +1884,7 @@ msgstr "Swap-Zahlung"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Swap broker owned collateral"
-msgstr "Sicherheiten im Besitz des Swap-Brokers"
+msgstr "Swap von Sicherheiten im Besitz des Brokers"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1998,7 +2001,7 @@ msgstr "Ausgänge"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Travellers Cheques Deposit"
-msgstr "Reisescheck Kaution"
+msgstr "Einzahlung von Reiseschecks"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -2020,19 +2023,19 @@ msgstr "Finanzministerium Steuer- und Kreditservice"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Triparty Repo"
-msgstr "Triparty-Repo"
+msgstr "Triparty-Pensionsgeschäft"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Triparty Reverse Repo"
-msgstr "umgekehrtes Triparty-Repo"
+msgstr "Umgekehrtes Triparty-Pensionsgeschäft"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Turnaround"
-msgstr "Umkehrung"
+msgstr "Turnaround"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -2051,20 +2054,20 @@ msgstr "Unbezahlte Kartentransaktion"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Unpaid Cheque"
-msgstr "Nicht eingelöster Scheck"
+msgstr "Unbezahlter Scheck"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Unpaid Foreign Cheque"
-msgstr "Nicht eingelöster Auslandsscheck"
+msgstr "Unbezahlter Auslandsscheck"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Upfront Payment"
-msgstr "Vorabzahlung"
+msgstr "Vorauszahlung"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -2076,7 +2079,7 @@ msgstr "Wertstellungsdatum"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Warrant Exercise/Warrant Conversion"
-msgstr "Die Summe nach der Aufteilung bleibt gleich"
+msgstr "Optionsschein/Umwandlung von Optionsscheinen"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -2094,7 +2097,7 @@ msgstr "Quellensteuer"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "YTD Adjustment"
-msgstr "YTD-Anpassung"
+msgstr "Anpassung für das laufende Jahr"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0

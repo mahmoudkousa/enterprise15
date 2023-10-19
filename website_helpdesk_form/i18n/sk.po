@@ -5,6 +5,8 @@
 # Translators:
 # Martin Trigaux, 2022
 # Rastislav Brencic <rastislav.brencic@azet.sk>, 2022
+# dominikkertys <dominik.kertys@26house.com>, 2023
+# Wil Odoo, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:56+0000\n"
 "PO-Revision-Date: 2021-09-14 12:44+0000\n"
-"Last-Translator: Rastislav Brencic <rastislav.brencic@azet.sk>, 2022\n"
-"Language-Team: Slovak (https://www.transifex.com/odoo/teams/41243/sk/)\n"
+"Last-Translator: Wil Odoo, 2023\n"
+"Language-Team: Slovak (https://app.transifex.com/odoo/teams/41243/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -36,7 +38,7 @@ msgstr ""
 #. module: website_helpdesk_form
 #: model_terms:ir.ui.view,arch_db:website_helpdesk_form.ticket_submit_form
 msgid "<span class=\"s_website_form_label_content\">Description</span>"
-msgstr ""
+msgstr "<span class=\"s_website_form_label_content\">Popis</span>"
 
 #. module: website_helpdesk_form
 #: model_terms:ir.ui.view,arch_db:website_helpdesk_form.ticket_submit_form
@@ -69,6 +71,13 @@ msgstr ""
 "                                            <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: website_helpdesk_form
+#. openerp-web
+#: code:addons/website_helpdesk_form/static/src/js/website_helpdesk_form_editor.js:0
+#, python-format
+msgid "Description"
+msgstr "Popis"
+
+#. module: website_helpdesk_form
 #: model:ir.model.fields,field_description:website_helpdesk_form.field_helpdesk_team__website_form_view_id
 msgid "Form"
 msgstr "Formulár"
@@ -80,6 +89,13 @@ msgstr "Formulár"
 #, python-format
 msgid "Helpdesk Team"
 msgstr "Helpdesk tím"
+
+#. module: website_helpdesk_form
+#. openerp-web
+#: code:addons/website_helpdesk_form/static/src/js/website_helpdesk_form_editor.js:0
+#, python-format
+msgid "Subject"
+msgstr "Predmet"
 
 #. module: website_helpdesk_form
 #: model_terms:ir.ui.view,arch_db:website_helpdesk_form.ticket_submit_form
@@ -100,9 +116,18 @@ msgstr ""
 " pracovať!"
 
 #. module: website_helpdesk_form
-#: model:ir.model.fields,field_description:website_helpdesk_form.field_helpdesk_team__feature_form_url
-msgid "URL to Submit Issue"
-msgstr "URL na odoslanie požiadavky"
+#. openerp-web
+#: code:addons/website_helpdesk_form/static/src/js/website_helpdesk_form_editor.js:0
+#, python-format
+msgid "Your Email"
+msgstr "Váš email"
+
+#. module: website_helpdesk_form
+#. openerp-web
+#: code:addons/website_helpdesk_form/static/src/js/website_helpdesk_form_editor.js:0
+#, python-format
+msgid "Your Name"
+msgstr "Vaše meno"
 
 #. module: website_helpdesk_form
 #: model_terms:ir.ui.view,arch_db:website_helpdesk_form.ticket_submited

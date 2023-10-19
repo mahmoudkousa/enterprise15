@@ -4,9 +4,9 @@
 # 
 # Translators:
 # Kevin Harrings <kha@odoo.com>, 2021
-# Martin Trigaux, 2022
 # Friederike Fasterling-Nesselbosch, 2022
 # Larissa Manderfeld, 2023
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 09:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:41+0000\n"
-"Last-Translator: Larissa Manderfeld, 2023\n"
+"Last-Translator: Martin Trigaux, 2023\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. module: industry_fsm_stock
 #: model_terms:ir.ui.view,arch_db:industry_fsm_stock.fsm_stock_tracking_line_view_form
 msgid "Already Delivered"
-msgstr "Bereits Ausgeliefert"
+msgstr "Bereits Geliefert"
 
 #. module: industry_fsm_stock
 #: model_terms:ir.ui.view,arch_db:industry_fsm_stock.fsm_stock_tracking_line_view_form
@@ -65,19 +65,19 @@ msgstr "Anzeigename"
 #: code:addons/industry_fsm_stock/wizard/fsm_stock_tracking.py:0
 #, python-format
 msgid "Each line needs a Lot/Serial Number"
-msgstr "Jede Position benötig eine Chargen-/Seriennummer"
+msgstr "Jede Position benötigt eine Los-/Seriennummer"
 
 #. module: industry_fsm_stock
 #: model:ir.model.fields,help:industry_fsm_stock.field_fsm_stock_tracking__tracking
 msgid "Ensure the traceability of a storable product in your warehouse."
 msgstr ""
-"Sicherstellung der Rückverfolgbarkeit eines Lagerprodukts in ihrem "
-"Lagerhaus."
+"Stellen Sie die Rückverfolgbarkeit eines lagerfähigen Produkts in Ihrem "
+"Lager sicher."
 
 #. module: industry_fsm_stock
 #: model:ir.model.fields,field_description:industry_fsm_stock.field_sale_order_line__fsm_lot_id
 msgid "Fsm Lot"
-msgstr "Außerndienstmanagement Los"
+msgstr "Los des Außerndienstes"
 
 #. module: industry_fsm_stock
 #: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking__id
@@ -95,7 +95,7 @@ msgstr "Zuletzt geändert am"
 #: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking__write_uid
 #: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking_line__write_uid
 msgid "Last Updated by"
-msgstr "Zuletzt aktualisiert durch"
+msgstr "Zuletzt aktualisiert von"
 
 #. module: industry_fsm_stock
 #: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking__write_date
@@ -106,7 +106,7 @@ msgstr "Zuletzt aktualisiert am"
 #. module: industry_fsm_stock
 #: model:ir.model,name:industry_fsm_stock.model_fsm_stock_tracking_line
 msgid "Lines for FSM Stock Tracking"
-msgstr "Linien für Bestandsverfolgung im Außendienstmanagement"
+msgstr "Zeilen für Bestandsverfolgung im Außendienstmanagement"
 
 #. module: industry_fsm_stock
 #: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking_line__lot_id
@@ -133,12 +133,12 @@ msgstr "Menge reduzierbar"
 #. module: industry_fsm_stock
 #: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking_line__sale_order_line_id
 msgid "Sale Order Line"
-msgstr "Auftragspositionen"
+msgstr "Verkaufsauftragszeile"
 
 #. module: industry_fsm_stock
 #: model:ir.model,name:industry_fsm_stock.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Auftragsposition"
+msgstr "Verkaufsauftragszeile"
 
 #. module: industry_fsm_stock
 #: model_terms:ir.ui.view,arch_db:industry_fsm_stock.stock_product_product_kanban_material
@@ -192,13 +192,13 @@ msgstr "Validierte Verfolgungszeile"
 #. module: industry_fsm_stock
 #: model_terms:ir.ui.view,arch_db:industry_fsm_stock.fsm_stock_tracking_line_view_form
 msgid "Validate"
-msgstr "Bestätigen"
+msgstr "Validieren"
 
 #. module: industry_fsm_stock
 #: code:addons/industry_fsm_stock/models/product.py:0
 #, python-format
 msgid "Validate Lot/Serial Number"
-msgstr "Chargen-/Seriennummer bestätigen"
+msgstr "Los-/Seriennummer validieren"
 
 #. module: industry_fsm_stock
 #: model:ir.model.fields,field_description:industry_fsm_stock.field_fsm_stock_tracking_line__wizard_tracking_line_valided

@@ -162,7 +162,7 @@ class HrPayslip(models.Model):
                     input_type_id = attachment_types[deduction_type].id
                     input_line_vals.append(Command.create({
                         'name': name,
-                        'amount': amount,
+                        'amount': amount if not slip.credit_note else -amount,
                         'input_type_id': input_type_id,
                     }))
                 slip.update({'input_line_ids': input_line_vals})
@@ -318,7 +318,10 @@ class HrPayslip(models.Model):
                     salary_lines = slip.line_ids.filtered(lambda r: r.code in input_lines.mapped('code'))
                     if not attachments or not salary_lines:
                         continue
-                    attachments.record_payment(abs(salary_lines.total))
+                    if slip.credit_note:
+                        attachments.record_payment(-abs(salary_lines.total))
+                    else:
+                        attachments.record_payment(abs(salary_lines.total))
         return res
 
     def action_payslip_draft(self):

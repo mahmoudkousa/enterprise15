@@ -5,9 +5,10 @@
 # Translators:
 # Martin Trigaux, 2021
 # fanha99 <fanha99@hotmail.com>, 2021
-# thanhnguyen.icsc <thanhnguyen.icsc@gmail.com>, 2021
+# Nancy Momoland <thanh.np2502@gmail.com>, 2021
 # Duy BQ <duybq86@gmail.com>, 2021
 # Dung Nguyen Thi <dungnt@trobz.com>, 2021
+# Thi Huong Nguyen, 2023
 # 
 msgid ""
 msgstr ""
@@ -15,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:01+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Dung Nguyen Thi <dungnt@trobz.com>, 2021\n"
-"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Last-Translator: Thi Huong Nguyen, 2023\n"
+"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -36,6 +37,14 @@ msgstr "%s - Bởi %s"
 #, python-format
 msgid "- By"
 msgstr "- Bởi"
+
+#. module: web_cohort
+#. openerp-web
+#: code:addons/web_cohort/static/src/cohort_renderer.js:0
+#: code:addons/web_cohort/static/src/legacy/js/cohort_renderer.js:0
+#, python-format
+msgid "Period"
+msgstr "Kỳ"
 
 #. module: web_cohort
 #: model:ir.model,name:web_cohort.model_ir_actions_act_window_view

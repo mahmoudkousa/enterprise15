@@ -6,6 +6,7 @@
 # Sergio Zanchetta <primes2h@gmail.com>, 2022
 # Martin Trigaux, 2022
 # Friederike Fasterling-Nesselbosch, 2022
+# Marianna Ciofani, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 11:15+0000\n"
 "PO-Revision-Date: 2022-04-08 12:42+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Last-Translator: Marianna Ciofani, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1677,7 +1678,7 @@ msgstr ""
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
 #, python-format
 msgid "Tender"
-msgstr ""
+msgstr "Offerta"
 
 #. module: l10n_be_coda
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
@@ -2023,7 +2024,7 @@ msgstr ""
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
 #, python-format
 msgid "currency"
-msgstr ""
+msgstr "valuta"
 
 #. module: l10n_be_coda
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
@@ -2084,7 +2085,7 @@ msgstr ""
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
 #, python-format
 msgid "diesel"
-msgstr ""
+msgstr "benzina"
 
 #. module: l10n_be_coda
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
@@ -2141,7 +2142,7 @@ msgstr ""
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
 #, python-format
 msgid "fuel"
-msgstr ""
+msgstr "carburante"
 
 #. module: l10n_be_coda
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
@@ -2556,7 +2557,7 @@ msgstr ""
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0
 #, python-format
 msgid "volume"
-msgstr ""
+msgstr "volume"
 
 #. module: l10n_be_coda
 #: code:addons/l10n_be_coda/wizard/account_bank_statement_import_coda.py:0

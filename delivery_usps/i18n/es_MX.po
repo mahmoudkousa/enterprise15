@@ -337,7 +337,7 @@ msgstr "Muestra"
 #: code:addons/delivery_usps/models/delivery_usps.py:0
 #, python-format
 msgid "Shipment #%s has been cancelled"
-msgstr "El envío #%s ha sido cancelado"
+msgstr "Se canceló el envío #%s "
 
 #. module: delivery_usps
 #: code:addons/delivery_usps/models/delivery_usps.py:0
@@ -373,7 +373,7 @@ msgid ""
 "The address of your company is missing or wrong (Missing field(s) :  \n"
 " %s)"
 msgstr ""
-"Falta la dirección de su empresa, o es incorrecta (Campos faltantes:  \n"
+"Hace falta la dirección de su empresa o no es correcta (Campos faltantes:  \n"
 " %s)"
 
 #. module: delivery_usps
@@ -383,7 +383,7 @@ msgid ""
 "The estimated shipping price cannot be computed because the weight is missing for the following product(s): \n"
 " %s"
 msgstr ""
-"El precio estimado de envío no se puede calcular porque falta el peso para los siguientes productos: \n"
+"No se puede calcular el precio estimado de envío porque falta el peso de los siguientes productos:\n"
 " %s"
 
 #. module: delivery_usps
@@ -393,7 +393,7 @@ msgid ""
 "The recipient address is missing or wrong (Missing field(s) :  \n"
 " %s)"
 msgstr ""
-"Falta la dirección del destinatario, o es incorrecta (Campos faltantes:  \n"
+"Hace falta la dirección del destinatario o no es correcta (Campos faltantes:  \n"
 " %s)"
 
 #. module: delivery_usps

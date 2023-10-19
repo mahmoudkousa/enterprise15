@@ -5,6 +5,7 @@
 # Translators:
 # Martin Trigaux, 2021
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2022
+# Jolien De Paepe, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-16 06:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2022\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Last-Translator: Jolien De Paepe, 2023\n"
+"Language-Team: Dutch (https://app.transifex.com/odoo/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -347,12 +348,12 @@ msgstr ""
 #. module: voip
 #: model_terms:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
 msgid "Group By"
-msgstr "Groepeer op"
+msgstr "Groeperen op"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_res_users__sip_external_phone
 msgid "Handset Extension"
-msgstr "Uitbreiding voor handset"
+msgstr "Handset extensie"
 
 #. module: voip
 #. openerp-web
@@ -497,7 +498,7 @@ msgstr "Gekoppeld chatter bericht"
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_mail_activity__voip_phonecall_id
 msgid "Linked Voip Phonecall"
-msgstr "Gekoppeld VOIP telefoongesprek"
+msgstr "Gekoppeld VoIP telefoongesprek"
 
 #. module: voip
 #: model_terms:ir.actions.act_window,help:voip.voip_phonecall_view
@@ -1000,32 +1001,32 @@ msgstr "Gebruikers"
 #: code:addons/voip/static/src/js/dialing_panel.js:0
 #, python-format
 msgid "VOIP"
-msgstr "VOIP"
+msgstr "VoIP"
 
 #. module: voip
 #: model_terms:ir.ui.view,arch_db:voip.res_user_form
 msgid "VOIP Configuration"
-msgstr "VOIP instellingen"
+msgstr "VoIP instellingen"
 
 #. module: voip
 #: model:ir.model,name:voip.model_voip_configurator
 msgid "VOIP Configurator"
-msgstr "VOIP configurator"
+msgstr "VoIP configurator"
 
 #. module: voip
 #: model:ir.model,name:voip.model_voip_phonecall
 msgid "VOIP Phonecall"
-msgstr "VOIP telefoongesprek"
+msgstr "VoIP telefoongesprek"
 
 #. module: voip
 #: model:ir.model,name:voip.model_voip_phonecall_log_wizard
 msgid "VOIP Phonecall log Wizard"
-msgstr "VOIP telefoongespreklog wizard"
+msgstr "VoIP telefoongespreklog wizard"
 
 #. module: voip
 #: model:ir.model,name:voip.model_voip_phonecall_report
 msgid "VOIP Phonecalls by user report"
-msgstr "VOIP telefoongesprekken per gebruiker rapport"
+msgstr "VoIP telefoongesprekken per gebruiker rapport"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_res_config_settings__mode
@@ -1038,7 +1039,7 @@ msgstr "VoIP omgeving"
 #: model:ir.model.fields.selection,name:voip.selection__res_users__mobile_call_method__voip
 #, python-format
 msgid "Voip"
-msgstr "VOIP"
+msgstr "VoIP"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_res_config_settings__wsServer

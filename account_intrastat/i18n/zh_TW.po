@@ -38,7 +38,7 @@ msgstr "<span class=\"fa fa-filter\"/> 選項:"
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_vat
 msgid "<span class=\"fa fa-filter\"/> Partners:"
-msgstr "<span class=\"fa fa-filter\"/> 業務夥伴:"
+msgstr "<span class=\"fa fa-filter\"/> 合作夥伴："
 
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_intrastat_type

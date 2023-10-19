@@ -11141,7 +11141,7 @@ msgstr "Widok okna akcji"
 #: model:ir.ui.menu,name:base.next_id_6
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_form
 msgid "Actions"
-msgstr "Działania"
+msgstr "Akcje"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.res_lang_tree
@@ -13388,7 +13388,7 @@ msgstr "Przycisk musi mieć nazwę"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.module_form
 msgid "By"
-msgstr "według/przez"
+msgstr "przez"
 
 #. module: base
 #: code:addons/base/models/ir_qweb_fields.py:0
@@ -13825,7 +13825,7 @@ msgstr "Podrzędne ID "
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner_category__child_ids
 msgid "Child Tags"
-msgstr "Znaczniki podrzędne"
+msgstr "Tagi podrzędne"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_actions_server__child_ids
@@ -13921,7 +13921,7 @@ msgstr "Wyspa Bożego Narodzenia"
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 #: model_terms:ir.ui.view,arch_db:base.view_res_bank_form
 msgid "City"
-msgstr "Miejscowość"
+msgstr "Miasto"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_address_city
@@ -14293,6 +14293,12 @@ msgstr "Pełna nazwa"
 #: model:ir.model.fields,field_description:base.field_ir_model_fields__compute
 msgid "Compute"
 msgstr "Oblicz"
+
+#. module: base
+#: code:addons/base/models/ir_model.py:0
+#, python-format
+msgid "Compute method cannot depend on field 'id'"
+msgstr "Metoda obliczeniowa nie może zależeć od pola \"id\""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_subscription_taxcloud
@@ -14724,6 +14730,12 @@ msgstr "Grupy krajów"
 #: model:ir.model.fields,field_description:base.field_res_country__name
 msgid "Country Name"
 msgstr "Nazwa kraju"
+
+#. module: base
+#: code:addons/base/models/res_country.py:0
+#, python-format
+msgid "Country code cannot be empty"
+msgstr "Kod kraju nie może być pusty"
 
 #. module: base
 #: model:ir.model,name:base.model_res_country_state
@@ -16834,6 +16846,15 @@ msgid "Error message returned when the constraint is violated."
 msgstr "Komunikat o błędzie zwracany w przypadku naruszenia ograniczenia."
 
 #. module: base
+#: code:addons/translate.py:0
+#, python-format
+msgid ""
+"Error while parsing view:\n"
+"\n"
+"%s"
+msgstr ""
+
+#. module: base
 #: code:addons/base/models/ir_ui_view.py:0
 #, python-format
 msgid ""
@@ -18558,7 +18579,7 @@ msgstr "Grupa"
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_search
 #: model_terms:ir.ui.view,arch_db:base.view_view_search
 msgid "Group By"
-msgstr "Grupuj wg."
+msgstr "Grupuj wg"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_groups__full_name
@@ -20132,6 +20153,12 @@ msgid "Invalid 'group by' parameter"
 msgstr "Nieprawidłowy parametr \"grupuj według\""
 
 #. module: base
+#: code:addons/base/models/ir_default.py:0
+#, python-format
+msgid "Invalid JSON format in Default Value field."
+msgstr "Nieprawidłowy format JSON w polu Wartość domyślna."
+
+#. module: base
 #: code:addons/models.py:0
 #, python-format
 msgid "Invalid aggregation function %r."
@@ -20629,8 +20656,8 @@ msgstr "Wersja 3 LGPL"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_lt_reports
-msgid "LT - Accounting Reports"
-msgstr ""
+msgid "Lithuania - Accounting Reports"
+msgstr "Litwa - Raporty księgowe"
 
 #. module: base
 #: code:addons/base/models/ir_ui_view.py:0
@@ -26408,7 +26435,7 @@ msgstr "Dane użytkownika jako partnera"
 #: model_terms:ir.ui.view,arch_db:base.base_partner_merge_automatic_wizard_form
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "Partners"
-msgstr "Partnerzy"
+msgstr "Kontrahenci"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_geolocalize
@@ -27423,7 +27450,7 @@ msgstr "Funkcje proxy dla account_edi"
 #. module: base
 #: model:res.groups,name:base.group_public
 msgid "Public"
-msgstr "Publiczny"
+msgstr "Publiczne"
 
 #. module: base
 #: model:res.partner.industry,name:base.res_partner_industry_O
@@ -30249,18 +30276,18 @@ msgstr "Tabloid 29 279.4 x 431.8 mm"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
 msgid "Tag"
-msgstr "Znacznik"
+msgstr "Tag"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner_category__name
 msgid "Tag Name"
-msgstr "Nazwa znacznika"
+msgstr "Nazwa tagu"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner__category_id
 #: model:ir.model.fields,field_description:base.field_res_users__category_id
 msgid "Tags"
-msgstr "Znaczniki"
+msgstr "Tagi"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
@@ -30546,6 +30573,12 @@ msgstr "Tajlandia - Księgowość"
 #. module: base
 #: code:addons/base/models/res_users.py:0
 #, python-format
+msgid "The \"%s\" action cannot be selected as home action."
+msgstr "Akcja \"%s\" nie może być wybrana jako akcja główna."
+
+#. module: base
+#: code:addons/base/models/res_users.py:0
+#, python-format
 msgid "The \"App Switcher\" action cannot be selected as home action."
 msgstr ""
 "Akcja \"Przełącznik aplikacji\" nie może zostać wybrana jako akcja domowa."
@@ -30631,8 +30664,8 @@ msgstr ""
 #. module: base
 #: code:addons/base/models/ir_module.py:0
 #, python-format
-msgid "The `base` module cannot be uninstalled"
-msgstr "Moduł 'base' nie może zostać odinstalowany."
+msgid "Those modules cannot be uninstalled: %s"
+msgstr "Modułów tych nie można odinstalować: %s"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_partner_category__active
@@ -30651,6 +30684,16 @@ msgstr ""
 "zostały one sporządzone po niniejszych standardowych warunkach sprzedaży. "
 "Aby odstępstwo było ważne, musi być wcześniej wyraźnie uzgodnione w formie "
 "pisemnej."
+
+#. module: base
+#: code:addons/base/models/res_currency.py:0
+#, python-format
+msgid ""
+"The name for the current rate is empty.\n"
+"Please set it."
+msgstr ""
+"Nazwa bieżącej stawki jest pusta.\n"
+"Należy ją ustawić."
 
 #. module: base
 #: model:ir.model.constraint,message:base.constraint_res_country_code_uniq
@@ -30700,7 +30743,6 @@ msgstr "Kod waluty musi być unikalny!"
 #. module: base
 #: model:ir.model.fields,help:base.field_res_currency__inverse_rate
 #: model:ir.model.fields,help:base.field_res_currency_rate__company_rate
-#: model:ir.model.fields,help:base.field_res_currency_rate__inverse_company_rate
 msgid "The currency of rate 1 to the rate of the currency."
 msgstr "Waluta o kursie 1 do kursu waluty."
 
@@ -30998,8 +31040,9 @@ msgstr ""
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_currency_rate__rate
-msgid "The rate of the currency to the currency of rate 1"
-msgstr "Kurs waluty w stosunku do waluty o kursie 1"
+#: model:ir.model.fields,help:base.field_res_currency_rate__inverse_company_rate
+msgid "The rate of the currency to the currency of rate 1 "
+msgstr "Kurs waluty do waluty kursu 1"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_currency__rate
@@ -33253,7 +33296,7 @@ msgstr "Tłumaczenia internetowe"
 #: model_terms:ir.ui.view,arch_db:base.view_partner_address_form
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "Website"
-msgstr "Strona WWW"
+msgstr "Strona internetowa"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_appointment
@@ -33801,6 +33844,12 @@ msgstr ""
 "Nie możesz dezaktywować użytkownika, jako który jesteś obecnie zalogowany."
 
 #. module: base
+#: code:addons/base/models/res_users.py:0
+#, python-format
+msgid "You cannot delete a group linked with a settings field."
+msgstr "Nie można usunąć grupy powiązanej z polem ustawień."
+
+#. module: base
 #: code:addons/base/models/res_partner.py:0
 #, python-format
 msgid ""
@@ -33829,6 +33878,12 @@ msgstr ""
 "Należy je raczej zarchiwizować po zarchiwizowaniu powiązanego z nimi użytkownika.\n"
 "\n"
 "Powiązani aktywni użytkownicy : %(names)s"
+
+#. module: base
+#: code:addons/base/models/ir_config_parameter.py:0
+#, python-format
+msgid "You cannot delete the %s record."
+msgstr ""
 
 #. module: base
 #: code:addons/base/models/res_lang.py:0
@@ -33860,6 +33915,12 @@ msgid ""
 msgstr ""
 "Nie można zmniejszyć liczby miejsc dziesiętnych waluty już użytej w zapisie "
 "księgowym."
+
+#. module: base
+#: code:addons/base/models/ir_config_parameter.py:0
+#, python-format
+msgid "You cannot rename config parameters with keys %s"
+msgstr ""
 
 #. module: base
 #: code:addons/models.py:0
@@ -34010,7 +34071,7 @@ msgstr "account_qr_code_sepa"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_asset__active
 msgid "active"
-msgstr "aktywny"
+msgstr "aktywne"
 
 #. module: base
 #: code:addons/models.py:0
@@ -34607,7 +34668,7 @@ msgstr "tekst"
 #: model:ir.module.category,name:base.module_category_account_budget_sale_timesheet
 #: model:ir.module.category,name:base.module_category_account_sale_timesheet
 msgid "timesheet"
-msgstr "timesheet"
+msgstr "karta pracy"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.res_config_installer
@@ -34640,3 +34701,10 @@ msgstr "rok"
 #: model:res.country,name:base.ax
 msgid "Åland Islands"
 msgstr "Åland Islands"
+
+#. module: base
+#: code:addons/base/models/res_currency.py:0
+#, python-format
+msgid "This currency is set on a company and therefore cannot be deactivated."
+msgstr ""
+"Ta waluta jest ustawiona na firmę i dlatego nie można jej dezaktywować."

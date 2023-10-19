@@ -35,17 +35,17 @@ msgstr "# クリック"
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__mass_mailing_count
 msgid "# Mailings"
-msgstr ""
+msgstr "# メール送信"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__total_participant_count
 msgid "# of active and completed participants"
-msgstr ""
+msgstr "有効または完了済の参加者数"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__running_participant_count
 msgid "# of active participants"
-msgstr ""
+msgstr "アクティブ参加者数"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__completed_participant_count
@@ -181,17 +181,17 @@ msgstr "<span>合計</span>"
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
 msgid "<strong>The workflow has been modified!</strong>"
-msgstr ""
+msgstr "<strong>ワークフローが変更されました！</strong>"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__ab_testing_mailings_count
 msgid "A/B Test Mailings #"
-msgstr ""
+msgstr "A/B テストメーリング数"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__ab_testing_completed
 msgid "A/B Testing Campaign Finished"
-msgstr ""
+msgstr "A/B テストキャンペーン終了済"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_participant__trace_ids
@@ -238,7 +238,7 @@ msgstr "活動タイプ"
 msgid ""
 "Activity will only be performed if record satisfies this domain, obtained "
 "from the combination of the activity filter and its inherited filter"
-msgstr ""
+msgstr "活動フィルタとその継承フィルタの組合わせから得られる、レコードがこのドメインを満たす場合にのみ、活動が実行されます。"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
@@ -260,7 +260,7 @@ msgstr "7日後 (顧客でない場合)"
 #. module: marketing_automation
 #: model:ir.model.fields,help:marketing_automation.field_marketing_activity__allowed_parent_ids
 msgid "All activities which can be the parent of this one"
-msgstr ""
+msgstr "この活動の親であり得る全ての活動"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__social_post_ids
@@ -270,12 +270,12 @@ msgstr "すべての関連するソーシャルメディア投稿"
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__allowed_parent_ids
 msgid "Allowed parents"
-msgstr ""
+msgstr "許可された親"
 
 #. module: marketing_automation
 #: model:ir.model.fields,help:marketing_automation.field_marketing_campaign__is_auto_campaign
 msgid "Allows us to filter relevant Campaigns"
-msgstr ""
+msgstr "関連するキャンペーンをフィルタリングできます。"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__domain
@@ -308,7 +308,7 @@ msgstr "自動生成キャンペーン"
 msgid ""
 "Be aware that participants that had no more activities could be reintroduced"
 " into the campaign and new traces could be created for them."
-msgstr ""
+msgstr "もう活動をしていない参加者をキャンペーンに再び参加させ、新しいトレースを作成することができることに注意して下さい。"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
@@ -369,7 +369,7 @@ msgstr ""
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__child_ids
 msgid "Child Activities"
-msgstr ""
+msgstr "子活動"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
@@ -401,7 +401,7 @@ msgstr "カラーインデクス"
 msgid ""
 "Come back later once your campaigns are running to overview your "
 "participants."
-msgstr ""
+msgstr "キャンペーンが実行されたら、後で戻って参加者の概要を確認して下さい。"
 
 #. module: marketing_automation
 #: model:marketing.campaign,name:marketing_automation.marketing_campaign_1
@@ -460,7 +460,7 @@ msgstr "日"
 #: model_terms:ir.actions.act_window,help:marketing_automation.marketing_campaign_action
 msgid ""
 "Define workflows by chaining up activities and let Odoo handle the rest."
-msgstr ""
+msgstr "活動を連結してワークフローを定義し、後はOdooにお任せ下さい。"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__interval_type
@@ -489,7 +489,7 @@ msgstr "全て削除"
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__child_ids
 msgid "Direct child traces"
-msgstr ""
+msgstr "直接子トレース"
 
 #. module: marketing_automation
 #. openerp-web
@@ -520,12 +520,12 @@ msgstr "ドメイン"
 #. module: marketing_automation
 #: model:ir.model.fields,help:marketing_automation.field_marketing_activity__activity_domain
 msgid "Domain that applies to this activity and its child activities"
-msgstr ""
+msgstr "この活動とその子活動に適用されるドメイン"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
 msgid "Don't update"
-msgstr ""
+msgstr "更新しないで下さい"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
@@ -544,7 +544,7 @@ msgstr "Eメール"
 #: code:addons/marketing_automation/models/marketing_activity.py:0
 #, python-format
 msgid "Email canceled"
-msgstr ""
+msgstr "Eメールが取消されました"
 
 #. module: marketing_automation
 #: model:ir.model,name:marketing_automation.model_mail_compose_message
@@ -555,7 +555,7 @@ msgstr "Eメール構成ウィザード"
 #: code:addons/marketing_automation/models/marketing_activity.py:0
 #, python-format
 msgid "Email failed"
-msgstr ""
+msgstr "Eメールに失敗しました"
 
 #. module: marketing_automation
 #: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_trace__state__error
@@ -571,19 +571,19 @@ msgstr "エラーメッセージ"
 #: code:addons/marketing_automation/models/marketing_activity.py:0
 #, python-format
 msgid "Error! You can't create recursive hierarchy of Activity."
-msgstr ""
+msgstr "エラー！アクティビティの再帰階層を作成できません。"
 
 #. module: marketing_automation
 #: code:addons/marketing_automation/models/marketing_activity.py:0
 #, python-format
 msgid "Exception in mass mailing: %s"
-msgstr ""
+msgstr "メール一括送信の例外: %s"
 
 #. module: marketing_automation
 #: code:addons/marketing_automation/models/marketing_activity.py:0
 #, python-format
 msgid "Exception in server action: %s"
-msgstr ""
+msgstr "サーバアクションの例外: %s"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_search
@@ -616,7 +616,7 @@ msgstr "対象者を生成"
 msgid ""
 "Here you will be able to check the results of your mailings from all "
 "Marketing Automation Campaigns."
-msgstr ""
+msgstr "ここでは、すべてのマーケティング自動化キャンペーンからのメール配信の結果を確認することができます。"
 
 #. module: marketing_automation
 #: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__interval_type__hours
@@ -673,7 +673,7 @@ msgstr "最終更新日"
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__last_sync_date
 msgid "Last activities synchronization"
-msgstr ""
+msgstr "最新活動の動機"
 
 #. module: marketing_automation
 #: code:addons/marketing_automation/wizard/marketing_campaign_test.py:0
@@ -780,7 +780,7 @@ msgstr "メールタイプ"
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
 msgid "Mails sent and not bounced"
-msgstr ""
+msgstr "送信済かつバウンスしなかったメール"
 
 #. module: marketing_automation
 #: code:addons/marketing_automation/models/marketing_trace.py:0
@@ -815,21 +815,21 @@ msgstr "マーケティング自動化"
 #. module: marketing_automation
 #: model:ir.actions.act_window,name:marketing_automation.mail_mass_mailing_action_marketing_automation
 msgid "Marketing Automation Mailings"
-msgstr ""
+msgstr "マーケティング自動化メール配信"
 
 #. module: marketing_automation
 #: model:ir.actions.server,name:marketing_automation.ir_cron_campaign_execute_activities_ir_actions_server
 #: model:ir.cron,cron_name:marketing_automation.ir_cron_campaign_execute_activities
 #: model:ir.cron,name:marketing_automation.ir_cron_campaign_execute_activities
 msgid "Marketing Automation: execute activities"
-msgstr ""
+msgstr "マーケティング自動化:"
 
 #. module: marketing_automation
 #: model:ir.actions.server,name:marketing_automation.ir_cron_campaign_sync_participants_ir_actions_server
 #: model:ir.cron,cron_name:marketing_automation.ir_cron_campaign_sync_participants
 #: model:ir.cron,name:marketing_automation.ir_cron_campaign_sync_participants
 msgid "Marketing Automation: sync participants"
-msgstr ""
+msgstr "マーケティング自動化: 参加者同期"
 
 #. module: marketing_automation
 #: model:ir.model,name:marketing_automation.model_marketing_campaign
@@ -839,12 +839,12 @@ msgstr "マーケティングキャンペーン"
 #. module: marketing_automation
 #: model:ir.model,name:marketing_automation.model_marketing_campaign_test
 msgid "Marketing Campaign: Launch a Test"
-msgstr ""
+msgstr "マーケティングキャンペーン: テストをローンチ"
 
 #. module: marketing_automation
 #: model:ir.model,name:marketing_automation.model_marketing_participant
 msgid "Marketing Participant"
-msgstr ""
+msgstr "マーケティング参加者"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__mass_mailing_id
@@ -855,7 +855,7 @@ msgstr "マーケティングテンプレート"
 #: model:ir.model,name:marketing_automation.model_marketing_trace
 #: model:ir.model.fields,field_description:marketing_automation.field_mailing_trace__marketing_trace_id
 msgid "Marketing Trace"
-msgstr ""
+msgstr "マーケティングトレース"
 
 #. module: marketing_automation
 #: model:ir.model.fields,help:marketing_automation.field_mailing_mailing__use_in_marketing_automation
@@ -863,6 +863,7 @@ msgid ""
 "Marketing campaigns use mass mailings with some specific behavior; this "
 "field is used to indicate its statistics may be suspicious."
 msgstr ""
+"マーケティングキャンペーンでは、特定の行動を伴う一括メール配信を使用します。このフィールドは、その統計が疑わしい可能性があることを示すために使用されます。"
 
 #. module: marketing_automation
 #: model:ir.model,name:marketing_automation.model_mailing_mailing
@@ -959,7 +960,7 @@ msgstr "未返信"
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
 msgid "Not bounced yet"
-msgstr ""
+msgstr "バウンスはまだありません。"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
@@ -984,13 +985,13 @@ msgstr "メール一括配信数"
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__click_count
 msgid "Number of clicks generated by the campaign"
-msgstr ""
+msgstr "キャンペーンで生成されたクリック数"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__social_engagement
 msgid ""
 "Number of interactions (likes, shares, comments ...) with the social posts"
-msgstr ""
+msgstr "ソーシャル投稿での交流(いいね、共有、コメントなど)の数"
 
 #. module: marketing_automation
 #: model:mailing.mailing,name:marketing_automation.mass_mailing_offer_free_trial
@@ -1030,25 +1031,25 @@ msgstr "親"
 #: code:addons/marketing_automation/models/marketing_trace.py:0
 #, python-format
 msgid "Parent activity mail bounced"
-msgstr ""
+msgstr "親活動メールバウンス"
 
 #. module: marketing_automation
 #: code:addons/marketing_automation/models/marketing_trace.py:0
 #, python-format
 msgid "Parent activity mail clicked"
-msgstr ""
+msgstr "親活動メールクリック"
 
 #. module: marketing_automation
 #: code:addons/marketing_automation/models/marketing_trace.py:0
 #, python-format
 msgid "Parent activity mail opened"
-msgstr ""
+msgstr "親活動メール開封"
 
 #. module: marketing_automation
 #: code:addons/marketing_automation/models/marketing_trace.py:0
 #, python-format
 msgid "Parent activity mail replied"
-msgstr ""
+msgstr "親活動メール返信"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__participant_id
@@ -1085,7 +1086,7 @@ msgstr "対象者"
 #: code:addons/marketing_automation/models/marketing_activity.py:0
 #, python-format
 msgid "Participants of %s (%s)"
-msgstr ""
+msgstr " %s (%s)の参加者"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__processed
@@ -1119,13 +1120,13 @@ msgstr "レコードID"
 #: code:addons/marketing_automation/models/marketing_participant.py:0
 #, python-format
 msgid "Record deleted"
-msgstr ""
+msgstr "レコードが削除されました"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign_test__model_name
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_participant__model_name
 msgid "Record model"
-msgstr ""
+msgstr "レコードモデル"
 
 #. module: marketing_automation
 #: code:addons/marketing_automation/models/marketing_activity.py:0
@@ -1140,7 +1141,7 @@ msgstr "拒否済"
 #: code:addons/marketing_automation/models/marketing_activity.py:0
 #, python-format
 msgid "Rejected by activity filter or record deleted / archived"
-msgstr ""
+msgstr "活動フィルタにより却下されたか、レコードが削除/アーカイブされました"
 
 #. module: marketing_automation
 #: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_participant__state__unlinked
@@ -1150,7 +1151,7 @@ msgstr "削除済"
 #. module: marketing_automation
 #: model:ir.model.fields,help:marketing_automation.field_marketing_participant__state
 msgid "Removed means the related record does not exist anymore."
-msgstr ""
+msgstr "削除は関連するレコードがもう存在しないことを意味します。"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
@@ -1170,7 +1171,7 @@ msgstr "レポーティング"
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__require_sync
 msgid "Require trace sync"
-msgstr ""
+msgstr "トレース同期を要求"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
@@ -1249,7 +1250,7 @@ msgstr "送信タイミング:"
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__interval_standardized
 msgid "Send after (in hours)"
-msgstr ""
+msgstr "後で送信(時間後)"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
@@ -1272,7 +1273,7 @@ msgstr "ソーシャルメディア投稿"
 msgid ""
 "Some participants are already running on this campaign. Click on 'Update' to"
 " apply the modifications you've just made."
-msgstr ""
+msgstr "既にこのキャンペーンを運営中の参加者がいます。'更新'をクリックして、作成したばかりの修正を適用して下さい。"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__utm_source_id
@@ -1287,7 +1288,7 @@ msgstr "ソース名"
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_mailing_mailing__use_in_marketing_automation
 msgid "Specific mailing used in marketing campaign"
-msgstr ""
+msgstr "マーケティングキャンペーンで使用される特定のメール配信"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__stage_id
@@ -1310,12 +1311,12 @@ msgstr "都道府県/州"
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
 msgid "State: #{record.state.raw_value}"
-msgstr ""
+msgstr "ステータス: 数{record.state.raw_value}"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__statistics_graph_data
 msgid "Statistics Graph Data"
-msgstr ""
+msgstr "統計グラフデータ"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__mailing_trace_status
@@ -1337,7 +1338,7 @@ msgstr "終了"
 #. module: marketing_automation
 #: model:ir.model.fields,help:marketing_automation.field_marketing_trace__links_click_datetime
 msgid "Stores last click datetime in case of multi clicks."
-msgstr ""
+msgstr "複数回クリックした場合の最終クリック日時を保存します。"
 
 #. module: marketing_automation
 #: code:addons/marketing_automation/models/marketing_activity.py:0
@@ -1352,12 +1353,12 @@ msgstr "成功"
 msgid ""
 "Switching Target Model invalidates the existing activities. Either update "
 "your activity actions to match the new Target Model or delete them."
-msgstr ""
+msgstr "ターゲットモデルを変更すると、既存の活動は無効になります。新しいターゲットモデルに合わせて活動アクションを更新するか、削除して下さい。"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__require_sync
 msgid "Sync of participants is required"
-msgstr ""
+msgstr "参加者の同期が必要です"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
@@ -1394,12 +1395,12 @@ msgstr "テンプレート"
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_participant__is_test
 msgid "Test Record"
-msgstr ""
+msgstr "レコードをテスト"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__is_test
 msgid "Test Trace"
-msgstr ""
+msgstr "トレースをテスト"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
@@ -1421,7 +1422,7 @@ msgstr ""
 msgid ""
 "To use this feature you should be an administrator or belong to the "
 "marketing automation group."
-msgstr ""
+msgstr "この機能を使用するには、管理者であるか、マーケティング自動化グループに所属している必要があります。"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__ab_testing_total_pc
@@ -1469,7 +1470,7 @@ msgstr "トリガー"
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__trigger_category
 msgid "Trigger Category"
-msgstr ""
+msgstr "トリガカテゴリ"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__trigger_type
@@ -1524,7 +1525,7 @@ msgstr "ユーザ"
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__validity_duration_number
 msgid "Valid during"
-msgstr ""
+msgstr "以下の間有効:"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__validity_duration
@@ -1534,7 +1535,7 @@ msgstr "有効期間"
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__validity_duration_type
 msgid "Validity Duration Type"
-msgstr ""
+msgstr "有効期間タイプ"
 
 #. module: marketing_automation
 #: code:addons/marketing_automation/models/marketing_campaign.py:0
@@ -1576,6 +1577,8 @@ msgid ""
 "You are trying to set the activity \"%s\" as \"%s\" while its child \"%s\" has the trigger type \"%s\"\n"
 "Please modify one of those activities before saving."
 msgstr ""
+"活動 \"%s\" を \"%s\" として設定しようとしていますが、子 \"%s\" はトリガタイプ\"%s\"を持っています。\n"
+"保存するまえにこれらの活動の1つを修正して下さい。"
 
 #. module: marketing_automation
 #: code:addons/marketing_automation/models/marketing_campaign.py:0

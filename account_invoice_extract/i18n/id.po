@@ -93,7 +93,7 @@ msgstr "Lampiran"
 #. module: account_invoice_extract
 #: model_terms:ir.ui.view,arch_db:account_invoice_extract.view_move_form_inherit_ocr
 msgid "Buy credits"
-msgstr ""
+msgstr "Beli kredit"
 
 #. module: account_invoice_extract
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_bank_statement_line__extract_can_show_resend_button

@@ -7,6 +7,7 @@
 # JH CHOI <hwangtog@gmail.com>, 2021
 # Linkup <link-up@naver.com>, 2021
 # Sarah Park, 2023
+# Daye Jeong, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 08:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:38+0000\n"
-"Last-Translator: Sarah Park, 2023\n"
+"Last-Translator: Daye Jeong, 2023\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -82,7 +83,7 @@ msgstr "개발자 키"
 #. module: delivery_fedex
 #: model_terms:ir.ui.view,arch_db:delivery_fedex.view_delivery_carrier_form_with_provider_fedex
 msgid "Duties paid by"
-msgstr ""
+msgstr "관세 납부자"
 
 #. module: delivery_fedex
 #: model:ir.model.fields.selection,name:delivery_fedex.selection__delivery_carrier__fedex_label_file_type__epl2
@@ -189,7 +190,7 @@ msgstr "FedEx 환경 설정"
 #. module: delivery_fedex
 #: model:ir.model.fields,field_description:delivery_fedex.field_delivery_carrier__fedex_droppoff_type
 msgid "Fedex Drop-Off Type"
-msgstr ""
+msgstr "Fedex 방문 접수 유형"
 
 #. module: delivery_fedex
 #: model:ir.model.fields,field_description:delivery_fedex.field_delivery_carrier__fedex_duty_payment
@@ -206,7 +207,7 @@ msgstr "Fedex International"
 #. module: delivery_fedex
 #: model:ir.model.fields,field_description:delivery_fedex.field_delivery_carrier__fedex_default_package_type_id
 msgid "Fedex Package Type"
-msgstr ""
+msgstr "Fedex 패키지 유형"
 
 #. module: delivery_fedex
 #: model:ir.model.fields,field_description:delivery_fedex.field_delivery_carrier__fedex_service_type
@@ -301,7 +302,7 @@ msgstr "PAPER_4X6"
 #: model:ir.model.fields.selection,name:delivery_fedex.selection__delivery_carrier__fedex_document_stock_type__paper_4x6_75
 #: model:ir.model.fields.selection,name:delivery_fedex.selection__delivery_carrier__fedex_label_stock_type__paper_4x6_75
 msgid "PAPER_4X6.75"
-msgstr ""
+msgstr "PAPER_4X6.75"
 
 #. module: delivery_fedex
 #: model:ir.model.fields.selection,name:delivery_fedex.selection__delivery_carrier__fedex_document_stock_type__paper_4x8
@@ -404,7 +405,7 @@ msgstr "STOCK_4X6"
 #: model:ir.model.fields.selection,name:delivery_fedex.selection__delivery_carrier__fedex_document_stock_type__stock_4x6_75
 #: model:ir.model.fields.selection,name:delivery_fedex.selection__delivery_carrier__fedex_label_stock_type__stock_4x6_75
 msgid "STOCK_4X6.75"
-msgstr ""
+msgstr "STOCK_4X6.75"
 
 #. module: delivery_fedex
 #: model:ir.model.fields.selection,name:delivery_fedex.selection__delivery_carrier__fedex_document_stock_type__stock_4x6_75_leading_doc_tab
@@ -428,7 +429,7 @@ msgstr "STOCK_4X8"
 #: model:ir.model.fields.selection,name:delivery_fedex.selection__delivery_carrier__fedex_document_stock_type__stock_4x9
 #: model:ir.model.fields.selection,name:delivery_fedex.selection__delivery_carrier__fedex_label_stock_type__stock_4x9
 msgid "STOCK_4X9"
-msgstr ""
+msgstr "STOCK_4X9"
 
 #. module: delivery_fedex
 #: model:ir.model.fields.selection,name:delivery_fedex.selection__delivery_carrier__fedex_document_stock_type__stock_4x9_leading_doc_tab
@@ -461,7 +462,7 @@ msgstr "보낸 사람"
 #: code:addons/delivery_fedex/models/delivery_fedex.py:0
 #, python-format
 msgid "Shipment #%s has been cancelled"
-msgstr ""
+msgstr "#%s 배송이 취소되었습니다"
 
 #. module: delivery_fedex
 #: code:addons/delivery_fedex/models/delivery_fedex.py:0

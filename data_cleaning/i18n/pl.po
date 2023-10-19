@@ -4,7 +4,6 @@
 # 
 # Translators:
 # Ludwik Trammer <ludwik@gmail.com>, 2021
-# Piotr Strębski <strebski@gmail.com>, 2021
 # Martin Trigaux, 2021
 # Dariusz Żbikowski <darek@krokus.com.pl>, 2021
 # Wojciech Warczakowski <w.warczakowski@gmail.com>, 2021
@@ -70,7 +69,7 @@ msgstr "Działania Techniczne"
 #. module: data_cleaning
 #: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__action
 msgid "Actions"
-msgstr "Działania"
+msgstr "Akcje"
 
 #. module: data_cleaning
 #: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__active

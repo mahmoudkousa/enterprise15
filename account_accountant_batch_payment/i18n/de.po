@@ -3,8 +3,8 @@
 # 	* account_accountant_batch_payment
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Leon Grill <leg@odoo.com>, 2021
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Leon Grill <leg@odoo.com>, 2021\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Martin Trigaux, 2023\n"
+"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -30,7 +30,7 @@ msgstr "Kontoabstimmungs-Widget"
 #: code:addons/account_accountant_batch_payment/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Batch Payments"
-msgstr "Stapel-Überweisungen"
+msgstr "Sammelzahlungen"
 
 #. module: account_accountant_batch_payment
 #. openerp-web

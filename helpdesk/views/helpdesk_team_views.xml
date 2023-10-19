@@ -217,7 +217,7 @@
                             </div>
                             <div class="o_setting_right_pane">
                                 <label for="use_sla"/>
-                                <a href="https://www.odoo.com/documentation/15.0/applications/services/helpdesk/overview/getting_started.html" title="Documentation" class="o_doc_link" target="_blank"></a>
+                                <a href="https://www.odoo.com/documentation/15.0/applications/services/helpdesk/overview/sla.html" title="Documentation" class="o_doc_link" target="_blank"></a>
                                 <div class="text-muted">
                                     Make sure tickets are handled on time
 
@@ -404,6 +404,7 @@
                     </div>
                     <div class="oe_chatter" groups="base.group_user">
                         <field name="message_follower_ids" help="Follow this team to automatically track the events associated to tickets of this team."/>
+                        <field name="message_ids"/>     <!-- To be able to see attachments linked to the team -->
                     </div>
                 </sheet>
             </form>

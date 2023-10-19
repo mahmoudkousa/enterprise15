@@ -5,6 +5,9 @@
 # Translators:
 # Martin Trigaux, 2021
 # Silmar <pinheirosilmar@gmail.com>, 2021
+# Layna Nascimento, 2023
+# Kevilyn Rosa, 2023
+# Elisa Cestari Torres, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,18 +15,18 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 15:07+0000\n"
 "PO-Revision-Date: 2021-09-14 12:41+0000\n"
-"Last-Translator: Silmar <pinheirosilmar@gmail.com>, 2021\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Last-Translator: Elisa Cestari Torres, 2023\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "&amp;nbsp;&amp;nbsp;"
-msgstr ""
+msgstr "&amp;nbsp;&amp;nbsp;"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
@@ -33,7 +36,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "*For orders over $39."
-msgstr ""
+msgstr "*Para pedidos acima de $39."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
@@ -154,7 +157,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "<font style=\"color: rgb(173, 173, 173);\">Unsubscribe</font>"
-msgstr ""
+msgstr "<font style=\"color: rgb(173, 173, 173);\">Cancelar inscrição</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
@@ -189,6 +192,7 @@ msgid ""
 "<font style=\"color: rgb(255, 255, 255);\">And it won't cost you a "
 "thing!</font>"
 msgstr ""
+"<font style=\"color: rgb(255, 255, 255);\">E não vai te custar nada!</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
@@ -199,7 +203,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "<font style=\"color: rgb(255, 255, 255);\">Hi there!</font>"
-msgstr ""
+msgstr "<font style=\"color: rgb(255, 255, 255);\">Olá!</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
@@ -214,6 +218,8 @@ msgid ""
 "<font style=\"color: rgb(255, 255, 255);\">Zero, zilch, nada! Odoo "
 "Experience is free for everyone!</font>"
 msgstr ""
+"<font style=\"color: rgb(255, 255, 255);\">Zero, nada, nadinha! O Odoo "
+"Experience é gratuito para todos!</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -543,6 +549,8 @@ msgid ""
 "Bitten by the travel bug but looking to travel consciously? Eco-travel is "
 "the way forward."
 msgstr ""
+"Foi picado pelo desejo de viajar, mas procurando viajar de forma consciente?"
+" A viagem ecológica é o caminho a seguir."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
@@ -580,6 +588,8 @@ msgid ""
 "Create your very own chat room or join an existing one that sparks your "
 "interest."
 msgstr ""
+"Crie sua própria sala de bate-papo ou entre em uma sala existente que "
+"desperte seu interesse."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
@@ -601,7 +611,7 @@ msgstr "Cibersegurança"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "Delicious recipes from around the world"
-msgstr ""
+msgstr "Receitas deliciosas de todo o mundo"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
@@ -611,7 +621,7 @@ msgstr "Assinatura Demo"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "Destinations for an eco-holiday"
-msgstr ""
+msgstr "Destinos para um feriado ecológico"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
@@ -621,7 +631,7 @@ msgstr "Descobrir"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Easy Returns"
-msgstr ""
+msgstr "Devoluções simplificadas"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
@@ -648,17 +658,17 @@ msgstr "Facebook"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "Find out more"
-msgstr ""
+msgstr "Saiba mais"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Free Delivery"
-msgstr ""
+msgstr "Entrega grátis"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Free delivery*"
-msgstr ""
+msgstr "Entrega grátis*"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
@@ -668,7 +678,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "Go to the chatrooms"
-msgstr ""
+msgstr "Ir para as salas de bate-papo"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
@@ -681,6 +691,8 @@ msgid ""
 "Imagine waking up with more energy, more flexibility, with less stress and "
 "fewer instances of anxiously rushing out the door."
 msgstr ""
+"Imagine acordar com mais energia, mais flexibilidade, com menos estresse e "
+"menos situações de ansiedade ao sair correndo pela porta."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -692,6 +704,8 @@ msgstr "Instagram"
 msgid ""
 "Join the community to see our latest news, events, discounts and much more!"
 msgstr ""
+"Participe da comunidade para ver nossas últimas notícias, eventos, descontos"
+" e muito mais!"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
@@ -771,7 +785,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
 msgid "Read More"
-msgstr ""
+msgstr "Leia mais"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template

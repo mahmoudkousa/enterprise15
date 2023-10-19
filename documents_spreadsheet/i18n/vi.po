@@ -6,22 +6,24 @@
 # Thang Duong Bao <nothingctrl@gmail.com>, 2021
 # Trinh Tran Thi Phuong <trinhttp@trobz.com>, 2021
 # Dung Nguyen Thi <dungnt@trobz.com>, 2021
-# Martin Trigaux, 2021
 # fanha99 <fanha99@hotmail.com>, 2021
-# thanhnguyen.icsc <thanhnguyen.icsc@gmail.com>, 2021
+# Nancy Momoland <thanh.np2502@gmail.com>, 2021
 # Duy BQ <duybq86@gmail.com>, 2021
 # Dao Nguyen <trucdao.uel@gmail.com>, 2021
 # Trần Hà <tranthuha13590@gmail.com>, 2021
 # Vo Thanh Thuy, 2022
+# Martin Trigaux, 2023
+# Wil Odoo, 2023
+# Thi Huong Nguyen, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~14.5+e\n"
+"Project-Id-Version: Odoo Server 15.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-22 09:02+0000\n"
+"POT-Creation-Date: 2023-07-20 12:29+0000\n"
 "PO-Revision-Date: 2021-09-14 12:39+0000\n"
-"Last-Translator: Vo Thanh Thuy, 2022\n"
-"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Last-Translator: Thi Huong Nguyen, 2023\n"
+"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -52,28 +54,28 @@ msgstr "%s (bản sao)"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "%s Columns left"
-msgstr ""
+msgstr "%s Cột bên trái"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "%s Columns right"
-msgstr ""
+msgstr "%s Cột bên phải"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "%s Rows above"
-msgstr ""
+msgstr "%s Dòng bên trên"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "%s Rows below"
-msgstr ""
+msgstr "%s Dòng bên dưới"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -101,7 +103,7 @@ msgstr "(Không xác định)"
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.res_config_settings_view_form_inherit_documents_spreadsheet
 msgid ""
 "<strong>Spreadsheets</strong>\n"
-"                            <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+"                            <span class=\"fa fa-lg fa-building-o ml-1\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
 msgstr ""
 
 #. module: documents_spreadsheet
@@ -157,7 +159,7 @@ msgstr "A random number between 0 inclusive and 1 exclusive."
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "A range needs to be defined"
-msgstr ""
+msgstr "Cần xác định một vùng"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -177,8 +179,15 @@ msgstr "A substring from the end of a specified string."
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
+msgid "ABOUT"
+msgstr "GIỚI THIỆU"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
 msgid "Absolute value of a number."
-msgstr ""
+msgstr "Giá trị tuyệt đối của một số."
 
 #. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_revision__active
@@ -208,6 +217,13 @@ msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/actions/control_panel/collaborative_cross_tab_bus_warning.js:0
+#, python-format
+msgid "An issue occurred while auto-saving"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Angle from the X axis to a point (x,y), in radians."
@@ -218,14 +234,21 @@ msgstr "Angle from the X axis to a point (x,y), in radians."
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Annual yield of a security paying interest at maturity."
-msgstr ""
+msgstr "Lợi tức hàng năm của chứng khoán trả lãi khi đáo hạn."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Annual yield of a security paying periodic interest."
-msgstr ""
+msgstr "Lợi tức hàng năm của chứng khoán trả lãi định kỳ."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Anonymous"
+msgstr "Nặc danh"
 
 #. module: documents_spreadsheet
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.save_spreadsheet_template_view_form
@@ -259,7 +282,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Argument must be a reference to a cell or range."
-msgstr ""
+msgstr "Đối số phải là một tham chiếu đến một ô hoặc dải ô."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -268,7 +291,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Ascending (A ⟶ Z)"
-msgstr ""
+msgstr "Tăng dần (A ⟶ Z)"
 
 #. module: documents_spreadsheet
 #: model_terms:documents.folder,description:documents_spreadsheet.documents_spreadsheet_folder
@@ -276,6 +299,8 @@ msgid ""
 "Ask an admin to configure the workspace to be accessible to the users you "
 "want."
 msgstr ""
+"Yêu cầu quản trị viên cấu hình không gian làm việc để người dùng bạn muốn có"
+" thể truy cập được."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -325,7 +350,7 @@ msgstr "Quay lại"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Background color"
-msgstr ""
+msgstr "Màu nền"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -345,9 +370,17 @@ msgstr "Trống"
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Bold"
 msgstr "Đậm"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Borders"
+msgstr "Viền"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -362,6 +395,8 @@ msgid ""
 "By default, the spreadsheets in this workspace will only be seen and updated"
 " by their <strong>creator</strong>."
 msgstr ""
+"Theo mặc định, chỉ <strong>người tạo </strong> các bảng tính trong không "
+"gian làm việc này mới có thể xem và cập nhật chúng."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -381,24 +416,33 @@ msgstr "Hủy"
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
+msgid "Cannot dispatch commands in the finalize state"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
 msgid ""
 "Cannot sort. To sort, select only cells or only merges that have the same "
 "size."
 msgstr ""
+"Không thể sắp xếp. Để sắp xếp, chỉ chọn các ô hoặc chỉ các ô hợp nhất có "
+"cùng kích thước."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Categories / Labels"
-msgstr ""
+msgstr "Danh mục/Nhãn"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Cell values"
-msgstr ""
+msgstr "Giá trị ô"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -410,7 +454,7 @@ msgstr "Giữa"
 #. module: documents_spreadsheet
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.res_config_settings_view_form_inherit_documents_spreadsheet
 msgid "Centralize your spreadsheets"
-msgstr ""
+msgstr "Tập trung bảng tính của bạn"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -425,7 +469,7 @@ msgstr "Biểu đồ"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Chart type"
-msgstr ""
+msgstr "Loại biểu đồ"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -433,6 +477,13 @@ msgstr ""
 #, python-format
 msgid "Circular reference"
 msgstr "Circular reference"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Clear Format"
+msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -446,33 +497,33 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Clear column %s"
-msgstr ""
+msgstr "Xóa cột %s"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Clear columns %s - %s"
-msgstr ""
+msgstr "Xóa cột %s - %s"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Clear row %s"
-msgstr ""
+msgstr "Xoá dòng %s"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Clear rows %s - %s"
-msgstr ""
+msgstr "Xoá dòng %s - %s"
 
 #. module: documents_spreadsheet
 #: model:ir.model,name:documents_spreadsheet.model_spreadsheet_revision
 msgid "Collaborative spreadsheet revision"
-msgstr ""
+msgstr "Sửa đổi bảng tính cộng tác"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -480,7 +531,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Color scale"
-msgstr ""
+msgstr "Thang màu"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -494,7 +545,7 @@ msgstr "Cột trái"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Column number of a specified cell."
-msgstr ""
+msgstr "Số cột của một ô xác định."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -513,7 +564,7 @@ msgstr "Combines text from multiple strings and/or arrays."
 #. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_revision__commands
 msgid "Commands"
-msgstr ""
+msgstr "Lệnh"
 
 #. module: documents_spreadsheet
 #: model:ir.model,name:documents_spreadsheet.model_res_company
@@ -526,7 +577,7 @@ msgstr "Công ty"
 #, python-format
 msgid ""
 "Computes the number of periods needed for an investment to reach a value."
-msgstr ""
+msgstr "Tính toán số kỳ cần thiết để khoản đầu tư đạt đến một giá trị."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -653,7 +704,7 @@ msgstr "Sao chép"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Copy of %s"
-msgstr ""
+msgstr "Bản sao của %s"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -796,7 +847,7 @@ msgstr "Dữ liệu"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Data Series"
-msgstr ""
+msgstr "Chuỗi dữ liệu"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -815,6 +866,7 @@ msgstr "Ngày"
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Date (9/26/2008)"
 msgstr "Ngày (26/9/2008)"
@@ -828,6 +880,7 @@ msgstr "Date a number of months before/after another date."
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Date time (9/26/2008 22:43:00)"
@@ -863,6 +916,13 @@ msgstr "Tháng mười hai"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Decrease decimal places"
+msgstr "Giảm số thập phân"
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
 #, python-format
 msgid "Default Value"
@@ -870,6 +930,7 @@ msgstr "Giá trị mặc định"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Delete"
@@ -880,49 +941,49 @@ msgstr "Xoá"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Delete cell and shift left"
-msgstr ""
+msgstr "Xóa ô và dịch chuyển sang trái"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Delete cell and shift up"
-msgstr ""
+msgstr "Xóa ô và dịch chuyển lên trên"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Delete cells"
-msgstr ""
+msgstr "Xoá ô"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Delete column %s"
-msgstr ""
+msgstr "Xoá cột %s"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Delete columns %s - %s"
-msgstr ""
+msgstr "Xoá cột %s - %s"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Delete row %s"
-msgstr ""
+msgstr "Xóa hàng %s"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Delete rows %s - %s"
-msgstr ""
+msgstr "Xóa hàng %s - %s"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -936,7 +997,7 @@ msgstr "Delete values"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Depreciation via declining balance method."
-msgstr ""
+msgstr "Khấu hao theo phương pháp số dư giảm dần."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -945,7 +1006,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Descending (Z ⟶ A)"
-msgstr ""
+msgstr "Giảm dần (Z ⟶ A)"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -955,7 +1016,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Did not find value '%s' in [[FUNCTION_NAME]] evaluation."
-msgstr ""
+msgstr "Không thể tìm thấy giá trị '%s' trong đánh giá [[FUNCTION_NAME]]."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -984,7 +1045,7 @@ msgstr "Tên hiển thị"
 #: code:addons/documents_spreadsheet/static/src/xml/pivot_dialog.xml:0
 #, python-format
 msgid "Display missing cells only"
-msgstr ""
+msgstr "Chỉ hiển thị các ô bị thiếu"
 
 #. module: documents_spreadsheet
 #: model:ir.model,name:documents_spreadsheet.model_documents_document
@@ -997,7 +1058,7 @@ msgstr "Tài liệu"
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_res_company__documents_spreadsheet_folder_id
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_res_config_settings__documents_spreadsheet_folder_id
 msgid "Documents Spreadsheet Folder"
-msgstr ""
+msgstr "Tài liệu Thư mục bảng tính"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1038,12 +1099,14 @@ msgstr "Duplicated Label"
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Duration (27:51:38)"
 msgstr "Duration (27:51:38)"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.spreadsheet_template_view_tree
@@ -1056,7 +1119,7 @@ msgstr "Sửa"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Edit link"
-msgstr ""
+msgstr "Chỉnh sửa liên kết"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1075,7 +1138,7 @@ msgstr "Ends with"
 #. module: documents_spreadsheet
 #: model_terms:documents.folder,description:documents_spreadsheet.documents_spreadsheet_folder
 msgid "Enjoy collaborative work on your spreadsheets."
-msgstr ""
+msgstr "Tận hưởng việc cộng tác trên bảng tính của bạn."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1116,7 +1179,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Exact number of years between two dates."
-msgstr ""
+msgstr "Số năm chính xác giữa hai ngày."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1155,6 +1218,7 @@ msgstr "Nội dung tệp (thô)"
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Fill Color"
 msgstr "Tô màu"
@@ -1186,14 +1250,14 @@ msgstr "Bộ lọc"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Find and Replace"
-msgstr ""
+msgstr "Tìm kiếm và thay thế"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Find and replace"
-msgstr ""
+msgstr "Tìm kiếm và thay thế"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1213,6 +1277,13 @@ msgstr "First position of string found in text, ignoring case."
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
+msgid "Font Size"
+msgstr "Cỡ Font"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
 msgid "Font size"
 msgstr "Cỡ chữ"
 
@@ -1222,6 +1293,13 @@ msgstr "Cỡ chữ"
 #, python-format
 msgid "Format"
 msgstr "Định dạng"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Format as percent"
+msgstr "Định dạng theo phần trăm"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1259,6 +1337,8 @@ msgid ""
 "Function ${name} has an argument that has been declared with more than one "
 "type whose type 'META'. The 'META' type can only be declared alone."
 msgstr ""
+"Hàm ${name} có một đối số đã được khai báo với nhiều loại là 'META'. Loại "
+"'META' chỉ có thể được khai báo một mình."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1279,6 +1359,8 @@ msgid ""
 "Function ${name} has no-repeatable arguments declared after repeatable ones."
 " All repeatable arguments must be declared last."
 msgstr ""
+"Hàm ${name} có các đối số không thể lặp lại được khai báo sau các đối số lặp"
+" lại. Tất cả đối số lặp lại phải được khai báo cuối cùng."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1288,6 +1370,8 @@ msgid ""
 "Function %s expects its parameters to be single values or single cell "
 "references, not ranges."
 msgstr ""
+"Hàm %s dự kiến các tham số của nó là các giá trị đơn hoặc tham chiếu ô đơn, "
+"không phải dải ô."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1297,6 +1381,8 @@ msgid ""
 "Function %s expects the parameter %s to be a single value or a single cell "
 "reference, not a range."
 msgstr ""
+"Hàm %s dự kiến tham số %s là các giá trị đơn hoặc tham chiếu ô đơn, không "
+"phải dải ô."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1306,6 +1392,8 @@ msgid ""
 "Function %s expects the parameter %s to be reference to a cell or range, not"
 " a %s."
 msgstr ""
+"Function %s dự kiến tham số %s là một tham chiếu ô hoặc dải ô, không phải "
+"%s."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1354,7 +1442,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Function [[FUNCTION_NAME]] parameter 2 value (%s) is out of range."
-msgstr ""
+msgstr "Giá trị tham số 2 của hàm [[FUNCTION_NAME]] (%s) nằm ngoài dải ô."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1362,14 +1450,14 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Function [[FUNCTION_NAME]] parameter 2 value is out of range."
-msgstr ""
+msgstr "Giá trị tham số 2 của hàm [[FUNCTION_NAME]] nằm ngoài dải ô."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Future value of an annuity investment."
-msgstr ""
+msgstr "Giá trị tương lai của khoản đầu tư niên kim."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1377,6 +1465,13 @@ msgstr ""
 #, python-format
 msgid "General"
 msgstr "Chung"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "General (no specific format)"
+msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1390,7 +1485,7 @@ msgstr "Get the absolute ID of an element in the pivot"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/registries/list_functions.js:0
 #, python-format
 msgid "Get the header of a list."
-msgstr ""
+msgstr "Lấy header của một danh sách."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1404,7 +1499,7 @@ msgstr "Get the header of a pivot."
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/registries/list_functions.js:0
 #, python-format
 msgid "Get the value from a list."
-msgstr ""
+msgstr "Lấy giá trị từ một danh sách."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1437,21 +1532,21 @@ msgstr "Handler"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Hide column %s"
-msgstr ""
+msgstr "Ẩn cột %s"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Hide columns"
-msgstr ""
+msgstr "Ẩn cột"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Hide columns %s - %s"
-msgstr ""
+msgstr "Ẩn cột %s - %s"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1465,35 +1560,42 @@ msgstr "Hide formulas"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Hide gridlines"
-msgstr ""
+msgstr "Ẩn đường lưới"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Hide row %s"
-msgstr ""
+msgstr "Ẩn dòng %s"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Hide rows"
-msgstr ""
+msgstr "Ẩn dòng"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Hide rows %s - %s"
-msgstr ""
+msgstr "Ẩn dòng %s - %s"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Horizontal align"
+msgstr "Căn ngang"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Horizontal lookup"
-msgstr ""
+msgstr "Tìm kiếm ngang"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1571,19 +1673,19 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Icon set"
-msgstr ""
+msgstr "Icon được đặt"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Icons"
-msgstr ""
+msgstr "Icon"
 
 #. module: documents_spreadsheet
 #: model_terms:documents.folder,description:documents_spreadsheet.documents_spreadsheet_folder
 msgid "If you want to work together on those spreadsheets :"
-msgstr ""
+msgstr "Nếu bạn muốn làm việc cùng nhau trên các bảng tính đó:"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1591,7 +1693,14 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "In [[FUNCTION_NAME]] evaluation, cannot find '%s' within '%s'."
-msgstr ""
+msgstr "Trong đánh giá [[FUNCTION_NAME]], không thể tìm thấy '%s' trong '%s'."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Increase decimal places"
+msgstr "Tăng số thập phân"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1605,63 +1714,63 @@ msgstr "Insert"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Insert %s columns"
-msgstr ""
+msgstr "Chèn %s cột"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Insert %s columns left"
-msgstr ""
+msgstr "Chèn %s cột bên trái"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Insert %s columns right"
-msgstr ""
+msgstr "Chèn %s cột bên phải"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Insert %s rows"
-msgstr ""
+msgstr "Chèn %s hàng"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Insert %s rows above"
-msgstr ""
+msgstr "Chèn %s hàng bên trên"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Insert %s rows below"
-msgstr ""
+msgstr "Chèn %s hàng bên dưới"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Insert cells"
-msgstr ""
+msgstr "Chèn ô"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Insert cells and shift down"
-msgstr ""
+msgstr "Chèn ô và dịch chuyển xuống dưới"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Insert cells and shift right"
-msgstr ""
+msgstr "Chèn ô và dịch chuyển sang phải"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1706,7 +1815,7 @@ msgstr "Chèn link"
 #: code:addons/documents_spreadsheet/static/src/js/components/insert_list_spreadsheet_menu.xml:0
 #, python-format
 msgid "Insert list in spreadsheet"
-msgstr ""
+msgstr "Chèn danh sách trong bảng tính"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1715,7 +1824,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/registries/menu_item_registry.js:0
 #, python-format
 msgid "Insert pivot cell"
-msgstr ""
+msgstr "Chèn ô pivot"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1743,42 +1852,42 @@ msgstr "Insert row below"
 #: code:addons/documents_spreadsheet/static/src/js/spreadsheet_selector_dialog.xml:0
 #, python-format
 msgid "Insert the first"
-msgstr ""
+msgstr "Chèn"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Internal rate of return given periodic cashflows."
-msgstr ""
+msgstr "Tỷ suất hoàn vốn nội bộ cho dòng tiền định kỳ."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Invalid Maxpoint formula"
-msgstr ""
+msgstr "Công thức Maxpoint không hợp lệ"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Invalid Midpoint formula"
-msgstr ""
+msgstr "Công thức Midpoint không hợp lệ"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Invalid Minpoint formula"
-msgstr ""
+msgstr "Công thức Minpoint không hợp lệ"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Invalid expression"
-msgstr ""
+msgstr "Biểu thức không hợp lệ"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1794,14 +1903,7 @@ msgstr "Invalid formula"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Invalid lower inflection point formula"
-msgstr ""
-
-#. module: documents_spreadsheet
-#. openerp-web
-#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
-#, python-format
-msgid "Invalid merge zone"
-msgstr "Invalid merge zone"
+msgstr "Công thức điểm uốn dưới không hợp lệ"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1811,6 +1913,8 @@ msgid ""
 "Invalid number of arguments for the %s function. Expected %s maximum, but "
 "got %s instead."
 msgstr ""
+"Số đối số không hợp lệ cho hàm %s. Cần tối đa là %s, nhưng thay vào đó đã "
+"nhận được %s. "
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1820,6 +1924,8 @@ msgid ""
 "Invalid number of arguments for the %s function. Expected %s minimum, but "
 "got %s instead."
 msgstr ""
+"Số đối số không hợp lệ cho hàm %s. Cần tối thiểu là %s, nhưng thay vào đó đã"
+" nhận được %s."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1829,6 +1935,8 @@ msgid ""
 "Invalid number of arguments for the %s function. Expected all arguments "
 "after position %s to be supplied by groups of %s arguments"
 msgstr ""
+"Số đối số không hợp lệ cho hàm %s. Cần tất cả đối số sau vị trí %s được cung"
+" cấp bởi các nhóm đối số %s."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1837,14 +1945,14 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Invalid reference"
-msgstr ""
+msgstr "Tham chiếu không hợp lệ"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Invalid sheet"
-msgstr ""
+msgstr "Trang tính không hợp lệ"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1858,14 +1966,14 @@ msgstr "Invalid sheet name"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Invalid sheet name: %s"
-msgstr ""
+msgstr "Tên trang tính không hợp lệ: %s"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Invalid upper inflection point formula"
-msgstr ""
+msgstr "Công thức điểm uốn trên không hợp lệ"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1928,14 +2036,14 @@ msgstr "Inverse tangent of a value, in radians."
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Is between"
-msgstr ""
+msgstr "Nằm giữa"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Is empty"
-msgstr ""
+msgstr "Trống"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1977,14 +2085,14 @@ msgstr "Nhỏ hơn hoặc bằng"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Is not between"
-msgstr ""
+msgstr "Không nằm giữa"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Is not empty"
-msgstr ""
+msgstr "Không trống"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1995,6 +2103,7 @@ msgstr "Không bằng"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
@@ -2034,7 +2143,7 @@ msgstr "Nhãn"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Labels are invalid"
-msgstr ""
+msgstr "Nhãn không hợp lệ"
 
 #. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_save_spreadsheet_template____last_update
@@ -2078,7 +2187,7 @@ msgstr "Last update date"
 #: code:addons/documents_spreadsheet/static/src/side_panels/pivot/pivot_details_side_panel.xml:0
 #, python-format
 msgid "Last updated at"
-msgstr ""
+msgstr "Cập nhật lần cuối vào"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2092,7 +2201,7 @@ msgstr "Trái"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Legend position"
-msgstr ""
+msgstr "Vị trí chú giải"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2142,28 +2251,28 @@ msgstr "Liên kết"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/registries/odoo_menu_link_cell.js:0
 #, python-format
 msgid "Link an Odoo menu"
-msgstr ""
+msgstr "Liên kết một menu Odoo"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/insert_action_link_menu/insert_action_link_menu.xml:0
 #, python-format
 msgid "Link menu in spreadsheet"
-msgstr ""
+msgstr "Liên kết menu trong bảng tính"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Link sheet"
-msgstr ""
+msgstr "Liên kết trang tính"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/side_panels/list/listing_details_side_panel.xml:0
 #, python-format
 msgid "List Name"
-msgstr ""
+msgstr "Tên danh sách"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2171,7 +2280,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/registries/menu_item_registry.js:0
 #, python-format
 msgid "List properties"
-msgstr ""
+msgstr "Thuộc tính danh sách"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2236,6 +2345,8 @@ msgid ""
 "Manage and work with all the <strong>spreadsheets</strong> created in other "
 "applications."
 msgstr ""
+"Quản lý và làm việc với tất cả các <strong>bảng tính</strong> được tạo trong"
+" những ứng dụng khác."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2249,14 +2360,14 @@ msgstr "Tháng Ba"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Match case"
-msgstr ""
+msgstr "Khớp chữ hoa/thường"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Match entire cell content"
-msgstr ""
+msgstr "Khớp toàn bộ nội dung ô"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2320,7 +2431,7 @@ msgstr "Thước đo"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Median value in a numeric dataset."
-msgstr ""
+msgstr "Giá trị trung bình trong tập dữ liệu số."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2333,10 +2444,18 @@ msgstr "Trình đơn (Menu)"
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
+msgid "Merge Cells"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
 msgid ""
 "Merged cells are preventing this operation. Unmerge those cells and try "
 "again."
 msgstr ""
+"Các ô đã gộp đang ngăn chặn hoạt động này. Hãy hủy gộp các ô đó và thử lại."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2359,21 +2478,21 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Midpoint must be smaller then Maximum"
-msgstr ""
+msgstr "Giá trị trung tâm phải nhỏ hơn giá trị tối đa"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Minimum must be smaller then Maximum"
-msgstr ""
+msgstr "Giá trị tối thiểu phải nhỏ hơn giá trị tối đa"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Minimum must be smaller then Midpoint"
-msgstr ""
+msgstr "Giá trị tối thiểu phải nhỏ hơn giá trị trung tâm"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2401,7 +2520,7 @@ msgstr "Minimum value in a numeric dataset."
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Minpoint"
-msgstr ""
+msgstr "Giá trị tối thiểu"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2410,6 +2529,27 @@ msgstr ""
 #, python-format
 msgid "Minute component of a specific time."
 msgstr "Minute component of a specific time."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/plugins/ui/list_autofill_plugin.js:0
+#, python-format
+msgid "Missing list #%s"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/plugins/ui/pivot_autofill_plugin.js:0
+#, python-format
+msgid "Missing pivot"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/plugins/ui/pivot_autofill_plugin.js:0
+#, python-format
+msgid "Missing pivot #%s"
+msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2429,7 +2569,7 @@ msgstr "Mẫu"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Modified Macaulay duration."
-msgstr ""
+msgstr "Thời lượng Macaulay đã được sửa đổi."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2457,6 +2597,13 @@ msgstr "Month of the year a specific date falls in"
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
+msgid "More formats"
+msgstr "Thêm định dạng"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
 msgid "More than one match found in DGET evaluation."
 msgstr "More than one match found in DGET evaluation."
 
@@ -2477,7 +2624,7 @@ msgstr "Move right"
 #. module: documents_spreadsheet
 #: model_terms:documents.folder,description:documents_spreadsheet.documents_spreadsheet_folder
 msgid "Move them to another workspace"
-msgstr ""
+msgstr "Di chuyển chúng đến không gian làm việc khác"
 
 #. module: documents_spreadsheet
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.spreadsheet_template_view_search
@@ -2516,14 +2663,14 @@ msgstr "Mới"
 #: code:addons/documents_spreadsheet/static/src/js/components/filter_editor_side_panel.js:0
 #, python-format
 msgid "New %s filter"
-msgstr ""
+msgstr "Bộ lọc %s mới "
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "New Chart"
-msgstr ""
+msgstr "Biểu đồ mới"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2612,7 +2759,7 @@ msgstr "Not equal."
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Not implemented operator %s for kind of conditional formatting:  %s"
-msgstr ""
+msgstr "Toán tử chưa được triển khai %s cho loại định dạng có điều kiện::  %s"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2652,6 +2799,7 @@ msgstr "Số"
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Number (1,000.12)"
 msgstr "Number (1,000.12)"
@@ -2661,7 +2809,7 @@ msgstr "Number (1,000.12)"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Number of columns in a specified array or range."
-msgstr ""
+msgstr "Số lượng cột trong một mảng hoặc dải ô xác định."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2682,14 +2830,14 @@ msgstr "Number of empty values."
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Number of periods for an investment to reach a value."
-msgstr ""
+msgstr "Số kỳ để một khoản đầu tư đạt đến một giá trị."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Number of rows in a specified array or range."
-msgstr ""
+msgstr "Số hàng trong một mảng hoặc dải ô xác định."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2734,9 +2882,16 @@ msgid "One number divided by another."
 msgstr "One number divided by another."
 
 #. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Paint Format"
+msgstr "Định dạng sơn"
+
+#. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_revision__parent_revision_id
 msgid "Parent Revision"
-msgstr ""
+msgstr "Sửa đổi cha"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2787,6 +2942,7 @@ msgstr ""
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Percent (10.12%)"
 msgstr "Percent (10.12%)"
@@ -2803,7 +2959,7 @@ msgstr "Phần trăm"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Percentile"
-msgstr ""
+msgstr "Phân vị"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2817,7 +2973,7 @@ msgstr "Biểu đồ bánh"
 #: code:addons/documents_spreadsheet/static/src/side_panels/pivot/pivot_details_side_panel.xml:0
 #, python-format
 msgid "Pivot name"
-msgstr ""
+msgstr "Tên pivot"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2832,6 +2988,13 @@ msgstr "Pivot properties"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Please enter a valid sheet name"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/actions/control_panel/collaborative_cross_tab_bus_warning.js:0
+#, python-format
+msgid "Please, close all other Odoo tabs and reload the current page."
 msgstr ""
 
 #. module: documents_spreadsheet
@@ -2853,7 +3016,7 @@ msgstr "Positive square root of a positive number."
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Present value of an annuity investment."
-msgstr ""
+msgstr "Giá trị hiện tại của một khoản đầu tư niên kim."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2881,7 +3044,7 @@ msgstr "Trước đó"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Price of a security paying periodic interest."
-msgstr ""
+msgstr "Giá của một chứng khoán trả lãi định kỳ."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2919,7 +3082,7 @@ msgstr "Random integer between two values, inclusive."
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/registries/menu_item_registry.js:0
 #, python-format
 msgid "Re-insert list"
-msgstr ""
+msgstr "Chèn lại danh sách"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2934,10 +3097,11 @@ msgstr "Re-insert pivot"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/plugins/ui/list_autofill_plugin.js:0
 #, python-format
 msgid "Record #"
-msgstr ""
+msgstr "# tập dữ liệu"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Redo"
@@ -2945,10 +3109,17 @@ msgstr "Làm lại"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Refresh"
+msgstr "Refresh"
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/registries/menu_item_registry.js:0
 #, python-format
 msgid "Refresh all data"
-msgstr ""
+msgstr "Làm mới toàn bộ dữ liệu"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2956,7 +3127,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/side_panels/pivot/pivot_details_side_panel.xml:0
 #, python-format
 msgid "Refresh values"
-msgstr ""
+msgstr "Làm mới giá trị"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2974,6 +3145,13 @@ msgstr "Relation"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/actions/control_panel/collaborative_cross_tab_bus_warning.js:0
+#, python-format
+msgid "Reload"
+msgstr "Tải lại"
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
 #, python-format
 msgid "Remove"
@@ -2984,7 +3162,7 @@ msgstr "Gỡ"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Remove link"
-msgstr ""
+msgstr "Xoá liên kết"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3020,7 +3198,7 @@ msgstr "Thay thế"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Replace all"
-msgstr ""
+msgstr "Xoá tất cả"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3048,7 +3226,7 @@ msgstr "Result of multiplying a series of numbers together."
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/registries/pivot_functions.js:0
 #, python-format
 msgid "Return the current value of a spreadsheet filter."
-msgstr ""
+msgstr "Trả về giá trị hiện tại của bộ lọc bảng tính."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3098,7 +3276,7 @@ msgstr "Returns value depending on logical expression."
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Reverse icons"
-msgstr ""
+msgstr "Biểu tượng đảo ngược"
 
 #. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_revision__revision_id
@@ -3109,7 +3287,7 @@ msgstr "Sửa đổi"
 #: model:ir.actions.act_window,name:documents_spreadsheet.spreadsheet_revision_action
 #: model:ir.ui.menu,name:documents_spreadsheet.menu_technical_spreadsheet_revision
 msgid "Revisions"
-msgstr ""
+msgstr "Sửa đổi"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3184,7 +3362,7 @@ msgstr "Row below"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Row number of a specified cell."
-msgstr ""
+msgstr "Số hàng của một ô xác định."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3229,7 +3407,7 @@ msgstr "Tìm kiếm"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Search in formulas"
-msgstr ""
+msgstr "Tìm kiếm trong công thức"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3243,21 +3421,21 @@ msgstr "Secant of an angle provided in radians."
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/registries/menu_item_registry.js:0
 #, python-format
 msgid "See records"
-msgstr ""
+msgstr "Xem tập dữ liệu"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Select a color..."
-msgstr ""
+msgstr "Chọn một màu..."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/components/ir_menu_selector/ir_menu_selector.js:0
 #, python-format
 msgid "Select a menu..."
-msgstr ""
+msgstr "Chọn một menu..."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3279,14 +3457,14 @@ msgstr "Select a spreadsheet to insert your pivot"
 #: code:addons/documents_spreadsheet/static/src/js/components/ir_menu_selector/ir_menu_selector.js:0
 #, python-format
 msgid "Select an Odoo menu to link in your spreadsheet"
-msgstr ""
+msgstr "Chọn menu Odoo để liên kết trong bảng tính của bạn"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/components/spreadsheet_component.js:0
 #, python-format
 msgid "Select the number of records to insert"
-msgstr ""
+msgstr "Chọn số lượng tập dữ liệu cần chèn"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3305,10 +3483,11 @@ msgstr "Quy tắc mã"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Series"
-msgstr ""
+msgstr "Loạt"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Sheet"
@@ -3319,7 +3498,7 @@ msgstr "Tờ"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Shift down"
-msgstr ""
+msgstr "Chuyển xuống dưới"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3340,7 +3519,7 @@ msgstr "Chuyển sang phải"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Shift up"
-msgstr ""
+msgstr "Chuyển lên trên"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3354,7 +3533,7 @@ msgstr "Show formulas"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Show gridlines"
-msgstr ""
+msgstr "Hiển thị đường lưới"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3368,7 +3547,7 @@ msgstr "Sine of an angle provided in radians."
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Single color"
-msgstr ""
+msgstr "Màu đơn sắc"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3382,21 +3561,21 @@ msgstr "Single value from a table-like range."
 #: code:addons/documents_spreadsheet/static/src/js/components/filter_editor_side_panel.js:0
 #, python-format
 msgid "Some required fields are not valid"
-msgstr ""
+msgstr "Một số trường bắt buộc không hợp lệ."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Sort column"
-msgstr ""
+msgstr "Sắp xếp cột"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Sort columns"
-msgstr ""
+msgstr "Sắp xếp cột"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3404,14 +3583,14 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Sort range"
-msgstr ""
+msgstr "Sắp xếp dải ô"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/side_panels/list/listing_details_side_panel.xml:0
 #, python-format
 msgid "Sorting"
-msgstr ""
+msgstr "Sắp xếp"
 
 #. module: documents_spreadsheet
 #: model:documents.folder,name:documents_spreadsheet.documents_spreadsheet_folder
@@ -3435,12 +3614,12 @@ msgstr "Spreadsheet Preview"
 #. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_documents_document__spreadsheet_revision_ids
 msgid "Spreadsheet Revision"
-msgstr ""
+msgstr "Sửa đổi bảng tính"
 
 #. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_documents_document__spreadsheet_snapshot
 msgid "Spreadsheet Snapshot"
-msgstr ""
+msgstr "Ảnh chụp nhanh bảng tính"
 
 #. module: documents_spreadsheet
 #: model:ir.model,name:documents_spreadsheet.model_spreadsheet_template
@@ -3466,13 +3645,15 @@ msgid ""
 "Spreadsheets mass download not yet supported.\n"
 " Download spreadsheets individually instead."
 msgstr ""
+"Chưa hỗ trợ tải xuống hàng loạt bảng tính.\n"
+"Thay vào đó hãy tải xuống từng bảng tính."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Stacked barchart"
-msgstr ""
+msgstr "Biểu đồ cột chồng"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3523,7 +3704,7 @@ msgstr "Standard deviation."
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Starts with"
-msgstr ""
+msgstr "Bắt đầu với"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3534,6 +3715,7 @@ msgstr "Strictly greater than."
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
@@ -3605,6 +3787,7 @@ msgstr "Văn bản"
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Text Color"
 msgstr "Màu chữ"
@@ -3614,7 +3797,7 @@ msgstr "Màu chữ"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The anchor must be part of the provided zone"
-msgstr ""
+msgstr "Neo phải là một phần của dải ô đã cho"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3628,42 +3811,42 @@ msgstr "The argument %s is not a valid measure. Here are the measures: %s"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The argument is missing. Please provide a value"
-msgstr ""
+msgstr "Đối số bị thiếu. Vui lòng cung cấp một giá trị"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The base (%s) must be between 2 and 36 inclusive."
-msgstr ""
+msgstr "Cơ số (%s) phải nằm trong khoảng tính từ 2 đến 36."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The cashflow_amounts must include negative and positive values."
-msgstr ""
+msgstr "cashflow_amounts phải bao gồm giá trị âm và dương."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The cell you are trying to edit has been deleted."
-msgstr ""
+msgstr "Ô bạn đang cố chỉnh sửa đã bị xóa."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The chart definition is invalid for an unknown reason"
-msgstr ""
+msgstr "Định nghĩa biểu đồ không hợp lệ vì lý do không xác định"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The cost (%s) must be strictly positive."
-msgstr ""
+msgstr "Chi phí (%s) phải là số tuyệt đối dương."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3678,21 +3861,21 @@ msgstr "The covariance of a dataset."
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The criteria range contains %s row, it must be at least 2 rows."
-msgstr ""
+msgstr "Dải ô tiêu chí chứa hàng %s, dải ô này phải có ít nhất 2 hàng. "
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The dataset is invalid"
-msgstr ""
+msgstr "Tập dữ liệu không hợp lệ"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The date_string (%s) cannot be parsed to date/time."
-msgstr ""
+msgstr "date_string (%s) không thể được phân tích cú pháp theo ngày/giờ."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3702,7 +3885,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The day_count_convention (%s) must be between 0 and 4 inclusive."
-msgstr ""
+msgstr "day_count_convention (%s) phải nằm trong khoảng tính từ 0 đến cả 4."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3716,35 +3899,35 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The discount (%s) must be different from -1."
-msgstr ""
+msgstr "Chiết khấu (%s) phải khác -1."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The divisor must be different from 0."
-msgstr ""
+msgstr "Số chia phải khác 0."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The divisor must be different from zero."
-msgstr ""
+msgstr "Số chia phải khác 0."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The end_date (%s) must be positive or null."
-msgstr ""
+msgstr "end_date (%s) phải là số dương hoặc không có."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The exponent (%s) must be an integer when the base is negative."
-msgstr ""
+msgstr "Số mũ (%s) phải là số nguyên khi cơ số âm."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3752,7 +3935,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The factor (%s) must be positive when the value (%s) is positive."
-msgstr ""
+msgstr "Hệ số (%s) phải là số dương khi giá trị (%s) là số dương."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3760,6 +3943,7 @@ msgstr ""
 #, python-format
 msgid "The field %s does not exist or you do not have access to that field"
 msgstr ""
+"Trường %s không tồn tại hoặc bạn không có quyền truy cập vào trường đó"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3769,34 +3953,35 @@ msgid ""
 "The field (%s) must be one of %s or must be a number between 1 and %s "
 "inclusive."
 msgstr ""
+"Trường (%s) phải là một trong %s hoặc phải là một số tính từ 1 đến cả %s."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The field (%s) must be one of %s."
-msgstr ""
+msgstr "Trường (%s) phải là một trong %s."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The field must be a number or a string"
-msgstr ""
+msgstr "Trường phải là số hoặc chuỗi"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The first value must be a number"
-msgstr ""
+msgstr "Giá trị đầu tiên phải là số"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The frequency (%s) must be one of %s"
-msgstr ""
+msgstr "Tần số (%s) phải là một trong %s"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3814,6 +3999,8 @@ msgid ""
 "The function [[FUNCTION_NAME]] expects a boolean value, but '%s' is a text, "
 "and cannot be coerced to a number."
 msgstr ""
+"Hàm [[FUNCTION_NAME]] cần một giá trị boolean, nhưng '%s' là văn bản và "
+"không thể bị buộc chuyển đổi thành một số."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3823,13 +4010,15 @@ msgid ""
 "The function [[FUNCTION_NAME]] expects a number value, but '%s' is a string,"
 " and cannot be coerced to a number."
 msgstr ""
+"Hàm [[FUNCTION_NAME]] cần một giá trị số, nhưng '%s' là một chuỗi, và không "
+"thể bị buộc chuyển đổi thành một số."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The function [[FUNCTION_NAME]] result cannot be negative"
-msgstr ""
+msgstr "Kết quả của hàm [[FUNCTION_NAME]] không được là số âm"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3838,28 +4027,28 @@ msgstr ""
 msgid ""
 "The function [[FUNCTION_NAME]] result must be greater than or equal "
 "01/01/1900."
-msgstr ""
+msgstr "Kết quả của hàm [[FUNCTION_NAME]] phải lớn hơn hoặc bằng 01/01/1900."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The future_value (%s) must be strictly positive."
-msgstr ""
+msgstr "future_value (%s) phải là số tuyệt đối dương."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The high (%s) must be greater than or equal to the low (%s)."
-msgstr ""
+msgstr "Giá trị cao (%s) phải lớn hơn hoặc hoặc bằng giá trị thấp (%s)."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The life (%s) must be strictly positive."
-msgstr ""
+msgstr "Số kỳ khấu hao (%s) phải là số tuyệt đối dương."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3876,35 +4065,35 @@ msgstr "The logarithm of a number, base e (euler's number)."
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The maturity (%s) must be strictly greater than the settlement (%s)."
-msgstr ""
+msgstr "Thời gian đáo hạn (%s) phải lớn hơn thời gian thanh toán (%s)."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The maxpoint must be a number"
-msgstr ""
+msgstr "Giá trị tối đa phải là một số"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The midpoint must be a number"
-msgstr ""
+msgstr "Giá trị trung tâm phải là một số"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The minpoint must be a number"
-msgstr ""
+msgstr "Giá trị tối thiểu phải là một số"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The month (%s) must be between 1 and 12 inclusive."
-msgstr ""
+msgstr "Tháng (%s) phải nằm trong khoảng tính từ 1 đến cả 12."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3914,6 +4103,8 @@ msgid ""
 "The net present value of an investment based on a series of periodic cash "
 "flows and a discount rate."
 msgstr ""
+"Giá trị hiện tại thực tế của khoản đầu tư dựa trên chuỗi dòng tiền định kỳ "
+"và tỷ lệ chiết khấu."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3942,42 +4133,42 @@ msgstr "The number pi."
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The number_of_characters (%s) must be positive or null."
-msgstr ""
+msgstr "number_of_characters (%s) phải là số dương hoặc không có."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The occurrenceNumber (%s) must be positive or null."
-msgstr ""
+msgstr "Số lần xuất hiện (%s) phải là số dương hoặc không có."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The period (%s) must be less than or equal to %s."
-msgstr ""
+msgstr "Kỳ (%s) phải nhỏ hơn hoặc bằng %s."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The period (%s) must be strictly positive."
-msgstr ""
+msgstr "Kỳ (%s) phải là số tuyệt đối dương."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The position (%s) must be greater than or equal to 1."
-msgstr ""
+msgstr "Vị trí (%s) phải lớn hơn hoặc hoặc bằng 1."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The present_value (%s) must be strictly positive."
-msgstr ""
+msgstr "present_value (%s) phải là số tuyệt đối dương."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3985,21 +4176,21 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The price (%s) must be strictly positive."
-msgstr ""
+msgstr "Giá (%s) phải là số tuyệt đối dương."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range is invalid"
-msgstr ""
+msgstr "Dải ô không hợp lệ"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range must be a single row or a single column."
-msgstr ""
+msgstr "Dải ô phải là một hàng hoặc một cột."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4009,21 +4200,21 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The rate (%s) must be positive or null."
-msgstr ""
+msgstr "Tỷ lệ (%s) phải là số dương hoặc không có."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The rate (%s) must be strictly positive."
-msgstr ""
+msgstr "Tỷ lệ (%s) phải là số tuyệt đối dương."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The rate_guess (%s) must be strictly greater than -1."
-msgstr ""
+msgstr "rate_guess (%s) phải tuyệt đối lớn hơn -1."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4031,28 +4222,28 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The redemption (%s) must be strictly positive."
-msgstr ""
+msgstr "Số tiền hoàn lại (%s) phải là số tuyệt đối dương."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The result_range must be a single row or a single column."
-msgstr ""
+msgstr "result_range phải là một hàng hoặc một cột."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The rule is invalid for an unknown reason"
-msgstr ""
+msgstr "Quy tắc không hợp lệ vì lý do không xác định"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The salvage (%s) must be positive or null."
-msgstr ""
+msgstr "Giá trị còn lại (%s) phải là số dương hoặc không có."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4066,28 +4257,28 @@ msgstr "The sample covariance of a dataset."
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The second argument is missing. Please provide a value"
-msgstr ""
+msgstr "Thiếu đối số thứ hai. Vui lòng cung cấp một giá trị"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The second value must be a number"
-msgstr ""
+msgstr "Giá trị thứ hai phải là số"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The settlement (%s) must be greater than or equal to the issue (%s)."
-msgstr ""
+msgstr "Ngày thanh toán (%s) phải lớn hơn hoặc hoặc bằng ngày phát hành (%s)."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The start_date (%s) must be positive or null."
-msgstr ""
+msgstr "start_date (%s) phải là số dương hoặc không có."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4095,14 +4286,14 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The starting_at (%s) must be greater than or equal to 1."
-msgstr ""
+msgstr "starting_at (%s) phải lớn hơn hoặc hoặc bằng 1."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The table_number (%s) is out of range."
-msgstr ""
+msgstr "table_number (%s) nằm ngoài dải ô."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4110,35 +4301,35 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The text_to_search must be non-empty."
-msgstr ""
+msgstr "text_to_search không được để trống."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The time_string (%s) cannot be parsed to date/time."
-msgstr ""
+msgstr "time_string (%s) không thể được phân tích cú pháp theo ngày/giờ."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The type (%s) is out of range."
-msgstr ""
+msgstr "Loại (%s) nằm ngoài dải ô."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The type (%s) must be 1, 2 or 3."
-msgstr ""
+msgstr "Loại (%s) phải là 1, 2 hoặc 3."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The value (%s) cannot be between -1 and 1 inclusive."
-msgstr ""
+msgstr "Giá trị (%s) không thể nằm trong khoảng tính từ -1 đến cả 1."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4146,14 +4337,14 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The value (%s) must be a valid base %s representation."
-msgstr ""
+msgstr "Giá trị (%s) phải là một biểu thị cơ số %s hợp lệ."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The value (%s) must be between -1 and 1 exclusive."
-msgstr ""
+msgstr "Giá trị (%s) phải nằm trong khoảng tính từ -1 đến cả 1."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4161,28 +4352,28 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The value (%s) must be between -1 and 1 inclusive."
-msgstr ""
+msgstr "Giá trị (%s) phải nằm trong khoảng tính từ -1 đến cả 1."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The value (%s) must be greater than or equal to 1."
-msgstr ""
+msgstr "Giá trị (%s) phải lớn hơn hoặc hoặc bằng 1."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The value (%s) must be positive or null."
-msgstr ""
+msgstr "Giá trị (%s) phải là số dương hoặc không có."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The value (%s) must be strictly positive."
-msgstr ""
+msgstr "Giá trị (%s) bắt buộc phải là số dương."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4197,21 +4388,21 @@ msgstr ""
 #, python-format
 msgid ""
 "The weekend (%s) must be a string or a number in the range 1-7 or 11-17."
-msgstr ""
+msgstr "Cuối tuần (%s) phải là một chuỗi hoặc số trong khoảng 1-7 hoặc 11-17."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The weekend (%s) must be different from '1111111'."
-msgstr ""
+msgstr "Cuối tuần (%s) phải khác '1111111'."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The year (%s) must be between 0 and 9999 inclusive."
-msgstr ""
+msgstr "Năm (%s) phải nằm trong khoảng tính từ 0 đến cả 9999."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4219,7 +4410,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The yield (%s) must be positive or null."
-msgstr ""
+msgstr "Lợi tức (%s) phải là số dương hoặc không có."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4230,7 +4421,6 @@ msgstr "There is no pivot with id \"%s\""
 
 #. module: documents_spreadsheet
 #. openerp-web
-#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
@@ -4263,6 +4453,8 @@ msgid ""
 "This operation is not possible due to a merge. Please remove the merges "
 "first than try again."
 msgstr ""
+"Không thể thực hiện được thao tác này do ô gộp. Vui lòng xóa các ô gộp trước"
+" rồi thử lại."
 
 #. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_save_spreadsheet_template__thumbnail
@@ -4272,6 +4464,7 @@ msgstr "Hình nhỏ"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Time (10:43:00 PM)"
@@ -4334,7 +4527,7 @@ msgstr "Loại"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/helpers/pivot_data_source.js:0
 #, python-format
 msgid "Unable to fetch the label of %s of model %s"
-msgstr ""
+msgstr "Không thể tìm nạp nhãn của %s của model %s"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4347,6 +4540,7 @@ msgstr "Gạch chân"
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Undo"
 msgstr "Hủy bỏ"
@@ -4356,21 +4550,21 @@ msgstr "Hủy bỏ"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Unexpected token: %s"
-msgstr ""
+msgstr "Token không mong đợi: %s"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Unhide all columns"
-msgstr ""
+msgstr "Hiện tất cả cột"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Unhide all rows"
-msgstr ""
+msgstr "Hiện tất cả dòng"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4432,6 +4626,7 @@ msgstr "Giá trị"
 #, python-format
 msgid "Value at a given percentile of a dataset exclusive of 0 and 1."
 msgstr ""
+"Giá trị tại một phân vị nhất định của tập dữ liệu không bao gồm 0 và 1."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4439,7 +4634,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Value at a given percentile of a dataset."
-msgstr ""
+msgstr "Giá trị tại một phân vị nhất định của tập dữ liệu."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4462,6 +4657,8 @@ msgstr "Value interpreted as a percentage."
 msgid ""
 "Value nearest to a specific quartile of a dataset exclusive of 0 and 4."
 msgstr ""
+"Giá trị gần nhất với một phần tư cụ thể của tập dữ liệu không bao gồm 0 và "
+"4."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4469,7 +4666,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Value nearest to a specific quartile of a dataset."
-msgstr ""
+msgstr "Giá trị gần nhất với một phần tư cụ thể của tập dữ liệu."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4520,7 +4717,7 @@ msgstr "Variance."
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Vertical axis position"
-msgstr ""
+msgstr "Vị trí trục dọc"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4544,6 +4741,8 @@ msgid ""
 "We found data next to your selection. Since this data was not selected, it "
 "will not be sorted. Do you want to extend your selection?"
 msgstr ""
+"Chúng tôi đã tìm thấy dữ liệu cạnh lựa chọn của bạn. Vì dữ liệu này không "
+"được chọn, nên nó sẽ không được sắp xếp. Bạn có muốn mở rộng lựa chọn không?"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4571,14 +4770,14 @@ msgstr "Weighted average."
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "When value is"
-msgstr ""
+msgstr "Khi giá trị"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "When weekend is a string (%s) it must be composed of \"0\" or \"1\"."
-msgstr ""
+msgstr "Khi cuối tuần là một chuỗi (%s) nó phải bao gồm \"0\" hoặc \"1\"."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4634,14 +4833,14 @@ msgstr "Không gian làm việc"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Wrong function call"
-msgstr ""
+msgstr "Gọi hàm không chính xác"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Wrong number of Argument[]. Expected an even number of Argument[]."
-msgstr ""
+msgstr "Số Đối số không chính xác []. Cần ​​một số Đối số chẵn []."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4678,49 +4877,49 @@ msgstr "[[FUNCTION_NAME]] cannot be called from the spreadsheet."
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "[[FUNCTION_NAME]] evaluates to an out of bounds range."
-msgstr ""
+msgstr "[[FUNCTION_NAME]] được đánh giá là nằm ngoài dải ô giới hạn."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "[[FUNCTION_NAME]] evaluates to an out of range column value %s."
-msgstr ""
+msgstr "[[FUNCTION_NAME]] xác định giá trị cột nằm ngoài dải ô %s."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "[[FUNCTION_NAME]] evaluates to an out of range row value %s."
-msgstr ""
+msgstr "[[FUNCTION_NAME]] xác định giá trị dòng nằm ngoài dải ô %s."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "[[FUNCTION_NAME]] expects number values."
-msgstr ""
+msgstr "[[FUNCTION_NAME]] cần giá trị số."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "[[FUNCTION_NAME]] expects the weight to be positive or equal to 0."
-msgstr ""
+msgstr "[[FUNCTION_NAME]] cần trọng số là số dương hoặc bằng 0."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "[[FUNCTION_NAME]] has mismatched argument count %s vs %s."
-msgstr ""
+msgstr "[[FUNCTION_NAME]] có số đối số không khớp %s với %s."
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "[[FUNCTION_NAME]] has mismatched range sizes."
-msgstr ""
+msgstr "[[FUNCTION_NAME]] có kích thước dải ô không khớp."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4732,7 +4931,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "[[FUNCTION_NAME]] has no valid input data."
-msgstr ""
+msgstr "[[FUNCTION_NAME]] không có dữ liệu đầu vào hợp lệ."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4743,10 +4942,17 @@ msgstr "và"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "by default"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/xml/pivot_dialog.xml:0
 #, python-format
 msgid "has no cell missing from this sheet"
-msgstr ""
+msgstr "không có ô nào bị thiếu trong trang tính này"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4754,11 +4960,18 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/side_panels/pivot/pivot_details_side_panel.js:0
 #, python-format
 msgid "never"
-msgstr ""
+msgstr "không bao giờ"
 
 #. module: documents_spreadsheet
 #: model:ir.model.constraint,message:documents_spreadsheet.constraint_spreadsheet_revision_parent_revision_unique
 msgid "o-spreadsheet revision refused due to concurrency"
+msgstr "sửa đổi bảng tính bị từ chối do tính đồng thời"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "optional"
 msgstr ""
 
 #. module: documents_spreadsheet
@@ -4766,4 +4979,11 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/spreadsheet_selector_dialog.xml:0
 #, python-format
 msgid "records of the list."
-msgstr ""
+msgstr "tập dữ liệu của danh sách."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "repeatable"
+msgstr "có thể lặp lại"

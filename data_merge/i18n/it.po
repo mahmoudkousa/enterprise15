@@ -8,6 +8,7 @@
 # Léonie Bouchat <lbo@odoo.com>, 2021
 # Friederike Fasterling-Nesselbosch, 2022
 # Sergio Zanchetta <primes2h@gmail.com>, 2023
+# Marianna Ciofani, 2023
 # 
 msgid ""
 msgstr ""
@@ -15,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:38+0000\n"
-"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2023\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Last-Translator: Marianna Ciofani, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -51,6 +52,8 @@ msgid ""
 "<span attrs=\"{'invisible': [('custom_merge_method', '=', False)]}\">Model "
 "specific</span>"
 msgstr ""
+"<span attrs=\"{'invisible': [('custom_merge_method', '=', "
+"False)]}\">Specifica modello</span>"
 
 #. module: data_merge
 #: model_terms:ir.ui.view,arch_db:data_merge.view_data_merge_model_form
@@ -110,7 +113,7 @@ msgstr "Automatico"
 #: model:ir.model.fields,field_description:data_merge.field_ir_model__is_merge_enabled
 #: model_terms:ir.ui.view,arch_db:data_merge.ir_model_view_search
 msgid "Can Be Merged"
-msgstr ""
+msgstr "Può essere unito"
 
 #. module: data_merge
 #: code:addons/data_merge/models/data_merge_rule.py:0
@@ -134,6 +137,7 @@ msgstr "Contatto"
 msgid ""
 "Contextual menu action that redirects to the deduplicate view of data_merge."
 msgstr ""
+"Azione menu contestuale che reindirizza al vista deduplicata data_merge."
 
 #. module: data_merge
 #: model:ir.model.fields,field_description:data_merge.field_data_merge_record__record_create_uid
@@ -251,7 +255,7 @@ msgstr "Differenze con il record originale"
 #. module: data_merge
 #: model_terms:ir.ui.view,arch_db:data_merge.ir_model_view_form
 msgid "Disable Merge"
-msgstr ""
+msgstr "Disabilita unione"
 
 #. module: data_merge
 #: model_terms:ir.ui.view,arch_db:data_merge.view_data_merge_record_list
@@ -275,7 +279,7 @@ msgstr "Nome visualizzato"
 #. module: data_merge
 #: model:ir.model.fields,field_description:data_merge.field_data_merge_group__divergent_fields
 msgid "Divergent Fields"
-msgstr ""
+msgstr "Campi in contrasto"
 
 #. module: data_merge
 #: model:ir.model.fields,field_description:data_merge.field_data_merge_model__domain
@@ -304,7 +308,7 @@ msgstr ""
 #. module: data_merge
 #: model_terms:ir.ui.view,arch_db:data_merge.ir_model_view_form
 msgid "Enable Merge"
-msgstr ""
+msgstr "Abilita unione"
 
 #. module: data_merge
 #: code:addons/data_merge/models/data_merge_rule.py:0
@@ -320,7 +324,7 @@ msgstr "Valori campo"
 #. module: data_merge
 #: model:ir.model.fields,field_description:data_merge.field_ir_model__hide_merge_action
 msgid "Hide merge action button"
-msgstr ""
+msgstr "Nascondi il pulsante azione unione"
 
 #. module: data_merge
 #: model_terms:ir.ui.view,arch_db:data_merge.data_merge_duplicate
@@ -342,6 +346,8 @@ msgid ""
 "If True, the generic data merge tool is available in the contextual menu of "
 "this model."
 msgstr ""
+"Se vero, lo strumento di unione per dati generici è disponibile nel menu "
+"contestuale del modello."
 
 #. module: data_merge
 #: model:ir.model.fields,help:data_merge.field_data_merge_model__is_contextual_merge_action
@@ -349,6 +355,8 @@ msgid ""
 "If True, this record is used for contextual menu action \"Merge\" on the "
 "target model."
 msgstr ""
+"Se vero, il record è utilizzato per azioni del menu contestuali \"Unisci\" "
+"sul modello target."
 
 #. module: data_merge
 #: model:ir.model.fields,help:data_merge.field_ir_model__hide_merge_action
@@ -356,6 +364,8 @@ msgid ""
 "If the model already has a custom merge method, the class attribute `_merge_disabled` is set to true on\n"
 "             that model and the generic data merge action should not be available on that model."
 msgstr ""
+"Se il modello possiede già un metodo di unione personalizzato l'attributo class `_merge_disabled` è configurato come vero sul\n"
+"             modello e l'azione generica per l'unione dei dati non deve essere disponibile su quel modello."
 
 #. module: data_merge
 #: model:ir.model.fields,field_description:data_merge.field_data_merge_record__is_deleted
@@ -442,7 +452,7 @@ msgstr "Unisci"
 #. module: data_merge
 #: model:ir.ui.menu,name:data_merge.ir_model_menu_merge_action_manager
 msgid "Merge Action Manager"
-msgstr ""
+msgstr "Manager azione unisci"
 
 #. module: data_merge
 #: model:ir.model.fields,field_description:data_merge.field_data_merge_rule__match_mode
@@ -457,17 +467,17 @@ msgstr "Modalità di unione"
 #. module: data_merge
 #: model:ir.model.fields,field_description:data_merge.field_ir_model__ref_merge_ir_act_server_id
 msgid "Merge Server Action"
-msgstr ""
+msgstr "Azione server unisci"
 
 #. module: data_merge
 #: model:ir.actions.act_window,name:data_merge.ir_model_action_merge
 msgid "Merge action Manager"
-msgstr ""
+msgstr "Manager azione unisci"
 
 #. module: data_merge
 #: model:ir.model.fields,field_description:data_merge.field_data_merge_model__is_contextual_merge_action
 msgid "Merge action attached"
-msgstr ""
+msgstr "Azione unisci allegata"
 
 #. module: data_merge
 #: model:ir.model.fields,field_description:data_merge.field_data_merge_group__res_model_id
@@ -694,4 +704,4 @@ msgstr "fondere con"
 #. module: data_merge
 #: model_terms:ir.ui.view,arch_db:data_merge.data_merge_main
 msgid "merged into this one"
-msgstr ""
+msgstr "unito con questo"

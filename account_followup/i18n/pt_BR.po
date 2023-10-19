@@ -4,6 +4,8 @@
 # 
 # Translators:
 # Martin Trigaux, 2021
+# Kevilyn Rosa, 2023
+# Layna Nascimento, 2023
 # 
 msgid ""
 msgstr ""
@@ -11,13 +13,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Martin Trigaux, 2021\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Last-Translator: Layna Nascimento, 2023\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. module: account_followup
 #: model:account_followup.followup.line,description:account_followup.demo_followup_line3
@@ -236,6 +238,8 @@ msgid ""
 "A follow-up action name must be unique. This name is already set to another "
 "action."
 msgstr ""
+"O nome de uma ação de acompanhamento deve ser único. Esse nome já está "
+"definido para outra ação."
 
 #. module: account_followup
 #: model:ir.model,name:account_followup.model_account_chart_template
@@ -441,7 +445,7 @@ msgstr "Dias em Atraso"
 #: model:ir.model.fields,field_description:account_followup.field_account_report_manager__email_subject
 #: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_followup_line_form
 msgid "Email Subject"
-msgstr ""
+msgstr "Assunto do e-mail"
 
 #. module: account_followup
 #: code:addons/account_followup/models/account_followup_report.py:0
@@ -727,7 +731,7 @@ msgstr "Acompanhamento dos Pagamentos"
 #: code:addons/account_followup/models/account_followup_report.py:0
 #, python-format
 msgid "Payment Reminder"
-msgstr ""
+msgstr "Lembrete de pagamento"
 
 #. module: account_followup
 #: model:ir.actions.report,name:account_followup.action_report_followup
@@ -1037,7 +1041,7 @@ msgstr "ex: Telefonar para o cliente, verificar se foi pago, ..."
 #. module: account_followup
 #: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_followup_line_form
 msgid "e.g. First Reminder Email"
-msgstr ""
+msgstr "ex., primeiro e-mail de lembrete"
 
 #. module: account_followup
 #: code:addons/account_followup/models/account_followup_report.py:0

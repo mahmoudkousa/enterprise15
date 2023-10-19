@@ -141,7 +141,7 @@ class MrpProductionWorkcenterLine(models.Model):
         self.finished_lot_id = self.env['stock.production.lot'].create({
             'product_id': self.product_id.id,
             'company_id': self.company_id.id,
-            'name': self.env['stock.production.lot']._get_next_serial(self.company_id, self.product_id) or self.env['ir.sequence'].next_by_code('stock.lot.serial'),
+            'name': self.env['stock.production.lot']._get_new_serial(self.company_id, self.product_id),
         })
 
     def action_print(self):
@@ -418,10 +418,10 @@ class MrpProductionWorkcenterLine(models.Model):
             workorder.quality_alert_count = len(workorder.quality_alert_ids)
 
     def _create_checks(self):
-        for wo in self:
-            # Track components which have a control point
-            processed_move = self.env['stock.move']
+        # Track components which have a control point
+        processed_move = self.env['stock.move']
 
+        for wo in self:
             production = wo.production_id
 
             move_raw_ids = wo.move_raw_ids.filtered(lambda m: m.state not in ('done', 'cancel'))

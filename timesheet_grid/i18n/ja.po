@@ -228,7 +228,7 @@ msgstr "金額"
 #: code:addons/timesheet_grid/models/analytic.py:0
 #, python-format
 msgid "An employee must be linked to your user to record time."
-msgstr ""
+msgstr "時間を記録するには、従業員がユーザとリンクされている必要があります。"
 
 #. module: timesheet_grid
 #: model:ir.model,name:timesheet_grid.model_account_analytic_line
@@ -284,7 +284,7 @@ msgstr ""
 #. module: timesheet_grid
 #: model:ir.model,name:timesheet_grid.model_project_task_create_timesheet
 msgid "Create Timesheet from task"
-msgstr ""
+msgstr "タスクからタイムシートを作成"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_hr_timesheet_merge_wizard__create_uid
@@ -304,7 +304,7 @@ msgstr "日付"
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.project_task_view_gantt_timesheet
 msgid "Days Spent —"
-msgstr ""
+msgstr "消費日数 —"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_res_config_settings__reminder_manager_delay
@@ -698,7 +698,7 @@ msgstr "リマインダ - タイムシートを記録しましょう"
 #. module: timesheet_grid
 #: model:mail.template,subject:timesheet_grid.mail_template_timesheet_reminder_manager
 msgid "Reminder to validate your team's timesheets"
-msgstr ""
+msgstr "チームのタイムシート検証のリマインダ"
 
 #. module: timesheet_grid
 #: model:ir.actions.server,name:timesheet_grid.invalidate_timesheet_action
@@ -762,6 +762,8 @@ msgid ""
 "Select the user responsible for approving \"Timesheet\" of this employee.\n"
 "If empty, the approval is done by a Timesheets > Administrator or a Timesheets > User: all timesheets (as determined in the users settings)."
 msgstr ""
+"この従業員の「休暇」の承認を担当するユーザを選択します。\n"
+"空の場合、承認は管理者またはタイムシート＞管理者またはタイムシート＞ユーザ：全てのタイムシート（ユーザ設定で決定）が行います。"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,help:timesheet_grid.field_account_analytic_line__is_timesheet
@@ -842,13 +844,13 @@ msgstr ""
 #: code:addons/timesheet_grid/models/analytic.py:0
 #, python-format
 msgid "The timesheets have successfully been reset to draft."
-msgstr ""
+msgstr "タイムシートが正常にドラフトにリセットされました。"
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0
 #, python-format
 msgid "The timesheets have successfully been validated."
-msgstr ""
+msgstr "タイムシートが正常に検証されました。"
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0
@@ -903,7 +905,7 @@ msgstr "タイムシート承認者"
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__duration_unit_amount
 msgid "Timesheet Init Amount"
-msgstr ""
+msgstr "タイムシート開始金額"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__is_timesheet
@@ -913,7 +915,7 @@ msgstr "勤務表の行"
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__unit_amount_validate
 msgid "Timesheet Unit Time"
-msgstr ""
+msgstr "タイムシート単位時間"
 
 #. module: timesheet_grid
 #: model:ir.actions.server,name:timesheet_grid.timesheet_reminder_user_ir_actions_server
@@ -986,7 +988,7 @@ msgstr "未定義"
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__user_can_validate
 msgid "User Can Validate"
-msgstr ""
+msgstr "ユーザが検証可"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_res_config_settings__reminder_user_interval
@@ -1027,7 +1029,7 @@ msgstr "検証済"
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__validated_status
 msgid "Validated Status"
-msgstr ""
+msgstr "検証済ステータス"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__validated
@@ -1056,7 +1058,7 @@ msgstr "週"
 #: model:ir.model.fields,help:timesheet_grid.field_account_analytic_line__user_can_validate
 msgid ""
 "Whether or not the current user can validate/reset to draft the record."
-msgstr ""
+msgstr "現在のユーザがそのレコードを検証/ドラフトにリセットできるかどうか。"
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0
@@ -1064,7 +1066,7 @@ msgstr ""
 msgid ""
 "You can only reset to draft the timesheets of employees of whom you are the "
 "manager or the timesheet approver."
-msgstr ""
+msgstr "タイムシートの下書きをリセットできるのは、あなたが管理者またはタイムシート承認者である従業員のみです。"
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0
@@ -1073,7 +1075,7 @@ msgstr ""
 msgid ""
 "You can only validate the timesheets of employees of whom you are the "
 "manager or the timesheet approver."
-msgstr ""
+msgstr "あなたが管理者またはタイムシート承認者である従業員のタイムシートのみ検証できます。"
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0
@@ -1087,7 +1089,7 @@ msgstr "自分のものではないタイムシートにアクセスすること
 msgid ""
 "You cannot delete a validated entry. Please, contact your manager or your "
 "timesheet approver."
-msgstr ""
+msgstr "有効なエントリを削除することはできません。マネジャーまたはタイムシート承認者に連絡してください。"
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/project.py:0
@@ -1095,7 +1097,7 @@ msgstr ""
 msgid ""
 "You cannot start the timer for a project in a company encoding its "
 "timesheets in days."
-msgstr ""
+msgstr "タイムシートを日単位でエンコードしている会社では、プロジェクトのタイマーを開始することはできません。"
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0
@@ -1105,7 +1107,7 @@ msgstr ""
 #: code:addons/timesheet_grid/models/analytic.py:0
 #, python-format
 msgid "You cannot use the timer on validated timesheets."
-msgstr ""
+msgstr "検証済タイムシートでタイマーを使用することはできません。"
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0

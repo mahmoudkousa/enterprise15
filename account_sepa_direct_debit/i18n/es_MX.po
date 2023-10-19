@@ -5,8 +5,9 @@
 # Translators:
 # Martin Trigaux, 2021
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2021
-# Lucia Pacheco <lpo@odoo.com>, 2021
-# Braulio D. López Vázquez <bdl@odoo.com>, 2022
+# Lucia Pacheco, 2021
+# Braulio D. López Vázquez <bdl@odoo.com>, 2023
+# Iran Villalobos López, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Braulio D. López Vázquez <bdl@odoo.com>, 2022\n"
-"Language-Team: Spanish (Mexico) (https://www.transifex.com/odoo/teams/41243/es_MX/)\n"
+"Last-Translator: Iran Villalobos López, 2023\n"
+"Language-Team: Spanish (Mexico) (https://app.transifex.com/odoo/teams/41243/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -525,12 +526,12 @@ msgstr "Diario"
 #. module: account_sepa_direct_debit
 #: model:ir.model,name:account_sepa_direct_debit.model_account_move
 msgid "Journal Entry"
-msgstr "Asiento de diario"
+msgstr "Asiento contable"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model,name:account_sepa_direct_debit.model_account_move_line
 msgid "Journal Item"
-msgstr "Apunte de diario"
+msgstr "Apunte contable"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate__payment_journal_id
@@ -1051,7 +1052,7 @@ msgid ""
 "- 'closed' designates a mandate that has been marked as not to use anymore without invalidating the previous transactions done with it.- 'revoked' means the mandate has been signaled as fraudulent by the customer. It cannot be used anymore, and should not ever have been. You will probably need to refund the related invoices, if any.\n"
 msgstr ""
 "El estado en el que se encuentra este mandato. \n"
-"- \"borrador\" significa que el mandato aún necesitar confirmarse antes de poder utilizarse. \n"
+"- \"borrador\" significa que el mandato aún necesita confirmarse antes de poder utilizarse. \n"
 "- \"activo\" significa que este mandato puede utilizarse para pagar facturas. \n"
 "- \"cerrado\" designa un mandato que ha sido marcado para ya no ser utilizado porque invalida las transacciones previas hechas con él.- \"revocado\" significa que el cliente ha señalado el mandato como fraudulento. Ya no puede utilizarse, y no debe usarse nunca. Probablemente deberá reembolsar las facturas relacionadas, si las hay.\n"
 

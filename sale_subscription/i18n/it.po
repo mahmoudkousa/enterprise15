@@ -1955,22 +1955,22 @@ msgstr "Movimento contabile"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__kpi_1month_mrr_delta
 msgid "KPI 1 Month MRR Delta"
-msgstr ""
+msgstr "KPI 1 mese MRR Delta"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__kpi_1month_mrr_percentage
 msgid "KPI 1 Month MRR Percentage"
-msgstr ""
+msgstr "KPI 1 mese MRR percentuale"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__kpi_3months_mrr_percentage
 msgid "KPI 3 Months MRR Percentage"
-msgstr ""
+msgstr "KPI 3 mesi MRR percentuale"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__kpi_3months_mrr_delta
 msgid "KPI 3 months MRR Delta"
-msgstr ""
+msgstr "KPI 3 mesi MRR Delta"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_keep_option__renew_product
@@ -3216,7 +3216,7 @@ msgstr "Registro abbonamenti"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__subscription_log_ids
 msgid "Subscription Logs"
-msgstr ""
+msgstr "Registri abbonamenti"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_order__subscription_management
@@ -3320,7 +3320,7 @@ msgstr "L'abbonamento è scaduto"
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_log__category
 msgid "Subscription stage category when the change occurred"
-msgstr ""
+msgstr "Categoria fase di abbonamento quando si verifica la variazione"
 
 #. module: sale_subscription
 #: model:mail.message.subtype,description:sale_subscription.subtype_stage_change
@@ -3690,6 +3690,9 @@ msgid ""
 "This will trigger the action on all linked subscriptions, regardless of "
 "possible timed conditions. Are you sure you want to proceed?"
 msgstr ""
+"In questo modo si attiverà l'azione su tutti gli abbonamenti collegati, "
+"indipendentemente da eventuali condizioni temporali. Siete sicuri di voler "
+"procedere?"
 
 #. module: sale_subscription
 #: model:uom.category,name:sale_subscription.uom_categ_time

@@ -10,6 +10,7 @@ from .common import TestL10nClEdiCommon, _check_with_xsd_patch
 
 @tagged('post_install_l10n', 'post_install', '-at_install')
 @patch('odoo.tools.xml_utils._check_with_xsd', _check_with_xsd_patch)
+@tagged('post_install', '-at_install')
 class TestL10nClDte(TestL10nClEdiCommon):
     """
     Summary of the document types to test:
@@ -273,6 +274,58 @@ class TestL10nClDte(TestL10nClEdiCommon):
         )
 
     @patch('odoo.addons.l10n_cl_edi.models.l10n_cl_edi_util.L10nClEdiUtilMixin._get_cl_current_strftime')
+    def test_l10n_cl_dte_33_usd_with_discounts(self, get_cl_current_strftime):
+        get_cl_current_strftime.return_value = '2022-11-25T12:45:37'
+
+        self.tax_19 = self.env['account.tax'].search([
+            ('name', '=', 'IVA 19% Venta'),
+            ('company_id', '=', self.company_data['company'].id)])
+        currency_usd = self.env.ref('base.USD')
+        currency_usd.active = True
+        self.env['res.currency.rate'].create({
+            'name': '2022-11-24',
+            'company_id': self.company_data['company'].id,
+            'currency_id': currency_usd.id,
+            'rate': 0.001069187097})
+        invoice = self.env['account.move'].with_context(default_move_type='out_invoice').create({
+            'partner_id': self.partner_sii.id,
+            'move_type': 'out_invoice',
+            'invoice_date': '2022-11-24',
+            'currency_id': self.env.ref('base.USD').id,
+            'journal_id': self.sale_journal.id,
+            'l10n_latam_document_type_id': self.env.ref('l10n_cl.dc_a_f_dte').id,
+            'company_id': self.company_data['company'].id,
+            'invoice_line_ids': [(0, 0, {
+                'name': 'Tapa Ranurada UL FM 300 6"',
+                'product_id': self.product_a.id,
+                'product_uom_id': self.product_a.uom_id.id,
+                'quantity': 2,
+                'price_unit': 123.45,
+                'discount': 10,
+                'tax_ids': [self.tax_19.id],
+            }), (0, 0, {
+                'name': 'Copla Flexible 1NS 6"',
+                'product_id': self.product_a.id,
+                'product_uom_id': self.product_a.uom_id.id,
+                'quantity': 1,
+                'price_unit': 12.31,
+                'discount': 5,
+                'tax_ids': [self.tax_19.id],
+            })],
+        })
+
+        invoice.action_post()
+
+        self.assertEqual(invoice.state, 'posted')
+        self.assertEqual(invoice.l10n_cl_dte_status, 'not_sent')
+
+        xml_expected_dte = misc.file_open('l10n_cl_edi/tests/expected_dtes/dte_33_usd_with_discounts.xml').read()
+        self.assertXmlTreeEqual(
+            self.get_xml_tree_from_attachment(invoice.l10n_cl_sii_send_file),
+            self.get_xml_tree_from_string(xml_expected_dte.encode()),
+        )
+
+    @patch('odoo.addons.l10n_cl_edi.models.l10n_cl_edi_util.L10nClEdiUtilMixin._get_cl_current_strftime')
     def test_l10n_cl_dte_34(self, get_cl_current_strftime):
         get_cl_current_strftime.return_value = '2019-10-22T20:23:27'
 
@@ -437,7 +490,7 @@ class TestL10nClDte(TestL10nClEdiCommon):
             'name': '2019-10-22',
             'company_id': self.company_data['company'].id,
             'currency_id': currency_usd.id,
-            'rate': 0.0013})
+            'rate': 1/769.23})
         invoice = self.env['account.move'].with_context(default_move_type='out_invoice').create({
             'partner_id': foreign_partner,
             'move_type': 'out_invoice',

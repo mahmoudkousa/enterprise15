@@ -1328,7 +1328,7 @@ msgstr ""
 #. module: hr_payroll
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_work_entry_type__round_days__half
 msgid "Half Day"
-msgstr ""
+msgstr "Puse dienas"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__has_message
@@ -3382,6 +3382,14 @@ msgstr ""
 #: code:addons/hr_payroll/models/hr_payslip.py:0
 #, python-format
 msgid "You can't validate a cancelled payslip."
+msgstr ""
+
+#. module: hr_payroll
+#: code:addons/hr_payroll/models/hr_payslip_input_type.py:0
+#, python-format
+msgid ""
+"You cannot delete %s as it is used in another module but you can archive it "
+"instead."
 msgstr ""
 
 #. module: hr_payroll

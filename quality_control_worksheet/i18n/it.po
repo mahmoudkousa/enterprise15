@@ -5,6 +5,8 @@
 # Translators:
 # Martin Trigaux, 2021
 # Niccolò Lubello <nlubello@gmail.com>, 2021
+# Stefano Consolaro <stefano.consolaro@mymage.it>, 2023
+# Marianna Ciofani, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,28 +14,28 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:01+0000\n"
 "PO-Revision-Date: 2021-09-14 12:42+0000\n"
-"Last-Translator: Niccolò Lubello <nlubello@gmail.com>, 2021\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Last-Translator: Marianna Ciofani, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. module: quality_control_worksheet
 #: model_terms:ir.ui.view,arch_db:quality_control_worksheet.quality_check_view_form_inherit_worksheet
 msgid "Check Worksheet"
-msgstr ""
+msgstr "Controllo foglio di lavoro"
 
 #. module: quality_control_worksheet
 #: model_terms:ir.ui.view,arch_db:quality_control_worksheet.quality_check_view_form_failure_worksheet
 msgid "Confirm Worksheet"
-msgstr ""
+msgstr "Conferma foglio di lavoro"
 
 #. module: quality_control_worksheet
 #: model_terms:ir.ui.view,arch_db:quality_control_worksheet.quality_check_view_form_failure_worksheet
 msgid "Correct Worksheet"
-msgstr ""
+msgstr "Correggi foglio di lavoro"
 
 #. module: quality_control_worksheet
 #: model:ir.model.fields,field_description:quality_control_worksheet.quality_control_worksheet_template_field1
@@ -56,7 +58,7 @@ msgstr "Nome modello"
 #: code:addons/quality_control_worksheet/models/quality.py:0
 #, python-format
 msgid "Please fill in the worksheet."
-msgstr ""
+msgstr "Compilare il foglio di lavoro."
 
 #. module: quality_control_worksheet
 #: model:ir.model.fields,field_description:quality_control_worksheet.quality_control_worksheet_template_field2
@@ -84,24 +86,24 @@ msgstr "Punto controllo qualità"
 #. module: quality_control_worksheet
 #: model:ir.model,name:quality_control_worksheet.model_x_custom_worksheet_x_quality_check_worksheet_template_1
 msgid "Quality Issues"
-msgstr ""
+msgstr "Segnalazione di qualità"
 
 #. module: quality_control_worksheet
 #: model:ir.model.fields,field_description:quality_control_worksheet.field_quality_check__worksheet_template_id
 #: model:ir.model.fields,field_description:quality_control_worksheet.field_quality_check_wizard__worksheet_template_id
 msgid "Quality Template"
-msgstr ""
+msgstr "Modello qualità"
 
 #. module: quality_control_worksheet
 #: model:ir.model,name:quality_control_worksheet.model_report_quality_control_quality_worksheet
 msgid "Quality Worksheet Report"
-msgstr ""
+msgstr "Resoconto foglio di lavoro qualità"
 
 #. module: quality_control_worksheet
 #: model:ir.actions.act_window,name:quality_control_worksheet.quality_control_worksheet_template_action_settings
 #: model:ir.ui.menu,name:quality_control_worksheet.settings_worksheet_template
 msgid "Quality Worksheet Templates"
-msgstr ""
+msgstr "Modelli foglio di lavoro qualità"
 
 #. module: quality_control_worksheet
 #: model:ir.model.fields,field_description:quality_control_worksheet.quality_control_worksheet_template_field3
@@ -112,7 +114,7 @@ msgstr "Responsabile"
 #. module: quality_control_worksheet
 #: model:ir.model.fields,field_description:quality_control_worksheet.field_quality_point__worksheet_success_conditions
 msgid "Success Conditions"
-msgstr ""
+msgstr "Condizioni di successo"
 
 #. module: quality_control_worksheet
 #: model:ir.model.fields,field_description:quality_control_worksheet.field_quality_point__worksheet_template_id
@@ -122,13 +124,13 @@ msgstr "Modello"
 #. module: quality_control_worksheet
 #: model:ir.model,name:quality_control_worksheet.model_quality_check_wizard
 msgid "Wizard for Quality Check Pop Up"
-msgstr ""
+msgstr "Procedura guidata per la finestra automatica del controllo qualità"
 
 #. module: quality_control_worksheet
 #: model:ir.model.fields,field_description:quality_control_worksheet.quality_control_worksheet_template_field4
 #: model_terms:ir.ui.view,arch_db:quality_control_worksheet.report_custom_x_quality_check_worksheet_template_1
 msgid "Wood Texture"
-msgstr ""
+msgstr "Aspetto legno"
 
 #. module: quality_control_worksheet
 #: model_terms:ir.ui.view,arch_db:quality_control_worksheet.quality_check_view_form_inherit_worksheet

@@ -178,8 +178,7 @@ msgstr "Plan de gel des commissions"
 #. module: partner_commission
 #: model_terms:ir.ui.view,arch_db:partner_commission.res_config_settings_view_form
 msgid "Frequency at which purchase orders will be automatically confirmed"
-msgstr ""
-"Fréquence à laquelle les bons de commandes seront automatiquement confirmés"
+msgstr "Fréquence à laquelle les commandes seront automatiquement confirmées"
 
 #. module: partner_commission
 #: model:ir.model.fields,field_description:partner_commission.field_commission_plan__id

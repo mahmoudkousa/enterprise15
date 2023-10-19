@@ -13,6 +13,7 @@
 # Pedro Castro Silva <pedrocs@exo.pt>, 2021
 # Reinaldo Ramos <reinaldo.ramos@arxi.pt>, 2021
 # Nuno Silva <nuno.silva@arxi.pt>, 2022
+# Mónica Pinheiro, 2023
 # Manuela Silva <mmsrs@sky.com>, 2023
 # 
 msgid ""
@@ -22,7 +23,7 @@ msgstr ""
 "POT-Creation-Date: 2021-11-16 16:42+0000\n"
 "PO-Revision-Date: 2021-09-14 12:44+0000\n"
 "Last-Translator: Manuela Silva <mmsrs@sky.com>, 2023\n"
-"Language-Team: Portuguese (https://www.transifex.com/odoo/teams/41243/pt/)\n"
+"Language-Team: Portuguese (https://app.transifex.com/odoo/teams/41243/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -906,7 +907,7 @@ msgstr ""
 #: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
 #, python-format
 msgid "Columns"
-msgstr ""
+msgstr "Colunas"
 
 #. module: web_studio
 #. openerp-web
@@ -2998,7 +2999,7 @@ msgstr ""
 #. module: web_studio
 #: model:ir.model,name:web_studio.model_ir_qweb
 msgid "Qweb"
-msgstr ""
+msgstr "Qweb"
 
 #. module: web_studio
 #. openerp-web
@@ -3642,6 +3643,13 @@ msgstr ""
 #: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
 #, python-format
 msgid "Subtotal & Total"
+msgstr ""
+
+#. module: web_studio
+#. openerp-web
+#: code:addons/web_studio/static/src/legacy/js/reports/sidebar_components/report_building_blocks.js:0
+#, python-format
+msgid "Subtotal & Total can only be used in these models: "
 msgstr ""
 
 #. module: web_studio
@@ -4301,6 +4309,12 @@ msgstr ""
 #. module: web_studio
 #. openerp-web
 #: code:addons/web_studio/static/src/legacy/js/common/new_field_dialog.js:0
+#, python-format
+msgid "You must have at least one option set"
+msgstr ""
+
+#. module: web_studio
+#. openerp-web
 #: code:addons/web_studio/static/src/legacy/js/common/new_field_dialog.js:0
 #, python-format
 msgid "You must select a related field"

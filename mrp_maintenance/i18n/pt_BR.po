@@ -38,7 +38,7 @@ msgstr "Calculado como última data de falha MTBF"
 #. module: mrp_maintenance
 #: model:maintenance.equipment,name:mrp_maintenance.equipment_furniture1
 msgid "Crosscut Saw: 8 ppi."
-msgstr ""
+msgstr "Serra de corte transversal: 8 ppi."
 
 #. module: mrp_maintenance
 #: model_terms:ir.ui.view,arch_db:mrp_maintenance.maintenance_request_view_form_inherit_mrp
@@ -48,7 +48,7 @@ msgstr "Descartar"
 #. module: mrp_maintenance
 #: model:maintenance.equipment,name:mrp_maintenance.equipment_furniture3
 msgid "Drill Machine"
-msgstr ""
+msgstr "Máquina de perfuração"
 
 #. module: mrp_maintenance
 #: model_terms:ir.ui.view,arch_db:mrp_maintenance.mrp_workcenter_view_form_inherit_maintenance
@@ -89,7 +89,7 @@ msgstr "Tempo médio esperado entre falhas"
 #. module: mrp_maintenance
 #: model:maintenance.equipment.category,name:mrp_maintenance.equipment_furniture_tools
 msgid "Furniture Tools"
-msgstr ""
+msgstr "Ferramentas para móveis"
 
 #. module: mrp_maintenance
 #: model_terms:ir.ui.view,arch_db:mrp_maintenance.maintenance_equipment_view_form_inherit_mrp
@@ -188,7 +188,7 @@ msgstr "Operação"
 #. module: mrp_maintenance
 #: model:ir.model.fields,field_description:mrp_maintenance.field_maintenance_request__production_company_id
 msgid "Production Company"
-msgstr ""
+msgstr "Empresa de produção"
 
 #. module: mrp_maintenance
 #: model:ir.model,name:mrp_maintenance.model_mrp_production
@@ -208,7 +208,7 @@ msgstr "Salvar"
 #. module: mrp_maintenance
 #: model:maintenance.equipment,name:mrp_maintenance.equipment_furniture2
 msgid "Scrub Plane"
-msgstr ""
+msgstr "Plano de limpeza"
 
 #. module: mrp_maintenance
 #: model:ir.model,name:mrp_maintenance.model_mrp_workcenter

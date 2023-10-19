@@ -473,7 +473,7 @@ class AccountGenericTaxReport(models.AbstractModel):
                     AND src_tax.type_tax_use IN ('sale', 'purchase')
                 JOIN account_account account ON account.id = tdr.base_account_id
                 WHERE tdr.tax_exigible
-                GROUP BY tdr.tax_repartition_line_id, trl.refund_tax_id, {groupby_query_str}
+                GROUP BY tdr.tax_repartition_line_id, trl.refund_tax_id, tdr.is_rounding_line, {groupby_query_str}
                 ORDER BY src_tax.sequence, src_tax.id, tax.sequence, tax.id
             ''', tax_details_params)
 

@@ -12,6 +12,7 @@
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2021
 # Odoo Thaidev <odoothaidev@gmail.com>, 2021
 # Wichanon Jamwutthipreecha, 2022
+# Rasareeyar Lappiam, 2023
 # 
 msgid ""
 msgstr ""
@@ -19,8 +20,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 08:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:39+0000\n"
-"Last-Translator: Wichanon Jamwutthipreecha, 2022\n"
-"Language-Team: Thai (https://www.transifex.com/odoo/teams/41243/th/)\n"
+"Last-Translator: Rasareeyar Lappiam, 2023\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -65,6 +66,14 @@ msgstr ""
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.public_page_layout
 msgid ", expired on"
+msgstr ""
+
+#. module: documents
+#: model_terms:digest.tip,tip_description:documents.digest_tip_documents_0
+msgid ""
+". Scanned files will appear automatically in your workspace. Then, process "
+"your documents in bulk with the split tool: launch user defined actions, "
+"request a signature, convert to vendor bills with AI, etc."
 msgstr ""
 
 #. module: documents
@@ -547,20 +556,17 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:documents.digest_tip_documents_0
 msgid ""
 "An easy way to process incoming mails is to configure your scanner to send "
-"PDFs to your workspace email. Scanned files will appear automatically in "
-"your workspace. Then, process your documents in bulk with the split tool: "
-"launch user defined actions, request a signature, convert to vendor bills "
-"with AI, etc."
+"PDFs to"
 msgstr ""
 
 #. module: documents
 #: model_terms:digest.tip,tip_description:documents.digest_tip_documents_0
 msgid ""
 "An easy way to process incoming mails is to configure your scanner to send "
-"PDFs to {{ record.alias_id.display_name }}. Scanned files will appear "
-"automatically in your workspace. Then, process your documents in bulk with "
-"the split tool: launch user defined actions, request a signature, convert to"
-" vendor bills with AI, etc."
+"PDFs to your workspace email. Scanned files will appear automatically in "
+"your workspace. Then, process your documents in bulk with the split tool: "
+"launch user defined actions, request a signature, convert to vendor bills "
+"with AI, etc."
 msgstr ""
 
 #. module: documents
@@ -1164,7 +1170,7 @@ msgstr ""
 #. module: documents
 #: model:documents.folder,name:documents.documents_finance_folder
 msgid "Finance"
-msgstr ""
+msgstr "การเงิน"
 
 #. module: documents
 #: model:documents.tag,name:documents.documents_finance_documents_financial
@@ -2088,7 +2094,7 @@ msgstr "แบ่งปัน"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_folder__share_link_ids
 msgid "Share Links"
-msgstr ""
+msgstr "แชร์ลิงค์"
 
 #. module: documents
 #: code:addons/documents/models/share.py:0
@@ -2374,7 +2380,7 @@ msgstr "เพื่อตรวจสอบ"
 #. module: documents
 #: model:mail.activity.type,name:documents.mail_documents_activity_data_tv
 msgid "To validate"
-msgstr ""
+msgstr "เพื่อตรวจสอบ"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_facet__tooltip

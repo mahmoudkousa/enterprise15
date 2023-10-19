@@ -1,6 +1,7 @@
 /** @odoo-module */
 
 import { _t } from "web.core";
+import { sprintf } from "@web/core/utils/strings";
 import spreadsheet from "documents_spreadsheet.spreadsheet";
 import {
     getFirstListFunction,
@@ -32,6 +33,9 @@ export default class ListAutofillPlugin extends spreadsheet.UIPlugin {
             .map(astToFormula)
             .map((arg) => this.getters.evaluateFormula(arg));
         const listId = evaluatedArgs[0];
+        if (!this.getters.isExistingList(listId)) {
+            return formula;
+        }
         const columns = this.getters.getListColumns(listId);
         if (functionName === "LIST") {
             const position = parseInt(evaluatedArgs[1], 10);
@@ -90,9 +94,14 @@ export default class ListAutofillPlugin extends spreadsheet.UIPlugin {
         const evaluatedArgs = args
             .map(astToFormula)
             .map((arg) => this.getters.evaluateFormula(arg));
+        const listId = evaluatedArgs[0];
+        if (!this.getters.isExistingList(listId)) {
+            return sprintf(_t("Missing list #%s"), listId);
+        }
+
         if (isColumn || functionName === "LIST.HEADER") {
             const fieldName = functionName === "LIST" ? evaluatedArgs[2] : evaluatedArgs[1];
-            return this.getters.getListFieldName(evaluatedArgs[0], fieldName);
+            return this.getters.getListFieldName(listId, fieldName);
         }
         return _t("Record #") + evaluatedArgs[1];
     }

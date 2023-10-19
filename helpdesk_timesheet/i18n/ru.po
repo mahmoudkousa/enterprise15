@@ -8,6 +8,7 @@
 # ILMIR <karamov@it-projects.info>, 2021
 # Irina Fedulova <istartlin@gmail.com>, 2021
 # Сергей Шебанин <sergey@shebanin.ru>, 2022
+# alenafairy, 2023
 # 
 msgid ""
 msgstr ""
@@ -15,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 11:17+0000\n"
 "PO-Revision-Date: 2021-09-14 12:39+0000\n"
-"Last-Translator: Сергей Шебанин <sergey@shebanin.ru>, 2022\n"
-"Language-Team: Russian (https://www.transifex.com/odoo/teams/41243/ru/)\n"
+"Last-Translator: alenafairy, 2023\n"
+"Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -31,7 +32,7 @@ msgstr "количество заявок"
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_team_view_form_inherit_helpdesk_timesheet
 msgid "<span class=\"o_stat_text\">Recorded</span>"
-msgstr ""
+msgstr "Зарегистрировано"
 
 #. module: helpdesk_timesheet
 #: code:addons/helpdesk_timesheet/models/analytic.py:0
@@ -54,12 +55,12 @@ msgstr "Закрыт"
 #: code:addons/helpdesk_timesheet/models/helpdesk.py:0
 #, python-format
 msgid "Confirm Time Spent"
-msgstr ""
+msgstr "Подтвердить затраченное время"
 
 #. module: helpdesk_timesheet
 #: model:ir.model,name:helpdesk_timesheet.model_helpdesk_ticket_create_timesheet
 msgid "Create Timesheet from ticket"
-msgstr ""
+msgstr "Создать табель из заявки"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket_create_timesheet__create_uid
@@ -74,7 +75,7 @@ msgstr "Создан"
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
 msgid "Days Spent"
-msgstr ""
+msgstr "Дней затрачено"
 
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_create_timesheet_view_form
@@ -84,7 +85,7 @@ msgstr "Удалить"
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_create_timesheet_view_form
 msgid "Describe your activity..."
-msgstr ""
+msgstr "Опишите работу"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket_create_timesheet__description
@@ -110,37 +111,37 @@ msgstr "Отображаемое имя"
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__display_timer
 msgid "Display Timer"
-msgstr ""
+msgstr "Показать таймер"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__display_timer_pause
 msgid "Display Timer Pause"
-msgstr ""
+msgstr "Показать паузу таймера"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__display_timer_resume
 msgid "Display Timer Resume"
-msgstr ""
+msgstr "Показать запуск таймера"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__display_timer_start_primary
 msgid "Display Timer Start Primary"
-msgstr ""
+msgstr "Показать первичный запуск таймера"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__display_timer_start_secondary
 msgid "Display Timer Start Secondary"
-msgstr ""
+msgstr "Показать вторичный запуск таймера"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__display_timer_stop
 msgid "Display Timer Stop"
-msgstr ""
+msgstr "Показать остановку таймера"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__display_timesheet_timer
 msgid "Display Timesheet Time"
-msgstr ""
+msgstr "Показывать время в табеле"
 
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_create_timesheet_view_form
@@ -151,12 +152,12 @@ msgstr "Длительность"
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__encode_uom_in_days
 msgid "Encode Uom In Days"
-msgstr ""
+msgstr "Рассчитывать в днях"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_project_project__has_helpdesk_team
 msgid "Has Helpdesk Teams"
-msgstr ""
+msgstr "Имеет команды службы поддержки"
 
 #. module: helpdesk_timesheet
 #: model:ir.model,name:helpdesk_timesheet.model_helpdesk_team
@@ -190,7 +191,7 @@ msgstr "В работе"
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__is_timer_running
 msgid "Is Timer Running"
-msgstr ""
+msgstr "Таймер включен"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket_create_timesheet____last_update
@@ -210,14 +211,14 @@ msgstr "Последнее обновление"
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.rating_rating_view_search_inherit_helpdesk_timesheet
 msgid "My Team's Ratings"
-msgstr ""
+msgstr "Рейтинги моей команды"
 
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_sla_report_analysis_view_search_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_report_analysis_view_search_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_search_inherit_helpdesk_timesheet
 msgid "My Team's Tickets"
-msgstr ""
+msgstr "Задачи моей команды"
 
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
@@ -227,7 +228,7 @@ msgstr "Приостановить"
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
 msgid "Pause timer"
-msgstr ""
+msgstr "Приостановить таймер"
 
 #. module: helpdesk_timesheet
 #: model:ir.model,name:helpdesk_timesheet.model_project_project
@@ -261,7 +262,7 @@ msgstr "Возобновить"
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
 msgid "Resume timer"
-msgstr ""
+msgstr "Возобновить таймер"
 
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_create_timesheet_view_form
@@ -271,7 +272,7 @@ msgstr "Сохранить"
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_create_timesheet_view_form
 msgid "Save time"
-msgstr ""
+msgstr "Сохранить время"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__total_hours_spent
@@ -286,7 +287,7 @@ msgstr "Начало"
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
 msgid "Start timer"
-msgstr ""
+msgstr "Включить таймер"
 
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
@@ -301,7 +302,7 @@ msgstr "Остановить таймер"
 #. module: helpdesk_timesheet
 #: model:ir.model.constraint,message:helpdesk_timesheet.constraint_helpdesk_ticket_create_timesheet_time_positive
 msgid "The timesheet's time must be positive"
-msgstr ""
+msgstr "Время в табеле учета должно быть положительным"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,help:helpdesk_timesheet.field_helpdesk_ticket__use_helpdesk_timesheet
@@ -334,7 +335,7 @@ msgstr "Анализ запросов"
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,help:helpdesk_timesheet.field_helpdesk_ticket_create_timesheet__ticket_id
 msgid "Ticket for which we are creating a sales order"
-msgstr ""
+msgstr "Заявка для которой мы создаем заказ на продажу"
 
 #. module: helpdesk_timesheet
 #: code:addons/helpdesk_timesheet/models/project.py:0
@@ -353,12 +354,12 @@ msgstr "Время"
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__timer_pause
 msgid "Timer Last Pause"
-msgstr ""
+msgstr "Последняя остановка таймера"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__timer_start
 msgid "Timer Start"
-msgstr ""
+msgstr "Начало таймера"
 
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
@@ -385,7 +386,7 @@ msgstr "Табели"
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_team__total_timesheet_time
 msgid "Total Timesheet Time"
-msgstr ""
+msgstr "Общее время по табелю"
 
 #. module: helpdesk_timesheet
 #: model_terms:ir.actions.act_window,help:helpdesk_timesheet.act_hr_timesheet_line_helpdesk
@@ -393,8 +394,10 @@ msgid ""
 "Track your working hours by projects every day and invoice this time to your"
 " customers."
 msgstr ""
+"Отслеживайте рабочее время по проектам каждый день и выставляйте счета за "
+"это время своим клиентам."
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__user_timer_id
 msgid "User Timer"
-msgstr ""
+msgstr "Таймер пользователя"

@@ -59,7 +59,8 @@ tour.register('account_reports_widgets', {
         },
         {
             content: "wait refresh",
-            trigger: ".o_account_reports_level2:last() .o_account_report_column_value:contains(0.00)"
+            trigger: ".o_account_reports_header_hierarchy th:last():contains('2019')",
+            run: function(){},
         },
         {
             content: "change comparison filter",

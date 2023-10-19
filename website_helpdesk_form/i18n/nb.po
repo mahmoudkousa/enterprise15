@@ -3,9 +3,9 @@
 # 	* website_helpdesk_form
 # 
 # Translators:
-# Marius Stedjan <marius@stedjan.com>, 2022
-# Martin Trigaux, 2022
 # Henning Fyllingsnes, 2022
+# Marius Stedjan <marius@stedjan.com>, 2023
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:56+0000\n"
 "PO-Revision-Date: 2021-09-14 12:44+0000\n"
-"Last-Translator: Henning Fyllingsnes, 2022\n"
-"Language-Team: Norwegian Bokmål (https://www.transifex.com/odoo/teams/41243/nb/)\n"
+"Last-Translator: Martin Trigaux, 2023\n"
+"Language-Team: Norwegian Bokmål (https://app.transifex.com/odoo/teams/41243/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -66,6 +66,13 @@ msgid ""
 msgstr ""
 
 #. module: website_helpdesk_form
+#. openerp-web
+#: code:addons/website_helpdesk_form/static/src/js/website_helpdesk_form_editor.js:0
+#, python-format
+msgid "Description"
+msgstr "Beskrivelse"
+
+#. module: website_helpdesk_form
 #: model:ir.model.fields,field_description:website_helpdesk_form.field_helpdesk_team__website_form_view_id
 msgid "Form"
 msgstr "Skjema"
@@ -77,6 +84,13 @@ msgstr "Skjema"
 #, python-format
 msgid "Helpdesk Team"
 msgstr "Kundestøtteteam"
+
+#. module: website_helpdesk_form
+#. openerp-web
+#: code:addons/website_helpdesk_form/static/src/js/website_helpdesk_form_editor.js:0
+#, python-format
+msgid "Subject"
+msgstr "Emne"
 
 #. module: website_helpdesk_form
 #: model_terms:ir.ui.view,arch_db:website_helpdesk_form.ticket_submit_form
@@ -95,9 +109,18 @@ msgid "Thank you for submitting your issue, our team will get right on it!"
 msgstr "Takk for a du registrerte saken din, teamet vårt skal ta seg av den!"
 
 #. module: website_helpdesk_form
-#: model:ir.model.fields,field_description:website_helpdesk_form.field_helpdesk_team__feature_form_url
-msgid "URL to Submit Issue"
-msgstr "URL for å registrere sak"
+#. openerp-web
+#: code:addons/website_helpdesk_form/static/src/js/website_helpdesk_form_editor.js:0
+#, python-format
+msgid "Your Email"
+msgstr "E-postadressen din"
+
+#. module: website_helpdesk_form
+#. openerp-web
+#: code:addons/website_helpdesk_form/static/src/js/website_helpdesk_form_editor.js:0
+#, python-format
+msgid "Your Name"
+msgstr "Navn"
 
 #. module: website_helpdesk_form
 #: model_terms:ir.ui.view,arch_db:website_helpdesk_form.ticket_submited

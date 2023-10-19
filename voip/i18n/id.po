@@ -83,7 +83,7 @@ msgstr ""
 #. module: voip
 #: model:ir.model.fields.selection,name:voip.selection__res_users__mobile_call_method__ask
 msgid "Ask"
-msgstr ""
+msgstr "Tanya"
 
 #. module: voip
 #. openerp-web
@@ -101,7 +101,7 @@ msgstr "Avatar"
 #: code:addons/voip/static/src/xml/dialing_panel.xml:0
 #, python-format
 msgid "Backspace"
-msgstr ""
+msgstr "Backspace"
 
 #. module: voip
 #. openerp-web
@@ -579,7 +579,7 @@ msgstr "Ponsel:"
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "Mute"
-msgstr ""
+msgstr "Mute"
 
 #. module: voip
 #: model_terms:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
@@ -986,7 +986,7 @@ msgstr "Pengguna"
 #: code:addons/voip/static/src/js/dialing_panel.js:0
 #, python-format
 msgid "VOIP"
-msgstr ""
+msgstr "VOIP"
 
 #. module: voip
 #: model_terms:ir.ui.view,arch_db:voip.res_user_form

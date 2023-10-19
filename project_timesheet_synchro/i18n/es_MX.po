@@ -5,6 +5,7 @@
 # Translators:
 # Martin Trigaux, 2021
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2021
+# Fernanda Alvarez, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,13 +13,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:42+0000\n"
-"Last-Translator: Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2021\n"
-"Language-Team: Spanish (Mexico) (https://www.transifex.com/odoo/teams/41243/es_MX/)\n"
+"Last-Translator: Fernanda Alvarez, 2023\n"
+"Language-Team: Spanish (Mexico) (https://app.transifex.com/odoo/teams/41243/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: es_MX\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. module: project_timesheet_synchro
 #. openerp-web
@@ -486,7 +487,7 @@ msgstr "Seleccione su instancia de Odoo en esta lista:"
 #: code:addons/project_timesheet_synchro/static/src/xml/project_timesheet.xml:0
 #, python-format
 msgid "Settings"
-msgstr "Configuración"
+msgstr "Ajustes"
 
 #. module: project_timesheet_synchro
 #. openerp-web

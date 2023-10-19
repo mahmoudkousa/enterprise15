@@ -3,18 +3,18 @@
 # 	* l10n_be_reports
 # 
 # Translators:
-# Cécile Collart <cco@odoo.com>, 2022
 # Martin Trigaux, 2022
-# Jolien De Paepe, 2022
+# Cécile Collart <cco@odoo.com>, 2023
+# Jolien De Paepe, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-17 12:04+0000\n"
+"POT-Creation-Date: 2022-04-08 11:15+0000\n"
 "PO-Revision-Date: 2022-04-08 12:42+0000\n"
-"Last-Translator: Jolien De Paepe, 2022\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Last-Translator: Jolien De Paepe, 2023\n"
+"Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -34,7 +34,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:l10n_be_reports.report_281_50_pdf
 msgid "(including amounts that related to other taxable periods):"
 msgstr ""
-"(y compris les montants qui se rapportent à d'autres périodes imposables) :"
+"(y compris les sommes qui sont un rapport avec d'autres périodes imposables)"
+" :"
 
 #. module: l10n_be_reports
 #: model_terms:ir.ui.view,arch_db:l10n_be_reports.report_281_50_pdf
@@ -43,7 +44,7 @@ msgid ""
 "                                                enter the amount actually paid in"
 msgstr ""
 ",\n"
-"                                                inscrire le montant effectivement payé en"
+"                                                inscrivez le montant réellement payé en"
 
 #. module: l10n_be_reports
 #: model:account.financial.html.report.line,name:l10n_be_reports.account_financial_report_be_0_total
@@ -459,7 +460,7 @@ msgstr "4 - Total"
 #. module: l10n_be_reports
 #: model_terms:ir.ui.view,arch_db:l10n_be_reports.report_281_50_pdf
 msgid "4. Comments:"
-msgstr "4. Commentaires :"
+msgstr "4. Commentaire :"
 
 #. module: l10n_be_reports
 #: model:account.financial.html.report.line,name:l10n_be_reports.account_financial_report_be_creances_au_plus_un_an_commerciales0
@@ -607,10 +608,10 @@ msgstr ""
 #. module: l10n_be_reports
 #: model:account.financial.html.report.line,name:l10n_be_reports.account_financial_report_be_provisions_pour_risques_et_charges0
 msgid ""
-"635/8 - Provisions pour risques et charges: dotations (utilisations et "
+"635/7 - Provisions pour risques et charges: dotations (utilisations et "
 "reprises)"
 msgstr ""
-"635/8 - Provisions pour risques et charges: dotations (utilisations et "
+"635/7 - Provisions pour risques et charges: dotations (utilisations et "
 "reprises)"
 
 #. module: l10n_be_reports
@@ -921,7 +922,7 @@ msgstr "Rapport de compte"
 #. module: l10n_be_reports
 #: model:ir.model,name:l10n_be_reports.model_account_tax_report
 msgid "Account Tax Report"
-msgstr "Rapport de taxes du compte"
+msgstr "Déclaration à la TVA"
 
 #. module: l10n_be_reports
 #: model:ir.model.fields.selection,name:l10n_be_reports.selection__l10n_be_reports_281_50_wizard__type_treatment__2
@@ -943,22 +944,12 @@ msgstr "Montant"
 #. module: l10n_be_reports
 #: model:ir.model.fields,field_description:l10n_be_reports.field_l10n_be_reports_periodic_vat_xml_export__ask_payment
 msgid "Ask Payment"
-msgstr "Demander le paiement"
+msgstr "Demande de formules de paiement"
 
 #. module: l10n_be_reports
 #: model:ir.model.fields,field_description:l10n_be_reports.field_l10n_be_reports_periodic_vat_xml_export__ask_restitution
 msgid "Ask Restitution"
-msgstr "Demander la restitution"
-
-#. module: l10n_be_reports
-#: model_terms:ir.ui.view,arch_db:l10n_be_reports.filter_info_template
-msgid "Ask payment:"
-msgstr "Demander le paiement :"
-
-#. module: l10n_be_reports
-#: model_terms:ir.ui.view,arch_db:l10n_be_reports.filter_info_template
-msgid "Ask restitution:"
-msgstr "Demander la restitution :"
+msgstr "Demande de restitution"
 
 #. module: l10n_be_reports
 #: model_terms:ir.ui.view,arch_db:l10n_be_reports.line_caret_options
@@ -968,7 +959,8 @@ msgstr "Audit"
 #. module: l10n_be_reports
 #: model:ir.model,name:l10n_be_reports.model_l10n_be_reports_periodic_vat_xml_export
 msgid "Belgian Periodic VAT Report Export Wizard"
-msgstr "Assistant d'exportation de rapports périodiques de TVA en Belgique"
+msgstr ""
+"Assistant d'exportation de déclarations périodiques à la TVA en Belgique"
 
 #. module: l10n_be_reports
 #: model:account.financial.html.report,name:l10n_be_reports.account_financial_report_be_balancesheet0
@@ -1002,17 +994,12 @@ msgstr "Choisissez les options avant d'exporter en XML"
 #: model:ir.model.fields,field_description:l10n_be_reports.field_res_partner__citizen_identification
 #: model:ir.model.fields,field_description:l10n_be_reports.field_res_users__citizen_identification
 msgid "Citizen Identification"
-msgstr "Identification du citoyen"
+msgstr "Numéro national"
 
 #. module: l10n_be_reports
 #: model:ir.model.fields,field_description:l10n_be_reports.field_l10n_be_reports_periodic_vat_xml_export__client_nihil
 msgid "Client Nihil"
-msgstr "Client nihil"
-
-#. module: l10n_be_reports
-#: model_terms:ir.ui.view,arch_db:l10n_be_reports.filter_info_template
-msgid "Client nihil:"
-msgstr "Client nihil :"
+msgstr "Listing annuel clients néant"
 
 #. module: l10n_be_reports
 #: model_terms:ir.ui.view,arch_db:l10n_be_reports.l10n_be_281_50_form_wizard
@@ -1182,18 +1169,18 @@ msgstr "Différence sur les comptes 9"
 #: model:ir.model.fields,field_description:l10n_be_reports.field_l10n_be_reports_281_50_wizard__display_name
 #: model:ir.model.fields,field_description:l10n_be_reports.field_l10n_be_reports_periodic_vat_xml_export__display_name
 msgid "Display Name"
-msgstr "Nom affiché"
+msgstr "Nom d'affichage"
 
 #. module: l10n_be_reports
 #: code:addons/l10n_be_reports/models/res_partner.py:0
 #, python-format
 msgid "Download 281.50 Form"
-msgstr "Télécharger le formulaire 281.50"
+msgstr "Télécharger la fiche 281.50"
 
 #. module: l10n_be_reports
 #: model:ir.model,name:l10n_be_reports.model_account_sales_report
 msgid "EC Sales List"
-msgstr "Relevé intra-communautaire"
+msgstr "Relevé intracommunautaire"
 
 #. module: l10n_be_reports
 #: code:addons/l10n_be_reports/models/res_partner.py:0
@@ -1258,17 +1245,17 @@ msgstr "Fichier formulaire"
 #. module: l10n_be_reports
 #: model:ir.model,name:l10n_be_reports.model_account_generic_tax_report
 msgid "Generic Tax Report"
-msgstr "Déclaration d'impôts générique"
+msgstr "Déclaration à la TVA"
 
 #. module: l10n_be_reports
 #: model:ir.model,name:l10n_be_reports.model_report_l10n_be_reports_report_281_50_pdf
 msgid "Get 281.50 report as PDF."
-msgstr "Obtenir le rapport 281.50 au format PDF."
+msgstr "Obtenir la fiche 281.50 au format PDF."
 
 #. module: l10n_be_reports
 #: model:ir.model,name:l10n_be_reports.model_report_l10n_be_reports_report_281_50_xml
 msgid "Get 281.50 report as XML."
-msgstr "Obtenir le rapport 281.50 au format XML."
+msgstr "Obtenir la fiche 281.50 au format XML."
 
 #. module: l10n_be_reports
 #: model:ir.model.fields,field_description:l10n_be_reports.field_l10n_be_reports_periodic_vat_xml_export__grid91
@@ -1344,11 +1331,6 @@ msgstr "Données partenaires manquantes"
 #: model:ir.model.fields.selection,name:l10n_be_reports.selection__l10n_be_reports_281_50_wizard__type_treatment__1
 msgid "Modification"
 msgstr "Modification"
-
-#. module: l10n_be_reports
-#: model_terms:ir.ui.view,arch_db:l10n_be_reports.filter_info_template
-msgid "No"
-msgstr "Non"
 
 #. module: l10n_be_reports
 #: code:addons/l10n_be_reports/models/account_sales_report.py:0
@@ -1438,7 +1420,7 @@ msgstr "PASSIF"
 #: model:ir.ui.menu,name:l10n_be_reports.menu_action_account_report_partner_vat_listing
 #, python-format
 msgid "Partner VAT Listing"
-msgstr "Liste de la TVA par partenaire"
+msgstr "Liste annuelle des clients assujettis à la TVA"
 
 #. module: l10n_be_reports
 #: model_terms:ir.ui.view,arch_db:l10n_be_reports.view_partner_28150_required_fields
@@ -1668,11 +1650,6 @@ msgid "XML Export Options"
 msgstr "Options d'exportation en XML"
 
 #. module: l10n_be_reports
-#: model_terms:ir.ui.view,arch_db:l10n_be_reports.filter_info_template
-msgid "Yes"
-msgstr "Oui"
-
-#. module: l10n_be_reports
 #: code:addons/l10n_be_reports/wizard/l10n_be_281_50_wizard.py:0
 #, python-format
 msgid "You must be logged in a Belgian company to use this feature"
@@ -1721,15 +1698,15 @@ msgid ""
 "                                                <br/>\n"
 "                                                e) Total (see also in sections f and g below):"
 msgstr ""
-"a) Commissions, courtages, remises commerciales, etc. :\n"
+"a) Commissions, courtages, ristournes commerciales, etc. :\n"
 "<br/>\n"
-"b) Honoraires et vacations :\n"
+"b) Honoraires et vacations :\n"
 "<br/>\n"
 "c) Avantages de toute nature (nature : ................)\n"
 "<br/>\n"
 "d) Frais exposés pour compte du bénéficiaire :\n"
 "<br/>\n"
-"e) Total (voir également dans les sections f et g ci-dessous) :"
+"e) Total (voir aussi rubriques f et g ci-après) :"
 
 #. module: l10n_be_reports
 #: model_terms:ir.ui.view,arch_db:l10n_be_reports.res_partner_view_form_inherit
@@ -1752,13 +1729,13 @@ msgid ""
 "                                            - trainers, coaches and accompaniers for their activity for the\n"
 "                                            benefit of the athletes:"
 msgstr ""
-"f) S'il y a lieu, inscrivez ci-contre le montant indiqué au point e\n"
+"f) S'il y a lieu, mentionnez ici le montant indiqué à la rubrique e\n"
 "à titre d'indemnités versées à :\n"
 "<br/>\n"
-"- des sportifs pour leurs performances sportives :\n"
+"- des sportifs pour leurs prestations sportives :\n"
 "<br/>\n"
 "- des formateurs, entraîneurs et accompagnateurs pour leurs activités\n"
-"dispensées aux sportifs :"
+"au profit de sportifs :"
 
 #. module: l10n_be_reports
 #: model_terms:ir.ui.view,arch_db:l10n_be_reports.report_281_50_pdf
@@ -1766,5 +1743,5 @@ msgid ""
 "g) If the amount indicated in item e above does not coincide with\n"
 "                                                the amount actually paid"
 msgstr ""
-"g) Si le montant indiqué au point e ci-dessus ne coïncide pas avec\n"
-"le montant effectivement payé"
+"g) Si le montant indiqué à la rubrique e ne coïncide pas avec \n"
+"                                                le montant réellement payé en"

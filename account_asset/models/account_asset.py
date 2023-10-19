@@ -284,6 +284,7 @@ class AccountAsset(models.Model):
             self.prorata_date = fields.Date.today()
             self.account_analytic_id = model.account_analytic_id.id or self.account_analytic_id
             self.analytic_tag_ids = model.analytic_tag_ids and [(6, 0, model.analytic_tag_ids.ids)] or self.analytic_tag_ids
+            self.account_asset_id = model.account_asset_id
             self.account_depreciation_id = model.account_depreciation_id
             self.account_depreciation_expense_id = model.account_depreciation_expense_id
             self.journal_id = model.journal_id

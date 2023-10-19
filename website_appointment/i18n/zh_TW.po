@@ -53,7 +53,7 @@ msgstr "預約"
 #. module: website_appointment
 #: model:ir.model,name:website_appointment.model_calendar_appointment_type
 msgid "Appointment Type"
-msgstr "預約類別"
+msgstr "預約類型"
 
 #. module: website_appointment
 #: model:ir.model,name:website_appointment.model_calendar_appointment_share
@@ -118,7 +118,7 @@ msgstr "預約會面"
 #. module: website_appointment
 #: model:ir.model.fields,field_description:website_appointment.field_calendar_appointment_type__seo_name
 msgid "Seo name"
-msgstr "Seo 名稱"
+msgstr "SEO 名稱"
 
 #. module: website_appointment
 #: model:ir.model.fields,help:website_appointment.field_calendar_appointment_type__website_url
@@ -143,7 +143,7 @@ msgstr "網站"
 #. module: website_appointment
 #: model:ir.model.fields,field_description:website_appointment.field_calendar_appointment_type__website_url
 msgid "Website URL"
-msgstr "網站URL"
+msgstr "網站網址"
 
 #. module: website_appointment
 #: model:ir.model.fields,field_description:website_appointment.field_calendar_appointment_type__website_meta_description

@@ -3,9 +3,9 @@
 # 	* planning
 # 
 # Translators:
-# Martin Trigaux, 2021
 # c2cdidier <didier.donze@camptocamp.com>, 2022
 # Friederike Fasterling-Nesselbosch, 2022
+# Martin Trigaux, 2023
 # Larissa Manderfeld, 2023
 # 
 msgid ""
@@ -49,9 +49,9 @@ msgid ""
 " duplicate it instead.</i> <b>Adjust the size</b> of the shift to modify its"
 " period."
 msgstr ""
-"Bewegen Sie Ihre Schicht per <b>Drag & Drop</b>, um sie zu verschieben. "
-"Tipp: Drücken Sie CTRL (oder Cmd), um sie stattdessen zu duplizieren. Passen"
-" Sie die Größe der Schicht an, um den Zeitraum zu ändern."
+"Bewegen Sie Ihre Schicht per <b>Drag-and-Drop</b>, um sie zu verschieben. "
+"<i>Tipp: Drücken Sie STRG (oder CMD), um sie stattdessen zu duplizieren.</i>"
+" <b>Passen Sie die Größe</b> der Schicht an, um den Zeitraum zu ändern."
 
 #. module: planning
 #. openerp-web
@@ -255,7 +255,7 @@ msgid ""
 "assigned to you."
 msgstr ""
 "<i class=\"fa fa-check-circle text-success\"/> Diese Schicht ist Ihnen nicht"
-" mehr zugeordnet."
+" mehr zugewiesen."
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_shift_notification
@@ -274,7 +274,7 @@ msgstr "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Date\" title=\"Datu
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_slot_template_view_kanban
 msgid "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Hours\" title=\"Hours\"/>"
-msgstr "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Hours\" title=\"Stunden\"/>"
+msgstr "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Hours\" title=\"Hours\"/>"
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_role_view_kanban
@@ -288,7 +288,7 @@ msgid ""
 "assigned to another employee."
 msgstr ""
 "<i class=\"fa fa-exclamation-circle text-warning\"/> Diese Schicht wurde "
-"bereits einem anderen Mitarbeiter zugeteilt."
+"bereits einem anderen Mitarbeiter zugewiesen."
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_shift_notification
@@ -296,7 +296,7 @@ msgid ""
 "<i class=\"fa fa-exclamation-circle text-warning\"/> You can no longer "
 "unassign yourself from this shift."
 msgstr ""
-"<i class=\"fa fa-exclamation-circle text-warning\"/> Sie können sich nicht "
+"<i class=\"fa fa-exclamation-circle text-warning\"/> Sie können sich nicht "
 "mehr von dieser Schicht abmelden."
 
 #. module: planning
@@ -312,12 +312,12 @@ msgstr ""
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_gantt
 msgid "<i class=\"fa fa-long-arrow-right\" title=\"Arrow\"/>"
-msgstr "<i class=\"fa fa-long-arrow-right\" title=\"Pfeil\"/>"
+msgstr "<i class=\"fa fa-long-arrow-right\" title=\"Arrow\"/>"
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.period_report_template
 msgid "<span aria-label=\"Close\">×</span>"
-msgstr "<span aria-label=\"Schließen\">×</span>"
+msgstr "<span aria-label=\"Close\">×</span>"
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_form
@@ -429,17 +429,17 @@ msgstr "Zugewiesene Zeit (%)"
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__allocation_type
 msgid "Allocation Type"
-msgstr "Allokationsart"
+msgstr "Zuteilungstyp"
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__allow_template_creation
 msgid "Allow Template Creation"
-msgstr "Erstellung von Vorlagen zulassen"
+msgstr "Vorlagenerstellung zulassen"
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_res_config_settings__planning_allow_self_unassign
 msgid "Allow Unassignment"
-msgstr "Abmeldung zulassen"
+msgstr "Aufhebung der Zuweisung zulassen"
 
 #. module: planning
 #: code:addons/planning/models/planning_recurrency.py:0
@@ -481,7 +481,7 @@ msgstr "Avatar 128"
 #. module: planning
 #: model:ir.model,name:planning.model_hr_employee_base
 msgid "Basic Employee"
-msgstr "Mitarbeiter (Basic)"
+msgstr "Basismitarbeiter"
 
 #. module: planning
 #: model:ir.ui.menu,name:planning.planning_menu_schedule_by_resource
@@ -513,7 +513,7 @@ msgstr "Farbe"
 #. module: planning
 #: model:planning.role,name:planning.planning_role_cm
 msgid "Community Manager"
-msgstr "Community Manager"
+msgstr "Community-Manager"
 
 #. module: planning
 #: model:ir.model,name:planning.model_res_company
@@ -531,7 +531,7 @@ msgstr "Unternehmen"
 #. module: planning
 #: model:ir.model,name:planning.model_res_config_settings
 msgid "Config Settings"
-msgstr "Konfiguration "
+msgstr "Konfigurationseinstellungen "
 
 #. module: planning
 #: model:ir.ui.menu,name:planning.planning_menu_settings
@@ -541,19 +541,19 @@ msgstr "Konfiguration"
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__confirm_delete
 msgid "Confirm Slots Deletion"
-msgstr "Löschung der Slots bestätigen"
+msgstr "Löschung des Zeitfensters bestätigen"
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__conflicting_slot_ids
 msgid "Conflicting Slot"
-msgstr "Kollidierender Slot"
+msgstr "Kollidierendes Zeitfenster"
 
 #. module: planning
 #. openerp-web
 #: code:addons/planning/static/src/xml/planning_gantt.xml:0
 #, python-format
 msgid "Copy previous"
-msgstr "Kopieren"
+msgstr "Vorherige kopieren"
 
 #. module: planning
 #. openerp-web
@@ -610,17 +610,17 @@ msgstr "Startdatum"
 #: model:ir.model.fields,field_description:planning.field_res_company__planning_self_unassign_days_before
 #: model:ir.model.fields,field_description:planning.field_res_config_settings__planning_self_unassign_days_before
 msgid "Days before shift for unassignment"
-msgstr "Tage vor der Schicht zur Aufhebung der Zuweisung"
+msgstr "Tage vor der Schicht für Aufhebung der Zuweisung"
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.res_config_settings_view_form
 msgid "Deadline"
-msgstr "Frist"
+msgstr "Frist:"
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__unassign_deadline
 msgid "Deadline for unassignment"
-msgstr "Frist für die Aufhebung der Zuweisung"
+msgstr "Frist für Aufhebung der Zuweisung"
 
 #. module: planning
 #: model:ir.model.fields,help:planning.field_planning_planning__self_unassign_days_before
@@ -628,7 +628,7 @@ msgstr "Frist für die Aufhebung der Zuweisung"
 #: model:ir.model.fields,help:planning.field_res_company__planning_self_unassign_days_before
 #: model:ir.model.fields,help:planning.field_res_config_settings__planning_self_unassign_days_before
 msgid "Deadline in days for shift unassignment"
-msgstr "Frist in Tagen für die Aufhebung der Schichtzuweisung"
+msgstr "Frist in Tagen für Aufhebung der Zuweisung"
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_hr_employee__default_planning_role_id
@@ -706,8 +706,8 @@ msgid ""
 " duplicate it."
 msgstr ""
 "Ziehen Sie eine Schicht auf einen anderen Tag, um sie zu verschieben, oder "
-"auf eine andere Zeile, um die Schicht neu zuzuordnen. Wenn die Schicht "
-"gebucht wurde, wird der Benutzer automatisch über die Änderung "
+"auf eine andere Zeile, um die Schicht neu zuzuweisen. Wenn die Schicht "
+"veröffentlicht wurde, wird der Benutzer automatisch über die Änderung "
 "benachrichtigt. Drücken Sie STRG (oder Cmd auf Mac), während Sie eine "
 "Schicht ziehen, um sie zu duplizieren."
 
@@ -745,7 +745,7 @@ msgstr "Mitarbeiter"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.hr_employee_view_form_simplified
 msgid "Employee Name"
-msgstr "Mitarbeitername"
+msgstr "Name des Mitarbeiters"
 
 #. module: planning
 #: model:ir.model.fields,help:planning.field_planning_send__employee_ids
@@ -753,7 +753,7 @@ msgid ""
 "Employees who will receive planning by email if you click on publish & send."
 msgstr ""
 "Mitarbeiter, die die Planung per E-Mail erhalten, wenn Sie auf "
-"\"Veröffentlichen & Senden\" klicken."
+"„Veröffentlichen & Senden“ klicken."
 
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_shift_template
@@ -775,7 +775,7 @@ msgstr "Fehler: Jedes Mitarbeiter-Token muss einzigartig sein"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_form
 msgid "Every"
-msgstr "Jede(n)"
+msgstr "Alle"
 
 #. module: planning
 #: code:addons/planning/models/planning_recurrency.py:0
@@ -803,7 +803,7 @@ msgstr "Für immer"
 #: code:addons/planning/models/planning_recurrency.py:0
 #, python-format
 msgid "Forever, every %s week(s)"
-msgstr "Für immer, alle %s Wochen"
+msgstr "Für immer, alle %s Woche(n)"
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.period_report_template
@@ -818,7 +818,7 @@ msgstr "Zukünftig"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.res_config_settings_view_form
 msgid "Generate shifts"
-msgstr "Schichten generieren"
+msgstr "Erzeugen Sie Schichten"
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.brand_promotion
@@ -861,7 +861,7 @@ msgstr "Annehmen"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.period_report_template
 msgid "I am unavailable"
-msgstr "Ich bin nicht verfügbar"
+msgstr "Ich bin verfügbar"
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_planning__id
@@ -986,7 +986,7 @@ msgstr "Mitarbeiter können sich selbst abmelden"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.res_config_settings_view_form
 msgid "Let employees unassign themselves from shifts"
-msgstr "Mitarbeitern gestatten, sich von Schichten abzumelden"
+msgstr "Gestatten Sie Mitarbeitern, sich von Schichten abzumelden"
 
 #. module: planning
 #: model:ir.model.fields,help:planning.field_planning_planning__allow_self_unassign
@@ -1073,7 +1073,7 @@ msgstr "Noch keine Daten vorhanden!"
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_roles
 msgid "No roles found. Let's create one!"
-msgstr "Keine Rollen gefunden. Erstellen Sie eine!"
+msgstr "Keine Rolle gefunden. Erstellen Sie eine!"
 
 #. module: planning
 #: model_terms:ir.actions.act_window,help:planning.planning_action_shift_template
@@ -1131,12 +1131,12 @@ msgid ""
 "value with = or > operator."
 msgstr ""
 "Vorgang nicht unterstützt. Sie sollten overlap_slot_count immer mithilfe der"
-" Operatoren = oder > vergleichen."
+" Operatoren = oder > mit 0 vergleichen."
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__overlap_slot_count
 msgid "Overlapping Slots"
-msgstr "Sich überschneidende Slots"
+msgstr "Sich überschneidende Zeitfenster"
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_search
@@ -1153,7 +1153,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:planning.field_planning_send__start_datetime
 #: model_terms:ir.ui.view,arch_db:planning.planning_send_view_form
 msgid "Period"
-msgstr "Periode"
+msgstr "Zeitraum"
 
 #. module: planning
 #: code:addons/planning/models/planning.py:0
@@ -1180,13 +1180,13 @@ msgstr "Planungsanalyse"
 #. module: planning
 #: model:ir.model,name:planning.model_planning_recurrency
 msgid "Planning Recurrence"
-msgstr "Wiederholung planen"
+msgstr "Planungswiederholung"
 
 #. module: planning
 #: model:ir.model,name:planning.model_planning_role
 #: model_terms:ir.ui.view,arch_db:planning.planning_role_view_form
 msgid "Planning Role"
-msgstr "Rolle Planung"
+msgstr "Planungsrolle"
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_role_view_tree
@@ -1201,7 +1201,7 @@ msgstr "Rollen planen"
 #. module: planning
 #: model:ir.model,name:planning.model_planning_slot
 msgid "Planning Shift"
-msgstr "Schicht planen"
+msgstr "Schicht der Planung"
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.period_report_template
@@ -1213,13 +1213,13 @@ msgstr "Planung:"
 #: model:ir.cron,cron_name:planning.ir_cron_forecast_schedule
 #: model:ir.cron,name:planning.ir_cron_forecast_schedule
 msgid "Planning: generate next recurring shifts"
-msgstr "Planung: Generieren Sie weitere wiederkehrende Schichten"
+msgstr "Planung: Nächste wiederkehrende Schichten erzeugen"
 
 #. module: planning
 #: code:addons/planning/models/planning.py:0
 #, python-format
 msgid "Planning: new open shift available on"
-msgstr "Planung: Mehr Schichten verfügbar am"
+msgstr "Planung: Neue offene Schichten verfügbar am"
 
 #. module: planning
 #: model:mail.template,name:planning.email_template_planning_planning
@@ -1230,7 +1230,7 @@ msgstr "Planung: Neuer Plan (mehrere Schichten)"
 #: code:addons/planning/models/planning.py:0
 #, python-format
 msgid "Planning: new shift on"
-msgstr "Planung: neue Schicht am"
+msgstr "Planung: Neue Schicht am"
 
 #. module: planning
 #: model:mail.template,name:planning.email_template_slot_single
@@ -1240,7 +1240,7 @@ msgstr "Planung: Neue einmalige Schicht"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.brand_promotion
 msgid "Plans"
-msgstr "Pläne"
+msgstr "Plänen Tiefe"
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__previous_template_id
@@ -1276,12 +1276,12 @@ msgstr "Veröffentlicht"
 #: model:ir.model.fields,field_description:planning.field_res_company__planning_generation_interval
 #: model:ir.model.fields,field_description:planning.field_res_config_settings__planning_generation_interval
 msgid "Rate Of Shift Generation"
-msgstr "Frequenz der Erstellung von Schichten"
+msgstr "Intervall der Erstellung von Schichten"
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__recurrency_id
 msgid "Recurrency"
-msgstr "Häufigkeit"
+msgstr "Wiederholung"
 
 #. module: planning
 #: model:ir.model.constraint,message:planning.constraint_planning_recurrency_check_repeat_interval_positive
@@ -1297,7 +1297,7 @@ msgstr "Zugehörige Planungseinträge"
 #: model:ir.model.fields,help:planning.field_planning_slot__user_id
 msgid "Related user name for the resource to manage its access."
 msgstr ""
-"Zugehöriger Benutzername für die Ressource, um den Zugriff zu verwalten."
+"Zugehöriger Benutzername für die Ressource, um deren Zugriff zu verwalten."
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__repeat
@@ -1335,7 +1335,7 @@ msgstr "Berichtswesen"
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_form
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_form_in_gantt
 msgid "Reset to Draft"
-msgstr "Zurücksetzen"
+msgstr "Auf Entwurf zurücksetzen"
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__resource_id
@@ -1375,14 +1375,14 @@ msgstr "Speichern"
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__template_creation
 msgid "Save as Template"
-msgstr "Als Template speichern"
+msgstr "Als Vorlage speichern"
 
 #. module: planning
 #. openerp-web
 #: code:addons/planning/static/src/js/tours/planning.js:0
 #, python-format
 msgid "Save this shift once it is ready."
-msgstr "Schicht speichern, sobald sie bereit ist."
+msgstr "Speichern Sie diese Schicht, sobald sie fertig ist."
 
 #. module: planning
 #: model:ir.model,name:planning.model_planning_planning
@@ -1406,12 +1406,12 @@ msgstr "Nach Rolle planen"
 #: model:ir.model.fields,field_description:planning.field_planning_planning__access_token
 #: model:ir.model.fields,field_description:planning.field_planning_slot__access_token
 msgid "Security Token"
-msgstr "Sicherheits-Token"
+msgstr "Security-Token"
 
 #. module: planning
 #: model:ir.model,name:planning.model_slot_planning_select_send
 msgid "Select Employees and Send One Slot"
-msgstr "Mitarbeiter auswählen und einen Slot senden"
+msgstr "Mitarbeiter auswählen und ein Zeitfenster senden"
 
 #. module: planning
 #. openerp-web
@@ -1445,7 +1445,7 @@ msgstr "Planung teilen"
 #. module: planning
 #: model:ir.actions.act_window,name:planning.planning_send_action
 msgid "Send Planning By Email"
-msgstr "Zeitplanung per E-Mail versenden"
+msgstr "Planung per E-Mail versenden"
 
 #. module: planning
 #. openerp-web
@@ -1522,7 +1522,7 @@ msgstr ""
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.period_report_template
 msgid "Shifts from"
-msgstr "Schichten ab"
+msgstr "Schichten von"
 
 #. module: planning
 #: code:addons/planning/models/planning.py:0
@@ -1540,7 +1540,7 @@ msgstr "Schichten Ihrer Teamkollegen"
 #: model:ir.model.fields,field_description:planning.field_planning_planning__slot_ids
 #: model:ir.model.fields,field_description:planning.field_planning_send__slot_ids
 msgid "Slot"
-msgstr "Slot"
+msgstr "Zeitfenster"
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_gantt
@@ -1584,12 +1584,12 @@ msgstr "Enddatum"
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__template_autocomplete_ids
 msgid "Template Autocomplete"
-msgstr "Vorlage Autovervollständigung"
+msgstr "Autovervollständigung der Vorlage"
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__template_reset
 msgid "Template Reset"
-msgstr "Vorlage zurücksetzen"
+msgstr "Zurücksetzung der Vorlage"
 
 #. module: planning
 #: model:ir.model.constraint,message:planning.constraint_res_company_planning_self_unassign_days_before_positive
@@ -1603,7 +1603,7 @@ msgstr ""
 #: code:addons/planning/models/planning.py:0
 #, python-format
 msgid "The company does not allow you to self unassign."
-msgstr "Das Unternehmen erlaubt Ihnen nicht, sich selbst abzumelden."
+msgstr "Das Unternehmen erlaubt Ihnen nicht, die Zuweisung aufzuheben."
 
 #. module: planning
 #: code:addons/planning/models/planning.py:0
@@ -1756,7 +1756,7 @@ msgstr "Zeitzone:"
 #. module: planning
 #: model:digest.tip,name:planning.digest_tip_planning_0
 msgid "Tip: Record your planning faster"
-msgstr "Hinweis: Erfassen Sie Ihre Planung schneller"
+msgstr "Tipp: Erfassen Sie Ihre Planung schneller"
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.period_report_template
@@ -1811,7 +1811,7 @@ msgstr "Arbeitsadresse"
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__work_email
 msgid "Work Email"
-msgstr "E-Mail (geschäftlich)"
+msgstr "Arbeits-E-Mail"
 
 #. module: planning
 #: code:addons/planning/models/planning.py:0
@@ -1830,7 +1830,7 @@ msgstr "Sie können sich keiner bereits zugewiesenen Schicht zuweisen."
 #: code:addons/planning/models/planning.py:0
 #, python-format
 msgid "You can not unassign another employee than yourself."
-msgstr "Sie können keinen anderen Mitarbeiter als sich selbst entfernen. "
+msgstr "Sie können keinen anderen Mitarbeiter als sich selbst entfernen."
 
 #. module: planning
 #: model:ir.model.constraint,message:planning.constraint_planning_slot_template_check_duration_positive
@@ -1846,7 +1846,7 @@ msgstr "Sie können keine Startzeit größer als 24 haben"
 #: code:addons/planning/models/planning_template.py:0
 #, python-format
 msgid "You cannot have a start hour greater than 24."
-msgstr ""
+msgstr "Sie können keine Startzeit größer als 24 haben."
 
 #. module: planning
 #: model:ir.model.constraint,message:planning.constraint_planning_slot_check_allocated_hours_positive
@@ -1857,7 +1857,7 @@ msgstr "Sie können keine negative Schicht haben"
 #: code:addons/planning/wizard/slot_planning_select_send.py:0
 #, python-format
 msgid "You cannot send a past unassigned slot"
-msgstr "Sie können einen nicht zugewiesenen Slot nicht senden."
+msgstr "Sie können ein nichtzugewiesenes Zeitfenster nicht senden."
 
 #. module: planning
 #: code:addons/planning/models/planning.py:0
@@ -1892,7 +1892,7 @@ msgstr "Tage vor Beginn der Schicht"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.hr_employee_view_form_simplified
 msgid "e.g. John Doe"
-msgstr "z.B. Lieschen Müller"
+msgstr "z. B. Lieschen Müller"
 
 #. module: planning
 #. openerp-web

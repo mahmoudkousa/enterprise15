@@ -21,7 +21,7 @@ msgstr ""
 "POT-Creation-Date: 2021-10-05 11:17+0000\n"
 "PO-Revision-Date: 2021-09-14 12:39+0000\n"
 "Last-Translator: Abe Manyo, 2023\n"
-"Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
+"Language-Team: Indonesian (https://app.transifex.com/odoo/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -31,12 +31,12 @@ msgstr ""
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_project_project__ticket_count
 msgid "# Tickets"
-msgstr ""
+msgstr "# Tiket"
 
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_team_view_form_inherit_helpdesk_timesheet
 msgid "<span class=\"o_stat_text\">Recorded</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Dicatat</span>"
 
 #. module: helpdesk_timesheet
 #: code:addons/helpdesk_timesheet/models/analytic.py:0
@@ -59,12 +59,12 @@ msgstr "Ditutup"
 #: code:addons/helpdesk_timesheet/models/helpdesk.py:0
 #, python-format
 msgid "Confirm Time Spent"
-msgstr ""
+msgstr "Konfirmasi Waktu yang Dihabiska"
 
 #. module: helpdesk_timesheet
 #: model:ir.model,name:helpdesk_timesheet.model_helpdesk_ticket_create_timesheet
 msgid "Create Timesheet from ticket"
-msgstr ""
+msgstr "Buat Timesheet dari tiket"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket_create_timesheet__create_uid
@@ -79,7 +79,7 @@ msgstr "Dibuat pada"
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
 msgid "Days Spent"
-msgstr ""
+msgstr "Hari yang Dihabiskan"
 
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_create_timesheet_view_form
@@ -89,7 +89,7 @@ msgstr "Hapus"
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_create_timesheet_view_form
 msgid "Describe your activity..."
-msgstr ""
+msgstr "Deskripsikan kegiatan Anda..."
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket_create_timesheet__description
@@ -115,37 +115,37 @@ msgstr "Nama Tampilan"
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__display_timer
 msgid "Display Timer"
-msgstr ""
+msgstr "Tampilkan Timer"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__display_timer_pause
 msgid "Display Timer Pause"
-msgstr ""
+msgstr "Tampilkan Jeda Timer"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__display_timer_resume
 msgid "Display Timer Resume"
-msgstr ""
+msgstr "Tampilkan Lanjutkan Timer"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__display_timer_start_primary
 msgid "Display Timer Start Primary"
-msgstr ""
+msgstr "Tampilkan Timer Mulai Utama"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__display_timer_start_secondary
 msgid "Display Timer Start Secondary"
-msgstr ""
+msgstr "Tampilkan Timer Mulai Sekunder"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__display_timer_stop
 msgid "Display Timer Stop"
-msgstr ""
+msgstr "Tampilkan Timer Berhenti"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__display_timesheet_timer
 msgid "Display Timesheet Time"
-msgstr ""
+msgstr "Tampilkan Waktu Timesheet"
 
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_create_timesheet_view_form
@@ -156,12 +156,12 @@ msgstr "Durasi"
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__encode_uom_in_days
 msgid "Encode Uom In Days"
-msgstr ""
+msgstr "Encode Satuan Ukuran Dalam Hari"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_project_project__has_helpdesk_team
 msgid "Has Helpdesk Teams"
-msgstr ""
+msgstr "Memiliki Tim Mejabantuan"
 
 #. module: helpdesk_timesheet
 #: model:ir.model,name:helpdesk_timesheet.model_helpdesk_team
@@ -195,7 +195,7 @@ msgstr "Dalam Proses"
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__is_timer_running
 msgid "Is Timer Running"
-msgstr ""
+msgstr "Apakah Timer Berjalan"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket_create_timesheet____last_update
@@ -215,14 +215,14 @@ msgstr "Terakhir diperbarui pada"
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.rating_rating_view_search_inherit_helpdesk_timesheet
 msgid "My Team's Ratings"
-msgstr ""
+msgstr "Rating Tim Saya"
 
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_sla_report_analysis_view_search_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_report_analysis_view_search_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_search_inherit_helpdesk_timesheet
 msgid "My Team's Tickets"
-msgstr ""
+msgstr "Tiket Tim Saya"
 
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
@@ -256,7 +256,7 @@ msgstr ""
 #. module: helpdesk_timesheet
 #: model_terms:ir.actions.act_window,help:helpdesk_timesheet.act_hr_timesheet_line_helpdesk
 msgid "Record a new activity"
-msgstr ""
+msgstr "Catat kegiatan baru"
 
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
@@ -276,7 +276,7 @@ msgstr "Simpan"
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_create_timesheet_view_form
 msgid "Save time"
-msgstr ""
+msgstr "Menghemat waktu"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__total_hours_spent
@@ -331,12 +331,12 @@ msgstr "Tiket"
 #. module: helpdesk_timesheet
 #: model:ir.model,name:helpdesk_timesheet.model_helpdesk_ticket_report_analysis
 msgid "Ticket Analysis"
-msgstr ""
+msgstr "Analisis Tiket"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,help:helpdesk_timesheet.field_helpdesk_ticket_create_timesheet__ticket_id
 msgid "Ticket for which we are creating a sales order"
-msgstr ""
+msgstr "Tiket untuk mana kita membuat sales order"
 
 #. module: helpdesk_timesheet
 #: code:addons/helpdesk_timesheet/models/project.py:0
@@ -355,12 +355,12 @@ msgstr "Waktu"
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__timer_pause
 msgid "Timer Last Pause"
-msgstr ""
+msgstr "Timer Jeda Terakhir"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__timer_start
 msgid "Timer Start"
-msgstr ""
+msgstr "Timer Mulai"
 
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
@@ -370,12 +370,12 @@ msgstr "Aktifitas Lembar waktu"
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_team__timesheet_encode_uom_id
 msgid "Timesheet Encoding Unit"
-msgstr ""
+msgstr "Encoding Unit Timesheet"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__use_helpdesk_timesheet
 msgid "Timesheet activated on Team"
-msgstr ""
+msgstr "Timesheet diaktifkan pada Tim"
 
 #. module: helpdesk_timesheet
 #: model:ir.actions.act_window,name:helpdesk_timesheet.act_hr_timesheet_line_helpdesk
@@ -387,7 +387,7 @@ msgstr "Tabel Waktu"
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_team__total_timesheet_time
 msgid "Total Timesheet Time"
-msgstr ""
+msgstr "Waktu Total Timeshee"
 
 #. module: helpdesk_timesheet
 #: model_terms:ir.actions.act_window,help:helpdesk_timesheet.act_hr_timesheet_line_helpdesk
@@ -395,8 +395,10 @@ msgid ""
 "Track your working hours by projects every day and invoice this time to your"
 " customers."
 msgstr ""
+"Lacak jam kerja Anda untuk project setiap hari dan fakturkan waktu tersebut "
+"ke pelanggan Anda."
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__user_timer_id
 msgid "User Timer"
-msgstr ""
+msgstr "Timer User"

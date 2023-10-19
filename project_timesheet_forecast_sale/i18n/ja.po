@@ -56,7 +56,7 @@ msgstr "コンサルタント"
 #. module: project_timesheet_forecast_sale
 #: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_project_project__display_planning_timesheet_analysis
 msgid "Display Planning Timesheet Analysis"
-msgstr ""
+msgstr "計画タイムシート分析"
 
 #. module: project_timesheet_forecast_sale
 #: model_terms:ir.ui.view,arch_db:project_timesheet_forecast_sale.project_update_default_description
@@ -119,7 +119,7 @@ msgstr "販売オーダ明細"
 #. module: project_timesheet_forecast_sale
 #: model:ir.model.fields,help:project_timesheet_forecast_sale.field_project_project__display_planning_timesheet_analysis
 msgid "Should we display the planning and timesheet analysis button?"
-msgstr ""
+msgstr "計画とタイムシートの分析ボタンを表示しますか？"
 
 #. module: project_timesheet_forecast_sale
 #: model:planning.role,name:project_timesheet_forecast_sale.planning_role_junior_architect
@@ -139,7 +139,7 @@ msgstr "タスク"
 #. module: project_timesheet_forecast_sale
 #: model:ir.model,name:project_timesheet_forecast_sale.model_project_timesheet_forecast_report_analysis
 msgid "Timesheet & Planning Statistics"
-msgstr ""
+msgstr "タイムシートと計画統計"
 
 #. module: project_timesheet_forecast_sale
 #: code:addons/project_timesheet_forecast_sale/models/project.py:0

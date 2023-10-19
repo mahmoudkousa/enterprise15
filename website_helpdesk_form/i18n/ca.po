@@ -3,10 +3,11 @@
 # 	* website_helpdesk_form
 # 
 # Translators:
-# Martin Trigaux, 2021
-# Quim - eccit <quim@eccit.com>, 2021
-# jabelchi, 2021
+# Josep Anton Belchi, 2021
 # marcescu, 2022
+# Quim - eccit <quim@eccit.com>, 2023
+# M Palau <mpalau@tda.ad>, 2023
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:56+0000\n"
 "PO-Revision-Date: 2021-09-14 12:44+0000\n"
-"Last-Translator: marcescu, 2022\n"
-"Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
+"Last-Translator: Martin Trigaux, 2023\n"
+"Language-Team: Catalan (https://app.transifex.com/odoo/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -75,6 +76,13 @@ msgstr ""
 "                                            <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: website_helpdesk_form
+#. openerp-web
+#: code:addons/website_helpdesk_form/static/src/js/website_helpdesk_form_editor.js:0
+#, python-format
+msgid "Description"
+msgstr "Descripció"
+
+#. module: website_helpdesk_form
 #: model:ir.model.fields,field_description:website_helpdesk_form.field_helpdesk_team__website_form_view_id
 msgid "Form"
 msgstr "Formulari"
@@ -86,6 +94,13 @@ msgstr "Formulari"
 #, python-format
 msgid "Helpdesk Team"
 msgstr "Equip de helpdesk"
+
+#. module: website_helpdesk_form
+#. openerp-web
+#: code:addons/website_helpdesk_form/static/src/js/website_helpdesk_form_editor.js:0
+#, python-format
+msgid "Subject"
+msgstr "Assumpte"
 
 #. module: website_helpdesk_form
 #: model_terms:ir.ui.view,arch_db:website_helpdesk_form.ticket_submit_form
@@ -105,9 +120,18 @@ msgstr ""
 "Gràcies per presentar la seva qüestió, el nostre equip es posara en marxa!"
 
 #. module: website_helpdesk_form
-#: model:ir.model.fields,field_description:website_helpdesk_form.field_helpdesk_team__feature_form_url
-msgid "URL to Submit Issue"
-msgstr "Enllaç a enviar la incidència"
+#. openerp-web
+#: code:addons/website_helpdesk_form/static/src/js/website_helpdesk_form_editor.js:0
+#, python-format
+msgid "Your Email"
+msgstr "El vostre correu electrònic"
+
+#. module: website_helpdesk_form
+#. openerp-web
+#: code:addons/website_helpdesk_form/static/src/js/website_helpdesk_form_editor.js:0
+#, python-format
+msgid "Your Name"
+msgstr "El vostre nom"
 
 #. module: website_helpdesk_form
 #: model_terms:ir.ui.view,arch_db:website_helpdesk_form.ticket_submited

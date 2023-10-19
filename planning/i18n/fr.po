@@ -983,7 +983,7 @@ msgstr "Laissez les employés se désassigner eux-mêmes"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.res_config_settings_view_form
 msgid "Let employees unassign themselves from shifts"
-msgstr "Laissez vos employés se désassigner eux-mêmes des postes"
+msgstr "Laisser vos employés se désassigner eux-mêmes des postes"
 
 #. module: planning
 #: model:ir.model.fields,help:planning.field_planning_planning__allow_self_unassign
@@ -992,7 +992,7 @@ msgstr "Laissez vos employés se désassigner eux-mêmes des postes"
 #: model:ir.model.fields,help:planning.field_res_config_settings__planning_allow_self_unassign
 msgid "Let your employees un-assign themselves from shifts when unavailable"
 msgstr ""
-"Laissez vos employés se désassigner eux-mêmes des postes lorsqu'ils sont "
+"Laisser vos employés se désassigner eux-mêmes des postes lorsqu'ils sont "
 "indisponibles"
 
 #. module: planning

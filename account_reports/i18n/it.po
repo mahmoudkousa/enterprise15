@@ -5,8 +5,8 @@
 # Translators:
 # Friederike Fasterling-Nesselbosch, 2022
 # Martin Trigaux, 2022
-# Marianna Ciofani, 2023
 # Sergio Zanchetta <primes2h@gmail.com>, 2023
+# Marianna Ciofani, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-18 09:51+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2023\n"
+"Last-Translator: Marianna Ciofani, 2023\n"
 "Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -385,12 +385,11 @@ msgstr "<span>Ad alcuni partner manca la partita IVA.</span>"
 #: model_terms:ir.ui.view,arch_db:account_reports.template_tax_report
 msgid ""
 "<span>This company is part of a tax unit. You're currently not viewing the "
-"whole unit; to change that, tick the \"aggregate\" option of \"tax unit\" "
-"menu.</span>"
+"whole unit. To change that, use the Tax Unit filter.</span>"
 msgstr ""
 "<span>Questa azienda fa parte di un'unità fiscale. Attualmente non stai "
-"visualizzando l'intera unità; per cambiarla, spunta l'opzione \"aggregare\" "
-"del menu \"unità fiscale\".</span>"
+"visualizzando l'intera unità. Per modificare, utilizza il filtro unità "
+"fiscale.</span>"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.template_multicurrency_report
@@ -452,7 +451,7 @@ msgstr "Codice conto"
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_res_company__account_display_representative_field
 msgid "Account Display Representative Field"
-msgstr ""
+msgstr "Campo rappresentativo visualizzazione conto"
 
 #. module: account_reports
 #: model:ir.model,name:account_reports.model_report_account_report_journal
@@ -493,7 +492,7 @@ msgstr "Nota a piè pagina resoconto conto"
 #: model:ir.model.fields,field_description:account_reports.field_res_partner__account_represented_company_ids
 #: model:ir.model.fields,field_description:account_reports.field_res_users__account_represented_company_ids
 msgid "Account Represented Company"
-msgstr ""
+msgstr "Conto azienda rappresentata"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_res_company__account_revaluation_journal_id
@@ -1042,7 +1041,7 @@ msgstr "Righe conti figli"
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "Closing Entry"
-msgstr ""
+msgstr "Voce di chiusura"
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_closing_bank_balance0
@@ -1867,12 +1866,12 @@ msgstr "ID"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.report_journal
 msgid "Impact On Grid"
-msgstr ""
+msgstr "Impatto griglia imposte"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.report_journal
 msgid "Impacted Tax Grids"
-msgstr ""
+msgstr "Griglie imposte interessate"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.line_template_multicurrency_report
@@ -2255,6 +2254,8 @@ msgid ""
 "Multiple draft tax closing entries exist for fiscal position %s after %s. There should be at most one. \n"
 " %s"
 msgstr ""
+"Esistono diverse registrazioni di chiusura imposta in bozza per la posizione di bilancio %s dopo %s. Dovrebbe essercene al massimo una. \n"
+" %s"
 
 #. module: account_reports
 #: code:addons/account_reports/models/res_company.py:0
@@ -2263,6 +2264,8 @@ msgid ""
 "Multiple draft tax closing entries exist for your domestic region after %s. There should be at most one. \n"
 " %s"
 msgstr ""
+"Esistono diverse registrazioni di chiusura imposta in bozza per la tua regione dopo %s. Dovrebbe essercene al massimo una. \n"
+"%s"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
@@ -2977,7 +2980,7 @@ msgstr "Dichiarazione imposta"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.report_journal
 msgid "Tax Grid"
-msgstr ""
+msgstr "Griglia imposte"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_tax_unit__vat
@@ -3044,13 +3047,13 @@ msgstr "Resoconto fiscale"
 #: code:addons/account_reports/models/res_company.py:0
 #, python-format
 msgid "Tax return for %s%s"
-msgstr ""
+msgstr "Dichiarazione fiscale per %s%s"
 
 #. module: account_reports
 #: code:addons/account_reports/models/res_company.py:0
 #, python-format
 msgid "Tax return from %s to %s%s"
-msgstr ""
+msgstr "Dichiarazione IVA dal %s al %s%s"
 
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_account_bank_statement_line__tax_closing_end_date
@@ -3266,6 +3269,8 @@ msgid ""
 "Transactions(-) that were entered into Odoo, but not yet reconciled "
 "(Payments triggered by bills/credit notes or manually)"
 msgstr ""
+"Le operazioni(-) che sono state inserite in Odoo ma non ancora riconciliate "
+"(Pagamenti attivati da fatture fornitore/note di credito o manualmente)"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_report_coa.py:0
@@ -3373,7 +3378,7 @@ msgstr "Vizualizza estratto conto"
 #: code:addons/account_reports/static/src/xml/account_report_template.xml:0
 #, python-format
 msgid "View Carryover Lines"
-msgstr ""
+msgstr "Mostra righe di riporto"
 
 #. module: account_reports
 #. openerp-web

@@ -9,6 +9,7 @@
 # monchai7 <montchye@gmail.com>, 2021
 # Odoo Thaidev <odoothaidev@gmail.com>, 2021
 # Wichanon Jamwutthipreecha, 2022
+# Rasareeyar Lappiam, 2023
 # 
 msgid ""
 msgstr ""
@@ -16,8 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:42+0000\n"
-"Last-Translator: Wichanon Jamwutthipreecha, 2022\n"
-"Language-Team: Thai (https://www.transifex.com/odoo/teams/41243/th/)\n"
+"Last-Translator: Rasareeyar Lappiam, 2023\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -28,12 +29,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:quality.field_quality_alert_team__alert_count
 #: model:ir.model.fields,field_description:quality.field_quality_check__alert_count
 msgid "# Quality Alerts"
-msgstr ""
+msgstr "# การแจ้งเตือน การจัดการคุณภาพ"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert_team__check_count
 msgid "# Quality Checks"
-msgstr ""
+msgstr "# การตรวจสอบคุณภาพ"
 
 #. module: quality
 #: model:ir.model.fields,help:quality.field_quality_alert_team__alias_defaults
@@ -55,7 +56,7 @@ msgstr "ต้องดำเนินการ"
 #. module: quality
 #: model:quality.alert.stage,name:quality.quality_alert_stage_2
 msgid "Action Proposed"
-msgstr ""
+msgstr "การดำเนินการที่เสนอ"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_point__active
@@ -94,7 +95,7 @@ msgstr "โน๊ตเพิ่มเติม"
 #. module: quality
 #: model:ir.model.fields,help:quality.field_quality_check__additional_note
 msgid "Additional remarks concerning this check."
-msgstr ""
+msgstr "ข้อสังเกตเพิ่มเติมเกี่ยวกับเช็คนี้"
 
 #. module: quality
 #: model:res.groups,name:quality.group_quality_manager
@@ -104,7 +105,7 @@ msgstr "ผู้ดูแลระบบ"
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert_stage__done
 msgid "Alert Processed"
-msgstr ""
+msgstr "ดำเนินการแจ้งเตือนแล้ว"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_check__alert_ids
@@ -152,7 +153,7 @@ msgstr "จํานวนสิ่งที่แนบมา"
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_point__reason
 msgid "Cause"
-msgstr ""
+msgstr "สาเหตุ"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__check_id
@@ -163,7 +164,7 @@ msgstr "ตรวจสอบ"
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_point__check_count
 msgid "Check Count"
-msgstr ""
+msgstr "จำนวนที่ตรวจสอบ"
 
 #. module: quality
 #. openerp-web
@@ -212,12 +213,12 @@ msgstr "วันที่ควบคุม"
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_check__point_id
 msgid "Control Point"
-msgstr ""
+msgstr "จุดควบคุม"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__action_corrective
 msgid "Corrective Action"
-msgstr ""
+msgstr "การดำเนินการแก้ไข"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__create_uid
@@ -256,7 +257,7 @@ msgstr "ข้อความตีกลับที่กำหนดเอง
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__date_assign
 msgid "Date Assigned"
-msgstr ""
+msgstr "วันที่ได้รับมอบหมาย"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__date_close
@@ -276,12 +277,12 @@ msgstr "กำหนดประเภทของจุดควบคุมค
 #. module: quality
 #: model_terms:ir.ui.view,arch_db:quality.quality_point_view_form
 msgid "Describe the quality check to do..."
-msgstr ""
+msgstr "อธิบายการตรวจสอบคุณภาพที่ต้องทำ..."
 
 #. module: quality
 #: model_terms:ir.ui.view,arch_db:quality.quality_point_view_form
 msgid "Describe why you need to perform this quality check..."
-msgstr ""
+msgstr "อธิบายว่าเหตุใดคุณจึงต้องดำเนินการตรวจสอบคุณภาพนี้..."
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__description
@@ -438,7 +439,7 @@ msgstr "กำลังดำเนินการ"
 #. module: quality
 #: model_terms:ir.ui.view,arch_db:quality.quality_point_view_form
 msgid "Instructions"
-msgstr ""
+msgstr "คำแนะนำ"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__message_is_follower
@@ -542,7 +543,7 @@ msgstr "หมดเขตกิจกรรมของฉัน"
 #. module: quality
 #: model_terms:ir.ui.view,arch_db:quality.quality_alert_view_search
 msgid "My Alerts"
-msgstr ""
+msgstr "การแจ้งเตือนของฉัน"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__name
@@ -599,6 +600,8 @@ msgid ""
 "No quality team found for this company.\n"
 "Please go to configuration and create one first."
 msgstr ""
+"ไม่พบทีมงานตรวจสอบคุณภาพสำหรับบริษัทนี้\n"
+"โปรดไปที่การกำหนดค่าและสร้างขึ้นมาก่อน"
 
 #. module: quality
 #: model:ir.model.fields.selection,name:quality.selection__quality_alert__priority__0
@@ -718,12 +721,12 @@ msgstr "คู่ค้า"
 #. module: quality
 #: model:quality.reason,name:quality.reason_parts
 msgid "Parts Quality"
-msgstr ""
+msgstr "คุณภาพชิ้นส่วน"
 
 #. module: quality
 #: model:ir.model.fields.selection,name:quality.selection__quality_check__quality_state__pass
 msgid "Passed"
-msgstr ""
+msgstr "ผ่าน"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__picking_id
@@ -752,7 +755,7 @@ msgstr ""
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__action_preventive
 msgid "Preventive Action"
-msgstr ""
+msgstr "การดำเนินการป้องกัน"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__priority
@@ -790,12 +793,12 @@ msgstr "การแจ้งเตือนคุณภาพ"
 #. module: quality
 #: model:ir.model,name:quality.model_quality_alert_stage
 msgid "Quality Alert Stage"
-msgstr ""
+msgstr "ขั้นตอนการแจ้งเตือนคุณภาพ"
 
 #. module: quality
 #: model:ir.model,name:quality.model_quality_alert_team
 msgid "Quality Alert Team"
-msgstr ""
+msgstr "ทีมงานแจ้งเตือนคุณภาพ"
 
 #. module: quality
 #: model:ir.model,name:quality.model_quality_check
@@ -817,7 +820,7 @@ msgstr "ประเภทการทดสอบการควบคุมค
 msgid ""
 "Quality Point will apply to every Products in the selected Product "
 "Categories."
-msgstr ""
+msgstr "คะแนนคุณภาพจะนำไปใช้กับทุกสินค้าในหมวดหมู่สินค้าที่เลือก"
 
 #. module: quality
 #: model:ir.model.fields,help:quality.field_quality_point__product_ids
@@ -827,12 +830,12 @@ msgstr "คะแนนคุณภาพจะนำไปใช้กับท
 #. module: quality
 #: model:ir.model,name:quality.model_quality_tag
 msgid "Quality Tag"
-msgstr ""
+msgstr "แท็กการจัดการคุณภาพ"
 
 #. module: quality
 #: model_terms:ir.ui.view,arch_db:quality.quality_alert_view_search
 msgid "Quality Team"
-msgstr ""
+msgstr "ทีมการจัดการคุณภาพ"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert_team__alias_force_thread_id
@@ -863,12 +866,12 @@ msgstr "ผู้ใช้ที่รับผิดชอบ"
 #: model:ir.model.fields,field_description:quality.field_quality_alert__reason_id
 #: model_terms:ir.ui.view,arch_db:quality.quality_alert_view_search
 msgid "Root Cause"
-msgstr ""
+msgstr "สาเหตุที่แท้จริง"
 
 #. module: quality
 #: model:ir.model,name:quality.model_quality_reason
 msgid "Root Cause for Quality Failure"
-msgstr ""
+msgstr "สาเหตุที่แท้จริงของความล้มเหลวด้านคุณภาพ"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__message_has_sms_error
@@ -935,7 +938,7 @@ msgstr "ป้ายกำกับ"
 #: code:addons/quality/static/src/xml/widget_template.xml:0
 #, python-format
 msgid "Take a Picture"
-msgstr ""
+msgstr "ถ่ายภาพ"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__team_id
@@ -997,12 +1000,12 @@ msgstr ""
 #. module: quality
 #: model:res.groups,comment:quality.group_quality_manager
 msgid "The quality manager manages the quality process"
-msgstr ""
+msgstr "ผู้จัดการคุณภาพจะจัดการขั้นตอนการตรวจสอบคุณภาพ"
 
 #. module: quality
 #: model:res.groups,comment:quality.group_quality_user
 msgid "The quality user uses the quality process"
-msgstr ""
+msgstr "ผู้ใช้ที่มีคุณภาพจะใช้กระบวนการที่มีคุณภาพ"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_check__title
@@ -1013,7 +1016,7 @@ msgstr "คำนำหน้าชื่อ"
 #. module: quality
 #: model:ir.model.fields.selection,name:quality.selection__quality_check__quality_state__none
 msgid "To do"
-msgstr ""
+msgstr "To do"
 
 #. module: quality
 #: model_terms:ir.ui.view,arch_db:quality.quality_alert_view_search
@@ -1058,7 +1061,7 @@ msgstr "กำลังอัพโหลด..."
 #. module: quality
 #: model:ir.model.fields,help:quality.field_quality_tag__color
 msgid "Used in the kanban view"
-msgstr ""
+msgstr "ใช้ในมุมมองคัมบัง"
 
 #. module: quality
 #: model:res.groups,name:quality.group_quality_user
@@ -1080,7 +1083,7 @@ msgstr "สูงมาก"
 #: code:addons/quality/static/src/xml/widget_template.xml:0
 #, python-format
 msgid "Viewer"
-msgstr ""
+msgstr "ผู้ดู"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__website_message_ids
@@ -1101,14 +1104,14 @@ msgstr "ประวัติการสื่อสารของเว็บ
 #. module: quality
 #: model:quality.reason,name:quality.reason_wo
 msgid "Work Operation"
-msgstr ""
+msgstr "การดำเนินงาน"
 
 #. module: quality
 #: model:quality.reason,name:quality.reason_workcenter
 msgid "Workcenter Failure"
-msgstr ""
+msgstr "ศูนย์งานล้มเหลว"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_point_test_type__active
 msgid "active"
-msgstr ""
+msgstr "ใช้งาน"

@@ -14,6 +14,7 @@
 # Vladimir Vrgoč, 2022
 # Matej Mijoč, 2022
 # Bole <bole@dajmi5.com>, 2023
+# Antonijo Kovacevic, 2023
 # 
 msgid ""
 msgstr ""
@@ -21,8 +22,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 11:16+0000\n"
 "PO-Revision-Date: 2021-09-14 12:38+0000\n"
-"Last-Translator: Bole <bole@dajmi5.com>, 2023\n"
-"Language-Team: Croatian (https://www.transifex.com/odoo/teams/41243/hr/)\n"
+"Last-Translator: Antonijo Kovacevic, 2023\n"
+"Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -340,6 +341,13 @@ msgid "Active"
 msgstr "Aktivan"
 
 #. module: appointment
+#. openerp-web
+#: code:addons/appointment/static/src/js/wysiwyg.js:0
+#, python-format
+msgid "Add a specific appointment."
+msgstr ""
+
+#. module: appointment
 #: model:res.groups,name:appointment.group_calendar_manager
 msgid "Administrator"
 msgstr "Administrator"
@@ -393,6 +401,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_answer_view_form
 msgid "Answer"
 msgstr "Odgovor"
+
+#. module: appointment
+#. openerp-web
+#: code:addons/appointment/static/src/js/wysiwyg.js:0
+#, python-format
+msgid "Appointment"
+msgstr "Sastanak"
 
 #. module: appointment
 #: model:mail.message.subtype,description:appointment.mt_calendar_event_booked
@@ -542,7 +557,18 @@ msgid "Available Employees"
 msgstr ""
 
 #. module: appointment
+#. openerp-web
+#: code:addons/appointment/static/src/js/wysiwyg.js:0
+#: code:addons/appointment/static/src/js/wysiwyg.js:0
+#, python-format
+msgid "Basic blocks"
+msgstr ""
+
+#. module: appointment
+#. openerp-web
+#: code:addons/appointment/static/src/js/wysiwyg.js:0
 #: model:ir.ui.menu,name:appointment.calendar_appointment_type_menu_action
+#, python-format
 msgid "Calendar"
 msgstr "Kalendar"
 
@@ -846,6 +872,13 @@ msgstr "Ako je označeno, nove poruke zahtijevaju Vašu pažnju."
 #: model:ir.model.fields,help:appointment.field_calendar_appointment_type__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
+
+#. module: appointment
+#. openerp-web
+#: code:addons/appointment/static/src/js/wysiwyg.js:0
+#, python-format
+msgid "Insert Appointment Link"
+msgstr ""
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_insert_share_view_form
@@ -1171,7 +1204,7 @@ msgstr "Greška u slanju SMSa"
 #. module: appointment
 #: model:calendar.alarm,name:appointment.calendar_alarm_data_1h_sms
 msgid "SMS Text Message - 1 Hours"
-msgstr ""
+msgstr "SMS poruka - 1 sat"
 
 #. module: appointment
 #: model:ir.model.fields.selection,name:appointment.selection__calendar_appointment_slot__weekday__6
@@ -1191,6 +1224,13 @@ msgstr ""
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointments_list_layout
 msgid "Schedule an Appointment"
+msgstr ""
+
+#. module: appointment
+#. openerp-web
+#: code:addons/appointment/static/src/js/wysiwyg.js:0
+#, python-format
+msgid "Schedule an appointment."
 msgstr ""
 
 #. module: appointment

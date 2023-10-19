@@ -80,7 +80,7 @@ msgstr "Przewidywana następna usterka"
 #. module: mrp_maintenance
 #: model:ir.model.fields,field_description:mrp_maintenance.field_maintenance_equipment__estimated_next_failure
 msgid "Estimated time before next failure (in days)"
-msgstr ""
+msgstr "Szacowany czas do następnej awarii (w dniach)"
 
 #. module: mrp_maintenance
 #: model:ir.model.fields,field_description:mrp_maintenance.field_maintenance_equipment__expected_mtbf
@@ -166,6 +166,7 @@ msgstr "Średni czas między usterkami"
 msgid ""
 "Mean Time Between Failure, computed based on done corrective maintenances."
 msgstr ""
+"Średni czas między awariami, obliczony na podstawie przeprowadzonych napraw."
 
 #. module: mrp_maintenance
 #: model:ir.model.fields,help:mrp_maintenance.field_maintenance_equipment__mttr

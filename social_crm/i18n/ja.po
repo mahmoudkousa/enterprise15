@@ -33,12 +33,12 @@ msgstr ""
 #. module: social_crm
 #: model:ir.model.fields,field_description:social_crm.field_social_post__leads_opportunities_count
 msgid "Leads / Opportunities count"
-msgstr ""
+msgstr "リード / 案件数"
 
 #. module: social_crm
 #: model_terms:ir.ui.view,arch_db:social_crm.social_post_view_kanban
 msgid "Leads:"
-msgstr ""
+msgstr "リード:"
 
 #. module: social_crm
 #: model_terms:ir.ui.view,arch_db:social_crm.social_post_view_kanban

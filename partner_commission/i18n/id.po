@@ -394,7 +394,7 @@ msgstr "Berlangganan"
 #. module: partner_commission
 #: model:ir.model.fields,field_description:partner_commission.field_commission_rule__template_id
 msgid "Subscription Template"
-msgstr ""
+msgstr "Templat Langganan"
 
 #. module: partner_commission
 #: model:ir.model.fields,help:partner_commission.field_sale_order__commission_plan_id

@@ -18,7 +18,7 @@ msgstr ""
 "POT-Creation-Date: 2021-10-05 11:16+0000\n"
 "PO-Revision-Date: 2021-09-14 12:39+0000\n"
 "Last-Translator: Mikael Åkerberg <mikael.akerberg@mariaakerberg.com>, 2023\n"
-"Language-Team: Swedish (https://www.transifex.com/odoo/teams/41243/sv/)\n"
+"Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -796,7 +796,7 @@ msgstr "Enkäter"
 #. module: hr_appraisal_survey
 #: model:mail.template,subject:hr_appraisal_survey.mail_template_appraisal_ask_feedback
 msgid "Take part in {{ object.employee_id.name or 'this' }} appraisal"
-msgstr "Delta i {{ object.employee_id.name eller \"detta }} utvärdering"
+msgstr "Delta i {{ object.employee_id.name or 'this' }} utvärdering"
 
 #. module: hr_appraisal_survey
 #: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_4
@@ -810,7 +810,7 @@ msgstr ""
 #. module: hr_appraisal_survey
 #: model:survey.question.answer,value:hr_appraisal_survey.arow_3_1_10
 msgid "Technical skills regarding to the job requirements"
-msgstr "Tekniska färdigheter i förhållande till arbetets krav"
+msgstr "Tekniska kompetenser i förhållande till arbetets krav"
 
 #. module: hr_appraisal_survey
 #: model:survey.question,validation_error_msg:hr_appraisal_survey.appraisal_1

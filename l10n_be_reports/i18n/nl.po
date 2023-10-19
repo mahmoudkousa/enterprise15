@@ -4,16 +4,17 @@
 # 
 # Translators:
 # Martin Trigaux, 2022
-# Jolien De Paepe, 2022
+# Dylan Kiss, 2023
+# Jolien De Paepe, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-17 12:04+0000\n"
+"POT-Creation-Date: 2022-04-08 11:15+0000\n"
 "PO-Revision-Date: 2022-04-08 12:42+0000\n"
-"Last-Translator: Jolien De Paepe, 2022\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Last-Translator: Jolien De Paepe, 2023\n"
+"Language-Team: Dutch (https://app.transifex.com/odoo/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -605,10 +606,10 @@ msgstr ""
 #. module: l10n_be_reports
 #: model:account.financial.html.report.line,name:l10n_be_reports.account_financial_report_be_provisions_pour_risques_et_charges0
 msgid ""
-"635/8 - Provisions pour risques et charges: dotations (utilisations et "
+"635/7 - Provisions pour risques et charges: dotations (utilisations et "
 "reprises)"
 msgstr ""
-"635/8 - Voorzieningen voor risico's en kosten: toevoegingen (bestedingen en "
+"635/7 - Voorzieningen voor risico's en kosten: toevoegingen (bestedingen en "
 "terugnemingen)"
 
 #. module: l10n_be_reports
@@ -646,7 +647,7 @@ msgstr ""
 #. module: l10n_be_reports
 #: model:account.financial.html.report.line,name:l10n_be_reports.account_financial_report_be_652_9
 msgid "652/9 - Autres charges financières"
-msgstr "652/9 - Overige fincanciële kosten"
+msgstr "652/9 - Overige financiële kosten"
 
 #. module: l10n_be_reports
 #: model:account.financial.html.report.line,name:l10n_be_reports.account_financial_report_be_charges_exceptionnelles0
@@ -919,7 +920,7 @@ msgstr "Boekhoudrapoorten"
 #. module: l10n_be_reports
 #: model:ir.model,name:l10n_be_reports.model_account_tax_report
 msgid "Account Tax Report"
-msgstr "BTW rapportage"
+msgstr "Btw-aangifte"
 
 #. module: l10n_be_reports
 #: model:ir.model.fields.selection,name:l10n_be_reports.selection__l10n_be_reports_281_50_wizard__type_treatment__2
@@ -947,16 +948,6 @@ msgstr "Betaling vragen"
 #: model:ir.model.fields,field_description:l10n_be_reports.field_l10n_be_reports_periodic_vat_xml_export__ask_restitution
 msgid "Ask Restitution"
 msgstr "Teruggave vragen"
-
-#. module: l10n_be_reports
-#: model_terms:ir.ui.view,arch_db:l10n_be_reports.filter_info_template
-msgid "Ask payment:"
-msgstr "Betaling vragen:"
-
-#. module: l10n_be_reports
-#: model_terms:ir.ui.view,arch_db:l10n_be_reports.filter_info_template
-msgid "Ask restitution:"
-msgstr "Teruggave vragen:"
 
 #. module: l10n_be_reports
 #: model_terms:ir.ui.view,arch_db:l10n_be_reports.line_caret_options
@@ -1006,11 +997,6 @@ msgstr "Nationaal registratienummer"
 #: model:ir.model.fields,field_description:l10n_be_reports.field_l10n_be_reports_periodic_vat_xml_export__client_nihil
 msgid "Client Nihil"
 msgstr "Klant Nihil"
-
-#. module: l10n_be_reports
-#: model_terms:ir.ui.view,arch_db:l10n_be_reports.filter_info_template
-msgid "Client nihil:"
-msgstr "Klant nihil:"
 
 #. module: l10n_be_reports
 #: model_terms:ir.ui.view,arch_db:l10n_be_reports.l10n_be_281_50_form_wizard
@@ -1191,7 +1177,7 @@ msgstr "Download formulier 281.50"
 #. module: l10n_be_reports
 #: model:ir.model,name:l10n_be_reports.model_account_sales_report
 msgid "EC Sales List"
-msgstr "EC verkooplijst"
+msgstr "Btw-opgave van de intracommunautaire handelingen"
 
 #. module: l10n_be_reports
 #: code:addons/l10n_be_reports/models/res_partner.py:0
@@ -1256,7 +1242,7 @@ msgstr "Formulierbestand"
 #. module: l10n_be_reports
 #: model:ir.model,name:l10n_be_reports.model_account_generic_tax_report
 msgid "Generic Tax Report"
-msgstr "Btw-rapportage"
+msgstr "Btw-aangifte"
 
 #. module: l10n_be_reports
 #: model:ir.model,name:l10n_be_reports.model_report_l10n_be_reports_report_281_50_pdf
@@ -1343,11 +1329,6 @@ msgstr "Ontbrekende partnergegevens"
 #: model:ir.model.fields.selection,name:l10n_be_reports.selection__l10n_be_reports_281_50_wizard__type_treatment__1
 msgid "Modification"
 msgstr "Wijzigingen"
-
-#. module: l10n_be_reports
-#: model_terms:ir.ui.view,arch_db:l10n_be_reports.filter_info_template
-msgid "No"
-msgstr "Nee"
 
 #. module: l10n_be_reports
 #: code:addons/l10n_be_reports/models/account_sales_report.py:0
@@ -1437,7 +1418,7 @@ msgstr "PASSIEF"
 #: model:ir.ui.menu,name:l10n_be_reports.menu_action_account_report_partner_vat_listing
 #, python-format
 msgid "Partner VAT Listing"
-msgstr "Jaarlijkse klantenlisting"
+msgstr "Jaarlijkse lijst van de btw-belastingplichtige afnemers"
 
 #. module: l10n_be_reports
 #: model_terms:ir.ui.view,arch_db:l10n_be_reports.view_partner_28150_required_fields
@@ -1668,11 +1649,6 @@ msgstr "XML"
 #, python-format
 msgid "XML Export Options"
 msgstr "XML exporteer opties"
-
-#. module: l10n_be_reports
-#: model_terms:ir.ui.view,arch_db:l10n_be_reports.filter_info_template
-msgid "Yes"
-msgstr "Ja"
 
 #. module: l10n_be_reports
 #: code:addons/l10n_be_reports/wizard/l10n_be_281_50_wizard.py:0

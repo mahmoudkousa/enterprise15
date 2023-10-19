@@ -3,8 +3,9 @@
 # 	* voip
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
+# Martin Trigaux, 2023
+# Larissa Manderfeld, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-16 06:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Larissa Manderfeld, 2023\n"
+"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -23,7 +24,7 @@ msgstr ""
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_phonecall_report__nbr
 msgid "# of Cases"
-msgstr "Fälle"
+msgstr "# Fälle"
 
 #. module: voip
 #. openerp-web
@@ -46,17 +47,17 @@ msgstr "Aktivität"
 #: code:addons/voip/static/src/js/call_center_field.js:0
 #, python-format
 msgid "Add to Call Queue"
-msgstr "An Anruf-Warteschlage anhängen"
+msgstr "Zur Anruf-Warteschlange hinzufügen"
 
 #. module: voip
 #: model:ir.actions.server,name:voip.action_add_to_call_queue
 msgid "Add to call queue"
-msgstr "An Anruf-Warteschlage anhängen"
+msgstr "Zur Anruf-Warteschlange hinzufügen"
 
 #. module: voip
 #: model:ir.model,name:voip.model_voip_queue_mixin
 msgid "Add voip queue support to a model"
-msgstr ""
+msgstr "Unterstützung für Voip-Warteschlangen zu einem Modell hinzufügen"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_res_users__sip_always_transfer
@@ -70,7 +71,7 @@ msgstr "Immer zu Handset weiterleiten"
 msgid ""
 "Are you sure that you want to close this website? There's a call ongoing."
 msgstr ""
-"Sind Sie sicher, dass Sie diese Website schließen wollen? Es läuft gerade "
+"Sind Sie sicher, dass Sie diese Website schließen möchten? Es läuft gerade "
 "ein Gespräch."
 
 #. module: voip
@@ -94,7 +95,7 @@ msgstr "Avatar"
 #: code:addons/voip/static/src/xml/dialing_panel.xml:0
 #, python-format
 msgid "Backspace"
-msgstr "zurück"
+msgstr "Zurück"
 
 #. module: voip
 #. openerp-web
@@ -112,7 +113,7 @@ msgstr "KONTAKTE"
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "Call"
-msgstr "Anrufe"
+msgstr "Anruf"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_phonecall__call_date
@@ -128,7 +129,7 @@ msgstr "Anrufname"
 #: code:addons/voip/models/voip_phonecall.py:0
 #, python-format
 msgid "Call duration: %(min)smin %(sec)ssec"
-msgstr ""
+msgstr "Anrufdauer: %(min)s Min. %(sec)s Sek."
 
 #. module: voip
 #. openerp-web
@@ -191,7 +192,7 @@ msgstr "Abgebrochen"
 #: code:addons/voip/static/src/js/dialing_panel.js:0
 #, python-format
 msgid "Click to unblock"
-msgstr "Klicken, um Sperre aufzuheben"
+msgstr "Zum Entblockieren klicken"
 
 #. module: voip
 #. openerp-web
@@ -204,7 +205,7 @@ msgstr "Schließen"
 #. module: voip
 #: model:ir.model,name:voip.model_res_config_settings
 msgid "Config Settings"
-msgstr "Konfiguration "
+msgstr "Konfigurationseinstellungen "
 
 #. module: voip
 #. openerp-web
@@ -237,7 +238,7 @@ msgstr "Erstellt am"
 #. module: voip
 #: model_terms:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
 msgid "Creation Date"
-msgstr "Erzeugt am"
+msgstr "Erstellungsdatum"
 
 #. module: voip
 #. openerp-web
@@ -296,7 +297,7 @@ msgstr "Nicht verschieben"
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_phonecall__date_deadline
 msgid "Due Date"
-msgstr "Fälligkeit"
+msgstr "Fälligkeitsdatum"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_phonecall__duration
@@ -337,12 +338,14 @@ msgstr "Nummer oder Namen eingeben"
 #: code:addons/voip/static/src/xml/dialing_panel.xml:0
 #, python-format
 msgid "Enter the number..."
-msgstr "Nummer eingeben..."
+msgstr "Nummer eingeben ..."
 
 #. module: voip
 #: model:ir.model.fields,help:voip.field_voip_phonecall__sequence
 msgid "Gives the sequence order when displaying a list of Phonecalls."
-msgstr "Liefert die Sortier-Reihenfolge bei Telefonat-Listanzeige."
+msgstr ""
+"Gibt die Reihenfolge an, in der eine Liste von Telefonanrufen angezeigt "
+"wird."
 
 #. module: voip
 #: model_terms:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
@@ -360,13 +363,13 @@ msgstr "Handset Erweiterung"
 #: code:addons/voip/static/src/xml/dialing_panel.xml:0
 #, python-format
 msgid "Hang up but keep call in queue"
-msgstr "Auflegen aber Anruf in die Warteschlange verschieben"
+msgstr "Auflegen, aber Anruf in die Warteschlange verschieben"
 
 #. module: voip
 #: model:ir.model.fields.selection,name:voip.selection__voip_phonecall__state__done
 #: model:ir.model.fields.selection,name:voip.selection__voip_phonecall_report__state__done
 msgid "Held"
-msgstr "Erledigt"
+msgstr "Geführt"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_configurator__id
@@ -394,14 +397,14 @@ msgstr "In 2 Monaten"
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_phonecall__in_queue
 msgid "In Call Queue"
-msgstr "In Ruf-Warteschlange"
+msgstr "In Anruf-Warteschlange"
 
 #. module: voip
 #. openerp-web
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "In call for:"
-msgstr ""
+msgstr "Im Anruf für:"
 
 #. module: voip
 #: model_terms:ir.actions.act_window,help:voip.voip_phonecall_view
@@ -415,7 +418,7 @@ msgstr ""
 #. module: voip
 #: model:ir.model.fields.selection,name:voip.selection__voip_phonecall__phonecall_type__incoming
 msgid "Incoming"
-msgstr "Eingang"
+msgstr "Eingehend"
 
 #. module: voip
 #. openerp-web
@@ -439,14 +442,14 @@ msgstr "Eingehender Anruf von %s (%s)"
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "Incoming call from..."
-msgstr "Eingehender Anruf von..."
+msgstr "Eingehender Anruf von ..."
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_res_partner__has_call_in_queue
 #: model:ir.model.fields,field_description:voip.field_res_users__has_call_in_queue
 #: model:ir.model.fields,field_description:voip.field_voip_queue_mixin__has_call_in_queue
 msgid "Is in the Call Queue"
-msgstr "Ist in der Warteschlange"
+msgstr "Ist in der Anruf-Warteschlange"
 
 #. module: voip
 #. openerp-web
@@ -454,7 +457,7 @@ msgstr "Ist in der Warteschlange"
 #: code:addons/voip/static/src/xml/dialing_panel.xml:0
 #, python-format
 msgid "Keypad"
-msgstr "Tastenfeld"
+msgstr "Tastatur"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_configurator____last_update
@@ -474,7 +477,7 @@ msgstr "Zuletzt gesehener Telefonanruf"
 #: model:ir.model.fields,field_description:voip.field_voip_phonecall__write_uid
 #: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zuletzt aktualisiert durch"
+msgstr "Zuletzt aktualisiert von"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_configurator__write_date
@@ -596,7 +599,7 @@ msgstr "Nächste Aktivitäten"
 #: model:ir.model.fields.selection,name:voip.selection__voip_phonecall__state__pending
 #: model:ir.model.fields.selection,name:voip.selection__voip_phonecall_report__state__pending
 msgid "Not Held"
-msgstr "Nicht Telefoniert"
+msgstr "Nicht geführt"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_phonecall__note
@@ -631,6 +634,7 @@ msgstr "PBX-Server-IP"
 #, python-format
 msgid "PBX or Websocket address is missing. Please check your settings."
 msgstr ""
+"PBX- oder Websocket-Adresse fehlt. Bitte prüfen Sie Ihre Einstellungen."
 
 #. module: voip
 #. openerp-web
@@ -706,7 +710,7 @@ msgstr "Bitte lassen Sie die Nutzung des Mikrofons zu."
 #. module: voip
 #: model:ir.model.fields.selection,name:voip.selection__res_config_settings__mode__prod
 msgid "Production"
-msgstr "Produktivbetrieb"
+msgstr "Produktion"
 
 #. module: voip
 #. openerp-web
@@ -721,7 +725,7 @@ msgstr "VOR KURZEM"
 #: code:addons/voip/static/src/xml/dialing_panel.xml:0
 #, python-format
 msgid "Refresh the Panel"
-msgstr "Das Panel auffrischen"
+msgstr "Das Panel aktualisieren"
 
 #. module: voip
 #. openerp-web
@@ -787,7 +791,7 @@ msgstr "Verantwortlich"
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "Ringing..."
-msgstr "Es klingelt..."
+msgstr "Es klingelt ..."
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_res_users__sip_login
@@ -821,7 +825,7 @@ msgstr "Aktivität planen"
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "Schedule Next"
-msgstr "Nächstes Gespräch planen"
+msgstr "Nächste Aktivität planen"
 
 #. module: voip
 #. openerp-web
@@ -833,7 +837,7 @@ msgstr "Suchen"
 #. module: voip
 #: model_terms:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
 msgid "Search Phonecalls"
-msgstr "Anruf suchen"
+msgstr "Telefonanrufe suchen"
 
 #. module: voip
 #. openerp-web
@@ -841,12 +845,12 @@ msgstr "Anruf suchen"
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "Send mail"
-msgstr "E-Mail senden"
+msgstr "E-Mail versenden"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_phonecall__sequence
 msgid "Sequence"
-msgstr "Reihenfolge"
+msgstr "Sequenz"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard__reschedule_date
@@ -941,8 +945,8 @@ msgid ""
 "If the call is not applicable anymore, the status can be set to Cancelled."
 msgstr ""
 "Der Status ist „Zu erledigen“, wenn ein Anruf angelegt wird.\n"
-"Wenn der Anruf beendet ist, wird der Status „Gehalten“.\n"
-"Wenn der Anruf nicht mehr erforderlich ist, kann der Status auf „Storniert“ gesetzt werden."
+"Wenn der Anruf beendet ist, wird der Status „Geführt“.\n"
+"Wenn der Anruf nicht mehr erforderlich ist, kann der Status auf „Abgebrochen“ gesetzt werden."
 
 #. module: voip
 #. openerp-web
@@ -1024,12 +1028,12 @@ msgstr "VOIP-Anruf"
 #. module: voip
 #: model:ir.model,name:voip.model_voip_phonecall_log_wizard
 msgid "VOIP Phonecall log Wizard"
-msgstr "VOIP-Anruf Protokoll-Assistent"
+msgstr "Assistent für VOIP-Anrufprotokolle"
 
 #. module: voip
 #: model:ir.model,name:voip.model_voip_phonecall_report
 msgid "VOIP Phonecalls by user report"
-msgstr "Bericht VOIP-Anrufe pro Benutzer"
+msgstr "Bericht über VOIP-Anrufe pro Benutzer"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_res_config_settings__mode
@@ -1075,7 +1079,7 @@ msgstr ""
 msgid ""
 "Your browser could not support WebRTC. Please check your configuration."
 msgstr ""
-"Ihr Browser unterstützt WebRTC nicht. Bitte überprüfen Sie ihre "
+"Ihr Browser unterstützt WebRTC nicht. Bitte überprüfen Sie Ihre "
 "Einstellungen."
 
 #. module: voip
@@ -1094,7 +1098,7 @@ msgstr ""
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "min"
-msgstr "min"
+msgstr "Min."
 
 #. module: voip
 #. openerp-web
@@ -1109,4 +1113,4 @@ msgstr "verpasste(r) Anruf(e)"
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "sec"
-msgstr "Sek"
+msgstr "Sek."

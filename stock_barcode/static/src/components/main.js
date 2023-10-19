@@ -12,7 +12,7 @@ import { registry } from "@web/core/registry";
 import { useService } from "@web/core/utils/hooks";
 import ViewsWidget from '@stock_barcode/widgets/views_widget';
 import ViewsWidgetAdapter from '@stock_barcode/components/views_widget_adapter';
-import * as BarcodeScanner from '@web_enterprise/webclient/barcode/barcode_scanner';
+import BarcodeScanner from '@web_enterprise/webclient/barcode/barcode_scanner';
 import { ConfirmationDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 
 const { Component } = owl;

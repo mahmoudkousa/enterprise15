@@ -11,11 +11,11 @@
 # hish, 2021
 # Батмөнх Ганбат <batmunkh2522@gmail.com>, 2021
 # tserendavaa tsogtoo <tseegii011929@gmail.com>, 2021
-# Sanjaajamts Badamjunai <b.sanjaajamtsfc@gmail.com>, 2021
 # Munkhbaatar g <muuguu17@gmail.com>, 2021
 # tumenjargal hadbaatar <tumenjargal7903@gmail.com>, 2021
 # Bayarkhuu Bataa, 2022
 # Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2022
+# Sanjaajamts Badamjunai <b.sanjaajamtsfc@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -23,8 +23,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-19 10:26+0000\n"
 "PO-Revision-Date: 2021-09-14 12:40+0000\n"
-"Last-Translator: Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2022\n"
-"Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
+"Last-Translator: Sanjaajamts Badamjunai <b.sanjaajamtsfc@gmail.com>, 2023\n"
+"Language-Team: Mongolian (https://app.transifex.com/odoo/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -55,6 +55,12 @@ msgid ""
 "- Salary rule: %s (%s)\n"
 "- Error: %s"
 msgstr ""
+"%s:\n"
+"- Ажилтан: %s\n"
+"- Гэрээ: %s\n"
+"- Цалингийн хуудас: %s\n"
+"- Цалингийн дүрэм: %s (%s)\n"
+"- Алдаа: %s"
 
 #. module: hr_payroll
 #: model:ir.actions.report,print_report_name:hr_payroll.action_report_payslip
@@ -83,17 +89,17 @@ msgstr ""
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "-> Report"
-msgstr ""
+msgstr "-> Тайлан"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_contract_view_kanban
 msgid "/ Hour"
-msgstr ""
+msgstr "/ Цаг"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_contract_view_kanban
 msgid "/ Month"
-msgstr ""
+msgstr "/ Сар"
 
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_salary_rule_13th_month_salary
@@ -161,7 +167,7 @@ msgstr ""
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.payroll_resource_calendar_view_form
 msgid "<span> %</span>"
-msgstr ""
+msgstr "<span> %</span>"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.payroll_resource_calendar_view_form
@@ -182,6 +188,10 @@ msgid ""
 "automatic recalculation. Be careful that reordering the lines doesn't "
 "recompute them.</span>"
 msgstr ""
+"<span><strong>Зөвөлгөө:</strong> Таныг мөр дээрх тоо хэмжээ эсвэл дүнг засах"
+" бүрд систем мөрүүдийг дахин тооцоолдог. Автомат дахин тооцоолол нь өмнөх "
+"бичлэгийг засдаг тул дээрээс доош нь засварлахыг зөвлөж байна. Мөрүүдийг "
+"дахин эрэмбэлвэл бүх тооцоолол дахин хийгддэг.</span>"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.report_payslip
@@ -293,7 +303,7 @@ msgstr "Идэвхитэй"
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_attachment__active_amount
 msgid "Active Amount"
-msgstr ""
+msgstr "Дүн"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__activity_ids
@@ -369,7 +379,7 @@ msgstr ""
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_attachment__monthly_amount
 msgid "Amount to pay each month."
-msgstr ""
+msgstr "Сар бүр төлөх дүн"
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_attachment__active_amount
@@ -390,6 +400,8 @@ msgid ""
 "Another refund payslip with the same amount has been found. Do you want to "
 "create a new one ?"
 msgstr ""
+"Ижил хэмжээний өөр нэг буцаан олголтын хуудас олдлоо. Та шинээр үүсгэхийг "
+"хүсч байна уу?"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_line__appears_on_payslip
@@ -409,7 +421,7 @@ msgstr ""
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_salary_attachment__date_estimated_end
 msgid "Approximated end date."
-msgstr ""
+msgstr "Ойролцоогоор дуусах огноо"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_salary_rule_form
@@ -429,7 +441,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_salary_attachment__deduction_type__assignment
 #, python-format
 msgid "Assignment of Salary"
-msgstr ""
+msgstr "Цалингийн хувиарлалт"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payslip.py:0
@@ -456,7 +468,7 @@ msgstr "Хавсралтын нэр"
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_salary_attachment__deduction_type__attachment
 #, python-format
 msgid "Attachment of Salary"
-msgstr ""
+msgstr "Цалингийн хавсралт"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.payroll_report_view_dashboard
@@ -466,7 +478,7 @@ msgstr "Ирцийн хувь"
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_input_type__struct_ids
 msgid "Availability in Structure"
-msgstr ""
+msgstr "Боломжит цалингийн бүтэц"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.payroll_report_view_dashboard
@@ -491,12 +503,12 @@ msgstr "Дундаж гарт олгох цалин"
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payroll_report_view_tree
 msgid "Average of Basic Wage"
-msgstr ""
+msgstr "Үндсэн цалингийн дундаж"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payroll_report_view_tree
 msgid "Average of Net Wage"
-msgstr ""
+msgstr "Гарт олгох цалингийн дундаж"
 
 #. module: hr_payroll
 #: model:hr.salary.rule,name:hr_payroll.hr_salary_rule_worker_basic
@@ -593,6 +605,7 @@ msgstr "Хийгдсэн цалингийн хуудсыг цуцлах боло
 #, python-format
 msgid "Cannot mark payslip as paid if not confirmed."
 msgstr ""
+"Баталгаажаагүй тохиолдолд цалингийн хуудсыг төлсөн гэж тэмдэглэх боломжгүй."
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payroll_edit_payslip_worked_days_line__code
@@ -613,7 +626,7 @@ msgstr "Ангилал"
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_contract_search_inherit
 msgid "Change of Occupation"
-msgstr ""
+msgstr "Ажил мэргэжлийн өөрчлөлт"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payroll_structure.py:0
@@ -621,7 +634,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_salary_attachment__deduction_type__child_support
 #, python-format
 msgid "Child Support"
-msgstr ""
+msgstr "Хүүхдийн тусламж"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_rule_category__children_ids
@@ -748,7 +761,7 @@ msgstr "Гэрээний төрөл"
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_contract_history
 msgid "Contract history"
-msgstr ""
+msgstr "Гэрээний түүх"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payroll_index_form_view
@@ -819,7 +832,7 @@ msgstr "SEPA төлбөр үүсгэх"
 #. module: hr_payroll
 #: model:ir.actions.server,name:hr_payroll.action_new_salary_attachment
 msgid "Create Salary Attachment"
-msgstr ""
+msgstr "Цалингийн хавсралтыг үүсгэх"
 
 #. module: hr_payroll
 #: model_terms:ir.actions.act_window,help:hr_payroll.action_hr_contract_repository
@@ -890,7 +903,7 @@ msgstr "Валют"
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_work_entry_report_view_search
 msgid "Current month"
-msgstr ""
+msgstr "Энэ сар"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payslip_line_view_search_register
@@ -1069,7 +1082,7 @@ msgstr "Дууссан нэхэмжлэл"
 #: code:addons/hr_payroll/models/hr_payslip.py:0
 #, python-format
 msgid "Double Holiday Pay"
-msgstr ""
+msgstr "Амралтын төлбөр"
 
 #. module: hr_payroll
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_work_entry_type__round_days_type__down
@@ -1098,7 +1111,7 @@ msgstr "Ноорог хуудас"
 #: model:ir.actions.server,name:hr_payroll.action_edit_payslip_lines
 #, python-format
 msgid "Edit Payslip Lines"
-msgstr ""
+msgstr "Цалингийн хуудсын мөрүүдийг засах"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_edit_payslip_line__edit_payslip_lines_wizard_id
@@ -3423,6 +3436,14 @@ msgstr ""
 #, python-format
 msgid "You can't validate a cancelled payslip."
 msgstr "Та цуцлагдсан цалингийн хуудсыг батлах боломжгүй."
+
+#. module: hr_payroll
+#: code:addons/hr_payroll/models/hr_payslip_input_type.py:0
+#, python-format
+msgid ""
+"You cannot delete %s as it is used in another module but you can archive it "
+"instead."
+msgstr ""
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payslip_run.py:0

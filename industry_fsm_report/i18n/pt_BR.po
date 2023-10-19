@@ -4,8 +4,8 @@
 # 
 # Translators:
 # Martin Trigaux, 2021
-# Layna Nascimento, 2023
 # Kevilyn Rosa, 2023
+# Layna Nascimento, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 09:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:40+0000\n"
-"Last-Translator: Kevilyn Rosa, 2023\n"
+"Last-Translator: Layna Nascimento, 2023\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -93,6 +93,9 @@ msgid ""
 "                                Signed\n"
 "                            </span>"
 msgstr ""
+"<span style=\"                                 font-size: 10px;                                 color: #fff;                                 text-transform: uppercase;                                 text-align: center;                                 font-weight: bold; line-height: 20px;                                 transform: rotate(45deg);                                 width: 100px; height: auto; display: block;                                 background: green;                                 position: absolute;                                 top: 19px; right: -21px; left: auto;                                 padding: 0;\">\n"
+"                                Assinado\n"
+"                            </span>"
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
@@ -102,7 +105,7 @@ msgstr "Cliente:"
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_task_view_gantt_fsm_worksheet
 msgid "<strong>Template — </strong>"
-msgstr ""
+msgstr "<strong>Modelo — </strong>"
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
@@ -150,7 +153,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_sharing_project_task_inherit_view_form
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.view_task_form2_inherit
 msgid "Customer Preview"
-msgstr ""
+msgstr "Visualização do cliente"
 
 #. module: industry_fsm_report
 #: model_terms:ir.actions.act_window,help:industry_fsm_report.fsm_worksheets_action_settings
@@ -184,32 +187,32 @@ msgstr "Descrição"
 #: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field2
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_task_worksheet_template_3
 msgid "Description of the Intervention"
-msgstr ""
+msgstr "Descrição da intervenção"
 
 #. module: industry_fsm_report
 #: model:ir.model,name:industry_fsm_report.model_x_custom_worksheet_x_project_task_worksheet_template_3
 msgid "Device Installation and Maintenance"
-msgstr ""
+msgstr "Instalação e manutenção do dispositivo"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__display_send_report_primary
 msgid "Display Send Report Primary"
-msgstr ""
+msgstr "Exibir 'Enviar relatório' primário"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__display_send_report_secondary
 msgid "Display Send Report Secondary"
-msgstr ""
+msgstr "Exibir 'Enviar relatório' secundário"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__display_sign_report_primary
 msgid "Display Sign Report Primary"
-msgstr ""
+msgstr "Exibir 'assinar relatório' primário"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__display_sign_report_secondary
 msgid "Display Sign Report Secondary"
-msgstr ""
+msgstr "Exibir 'assinar relatório' secundário"
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_worksheet
@@ -233,13 +236,15 @@ msgstr ""
 #, python-format
 msgid "Fill in your <b>worksheet</b> with the details of your intervention."
 msgstr ""
+"Preencha a sua <b>planilha de trabalho</b> com os detalhes de sua "
+"intervenção."
 
 #. module: industry_fsm_report
 #. openerp-web
 #: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report.js:0
 #, python-format
 msgid "Go back to your Field Service <b>task</b>."
-msgstr ""
+msgstr "Volte para a sua <b>tarefa</b> de serviço de campo."
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
@@ -253,18 +258,20 @@ msgid ""
 "I hereby certify that this device meets the requirements of an acceptable "
 "device at the time of testing."
 msgstr ""
+"Certifico, por meio deste documento, que este dispositivo atende aos "
+"requisitos de um dispositivo aceitável no momento do teste."
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field1
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_task_worksheet_template_3
 msgid "Intervention Type"
-msgstr ""
+msgstr "Tipo de intervenção"
 
 #. module: industry_fsm_report
 #: code:addons/industry_fsm_report/controllers/portal.py:0
 #, python-format
 msgid "Invalid Task."
-msgstr ""
+msgstr "Tarefa inválida."
 
 #. module: industry_fsm_report
 #: code:addons/industry_fsm_report/controllers/portal.py:0
@@ -283,7 +290,7 @@ msgstr ""
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__fsm_is_sent
 msgid "Is Worksheet sent"
-msgstr ""
+msgstr "A planilha foi enviada"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field3
@@ -352,7 +359,7 @@ msgstr "Enviar Relatório"
 #: code:addons/industry_fsm_report/models/project.py:0
 #, python-format
 msgid "Send report"
-msgstr ""
+msgstr "Enviar relatório"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field6
@@ -368,12 +375,12 @@ msgstr "Assinatura de Documentos"
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.view_task_form2_inherit
 msgid "Sign Report"
-msgstr ""
+msgstr "Assinar relatório"
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_worksheet
 msgid "Sign Task"
-msgstr ""
+msgstr "Assinar tarefa"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__worksheet_signature
@@ -426,19 +433,21 @@ msgstr "Relatório personalizado da planilha de tarefas"
 #: code:addons/industry_fsm_report/controllers/portal.py:0
 #, python-format
 msgid "The worksheet has been signed"
-msgstr ""
+msgstr "A planilha de trabalho foi assinada"
 
 #. module: industry_fsm_report
 #: code:addons/industry_fsm_report/controllers/portal.py:0
 #, python-format
 msgid "The worksheet is not in a state requiring customer signature."
 msgstr ""
+"A planilha de trabalho não está em um status que exija a assinatura do "
+"cliente."
 
 #. module: industry_fsm_report
 #: code:addons/industry_fsm_report/models/project.py:0
 #, python-format
 msgid "There are no reports to send."
-msgstr ""
+msgstr "Não há relatórios a serem enviados."
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
@@ -463,7 +472,7 @@ msgstr ""
 #: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report.js:0
 #, python-format
 msgid "Validate the <b>signature</b>."
-msgstr ""
+msgstr "Valide a <b>assinatura</b>."
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_task
@@ -492,7 +501,7 @@ msgstr "Folha de Desenho"
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_sharing_project_task_inherit_view_form
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.view_task_form2_inherit
 msgid "Worksheet Completed"
-msgstr ""
+msgstr "Planilha de trabalho concluída"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__worksheet_count

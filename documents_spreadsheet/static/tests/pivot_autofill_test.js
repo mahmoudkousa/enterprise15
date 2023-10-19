@@ -7,6 +7,7 @@ import {
     getCellFormula,
     waitForEvaluation,
 } from "./spreadsheet_test_utils";
+import spreadsheet from "documents_spreadsheet.spreadsheet";
 
 const { module, test } = QUnit;
 
@@ -402,5 +403,40 @@ module("documents_spreadsheet > pivot_autofill", {}, () => {
             getAutofillValue(model, "F6", { direction: "right", steps: 1 }),
             content
         );
+    });
+
+    QUnit.test("Autofill pivot formula with missing pivotId", async function (assert) {
+        const model = new spreadsheet.Model({
+            sheets: [
+                {
+                    colNumber: 1,
+                    rowNumber: 2,
+                    cells: {
+                        A1: { content: '=PIVOT("1","bar","date","05/2023")' },
+                        B1: { content: '=PIVOT.HEADER("1","date","05/2023")' },
+                    },
+                },
+            ],
+        });
+        assert.strictEqual(
+            getAutofillValue(model, "A1", { direction: "bottom", steps: 1 }),
+            '=PIVOT("1","bar","date","05/2023")'
+        );
+        assert.strictEqual(
+            getAutofillValue(model, "B1", { direction: "bottom", steps: 1 }),
+            '=PIVOT.HEADER("1","date","05/2023")'
+        );
+        assert.deepEqual(model.getters.getTooltipFormula(getCellFormula(model, "A1"), false), [
+            {
+                title: "Missing pivot",
+                value: "Missing pivot #1",
+            },
+        ]);
+        assert.deepEqual(model.getters.getTooltipFormula(getCellFormula(model, "B1"), false), [
+            {
+                title: "Missing pivot",
+                value: "Missing pivot #1",
+            },
+        ]);
     });
 });

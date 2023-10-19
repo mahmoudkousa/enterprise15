@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2021
+# Rasareeyar Lappiam, 2023
 # 
 msgid ""
 msgstr ""
@@ -11,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Martin Trigaux, 2021\n"
-"Language-Team: Thai (https://www.transifex.com/odoo/teams/41243/th/)\n"
+"Last-Translator: Rasareeyar Lappiam, 2023\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -39,7 +40,7 @@ msgstr ""
 #: code:addons/account_bank_statement_import_qif/wizard/account_bank_statement_import_qif.py:0
 #, python-format
 msgid "Could not decipher the QIF file."
-msgstr ""
+msgstr "ไม่สามารถถอดรหัสไฟล์ QIF"
 
 #. module: account_bank_statement_import_qif
 #: model:ir.model.fields,field_description:account_bank_statement_import_qif.field_account_bank_statement_import__qif_date_format
@@ -54,7 +55,7 @@ msgstr "อักษรแบ่งคั่นเลขทศนิยม"
 #. module: account_bank_statement_import_qif
 #: model:ir.model.fields,help:account_bank_statement_import_qif.field_account_bank_statement_import__qif_decimal_point
 msgid "Field used to avoid conversion issues."
-msgstr ""
+msgstr "ช่องที่ใช้เพื่อหลีกเลี่ยงปัญหาการแปลง"
 
 #. module: account_bank_statement_import_qif
 #: model:ir.model.fields,field_description:account_bank_statement_import_qif.field_account_bank_statement_import__hide_journal_field
@@ -107,7 +108,7 @@ msgstr ""
 #: code:addons/account_bank_statement_import_qif/wizard/account_bank_statement_import_qif.py:0
 #, python-format
 msgid "This file is either not a bank statement or is not correctly formed."
-msgstr ""
+msgstr "ไฟล์นี้ไม่ใช่รายการเดินบัญชีจากธนาคารหรือมีรูปแบบไม่ถูกต้อง"
 
 #. module: account_bank_statement_import_qif
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import_qif.account_bank_statement_import_view_inherited
@@ -117,9 +118,9 @@ msgstr "อัพโหลด"
 #. module: account_bank_statement_import_qif
 #: model:ir.model.fields.selection,name:account_bank_statement_import_qif.selection__account_bank_statement_import__qif_date_format__day_first
 msgid "dd/mm/yy"
-msgstr ""
+msgstr "วว/ดด/ปป"
 
 #. module: account_bank_statement_import_qif
 #: model:ir.model.fields.selection,name:account_bank_statement_import_qif.selection__account_bank_statement_import__qif_date_format__month_first
 msgid "mm/dd/yy"
-msgstr ""
+msgstr "ดด/วว/ปป"

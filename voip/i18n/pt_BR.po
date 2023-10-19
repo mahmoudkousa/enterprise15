@@ -7,6 +7,7 @@
 # Marcel Savegnago <marcel.savegnago@gmail.com>, 2023
 # Layna Nascimento, 2023
 # Kevilyn Rosa, 2023
+# Maitê Dietze, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-16 06:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Kevilyn Rosa, 2023\n"
+"Last-Translator: Maitê Dietze, 2023\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -72,6 +73,7 @@ msgstr ""
 msgid ""
 "Are you sure that you want to close this website? There's a call ongoing."
 msgstr ""
+"Tem certeza de que quer fechar este site? Há uma chamada em andamento."
 
 #. module: voip
 #: model:ir.model.fields.selection,name:voip.selection__res_users__mobile_call_method__ask
@@ -117,18 +119,18 @@ msgstr "Ligação"
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_phonecall__call_date
 msgid "Call Date"
-msgstr ""
+msgstr "Data da ligação"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_phonecall__name
 msgid "Call Name"
-msgstr ""
+msgstr "Nome da ligação"
 
 #. module: voip
 #: code:addons/voip/models/voip_phonecall.py:0
 #, python-format
 msgid "Call duration: %(min)smin %(sec)ssec"
-msgstr ""
+msgstr "Duração da ligação: %(min)s min e %(sec)s s"
 
 #. module: voip
 #. openerp-web
@@ -143,7 +145,7 @@ msgstr ""
 #: code:addons/voip/models/voip_phonecall.py:0
 #, python-format
 msgid "Call to %s"
-msgstr ""
+msgstr "Ligar para %s"
 
 #. module: voip
 #. openerp-web
@@ -155,7 +157,7 @@ msgstr ""
 #. module: voip
 #: model_terms:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
 msgid "Calls Date"
-msgstr ""
+msgstr "Data das ligações"
 
 #. module: voip
 #. openerp-web
@@ -178,7 +180,7 @@ msgstr ""
 #: code:addons/voip/static/src/xml/phone_call.xml:0
 #, python-format
 msgid "Cancel the activity"
-msgstr ""
+msgstr "Cancelar a atividade"
 
 #. module: voip
 #: model:ir.model.fields.selection,name:voip.selection__voip_phonecall__state__cancel
@@ -307,7 +309,7 @@ msgstr "Duração"
 #. module: voip
 #: model:ir.model.fields,help:voip.field_voip_phonecall__duration
 msgid "Duration in minutes."
-msgstr ""
+msgstr "Duração em minutos."
 
 #. module: voip
 #. openerp-web
@@ -323,14 +325,14 @@ msgstr "Editar"
 #: code:addons/voip/static/src/js/dialing_panel.js:0
 #, python-format
 msgid "End Call"
-msgstr ""
+msgstr "Finalizar ligação"
 
 #. module: voip
 #. openerp-web
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "Enter number or name"
-msgstr ""
+msgstr "Digitar número ou nome"
 
 #. module: voip
 #. openerp-web
@@ -360,7 +362,7 @@ msgstr ""
 #: code:addons/voip/static/src/xml/dialing_panel.xml:0
 #, python-format
 msgid "Hang up but keep call in queue"
-msgstr ""
+msgstr "Desligar mas manter ligação na lista"
 
 #. module: voip
 #: model:ir.model.fields.selection,name:voip.selection__voip_phonecall__state__done
@@ -401,7 +403,7 @@ msgstr "Lista de Em Ligação"
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "In call for:"
-msgstr ""
+msgstr "Em ligação para:"
 
 #. module: voip
 #: model_terms:ir.actions.act_window,help:voip.voip_phonecall_view
@@ -409,6 +411,8 @@ msgid ""
 "In order to follow up on the call, you can trigger a request for\n"
 "        another call, a meeting."
 msgstr ""
+"Para acompanhar a ligação, você pode acionar uma solicitação para\n"
+"        outra ligação, uma reunião."
 
 #. module: voip
 #: model:ir.model.fields.selection,name:voip.selection__voip_phonecall__phonecall_type__incoming
@@ -423,21 +427,21 @@ msgstr "Entrada"
 #: code:addons/voip/static/src/js/user_agent.js:0
 #, python-format
 msgid "Incoming call from %s"
-msgstr ""
+msgstr "Ligação recebida de %s"
 
 #. module: voip
 #. openerp-web
 #: code:addons/voip/static/src/js/user_agent.js:0
 #, python-format
 msgid "Incoming call from %s (%s)"
-msgstr ""
+msgstr "Ligação recebida de%s (%s)"
 
 #. module: voip
 #. openerp-web
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "Incoming call from..."
-msgstr ""
+msgstr "Ligação recebida de…"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_res_partner__has_call_in_queue
@@ -452,7 +456,7 @@ msgstr "Está na Lista de Ligações"
 #: code:addons/voip/static/src/xml/dialing_panel.xml:0
 #, python-format
 msgid "Keypad"
-msgstr ""
+msgstr "Teclado numérico"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_configurator____last_update
@@ -465,7 +469,7 @@ msgstr "Última modificação em"
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_res_users__last_seen_phone_call
 msgid "Last Seen Phone Call"
-msgstr ""
+msgstr "Último telefonema visto"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_configurator__write_uid
@@ -485,34 +489,34 @@ msgstr "Última atualização em"
 #: model:ir.model.fields,field_description:voip.field_voip_phonecall__activity_id
 #: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard__activity_id
 msgid "Linked Activity"
-msgstr ""
+msgstr "Atividade relacionada."
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_phonecall__mail_message_id
 msgid "Linked Chatter Message"
-msgstr ""
+msgstr "Mensagem do Chatter relacionada"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_mail_activity__voip_phonecall_id
 msgid "Linked Voip Phonecall"
-msgstr ""
+msgstr "Telefonema do VoIP relacionado"
 
 #. module: voip
 #: model_terms:ir.actions.act_window,help:voip.voip_phonecall_view
 msgid "Log the summary of a phonecall"
-msgstr ""
+msgstr "Registrar o resumo de um telefonema"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard__phonecall_id
 msgid "Logged Phonecall"
-msgstr ""
+msgstr "Telefonema registrado"
 
 #. module: voip
 #. openerp-web
 #: code:addons/voip/static/src/js/dialing_panel.js:0
 #, python-format
 msgid "Make a call using:"
-msgstr ""
+msgstr "Fazer ligação com:"
 
 #. module: voip
 #. openerp-web
@@ -540,7 +544,7 @@ msgstr "Falhou"
 #: code:addons/voip/models/voip_phonecall.py:0
 #, python-format
 msgid "Missed Call from %s"
-msgstr ""
+msgstr "Ligação não atendida de %s"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_mail_activity__mobile
@@ -572,7 +576,7 @@ msgstr "Celular:"
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "Mute"
-msgstr ""
+msgstr "Mutar"
 
 #. module: voip
 #: model_terms:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
@@ -605,6 +609,9 @@ msgid ""
 "        history of the communication with a customer or to inform another\n"
 "        team member."
 msgstr ""
+"O Odoo permite que você registre ligações recebidas em andamento para monitorar\n"
+"        o histórico de comunicação com um cliente ou para passar informações\n"
+"        para outro membro da equipe."
 
 #. module: voip
 #: model:ir.model.fields.selection,name:voip.selection__voip_phonecall__phonecall_type__outgoing
@@ -668,7 +675,7 @@ msgstr "Telefone:"
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "Phonecall details"
-msgstr ""
+msgstr "Detalhes do telefonema"
 
 #. module: voip
 #: model:ir.actions.act_window,name:voip.voip_phonecall_view
@@ -676,7 +683,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
 #: model_terms:ir.ui.view,arch_db:voip.voip_phonecall_tree_view
 msgid "Phonecalls"
-msgstr "Ligações Telefônicas"
+msgstr "Ligações telefônicas"
 
 #. module: voip
 #. openerp-web
@@ -691,7 +698,7 @@ msgstr ""
 #: code:addons/voip/static/src/js/user_agent.js:0
 #, python-format
 msgid "Please accept the use of the microphone."
-msgstr ""
+msgstr "Aceite o uso do microfone."
 
 #. module: voip
 #: model:ir.model.fields.selection,name:voip.selection__res_config_settings__mode__prod
@@ -730,7 +737,7 @@ msgstr ""
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "Reject call"
-msgstr ""
+msgstr "Rejeitar ligação"
 
 #. module: voip
 #: model:ir.model.fields.selection,name:voip.selection__voip_phonecall__state__rejected
@@ -741,7 +748,7 @@ msgstr "Rejeitado"
 #: code:addons/voip/models/voip_phonecall.py:0
 #, python-format
 msgid "Rejected Incoming Call from %s"
-msgstr ""
+msgstr "Rejeitar ligações recebidas de %s"
 
 #. module: voip
 #. openerp-web
@@ -777,7 +784,7 @@ msgstr "Responsável"
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "Ringing..."
-msgstr ""
+msgstr "Chamando…"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_res_users__sip_login
@@ -797,7 +804,7 @@ msgstr ""
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard__reschedule_option
 msgid "Schedule A New Activity"
-msgstr ""
+msgstr "Agendar uma nova atividade"
 
 #. module: voip
 #. openerp-web
@@ -811,7 +818,7 @@ msgstr "Agendar Atividade"
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "Schedule Next"
-msgstr ""
+msgstr "Agendar próxima"
 
 #. module: voip
 #. openerp-web
@@ -865,7 +872,7 @@ msgstr "Resumo"
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "Take call"
-msgstr ""
+msgstr "Aceitar ligação"
 
 #. module: voip
 #: model:ir.model.fields,help:voip.field_res_config_settings__pbx_ip
@@ -899,7 +906,7 @@ msgstr ""
 #: code:addons/voip/static/src/js/user_agent.js:0
 #, python-format
 msgid "The person you try to contact is currently unavailable."
-msgstr ""
+msgstr "A pessoa que você tentou contatar está indisponível no momento."
 
 #. module: voip
 #. openerp-web
@@ -925,6 +932,9 @@ msgid ""
 "When the call is over, the status is set to Held.\n"
 "If the call is not applicable anymore, the status can be set to Cancelled."
 msgstr ""
+"O status é definido como \"A fazer\" quando uma ligação é criada.\n"
+"Quando a ligação é encerrada, o status é definido como Feita.\n"
+"Se a ligação não for mais aplicável, o status pode ser definido como Cancelada."
 
 #. module: voip
 #. openerp-web
@@ -999,22 +1009,22 @@ msgstr "Configurador VOIP"
 #. module: voip
 #: model:ir.model,name:voip.model_voip_phonecall
 msgid "VOIP Phonecall"
-msgstr ""
+msgstr "Telefonema do VoIP"
 
 #. module: voip
 #: model:ir.model,name:voip.model_voip_phonecall_log_wizard
 msgid "VOIP Phonecall log Wizard"
-msgstr ""
+msgstr "Assistente de registro de telefonemas"
 
 #. module: voip
 #: model:ir.model,name:voip.model_voip_phonecall_report
 msgid "VOIP Phonecalls by user report"
-msgstr ""
+msgstr "Telefonemas do VoIP por relatório de usuário"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_res_config_settings__mode
 msgid "VoIP Environment"
-msgstr ""
+msgstr "Ambiente do VoIP"
 
 #. module: voip
 #. openerp-web
@@ -1022,7 +1032,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:voip.selection__res_users__mobile_call_method__voip
 #, python-format
 msgid "Voip"
-msgstr ""
+msgstr "VoIP"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_res_config_settings__wsServer
@@ -1034,7 +1044,7 @@ msgstr "WebSocket"
 #: code:addons/voip/static/src/js/dialing_panel.js:0
 #, python-format
 msgid "You are already in a call"
-msgstr ""
+msgstr "Você já está em uma ligação"
 
 #. module: voip
 #. openerp-web
@@ -1061,6 +1071,8 @@ msgstr "Seu navegador não suporta WebRTC. Por favor cheque sua configuração."
 msgid ""
 "Your credentials are not correctly set. Please contact your administrator."
 msgstr ""
+"As suas credenciais não estão definidas corretamente. Entre em contato com "
+"seu administrador."
 
 #. module: voip
 #. openerp-web
@@ -1083,4 +1095,4 @@ msgstr ""
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "sec"
-msgstr ""
+msgstr "s"

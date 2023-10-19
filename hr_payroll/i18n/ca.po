@@ -15,8 +15,9 @@
 # Harcogourmet, 2022
 # Jonatan Gk, 2022
 # marcescu, 2022
-# Josep Anton Belchi, 2022
 # Óscar Fonseca <tecnico@extreme-micro.com>, 2022
+# martioodo hola, 2023
+# Josep Anton Belchi, 2023
 # 
 msgid ""
 msgstr ""
@@ -24,8 +25,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-19 10:26+0000\n"
 "PO-Revision-Date: 2021-09-14 12:40+0000\n"
-"Last-Translator: Óscar Fonseca <tecnico@extreme-micro.com>, 2022\n"
-"Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
+"Last-Translator: Josep Anton Belchi, 2023\n"
+"Language-Team: Catalan (https://app.transifex.com/odoo/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1808,7 +1809,7 @@ msgstr "Quantitat mensual"
 #. module: hr_payroll
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_payroll_structure_type__wage_type__monthly
 msgid "Monthly Fixed Wage"
-msgstr "Wage fix mensual"
+msgstr "Salari fix mensual"
 
 #. module: hr_payroll
 #: model:ir.model.constraint,message:hr_payroll.constraint_hr_salary_attachment_check_monthly_amount
@@ -1884,7 +1885,7 @@ msgstr "Salari net"
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_report__net_wage
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__net_wage
 msgid "Net Wage"
-msgstr "Wage net"
+msgstr "Salari net"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/report/hr_contract_history.py:0
@@ -3137,7 +3138,7 @@ msgstr "Balanç brut total"
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.payroll_report_view_dashboard
 msgid "Total Net Wage"
-msgstr "Wage net total"
+msgstr "Salari net total"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
@@ -3494,6 +3495,16 @@ msgstr "S'ha definit una condició d'interval incorrecta per a:"
 #, python-format
 msgid "You can't validate a cancelled payslip."
 msgstr "No podeu validar una nòmina de pagament cancel·lada."
+
+#. module: hr_payroll
+#: code:addons/hr_payroll/models/hr_payslip_input_type.py:0
+#, python-format
+msgid ""
+"You cannot delete %s as it is used in another module but you can archive it "
+"instead."
+msgstr ""
+"No podeu suprimir %s ja que s'utilitza en un altre mòdul, però podeu "
+"arxivar-lo."
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payslip_run.py:0

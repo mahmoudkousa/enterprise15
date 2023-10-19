@@ -52,4 +52,4 @@ class TestBarcodeClientAction(HttpCase):
         receipt.on_barcode_scanned('000076543210')
         self.assertEqual(move.quantity_done, 2, "Doesn't work with unpadded barcode.")
         receipt.on_barcode_scanned('0100000076543210')
-        self.assertEqual(move.quantity_done, 3, "Product's data in GS1 barcode, should increment the qty. done.")
+        self.assertEqual(move.quantity_done, 2, "Product's data in GS1 barcode, unsupported in backend.")

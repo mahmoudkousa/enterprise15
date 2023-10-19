@@ -56,7 +56,7 @@ msgstr "&amp;nbsp;"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "(Wrong address?)"
-msgstr ""
+msgstr "(Alamat Salah?)"
 
 #. module: sale_subscription
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_alert__mrr_change_period__1month
@@ -66,7 +66,7 @@ msgstr "1 Bulan"
 #. module: sale_subscription
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_alert__mrr_change_period__3months
 msgid "3 Months"
-msgstr ""
+msgstr "3 Bulan"
 
 #. module: sale_subscription
 #: model:mail.template,body_html:sale_subscription.mail_template_subscription_alert
@@ -235,7 +235,7 @@ msgstr "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "<i class=\"fa fa-fw fa-check\"/> In Progress"
-msgstr ""
+msgstr "<i class=\"fa fa-fw fa-check\"/> Sedang Berlangsung"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
@@ -245,12 +245,12 @@ msgstr ""
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "<i class=\"fa fa-fw fa-remove\"/> Closed"
-msgstr ""
+msgstr "<i class=\"fa fa-fw fa-remove\"/> Ditutup"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "<small class=\"text-muted\">Subscription -</small>"
-msgstr ""
+msgstr "<small class=\"text-muted\">Langganan -</small>"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.portal_my_subscriptions
@@ -318,12 +318,12 @@ msgstr ""
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "<strong class=\"text-muted\">Subscription Manager:</strong>"
-msgstr ""
+msgstr "<strong class=\"text-muted\">Manajer Langganan:</strong>"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
 msgid "<strong> and </strong>"
-msgstr ""
+msgstr "<strong> dan </strong>"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
@@ -333,7 +333,7 @@ msgstr ""
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "<strong>Next Billing Amount:</strong>"
-msgstr ""
+msgstr "<strong>Jumlah Billing Berikut:</strong>"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
@@ -343,7 +343,7 @@ msgstr "<strong>Subtotal</strong>"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
 msgid "<strong>to</strong>"
-msgstr ""
+msgstr "<strong>ke</strong>"
 
 #. module: sale_subscription
 #: model:mail.template,body_html:sale_subscription.email_payment_success
@@ -825,7 +825,7 @@ msgstr "Jenis Aktivitas"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__activity_user_type
 msgid "Activity User Type"
-msgstr ""
+msgstr "Tipe User untuk Aktivitas "
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__partner_ids
@@ -840,7 +840,7 @@ msgstr "Administrator"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
 msgid "Alert Name"
-msgstr ""
+msgstr "Nama Pengingat"
 
 #. module: sale_subscription
 #: model:ir.actions.act_window,name:sale_subscription.sale_subscription_alert_action
@@ -871,7 +871,7 @@ msgstr "Akun Analitik"
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__filter_domain
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
 msgid "Apply on"
-msgstr ""
+msgstr "Terapkan pada"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_kanban
@@ -888,12 +888,12 @@ msgstr "Diarsipkan"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__archived_product_count
 msgid "Archived Product"
-msgstr ""
+msgstr "Produk Diarsip"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__archived_product_ids
 msgid "Archived Products"
-msgstr ""
+msgstr "Produk Diarsip"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard__kept_archived_product_ids
@@ -919,7 +919,7 @@ msgstr "Tindakan Otomatis"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__auto_close_limit
 msgid "Automatic Closing"
-msgstr ""
+msgstr "Penutupan Otomati"
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/models/sale_subscription.py:0
@@ -961,12 +961,12 @@ msgstr "Bad"
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_form
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
 msgid "Bad Health"
-msgstr ""
+msgstr "Kesehatan jelek"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__filter_pre_domain
 msgid "Before Update Domain"
-msgstr ""
+msgstr "Sebelum Mengupdate Domain"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
@@ -976,17 +976,17 @@ msgstr ""
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__binding_model_id
 msgid "Binding Model"
-msgstr ""
+msgstr "Binding Model"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__binding_type
 msgid "Binding Type"
-msgstr ""
+msgstr "Binding Type"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__binding_view_types
 msgid "Binding View Types"
-msgstr ""
+msgstr "Binding View Types"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
@@ -1001,6 +1001,8 @@ msgid ""
 "Calculate the ratio between the number of the best ('great') ratings and the"
 " total number of ratings"
 msgstr ""
+"Hitung ratio di antara jumlah rating terbaik (\"bagus\") dan total jumlah "
+"rating"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__campaign_id
@@ -1046,17 +1048,17 @@ msgstr ""
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "Change plan"
-msgstr ""
+msgstr "Ganti rencana"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_form
 msgid "Changes"
-msgstr ""
+msgstr "Perubahan"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__child_ids
 msgid "Child Actions"
-msgstr ""
+msgstr "Tindakan Turunan"
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_alert__child_ids
@@ -1064,13 +1066,15 @@ msgid ""
 "Child server actions that will be executed. Note that the last return "
 "returned action value will be used as global return value."
 msgstr ""
+"Child server action yang akan dilakukan. Catat bahwa pengembalian terakhir "
+"returned action value akan digunakan sebagai global return value."
 
 #. module: sale_subscription
 #. openerp-web
 #: code:addons/sale_subscription/static/src/js/tours/sale_subscription.js:0
 #, python-format
 msgid "Choose a product name.<br/><i>(e.g. eLearning Access)</i>"
-msgstr ""
+msgstr "Pilih nama produk.<br/><i>(contoh Akses eLearning)</i>"
 
 #. module: sale_subscription
 #. openerp-web
@@ -1109,7 +1113,7 @@ msgstr "Tutup"
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason_wizard__close_reason_id
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__close_reason_id
 msgid "Close Reason"
-msgstr ""
+msgstr "Tutup Alasan"
 
 #. module: sale_subscription
 #: model:ir.actions.act_window,name:sale_subscription.sale_subscription_close_reason_action
@@ -1122,7 +1126,7 @@ msgstr "Tutup Alasan"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "Close Subscription"
-msgstr ""
+msgstr "Tutup Langganan"
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/controllers/portal.py:0
@@ -1139,13 +1143,13 @@ msgstr "Ditutup"
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
 msgid "Closed subscriptions"
-msgstr ""
+msgstr "Tutup langganan"
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/controllers/portal.py:0
 #, python-format
 msgid "Closing text: %s"
-msgstr ""
+msgstr "Teks penutupan: %s"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__code
@@ -1245,12 +1249,12 @@ msgstr "Menciptakan produk baru"
 #: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_action
 #: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_action_filtered
 msgid "Create a new subscription"
-msgstr ""
+msgstr "Buat langganan baru"
 
 #. module: sale_subscription
 #: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_alert_action
 msgid "Create a new subscription alert"
-msgstr ""
+msgstr "Buat peringatan langganan baru"
 
 #. module: sale_subscription
 #: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_stage_action
@@ -1260,7 +1264,7 @@ msgstr ""
 #. module: sale_subscription
 #: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_template_action
 msgid "Create a new template of subscription"
-msgstr ""
+msgstr "Buat templat langganan baru"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.wizard_form_view
@@ -1273,7 +1277,7 @@ msgstr ""
 #. module: sale_subscription
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_alert__action__next_activity
 msgid "Create next activity"
-msgstr ""
+msgstr "Buat kegiatan berikutnya"
 
 #. module: sale_subscription
 #: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_action
@@ -1282,13 +1286,16 @@ msgid ""
 "                be time-bounded or not. In case of a limited period, they are flagged as to be renewed\n"
 "                one month from the end date."
 msgstr ""
+"Buat langganan untuk mengelola faktur dan pembayaran rutin. Langganan dapat\n"
+"                dibatasi waktu. Apabila periode terbatas, mereka akan ditandai sebagai diperbarui\n"
+"                satu bulan sebelum tanggal akhir."
 
 #. module: sale_subscription
 #. openerp-web
 #: code:addons/sale_subscription/static/src/js/tours/sale_subscription.js:0
 #, python-format
 msgid "Create your first subscription product here"
-msgstr ""
+msgstr "Buat produk langganan pertama Anda di sini"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__create_uid
@@ -1340,7 +1347,7 @@ msgstr ""
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__cron_nextcall
 msgid "Cron Nextcall"
-msgstr ""
+msgstr "Cron Nextcall"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__currency_id
@@ -1353,7 +1360,7 @@ msgstr "Mata Uang"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "Current Plan:"
-msgstr ""
+msgstr "Rencana Saat Ini:"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__partner_id
@@ -1366,7 +1373,7 @@ msgstr "Pelanggan"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__commercial_partner_id
 msgid "Customer Company"
-msgstr ""
+msgstr "Perusahaan Pelanggan"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__customer_ids
@@ -1397,12 +1404,12 @@ msgstr ""
 #. module: sale_subscription
 #: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_action_pending
 msgid "Define a new subscription"
-msgstr ""
+msgstr "Tetapkan langganan baru"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
 msgid "Delay After Trigger"
-msgstr ""
+msgstr "Tunda Setelah Dipicu"
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_alert__trg_date_range
@@ -1415,12 +1422,12 @@ msgstr ""
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__trg_date_range
 msgid "Delay after trigger date"
-msgstr ""
+msgstr "Tunda setelah tanggal pemicu"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__trg_date_range_type
 msgid "Delay type"
-msgstr ""
+msgstr "Tipe penunda"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__partner_shipping_id
@@ -1504,12 +1511,12 @@ msgstr "Menu dropdown"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__activity_date_deadline_range
 msgid "Due Date In"
-msgstr ""
+msgstr "Jatuh Tempo Pada"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__activity_date_deadline_range_type
 msgid "Due type"
-msgstr ""
+msgstr "Tipe jatuh tempo"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__recurring_rule_boundary
@@ -1525,7 +1532,7 @@ msgstr "Template Email"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__recurring_rule_count
 msgid "End After"
-msgstr ""
+msgstr "Akhiri Setelah"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__date
@@ -1572,7 +1579,7 @@ msgstr "ID Eksternal"
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_alert__on_change_field_ids
 msgid "Fields that trigger the onchange."
-msgstr ""
+msgstr "Field yang memicu perubahan"
 
 #. module: sale_subscription
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_template__recurring_rule_boundary__limited
@@ -1626,7 +1633,7 @@ msgstr ""
 #: code:addons/sale_subscription/static/src/js/tours/sale_subscription.js:0
 #, python-format
 msgid "Go ahead and create a new product"
-msgstr ""
+msgstr "Ayo buat produk baru"
 
 #. module: sale_subscription
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription__health__done
@@ -1640,7 +1647,7 @@ msgstr "Baik"
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_form
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
 msgid "Good Health"
-msgstr ""
+msgstr "Kesehatan Bagus"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
@@ -1673,7 +1680,7 @@ msgstr "Memiliki Pesan"
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__health
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__health
 msgid "Health"
-msgstr ""
+msgstr "Kesehatan"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_form
@@ -1683,7 +1690,7 @@ msgstr ""
 #. module: sale_subscription
 #: model:ir.module.category,description:sale_subscription.module_category_subscription_management
 msgid "Helps you handle subscriptions and recurring invoicing."
-msgstr ""
+msgstr "Membantu Anda menangani langganan dan faktur rutin."
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
@@ -1693,7 +1700,7 @@ msgstr "Riwayat"
 #. module: sale_subscription
 #: model:sale.subscription.close.reason,name:sale_subscription.close_reason_4
 msgid "I don't use it"
-msgstr ""
+msgstr "Saya tidak menggunakannya"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__id
@@ -1753,12 +1760,12 @@ msgstr ""
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_template__user_closable
 msgid ""
 "If checked, the user will be able to close his account from the frontend"
-msgstr ""
+msgstr "Bila dicentang, user akan dapat menutup akun user dari front-end"
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription__payment_token_id
 msgid "If not set, the automatic payment will fail."
-msgstr ""
+msgstr "Bila tidak diisi, pembayaran otomatis akan gagal."
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_alert__filter_domain
@@ -1766,6 +1773,8 @@ msgid ""
 "If present, this condition must be satisfied before executing the action "
 "rule."
 msgstr ""
+"Bila diaktifkan, kondisi ini harus dipenuhi sebelum menjalankan peraturan "
+"action."
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_alert__filter_pre_domain
@@ -1773,6 +1782,7 @@ msgid ""
 "If present, this condition must be satisfied before the update of the "
 "record."
 msgstr ""
+"Bila diaktifkan, kondisi ini harus dipenuhi sebelum update record dilakukan."
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription__date
@@ -1780,6 +1790,9 @@ msgid ""
 "If set in advance, the subscription will be set to renew 1 month before the "
 "date and will be closed on the date set in this field."
 msgstr ""
+"Bila ditetapkan terlebih dahulu, langganan akan ditetapkan untuk diperbarui "
+"1 bulan sebelum tanggal dan akan ditutup pada tanggal yang ditetapakn di "
+"field ini."
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_product_product__recurring_invoice
@@ -1787,6 +1800,8 @@ msgstr ""
 msgid ""
 "If set, confirming a sale order with this product will create a subscription"
 msgstr ""
+"Bila diaktifkan, mengonfirmasi sale order dengan produk ini akan membuat "
+"langganan"
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_template__journal_id
@@ -1794,6 +1809,8 @@ msgid ""
 "If set, subscriptions with this template will invoice in this journal; "
 "otherwise the sales journal with the lowest sequence is used."
 msgstr ""
+"Bila diaktifkan, langganan dengan templat ini akan difaktur di jurnal ini; "
+"bila tidak jurnal sales dengan urutan terendah akan digunakan."
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_template__auto_close_limit
@@ -1812,7 +1829,7 @@ msgstr ""
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "If you wish to reopen it, the"
-msgstr ""
+msgstr "Bila Anda ingin membuka ulang,"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
@@ -1820,11 +1837,13 @@ msgid ""
 "If you wish to reopen it, you can pay your invoice for the current invoicing"
 " period."
 msgstr ""
+"Bila Anda ingin membuka ulang, Anda dapat membayar faktur Anda untuk periode"
+" faktur saat ini."
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_kanban
 msgid "In #{kanban_getcolorname(record.color.raw_value)}"
-msgstr ""
+msgstr "Dalam #{kanban_getcolorname(record.color.raw_value)}"
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/controllers/portal.py:0
@@ -1842,12 +1861,12 @@ msgstr "Dalam Proses"
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
 msgid "Industry"
-msgstr ""
+msgstr "Industri"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
 msgid "Initial"
-msgstr ""
+msgstr "Inisial"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__partner_invoice_id
@@ -1862,7 +1881,7 @@ msgstr "Jumlah Faktur"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_form
 msgid "Invoice Email"
-msgstr ""
+msgstr "Email Faktur"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__invoice_mail_template_id
@@ -1945,22 +1964,22 @@ msgstr "Item Jurnal"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__kpi_1month_mrr_delta
 msgid "KPI 1 Month MRR Delta"
-msgstr ""
+msgstr "KPI 1 Bulan MRR Delta"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__kpi_1month_mrr_percentage
 msgid "KPI 1 Month MRR Percentage"
-msgstr ""
+msgstr "KPI 1 Bulan MRR Persentase"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__kpi_3months_mrr_percentage
 msgid "KPI 3 Months MRR Percentage"
-msgstr ""
+msgstr "KPI 3 Bulan MRR Persentase"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__kpi_3months_mrr_delta
 msgid "KPI 3 months MRR Delta"
-msgstr ""
+msgstr "KPI 3 bulan MRR Delta"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_keep_option__renew_product
@@ -1988,7 +2007,7 @@ msgstr "Terakhir diubah pada"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__last_run
 msgid "Last Run"
-msgstr ""
+msgstr "Run Terakhir"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__write_uid
@@ -2038,22 +2057,22 @@ msgstr "Aktifitas terakhir"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
 msgid "Latest Rating: Dissatisfied"
-msgstr ""
+msgstr "Rating Terakhir: Tidak puas"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
 msgid "Latest Rating: Okay"
-msgstr ""
+msgstr "Rating Terakhir: Okay"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
 msgid "Latest Rating: Satisfied"
-msgstr ""
+msgstr "Rating Terakhir: Puas"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__least_delay_msg
 msgid "Least Delay Msg"
-msgstr ""
+msgstr "Pesan yang paling Tidak Tertunda"
 
 #. module: sale_subscription
 #. openerp-web
@@ -2067,12 +2086,12 @@ msgstr ""
 #: code:addons/sale_subscription/static/src/js/tours/sale_subscription.js:0
 #, python-format
 msgid "Let's go to the catalog to create our first subscription product"
-msgstr ""
+msgstr "Mari pergi ke katalog untuk membuat produk langganan pertama kami"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__link_field_id
 msgid "Link Field"
-msgstr ""
+msgstr "Link Field"
 
 #. module: sale_subscription
 #. openerp-web
@@ -2094,37 +2113,37 @@ msgstr ""
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
 msgid "MRR Between"
-msgstr ""
+msgstr "MRR Between"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__mrr_change_amount
 msgid "MRR Change Amount"
-msgstr ""
+msgstr "Jumlah Perubahan MRR"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
 msgid "MRR Change More"
-msgstr ""
+msgstr "MRR Rubah Lebih Banyak"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__mrr_change_period
 msgid "MRR Change Period"
-msgstr ""
+msgstr "MRR Periode Perubahan"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__mrr_change_unit
 msgid "MRR Change Unit"
-msgstr ""
+msgstr "Satuan Perubahan MRR"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__mrr_max
 msgid "MRR Range Max"
-msgstr ""
+msgstr "Rentang Maksimal MRR"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__mrr_min
 msgid "MRR Range Min"
-msgstr ""
+msgstr "Rentang Minimal MRR"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_log__recurring_monthly
@@ -2134,7 +2153,7 @@ msgstr ""
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_log__recurring_monthly
 msgid "MRR, after applying the changes of that particular event"
-msgstr ""
+msgstr "MRR, setelah menerapkan perubahan untuk acara tersebut"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__message_main_attachment_id
@@ -2145,12 +2164,12 @@ msgstr "Lampiran Utama"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "Manage Payment Method"
-msgstr ""
+msgstr "Mengelola Metode Pembayaran"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "Manage Payment Methods"
-msgstr ""
+msgstr "Mengelola Metode Pembayaran"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
@@ -2217,11 +2236,13 @@ msgid ""
 "Model for record creation / update. Set this field only to specify a "
 "different model than the base model."
 msgstr ""
+"Model untuk membuat/update record. Isi field ini hanya untuk menentukan "
+"model yang berbeda dari model dasar."
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_alert__model_id
 msgid "Model on which the server action runs."
-msgstr ""
+msgstr "Model di mana server action dijalankan."
 
 #. module: sale_subscription
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_alert__trigger_condition__on_create_or_write
@@ -2253,7 +2274,7 @@ msgstr "Deadline Kegiatan Saya"
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
 msgid "My Subscriptions"
-msgstr ""
+msgstr "Langganan Saya"
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/controllers/portal.py:0
@@ -2268,7 +2289,7 @@ msgstr "Nama"
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription__health__normal
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_report__health__normal
 msgid "Neutral"
-msgstr ""
+msgstr "Netral"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
@@ -2304,12 +2325,12 @@ msgstr "Tipe Aktivitas Berikutnya"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_list
 msgid "Next Invoice"
-msgstr ""
+msgstr "Faktur Berikut"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "Next Invoice:"
-msgstr ""
+msgstr "Faktur Berikut:"
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/models/sale_subscription.py:0
@@ -2364,6 +2385,9 @@ msgid ""
 "            state. After the negotiation, the salesman should close or renew\n"
 "            pending subscriptions."
 msgstr ""
+"Odoo secara otomatis menetapkan langganan untuk diperbarui dalam status\n"
+"            pending. Setelah negosiasi, salesman harus menutup atau memperbarui\n"
+"            langganan yang pending."
 
 #. module: sale_subscription
 #: model:product.product,name:sale_subscription.product_office_cleaning
@@ -2380,7 +2404,7 @@ msgstr ""
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__on_change_field_ids
 msgid "On Change Fields Trigger"
-msgstr ""
+msgstr "On Change Fields Trigger"
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_alert__help
@@ -2388,6 +2412,8 @@ msgid ""
 "Optional help text for the users with a description of the target view, such"
 " as its usage and purpose."
 msgstr ""
+"Teks bantuan opsional untuk user dengan keterangan tampilan target, seperti "
+"penggunaan dan tujuannya."
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_wizard__option_lines
@@ -2414,7 +2440,7 @@ msgstr "Info Lainnya"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
 msgid "Over"
-msgstr ""
+msgstr "Over"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
@@ -2424,7 +2450,7 @@ msgstr ""
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "Pay With"
-msgstr ""
+msgstr "Bayar Dengan"
 
 #. module: sale_subscription
 #: model_terms:sale.subscription.template,description:sale_subscription.monthly_subscription
@@ -2463,7 +2489,7 @@ msgstr "Syarat Pembayaran"
 #: model:ir.model,name:sale_subscription.model_payment_token
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__payment_token_id
 msgid "Payment Token"
-msgstr ""
+msgstr "Token Pembayaran"
 
 #. module: sale_subscription
 #: model:ir.model,name:sale_subscription.model_payment_transaction
@@ -2473,7 +2499,7 @@ msgstr "Transaksi Tagihan"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "Payment method:"
-msgstr ""
+msgstr "Metode pembayaran:"
 
 #. module: sale_subscription
 #: model:mail.template,subject:sale_subscription.email_payment_reminder
@@ -2489,12 +2515,12 @@ msgstr ""
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_alert__mrr_change_period
 msgid "Period over which the KPI is calculated"
-msgstr ""
+msgstr "Peroide di mana KPI akan dihitung"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "Plan Details"
-msgstr ""
+msgstr "Detail Rencana"
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/models/sale_subscription.py:0
@@ -2539,7 +2565,7 @@ msgstr "Kategori Produk"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__product_count
 msgid "Product Count"
-msgstr ""
+msgstr "Jumlah Produk"
 
 #. module: sale_subscription
 #: model:ir.model,name:sale_subscription.model_product_template
@@ -2566,6 +2592,8 @@ msgid ""
 "Provide the field used to link the newly created record on the record used "
 "by the server action."
 msgstr ""
+"Sediakan field yang digunakan untuk menghubungkan record yang baru saja "
+"dibuat pada record yang digunakan oleh server action."
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__code
@@ -2600,7 +2628,7 @@ msgstr ""
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_stage__rating_template_id
 msgid "Rating Email Template"
-msgstr ""
+msgstr "Templat Rating Email"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__rating_last_feedback
@@ -2620,12 +2648,12 @@ msgstr "Nilai Value Terakhir"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__rating_operator
 msgid "Rating Operator"
-msgstr ""
+msgstr "Rating Operator"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__rating_percentage
 msgid "Rating Percentage"
-msgstr ""
+msgstr "Persentase Rating"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
@@ -2637,7 +2665,7 @@ msgstr "Nilai Kepuasan"
 msgid ""
 "Rating Satisfaction is the ratio of positive rating to total number of "
 "rating."
-msgstr ""
+msgstr "Rating Kepuasan "
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__rating_count
@@ -2715,12 +2743,12 @@ msgstr "Pembaruan"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_payment_transaction__renewal_allowed
 msgid "Renewal Allowed"
-msgstr ""
+msgstr "Pembaruan Diizinkan"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_form
 msgid "Renewal Quotation"
-msgstr ""
+msgstr "Quotation Pembaruan"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__recurring_interval
@@ -2772,7 +2800,7 @@ msgstr "Retention"
 #. module: sale_subscription
 #: model:ir.actions.act_window,name:sale_subscription.sale_subscription_report_cohort_action
 msgid "Retention Analysis"
-msgstr ""
+msgstr "Analisis Retensi"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
@@ -2795,7 +2823,7 @@ msgstr "Kesalahan Pengiriman SMS"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__sms_template_id
 msgid "SMS Template"
-msgstr ""
+msgstr "Templat SMS"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
@@ -2812,21 +2840,21 @@ msgstr "Jumlah Sale Order"
 #: model:ir.cron,cron_name:sale_subscription.ir_cron_sale_subscription_update_kpi
 #: model:ir.cron,name:sale_subscription.ir_cron_sale_subscription_update_kpi
 msgid "Sale Subscription: Update KPI"
-msgstr ""
+msgstr "Langganan Sale: Update KPI"
 
 #. module: sale_subscription
 #: model:ir.actions.server,name:sale_subscription.account_analytic_cron_for_invoice_ir_actions_server
 #: model:ir.cron,cron_name:sale_subscription.account_analytic_cron_for_invoice
 #: model:ir.cron,name:sale_subscription.account_analytic_cron_for_invoice
 msgid "Sale Subscription: generate recurring invoices and payments"
-msgstr ""
+msgstr "Langganan Sale: buat faktur dan pembayaran rutin"
 
 #. module: sale_subscription
 #: model:ir.actions.server,name:sale_subscription.account_analytic_cron_ir_actions_server
 #: model:ir.cron,cron_name:sale_subscription.account_analytic_cron
 #: model:ir.cron,name:sale_subscription.account_analytic_cron
 msgid "Sale Subscription: subscriptions expiration"
-msgstr ""
+msgstr "Langganan Sale: langganan berakhir"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_list
@@ -2867,7 +2895,7 @@ msgstr "Tim Penjualan"
 #. module: sale_subscription
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_alert__activity_user__channel_leader
 msgid "Sales Team Leader"
-msgstr ""
+msgstr "Pemimpin Tim Sales"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__user_id
@@ -2925,6 +2953,8 @@ msgid ""
 "Send a renewal quotation to the customer.\n"
 "            When it is confirmed, the subscription is running again."
 msgstr ""
+"Kirim quotation pembaruan ke pelanggan.\n"
+"            Saat dikonfirmasi, langganan akan berjalan lagi."
 
 #. module: sale_subscription
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_template__payment_mode__success_payment
@@ -2935,17 +2965,17 @@ msgstr ""
 #: model:ir.actions.act_window,name:sale_subscription.sale_subscription_act_window_sms_composer_multi
 #: model:ir.actions.act_window,name:sale_subscription.sale_subscription_act_window_sms_composer_single
 msgid "Send an SMS Text Message"
-msgstr ""
+msgstr "Kirim Pesan Teks SMS"
 
 #. module: sale_subscription
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_alert__action__sms
 msgid "Send an SMS Text Message to the customer"
-msgstr ""
+msgstr "Kirim Pesan Teks SMS ke pelanggan"
 
 #. module: sale_subscription
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_alert__action__email
 msgid "Send an email to the customer"
-msgstr ""
+msgstr "Kirim email ke pelanggan"
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_stage__rating_template_id
@@ -2963,12 +2993,12 @@ msgstr "Urutan"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__action_server_id
 msgid "Server Actions"
-msgstr ""
+msgstr "Server Action"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "Set Payment Method"
-msgstr ""
+msgstr "Tetapkan Metode Pembayaran"
 
 #. module: sale_subscription
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_alert__action__set_stage
@@ -2992,7 +3022,7 @@ msgstr ""
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__starred
 msgid "Show Subscription on dashboard"
-msgstr ""
+msgstr "Tunjukkan Langganan pada dashboard"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
@@ -3002,7 +3032,7 @@ msgstr "Tampilkan semua dokumen dengan aksi berikut sebelum hari ini"
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription__health
 msgid "Show the health status"
-msgstr ""
+msgstr "Tunjukkan status kesehatan"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__source_id
@@ -3012,13 +3042,13 @@ msgstr "Sumber"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__product_ids
 msgid "Specific Products"
-msgstr ""
+msgstr "Produk-Produk Spesifik"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__activity_user_ids
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_alert__activity_user__users
 msgid "Specific Users"
-msgstr ""
+msgstr "User-User Spesifik"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__stage_id
@@ -3057,7 +3087,7 @@ msgstr ""
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
 msgid "Stage goes from"
-msgstr ""
+msgstr "Tahap dimulai dari"
 
 #. module: sale_subscription
 #: model:ir.actions.act_window,name:sale_subscription.sale_subscription_stage_action
@@ -3081,7 +3111,7 @@ msgstr "Tanggal Mulai"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "Start Date:"
-msgstr ""
+msgstr "Tanggal Mulai:"
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/controllers/portal.py:0
@@ -3137,17 +3167,17 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_subscription.view_subcription_report_graph
 #: model_terms:ir.ui.view,arch_db:sale_subscription.view_subcription_report_pivot
 msgid "Subscription Analysis"
-msgstr ""
+msgstr "Analisis Langganan"
 
 #. module: sale_subscription
 #: model:ir.model,name:sale_subscription.model_sale_subscription_close_reason
 msgid "Subscription Close Reason"
-msgstr ""
+msgstr "Alasan Penutupan Langganan"
 
 #. module: sale_subscription
 #: model:ir.model,name:sale_subscription.model_sale_subscription_close_reason_wizard
 msgid "Subscription Close Reason Wizard"
-msgstr ""
+msgstr "Wizard Alasan Penutupan Langganan"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_account_analytic_account__subscription_count
@@ -3155,7 +3185,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__subscription_count
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__subscription_count
 msgid "Subscription Count"
-msgstr ""
+msgstr "Jumlah Langganan"
 
 #. module: sale_subscription
 #: model:mail.template,name:sale_subscription.mail_template_subscription_invoice
@@ -3181,7 +3211,7 @@ msgstr ""
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__subscription_log_ids
 msgid "Subscription Logs"
-msgstr ""
+msgstr "Log Langganan"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_order__subscription_management
@@ -3192,7 +3222,7 @@ msgstr "Manajemen Subskripsi"
 #: model:ir.model.fields,field_description:sale_subscription.field_product_product__recurring_invoice
 #: model:ir.model.fields,field_description:sale_subscription.field_product_template__recurring_invoice
 msgid "Subscription Product"
-msgstr ""
+msgstr "Produk Langganan"
 
 #. module: sale_subscription
 #: model:ir.actions.act_window,name:sale_subscription.product_action_subscription
@@ -3225,7 +3255,7 @@ msgstr ""
 #. module: sale_subscription
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_alert__activity_user__contract
 msgid "Subscription Salesperson"
-msgstr ""
+msgstr "Salesperson Langganan"
 
 #. module: sale_subscription
 #: model:ir.model,name:sale_subscription.model_sale_subscription_stage
@@ -3246,7 +3276,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__template_id
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__template_id
 msgid "Subscription Template"
-msgstr ""
+msgstr "Templat Langganan"
 
 #. module: sale_subscription
 #: model:ir.actions.act_window,name:sale_subscription.sale_subscription_template_action
@@ -3270,22 +3300,22 @@ msgstr ""
 #. module: sale_subscription
 #: model:sale.subscription.close.reason,name:sale_subscription.close_reason_2
 msgid "Subscription does not meet my requirements"
-msgstr ""
+msgstr "Langganan tidak memenuhi persyaratan saya"
 
 #. module: sale_subscription
 #: model:sale.subscription.close.reason,name:sale_subscription.close_reason_1
 msgid "Subscription is too expensive"
-msgstr ""
+msgstr "Langganan terlalu mahal"
 
 #. module: sale_subscription
 #: model:sale.subscription.close.reason,name:sale_subscription.close_reason_3
 msgid "Subscription reached its end date"
-msgstr ""
+msgstr "Langganan mencapai tanggal akhir"
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_log__category
 msgid "Subscription stage category when the change occurred"
-msgstr ""
+msgstr "Kategori tahap langganan saat perubahan terjadi"
 
 #. module: sale_subscription
 #: model:mail.message.subtype,description:sale_subscription.subtype_stage_change
@@ -3295,22 +3325,22 @@ msgstr ""
 #. module: sale_subscription
 #: model:mail.template,name:sale_subscription.mail_template_subscription_alert
 msgid "Subscription: Default Email Alert"
-msgstr ""
+msgstr "Langganan: Peringatan Default Email "
 
 #. module: sale_subscription
 #: model:sms.template,name:sale_subscription.sms_template_data_default_alert
 msgid "Subscription: Default SMS Alert"
-msgstr ""
+msgstr "Langganan: Peringatan Default SMS"
 
 #. module: sale_subscription
 #: model:mail.template,name:sale_subscription.email_payment_close
 msgid "Subscription: Payment Failure"
-msgstr ""
+msgstr "Langganan: Pembayaran Gagal"
 
 #. module: sale_subscription
 #: model:mail.template,name:sale_subscription.email_payment_reminder
 msgid "Subscription: Payment Reminder"
-msgstr ""
+msgstr "Langganan: Pengingat Pembayaran"
 
 #. module: sale_subscription
 #: model:mail.template,name:sale_subscription.email_payment_success
@@ -3320,17 +3350,17 @@ msgstr ""
 #. module: sale_subscription
 #: model:sms.template,name:sale_subscription.sms_template_data_payment_failure
 msgid "Subscription: Payment failure"
-msgstr ""
+msgstr "Langganan: Pembayaran gagal"
 
 #. module: sale_subscription
 #: model:sms.template,name:sale_subscription.sms_template_data_payment_reminder
 msgid "Subscription: Payment reminder"
-msgstr ""
+msgstr "Langganan: Pengingat pembayaran"
 
 #. module: sale_subscription
 #: model:mail.template,name:sale_subscription.mail_template_subscription_rating
 msgid "Subscription: Rating Request"
-msgstr ""
+msgstr "Langganan: Permintaan Rating"
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/models/sale_subscription.py:0
@@ -3364,7 +3394,7 @@ msgstr "Langganan"
 #. module: sale_subscription
 #: model:ir.actions.act_window,name:sale_subscription.sale_subscription_report_pivot_action
 msgid "Subscriptions Analysis"
-msgstr ""
+msgstr "Analisis Langganan"
 
 #. module: sale_subscription
 #: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_action
@@ -3376,7 +3406,7 @@ msgstr ""
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
 msgid "Subscriptions that are not assigned to an account manager."
-msgstr ""
+msgstr "Langganan yang tidak ditetapkan ke account manager."
 
 #. module: sale_subscription
 #: model:ir.actions.act_window,name:sale_subscription.sale_subscription_action_pending
@@ -3397,7 +3427,7 @@ msgstr ""
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_view_tree
 msgid "Sum of Yearly Recurring Revenue"
-msgstr ""
+msgstr "Total dari Pendapatan Berulang Tahunan"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__activity_summary
@@ -3424,12 +3454,12 @@ msgstr ""
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__crud_model_id
 msgid "Target Model"
-msgstr ""
+msgstr "Target Model"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__crud_model_name
 msgid "Target Model Name"
-msgstr ""
+msgstr "Nama Target Model"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__recurring_tax
@@ -3468,6 +3498,9 @@ msgid ""
 "                can be selected by the salespeople to quickly configure the\n"
 "                terms and conditions of the subscription."
 msgstr ""
+"Templat digunakan untuk mengonfigurasi awal langganan yang\n"
+"                dapat dipilih oleh salespeople untuk lebih cepat mengonfigurasi\n"
+"                syarat dan ketentuan langganan."
 
 #. module: sale_subscription
 #: model:mail.template,subject:sale_subscription.email_payment_close
@@ -3489,6 +3522,9 @@ msgid ""
 "This allows comparison of invoice lines created by subscriptions with different temporalities.\n"
 "The computation assumes that 1 month is comprised of exactly 30 days, regardless  of the actual length of the month."
 msgstr ""
+"MRR dihitung dengan membagi jumlah yang ditandatangani (dalam mata uang perusahaan) dengan jumlah waktu di antara tanggal awal dan akhir yang dikonversi menjadi bulan.\n"
+"Ini memungkinkan perbandingan baris faktur yang dibuat langganan dengan temporal yang berbeda.\n"
+"Penghitungan mengasumsi bahwa 1 bulan terdiri dari 30 hari, tanpa mempedulikan panjang bulan yang sebetulnya."
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_alert__trigger_field_ids
@@ -3528,6 +3564,7 @@ msgid ""
 "The next invoice will be created on this date then the period will be "
 "extended."
 msgstr ""
+"Faktur berikut akan dibuat pada tanggal ini lalu periode akan diperpanjang."
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/models/sale_subscription.py:0
@@ -3541,6 +3578,8 @@ msgid ""
 "The scheduled action for alerts has been deleted. Update the Subscriptions "
 "module to re-create it."
 msgstr ""
+"Action yang dijadwalkan untuk peringatan telah dihapus. Update modul "
+"Langganan untuk membuat ulang."
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription__template_id
@@ -3571,6 +3610,8 @@ msgstr ""
 msgid ""
 "This bar allows to filter the opportunities based on scheduled activities."
 msgstr ""
+"Bar ini memungkinkan untuk memfilter kesempatan berdasarkan kegiatan yang "
+"dijadwalkan."
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/models/sale_subscription.py:0
@@ -3638,7 +3679,7 @@ msgstr "Waktu"
 #. module: sale_subscription
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_alert__trigger_condition__on_time
 msgid "Timed Condition"
-msgstr ""
+msgstr "Kondisi Waktu"
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/controllers/portal.py:0
@@ -3681,22 +3722,22 @@ msgstr "Pemicu"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__trg_date_id
 msgid "Trigger Date"
-msgstr ""
+msgstr "Tanggal Pemicu"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__trigger_field_ids
 msgid "Trigger Fields"
-msgstr ""
+msgstr "Field Pemicu"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
 msgid "Trigger Now"
-msgstr ""
+msgstr "Picu Sekarang"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__trigger_condition
 msgid "Trigger On"
-msgstr ""
+msgstr "Picu Pada"
 
 #. module: sale_subscription
 #: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_alert_action
@@ -3704,6 +3745,8 @@ msgid ""
 "Trigger alerts for salespersons or customers: churn, invoice not paid, "
 "upsell, etc."
 msgstr ""
+"Picu alert untuk salesperson atau pelanggan: churn, faktur tidak dibayar, "
+"upsell, dsb."
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_alert__stage_from_id
@@ -3713,7 +3756,7 @@ msgstr ""
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_log__event_type
 msgid "Type of event"
-msgstr ""
+msgstr "Tipe acara"
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_alert__state
@@ -3786,7 +3829,7 @@ msgstr "Satuan"
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_form
 #: model_terms:ir.ui.view,arch_db:sale_subscription.wizard_form_view
 msgid "Upsell"
-msgstr ""
+msgstr "Upsell"
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/models/sale_subscription.py:0
@@ -3811,11 +3854,14 @@ msgid ""
 " 'Generic User From Record' to specify the field name of the user to choose "
 "on the record."
 msgstr ""
+"Gunakan \"User Spesifik' untuk selalu menetapkan user yang sama pada "
+"kegiatan berikutnya. Gunakan 'User Umum dari Record' untuk menentukan nama "
+"field user untuk dipilih pada record."
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__trg_date_calendar_id
 msgid "Use Calendar"
-msgstr ""
+msgstr "Gunakan Kalender"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__trg_date_resource_field_id
@@ -3829,6 +3875,9 @@ msgid ""
 "                work done, expenses and/or sales orders. Odoo will automatically manage\n"
 "                the alerts for the renewal of the subscriptions to the right salesperson."
 msgstr ""
+"Gunakan langganan untuk mengikuti task, masalah, timesheet atau faktur berdasarkan pada\n"
+"                pekerjaan yang selesai, pengeluaran dan/atau sales orders. Odoo akan secara otomatis mengelola\n"
+"                peringatan untuk pembaruan langganan ke salesperson yang tepat."
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_alert__trg_date_resource_field_id
@@ -3843,17 +3892,17 @@ msgstr ""
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__activity_user_field_name
 msgid "User field name"
-msgstr ""
+msgstr "Nama field user"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "Valid Until:"
-msgstr ""
+msgstr "Valid Sampai:"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__fields_lines
 msgid "Value Mapping"
-msgstr ""
+msgstr "Value Mapping"
 
 #. module: sale_subscription
 #. openerp-web
@@ -3916,6 +3965,8 @@ msgid ""
 "When calculating a day-based timed condition, it is possible to use a "
 "calendar to compute the date based on working days."
 msgstr ""
+"Saat menghitung kondisi waktu berdasarkan hari, kalender dapat digunakan "
+"untuk menghitung tanggal berdasarkan hari-hari kerja."
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_alert__sequence
@@ -3923,6 +3974,8 @@ msgid ""
 "When dealing with multiple actions, the execution order is based on the "
 "sequence. Low number means high priority."
 msgstr ""
+"Saat terdapat lebih dari satu action, urutan pelaksanaan berdasarkan "
+"sequence. Nomor yang lebih rendah berarti prioritas lebih tinggi."
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_alert__trg_date_id
@@ -3935,11 +3988,13 @@ msgstr ""
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_alert__active
 msgid "When unchecked, the rule is hidden and will not be executed."
 msgstr ""
+"Saat tidak dicentang, peraturan akan disembunyikan dan tidak akan "
+"dijalankan."
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription__starred
 msgid "Whether this subscription should be displayed on the dashboard or not"
-msgstr ""
+msgstr "Apakah langganan ini akan ditampilkan pada dashboard atau tidak"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_keep_option__wizard_id
@@ -3978,6 +4033,8 @@ msgid ""
 "You can't archive the partner as it is used in the following recurring "
 "orders: %s"
 msgstr ""
+"Anda tidak dapat mengarsip mitra karena digunakan pada order pengulangan "
+"berikut: %s"
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/models/sale_order.py:0
@@ -3990,12 +4047,12 @@ msgstr ""
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.portal_my_subscriptions
 msgid "You don't have any subscriptions yet."
-msgstr ""
+msgstr "Anda belum memiliki langganan apapun."
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "You must be logged in to manage your payment methods."
-msgstr ""
+msgstr "Anda harus log in untuk mengelola metode pembayaran Anda."
 
 #. module: sale_subscription
 #: model_terms:ir.actions.act_window,help:sale_subscription.product_action_subscription
@@ -4003,6 +4060,8 @@ msgid ""
 "You must define a product for everything you sell or purchase,\n"
 "            whether it's a storable product, a consumable or a service."
 msgstr ""
+"Anda harus mendifinisikan produk untuk semua yang Anda jual atau beli,\n"
+"            baik itu produk yang bisa disipman, produk konsumi atau layanan."
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/models/sale_subscription.py:0
@@ -4022,21 +4081,23 @@ msgid ""
 "You will find here the subscriptions to be renewed (end date is close or "
 "passed)"
 msgstr ""
+"Anda akan menemukan di sini langganan untuk diperbarui (tanggal akhir sudah "
+"dekat atau terlewati)"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "Your Details"
-msgstr ""
+msgstr "Detail Anda"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "Your Plan"
-msgstr ""
+msgstr "Rencana Anda"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "Your subscription is closed."
-msgstr ""
+msgstr "Langganan Anda ditutup."
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
@@ -4046,7 +4107,7 @@ msgstr "hari"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
 msgid "e.g. Closed Subscription"
-msgstr ""
+msgstr "contoh Langganan Ditutup"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
@@ -4076,7 +4137,7 @@ msgstr "kurang dari"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "missing payments (from"
-msgstr ""
+msgstr "kurang pembayaran (dari"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
@@ -4086,12 +4147,12 @@ msgstr "bulan"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "to this day) will be automatically processed."
-msgstr ""
+msgstr "sampai hari ini) akan secara otomatis diproses."
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "weeks"
-msgstr ""
+msgstr "minggu-minggu"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
@@ -4117,11 +4178,12 @@ msgid ""
 "{{ object.company_id.name }}: Please check the subscription {{ object.name "
 "}}"
 msgstr ""
+"{{ object.company_id.name }}: Mohon periksa langganan {{ object.name }}"
 
 #. module: sale_subscription
 #: model:mail.template,subject:sale_subscription.mail_template_subscription_rating
 msgid "{{ object.company_id.name }}: Service Rating Request"
-msgstr ""
+msgstr "{{ object.company_id.name }}: Permintaan Rating Layanan"
 
 #. module: sale_subscription
 #: model:sms.template,body:sale_subscription.sms_template_data_payment_reminder
@@ -4139,3 +4201,6 @@ msgid ""
 " attention. If you have some concerns about it, please contact {{ "
 "object.user_id.name }}, your contact person."
 msgstr ""
+"{{ object.company_id.name }}: Langganan Anda {{ object.name }} membutuhkan "
+"perhatian Anda. Bila Anda memiliki kekhawatiran mengenai hal tersebut, "
+"silakan hubungi {{ object.user_id.name }}, contact person Anda."

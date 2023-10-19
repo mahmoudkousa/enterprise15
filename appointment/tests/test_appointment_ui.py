@@ -44,6 +44,38 @@ class AppointmentTest(AppointmentCommon, common.HttpCase):
         self.assertTrue(all(slot.slot_type == 'unique' for slot in appointment_type.slot_ids), "All slots are 'unique'")
 
     @users('apt_manager')
+    def test_route_create_custom_with_context(self):
+        self.authenticate(self.env.user.login, self.env.user.login)
+        now = datetime.now()
+        unique_slots = [{
+            'start': (now + timedelta(hours=1)).replace(microsecond=0).isoformat(' '),
+            'end': (now + timedelta(hours=2)).replace(microsecond=0).isoformat(' '),
+            'allday': False,
+        }, {
+            'start': (now + timedelta(days=2)).replace(microsecond=0).isoformat(' '),
+            'end': (now + timedelta(days=3)).replace(microsecond=0).isoformat(' '),
+            'allday': True,
+        }]
+        request = self.url_open(
+            "/appointment/calendar_appointment_type/create_custom",
+            data=json.dumps({
+                'params': {
+                    'slots': unique_slots,
+                    'context': {
+                        'default_assign_method': 'chosen',
+                    },
+                }
+            }),
+            headers={"Content-Type": "application/json"},
+        ).json()
+        result = request.get('result', dict())
+        self.assertTrue(result.get('id'), 'The request returns the id of the custom appointment type')
+
+        appointment_type = self.env['calendar.appointment.type'].browse(result['id'])
+        # The default context fields should be ignored as the fields are not whitelisted
+        self.assertEqual(appointment_type.assign_method, 'random')
+
+    @users('apt_manager')
     def test_route_search_create_work_hours(self):
         self.authenticate(self.env.user.login, self.env.user.login)
         request = self.url_open(
@@ -57,6 +89,27 @@ class AppointmentTest(AppointmentCommon, common.HttpCase):
         self.assertEqual(appointment_type.category, 'work_hours')
         self.assertEqual(len(appointment_type.slot_ids), 14, "Two slots have been created")
         self.assertTrue(all(slot.slot_type == 'recurring' for slot in appointment_type.slot_ids), "All slots are 'recurring'")
+
+    @users('apt_manager')
+    def test_route_search_create_work_hours_with_context(self):
+        self.authenticate(self.env.user.login, self.env.user.login)
+        request = self.url_open(
+            "/appointment/calendar_appointment_type/search_create_work_hours",
+            data=json.dumps({
+                'params': {
+                    'context': {
+                        'default_assign_method': 'chosen',
+                    },
+                }
+            }),
+            headers={"Content-Type": "application/json"},
+        ).json()
+        result = request.get('result', dict())
+        self.assertTrue(result.get('id'), 'The request returns the id of the custom appointment type')
+
+        appointment_type = self.env['calendar.appointment.type'].browse(result['id'])
+        # All default context fields should be ignored because of clean_context()
+        self.assertEqual(appointment_type.assign_method, 'random')
 
 
 @tagged('-at_install', 'post_install')

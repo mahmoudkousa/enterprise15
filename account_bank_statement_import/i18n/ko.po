@@ -10,6 +10,7 @@
 # Seongseok Shin <shinss61@hotmail.com>, 2021
 # Heesoo Choi, 2021
 # Sarah Park, 2023
+# Wil Odoo, 2023
 # 
 msgid ""
 msgstr ""
@@ -17,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Sarah Park, 2023\n"
+"Last-Translator: Wil Odoo, 2023\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -929,6 +930,18 @@ msgstr "다음을 사용하여 예금거래 명세서를 업로드할 수 있습
 #, python-format
 msgid "You have to set a Default Account for the journal: %s"
 msgstr "분개장의 기본 계정을 설정해야 합니다: %s"
+
+#. module: account_bank_statement_import
+#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
+#, python-format
+msgid "The following files could not be imported:\n"
+msgstr "다음 파일을 가져올 수 없습니다:\n"
+
+#. module: account_bank_statement_import
+#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
+#, python-format
+msgid "View successfully imported statements"
+msgstr "가져오기 완료한 명세서 보기"
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.journal_dashboard_view_inherit

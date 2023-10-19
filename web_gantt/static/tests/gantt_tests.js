@@ -252,18 +252,18 @@ QUnit.module('Views', {
             'should have a 6 pills');
 
         // verify that the level offset is correctly applied (add 1px gap border compensation for each level)
-        assert.strictEqual(gantt.$('.o_gantt_row_container .o_gantt_cell[data-date="2018-12-01 00:00:00"] .o_gantt_pill_wrapper:contains(Task 1)').css('margin-top'), '2px',
-            'task 1 should be in first level');
-        assert.strictEqual(gantt.$('.o_gantt_row_container .o_gantt_cell[data-date="2018-12-01 00:00:00"] .o_gantt_pill_wrapper:contains(Task 5)').css('margin-top'), GanttRow.prototype.LEVEL_TOP_OFFSET + 4 + 2 +'px',
-            'task 5 should be in second level');
-        assert.strictEqual(gantt.$('.o_gantt_row_container .o_gantt_cell[data-date="2018-12-17 00:00:00"] .o_gantt_pill_wrapper:contains(Task 2)').css('margin-top'), GanttRow.prototype.LEVEL_TOP_OFFSET + 4 + 2 +'px',
-            'task 2 should be in second level');
+        assert.strictEqual(gantt.$('.o_gantt_row_container .o_gantt_cell[data-date="2018-12-01 00:00:00"] .o_gantt_pill_wrapper:contains(Task 5)').css('margin-top'), '2px',
+            'task 5 should be in first level');
+        assert.strictEqual(gantt.$('.o_gantt_row_container .o_gantt_cell[data-date="2018-12-17 00:00:00"] .o_gantt_pill_wrapper:contains(Task 2)').css('margin-top'), '2px',
+            'task 2 should be in first level');
+        assert.strictEqual(gantt.$('.o_gantt_row_container .o_gantt_cell[data-date="2018-12-27 00:00:00"] .o_gantt_pill_wrapper:contains(Task 3)').css('margin-top'), '2px',
+            'task 3 should be in first level');
+        assert.strictEqual(gantt.$('.o_gantt_row_container .o_gantt_cell[data-date="2018-12-01 00:00:00"] .o_gantt_pill_wrapper:contains(Task 1)').css('margin-top'), GanttRow.prototype.LEVEL_TOP_OFFSET + 4 + 2 + 'px',
+            'task 1 should be in second level');
         assert.strictEqual(gantt.$('.o_gantt_row_container .o_gantt_cell[data-date="2018-12-20 00:00:00"] .o_gantt_pill_wrapper:contains(Task 4)').css('margin-top'), 2 * (GanttRow.prototype.LEVEL_TOP_OFFSET + 4) + 2 +'px',
             'task 4 should be in third level');
         assert.strictEqual(gantt.$('.o_gantt_row_container .o_gantt_cell[data-date="2018-12-20 00:00:00"] .o_gantt_pill_wrapper:contains(Task 7)').css('margin-top'), 2 * (GanttRow.prototype.LEVEL_TOP_OFFSET + 4) + 2 +'px',
             'task 7 should be in third level');
-        assert.strictEqual(gantt.$('.o_gantt_row_container .o_gantt_cell[data-date="2018-12-27 00:00:00"] .o_gantt_pill_wrapper:contains(Task 3)').css('margin-top'), GanttRow.prototype.LEVEL_TOP_OFFSET + 4 + 2 +'px',
-            'task 3 should be in second level');
 
         // test popover and local timezone
         assert.containsNone(gantt, 'div.popover', 'should not have a popover');

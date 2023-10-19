@@ -170,7 +170,7 @@ msgstr "日付"
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
 msgid "Days Spent"
-msgstr ""
+msgstr "費やした日数"
 
 #. module: industry_fsm_report
 #: model:ir.model,name:industry_fsm_report.model_x_custom_worksheet_x_project_task_worksheet_template_2
@@ -500,7 +500,7 @@ msgstr ""
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__worksheet_count
 msgid "Worksheet Count"
-msgstr ""
+msgstr "ウェブシートカウント"
 
 #. module: industry_fsm_report
 #: model:ir.actions.report,name:industry_fsm_report.task_custom_report

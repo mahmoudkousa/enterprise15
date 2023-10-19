@@ -78,7 +78,7 @@ msgstr "Plantilla del documento"
 #. module: sale_renting_sign
 #: model_terms:ir.ui.view,arch_db:sale_renting_sign.rental_order_inherit_rental_sign
 msgid "Document(s) Signed"
-msgstr "Documento(s) firmado(s)"
+msgstr "Documentos firmados"
 
 #. module: sale_renting_sign
 #: model:ir.model.fields,field_description:sale_renting_sign.field_rental_sign_wizard__id

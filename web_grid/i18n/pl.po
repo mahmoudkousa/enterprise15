@@ -10,6 +10,7 @@
 # Monika Motyczyńska <m.monia@op.pl>, 2021
 # Paweł Wodyński <pw@myodoo.pl>, 2021
 # Maksym <ms@myodoo.pl>, 2021
+# Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -17,8 +18,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:44+0000\n"
-"Last-Translator: Maksym <ms@myodoo.pl>, 2021\n"
-"Language-Team: Polish (https://www.transifex.com/odoo/teams/41243/pl/)\n"
+"Last-Translator: Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2023\n"
+"Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -100,7 +101,7 @@ msgstr "Zobacz wszystkie rekordy zagregowane w tej komórce"
 #: code:addons/web_grid/models/models.py:0
 #, python-format
 msgid "The field used as readonly type must have a group_operator attribute."
-msgstr ""
+msgstr "Pole używane tylko do odczytu musi mieć atrybut group_operator."
 
 #. module: web_grid
 #. openerp-web
@@ -150,6 +151,8 @@ msgid ""
 "Week %(weeknumber)s\n"
 "%(week_start)s - %(week_end)s"
 msgstr ""
+"Tydzień %(weeknumber)s\n"
+"%(week_start)s - %(week_end)s"
 
 #. module: web_grid
 #. openerp-web
@@ -157,4 +160,4 @@ msgstr ""
 #: code:addons/web_grid/static/src/xml/grid_view.xml:0
 #, python-format
 msgid "\\u00A0"
-msgstr ""
+msgstr "\\u00A0"

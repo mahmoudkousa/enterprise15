@@ -910,9 +910,7 @@
                    '|', ('account_id.code', '=like', '234%'),
                    '|', ('account_id.code', '=like', '235%'),
                    '|', ('account_id.code', '=like', '241%'),
-                   '|', ('account_id.code', '=like', '248%'),
-                   ('account_id.code', '=like', '249%'),
-                   ('account_id.code', '!=', '2492')]"/>
+                   ('account_id.code', '=like', '248%')]"/>
             <field name="groupby">account_id</field>
             <field name="control_domain" eval="[('account_id.tag_ids', 'in', ref('l10n_se.account_tag_21'))]"/>
             <field name="hide_if_zero" eval="True"/>
@@ -1023,7 +1021,6 @@
             ('account_id.code', '=like', '28%'),
             '!', ('account_id.code', '=like', '286%'),
             '!', ('account_id.code', '=like', '287%'),
-            ('account_id.code', '!=', '2491'),
             ('account_id.code', '!=', '2492')]"/>
             <field name="control_domain" eval="[('account_id.tag_ids', 'in', ref('l10n_se.account_tag_29'))]"/>
             <field name="groupby">account_id</field>

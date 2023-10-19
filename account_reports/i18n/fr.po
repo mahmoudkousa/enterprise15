@@ -393,12 +393,11 @@ msgstr "<span>Certains partenaires n'ont pas de numéro de TVA.</span>"
 #: model_terms:ir.ui.view,arch_db:account_reports.template_tax_report
 msgid ""
 "<span>This company is part of a tax unit. You're currently not viewing the "
-"whole unit; to change that, tick the \"aggregate\" option of \"tax unit\" "
-"menu.</span>"
+"whole unit. To change that, use the Tax Unit filter.</span>"
 msgstr ""
 "<span>Cette entreprise fait partie d'une unité fiscale. Actuellement, vous "
-"ne visualisez pas l'ensemble de l'unité ; pour changer cela, cochez l'option"
-" \"agréger\" du menu \"unité fiscale\".</span>"
+"ne voyez pas toute l'unité. Pour changer cela, utilisez le filtre Unité "
+"fiscale.</span>"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.template_multicurrency_report

@@ -34,18 +34,18 @@ msgstr ""
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
 msgid "% of Operations"
-msgstr ""
+msgstr "% Operasi"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
 msgid "% of Transfers"
-msgstr ""
+msgstr "% Transfe"
 
 #. module: quality_control
 #: model:ir.actions.report,print_report_name:quality_control.quality_check_report
 #: model:ir.actions.report,print_report_name:quality_control.quality_check_report_internal
 msgid "'Worksheet_%s' % object.name"
-msgstr ""
+msgstr "'Worksheet_%s' % object.name"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_team_dashboard_view_kanban
@@ -58,6 +58,8 @@ msgid ""
 "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Domain alias\" "
 "title=\"Domain alias\"/>&amp;nbsp;"
 msgstr ""
+"<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Domain alias\" "
+"title=\"Domain alias\"/>&amp;nbsp;"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
@@ -65,6 +67,8 @@ msgid ""
 "<span attrs=\"{'invisible': [('measure_frequency_type', '=', "
 "'all')]}\">Every </span>"
 msgstr ""
+"<span attrs=\"{'invisible': [('measure_frequency_type', '=', "
+"'all')]}\">Setiap</span>"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
@@ -72,16 +76,18 @@ msgid ""
 "<span class=\"fa fa-2x\" data-icon=\"∑\" style=\"padding-left: 10px;\" "
 "role=\"img\" aria-label=\"Statistics\" title=\"Statistics\"/>"
 msgstr ""
+"<span class=\"fa fa-2x\" data-icon=\"∑\" style=\"padding-left: 10px;\" "
+"role=\"img\" aria-label=\"Statistics\" title=\"Statistik\"/>"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.stock_picking_view_form_inherit_quality
 msgid "<span class=\"o_stat_text text-danger\">Quality Checks</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text text-danger\">Pemeriksaan Kualitas</span>"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.stock_picking_view_form_inherit_quality
 msgid "<span class=\"o_stat_text text-success\">Quality Checks</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text text-success\">Pemeriksaan Kualitas</span>"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
@@ -89,6 +95,8 @@ msgid ""
 "<span class=\"o_stat_text\">AVG:</span>\n"
 "                        <span class=\"o_stat_text\">STD:</span>"
 msgstr ""
+"<span class=\"o_stat_text\">AVG:</span>\n"
+"                        <span class=\"o_stat_text\">STD:</span>"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.product_product_form_view_quality_control
@@ -97,31 +105,33 @@ msgid ""
 "<span class=\"o_stat_text\">Pass:</span>\n"
 "                        <span class=\"o_stat_text\">Fail:</span>"
 msgstr ""
+"<span class=\"o_stat_text\">Lolos:</span>\n"
+"                        <span class=\"o_stat_text\">Gagal:</span>"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.stock_picking_view_form_inherit_quality
 msgid "<span class=\"o_stat_text\">Quality Alert</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Peringatan Kualitas</span>"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_form
 msgid "<span class=\"o_stat_text\">Quality Check</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Pemeriksaan Kualitas</span>"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.stock_picking_view_form_inherit_quality
 msgid "<span class=\"o_stat_text\">Quality Checks</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Pemeriksaan Kualitas</span>"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
 msgid "<span>from </span>"
-msgstr ""
+msgstr "<span>dari </span>"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
 msgid "<span>to </span>"
-msgstr ""
+msgstr "<span>ke </span>"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
@@ -196,7 +206,7 @@ msgstr "Catatan Tambahan"
 #. module: quality_control
 #: model:ir.model.fields,help:quality_control.field_quality_check_wizard__additional_note
 msgid "Additional remarks concerning this check."
-msgstr ""
+msgstr "Catatan tambahan mengenai pemeriksaan ini."
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_stock_picking__quality_alert_ids
@@ -212,7 +222,7 @@ msgstr "Semua"
 #. module: quality_control
 #: model:ir.model.fields.selection,name:quality_control.selection__stock_move_line__check_state__pass
 msgid "All checks passed"
-msgstr ""
+msgstr "Lolos semua pemeriksaan"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_search
@@ -237,18 +247,18 @@ msgstr "Cek"
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_stock_move_line__check_state
 msgid "Check State"
-msgstr ""
+msgstr "Periksa Status"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_tree
 msgid "Checked By"
-msgstr ""
+msgstr "Diperiksa Oleh"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_search
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_tree
 msgid "Checked Date"
-msgstr ""
+msgstr "Tanggal Pemeriksaan"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_stock_move_line__check_ids
@@ -259,7 +269,7 @@ msgstr "Cek"
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_team_dashboard_view_kanban
 msgid "Checks In Progress"
-msgstr ""
+msgstr "Pemeriksaan Sedang Berlangsung"
 
 #. module: quality_control
 #: model:ir.ui.menu,name:quality_control.menu_quality_configuration
@@ -270,61 +280,61 @@ msgstr "Konfigurasi"
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_wizard_form_failure
 msgid "Confirm Measure"
-msgstr ""
+msgstr "Konfirmasi Measure"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_point__measure_frequency_type
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
 msgid "Control Frequency"
-msgstr ""
+msgstr "Kontrol Frekuensi"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_form
 msgid "Control Person"
-msgstr ""
+msgstr "Kontrol Orang"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_search
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_search
 msgid "Control Point"
-msgstr ""
+msgstr "Control Point"
 
 #. module: quality_control
 #: model:ir.ui.menu,name:quality_control.menu_quality_control_points
 msgid "Control Points"
-msgstr ""
+msgstr "Control Points"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__measure_on
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__measure_on
 #: model:ir.model.fields,field_description:quality_control.field_quality_point__measure_on
 msgid "Control per"
-msgstr ""
+msgstr "Control per"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_wizard_form_failure
 msgid "Correct Measure"
-msgstr ""
+msgstr "Measure Betul"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_form
 msgid "Corrective Actions"
-msgstr ""
+msgstr "Tindakan Perbaikan"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_form
 msgid "Create Alert"
-msgstr ""
+msgstr "Buat Peringatan"
 
 #. module: quality_control
 #: model_terms:ir.actions.act_window,help:quality_control.quality_alert_action_check
 msgid "Create a new quality alert"
-msgstr ""
+msgstr "Buat peringatan kualitas baru"
 
 #. module: quality_control
 #: model_terms:ir.actions.act_window,help:quality_control.quality_alert_stage_action
 msgid "Create a new quality alert stage"
-msgstr ""
+msgstr "Buat tahap peringatan kualitas baru"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__create_uid
@@ -339,7 +349,7 @@ msgstr "Dibuat pada"
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__current_check_id
 msgid "Current Check"
-msgstr ""
+msgstr "Pemeriksaan Saat Ini"
 
 #. module: quality_control
 #: model:ir.model.fields.selection,name:quality_control.selection__quality_point__measure_frequency_unit__day
@@ -350,7 +360,7 @@ msgstr "Hari"
 #: model:ir.model.fields,help:quality_control.field_quality_check__uom_id
 #: model:ir.model.fields,help:quality_control.field_quality_check_wizard__uom_id
 msgid "Default unit of measure used for all stock operations."
-msgstr ""
+msgstr "Satuan unit default yang digunakan untuk semua operasi stok."
 
 #. module: quality_control
 #: model_terms:ir.actions.act_window,help:quality_control.quality_check_action_main
@@ -359,6 +369,8 @@ msgid ""
 "Define Quality Control Points in order to automatically generate\n"
 "              quality checks at the right logistic operation: transfers, manufacturing orders."
 msgstr ""
+"Definisikan Kualitas Control Points untuk secara otomatis membuat\n"
+"              pemeriksaan kualitas pada operasi logistik yang tepat: transfer, manufacturing order."
 
 #. module: quality_control
 #: model:ir.model.fields,help:quality_control.field_quality_check__measure_on
@@ -374,17 +386,17 @@ msgstr ""
 #: model:ir.model.fields,help:quality_control.field_quality_check_wizard__testing_percentage_within_lot
 #: model:ir.model.fields,help:quality_control.field_quality_point__testing_percentage_within_lot
 msgid "Defines the percentage within a lot that should be tested"
-msgstr ""
+msgstr "Definisikan persentage di dalam lot yang harus ditest"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_form
 msgid "Describe the corrective actions you did..."
-msgstr ""
+msgstr "Deskripsikan tindakan perbaikan yang Anda lakukan..."
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_form
 msgid "Describe the preventive actions you did..."
-msgstr ""
+msgstr "Deskripsikan tindakan preventi yang Anda lakukan..."
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_form
@@ -394,14 +406,14 @@ msgstr "Deskripsi"
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_form
 msgid "Description of the issue..."
-msgstr ""
+msgstr "Deskripsikan masalah..."
 
 #. module: quality_control
 #: model:ir.model.fields,help:quality_control.field_quality_check__is_lot_tested_fractionally
 #: model:ir.model.fields,help:quality_control.field_quality_check_wizard__is_lot_tested_fractionally
 #: model:ir.model.fields,help:quality_control.field_quality_point__is_lot_tested_fractionally
 msgid "Determines if only a fraction of the lot should be tested"
-msgstr ""
+msgstr "Tentukan apabila hanya sebagian dari lot harus ditest"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__display_name
@@ -417,14 +429,14 @@ msgstr "Email Alias"
 #: model:ir.model.fields,help:quality_control.field_quality_check__product_tracking
 #: model:ir.model.fields,help:quality_control.field_quality_check_wizard__product_tracking
 msgid "Ensure the traceability of a storable product in your warehouse."
-msgstr ""
+msgstr "Pastikan produk yang disimpan di gudang Anda dapat dilacak."
 
 #. module: quality_control
 #: model:ir.model.fields.selection,name:quality_control.selection__quality_check__measure_success__fail
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_form
 #: model_terms:ir.ui.view,arch_db:quality_control.view_quality_check_wizard
 msgid "Fail"
-msgstr ""
+msgstr "Gagal"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_search
@@ -436,7 +448,7 @@ msgstr "Gagal"
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__failure_message
 #: model:ir.model.fields,field_description:quality_control.field_quality_point__failure_message
 msgid "Failure Message"
-msgstr ""
+msgstr "Pesan Gagal"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
@@ -446,7 +458,7 @@ msgstr "Frekuensi"
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_point__measure_frequency_unit_value
 msgid "Frequency Unit Value"
-msgstr ""
+msgstr "Frequency Unit Value"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_search
@@ -462,7 +474,7 @@ msgstr "ID"
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_team_dashboard_view_kanban
 msgid "In #{kanban_getcolorname(record.color.raw_value)}"
-msgstr ""
+msgstr "Dalam #{kanban_getcolorname(record.color.raw_value)}"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_search
@@ -479,12 +491,12 @@ msgstr ""
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_form
 msgid "Instructions"
-msgstr ""
+msgstr "Instruksi"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__is_last_check
 msgid "Is Last Check"
-msgstr ""
+msgstr "Apakah Pemeriksaan Terakhir"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard____last_update
@@ -505,19 +517,19 @@ msgstr "Terakhir diperbarui pada"
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__lot_line_id
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__lot_line_id
 msgid "Lot Line"
-msgstr ""
+msgstr "Baris Lot"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__is_lot_tested_fractionally
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__is_lot_tested_fractionally
 #: model:ir.model.fields,field_description:quality_control.field_quality_point__is_lot_tested_fractionally
 msgid "Lot Tested Fractionally"
-msgstr ""
+msgstr "Lot Dites Sebagian"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.view_quality_check_wizard
 msgid "Lot/SN"
-msgstr ""
+msgstr "Lot/Nomor Seri"
 
 #. module: quality_control
 #: model:ir.model,name:quality_control.model_stock_production_lot
@@ -528,7 +540,7 @@ msgstr "Seri/Lot"
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__lot_name
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__lot_name
 msgid "Lot/Serial Number Name"
-msgstr ""
+msgstr "Nama Lot/Nomor Seri"
 
 #. module: quality_control
 #: model:ir.ui.menu,name:quality_control.quality_control_menu_traceability
@@ -539,7 +551,7 @@ msgstr "Nomor Seri/Lot"
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__tolerance_max
 #: model:ir.model.fields,field_description:quality_control.field_quality_point__tolerance_max
 msgid "Max Tolerance"
-msgstr ""
+msgstr "Tolerance Maksimum"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__measure
@@ -551,23 +563,23 @@ msgstr "Ukur"
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_point__measure_frequency_unit
 msgid "Measure Frequency Unit"
-msgstr ""
+msgstr "Measure Frequency Unit"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__measure_success
 msgid "Measure Success"
-msgstr ""
+msgstr "Measure Success"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
 msgid "Message If Failure"
-msgstr ""
+msgstr "Message If Failure"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__tolerance_min
 #: model:ir.model.fields,field_description:quality_control.field_quality_point__tolerance_min
 msgid "Min Tolerance"
-msgstr ""
+msgstr "Tolerance Minimum"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_form
@@ -582,7 +594,7 @@ msgstr "Bulan"
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__nb_checks
 msgid "Nb Checks"
-msgstr ""
+msgstr "Nb Check"
 
 #. module: quality_control
 #: code:addons/quality_control/models/quality.py:0
@@ -598,7 +610,7 @@ msgstr "Next"
 #. module: quality_control
 #: model:ir.model.fields.selection,name:quality_control.selection__stock_move_line__check_state__no_checks
 msgid "No checks"
-msgstr ""
+msgstr "Tidak ada pemeriksaan"
 
 #. module: quality_control
 #: model_terms:ir.actions.act_window,help:quality_control.quality_check_action_spc
@@ -608,40 +620,40 @@ msgstr "Belum ada data!"
 #. module: quality_control
 #: model:ir.model.fields.selection,name:quality_control.selection__quality_check__measure_success__none
 msgid "No measure"
-msgstr ""
+msgstr "Tidak ada measure"
 
 #. module: quality_control
 #: model_terms:ir.actions.act_window,help:quality_control.quality_alert_action_report
 msgid "No quality alert"
-msgstr ""
+msgstr "Tidak ada peringatan kualitas"
 
 #. module: quality_control
 #: model_terms:ir.actions.act_window,help:quality_control.quality_check_action_main
 #: model_terms:ir.actions.act_window,help:quality_control.quality_check_action_team
 msgid "No quality check found"
-msgstr ""
+msgstr "Tidak ada pemeriksaan kualitas yang ditemukan"
 
 #. module: quality_control
 #: model_terms:ir.actions.act_window,help:quality_control.quality_check_action_report
 msgid "No quality checks"
-msgstr ""
+msgstr "Tidak ada pemeriksaan kualitas"
 
 #. module: quality_control
 #: model_terms:ir.actions.act_window,help:quality_control.quality_point_action
 msgid "No quality control point found"
-msgstr ""
+msgstr "Tidak ada control point kualitas yang ditemukan"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_point__norm
 msgid "Norm"
-msgstr ""
+msgstr "Norm"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__norm_unit
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__norm_unit
 #: model:ir.model.fields,field_description:quality_control.field_quality_point__norm_unit
 msgid "Norm Unit"
-msgstr ""
+msgstr "Norm Unit"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__note
@@ -672,7 +684,7 @@ msgstr "Overview"
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
 msgid "Partial Transfer Test"
-msgstr ""
+msgstr "Test Transfer Parsial"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_form
@@ -684,17 +696,17 @@ msgstr "Rekanan"
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_form
 #: model_terms:ir.ui.view,arch_db:quality_control.view_quality_check_wizard
 msgid "Pass"
-msgstr ""
+msgstr "Lolos"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_search
 msgid "Passed"
-msgstr ""
+msgstr "Lolo"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_stock_picking__quality_check_todo
 msgid "Pending checks"
-msgstr ""
+msgstr "Pemeriksaan pending"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_point__measure_frequency_value
@@ -705,7 +717,7 @@ msgstr "Persentase"
 #. module: quality_control
 #: model:ir.model.fields.selection,name:quality_control.selection__quality_point__measure_frequency_type__periodical
 msgid "Periodically"
-msgstr ""
+msgstr "Periodik"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__picture
@@ -716,17 +728,17 @@ msgstr "Gambar"
 #: code:addons/quality_control/models/quality.py:0
 #, python-format
 msgid "Picture Uploaded"
-msgstr ""
+msgstr "Gambar Diunggah"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__position_current_check
 msgid "Position Current Check"
-msgstr ""
+msgstr "Posisi Pemeriksaan Saat Ini"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_form
 msgid "Preventive Actions"
-msgstr ""
+msgstr "Tindakan Preventif"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.view_quality_check_wizard
@@ -783,24 +795,24 @@ msgstr "Kualitas"
 #: model_terms:ir.ui.view,arch_db:quality_control.stock_picking_view_form_inherit_quality
 #, python-format
 msgid "Quality Alert"
-msgstr ""
+msgstr "Peringatan Kualitas"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_graph
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_pivot
 msgid "Quality Alert Analysis"
-msgstr ""
+msgstr "Analisis Pemeriksaan Kualitas"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_stock_picking__quality_alert_count
 msgid "Quality Alert Count"
-msgstr ""
+msgstr "Jumlah Peringatan Kualitas"
 
 #. module: quality_control
 #: model:ir.actions.act_window,name:quality_control.quality_alert_stage_action
 #: model:ir.ui.menu,name:quality_control.menu_quality_config_alert_stage
 msgid "Quality Alert Stages"
-msgstr ""
+msgstr "Tahap Peringatan Kualitas"
 
 #. module: quality_control
 #: model_terms:ir.actions.act_window,help:quality_control.quality_alert_stage_action
@@ -808,6 +820,8 @@ msgid ""
 "Quality Alert stages define the different steps a quality alert should go "
 "through."
 msgstr ""
+"Tahap Peringatan Kualitas mendefinisikan langkah-langkah berbeda yang "
+"peringatan kualitas harus lalui."
 
 #. module: quality_control
 #: model:ir.actions.act_window,name:quality_control.quality_alert_action_check
@@ -817,7 +831,7 @@ msgstr ""
 #: model:ir.ui.menu,name:quality_control.menu_quality_alert_report
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_team_dashboard_view_kanban
 msgid "Quality Alerts"
-msgstr ""
+msgstr "Peringatan Kualitas"
 
 #. module: quality_control
 #: code:addons/quality_control/models/quality.py:0
@@ -825,40 +839,40 @@ msgstr ""
 #: model:ir.model,name:quality_control.model_quality_check
 #, python-format
 msgid "Quality Check"
-msgstr ""
+msgstr "Pemeriksaan Kualita"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_graph
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_pivot
 msgid "Quality Check Analysis"
-msgstr ""
+msgstr "Analisis Pemeriksaan Kualitas"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_stock_picking__quality_check_fail
 msgid "Quality Check Fail"
-msgstr ""
+msgstr "Pemeriksaan Kualitas Gagal"
 
 #. module: quality_control
 #: code:addons/quality_control/wizard/quality_check_wizard.py:0
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_wizard_form_failure
 #, python-format
 msgid "Quality Check Failed"
-msgstr ""
+msgstr "Pemeriksaan Kualitas Gagal"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
 msgid "Quality Check Picture"
-msgstr ""
+msgstr "Gambar Pemeriksaan Kualitas"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_stock_production_lot__quality_check_qty
 msgid "Quality Check Qty"
-msgstr ""
+msgstr "Kuantitas Pemeriksaan Kualitas"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
 msgid "Quality Check:"
-msgstr ""
+msgstr "Pemeriksaan Kualitas:"
 
 #. module: quality_control
 #: code:addons/quality_control/models/quality.py:0
@@ -875,12 +889,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:quality_control.view_quality_check_wizard
 #, python-format
 msgid "Quality Checks"
-msgstr ""
+msgstr "Pemeriksaan Kualitas"
 
 #. module: quality_control
 #: model:ir.actions.act_window,name:quality_control.quality_check_action_spc
 msgid "Quality Checks SPC"
-msgstr ""
+msgstr "Pemeriksaan Kualitas SPC"
 
 #. module: quality_control
 #: model:ir.ui.menu,name:quality_control.menu_quality_control
@@ -890,53 +904,53 @@ msgstr "Kontrol Kualitas"
 #. module: quality_control
 #: model:ir.model,name:quality_control.model_quality_point
 msgid "Quality Control Point"
-msgstr ""
+msgstr "Control Point Kualitas"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_product_product__quality_control_point_qty
 #: model:ir.model.fields,field_description:quality_control.field_product_template__quality_control_point_qty
 msgid "Quality Control Point Qty"
-msgstr ""
+msgstr "Quality Control Point Qty"
 
 #. module: quality_control
 #: model:ir.actions.act_window,name:quality_control.quality_point_action
 msgid "Quality Control Points"
-msgstr ""
+msgstr "Control Point Kualitas"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_product_product__quality_fail_qty
 #: model:ir.model.fields,field_description:quality_control.field_product_template__quality_fail_qty
 msgid "Quality Fail Qty"
-msgstr ""
+msgstr "Kuantitas Kualitas Gagal"
 
 #. module: quality_control
 #: model:ir.actions.act_window,name:quality_control.quality_alert_team_action
 msgid "Quality Overview"
-msgstr ""
+msgstr "Gambaranan Umum Kualitas"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_product_product__quality_pass_qty
 #: model:ir.model.fields,field_description:quality_control.field_product_template__quality_pass_qty
 msgid "Quality Pass Qty"
-msgstr ""
+msgstr "Kuantitas Kualitas Lolos"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.product_product_form_view_quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.product_template_form_view_quality_control
 msgid "Quality Points"
-msgstr ""
+msgstr "Quality Point"
 
 #. module: quality_control
 #: model:ir.actions.act_window,name:quality_control.quality_tag_action
 #: model:ir.ui.menu,name:quality_control.menu_config_quality_tags
 msgid "Quality Tags"
-msgstr ""
+msgstr "Tag Kualita"
 
 #. module: quality_control
 #: model:ir.actions.act_window,name:quality_control.quality_alert_team_action_config
 #: model:ir.ui.menu,name:quality_control.menu_quality_config_alert_team
 msgid "Quality Teams"
-msgstr ""
+msgstr "Tim Kualitas"
 
 #. module: quality_control
 #: model_terms:ir.actions.act_window,help:quality_control.quality_alert_team_action
@@ -944,16 +958,18 @@ msgid ""
 "Quality Teams group the different quality alerts/checks\n"
 "              according to the roles (teams) that need them."
 msgstr ""
+"Tim Kualitas mengelompokkan peringatan/pemeriksaan kualitas yang berbeda-beda\n"
+"              ke peran (tim) yang membutuhkannya."
 
 #. module: quality_control
 #: model:ir.model,name:quality_control.model_report_quality_control_quality_worksheet_internal
 msgid "Quality Worksheet Internal Report"
-msgstr ""
+msgstr "Laporan Internal Worksheet Kualitas"
 
 #. module: quality_control
 #: model:ir.model,name:quality_control.model_report_quality_control_quality_worksheet
 msgid "Quality Worksheet Report"
-msgstr ""
+msgstr "Laporan Worksheet Kualita"
 
 #. module: quality_control
 #: model_terms:ir.actions.act_window,help:quality_control.quality_point_action
@@ -961,6 +977,8 @@ msgid ""
 "Quality control points define the quality checks which should be\n"
 "              performed at each operation, for your different products."
 msgstr ""
+"Control point kualitas mendefinisikan pemeriksaan kualitas yang harusnya dilakukan\n"
+"              pada setiap operasi, untuk produk Anda yang berbeda-beda."
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__qty_line
@@ -972,30 +990,30 @@ msgstr "Kuantitas"
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__qty_tested
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__qty_tested
 msgid "Quantity Tested"
-msgstr ""
+msgstr "Kuantitas Dites"
 
 #. module: quality_control
 #: model:ir.model.fields,help:quality_control.field_quality_check__qty_tested
 #: model:ir.model.fields,help:quality_control.field_quality_check_wizard__qty_tested
 msgid "Quantity of product tested within the lot"
-msgstr ""
+msgstr "Kuantitas produk yang dites dalam lot"
 
 #. module: quality_control
 #: model:ir.model.fields,help:quality_control.field_quality_check__qty_to_test
 #: model:ir.model.fields,help:quality_control.field_quality_check_wizard__qty_to_test
 msgid "Quantity of product to test within the lot"
-msgstr ""
+msgstr "Kuantitas produk untuk diperiksa dalam lo"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__qty_to_test
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__qty_to_test
 msgid "Quantity to Test"
-msgstr ""
+msgstr "Kuantitas untuk Diperiksa"
 
 #. module: quality_control
 #: model:ir.model.fields.selection,name:quality_control.selection__quality_point__measure_frequency_type__random
 msgid "Randomly"
-msgstr ""
+msgstr "Secara acak"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__name
@@ -1016,17 +1034,17 @@ msgstr "Penanggung Jawab"
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__show_lot_text
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__show_lot_text
 msgid "Show Lot Text"
-msgstr ""
+msgstr "Tunjukkan Leks Lot"
 
 #. module: quality_control
 #: model:ir.model.fields.selection,name:quality_control.selection__stock_move_line__check_state__fail
 msgid "Some checks failed"
-msgstr ""
+msgstr "Beberapa pemeriksaan gagal"
 
 #. module: quality_control
 #: model:ir.model.fields.selection,name:quality_control.selection__stock_move_line__check_state__in_progress
 msgid "Some checks to be done"
-msgstr ""
+msgstr "Beberapa pemeriksaan untuk dilakukan"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_stage_view_tree
@@ -1036,7 +1054,7 @@ msgstr "Nama Tahap"
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_point__standard_deviation
 msgid "Standard Deviation"
-msgstr ""
+msgstr "Standard Deviation"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__quality_state
@@ -1052,7 +1070,7 @@ msgstr "Pergerakan Stok"
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__move_line_id
 msgid "Stock Move Line"
-msgstr ""
+msgstr "Stock Move Line"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_tag_view_search
@@ -1079,24 +1097,24 @@ msgstr "Tim"
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__test_type
 msgid "Technical name"
-msgstr ""
+msgstr "Nama tekni"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_search
 msgid "Test Type"
-msgstr ""
+msgstr "Tipe Tes"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_tree
 msgid "Testing % Within Lot"
-msgstr ""
+msgstr "% Testing Dalam Lot"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__testing_percentage_within_lot
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__testing_percentage_within_lot
 #: model:ir.model.fields,field_description:quality_control.field_quality_point__testing_percentage_within_lot
 msgid "Testing Percentage Within Lot"
-msgstr ""
+msgstr "Persentase Testing Dalam Lot"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_alert__title
@@ -1107,7 +1125,7 @@ msgstr "Judul"
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
 msgid "Tolerance"
-msgstr ""
+msgstr "Tolerance"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__product_tracking
@@ -1141,7 +1159,7 @@ msgstr "Validasi"
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__warning_message
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__warning_message
 msgid "Warning Message"
-msgstr ""
+msgstr "Pesan Peringatan"
 
 #. module: quality_control
 #: model:ir.model.fields.selection,name:quality_control.selection__quality_point__measure_frequency_unit__week
@@ -1151,31 +1169,31 @@ msgstr "Minggu"
 #. module: quality_control
 #: model:ir.model,name:quality_control.model_quality_check_wizard
 msgid "Wizard for Quality Check Pop Up"
-msgstr ""
+msgstr "Wizard untuk Pop Up Pemeriksaan Kualitas"
 
 #. module: quality_control
 #: model:ir.actions.report,name:quality_control.quality_check_report
 msgid "Worksheet Report - External (PDF)"
-msgstr ""
+msgstr "Laporan Worksheet - Eksternal (PDF)"
 
 #. module: quality_control
 #: model:ir.actions.report,name:quality_control.quality_check_report_internal
 msgid "Worksheet Report - Internal (PDF)"
-msgstr ""
+msgstr "Laporan Worksheet - Internal (PDF)"
 
 #. module: quality_control
 #: code:addons/quality_control/models/quality.py:0
 #, python-format
 msgid "You measured %.2f %s and it should be between %.2f and %.2f %s."
-msgstr ""
+msgstr "Anda mengukur %.2f %s dan seharusnya di antara %.2f dan %.2f %s."
 
 #. module: quality_control
 #: code:addons/quality_control/models/stock_picking.py:0
 #, python-format
 msgid "You still need to do the quality checks!"
-msgstr ""
+msgstr "Anda masih harus melakukan pemeriksaan kualitas!"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_team_view_form
 msgid "e.g. The QA Masters"
-msgstr ""
+msgstr "contoh The QA Masters"

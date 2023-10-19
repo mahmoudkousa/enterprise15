@@ -45,7 +45,7 @@ msgstr "Verificar Qualidade"
 #. module: quality_control_picking_batch
 #: model:ir.model.fields,field_description:quality_control_picking_batch.field_stock_picking_batch__quality_check_todo
 msgid "Quality Check Todo"
-msgstr ""
+msgstr "Lista de tarefas de qualidade"
 
 #. module: quality_control_picking_batch
 #: model_terms:ir.ui.view,arch_db:quality_control_picking_batch.stock_picking_batch_form

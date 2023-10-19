@@ -7,6 +7,7 @@
 # Martin Trigaux, 2022
 # marcescu, 2022
 # Braulio D. López Vázquez <bdl@odoo.com>, 2022
+# Fernanda Alvarez, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 08:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Braulio D. López Vázquez <bdl@odoo.com>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Last-Translator: Fernanda Alvarez, 2023\n"
+"Language-Team: Spanish (https://app.transifex.com/odoo/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -286,7 +287,7 @@ msgstr ""
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
 "<tbody>\n"
-"    <!-- CABECERA -->\n"
+"    <!-- HEADER -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
@@ -302,14 +303,14 @@ msgstr ""
 "            </table>\n"
 "        </td>\n"
 "    </tr>\n"
-"    <!-- CONTENIDO -->\n"
+"    <!-- CONTENT -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
 "                    <div>\n"
 "                        Hola <t t-out=\"object.name or ''\">Abigail Peterson</t>,<br/><br/>\n"
-"                        Este es un recordatorio para aprovar las hojas de horas de su equipo para el siguiente periodo: <t t-out=\"ctx.get('date_start') or ''\">05/05/2021</t> - <t t-out=\"ctx.get('date_stop') or ''\">06/05/2021</t>.<br/>\n"
+"                        Este es un recordatorio para aprobar las hojas de horas de su equipo para el siguiente periodo: <t t-out=\"ctx.get('date_start') or ''\">05/05/2021</t> - <t t-out=\"ctx.get('date_stop') or ''\">06/05/2021</t>.<br/>\n"
 "                        <div t-if=\"ctx.get('action_url')\" style=\"margin: 16px 0px 16px 0px;\">\n"
 "                            <a t-att-href=\"ctx.get('action_url')\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size: 13px;\">Validar las hojas de horas</a>\n"
 "                        </div>\n"
@@ -325,7 +326,7 @@ msgstr ""
 "            </table>\n"
 "        </td>\n"
 "    </tr>\n"
-"    <!-- PIE -->\n"
+"    <!-- FOOTER -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; font-size: 11px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
@@ -347,11 +348,11 @@ msgstr ""
 "</tbody>\n"
 "</table>\n"
 "</td></tr>\n"
-"<!-- ECHO POR -->\n"
+"<!-- POWERED BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Con tecnología de <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=mail\" style=\"color: #875A7B;\">Odoo</a>\n"
+"        Con la tecnología de <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=mail\" style=\"color: #875A7B;\">Odoo</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -832,6 +833,7 @@ msgstr "Presione Esc para descartar"
 #. module: timesheet_grid
 #. openerp-web
 #: code:addons/timesheet_grid/static/src/js/timesheet_grid/timer_m2o.js:0
+#: code:addons/timesheet_grid/static/src/js/timesheet_grid/timer_m2o.js:0
 #: model:ir.model,name:timesheet_grid.model_project_project
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__project_id
 #: model:ir.model.fields,field_description:timesheet_grid.field_hr_timesheet_merge_wizard__project_id
@@ -920,11 +922,8 @@ msgstr "Seleccione el<b>proyecto</b> en el que está trabajando."
 #: model:ir.model.fields,help:timesheet_grid.field_res_users__timesheet_manager_id
 msgid ""
 "Select the user responsible for approving \"Timesheet\" of this employee.\n"
-"If empty, the approval is done by an Administrator or Team Approver (determined in settings/users)."
+"If empty, the approval is done by a Timesheets > Administrator or a Timesheets > User: all timesheets (as determined in the users settings)."
 msgstr ""
-"Seleccione el usuario que sea responsable por aprobar la \"hoja de horas\" "
-"de este empleado.Si está vacío, el administrador o el encargado del equipo "
-"se harán cargo de la aprobación (se determina en configuración/usuarios)."
 
 #. module: timesheet_grid
 #: model:ir.model.fields,help:timesheet_grid.field_account_analytic_line__is_timesheet
@@ -987,6 +986,7 @@ msgstr "Detener temporizador"
 
 #. module: timesheet_grid
 #. openerp-web
+#: code:addons/timesheet_grid/static/src/js/timesheet_grid/timer_m2o.js:0
 #: code:addons/timesheet_grid/static/src/js/timesheet_grid/timer_m2o.js:0
 #: model:ir.model,name:timesheet_grid.model_project_task
 #: model:ir.model.fields,field_description:timesheet_grid.field_hr_timesheet_merge_wizard__task_id

@@ -38,7 +38,7 @@ msgstr "日付"
 #. module: helpdesk_sale_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
 msgid "Days:"
-msgstr ""
+msgstr "日数:"
 
 #. module: helpdesk_sale_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
@@ -78,7 +78,7 @@ msgstr "ヘルプデスクチケット"
 #. module: helpdesk_sale_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
 msgid "Hours:"
-msgstr ""
+msgstr "時間:"
 
 #. module: helpdesk_sale_timesheet
 #: model:ir.model,name:helpdesk_sale_timesheet.model_product_template
@@ -123,17 +123,17 @@ msgstr ""
 #. module: helpdesk_sale_timesheet
 #: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket__use_helpdesk_sale_timesheet
 msgid "Reinvoicing Timesheet activated on Team"
-msgstr ""
+msgstr "チームで有効化されたタイムシートの再請求"
 
 #. module: helpdesk_sale_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_sale_timesheet_editable
 msgid "Remaining Days on SO"
-msgstr ""
+msgstr "販売オーダ上の残日数"
 
 #. module: helpdesk_sale_timesheet
 #: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket__remaining_hours_available
 msgid "Remaining Hours Available"
-msgstr ""
+msgstr "利用可能な残時間"
 
 #. module: helpdesk_sale_timesheet
 #: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket__remaining_hours_so
@@ -179,7 +179,7 @@ msgstr ""
 #. module: helpdesk_sale_timesheet
 #: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_sale_order__ticket_count
 msgid "Ticket Count"
-msgstr ""
+msgstr "チケット数"
 
 #. module: helpdesk_sale_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.sale_order_form_inherit_helpdesk_sale

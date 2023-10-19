@@ -38,7 +38,7 @@ msgstr "Tanggal"
 #. module: helpdesk_sale_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
 msgid "Days:"
-msgstr ""
+msgstr "Hari:"
 
 #. module: helpdesk_sale_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
@@ -48,7 +48,7 @@ msgstr "Deskripsi"
 #. module: helpdesk_sale_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
 msgid "Duration (Days)"
-msgstr ""
+msgstr "Durasi (Hari)"
 
 #. module: helpdesk_sale_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
@@ -63,7 +63,7 @@ msgstr "Karyawan"
 #. module: helpdesk_sale_timesheet
 #: model:ir.model,name:helpdesk_sale_timesheet.model_helpdesk_sla
 msgid "Helpdesk SLA Policies"
-msgstr ""
+msgstr "Kebijakan SLA Mejabantuan"
 
 #. module: helpdesk_sale_timesheet
 #: model:ir.model,name:helpdesk_sale_timesheet.model_helpdesk_team
@@ -78,7 +78,7 @@ msgstr "Tiket Helpdesk"
 #. module: helpdesk_sale_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
 msgid "Hours:"
-msgstr ""
+msgstr "Jam:"
 
 #. module: helpdesk_sale_timesheet
 #: model:ir.model,name:helpdesk_sale_timesheet.model_product_template
@@ -104,7 +104,7 @@ msgstr "Sale Order project"
 #. module: helpdesk_sale_timesheet
 #: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket__sale_order_id
 msgid "Ref. Sales Order"
-msgstr ""
+msgstr "Referensi Sales Order"
 
 #. module: helpdesk_sale_timesheet
 #: model:ir.model.fields,help:helpdesk_sale_timesheet.field_helpdesk_ticket__sale_order_id
@@ -122,29 +122,29 @@ msgstr ""
 #. module: helpdesk_sale_timesheet
 #: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket__use_helpdesk_sale_timesheet
 msgid "Reinvoicing Timesheet activated on Team"
-msgstr ""
+msgstr "Memfaktur Ulang Timesheet yang diaktifkan pada Team"
 
 #. module: helpdesk_sale_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_sale_timesheet_editable
 msgid "Remaining Days on SO"
-msgstr ""
+msgstr "Hari-Hari Tersisa pada SO"
 
 #. module: helpdesk_sale_timesheet
 #: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket__remaining_hours_available
 msgid "Remaining Hours Available"
-msgstr ""
+msgstr "Jam-Jam Tersisa yang Tersedia"
 
 #. module: helpdesk_sale_timesheet
 #: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket__remaining_hours_so
 #: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_sale_timesheet_editable
 msgid "Remaining Hours on SO"
-msgstr ""
+msgstr "Jam Tersisa pada SO"
 
 #. module: helpdesk_sale_timesheet
 #: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_product_product__sla_id
 #: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_product_template__sla_id
 msgid "SLA Policy"
-msgstr ""
+msgstr "Kebijakan SLA"
 
 #. module: helpdesk_sale_timesheet
 #: model:ir.model,name:helpdesk_sale_timesheet.model_sale_order
@@ -178,7 +178,7 @@ msgstr ""
 #. module: helpdesk_sale_timesheet
 #: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_sale_order__ticket_count
 msgid "Ticket Count"
-msgstr ""
+msgstr "Jumlah Tiket"
 
 #. module: helpdesk_sale_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.sale_order_form_inherit_helpdesk_sale

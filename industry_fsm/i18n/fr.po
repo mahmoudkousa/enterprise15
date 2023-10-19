@@ -213,7 +213,7 @@ msgstr "Créer de nouveaux devis directement depuis les tâches"
 #. module: industry_fsm
 #: model_terms:ir.ui.view,arch_db:industry_fsm.res_config_settings_view_form
 msgid "Create new quotations directly from your tasks"
-msgstr "Créez de nouveaux devis directement à partir de vos tâches"
+msgstr "Créer de nouveaux devis directement à partir de vos tâches"
 
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__create_uid
@@ -389,7 +389,7 @@ msgid ""
 "Keep track of the products used for your tasks, and invoice your time and "
 "material to your customers"
 msgstr ""
-"Gardez une trace des produits utilisés pour vos tâches et facturez votre "
+"Garder une trace des produits utilisés pour vos tâches et facturer votre "
 "temps et votre matériel à vos clients"
 
 #. module: industry_fsm

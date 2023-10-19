@@ -198,7 +198,7 @@ msgstr "Anulowanie aktywności"
 #: model:ir.model.fields.selection,name:voip.selection__voip_phonecall__state__cancel
 #: model:ir.model.fields.selection,name:voip.selection__voip_phonecall_report__state__cancel
 msgid "Cancelled"
-msgstr "Anulowano"
+msgstr "Anulowane"
 
 #. module: voip
 #. openerp-web
@@ -361,7 +361,7 @@ msgstr "Podaje kolejność wyświetlania listy połączeń telefonicznych."
 #. module: voip
 #: model_terms:ir.ui.view,arch_db:voip.view_voip_case_phonecalls_filter
 msgid "Group By"
-msgstr "Grupuj wg."
+msgstr "Grupuj wg"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_res_users__sip_external_phone
@@ -978,7 +978,7 @@ msgstr "Jutro"
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "Transfer"
-msgstr "Pobranie"
+msgstr "Przekaz"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_phonecall__phonecall_type

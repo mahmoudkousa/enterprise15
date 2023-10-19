@@ -15,6 +15,7 @@
 # Maciej Stawicki <ms@3lance.pl>, 2021
 # IT WEDOO, 2022
 # Maksym <ms@myodoo.pl>, 2022
+# Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -22,8 +23,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:41+0000\n"
-"Last-Translator: Maksym <ms@myodoo.pl>, 2022\n"
-"Language-Team: Polish (https://www.transifex.com/odoo/teams/41243/pl/)\n"
+"Last-Translator: Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2023\n"
+"Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -33,12 +34,12 @@ msgstr ""
 #. module: mrp_account_enterprise
 #: model:ir.actions.report,print_report_name:mrp_account_enterprise.action_cost_struct_mrp_production
 msgid "'Cost Analysis - %s ' % object.name"
-msgstr ""
+msgstr "'Analiza kosztów - %s' % object.name"
 
 #. module: mrp_account_enterprise
 #: model:ir.actions.report,print_report_name:mrp_account_enterprise.action_cost_struct_product_template
 msgid "'Cost Structure Analysis - %s' % object.name"
-msgstr ""
+msgstr "'Analiza struktury kosztów - %s'% object.name"
 
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
@@ -48,22 +49,22 @@ msgstr ", od"
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
 msgid "<span>Avg Cost of Components Per Unit</span>"
-msgstr ""
+msgstr "<span>Średni koszt jednostkowy komponentów</span>"
 
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
 msgid "<span>Avg Cost of Operations Per Unit</span>"
-msgstr ""
+msgstr "<span>Średni koszt jednostkowy operacji</span>"
 
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
 msgid "<span>Avg Total Cost Per Unit</span>"
-msgstr ""
+msgstr "<span>Średni całkowity koszt jednostkowy </span>"
 
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
 msgid "<span>Components</span>"
-msgstr ""
+msgstr "<span>Komponenty</span>"
 
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
@@ -108,7 +109,7 @@ msgstr "<span>Koszt Jednostkowy</span>"
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
 msgid "<span>Unit of Measure</span>"
-msgstr ""
+msgstr "<span>Jednostka miary </span>"
 
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
@@ -118,7 +119,7 @@ msgstr "<span>Czas Pracy</span>"
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
 msgid "<strong>Total Cost of Components</strong>"
-msgstr ""
+msgstr "<strong>Koszt całkowity komponentów </strong>"
 
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
@@ -133,22 +134,22 @@ msgstr "<strong>Suma Kosztów Odpadów</strong>"
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
 msgid "<strong>Total Production Cost</strong>"
-msgstr ""
+msgstr "<strong>Całkowity koszt produkcji</strong>"
 
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_pivot_view
 msgid "Average Component Cost / Unit"
-msgstr ""
+msgstr "Średni koszt komponentu na jednostkę"
 
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_pivot_view
 msgid "Average Operation Cost / Unit"
-msgstr ""
+msgstr "Średni koszt operacji na jednostkę"
 
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_pivot_view
 msgid "Average Total Cost / Unit"
-msgstr ""
+msgstr "Średni koszt całkowity na jednostkę"
 
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
@@ -158,7 +159,7 @@ msgstr "Produkt(y) uboczny(e)"
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__byproduct_cost
 msgid "By-Products Total Cost"
-msgstr ""
+msgstr "Koszt całkowity produktów ubocznych"
 
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__company_id
@@ -168,18 +169,20 @@ msgstr "Firma"
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__unit_component_cost
 msgid "Component Cost / Unit"
-msgstr ""
+msgstr "Koszt komponentu na jednostkę"
 
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__unit_component_cost
 msgid ""
 "Component cost per unit produced (in product UoM) of manufacturing order"
 msgstr ""
+"Koszt komponentu na wyprodukowaną jednostkę (w UoM produktu) zlecenia "
+"produkcji."
 
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__unit_cost
 msgid "Cost / Unit"
-msgstr ""
+msgstr "Koszt na jednostkę"
 
 #. module: mrp_account_enterprise
 #: model:ir.actions.report,name:mrp_account_enterprise.action_cost_struct_mrp_production
@@ -191,12 +194,12 @@ msgstr "Analiza Kosztów"
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
 msgid "Cost Analysis Report"
-msgstr ""
+msgstr "Raport analizy kosztów"
 
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
 msgid "Cost Breakdown of Products"
-msgstr ""
+msgstr "Podział kosztów produktów"
 
 #. module: mrp_account_enterprise
 #: model:ir.actions.report,name:mrp_account_enterprise.action_cost_struct_product_template
@@ -206,12 +209,12 @@ msgstr "Analiza Struktury Kosztów"
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
 msgid "Cost of Components"
-msgstr ""
+msgstr "Koszt komponentów"
 
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
 msgid "Cost of Components per unit (in"
-msgstr ""
+msgstr "Koszt komponentów na jednostkę (in"
 
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
@@ -221,7 +224,7 @@ msgstr "Koszt Operacji"
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
 msgid "Cost of Operations per unit (in"
-msgstr ""
+msgstr "Koszt operacji na jednostkę (in"
 
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
@@ -232,6 +235,7 @@ msgstr "Koszt Odpadu"
 #: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__unit_cost
 msgid "Cost per unit produced (in product UoM) of manufacturing order"
 msgstr ""
+"Koszt na wyprodukowaną jednostkę (w UoM produktu) zlecenia produkcyjnego."
 
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__display_name
@@ -241,7 +245,7 @@ msgstr "Nazwa wyświetlana"
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__unit_duration
 msgid "Duration of Operations / Unit"
-msgstr ""
+msgstr "Czas trwania operacji na jednostkę"
 
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__date_finished
@@ -278,7 +282,7 @@ msgstr "Zamówienie produkcji"
 #. module: mrp_account_enterprise
 #: model:ir.model,name:mrp_account_enterprise.model_mrp_report
 msgid "Manufacturing Report"
-msgstr ""
+msgstr "Raport produkcji"
 
 #. module: mrp_account_enterprise
 #: model_terms:ir.actions.act_window,help:mrp_account_enterprise.mrp_report_dashboard_action
@@ -290,16 +294,20 @@ msgstr "Brak danych!"
 msgid ""
 "Operation cost per unit produced (in product UoM) of manufacturing order"
 msgstr ""
+"Koszt operacji na wyprodukowaną jednostkę (w UoM produktu) zlecenia "
+"produkcyjnego."
 
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__unit_duration
 msgid "Operation duration (minutes) per unit produced of manufacturing order"
 msgstr ""
+"Czas trwania operacji (w minutach) na wyprodukowaną jednostkę z zamówienia "
+"produkcji"
 
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_pivot_view
 msgid "Order Overview"
-msgstr ""
+msgstr "Przegląd zamówienia"
 
 #. module: mrp_account_enterprise
 #: model:ir.model,name:mrp_account_enterprise.model_product_product
@@ -338,7 +346,7 @@ msgstr "Pewne Zamówienie Produkcyjne wśród zaznaczonych nie są jeszcze gotow
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__component_cost
 msgid "Total Component Cost"
-msgstr ""
+msgstr "Całkowity koszt komponentu"
 
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__total_cost
@@ -348,27 +356,27 @@ msgstr "Suma kosztów"
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
 msgid "Total Cost per unit (in"
-msgstr ""
+msgstr "Całkowity koszt na jednostkię (in"
 
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__duration
 msgid "Total Duration of Operations"
-msgstr ""
+msgstr "Całkowity czas trwania operacji"
 
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__operation_cost
 msgid "Total Operation Cost"
-msgstr ""
+msgstr "Całkowity koszt operacji"
 
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__unit_operation_cost
 msgid "Total Operation Cost / Unit"
-msgstr ""
+msgstr "Całkowity koszt operacji na jednostkę"
 
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__component_cost
 msgid "Total cost of components for manufacturing order"
-msgstr ""
+msgstr "Całkowity koszt komponentów dla zamówienia produkcji"
 
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__total_cost
@@ -378,22 +386,22 @@ msgstr ""
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__operation_cost
 msgid "Total cost of operations for manufacturing order"
-msgstr ""
+msgstr "Całkowity kosz operacji dla zamówienia produkcji"
 
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__duration
 msgid "Total duration (minutes) of operations for manufacturing order"
-msgstr ""
+msgstr "Całkowity czas trwania (w minutach) operacji dla zamówienia produkcji"
 
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__qty_produced
 msgid "Total quantity produced in product's UoM"
-msgstr ""
+msgstr "Całkowita ilość wyprodukowana w UoM produktu."
 
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
 msgid "hours"
-msgstr "godzin"
+msgstr "godziny"
 
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure

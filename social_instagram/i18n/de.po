@@ -3,8 +3,8 @@
 # 	* social_instagram
 # 
 # Translators:
-# Martin Trigaux, 2021
-# Friederike Fasterling-Nesselbosch, 2022
+# Friederike Fasterling-Nesselbosch, 2021
+# Martin Trigaux, 2023
 # Larissa Manderfeld, 2023
 # 
 msgid ""
@@ -39,7 +39,7 @@ msgstr "<i class=\"fa fa-heart\" title=\"Likes\"/>"
 #. module: social_instagram
 #: model_terms:ir.ui.view,arch_db:social_instagram.instagram_preview
 msgid "<span class=\"font-weight-bold pr-1\">My_instagram_page</span>"
-msgstr ""
+msgstr "<span class=\"font-weight-bold pr-1\">My_instagram_page</span>"
 
 #. module: social_instagram
 #: model_terms:ir.ui.view,arch_db:social_instagram.instagram_preview
@@ -61,7 +61,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:social_instagram.field_social_post__instagram_access_token
 #: model:ir.model.fields,field_description:social_instagram.field_social_post_template__instagram_access_token
 msgid "Access Token"
-msgstr "Zugriffs-Token"
+msgstr "Zugriffstoken"
 
 #. module: social_instagram
 #: code:addons/social_instagram/models/social_post.py:0
@@ -73,12 +73,12 @@ msgstr "Beim Posten auf Instagram ist ein Bild erforderlich."
 #. module: social_instagram
 #: model_terms:ir.ui.view,arch_db:social_instagram.res_config_settings_view_form
 msgid "App ID"
-msgstr "App ID"
+msgstr "App-ID"
 
 #. module: social_instagram
 #: model_terms:ir.ui.view,arch_db:social_instagram.res_config_settings_view_form
 msgid "App Secret"
-msgstr "App Secret"
+msgstr "App-Geheimnis"
 
 #. module: social_instagram
 #. openerp-web
@@ -86,7 +86,7 @@ msgstr "App Secret"
 #: model_terms:ir.ui.view,arch_db:social_instagram.social_stream_post_view_kanban
 #, python-format
 msgid "Author Image"
-msgstr "Author Image"
+msgstr "Bild des Autors"
 
 #. module: social_instagram
 #: model:ir.model.fields,help:social_instagram.field_res_config_settings__instagram_use_own_account
@@ -100,7 +100,7 @@ msgstr ""
 #. module: social_instagram
 #: model:ir.model,name:social_instagram.model_res_config_settings
 msgid "Config Settings"
-msgstr "Konfiguration "
+msgstr "Konfigurationseinstellungen"
 
 #. module: social_instagram
 #: code:addons/social_instagram/controllers/main.py:0
@@ -120,8 +120,8 @@ msgid ""
 "Facebook Account ID provided by the Facebook API, this should never be set manually.\n"
 "        The Instagram (\"Professional\") account is always linked to a Facebook account."
 msgstr ""
-"Facebookkonto-ID bereitgestellt von der Facebook-API, dies sollte niemals manuell eingestellt werden.\n"
-"        Das Instagramkonto („Professionell“) ist immer mit einem Facebookkonto verknüpft."
+"Facebook-Konto-ID bereitgestellt von der Facebook-API, dies sollte niemals manuell eingestellt werden.\n"
+"        Das Instagram-Konto („Professionell“) ist immer mit einem Facebook-Konto verknüpft."
 
 #. module: social_instagram
 #: model:ir.model.fields.selection,name:social_instagram.selection__social_media__media_type__instagram
@@ -132,7 +132,7 @@ msgstr "Instagram"
 #. module: social_instagram
 #: model:ir.model.fields,field_description:social_instagram.field_social_account__instagram_access_token
 msgid "Instagram Access Token"
-msgstr "Instagram Zugriffs-Token"
+msgstr "Instagram-Zugriffstoken"
 
 #. module: social_instagram
 #: model:ir.model.fields,help:social_instagram.field_social_account__instagram_access_token
@@ -140,7 +140,7 @@ msgid ""
 "Instagram Access Token provided by the Facebook API, this should never be set manually.\n"
 "        It's used to authenticate requests when posting to or reading information from this account."
 msgstr ""
-"Von der Facebook-API zu Verfügung gestellte Instagram-Zugriffstoken. Dieses sollte niemals manuell eingestellt werden.\n"
+"Von der Facebook-API zu Verfügung gestelltes Instagram-Zugriffstoken. Dieses sollte niemals manuell eingestellt werden.\n"
 "        Es wird verwendet, um Anfragen zu authentifizieren, wenn Sie Informationen von diesem Konto lesen oder auf diesem Konto posten."
 
 #. module: social_instagram
@@ -151,7 +151,7 @@ msgstr "Instagram Account-Konfiguration"
 #. module: social_instagram
 #: model:ir.model.fields,field_description:social_instagram.field_social_account__instagram_account_id
 msgid "Instagram Account ID"
-msgstr "Instagram Account ID"
+msgstr "Instagram-Konto-ID"
 
 #. module: social_instagram
 #: model:ir.model.fields,help:social_instagram.field_social_account__instagram_account_id
@@ -165,12 +165,12 @@ msgstr ""
 #. module: social_instagram
 #: model:ir.model.fields,field_description:social_instagram.field_res_config_settings__instagram_app_id
 msgid "Instagram App ID"
-msgstr "Instagram App ID"
+msgstr "Instagram-App-ID"
 
 #. module: social_instagram
 #: model:ir.model.fields,field_description:social_instagram.field_res_config_settings__instagram_client_secret
 msgid "Instagram App Secret"
-msgstr "Instagram App Secret"
+msgstr "App-Geheimnis von Instagram"
 
 #. module: social_instagram
 #. openerp-web
@@ -205,17 +205,17 @@ msgstr "Instagram-Likes"
 #: model:ir.model.fields,field_description:social_instagram.field_social_live_post__instagram_post_id
 #: model:ir.model.fields,field_description:social_instagram.field_social_stream_post__instagram_post_id
 msgid "Instagram Post ID"
-msgstr "Instagram Post ID"
+msgstr "ID des Instagram-Beitrags"
 
 #. module: social_instagram
 #: model:ir.model.fields,field_description:social_instagram.field_social_stream_post__instagram_post_link
 msgid "Instagram Post URL"
-msgstr "Instagram Post URL"
+msgstr "URL des Instagram-Beitrags"
 
 #. module: social_instagram
 #: model:social.stream.type,name:social_instagram.stream_type_instagram_posts
 msgid "Instagram Posts"
-msgstr "Instagram-Posts"
+msgstr "Instagram-Beiträge"
 
 #. module: social_instagram
 #: model:ir.model.fields,field_description:social_instagram.field_social_post__instagram_preview
@@ -239,7 +239,7 @@ msgstr "Likes"
 #. module: social_instagram
 #: model:ir.model.fields,field_description:social_instagram.field_social_media__media_type
 msgid "Media Type"
-msgstr "Medien Typ"
+msgstr "Medientyp"
 
 #. module: social_instagram
 #: code:addons/social_instagram/controllers/main.py:0
@@ -267,37 +267,37 @@ msgstr "Bild posten"
 #. module: social_instagram
 #: model:ir.model,name:social_instagram.model_social_account
 msgid "Social Account"
-msgstr "Soziales Konto"
+msgstr "Social-Media-Konto"
 
 #. module: social_instagram
 #: model:ir.model,name:social_instagram.model_social_live_post
 msgid "Social Live Post"
-msgstr "Sozialer Live-Post"
+msgstr "Live-Beitrag in Social Media"
 
 #. module: social_instagram
 #: model:ir.model,name:social_instagram.model_social_media
 msgid "Social Media"
-msgstr "Soziale Medien"
+msgstr "Social Media"
 
 #. module: social_instagram
 #: model:ir.model,name:social_instagram.model_social_post
 msgid "Social Post"
-msgstr "Soziales Netzwerk Beitrag"
+msgstr "Social-Media-Beitrag"
 
 #. module: social_instagram
 #: model:ir.model,name:social_instagram.model_social_post_template
 msgid "Social Post Template"
-msgstr "Vorlage für soziale Beiträge"
+msgstr "Vorlage für Social-Media-Beiträge"
 
 #. module: social_instagram
 #: model:ir.model,name:social_instagram.model_social_stream
 msgid "Social Stream"
-msgstr "News aus Sozialen Netzwerken"
+msgstr "Social-Media-Stream"
 
 #. module: social_instagram
 #: model:ir.model,name:social_instagram.model_social_stream_post
 msgid "Social Stream Post"
-msgstr "Social Stream Post"
+msgstr "Beitrag aus Social-Media-Stream"
 
 #. module: social_instagram
 #: model:ir.model.fields,help:social_instagram.field_social_stream_post__instagram_facebook_author_id
@@ -305,8 +305,8 @@ msgid ""
 "The Facebook ID of this Instagram post author, used to fetch the profile "
 "picture."
 msgstr ""
-"Die Facebook-ID des Autors dieses Instagram-Posts, die verwendet wird, um "
-"das Profilbild abzurufen."
+"Die Facebook-ID des Verfassers dieses Instagram-Beitrags, die verwendet "
+"wird, um das Profilbild abzurufen."
 
 #. module: social_instagram
 #: code:addons/social_instagram/controllers/main.py:0
@@ -323,7 +323,7 @@ msgstr "Nicht autorisiert. Bitte wenden Sie sich an Ihren Administrator."
 #. module: social_instagram
 #: model:ir.model.fields,field_description:social_instagram.field_res_config_settings__instagram_use_own_account
 msgid "Use your own Instagram Account"
-msgstr "Nutzen Sie Ihren eigenen Instagram-Account"
+msgstr "Benutzen Sie Ihr eigenes Instagram-Konto"
 
 #. module: social_instagram
 #: model_terms:ir.ui.view,arch_db:social_instagram.res_config_settings_view_form
@@ -346,13 +346,13 @@ msgid ""
 "specific media ('facebook', 'twitter', ...)."
 msgstr ""
 "Wird verwendet, um Vergleiche anzustellen, wenn wir einige Funktionen auf "
-"ein bestimmtes Medium beschränken müssen (\"Facebook\", \"Twitter\", ...)."
+"ein bestimmtes Medium beschränken müssen („Facebook“, „Twitter“ ...)."
 
 #. module: social_instagram
 #: code:addons/social_instagram/models/social_media.py:0
 #, python-format
 msgid "You don't have an active subscription. Please buy one here: %s"
-msgstr "Sie haben kein aktives Abo. Bitte erwerben sie eines hier:%s"
+msgstr "Sie haben kein aktives Abo. Bitte erwerben sie eines hier: %s"
 
 #. module: social_instagram
 #: code:addons/social_instagram/models/social_post.py:0

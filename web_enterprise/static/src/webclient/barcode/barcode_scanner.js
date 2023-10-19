@@ -250,7 +250,7 @@ Object.assign(BarcodeDialog, {
  * Check for BarcodeScanner support
  * @returns {boolean}
  */
-export function isBarcodeScannerSupported() {
+function isBarcodeScannerSupported() {
     return navigator.mediaDevices && navigator.mediaDevices.getUserMedia;
 }
 
@@ -259,7 +259,7 @@ export function isBarcodeScannerSupported() {
  *
  * @returns {Promise<string>} resolves when a {qr,bar}code has been detected
  */
-export async function scanBarcode() {
+async function scanBarcode() {
     const promise = new Promise((resolve, reject) => {
         bus.on(busOk, null, resolve);
         bus.on(busError, null, reject);
@@ -267,3 +267,5 @@ export async function scanBarcode() {
     await mount(BarcodeDialog, { target: document.body });
     return promise;
 }
+
+export default { isBarcodeScannerSupported, scanBarcode };

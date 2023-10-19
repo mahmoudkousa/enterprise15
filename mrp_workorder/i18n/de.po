@@ -3,8 +3,8 @@
 # 	* mrp_workorder
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
+# Martin Trigaux, 2023
 # Larissa Manderfeld, 2023
 # 
 msgid ""
@@ -33,14 +33,14 @@ msgstr ""
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.res_config_settings_view_form
 msgid "<i class=\"fa fa-print\"/> Print barcode commands"
-msgstr "<i class=\"fa fa-print\"/> Drucken Sie die Barcode-Befehle."
+msgstr "<i class=\"fa fa-print\"/> Barcode-Befehle drucken."
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.view_mrp_workorder_additional_product_wizard
 #, python-format
 msgid "Add By-Product"
-msgstr "Nebenerzeugnis hinzufügen"
+msgstr "Nebenprodukt hinzufügen"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet_menu
@@ -68,7 +68,7 @@ msgstr "Zusätzliches Produkt"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__allow_producing_quantity_change
 msgid "Allow Changes to Producing Quantity"
-msgstr "Änderungen der Fertigungsmenge zulassen"
+msgstr "Änderungen der Produktionsmenge zulassen"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point_test_type__allow_registration
@@ -90,7 +90,7 @@ msgstr "Archiviert"
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_production_tree_view_planning
 msgid "Availability"
-msgstr "Frühester Beginn"
+msgstr "Verfügbarkeit"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder___barcode_scanned
@@ -106,7 +106,7 @@ msgstr "Stückliste"
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet_menu
 msgid "Block"
-msgstr "Stop"
+msgstr "Blockieren"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__bom_product_ids
@@ -147,12 +147,12 @@ msgstr "Produktionsmenge ändern"
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__check_ids
 #: model:ir.model.fields,field_description:mrp_workorder.field_stock_move_line__quality_check_ids
 msgid "Check"
-msgstr "Scheck"
+msgstr "Prüfung"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_production__check_ids
 msgid "Checks"
-msgstr "Schecks"
+msgstr "Prüfungen"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__company_id
@@ -171,7 +171,7 @@ msgstr "Komponente"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__component_qty_to_do
 msgid "Component Qty To Do"
-msgstr "Komponenten zu erledigende Menge"
+msgstr "Menge zu erledigender Komponenten"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__component_uom_id
@@ -181,7 +181,7 @@ msgstr "Maßeinheit Komponente"
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_res_config_settings
 msgid "Config Settings"
-msgstr "Konfiguration "
+msgstr "Konfigurationseinstellungen "
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
@@ -199,8 +199,8 @@ msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
 "same category. The conversion will be made based on the ratios."
 msgstr ""
-"Umwandlungen von Mengeneinheiten können nur in der gleichen Kategorie "
-"erfolgen. Die Konversion erfolgt basierend auf dem Umwandlungsfaktor."
+"Die Umrechnung zwischen Maßeinheiten kann nur erfolgen, wenn sie derselben "
+"Kategorie angehören. Die Umrechnung erfolgt auf Basis der Kennzahlen."
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__create_uid
@@ -267,15 +267,15 @@ msgstr "Herunterladen"
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
 msgid "Dropdown menu"
-msgstr "Dropdownmenu"
+msgstr "Drop-down-Menü"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,help:mrp_workorder.field_mrp_workorder__component_tracking
 #: model:ir.model.fields,help:mrp_workorder.field_mrp_workorder_additional_product__product_tracking
 msgid "Ensure the traceability of a storable product in your warehouse."
 msgstr ""
-"Sicherstellung der Rückverfolgbarkeit eines Lagerprodukts in ihrem "
-"Lagerhaus."
+"Stellen Sie die Rückverfolgbarkeit eines lagerfähigen Produkts in Ihrem "
+"Lager sicher."
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
@@ -328,14 +328,16 @@ msgid ""
 "In case of Quality Check by Lot/SN, Move Line on which the Quality Check "
 "applies"
 msgstr ""
+"Im Falle einer Qualitätsprüfung nach Los/SN, verschieben Sie die Zeile, auf "
+"die sich die Qualitätsprüfung bezieht."
 
 #. module: mrp_workorder
 #: model:ir.model.fields,help:mrp_workorder.field_mrp_workorder__move_line_ids
 msgid ""
 "Inventory moves for which you must scan a lot number at this work order"
 msgstr ""
-"Lagerbewegungen, für die Sie eine Chargennummer in diesem Arbeitsauftrag "
-"scannen müssen"
+"Lagerbewegungen, für die Sie eine Losnummer in diesem Arbeitsauftrag scannen"
+" müssen"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__component_tracking
@@ -360,7 +362,7 @@ msgstr "Ist letzter zu verarbeitender Arbeitsauftrag"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__is_last_lot
 msgid "Is Last lot"
-msgstr "Ist letztes Fertigungslos"
+msgstr "Ist letztes Los"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__is_first_started_wo
@@ -380,7 +382,7 @@ msgstr "Zuletzt geändert am"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__write_uid
 msgid "Last Updated by"
-msgstr "Zuletzt aktualisiert durch"
+msgstr "Zuletzt aktualisiert von"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__write_date
@@ -431,7 +433,7 @@ msgstr "Menü"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__move_line_ids
 msgid "Moves to Track"
-msgstr "Zu verfolgende Buchungen"
+msgstr "Zu verfolgende Bewegungen"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
@@ -441,7 +443,7 @@ msgstr "Weiter"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__next_check_id
 msgid "Next Check"
-msgstr "Nächste Überprüfung"
+msgstr "Nächste Prüfung"
 
 #. module: mrp_workorder
 #: model_terms:ir.actions.act_window,help:mrp_workorder.action_mrp_workorder_show_steps
@@ -451,7 +453,7 @@ msgstr "Noch keine Fertigungsschritte definiert!"
 #. module: mrp_workorder
 #: model_terms:ir.actions.act_window,help:mrp_workorder.mrp_workorder_action_tablet
 msgid "No work orders to do!"
-msgstr "Keine Arbeitsvorgänge zum Erledigen!"
+msgstr "Keine Arbeitsaufträge zu erledigen!"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__note
@@ -468,7 +470,7 @@ msgstr "Vorgang"
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_inherit_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
 msgid "Operator"
-msgstr "Verantwortlicher"
+msgstr "Bediener"
 
 #. module: mrp_workorder
 #: model:ir.ui.menu,name:mrp_workorder.menu_mrp_dashboard
@@ -512,7 +514,7 @@ msgstr ""
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
 #, python-format
 msgid "Please enter a Lot/SN."
-msgstr "Bitte geben Sie ein Fertigungslos bzw. eine SN ein."
+msgstr "Bitte geben Sie ein(e) Los/SN ein."
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
@@ -554,12 +556,12 @@ msgstr "Zurück"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__previous_check_id
 msgid "Previous Check"
-msgstr "Vorherige Kontrolle"
+msgstr "Vorherige Prüfung"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
 msgid "Print Labels"
-msgstr "Labels drucken"
+msgstr "Etiketten drucken"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__product_id
@@ -569,7 +571,7 @@ msgstr "Produkt"
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_stock_move_line
 msgid "Product Moves (Stock Move Line)"
-msgstr "Produktbewegungen (Lagerbewegung)"
+msgstr "Produktbewegungen (Lagerbuchung)"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__component_id
@@ -579,24 +581,24 @@ msgstr "Zu registrierendes Produkt"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__product_uom_id
 msgid "Product Uom"
-msgstr "Maßeinheit Produkt"
+msgstr "ME des Produkts"
 
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_mrp_production
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_alert__production_id
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__production_id
 msgid "Production Order"
-msgstr "Fertigungsauftrag"
+msgstr "Produktionsauftrag"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
 msgid "Production Workcenter"
-msgstr "Arbeitsplatz"
+msgstr "Produktionsarbeitsplatz"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__product_ids
 msgid "Products"
-msgstr "Produkt"
+msgstr "Produkte"
 
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_quality_alert
@@ -607,12 +609,12 @@ msgstr "Qualitätsalarm"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__quality_alert_count
 msgid "Quality Alert Count"
-msgstr "Qualitätsalarmanzahl"
+msgstr "Anzahl Qualitätsalarme"
 
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_quality_check
 msgid "Quality Check"
-msgstr "Qualitätskontrolle"
+msgstr "Qualitätsprüfung"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__quality_check_fail
@@ -632,7 +634,7 @@ msgstr "Qualitätskontrollpunkt"
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_quality_point_test_type
 msgid "Quality Control Test Type"
-msgstr "Testtyp für die Qualitätskontrolle"
+msgstr "Testtyp für Qualitätskontrolle"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_routing_workcenter__quality_point_ids
@@ -643,7 +645,7 @@ msgstr "Qualitätspunkt"
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.view_routing_steps_search
 msgid "Quality Point Steps"
-msgstr "Qualitätspunktstufen"
+msgstr "Qualitätspunktsschritte"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,help:mrp_workorder.field_quality_point__product_ids
@@ -666,7 +668,7 @@ msgstr "Menge"
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
 msgid "Record production"
-msgstr "Datensatzerstellung"
+msgstr "Produktion erfassen"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__additional
@@ -722,7 +724,7 @@ msgstr "Ordnungsnummer:"
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.res_config_settings_view_form
 msgid "Show the timer on the work order screen"
-msgstr "Zeige Timer bei Arbeitsauftagsanzeige"
+msgstr "Zeigen Sie den Timer im Arbeitsauftagsbildschirm an"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
@@ -752,7 +754,7 @@ msgstr "Status Zusammenfassung"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__operation_id
 msgid "Step"
-msgstr "Schrittweise Erhöhung"
+msgstr "Schritt"
 
 #. module: mrp_workorder
 #: model:ir.actions.act_window,name:mrp_workorder.action_mrp_workorder_show_steps
@@ -772,7 +774,7 @@ msgstr "Lagerbuchung"
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__move_line_id
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__move_line_id
 msgid "Stock Move Line"
-msgstr "Bestandsbewegungszeile"
+msgstr "Lagerbuchungszeile"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__test_type
@@ -825,12 +827,12 @@ msgstr "Typ"
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet_menu
 msgid "Unblock"
-msgstr "Sperre aufheben"
+msgstr "Entblockieren"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_production_tree_view_planning
 msgid "Unit of Measure"
-msgstr "Mengeneinheit"
+msgstr "Maßeinheit"
 
 #. module: mrp_workorder
 #: model:ir.actions.server,name:mrp_workorder.production_order_unplan_server_action
@@ -840,7 +842,7 @@ msgstr "Planung der Aufträge rückgängig machen"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__component_uom_id
 msgid "UoM"
-msgstr "Mengeneinheit"
+msgstr "Maßeinheit"
 
 #. module: mrp_workorder
 #: model_terms:ir.actions.act_window,help:mrp_workorder.action_mrp_workorder_show_steps
@@ -848,9 +850,9 @@ msgid ""
 "Use steps to show instructions on a worksheet to operators, or trigger "
 "quality checks at specific steps of the work order."
 msgstr ""
-"Verwenden Sie Schritte, um den Mitarbeitern Anweisungen auf einem "
-"Arbeitsblatt zu geben oder um Qualitätsprüfungen bei bestimmten Schritten "
-"des Arbeitsauftrags auszulösen."
+"Verwenden Sie Schritte, um den Bedienern Anweisungen auf einem Arbeitsblatt "
+"zu geben oder um Qualitätsprüfungen bei bestimmten Schritten des "
+"Arbeitsauftrags auszulösen."
 
 #. module: mrp_workorder
 #: model_terms:ir.actions.act_window,help:mrp_workorder.mrp_workorder_action_tablet
@@ -871,7 +873,7 @@ msgstr "VALIDIEREN"
 #. module: mrp_workorder
 #: model:ir.model.fields,help:mrp_workorder.field_mrp_workorder___barcode_scanned
 msgid "Value of the last barcode scanned."
-msgstr "Wert des zuletzt gelesenen Barcodes."
+msgstr "Wert des zuletzt gescannten Barcodes."
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
@@ -890,7 +892,7 @@ msgstr "Arbeitsplatz"
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_mrp_routing_workcenter
 msgid "Work Center Usage"
-msgstr "Arbeitsplatz Auslastung"
+msgstr "Arbeitsplatznutzung"
 
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_mrp_workorder
@@ -901,7 +903,7 @@ msgstr "Arbeitsauftrag"
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.quality_point_view_form_inherit_mrp
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.quality_point_view_tree
 msgid "Work Order Operation"
-msgstr "Arbeitsauftrag Vorgang"
+msgstr "Arbeitsauftragsvorgang"
 
 #. module: mrp_workorder
 #: model:ir.actions.act_window,name:mrp_workorder.mrp_workorder_action_tablet
@@ -920,8 +922,8 @@ msgid ""
 "Work orders are operations to do as part of a manufacturing order.\n"
 "            Operations are defined in the bill of materials or added in the manufacturing order directly."
 msgstr ""
-"Arbeitsaufträge sind Vorgänge, die im Rahmen eines Produktionsauftrags durchzuführen sind.\n"
-"Die Vorgänge werden in der Stückliste definiert oder direkt in den Produktionsauftrag eingefügt."
+"Arbeitsaufträge sind Vorgänge, die im Rahmen eines Fertigungsauftrags durchzuführen sind.\n"
+"Die Vorgänge werden in der Stückliste definiert oder direkt in den Fertigungsauftrag eingefügt."
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__workorder_id
@@ -941,12 +943,12 @@ msgstr "Arbeitsblatt"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__worksheet_page
 msgid "Worksheet Page"
-msgstr "Seite"
+msgstr "Arbeitsblattseite"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__worksheet_page
 msgid "Worksheet page"
-msgstr "Seite"
+msgstr "Arbeitsblattseite"
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
@@ -965,28 +967,26 @@ msgid ""
 "You cannot update the quantity to do of an ongoing manufacturing order for "
 "which quality checks have been performed."
 msgstr ""
-"Sie können die zu erledigende Menge eines laufenden Produktionsauftrags, für"
-" den bereits Qualitätsprüfungen durchgeführt wurden, nicht aktualisieren."
+"Sie können die zu erledigende Menge eines laufenden Fertigungsauftrags, für "
+"den bereits Qualitätsprüfungen durchgeführt wurden, nicht aktualisieren."
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
 #, python-format
 msgid "You did not set a lot/serial number for the final product"
-msgstr "Sie haben für das Endprodukt keine Los- / Seriennummer festgelegt"
+msgstr "Sie haben für das Endprodukt keine Los-/Seriennummer festgelegt"
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
 #, python-format
 msgid "You should provide a lot/serial number for the final product"
-msgstr ""
-"Sie sollten für das fertige Produkt ein Fertigungslos bzw. eine Seriennummer"
-" angeben."
+msgstr "Sie sollten für das Endprodukt eine Los-/Seriennummer angeben."
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
 #, python-format
 msgid "You still need to do the quality checks!"
-msgstr "Sie müssen noch die Qualitätskontrolle durchführen!"
+msgstr "Sie müssen noch die Qualitätsprüfung durchführen!"
 
 #. module: mrp_workorder
 #: model:ir.model.fields.selection,name:mrp_workorder.selection__quality_point__test_report_type__zpl

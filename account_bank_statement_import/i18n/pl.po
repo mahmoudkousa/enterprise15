@@ -17,10 +17,10 @@
 # Karol Rybak <karolrybak85@gmail.com>, 2021
 # Andrzej Wiśniewski <a.wisniewski@hadron.eu.com>, 2021
 # Piotr Cierkosz <piotr.w.cierkosz@gmail.com>, 2021
-# Paweł Wodyński <pw@myodoo.pl>, 2021
 # Natalia Gros <nag@odoo.com>, 2021
 # Rafał Kozak <rafal.kozak@openglobe.pl>, 2021
 # Dawid Prus, 2021
+# Paweł Wodyński <pw@myodoo.pl>, 2023
 # Tadeusz Karpiński <tadeuszkarpinski@gmail.com>, 2023
 # 
 msgid ""
@@ -971,6 +971,18 @@ msgstr ""
 #, python-format
 msgid "You have to set a Default Account for the journal: %s"
 msgstr "Należy ustawić konto domyślne dla dziennika: %s"
+
+#. module: account_bank_statement_import
+#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
+#, python-format
+msgid "The following files could not be imported:\n"
+msgstr "Następujące pliki nie mogły zostać zaimportowane:\n"
+
+#. module: account_bank_statement_import
+#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
+#, python-format
+msgid "View successfully imported statements"
+msgstr "Wyświetl pomyślnie zaimportowane wyciągi"
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.journal_dashboard_view_inherit

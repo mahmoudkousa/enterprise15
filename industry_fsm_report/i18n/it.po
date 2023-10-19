@@ -426,7 +426,7 @@ msgstr "Ricorrenza lavoro"
 #. module: industry_fsm_report
 #: model:mail.template,name:industry_fsm_report.mail_template_data_send_report
 msgid "Task Report"
-msgstr ""
+msgstr "Resoconto attività"
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_worksheet

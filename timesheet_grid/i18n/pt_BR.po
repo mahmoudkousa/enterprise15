@@ -6,8 +6,8 @@
 # Éder Brito <britoederr@gmail.com>, 2021
 # Marcos Rodrigues, 2021
 # Martin Trigaux, 2022
-# Layna Nascimento, 2023
 # Kevilyn Rosa, 2023
+# Layna Nascimento, 2023
 # 
 msgid ""
 msgstr ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 08:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Kevilyn Rosa, 2023\n"
+"Last-Translator: Layna Nascimento, 2023\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,7 +27,7 @@ msgstr ""
 #: code:addons/timesheet_grid/models/analytic.py:0
 #, python-format
 msgid "%s Spent"
-msgstr ""
+msgstr "%s gasto"
 
 #. module: timesheet_grid
 #. openerp-web
@@ -225,6 +225,7 @@ msgstr "Montante"
 #, python-format
 msgid "An employee must be linked to your user to record time."
 msgstr ""
+"Um funcionário deve estar vinculado ao seu usuário para registrar tempo."
 
 #. module: timesheet_grid
 #: model:ir.model,name:timesheet_grid.model_account_analytic_line
@@ -300,7 +301,7 @@ msgstr "Data"
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.project_task_view_gantt_timesheet
 msgid "Days Spent —"
-msgstr ""
+msgstr "Dias gastos —"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_res_config_settings__reminder_manager_delay
@@ -422,7 +423,7 @@ msgstr "Baixe seu App"
 #: model:ir.model.fields.selection,name:timesheet_grid.selection__account_analytic_line__validated_status__draft
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.timesheet_view_search
 msgid "Draft"
-msgstr "Provisório"
+msgstr "Rascunho"
 
 #. module: timesheet_grid
 #: model:ir.model,name:timesheet_grid.model_hr_employee
@@ -475,7 +476,7 @@ msgstr "O agrupamento por data não é suportado"
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.project_task_view_gantt_timesheet
 msgid "Hours Spent —"
-msgstr ""
+msgstr "Horas gastas —"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_hr_timesheet_merge_wizard__id
@@ -599,7 +600,7 @@ msgstr "Fusão de registros de folha de tempos"
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_res_config_settings__timesheet_min_duration
 msgid "Minimal Duration"
-msgstr ""
+msgstr "Duração mínima"
 
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.timesheet_view_grid
@@ -703,14 +704,14 @@ msgstr "Lembrete para registrar suas folhas de tempos"
 #. module: timesheet_grid
 #: model:mail.template,subject:timesheet_grid.mail_template_timesheet_reminder_manager
 msgid "Reminder to validate your team's timesheets"
-msgstr ""
+msgstr "Lembrete para validar as planilhas de horas da sua equipe"
 
 #. module: timesheet_grid
 #: model:ir.actions.server,name:timesheet_grid.invalidate_timesheet_action
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.timesheet_form_view
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.timesheet_view_form
 msgid "Reset to draft"
-msgstr ""
+msgstr "Voltar para provisório"
 
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.project_task_view_form
@@ -725,12 +726,12 @@ msgstr "Continuar cronômetro"
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_res_config_settings__timesheet_rounding
 msgid "Round up"
-msgstr ""
+msgstr "Arredondar para cima"
 
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.res_config_settings_view_form
 msgid "Rounding applied when tracking your time using the timer"
-msgstr ""
+msgstr "Arredondamento aplicado ao registrar seu tempo usando o cronômetro"
 
 #. module: timesheet_grid
 #. openerp-web
@@ -767,6 +768,8 @@ msgid ""
 "Select the user responsible for approving \"Timesheet\" of this employee.\n"
 "If empty, the approval is done by a Timesheets > Administrator or a Timesheets > User: all timesheets (as determined in the users settings)."
 msgstr ""
+"Selecione o usuário responsável pela aprovação da planilha de horas desse funcionário.\n"
+"Se estiver em branco, a aprovação será feita por Planilhas de horas > Administrador ou Planilhas de horas > Usuário: todas as planilhas (conforme determinado nas configurações dos usuários)."
 
 #. module: timesheet_grid
 #: model:ir.model.fields,help:timesheet_grid.field_account_analytic_line__is_timesheet
@@ -851,13 +854,13 @@ msgstr ""
 #: code:addons/timesheet_grid/models/analytic.py:0
 #, python-format
 msgid "The timesheets have successfully been reset to draft."
-msgstr ""
+msgstr "As planilhas de horas foram redefinidas como provisórias com sucesso."
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0
 #, python-format
 msgid "The timesheets have successfully been validated."
-msgstr ""
+msgstr "As planilhas de horas foram validadas com sucesso."
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0
@@ -912,7 +915,7 @@ msgstr "Aprovador da folha de tempos"
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__duration_unit_amount
 msgid "Timesheet Init Amount"
-msgstr ""
+msgstr "Valor da unidade da planilha de horas"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__is_timesheet
@@ -922,7 +925,7 @@ msgstr "Linha da Planilha de Horas"
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__unit_amount_validate
 msgid "Timesheet Unit Time"
-msgstr ""
+msgstr "Tempo unitário da planilha de horas"
 
 #. module: timesheet_grid
 #: model:ir.actions.server,name:timesheet_grid.timesheet_reminder_user_ir_actions_server
@@ -997,7 +1000,7 @@ msgstr "Indefinido"
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__user_can_validate
 msgid "User Can Validate"
-msgstr ""
+msgstr "O usuário pode validar"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_res_config_settings__reminder_user_interval
@@ -1040,7 +1043,7 @@ msgstr "Validado"
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__validated_status
 msgid "Validated Status"
-msgstr ""
+msgstr "Status validado"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__validated
@@ -1070,6 +1073,8 @@ msgstr "Semana"
 msgid ""
 "Whether or not the current user can validate/reset to draft the record."
 msgstr ""
+"Se o usuário atual pode ou não validar o registro ou redefinir como "
+"provisório."
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0
@@ -1078,6 +1083,8 @@ msgid ""
 "You can only reset to draft the timesheets of employees of whom you are the "
 "manager or the timesheet approver."
 msgstr ""
+"Só possível redefinir como provisório as planilhas de horas dos funcionários"
+" dos quais você é o gerente ou o aprovador da planilha de horas."
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0
@@ -1087,6 +1094,8 @@ msgid ""
 "You can only validate the timesheets of employees of whom you are the "
 "manager or the timesheet approver."
 msgstr ""
+"Só é possível validar as planilhas de horas dos funcionários dos quais você "
+"é o gerente ou o aprovador da planilha de horas."
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0
@@ -1101,6 +1110,8 @@ msgid ""
 "You cannot delete a validated entry. Please, contact your manager or your "
 "timesheet approver."
 msgstr ""
+"Não é possível excluir um registro validado. Entre em contato com o seu "
+"gerente ou com o responsável pela aprovação da planilha de horas."
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/project.py:0
@@ -1109,6 +1120,8 @@ msgid ""
 "You cannot start the timer for a project in a company encoding its "
 "timesheets in days."
 msgstr ""
+"Não é possível iniciar o cronômetro de um projeto em uma empresa que "
+"codifica suas planilhas de horas em dias."
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0
@@ -1118,7 +1131,7 @@ msgstr ""
 #: code:addons/timesheet_grid/models/analytic.py:0
 #, python-format
 msgid "You cannot use the timer on validated timesheets."
-msgstr ""
+msgstr "Não é possível usar o cronômetro em planilhas de horas validadas."
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0

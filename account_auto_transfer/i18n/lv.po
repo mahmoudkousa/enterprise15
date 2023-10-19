@@ -202,7 +202,7 @@ msgstr "Attēlotais nosaukums"
 #. module: account_auto_transfer
 #: model:ir.model.fields,field_description:account_auto_transfer.field_account_transfer_model__frequency
 msgid "Frequency"
-msgstr ""
+msgstr "Biežums"
 
 #. module: account_auto_transfer
 #: model:ir.actions.act_window,name:account_auto_transfer.generated_transfers_action

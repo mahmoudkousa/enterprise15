@@ -538,11 +538,15 @@ class AccountReport(models.AbstractModel):
             return
 
         options['partner'] = True
-        options['partner_ids'] = previous_options and previous_options.get('partner_ids') or []
+        previous_partner_ids = previous_options and previous_options.get('partner_ids') or []
         options['partner_categories'] = previous_options and previous_options.get('partner_categories') or []
-        selected_partner_ids = [int(partner) for partner in options['partner_ids']]
-        selected_partners = selected_partner_ids and self.env['res.partner'].browse(selected_partner_ids) or self.env['res.partner']
+
+        selected_partner_ids = [int(partner) for partner in previous_partner_ids]
+        # search instead of browse so that record rules apply and filter out the ones the user does not have access to
+        selected_partners = selected_partner_ids and self.env['res.partner'].search([('id', 'in', selected_partner_ids)]) or self.env['res.partner']
         options['selected_partner_ids'] = selected_partners.mapped('name')
+        options['partner_ids'] = selected_partners.ids
+
         selected_partner_category_ids = [int(category) for category in options['partner_categories']]
         selected_partner_categories = selected_partner_category_ids and self.env['res.partner.category'].browse(selected_partner_category_ids) or self.env['res.partner.category']
         options['selected_partner_categories'] = selected_partner_categories.mapped('name')
@@ -751,18 +755,46 @@ class AccountReport(models.AbstractModel):
         return None
 
     def _get_options_fiscal_position_domain(self, options):
+        def get_foreign_vat_tax_tag_extra_domain(fiscal_position=None):
+            tax_report_country = self._get_country_for_fiscal_position_filter(options)
+            if not tax_report_country:
+                return False
+            # We want to gather any line wearing a tag, whatever its fiscal position.
+            # Nevertheless, if a country is using the same report for several regions (e.g. India) we need to exclude
+            # the lines from the other regions to avoid reporting numbers that don't belong to the current region.
+            fp_ids_to_exclude = self.env['account.fiscal.position'].search([
+                ('id', '!=', fiscal_position.id if fiscal_position else False),
+                ('foreign_vat', '!=', False),
+                ('country_id', '=', self.env.company.account_fiscal_country_id.id),
+            ]).ids
+
+            if fiscal_position and fiscal_position.country_id == self.env.company.account_fiscal_country_id:
+                # We are looking for a fiscal position inside our country which means we need to exclude
+                # the local fiscal position which is represented by `False`.
+                fp_ids_to_exclude.append(False)
+
+            return [
+                ('tax_tag_ids.country_id', '=', tax_report_country.id),
+                ('move_id.fiscal_position_id', 'not in', fp_ids_to_exclude),
+            ]
+
         fiscal_position_opt = options.get('fiscal_position')
 
         if fiscal_position_opt == 'domestic':
-            return [
+            domain = [
                 '|',
                 ('move_id.fiscal_position_id', '=', False),
                 ('move_id.fiscal_position_id.foreign_vat', '=', False),
             ]
+            tax_tag_domain = get_foreign_vat_tax_tag_extra_domain()
+            return expression.OR([domain, tax_tag_domain])
 
-        if type(fiscal_position_opt) is int:
+        if isinstance(fiscal_position_opt, int):
             # It's a fiscal position id
-            return [('move_id.fiscal_position_id', '=', fiscal_position_opt)]
+            domain = [('move_id.fiscal_position_id', '=', fiscal_position_opt)]
+            fiscal_position = self.env['account.fiscal.position'].browse(fiscal_position_opt)
+            tax_tag_domain = get_foreign_vat_tax_tag_extra_domain(fiscal_position)
+            return expression.OR([domain, tax_tag_domain])
 
         # 'all', or option isn't specified
         return []

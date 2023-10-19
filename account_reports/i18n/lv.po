@@ -9,8 +9,8 @@
 # Arnis Putniņš <arnis@allegro.lv>, 2022
 # Konstantins Zabogonskis <inculin4ik@gmail.com>, 2022
 # Martin Trigaux, 2022
-# Armīns Jeltajevs <armins.jeltajevs@gmail.com>, 2023
 # Will Sensors, 2023
+# Armīns Jeltajevs <armins.jeltajevs@gmail.com>, 2023
 # ievaputnina <ievai.putninai@gmail.com>, 2023
 # 
 msgid ""
@@ -340,8 +340,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_reports.template_tax_report
 msgid ""
 "<span>This company is part of a tax unit. You're currently not viewing the "
-"whole unit; to change that, tick the \"aggregate\" option of \"tax unit\" "
-"menu.</span>"
+"whole unit. To change that, use the Tax Unit filter.</span>"
 msgstr ""
 
 #. module: account_reports
@@ -1663,7 +1662,7 @@ msgstr ""
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
 msgid "From:"
-msgstr ""
+msgstr "No:"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_reports_export_wizard_format__fun_to_call
@@ -2861,7 +2860,7 @@ msgstr "Summary"
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "TAX"
-msgstr ""
+msgstr "PVN"
 
 #. module: account_reports
 #. openerp-web

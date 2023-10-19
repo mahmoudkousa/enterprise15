@@ -145,7 +145,7 @@ const MapModel = AbstractModel.extend({
      */
     _fetchCoordinatesFromAddressOSM: function (record) {
         const address = encodeURIComponent(record.contact_address_complete.replace('/', ' '));
-        const encodedUrl = `https://nominatim.openstreetmap.org/search/${address}?format=jsonv2`;
+        const encodedUrl = `https://nominatim.openstreetmap.org/search?q=${address}&format=jsonv2`;
         return new Promise(function (resolve, reject) {
             $.get(encodedUrl).then(resolve).catch(reject);
         });

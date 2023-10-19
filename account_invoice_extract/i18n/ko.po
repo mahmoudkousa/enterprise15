@@ -7,6 +7,7 @@
 # JH CHOI <hwangtog@gmail.com>, 2021
 # Linkup <link-up@naver.com>, 2021
 # Seongseok Shin <shinss61@hotmail.com>, 2021
+# Sarah Park, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 09:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Seongseok Shin <shinss61@hotmail.com>, 2021\n"
-"Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
+"Last-Translator: Sarah Park, 2023\n"
+"Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -70,7 +71,7 @@ msgstr "계정 청구서 추출 알림"
 msgid ""
 "All fields will be automated by Artificial Intelligence, it might take 5 "
 "seconds."
-msgstr ""
+msgstr "모든 필드는 인공 지능을 통해 자동화되며, 약 5초 정도 소요됩니다."
 
 #. module: account_invoice_extract
 #: code:addons/account_invoice_extract/models/account_invoice.py:0
@@ -370,6 +371,8 @@ msgid ""
 "The 'invoice_ocr' IAP account token is invalid. Please delete it to let Odoo"
 " generate a new one or fill it with a valid token."
 msgstr ""
+"'invoice_ocr' IAP 계정 토큰이 유효하지 않습니다. 삭제 후  Odoo에서 새로 생성하거나 유효한 토큰으로 교체하시기 "
+"바랍니다."
 
 #. module: account_invoice_extract
 #: code:addons/account_invoice_extract/models/account_invoice.py:0

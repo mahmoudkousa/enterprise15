@@ -557,7 +557,7 @@ msgstr ""
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.view_hr_referral_points_filter
 msgid "Gifts"
-msgstr ""
+msgstr "Hadiah"
 
 #. module: hr_referral
 #: model:ir.model.fields,help:hr_referral.field_hr_referral_points__sequence_stage
@@ -617,7 +617,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr_referral.selection__hr_referral_report__referral_state__hired
 #: model_terms:ir.ui.view,arch_db:hr_referral.view_hr_referral_filter
 msgid "Hired"
-msgstr ""
+msgstr "Diterima"
 
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_res_users__hr_referral_level_id
@@ -806,7 +806,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:hr_referral.action_hr_referral_level_configuration
 #: model:ir.ui.menu,name:hr_referral.menu_hr_referral_level_configuration
 msgid "Levels"
-msgstr ""
+msgstr "Level-Level"
 
 #. module: hr_referral
 #: model:ir.model.fields.selection,name:hr_referral.selection__hr_referral_link_to_share__channel__direct
@@ -1052,7 +1052,7 @@ msgstr ""
 #. module: hr_referral
 #: model:ir.model,name:hr_referral.model_hr_recruitment_stage
 msgid "Recruitment Stages"
-msgstr ""
+msgstr "Tahap-Tahap Rekrutme"
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.hr_referral_report_view_tree
@@ -1087,7 +1087,7 @@ msgstr ""
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.hr_recruitment_report_view_dashboard_inherit
 msgid "Referral Rate"
-msgstr ""
+msgstr "Referral Rate"
 
 #. module: hr_referral
 #: model:res.groups,name:hr_referral.group_hr_referral_reward_responsible_user
@@ -1128,7 +1128,7 @@ msgstr ""
 #: model:ir.ui.menu,name:hr_referral.menu_hr_referral_root
 #, python-format
 msgid "Referrals"
-msgstr ""
+msgstr "Referral"
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.hr_applicant_view_search_bis_inherit_referral
@@ -1480,7 +1480,7 @@ msgstr ""
 #: code:addons/hr_referral/models/hr_job.py:0
 #, python-format
 msgid "Visit Webpage"
-msgstr ""
+msgstr "Kunjungi Halaman Website"
 
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_hr_referral_reward__website_message_ids

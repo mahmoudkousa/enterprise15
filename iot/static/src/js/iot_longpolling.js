@@ -63,7 +63,8 @@ var IoTLongpolling = BusService.extend(IoTConnectionMixin, {
      * @param {string} device_identifier
      */
     removeListener: function(iot_ip, device_identifier, listener_id) {
-        if (this._listeners[iot_ip].devices[device_identifier].listener_id === listener_id) {
+        const device = this._listeners[iot_ip].devices[device_identifier];
+        if (device && device.listener_id === listener_id) {
             delete this._listeners[iot_ip].devices[device_identifier];
         }
     },

@@ -414,7 +414,7 @@ class AccountEdiFormat(models.Model):
         self.ensure_one()
         if self.code != 'ubl_carvajal':
             return super()._is_compatible_with_journal(journal)
-        return journal.type == 'sale' or (journal.type == 'purchase' and journal.l10n_co_edi_is_support_document) and journal.country_code == 'CO'
+        return journal.country_code == 'CO' and (journal.type == 'sale' or (journal.type == 'purchase' and journal.l10n_co_edi_is_support_document))
 
     def _is_required_for_invoice(self, invoice):
         # OVERRIDE
@@ -449,6 +449,8 @@ class AccountEdiFormat(models.Model):
             edi_result.append(_("You can not validate an invoice that has a partner without VAT number."))
         if not move.company_id.partner_id.l10n_co_edi_obligation_type_ids:
             edi_result.append(_("'Obligaciones y Responsabilidades' on the Customer Fiscal Data section needs to be set for the partner %s.", move.company_id.partner_id.display_name))
+        if not move.amount_total:
+            edi_result.append(_("You cannot send Documents in Carvajal without an amount."))
         if not move.partner_id.commercial_partner_id.l10n_co_edi_obligation_type_ids:
             edi_result.append(_("'Obligaciones y Responsabilidades' on the Customer Fiscal Data section needs to be set for the partner %s.", move.partner_id.commercial_partner_id.display_name))
         if (move.l10n_co_edi_type == '2' and \

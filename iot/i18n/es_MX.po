@@ -30,11 +30,11 @@ msgid ""
 "                    1. Read the pairing code from a display or thermal printer connected to the IoT Box.<br/>\n"
 "                    2. Enter the code below and click on \"Pair\".<br/>"
 msgstr ""
-"0. El poder de la Caja IoT<br/><br/>\n"
+"0. Encienda la caja IoT<br/><br/>\n"
 "\n"
 "                    <strong>A. Conexión ethernet</strong><br/>\n"
-"                    1. Lea el código de emparejamiento desde una pantalla o impresora térmica conectada a la Caja IoT .<br/>\n"
-"                    2. Ingrese el siguiente código y haga clic en \"emparejar\".<br/>"
+"                    1. Lea el código de emparejamiento desde una pantalla o impresora térmica conectada a la caja IoT .<br/>\n"
+"                    2. Ingrese el código a continuación y haga clic en \"emparejar\".<br/>"
 
 #. module: iot
 #: model_terms:ir.ui.view,arch_db:iot.iot_device_view_kanban
@@ -57,16 +57,16 @@ msgid ""
 "                    5. Paste the token in token field and follow the steps described on the IoT Box Homepage<br/>"
 msgstr ""
 "<strong>B. Conexión WiFi (o si la conexión ethernet no funciona)</strong><br/>\n"
-"                    1. Asegúrese de que no hay ningún cable ethernet conectado a la Caja IoT<br/>\n"
+"                    1. Asegúrese de que no hay ningún cable ethernet conectado a la caja IoT<br/>\n"
 "                    2. Copie el siguiente token<br/>\n"
-"                    3. Conéctese a la red WiFi de la Caja IoT (debería verla en sus redes WiFi disponibles)<br/>\n"
-"                    4. Se le redirigirá a la página de inicio de la Caja IoT<br/>\n"
-"                    5. Pegue el token en el campo correspondiente y siga los pasos descritos en la página de inicio de la Caja IoT<br/>"
+"                    3. Conéctese a la red WiFi de la caja IoT (debería verla en sus redes WiFi disponibles)<br/>\n"
+"                    4. Se le redirigirá a la página de inicio de la caja IoT<br/>\n"
+"                    5. Pegue el token en el campo correspondiente y siga los pasos descritos en la página de inicio de la caja IoT<br/>"
 
 #. module: iot
 #: model:ir.model,name:iot.model_add_iot_box
 msgid "Add IoT Box wizard"
-msgstr "Agregar asistente de la Caja IoT"
+msgstr "Agregar asistente de la caja IoT"
 
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_iot_box__drivers_auto_update
@@ -82,7 +82,7 @@ msgstr ""
 #. module: iot
 #: model:ir.model.fields.selection,name:iot.selection__iot_device__type__scanner
 msgid "Barcode Scanner"
-msgstr "Escáner de códigos de barras"
+msgstr "Lector de códigos de barras"
 
 #. module: iot
 #: model:ir.model.fields.selection,name:iot.selection__iot_device__connection__bluetooth
@@ -137,8 +137,8 @@ msgid ""
 "Click on Proceed to .../Add Exception/Visit this website/Go on to the "
 "webpage"
 msgstr ""
-"Haga clic en Continuar.../Agregar excepción/Visitar este sitio web/Ir a la "
-"página web"
+"Haga clic en Continuar a.../Agregar excepción/Visitar este sitio web/Ir a la"
+" página web"
 
 #. module: iot
 #: model_terms:ir.actions.act_window,help:iot.iot_box_action
@@ -170,7 +170,7 @@ msgstr "Empresa"
 #: model:ir.actions.act_window,name:iot.action_add_iot_box
 #: model_terms:ir.ui.view,arch_db:iot.view_add_iot_box
 msgid "Connect an IoT Box"
-msgstr "Conecte una Caja IoT"
+msgstr "Conecte una caja IoT"
 
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_iot_device__connection
@@ -183,7 +183,7 @@ msgstr "Conexión"
 #: code:addons/iot/static/src/js/iot_mixins.js:0
 #, python-format
 msgid "Connection to IoT Box failed"
-msgstr "La conexión a la Caja IoT falló"
+msgstr "Falló la conexión a la caja IoT"
 
 #. module: iot
 #. openerp-web
@@ -191,14 +191,14 @@ msgstr "La conexión a la Caja IoT falló"
 #: code:addons/iot/static/src/js/iot_widgets.js:0
 #, python-format
 msgid "Connection to device failed"
-msgstr "La conexión al dispositivo falló"
+msgstr "Falló la conexión al dispositivo"
 
 #. module: iot
 #. openerp-web
 #: code:addons/iot/static/src/js/action_manager.js:0
 #, python-format
 msgid "Connection to printer failed"
-msgstr "La conexión con la impresora falló"
+msgstr "Falló la conexión con la impresora"
 
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_add_iot_box__create_uid
@@ -249,7 +249,7 @@ msgstr "Dispositivos"
 #. module: iot
 #: model:ir.model.fields.selection,name:iot.selection__iot_device__type__display
 msgid "Display"
-msgstr "Mostrar"
+msgstr "Pantalla"
 
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_add_iot_box__display_name
@@ -325,7 +325,7 @@ msgstr "Identificador (dirección Mac)"
 #. module: iot
 #: model:ir.model.fields,help:iot.field_iot_device__connected
 msgid "If device is connected to the IoT Box"
-msgstr "Si el dispositivo está conectado a la Caja IoT "
+msgstr "Si el dispositivo está conectado a la caja IoT "
 
 #. module: iot
 #. openerp-web
@@ -456,14 +456,14 @@ msgstr "Red"
 #. module: iot
 #: model_terms:ir.actions.act_window,help:iot.iot_box_action
 msgid "No IoT Box found !"
-msgstr "¡No se encontró ninguna Caja IoT!"
+msgstr "¡No se encontró ninguna caja IoT!"
 
 #. module: iot
 #. openerp-web
 #: code:addons/iot/static/src/js/iot_mixins.js:0
 #, python-format
 msgid "Odoo cannot reach the IoT Box."
-msgstr "Odoo no puede conectar con la Caja IoT."
+msgstr "Odoo no puede conectar con la caja IoT."
 
 #. module: iot
 #: model_terms:ir.ui.view,arch_db:iot.view_add_iot_box
@@ -488,7 +488,7 @@ msgid ""
 "Please accept the certificate of your IoT Box (procedure depends on your "
 "browser) :"
 msgstr ""
-"Acepte el certificado de su Caja IoT (el procedimiento depende de su "
+"Acepte el certificado de su caja IoT (el procedimiento depende de su "
 "navegador):"
 
 #. module: iot
@@ -636,7 +636,7 @@ msgid ""
 "on the IoT Box"
 msgstr ""
 "Al configurar un dispositivo aquí, el reporte se imprimirá a través de este "
-"dispositivo en la Caja IoT "
+"dispositivo en la caja IoT "
 
 #. module: iot
 #: model_terms:ir.actions.act_window,help:iot.iot_box_action

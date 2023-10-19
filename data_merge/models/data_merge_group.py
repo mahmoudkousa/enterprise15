@@ -237,7 +237,7 @@ class DataMergeGroup(models.Model):
         """ Perform cleanup activities for each data_merge.group. """
         groups = self.with_context(active_test=False).env['data_merge.group'].search([])
 
-        for batched_groups in split_every(DM_CRON_BATCH_SIZE, groups.ids, self.browse):
+        for batched_groups in split_every(DM_CRON_BATCH_SIZE, groups.ids, self.with_context(active_test=False).browse):
             batched_groups._cleanup()
 
             if auto_commit:

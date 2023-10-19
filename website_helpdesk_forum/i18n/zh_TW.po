@@ -4,6 +4,7 @@
 # 
 # Translators:
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2021
+# Tony Ng, 2023
 # 
 msgid ""
 msgstr ""
@@ -11,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:44+0000\n"
-"Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2021\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Last-Translator: Tony Ng, 2023\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -33,7 +34,7 @@ msgstr "論壇貼文"
 #. module: website_helpdesk_forum
 #: model:ir.model.fields,field_description:website_helpdesk_forum.field_helpdesk_ticket__use_website_helpdesk_forum
 msgid "Help Center Active"
-msgstr ""
+msgstr "支援中心有效"
 
 #. module: website_helpdesk_forum
 #: model:ir.model.fields,field_description:website_helpdesk_forum.field_helpdesk_team__forum_id
@@ -50,17 +51,17 @@ msgstr ""
 #: code:addons/website_helpdesk_forum/models/helpdesk.py:0
 #, python-format
 msgid "Help Center not active for this team."
-msgstr ""
+msgstr "團隊的支援中心功能未生效。"
 
 #. module: website_helpdesk_forum
 #: model:ir.model,name:website_helpdesk_forum.model_helpdesk_team
 msgid "Helpdesk Team"
-msgstr ""
+msgstr "技術支援團隊"
 
 #. module: website_helpdesk_forum
 #: model:ir.model,name:website_helpdesk_forum.model_helpdesk_ticket
 msgid "Helpdesk Ticket"
-msgstr ""
+msgstr "技術支援請求"
 
 #. module: website_helpdesk_forum
 #: code:addons/website_helpdesk_forum/models/helpdesk.py:0

@@ -16,9 +16,10 @@
 # Martin Trigaux, 2022
 # keecome <7017511@qq.com>, 2022
 # Raymond Yu <cl_yu@hotmail.com>, 2022
-# Jeffery CHEN Fan <jeffery9@gmail.com>, 2022
+# Jeffery CHEN <jeffery9@gmail.com>, 2022
 # digitalliuzg8888, 2022
 # Emily Jia <eji@odoo.com>, 2023
+# Chloe Wang, 2023
 # 
 msgid ""
 msgstr ""
@@ -26,8 +27,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 11:15+0000\n"
 "PO-Revision-Date: 2022-04-08 12:42+0000\n"
-"Last-Translator: Emily Jia <eji@odoo.com>, 2023\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Last-Translator: Chloe Wang, 2023\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -3927,7 +3928,7 @@ msgstr ""
 #. module: l10n_be_hr_payroll
 #: model:ir.model.fields,field_description:l10n_be_hr_payroll.field_hr_payroll_generate_warrant_payslips__import_file
 msgid "Import File"
-msgstr ""
+msgstr "导入文件"
 
 #. module: l10n_be_hr_payroll
 #: model:ir.model.fields.selection,name:l10n_be_hr_payroll.selection__hr_payroll_generate_warrant_payslips__state__import
@@ -5072,7 +5073,7 @@ msgstr ""
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.report_social_balance
 msgid "Part-Time"
-msgstr ""
+msgstr "兼职"
 
 #. module: l10n_be_hr_payroll
 #: model:hr.work.entry.type,name:l10n_be_hr_payroll.work_entry_type_partial_incapacity
@@ -5303,7 +5304,7 @@ msgstr "个人所得税"
 #. module: l10n_be_hr_payroll
 #: model:hr.work.entry.type,name:l10n_be_hr_payroll.work_entry_type_bank_holiday
 msgid "Public Holiday"
-msgstr ""
+msgstr "公共假期"
 
 #. module: l10n_be_hr_payroll
 #: model:hr.work.entry.type,name:l10n_be_hr_payroll.work_entry_type_phc

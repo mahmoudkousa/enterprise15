@@ -3,9 +3,8 @@
 # 	* account_accountant
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
-# Larissa Manderfeld, 2023
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Larissa Manderfeld, 2023\n"
+"Last-Translator: Martin Trigaux, 2023\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +28,8 @@ msgstr "-> Abstimmen"
 #. module: account_accountant
 #: model_terms:digest.tip,tip_description:account_accountant.digest_tip_account_accountant_0
 msgid "<b class=\"tip_title\">Tip: Bulk update journal items</b>"
-msgstr "<b class=\"tip_title\">Tipp: Bulk-Update von Journaleinträgen</b>"
+msgstr ""
+"<b class=\"tip_title\">Tipp: Massenaktualisierung von Journalbuchungen</b>"
 
 #. module: account_accountant
 #: model_terms:digest.tip,tip_description:account_accountant.digest_tip_account_accountant_1
@@ -37,8 +37,8 @@ msgid ""
 "<b class=\"tip_title\">Tip: Find an Accountant or register your Accounting "
 "Firm</b>"
 msgstr ""
-"<b class=\"tip_title\">Tipp: Finden Sie einen Buchhalter oder registrieren "
-"Sie Ihre Wirtschaftsüberprüfungsgesellschaft</b>"
+"<b class=\"tip_title\">Tipp: Finden Sie einen Buchhalter oder hinterlegen "
+"Sie Ihren Steuerberater/Wirtschaftsprüfer </b>"
 
 #. module: account_accountant
 #. openerp-web
@@ -54,12 +54,12 @@ msgstr ""
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
 msgid "<i>Lock all journal entries</i>"
-msgstr "<i>Alle Journaleinträge sperren</i>"
+msgstr "<i>Alle Journalbuchungen sperren</i>"
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
 msgid "<i>Lock specific journal entries</i>"
-msgstr "<i>Bestimmte Journaleinträge sperren</i>"
+msgstr "<i>Bestimmte Journalbuchungen sperren</i>"
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
@@ -86,8 +86,8 @@ msgstr "<span class=\"tip_button_text\">Einen Buchhalter finden</span>"
 #: model_terms:digest.tip,tip_description:account_accountant.digest_tip_account_accountant_1
 msgid "<span class=\"tip_button_text\">Register your Accounting Firm</span>"
 msgstr ""
-"<span class=\"tip_button_text\">Registrieren Sie Ihre "
-"Buchhaltungsfirma</span>"
+"<span class=\"tip_button_text\">Hinterlegen sie Ihren "
+"Steuerberater/Wirtschaftsprüfer</span>"
 
 #. module: account_accountant
 #. openerp-web
@@ -97,7 +97,7 @@ msgid ""
 "<strong><b>Good job!</b> You went through all steps of this tour.</strong>"
 msgstr ""
 "<strong><b>Gut gemacht!</b> Sie haben alle Schritte dieser Tour "
-"absolviert.</strong>"
+"durchlaufen.</strong>"
 
 #. module: account_accountant
 #: code:addons/account_accountant/models/reconciliation_widget.py:0
@@ -137,19 +137,19 @@ msgstr "Kontoabstimmungs-Widget"
 #: model:ir.actions.act_window,name:account_accountant.account_tag_action
 #: model:ir.ui.menu,name:account_accountant.account_tag_menu
 msgid "Account Tags"
-msgstr "Konto-Tags"
+msgstr "Konten-Stichwörter"
 
 #. module: account_accountant
 #: model:ir.ui.menu,name:account_accountant.menu_accounting
 #: model_terms:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:account_accountant.res_partner_view_form
 msgid "Accounting"
-msgstr "Finanzen"
+msgstr "Buchhaltung"
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
 msgid "Accounting Period Closing"
-msgstr "Schließung der Buchungsperiode"
+msgstr "Schließen der Buchungsperiode"
 
 #. module: account_accountant
 #: model:ir.actions.act_window,name:account_accountant.action_view_account_change_lock_date
@@ -159,12 +159,12 @@ msgstr "Abschlussdaten der Buchhaltung"
 #. module: account_accountant
 #: model_terms:ir.actions.act_window,help:account_accountant.account_tag_action
 msgid "Add a new tag"
-msgstr "Neuen Tag hinzufügen"
+msgstr "Neues Stichwort hinzufügen"
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date__fiscalyear_lock_date
 msgid "All Users Lock Date"
-msgstr "Alle Benutzer Sperrdatum"
+msgstr "Sperrdatum für alle Benutzer "
 
 #. module: account_accountant
 #. openerp-web
@@ -210,7 +210,7 @@ msgstr "Analytische Tags."
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_res_config_settings__use_anglo_saxon
 msgid "Anglo-Saxon Accounting"
-msgstr "Angelsächsische Buchführung"
+msgstr "Angelsächsische Buchhaltung"
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_bank_statement_line__attachment_ids
@@ -229,12 +229,12 @@ msgstr "Bank- und Bargeldtransaktionen"
 #: code:addons/account_accountant/static/src/js/reconciliation/reconciliation_action.js:0
 #, python-format
 msgid "Bank Reconciliation"
-msgstr "Kontenabgleich"
+msgstr "Kontenabstimmung"
 
 #. module: account_accountant
 #: model:ir.model,name:account_accountant.model_account_bank_statement
 msgid "Bank Statement"
-msgstr "Bankauszug"
+msgstr "Kontoauszug"
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
@@ -283,7 +283,7 @@ msgstr "Kontrollieren Sie sie"
 #: code:addons/account_accountant/static/src/js/move_line_list_view.js:0
 #, python-format
 msgid "Choose a line to preview its attachments."
-msgstr "Wählen Sie eine Zeile aus, um eine Vorschau der Anlagen zu erhalten."
+msgstr "Wählen Sie eine Zeile aus, um eine Vorschau der Anhänge zu erhalten."
 
 #. module: account_accountant
 #. openerp-web
@@ -334,7 +334,7 @@ msgstr "Unternehmen"
 #. module: account_accountant
 #: model:ir.model,name:account_accountant.model_res_config_settings
 msgid "Config Settings"
-msgstr "Konfiguration "
+msgstr "Konfigurationseinstellungen "
 
 #. module: account_accountant
 #. openerp-web
@@ -366,7 +366,7 @@ msgstr ""
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_reconcile_model_widget_wizard
 msgid "Counterpart Values"
-msgstr "Werte Gegenbuchung"
+msgstr "Gegenbuchungswerte"
 
 #. module: account_accountant
 #: code:addons/account_accountant/models/reconciliation_widget.py:0
@@ -384,7 +384,7 @@ msgstr "Gegenbuchung erstellen"
 #. module: account_accountant
 #: model_terms:ir.actions.act_window,help:account_accountant.action_account_group_tree
 msgid "Create a new account group"
-msgstr "Erstellen Sie eine neue Kontengruppe"
+msgstr "Eine neue Kontengruppe erstellen"
 
 #. module: account_accountant
 #. openerp-web
@@ -448,7 +448,7 @@ msgstr "Beschreibung"
 #. module: account_accountant
 #: model:ir.model,name:account_accountant.model_digest_digest
 msgid "Digest"
-msgstr "Digest"
+msgstr "Übersicht"
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date__display_name
@@ -461,8 +461,8 @@ msgstr "Anzeigename"
 #, python-format
 msgid "Do not have access, skip this data for user's digest email"
 msgstr ""
-"Kein Zugriff, überspringen Sie diese Daten für die Digest E-Mail des "
-"Benutzers"
+"Keine Zugriffsberechtigung, überspringen dieser Daten für die E-Mail-"
+"Übersicht des Benutzers."
 
 #. module: account_accountant
 #. openerp-web
@@ -479,7 +479,7 @@ msgstr "Enddatum"
 #. module: account_accountant
 #: model:ir.model.fields,help:account_accountant.field_account_fiscal_year__date_to
 msgid "Ending Date, included in the fiscal year."
-msgstr "Enddatum, das in das Steuerjahr einbezogen wird."
+msgstr "Enddatum, das in das Geschäftsjahr einbezogen wird."
 
 #. module: account_accountant
 #: model:ir.model.fields,help:account_accountant.field_res_company__invoicing_switch_threshold
@@ -490,8 +490,8 @@ msgid ""
 "after installing Accounting if you were using only Invoicing before, before "
 "importing all your actual accounting data in to Odoo."
 msgstr ""
-"Alle Zahlungen und Rechnungen vor diesem Datum erhalten den Status \"Aus der"
-" Rechnungsstellung\", wodurch alle damit verbundenen Buchungseinträge "
+"Alle Zahlungen und Rechnungen vor diesem Datum erhalten den Status „Aus "
+"Rechnungsstellung“, wodurch alle damit verbundenen Buchungseinträge "
 "ausgeblendet werden. Verwenden Sie diese Option nach der Installation der "
 "Buchhaltung, wenn Sie vorher nur die Rechnungsstellung verwendet haben, "
 "bevor Sie alle Ihre aktuellen Buchhaltungsdaten in Odoo importieren."
@@ -552,8 +552,8 @@ msgstr ""
 "Wählen Sie in einer beliebigen Listenansicht mehrere Datensätze aus und die "
 "Liste wird bearbeitbar. Wenn Sie eine Zelle aktualisieren, werden die "
 "ausgewählten Datensätze alle auf einmal aktualisiert. Verwenden Sie diese "
-"Funktion, um mehrere Journaleinträge aus dem Hauptbuch oder einer beliebigen"
-" Journalansicht zu aktualisieren."
+"Funktion, um mehrere Journalbuchungen aus dem Hauptbuch oder einer "
+"beliebigen Journalansicht zu aktualisieren."
 
 #. module: account_accountant
 #. openerp-web
@@ -568,7 +568,7 @@ msgstr "Von nun an sollten Sie vielleicht Folgendes tun:"
 #, python-format
 msgid "Get back to the dashboard using your previous path…"
 msgstr ""
-"Kehren Sie zum Dashboard zurück, indem Sie den vorherigen Pfad verwenden..."
+"Kehren Sie zum Dashboard zurück, indem Sie den vorherigen Pfad verwenden ..."
 
 #. module: account_accountant
 #. openerp-web
@@ -584,7 +584,7 @@ msgstr "Bankauszüge aufrufen"
 #: code:addons/account_accountant/static/src/js/tours/account_accountant.js:0
 #, python-format
 msgid "Go to invoicing"
-msgstr "Zur Rechnungsstellung gehen"
+msgstr "Zur Rechnungsstellung"
 
 #. module: account_accountant
 #. openerp-web
@@ -620,7 +620,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_accountant.field_res_company__invoicing_switch_threshold
 #: model:ir.model.fields,field_description:account_accountant.field_res_config_settings__invoicing_switch_threshold
 msgid "Invoicing Switch Threshold"
-msgstr "Umstellungsdatum für Rechnungne"
+msgstr "Umstellungsdatum für Rechnungen"
 
 #. module: account_accountant
 #: code:addons/account_accountant/models/reconciliation_widget.py:0
@@ -648,17 +648,17 @@ msgstr "Journal"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date__period_lock_date
 msgid "Journal Entries Lock Date"
-msgstr "Journaleinträge Sperrdatum"
+msgstr "Sperrdatum der Journalbuchungen"
 
 #. module: account_accountant
 #: model:ir.model,name:account_accountant.model_account_move
 msgid "Journal Entry"
-msgstr "Journaleintrag"
+msgstr "Journalbuchung"
 
 #. module: account_accountant
 #: model:ir.model,name:account_accountant.model_account_move_line
 msgid "Journal Item"
-msgstr "Journaleintrag"
+msgstr "Buchungszeile"
 
 #. module: account_accountant
 #: code:addons/account_accountant/models/reconciliation_widget.py:0
@@ -672,7 +672,7 @@ msgstr "Journaleinträge"
 #: model:ir.actions.client,name:account_accountant.action_manual_reconcile
 #, python-format
 msgid "Journal Items to Reconcile"
-msgstr "Auszugleichende Journaleinträge"
+msgstr "Abzustimmende Buchungszeilen"
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_digest_digest__kpi_account_bank_cash_value
@@ -686,7 +686,7 @@ msgstr "KPI Liquide Bankmittel"
 #: code:addons/account_accountant/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Label"
-msgstr "Label"
+msgstr "Buchungstext"
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
@@ -724,7 +724,8 @@ msgstr "Zuletzt aktualisiert am"
 #, python-format
 msgid "Let’s automate your bills, bank transactions and accounting processes."
 msgstr ""
-"Automatisieren Ihre Rechnungen, Bankgeschäfte und Buchhaltungsprozesse."
+"Automatisieren Ihre Eingangsrechnungen, Bankgeschäfte und "
+"Buchhaltungsprozesse."
 
 #. module: account_accountant
 #. openerp-web
@@ -738,14 +739,16 @@ msgstr "Gehen Sie zurück zum Dashboard."
 #: code:addons/account_accountant/static/src/js/tours/account_accountant.js:0
 #, python-format
 msgid "Let’s reconcile the fetched bank transactions."
-msgstr "Lassen Sie uns die abgerufenen Banktransaktionen abgleichen."
+msgstr "Lassen Sie uns die abgerufenen Banktransaktionen abstimmen."
 
 #. module: account_accountant
 #. openerp-web
 #: code:addons/account_accountant/static/src/js/tours/account_accountant.js:0
 #, python-format
 msgid "Let’s see how a bill looks like in form view."
-msgstr "Sehen Sie sich an, wie eine Rechnung in der Formularansicht aussieht."
+msgstr ""
+"Sehen Sie sich an, wie eine Eingangsrechnung in der Formularansicht "
+"aussieht."
 
 #. module: account_accountant
 #. openerp-web
@@ -784,14 +787,14 @@ msgstr "Sperrdaten"
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
 msgid "Management Closing"
-msgstr "Management Abschluss"
+msgstr "Verwaltungsabschluss"
 
 #. module: account_accountant
 #. openerp-web
 #: code:addons/account_accountant/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Manual Operations"
-msgstr "Manuelle Bearbeitung"
+msgstr "Manuelle Vorgänge"
 
 #. module: account_accountant
 #. openerp-web
@@ -831,7 +834,7 @@ msgstr "Buchungsvorlagen ändern"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_move_line__move_attachment_ids
 msgid "Move Attachment"
-msgstr "Anhang verschieben"
+msgstr "Buchungsanhang"
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_fiscal_year__name
@@ -850,7 +853,7 @@ msgstr "Neu"
 #: code:addons/account_accountant/static/src/js/move_line_list_view.js:0
 #, python-format
 msgid "No attachments linked."
-msgstr "Keine Anlagen verknüpft."
+msgstr "Keine Dateianhänge verknüpft."
 
 #. module: account_accountant
 #: model:ir.model.fields,help:account_accountant.field_res_config_settings__tax_lock_date
@@ -858,8 +861,8 @@ msgid ""
 "No users can edit journal entries related to a tax prior and inclusive of "
 "this date."
 msgstr ""
-"Kein Benutzer kann Journaleinträge bearbeiten, die sich auf eine Steuer vor "
-"und einschließlich dieses Datums beziehen."
+"Kein Benutzer kann Journalbuchungen bearbeiten, die sich auf eine Steuer vor"
+" und einschließlich dieses Datums beziehen."
 
 #. module: account_accountant
 #: model:ir.model.fields,help:account_accountant.field_res_config_settings__fiscalyear_lock_date
@@ -868,7 +871,7 @@ msgid ""
 "this date. Use it for fiscal year locking for example."
 msgstr ""
 "Benutzer, einschließlich Berater, können keine Konten vor und einschließlich"
-" dieses Datums bearbeiten. Verwenden Sie es z.B. für das Sperren von "
+" dieses Datums bearbeiten. Verwenden Sie es z. B. für das Sperren von "
 "Geschäftsjahren."
 
 #. module: account_accountant
@@ -889,7 +892,8 @@ msgstr "Hier gibt es nichts zu tun!"
 #: code:addons/account_accountant/wizard/account_change_lock_date.py:0
 #, python-format
 msgid "Only Billing Administrators are allowed to change lock dates!"
-msgstr "Nur Rechnungsadministratoren ist es möglich die Sperrdaten zu ändern!"
+msgstr ""
+"Nur Rechnungsadministratoren ist es erlaubt, die Sperrdaten zu ändern!"
 
 #. module: account_accountant
 #: model:ir.model.fields,help:account_accountant.field_res_config_settings__period_lock_date
@@ -898,8 +902,8 @@ msgid ""
 "of this date. Use it for period locking inside an open fiscal year, for "
 "example."
 msgstr ""
-"Nur Benutzer in der Rolle 'Berater' dürfen Konten vor und einschließlich "
-"diesem Datum bearbeiten. Verwenden Sie dies z. B. zur Sperre von Zeiträumen "
+"Nur Benutzer in der Rolle „Berater“ dürfen Konten vor und einschließlich "
+"diesem Datum bearbeiten. Verwenden Sie dies z. B. zur Periodensperre "
 "innerhalb des Geschäftsjahres."
 
 #. module: account_accountant
@@ -1005,7 +1009,7 @@ msgstr ""
 #: code:addons/account_accountant/static/src/js/tours/account_accountant.js:0
 #, python-format
 msgid "Process this transaction."
-msgstr "Diese Transaktion verarbeiten."
+msgstr "Verarbeiten Sie diese Transaktion."
 
 #. module: account_accountant
 #. openerp-web
@@ -1019,7 +1023,7 @@ msgstr "Diese Transaktion verarbeiten."
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_move_line_tree_grouped
 #, python-format
 msgid "Reconcile"
-msgstr "Abstimmung"
+msgstr "Abstimmen"
 
 #. module: account_accountant
 #: model:ir.actions.client,name:account_accountant.action_manual_reconciliation
@@ -1035,7 +1039,8 @@ msgstr "Abstimmung Kontoauszüge"
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
 msgid "Record cost of goods sold in your journal entries"
-msgstr "Zeichnen Sie die Umsatzkosten in Ihren Journaleinträgen auf"
+msgstr ""
+"Erfassen Sie die Herstellkosten des Umsatzes in Ihren Journalbuchungen"
 
 #. module: account_accountant
 #. openerp-web
@@ -1118,12 +1123,12 @@ msgstr "Steuer im Preis enthalten"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_res_config_settings__tax_lock_date
 msgid "Tax Lock Date"
-msgstr "Sperrdatum Steuer"
+msgstr "Sperrdatum für Steuer"
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date__tax_lock_date
 msgid "Tax Return Lock Date"
-msgstr "Steuererklärung Sperrdatum"
+msgstr "Sperrdatum für Steuererklärung"
 
 #. module: account_accountant
 #. openerp-web
@@ -1221,14 +1226,14 @@ msgstr "Dies war das Modell, das die vorgeschlagenen Zeilen erzeugte"
 #. module: account_accountant
 #: model:digest.tip,name:account_accountant.digest_tip_account_accountant_0
 msgid "Tip: Bulk update journal items"
-msgstr "Tipp: Massenaktualisierung von Journaleinträgen"
+msgstr "Tipp: Massenaktualisierung von Journalbuchungen"
 
 #. module: account_accountant
 #: model:digest.tip,name:account_accountant.digest_tip_account_accountant_1
 msgid "Tip: Find an Accountant or register your Accounting Firm"
 msgstr ""
-"Tipp: Finden Sie einen Buchhalter oder registrieren Sie Ihre "
-"Buchhaltungsfirma"
+"Tipp: Finden Sie einen Buchhalter oder registrieren Sie Ihren "
+"Steuerberater/Wirtschaftsprüfer"
 
 #. module: account_accountant
 #. openerp-web
@@ -1265,7 +1270,7 @@ msgstr "Transfer Konten"
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_reconcile_model_widget_wizard
 #, python-format
 msgid "Validate"
-msgstr "Bestätigen"
+msgstr "Validieren"
 
 #. module: account_accountant
 #. openerp-web
@@ -1278,7 +1283,7 @@ msgstr "Überprüfen Sie"
 #: code:addons/account_accountant/models/reconciliation_widget.py:0
 #, python-format
 msgid "Write-Off"
-msgstr "Abschreibung"
+msgstr "Ausbuchung"
 
 #. module: account_accountant
 #. openerp-web
@@ -1294,8 +1299,8 @@ msgid ""
 "You can not have an overlap between two fiscal years, please correct the "
 "start and/or end dates of your fiscal years."
 msgstr ""
-"Es darf keine Überschneidung zwischen zwei Steuerjahren geben. Bitte "
-"korrigieren Sie das Start- und / oder Enddatum Ihrer Steuerjahre."
+"Es darf keine Überschneidung zwischen zwei Geschäftsjahren geben. Bitte "
+"korrigieren Sie das Start- und/oder Enddatum Ihrer Geschäftsjahre."
 
 #. module: account_accountant
 #: code:addons/account_accountant/models/account_move.py:0

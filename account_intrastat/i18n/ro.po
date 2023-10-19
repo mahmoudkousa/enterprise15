@@ -3,9 +3,9 @@
 # 	* account_intrastat
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Cozmin Candea <office@terrabit.ro>, 2021
 # Foldi Robert <foldirobert@nexterp.ro>, 2021
+# Martin Trigaux, 2023
 # Dorin Hongu <dhongu@gmail.com>, 2023
 # 
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "POT-Creation-Date: 2021-07-12 07:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
 "Last-Translator: Dorin Hongu <dhongu@gmail.com>, 2023\n"
-"Language-Team: Romanian (https://www.transifex.com/odoo/teams/41243/ro/)\n"
+"Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -151,7 +151,7 @@ msgstr "Include CUI"
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 #, python-format
 msgid "Incoterm Code"
-msgstr "Cod Interfon"
+msgstr "Cod Incoterm"
 
 #. module: account_intrastat
 #: model:ir.model.fields,field_description:account_intrastat.field_account_move_line__intrastat_transaction_id
@@ -234,8 +234,8 @@ msgstr "Doar cu CUI"
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 #: model_terms:ir.ui.view,arch_db:account_intrastat.report_invoice_document_intrastat_2019
 #, python-format
-msgid "Origin Country"
-msgstr "Țară Origine"
+msgid "Origin"
+msgstr "Origine"
 
 #. module: account_intrastat
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0

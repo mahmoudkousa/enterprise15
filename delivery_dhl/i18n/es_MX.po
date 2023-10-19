@@ -263,7 +263,8 @@ msgstr ""
 #: code:addons/delivery_dhl/models/dhl_request.py:0
 #, python-format
 msgid "DHL password is missing, please modify your delivery method settings."
-msgstr "Falta su contraseña DHL, modifique los ajustes de su método de envío."
+msgstr ""
+"Falta su contraseña de DHL, modifique los ajustes de su método de envío."
 
 #. module: delivery_dhl
 #: model:ir.model.fields,field_description:delivery_dhl.field_delivery_carrier__dhl_duty_payment
@@ -314,7 +315,7 @@ msgstr "H - Economy Select"
 #: code:addons/delivery_dhl/models/delivery_dhl.py:0
 #, python-format
 msgid "Hint: The destination may not require the dutiable option."
-msgstr "Pista: puede que el destino no necesite la opción gravable."
+msgstr "Consejo: puede que el destino no necesite la opción gravable."
 
 #. module: delivery_dhl
 #: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__i
@@ -486,7 +487,7 @@ msgid ""
 "The address of the customer is missing or wrong (Missing field(s) :\n"
 " %s)"
 msgstr ""
-"No se encontró la dirección del cliente o es incorrecta (campos faltantes):\n"
+"No se encontró la dirección del cliente o no es la correcta (campos faltantes:\n"
 "%s)"
 
 #. module: delivery_dhl
@@ -496,7 +497,7 @@ msgid ""
 "The address of your company warehouse is missing or wrong (Missing field(s) :\n"
 " %s)"
 msgstr ""
-"No se encontró la dirección del almacén de su empresa o es incorrecta (campos faltantes):\n"
+"No se encontró la dirección del almacén de su empresa o no es la correcta (campos faltantes:\n"
 "%s)"
 
 #. module: delivery_dhl
@@ -506,7 +507,7 @@ msgid ""
 "The estimated shipping price cannot be computed because the weight is missing for the following product(s): \n"
 " %s"
 msgstr ""
-"El precio estimado de envío no puede ser calculado porque falta el peso para los siguientes productos: \n"
+"No se puede calcular el precio estimado de envío porque falta el peso de los siguientes productos:\n"
 " %s"
 
 #. module: delivery_dhl

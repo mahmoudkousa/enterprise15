@@ -8,6 +8,7 @@
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2021
 # Odoo Thaidev <odoothaidev@gmail.com>, 2021
 # Wichanon Jamwutthipreecha, 2022
+# Rasareeyar Lappiam, 2023
 # 
 msgid ""
 msgstr ""
@@ -15,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:01+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Wichanon Jamwutthipreecha, 2022\n"
-"Language-Team: Thai (https://www.transifex.com/odoo/teams/41243/th/)\n"
+"Last-Translator: Rasareeyar Lappiam, 2023\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -49,6 +50,8 @@ msgid ""
 "Amount of time (in hours) during which a product is considered unavailable "
 "prior to renting (preparation time)."
 msgstr ""
+"ระยะเวลา (เป็นชั่วโมง) ในระหว่างที่สินค้าไม่พร้อมใช้งานก่อนการเช่า "
+"(เวลาเตรียม)"
 
 #. module: sale_stock_renting
 #: model:ir.model.fields,field_description:sale_stock_renting.field_rental_order_wizard_line__qty_available
@@ -60,12 +63,12 @@ msgstr "พร้อมใช้"
 #: code:addons/sale_stock_renting/static/src/xml/qty_at_date_rental.xml:0
 #, python-format
 msgid "Available for Rent"
-msgstr ""
+msgstr "มีให้เช่า"
 
 #. module: sale_stock_renting
 #: model_terms:ir.ui.view,arch_db:sale_stock_renting.rental_configurator_view_form
 msgid "Available)"
-msgstr ""
+msgstr "มีอยู่)"
 
 #. module: sale_stock_renting
 #: model:ir.model,name:sale_stock_renting.model_res_company
@@ -97,12 +100,12 @@ msgstr ""
 #. module: sale_stock_renting
 #: model:ir.model.fields,field_description:sale_stock_renting.field_rental_order_wizard__has_tracked_lines
 msgid "Has lines with tracked products"
-msgstr ""
+msgstr "มีรายการสินค้าที่ติดตาม"
 
 #. module: sale_stock_renting
 #: model:ir.model.fields,field_description:sale_stock_renting.field_res_company__rental_loc_id
 msgid "In rent"
-msgstr ""
+msgstr "อยู่ในค่าเช่า"
 
 #. module: sale_stock_renting
 #: model:ir.model.fields,field_description:sale_stock_renting.field_sale_rental_schedule__is_available
@@ -113,7 +116,7 @@ msgstr "พร้อม"
 #: model:ir.model.fields,field_description:sale_stock_renting.field_rental_order_wizard_line__is_product_storable
 #: model:ir.model.fields,field_description:sale_stock_renting.field_rental_wizard__is_product_storable
 msgid "Is Product Storable"
-msgstr ""
+msgstr "สินค้าสามารถจัดเก็บได้"
 
 #. module: sale_stock_renting
 #: model:ir.model,name:sale_stock_renting.model_account_move
@@ -128,7 +131,7 @@ msgstr "ล็อต/ซีเรียล"
 #. module: sale_stock_renting
 #: model_terms:ir.ui.view,arch_db:sale_stock_renting.res_config_settings_inherit_view_form
 msgid "Minimum amount of time between two rentals"
-msgstr ""
+msgstr "ระยะเวลาขั้นต่ำระหว่างการเช่าสองครั้ง"
 
 #. module: sale_stock_renting
 #: code:addons/sale_stock_renting/models/sale_rental.py:0
@@ -139,12 +142,12 @@ msgstr ""
 #. module: sale_stock_renting
 #: model:ir.model.fields,help:sale_stock_renting.field_rental_wizard__lot_ids
 msgid "Only available serial numbers are suggested."
-msgstr ""
+msgstr "แนะนำให้ใช้เฉพาะหมายเลขซีเรียลที่มีอยู่เท่านั้น"
 
 #. module: sale_stock_renting
 #: model_terms:ir.ui.view,arch_db:sale_stock_renting.rental_schedule_view_gantt_inherit_stock
 msgid "Other rental(s) in conflict."
-msgstr ""
+msgstr "การเช่าอื่นๆ ที่ขัดแย้งกัน"
 
 #. module: sale_stock_renting
 #: model:ir.model.fields,field_description:sale_stock_renting.field_res_config_settings__padding_time
@@ -154,7 +157,7 @@ msgstr "การขยายความ"
 #. module: sale_stock_renting
 #: model:ir.model.fields,field_description:sale_stock_renting.field_res_company__padding_time
 msgid "Padding Time"
-msgstr ""
+msgstr "เวลาในการขยาย"
 
 #. module: sale_stock_renting
 #: model:ir.model,name:sale_stock_renting.model_rental_order_wizard
@@ -164,25 +167,25 @@ msgstr "เรียกเก็บ/ส่งคืนสินค้า"
 #. module: sale_stock_renting
 #: model:ir.model.fields,field_description:sale_stock_renting.field_rental_order_wizard_line__pickeable_lot_ids
 msgid "Pickeable Lot"
-msgstr ""
+msgstr "ล็อตที่เลือกได้"
 
 #. module: sale_stock_renting
 #: model:ir.model.fields,field_description:sale_stock_renting.field_rental_order_wizard_line__pickedup_lot_ids
 #: model:ir.model.fields,field_description:sale_stock_renting.field_sale_order_line__pickedup_lot_ids
 msgid "Pickedup Lot"
-msgstr ""
+msgstr "รับล็อตแล้ว"
 
 #. module: sale_stock_renting
 #: code:addons/sale_stock_renting/wizard/rental_processing.py:0
 #, python-format
 msgid "Please specify the serial numbers picked up for the tracked products."
-msgstr ""
+msgstr "โปรดระบุหมายเลขซีเรียลที่รับสำหรับสินค้าที่ติดตาม"
 
 #. module: sale_stock_renting
 #: code:addons/sale_stock_renting/wizard/rental_processing.py:0
 #, python-format
 msgid "Please specify the serial numbers returned for the tracked products."
-msgstr ""
+msgstr "โปรดระบุหมายเลขซีเรียลที่ถูกส่งคืนสำหรับสินค้าที่ติดตาม"
 
 #. module: sale_stock_renting
 #: model:product.product,name:sale_stock_renting.rental_stock_product_1
@@ -208,22 +211,22 @@ msgstr "หน่วยวัดสินค้า"
 #. module: sale_stock_renting
 #: model:ir.model.fields,field_description:sale_stock_renting.field_rental_wizard__qty_available_during_period
 msgid "Quantity available for given period (Stock - In Rent)"
-msgstr ""
+msgstr "ปริมาณที่มีอยู่ในช่วงเวลาที่กำหนด (สต็อก - ค่าเช่า)"
 
 #. module: sale_stock_renting
 #: model:ir.model.fields,field_description:sale_stock_renting.field_rental_wizard__rentable_qty
 msgid "Quantity available in stock for given period"
-msgstr ""
+msgstr "ปริมาณที่มีอยู่ในสต็อกในช่วงเวลาที่กำหนด"
 
 #. module: sale_stock_renting
 #: model:ir.model.fields,field_description:sale_stock_renting.field_rental_wizard__rented_qty_during_period
 msgid "Quantity reserved"
-msgstr ""
+msgstr "จำนวนที่จองไว้"
 
 #. module: sale_stock_renting
 #: model:ir.model.fields,help:sale_stock_renting.field_rental_wizard__rented_qty_during_period
 msgid "Quantity reserved by other Rental lines during the given period"
-msgstr ""
+msgstr "ปริมาณที่จองไว้โดยรายการเช่าอื่นในช่วงเวลาที่กำหนด"
 
 #. module: sale_stock_renting
 #: model:ir.model,name:sale_stock_renting.model_sale_rental_report
@@ -250,18 +253,18 @@ msgstr "การเป็นตัวแทนชั่วคราวของ
 #. module: sale_stock_renting
 #: model:ir.model.fields,field_description:sale_stock_renting.field_sale_order_line__reserved_lot_ids
 msgid "Reserved Lot"
-msgstr ""
+msgstr "ล็อตที่จองไว้"
 
 #. module: sale_stock_renting
 #: model:ir.model.fields,field_description:sale_stock_renting.field_rental_order_wizard_line__returnable_lot_ids
 msgid "Returnable Lot"
-msgstr ""
+msgstr "ล็อตที่ส่งคืนได้"
 
 #. module: sale_stock_renting
 #: model:ir.model.fields,field_description:sale_stock_renting.field_rental_order_wizard_line__returned_lot_ids
 #: model:ir.model.fields,field_description:sale_stock_renting.field_sale_order_line__returned_lot_ids
 msgid "Returned Lot"
-msgstr ""
+msgstr "ล็อตที่ส่งคืนแล้ว"
 
 #. module: sale_stock_renting
 #: model:ir.model,name:sale_stock_renting.model_sale_order_line
@@ -272,12 +275,12 @@ msgstr "รายการคำสั่งขาย"
 #: model:ir.model.fields,field_description:sale_stock_renting.field_product_product__preparation_time
 #: model:ir.model.fields,field_description:sale_stock_renting.field_product_template__preparation_time
 msgid "Security Time"
-msgstr ""
+msgstr "เวลารักษาความปลอดภัย"
 
 #. module: sale_stock_renting
 #: model_terms:ir.ui.view,arch_db:sale_stock_renting.rental_configurator_view_form
 msgid "Select available serial numbers."
-msgstr ""
+msgstr "เลือกหมายเลขซีเรียลที่มีอยู่"
 
 #. module: sale_stock_renting
 #: model:ir.model.fields,field_description:sale_stock_renting.field_sale_rental_report__lot_id
@@ -292,22 +295,22 @@ msgstr "เลขซีเรียล"
 #: model_terms:ir.ui.view,arch_db:sale_stock_renting.rental_order_wizard_view_form
 #: model_terms:ir.ui.view,arch_db:sale_stock_renting.report_rental_order_document
 msgid "Serial Numbers"
-msgstr ""
+msgstr "หมายเลขซีเรียล"
 
 #. module: sale_stock_renting
 #: model_terms:ir.ui.view,arch_db:sale_stock_renting.rental_configurator_view_form
 msgid "Serials Tracking"
-msgstr ""
+msgstr "การติดตามเลขซีเรียล"
 
 #. module: sale_stock_renting
 #: model:ir.model.fields,field_description:sale_stock_renting.field_rental_wizard__rentable_lot_ids
 msgid "Serials available in Stock"
-msgstr ""
+msgstr "ซีเรียลที่มีอยู่ในสต็อก"
 
 #. module: sale_stock_renting
 #: model:ir.model.fields,field_description:sale_stock_renting.field_rental_wizard__rented_lot_ids
 msgid "Serials in rent for given period"
-msgstr ""
+msgstr "เลขซีเรียลให้เช่าในช่วงเวลาที่กำหนด"
 
 #. module: sale_stock_renting
 #: model_terms:ir.ui.view,arch_db:sale_stock_renting.rental_configurator_view_form
@@ -318,7 +321,7 @@ msgstr "สต็อก"
 #: model:ir.model.fields,help:sale_stock_renting.field_product_product__preparation_time
 #: model:ir.model.fields,help:sale_stock_renting.field_product_template__preparation_time
 msgid "Temporarily make this product unavailable before pickup."
-msgstr ""
+msgstr "ทำให้สินค้านี้งดให้บริการชั่วคราวก่อนการรับสินค้า"
 
 #. module: sale_stock_renting
 #: model:ir.model.fields,help:sale_stock_renting.field_res_company__rental_loc_id
@@ -327,6 +330,8 @@ msgid ""
 " location is internal because products in rentalare still considered as "
 "company assets."
 msgstr ""
+"ตำแหน่งทางเทคนิคนี้ทำหน้าที่เป็นสต็อกสำหรับสินค้าที่กำลังเช่าอยู่ "
+"ตำแหน่งนี้เป็นตำแหน่งภายในเนื่องจากสินค้าในการเช่ายังคงถือเป็นทรัพย์สินของบริษัท"
 
 #. module: sale_stock_renting
 #: model:ir.model.fields,field_description:sale_stock_renting.field_rental_order_wizard_line__tracking
@@ -338,7 +343,7 @@ msgstr "การติดตาม"
 #. module: sale_stock_renting
 #: model:ir.model.fields,field_description:sale_stock_renting.field_sale_order_line__unavailable_lot_ids
 msgid "Unavailable Lot"
-msgstr ""
+msgstr "ล็อตไม่พร้อมใช้งาน"
 
 #. module: sale_stock_renting
 #: model:product.product,uom_name:sale_stock_renting.rental_stock_product_1
@@ -351,7 +356,7 @@ msgstr "หน่วย"
 #: code:addons/sale_stock_renting/static/src/xml/qty_at_date_rental.xml:0
 #, python-format
 msgid "View Rentals"
-msgstr ""
+msgstr "ดูการเช่า"
 
 #. module: sale_stock_renting
 #: model:ir.model.fields,field_description:sale_stock_renting.field_rental_wizard__warehouse_id
@@ -363,7 +368,7 @@ msgstr "คลังสินค้า"
 #: code:addons/sale_stock_renting/wizard/rental_configurator.py:0
 #, python-format
 msgid "You cannot change the product of a picked-up line."
-msgstr ""
+msgstr "คุณไม่สามารถเปลี่ยนสินค้าของรายการรับสินค้าได้"
 
 #. module: sale_stock_renting
 #: model_terms:ir.ui.view,arch_db:sale_stock_renting.res_config_settings_inherit_view_form
@@ -373,7 +378,7 @@ msgstr "ชั่วโมง"
 #. module: sale_stock_renting
 #: model_terms:ir.ui.view,arch_db:sale_stock_renting.product_template_inherit_view_form_stock_rental
 msgid "hours before orders"
-msgstr ""
+msgstr "ชั่วโมงก่อนสั่งซื้อ"
 
 #. module: sale_stock_renting
 #. openerp-web

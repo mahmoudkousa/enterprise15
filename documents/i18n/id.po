@@ -450,6 +450,8 @@ msgid ""
 "A set of condition and actions which will be available to all attachments "
 "matching the conditions"
 msgstr ""
+"Rangkaian ketentuan dan tindakan yang akan tersedia untuk semua lampiran "
+"yang cocok dengan ketentuan"
 
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_folder__parent_folder_id
@@ -715,7 +717,7 @@ msgstr ""
 #. module: documents
 #: model:documents.workflow.rule,name:documents.documents_rule_finance_afv
 msgid "Ask for Validation"
-msgstr ""
+msgstr "Minta Validasi"
 
 #. module: documents
 #: model:documents.facet,name:documents.documents_marketing_assets
@@ -981,7 +983,7 @@ msgstr "Hari"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_mail_activity_type__default_user_id
 msgid "Default User"
-msgstr ""
+msgstr "User Default"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_share__alias_defaults
@@ -1005,7 +1007,7 @@ msgstr "Hapus"
 #. module: documents
 #: model:documents.workflow.rule,name:documents.documents_rule_internal_deprecate
 msgid "Deprecate"
-msgstr ""
+msgstr "Usang"
 
 #. module: documents
 #: model:documents.tag,name:documents.documents_internal_status_deprecated
@@ -1052,7 +1054,7 @@ msgstr "Dokumen"
 #: model:ir.model.fields,field_description:documents.field_documents_folder__document_count
 #: model:ir.model.fields,field_description:documents.field_res_partner__document_count
 msgid "Document Count"
-msgstr ""
+msgstr "Jumlah Dokumen"
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.document_view_form
@@ -1132,12 +1134,12 @@ msgstr ""
 #. module: documents
 #: model:ir.model,name:documents.model_documents_share
 msgid "Documents Share"
-msgstr ""
+msgstr "Documents Share"
 
 #. module: documents
 #: model:ir.model,name:documents.model_documents_folder
 msgid "Documents Workspace"
-msgstr ""
+msgstr "Ruang Kerja Dokumen"
 
 #. module: documents
 #: model:ir.model,name:documents.model_documents_mixin
@@ -1199,14 +1201,14 @@ msgstr "Letakkan file di sini untuk diunggah"
 #: model:ir.model.fields,field_description:documents.field_documents_share__activity_date_deadline_range
 #: model:ir.model.fields,field_description:documents.field_documents_workflow_rule__activity_date_deadline_range
 msgid "Due Date In"
-msgstr ""
+msgstr "Jatuh Tempo Pada"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_request_wizard__activity_date_deadline_range_type
 #: model:ir.model.fields,field_description:documents.field_documents_share__activity_date_deadline_range_type
 #: model:ir.model.fields,field_description:documents.field_documents_workflow_rule__activity_date_deadline_range_type
 msgid "Due type"
-msgstr ""
+msgstr "Tipe jatuh tempo"
 
 #. module: documents
 #. openerp-web
@@ -1262,7 +1264,7 @@ msgstr "Berkas"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__datas
 msgid "File Content (base64)"
-msgstr ""
+msgstr "Konten File (base64)"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__file_size
@@ -1277,12 +1279,12 @@ msgstr ""
 #. module: documents
 #: model:documents.folder,name:documents.documents_finance_folder
 msgid "Finance"
-msgstr ""
+msgstr "Keuangan"
 
 #. module: documents
 #: model:documents.tag,name:documents.documents_finance_documents_financial
 msgid "Financial"
-msgstr ""
+msgstr "Keuangan"
 
 #. module: documents
 #: model:documents.tag,name:documents.documents_finance_documents_fiscal
@@ -1342,7 +1344,7 @@ msgstr ""
 #. module: documents
 #: model:documents.tag,name:documents.documents_internal_knowledge_hr
 msgid "HR"
-msgstr ""
+msgstr "HR"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__has_message
@@ -1633,7 +1635,7 @@ msgstr "Lampiran Utama"
 #. module: documents
 #: model:documents.workflow.rule,name:documents.documents_rule_internal_mad
 msgid "Mark As Draft"
-msgstr ""
+msgstr "Tandai Sebagai Draf"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_workflow_rule__remove_activities
@@ -1970,7 +1972,7 @@ msgstr "Proyek"
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.folder_view_form
 msgid "Read Access"
-msgstr ""
+msgstr "Hak Membaca"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_folder__read_group_ids
@@ -2254,12 +2256,12 @@ msgstr ""
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.share_view_form_popup
 msgid "Shared"
-msgstr ""
+msgstr "Dibagikan"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_share__document_ids
 msgid "Shared Documents"
-msgstr ""
+msgstr "Dokumen yang Dibagi"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_share__tag_ids
@@ -2469,7 +2471,7 @@ msgstr ""
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__thumbnail
 msgid "Thumbnail"
-msgstr ""
+msgstr "Thumbnail"
 
 #. module: documents
 #. openerp-web
@@ -2669,7 +2671,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:documents.facet_view_search
 #: model_terms:ir.ui.view,arch_db:documents.folder_view_tree
 msgid "Workspace"
-msgstr ""
+msgstr "Ruang Kerja"
 
 #. module: documents
 #: model:ir.actions.act_window,name:documents.folder_action

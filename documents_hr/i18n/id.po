@@ -17,7 +17,7 @@ msgstr ""
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:39+0000\n"
 "Last-Translator: Abe Manyo, 2023\n"
-"Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
+"Language-Team: Indonesian (https://app.transifex.com/odoo/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -46,12 +46,12 @@ msgstr ""
 #. module: documents_hr
 #: model:documents.tag,name:documents_hr.documents_hr_documents_absences
 msgid "Absences"
-msgstr ""
+msgstr "Absen"
 
 #. module: documents_hr
 #: model_terms:ir.ui.view,arch_db:documents_hr.res_config_settings_view_form
 msgid "Centralize your employees' documents (contracts, payslips, etc.)"
-msgstr ""
+msgstr "Pusatkan dokumen karyawan Anda (kontrak, slip gaji, dsb.)"
 
 #. module: documents_hr
 #: model:documents.tag,name:documents_hr.documents_hr_documents_Cerification
@@ -76,7 +76,7 @@ msgstr "Dokumen"
 #. module: documents_hr
 #: model:ir.model.fields,field_description:documents_hr.field_hr_employee__document_count
 msgid "Document Count"
-msgstr ""
+msgstr "Jumlah Dokumen"
 
 #. module: documents_hr
 #: model:documents.facet,name:documents_hr.documents_hr_documents
@@ -89,7 +89,7 @@ msgstr "Dokumen"
 #. module: documents_hr
 #: model:ir.model.fields,field_description:documents_hr.field_res_company__documents_hr_settings
 msgid "Documents Hr Settings"
-msgstr ""
+msgstr "Pengaturan Dokumen HR"
 
 #. module: documents_hr
 #: model:ir.model,name:documents_hr.model_hr_employee
@@ -99,12 +99,12 @@ msgstr "Karyawan"
 #. module: documents_hr
 #: model:documents.tag,name:documents_hr.documents_hr_documents_employees
 msgid "Employees Documents"
-msgstr ""
+msgstr "Dokumen Karyawan"
 
 #. module: documents_hr
 #: model:documents.folder,name:documents_hr.documents_hr_folder
 msgid "HR"
-msgstr ""
+msgstr "HR"
 
 #. module: documents_hr
 #: model:ir.model.fields,field_description:documents_hr.field_res_config_settings__documents_hr_settings
@@ -119,20 +119,24 @@ msgstr "Pengguna"
 #. module: documents_hr
 #: model_terms:ir.ui.view,arch_db:documents_hr.res_config_settings_view_form
 msgid "Workspace"
-msgstr ""
+msgstr "Ruang Kerja"
 
 #. module: documents_hr
 #: code:addons/documents_hr/models/hr_employee.py:0
 #, python-format
-msgid "You must set an address on the employee to use Documents features."
+msgid ""
+"You must set a private address on the Employee in order to use Document's "
+"features."
 msgstr ""
+"Anda harus menetapkan alamat pribadi Karyawan untuk bisa menggunakan fitur "
+"Dokumen."
 
 #. module: documents_hr
 #: model:ir.model.fields,field_description:documents_hr.field_res_company__documents_hr_folder
 msgid "hr Workspace"
-msgstr ""
+msgstr "Ruang Kerja hr"
 
 #. module: documents_hr
 #: model:ir.model.fields,field_description:documents_hr.field_res_config_settings__documents_hr_folder
 msgid "hr default workspace"
-msgstr ""
+msgstr "ruang kerja default hr"

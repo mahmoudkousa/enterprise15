@@ -97,7 +97,7 @@ msgstr "Buscar un ticket de servicio de asistencia"
 #: code:addons/website_helpdesk_livechat/models/helpdesk.py:0
 #, python-format
 msgid "Something is missing or wrong in command"
-msgstr "El comando está incompleto o es inválido"
+msgstr "El comando está incompleto o no es válido"
 
 #. module: website_helpdesk_livechat
 #: model_terms:ir.ui.view,arch_db:website_helpdesk_livechat.helpdesk_team_view_form_inherit_website_helpdesk_livechat

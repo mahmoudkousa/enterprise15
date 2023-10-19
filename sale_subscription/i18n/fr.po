@@ -3248,7 +3248,7 @@ msgstr "Ligne de bons de commande"
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_order_view_tree_subscription
 #, python-format
 msgid "Sales Orders"
-msgstr "Bons de commandes"
+msgstr "Commandes"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__team_id

@@ -8,7 +8,6 @@
 # DE T2 <e2f48d4s5vd1s2@outlook.com>, 2021
 # Chris Egal <sodaswed@web.de>, 2021
 # Ahmed Aly <ahmed.aly@datenpol.at>, 2021
-# c2cdidier <didier.donze@camptocamp.com>, 2022
 # Friederike Fasterling-Nesselbosch, 2022
 # Martin Trigaux, 2023
 # Larissa Manderfeld, 2023
@@ -409,7 +408,7 @@ msgid ""
 "                            You can schedule another appointment from here."
 msgstr ""
 "<strong>Termin abgesagt!</strong>\n"
-"                            Sie können hier einen anderen Termin einplanen."
+"                            Sie können hier einen anderen Termin planen."
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_info
@@ -420,8 +419,8 @@ msgid ""
 "                            seconds before you."
 msgstr ""
 "<strong>Termin fehlgeschlagen!</strong>\n"
-"                            Der gewählte Zeitpunkt ist nicht mehr verfügbar.\n"
-"                            Jemand hat ihn nur wenige Sekunden vor Ihnen\n"
+"                            Das gewählte Zeitfenster ist nicht mehr verfügbar.\n"
+"                            Jemand hat es nur wenige Sekunden vor Ihnen\n"
 "                            gebucht."
 
 #. module: appointment
@@ -432,7 +431,7 @@ msgid ""
 "                            It appears you already have another meeting with us at that date."
 msgstr ""
 "<strong>Termin fehlgeschlagen!</strong>\n"
-"                            Der gewählte Zeitpunkt ist nicht verfügbar.\n"
+"                            Das gewählte Zeitfenster ist nicht verfügbar.\n"
 "                            Sie haben zu dieser Zeit bereits einen anderen Termin bei uns."
 
 #. module: appointment
@@ -451,8 +450,8 @@ msgstr "<strong>Ihr Termin wurde erfolgreich gebucht!</strong><br/>"
 msgid ""
 "A list of slots information is needed to create a custom appointment type"
 msgstr ""
-"Für die Erstellung eines benutzerdefinierten Termintyps ist eine Liste von "
-"Slot-Informationen erforderlich"
+"Für die Erstellung einer benutzerdefinierten Terminart ist eine Liste von "
+"Zeitfenster-Informationen erforderlich"
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_form
@@ -470,7 +469,7 @@ msgstr "Zugriff verweigert"
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_event__access_token
 msgid "Access Token"
-msgstr "Zugriffs-Token"
+msgstr "Zugriffstoken"
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_type__message_needaction
@@ -516,7 +515,7 @@ msgstr "Ganztägig"
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_type_view_form
 msgid "Allow Cancelling"
-msgstr "Stornierung zulassen"
+msgstr "Absage zulassen"
 
 #. module: appointment
 #: code:addons/appointment/models/calendar_appointment_type.py:0
@@ -540,7 +539,7 @@ msgstr ""
 #: code:addons/appointment/models/calendar_appointment_slot.py:0
 #, python-format
 msgid "An unique type slot should have a start and end datetime"
-msgstr "Ein eindeutiger Slot-Typ sollte eine Start- und Endzeit haben"
+msgstr "Ein eindeutiger Zeitfenstertyp sollte eine Start- und Endzeit haben"
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_answer__name
@@ -574,12 +573,12 @@ msgstr "Termin gebucht: {{ object.appointment_type_id.name }}"
 #: model:mail.message.subtype,name:appointment.mt_calendar_event_canceled
 #: model:mail.template,name:appointment.appointment_canceled_mail_template
 msgid "Appointment Canceled"
-msgstr "Termin storniert"
+msgstr "Termin abgesagt"
 
 #. module: appointment
 #: model:mail.template,subject:appointment.appointment_canceled_mail_template
 msgid "Appointment Canceled: {{ object.appointment_type_id.name }}"
-msgstr "Termin storniert: {{ object.appointment_type_id.name }}"
+msgstr "Termin abgesagt: {{ object.appointment_type_id.name }}"
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_type_view_form
@@ -606,7 +605,7 @@ msgstr "Termineinladungen"
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.portal_my_appointments
 msgid "Appointment Name"
-msgstr "Titel des Termins"
+msgstr "Terminbezeichnung"
 
 #. module: appointment
 #: model:ir.model,name:appointment.model_calendar_appointment_type
@@ -617,7 +616,7 @@ msgstr "Titel des Termins"
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_type_view_form
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_type_view_tree
 msgid "Appointment Type"
-msgstr "Termintyp"
+msgstr "Terminart"
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_type_view_search
@@ -663,8 +662,8 @@ msgid ""
 "Atleast one slot duration from start to end is invalid: a slot should end "
 "after start"
 msgstr ""
-"Mindestens eine Slot-Dauer von Anfang bis Ende ist ungültig: ein Slot sollte"
-" nach dem Start enden"
+"Mindestens eine Zeitfensterdauer von Anfang bis Ende ist ungültig: ein "
+"Zeitfenster sollte nach dem Start enden"
 
 #. module: appointment
 #: code:addons/appointment/models/calendar_appointment_slot.py:0
@@ -673,13 +672,13 @@ msgid ""
 "Atleast one slot duration is not enough to create a slot with the duration "
 "set in the appointment type"
 msgstr ""
-"Mindestens eine Slot-Dauer reicht nicht aus, um einen Slot mit der in der "
-"Terminart festgelegten Dauer zu erstellen"
+"Mindestens eine Zeitfensterdauer reicht nicht aus, um ein Zeitfenster mit "
+"der in der Terminart festgelegten Dauer zu erstellen"
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_type__message_attachment_count
 msgid "Attachment Count"
-msgstr "# Anhänge"
+msgstr "Anzahl Anhänge"
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_validated
@@ -699,7 +698,7 @@ msgstr "Frühester Beginn"
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_question__answer_ids
 msgid "Available Answers"
-msgstr "Antwortauswahl"
+msgstr "Verfügbare Antworten"
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_type_view_form
@@ -735,7 +734,7 @@ msgstr "Informationen für Kalender-Teilnehmer"
 #. module: appointment
 #: model:ir.model,name:appointment.model_calendar_event
 msgid "Calendar Event"
-msgstr "Kalender Veranstaltung"
+msgstr "Kalender-Ereignis"
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_type__min_cancellation_hours
@@ -871,10 +870,10 @@ msgid ""
 "        The one shot type is only used when an user create a custom appointment type for a client by\n"
 "        defining non-recurring time slot (e.g. 10th of April 2021 from 10 to 11 am) from its calendar."
 msgstr ""
-"Legt den Typ des Slots fest. Der wiederkehrende Termin ist der Standardtyp, der verwendet wird für\n"
-"wiederkehrende Termintypen wie z. B. Arzttermine.\n"
-"Der Typ \"einmaliger Termin\" wird nur verwendet, wenn ein Benutzer einen benutzerdefinierten Termintyp für einen Kunden erstellt, indem er\n"
-"ein einmaliges Zeitfenster (z. B. 10. April 2021 von 10 bis 11 Uhr) in seinem Kalender definiert."
+"Legt den Typ des Zeitfenster fest. Das wiederkehrende Zeitfenster ist der Standardtyp, der verwendet wird für\n"
+"        wiederkehrende Terminarten wie z. B. Arzttermine.\n"
+"        Die einmalige Terminart wird nur verwendet, wenn ein Benutzer einen benutzerdefinierten Terminart für einen Kunden erstellt, indem er\n"
+"        ein einmaliges Zeitfenster (z. B. 10. April 2021 von 10 bis 11 Uhr) in seinem Kalender definiert."
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_validated
@@ -887,8 +886,8 @@ msgid ""
 "Determine if the slot englobe the whole day, mainly used for unique slot "
 "type"
 msgstr ""
-"Feststellen, ob der Slot den ganzen Tag in Anspruch nimmt, hauptsächlich "
-"verwendet für einmalige Slots"
+"Feststellen, ob das Zeitfenster den ganzen Tag in Anspruch nimmt, "
+"hauptsächlich verwendet für einmalige Zeitfenster"
 
 #. module: appointment
 #. openerp-web
@@ -916,7 +915,7 @@ msgstr "Arzttermin"
 #. module: appointment
 #: model:ir.model.fields.selection,name:appointment.selection__calendar_appointment_question__question_type__select
 msgid "Dropdown (one answer)"
-msgstr "Dropdown (eine Antwort)"
+msgstr "Drop-down-Menü (eine Antwort)"
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_slot__duration
@@ -944,7 +943,7 @@ msgstr "Personal"
 #. module: appointment
 #: model:ir.model.fields,help:appointment.field_calendar_appointment_slot__end_datetime
 msgid "End datetime for unique slot type management"
-msgstr "Enddatum für die Verwaltung eindeutiger Slot-Typen"
+msgstr "Enddatum für die Verwaltung eindeutiger Zeitfensterarten"
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_slot__end_hour
@@ -954,12 +953,12 @@ msgstr "Endzeit"
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_type_view_form
 msgid "Every"
-msgstr "Jede"
+msgstr "Alle"
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_type__message_follower_ids
 msgid "Followers"
-msgstr "Abonnenten"
+msgstr "Follower"
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_type__message_partner_ids
@@ -1032,15 +1031,14 @@ msgstr "ID"
 #: model:ir.model.fields,help:appointment.field_calendar_appointment_type__message_needaction
 #: model:ir.model.fields,help:appointment.field_calendar_appointment_type__message_unread
 msgid "If checked, new messages require your attention."
-msgstr "Falls markiert, benötigen neue Nachrichten Ihre Kenntnisnahme."
+msgstr "Falls markiert, erfordern neue Nachrichten Ihre Aufmerksamkeit."
 
 #. module: appointment
 #: model:ir.model.fields,help:appointment.field_calendar_appointment_type__message_has_error
 #: model:ir.model.fields,help:appointment.field_calendar_appointment_type__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr ""
-"Das Senden mancher Nachrichten ist fehlgeschlagen wenn dieses Fenster "
-"angekreuzt ist."
+"Falls markiert, weisen einige Nachrichten einen Zustellungsfehler auf."
 
 #. module: appointment
 #. openerp-web
@@ -1057,12 +1055,12 @@ msgstr "Link einfügen"
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_type__message_intro
 msgid "Introduction Message"
-msgstr "Überblicksnachricht"
+msgstr "Einleitungsnachricht"
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_type__message_is_follower
 msgid "Is Follower"
-msgstr "Ist ein Abonnent"
+msgstr "Ist Follower"
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_validated
@@ -1071,7 +1069,7 @@ msgid ""
 "you really can't make it."
 msgstr ""
 "Für eine Online-Absage ist es zu spät. Bitte kontaktieren Sie die Teilnehmer"
-" auf anderem Wege, wenn Sie wirklich nicht kommen können."
+" auf anderem Wege, wenn Sie es wirklich nicht schaffen."
 
 #. module: appointment
 #: model:ir.model.fields,help:appointment.field_calendar_appointment_type__country_ids
@@ -1098,7 +1096,7 @@ msgstr "Zuletzt geändert am"
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_slot__write_uid
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_type__write_uid
 msgid "Last Updated by"
-msgstr "Zuletzt aktualisiert durch"
+msgstr "Zuletzt aktualisiert von"
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_answer__write_date
@@ -1129,7 +1127,7 @@ msgstr "Link-Generator"
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_type__location
 msgid "Location"
-msgstr "Ort"
+msgstr "Standort"
 
 #. module: appointment
 #: model:ir.model.fields,help:appointment.field_calendar_appointment_type__location
@@ -1144,7 +1142,7 @@ msgstr "Ort:"
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_type__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "Hauptanhänge"
+msgstr "Hauptanhang"
 
 #. module: appointment
 #: code:addons/appointment/models/calendar_appointment_type.py:0
@@ -1155,7 +1153,7 @@ msgstr "Meeting mit %s"
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_type__message_has_error
 msgid "Message Delivery error"
-msgstr "Error beim senden der Nachricht"
+msgstr "Nachricht mit Zustellungsfehler"
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_type__message_ids
@@ -1220,7 +1218,7 @@ msgstr "Anzahl der Aktionen"
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_type__message_has_error_counter
 msgid "Number of errors"
-msgstr "# Fehler"
+msgstr "Anzahl der Fehler"
 
 #. module: appointment
 #: model:ir.model.fields,help:appointment.field_calendar_appointment_type__message_needaction_counter
@@ -1230,7 +1228,7 @@ msgstr "Anzahl der Nachrichten, die eine Aktion erfordern"
 #. module: appointment
 #: model:ir.model.fields,help:appointment.field_calendar_appointment_type__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Anzahl der Nachrichten mit einem Fehler beim Senden."
+msgstr "Anzahl der Nachrichten mit Zustellungsfehler."
 
 #. module: appointment
 #: model:ir.model.fields,help:appointment.field_calendar_appointment_type__message_unread_counter
@@ -1298,7 +1296,7 @@ msgstr "Platzhalter"
 msgid "Please enter a valid hour between 0:00 and 24:00 for your slots."
 msgstr ""
 "Bitte geben Sie eine gültige Uhrzeit zwischen 0:00 und 24:00 Uhr für Ihre "
-"Slots ein."
+"Zeitfenster ein."
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_info
@@ -1376,7 +1374,7 @@ msgstr "GEPLANT"
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_type__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr "SMS Zustellungsfehler"
+msgstr "SMS-Zustellungsfehler"
 
 #. module: appointment
 #: model:calendar.alarm,name:appointment.calendar_alarm_data_1h_sms
@@ -1401,7 +1399,7 @@ msgstr "Demo planen"
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointments_list_layout
 msgid "Schedule an Appointment"
-msgstr "Termin planen"
+msgstr "Einen Termin planen"
 
 #. module: appointment
 #. openerp-web
@@ -1414,7 +1412,7 @@ msgstr "Einen Termin planen."
 #: model_terms:ir.actions.act_window,help:appointment.calendar_event_action_report
 #: model_terms:ir.actions.act_window,help:appointment.calendar_event_action_reporting
 msgid "Schedule appointments to get statistics"
-msgstr "Planen Sie Termine um Statistiken zu erhalten"
+msgstr "Planen Sie Termine, um Statistiken zu erhalten"
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_type__min_schedule_hours
@@ -1441,19 +1439,19 @@ msgstr "Alle durchsuchen"
 #: code:addons/appointment/controllers/portal.py:0
 #, python-format
 msgid "Search in Description"
-msgstr "Im Beschreibungsfeld suchen"
+msgstr "In Beschreibung suchen"
 
 #. module: appointment
 #: code:addons/appointment/controllers/portal.py:0
 #, python-format
 msgid "Search in Name"
-msgstr "Namen durchsuchen"
+msgstr "In Name suchen"
 
 #. module: appointment
 #: code:addons/appointment/controllers/portal.py:0
 #, python-format
 msgid "Search in Responsible"
-msgstr "Nach Verantwortlichem durchsuchen"
+msgstr "In Verantwortlich suchen"
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_share__appointment_type_count
@@ -1464,7 +1462,7 @@ msgstr "Anzahl der ausgewählten Termine"
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_question__sequence
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_type__sequence
 msgid "Sequence"
-msgstr "Reihenfolge"
+msgstr "Sequenz"
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_type_view_form
@@ -1495,12 +1493,12 @@ msgstr "Einzeiliger Text"
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_slot__slot_type
 msgid "Slot type"
-msgstr "Slot-Typ"
+msgstr "Zeitfenstertyp"
 
 #. module: appointment
 #: model:ir.model.fields,help:appointment.field_calendar_appointment_slot__start_datetime
 msgid "Start datetime for unique slot type management"
-msgstr "Startdatum für die Verwaltung eindeutiger Slot-Typen"
+msgstr "Startdatum für die Verwaltung eindeutiger Zeitfensterarten"
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_slot__start_hour
@@ -1530,12 +1528,12 @@ msgstr ""
 #: code:addons/appointment/controllers/portal.py:0
 #, python-format
 msgid "The field '%s' does not exist in the targeted model"
-msgstr "Das Feld '%s' ist im Zielmodell nicht vorhanden"
+msgstr "Das Feld „%s“ ist im Zielmodell nicht vorhanden"
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.portal_my_appointments
 msgid "There is no appointment linked to your account."
-msgstr "Es ist kein Termin mit Ihrem Konto verbunden."
+msgstr "Es ist kein Termin mit Ihrem Konto verknüpft."
 
 #. module: appointment
 #: code:addons/appointment/models/calendar_appointment_type.py:0
@@ -1603,7 +1601,7 @@ msgstr "Ungelesene Nachrichten"
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_type__message_unread_counter
 msgid "Unread Messages Counter"
-msgstr "Zähler der ungelesenen Nachrichten"
+msgstr "Anzahl ungelesener Nachrichten"
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_type_view_form
@@ -1705,7 +1703,7 @@ msgstr "Arbeitsstunden"
 #: code:addons/appointment/static/src/js/calendar_renderer.js:0
 #, python-format
 msgid "You can not create a slot in the past."
-msgstr "Sie können keinen Slot in der Vergangenheit erstellen."
+msgstr "Sie können kein Zeitfenster in der Vergangenheit erstellen."
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_form
@@ -1725,7 +1723,7 @@ msgstr "Ihre Telefonnummer*"
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_validated
 msgid "Your appointment is in less than"
-msgstr "Ihr Termin ist in weniger als"
+msgstr "Ihr Termin findet in weniger als"
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_type_view_form
@@ -1741,7 +1739,7 @@ msgstr "Stunde"
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_validated
 msgid "hours from now!"
-msgstr "in Stunden statt!"
+msgstr "Stunden statt!"
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_form

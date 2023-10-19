@@ -461,7 +461,10 @@ QUnit.module('invoice_extract_form_view_tests.js', {
         await afterNextRender(() => {
             testUtils.dom.click($('.o_ChatterTopbar_buttonLogNote'));
         });
-        form.$('.o_ComposerTextInput_textarea:first()').val("Blah");
+        await afterNextRender(() => {
+            form.$('.o_ComposerTextInput_textarea:first()').focus();
+            document.execCommand('insertText', false, "Blah");
+        });
         await testUtils.dom.click($('.o_Composer_buttonSend'));
 
         $attachmentPreview = form.$('.o_attachment_preview_img');

@@ -314,7 +314,7 @@ msgstr "Betalningsmetoder"
 #. module: payment_sepa_direct_debit
 #: model:ir.model,name:payment_sepa_direct_debit.model_payment_token
 msgid "Payment Token"
-msgstr ""
+msgstr "Betalnings-token"
 
 #. module: payment_sepa_direct_debit
 #: model:ir.model,name:payment_sepa_direct_debit.model_payment_transaction
@@ -539,7 +539,7 @@ msgstr ""
 #: code:addons/payment_sepa_direct_debit/models/payment_transaction.py:0
 #, python-format
 msgid "The transaction is not linked to a token."
-msgstr ""
+msgstr "Transaktionen är inte kopplad till en token."
 
 #. module: payment_sepa_direct_debit
 #: code:addons/payment_sepa_direct_debit/models/sdd_mandate.py:0

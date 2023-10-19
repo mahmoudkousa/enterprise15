@@ -3,8 +3,8 @@
 # 	* hr_contract_salary_payroll
 # 
 # Translators:
-# Martin Trigaux, 2021
 # philku79 <philip.kuss@gmx.de>, 2021
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:40+0000\n"
-"Last-Translator: philku79 <philip.kuss@gmx.de>, 2021\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Martin Trigaux, 2023\n"
+"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -44,14 +44,16 @@ msgstr ""
 #. module: hr_contract_salary_payroll
 #: model:ir.model,name:hr_contract_salary_payroll.model_hr_contract_salary_resume
 msgid "Salary Package Resume"
-msgstr "Gehaltspaket Zusammenfassung"
+msgstr "Zusammenfassung des Gehaltspakets"
 
 #. module: hr_contract_salary_payroll
 #. openerp-web
 #: code:addons/hr_contract_salary_payroll/static/src/xml/brut2net_modal.xml:0
 #, python-format
 msgid "The amounts are calculated  based on a full time permanent contract."
-msgstr "Die Summen wurden auf Basis einer Vollzeitbeschäftigung berechnet."
+msgstr ""
+"Die Summen wurden auf Basis einer unbefristeten Vollzeitbeschäftigung "
+"berechnet."
 
 #. module: hr_contract_salary_payroll
 #. openerp-web
@@ -67,4 +69,4 @@ msgstr ""
 #. module: hr_contract_salary_payroll
 #: model:ir.model.fields,field_description:hr_contract_salary_payroll.field_hr_contract_salary_resume__value_type
 msgid "Value Type"
-msgstr "Werte Typ"
+msgstr "Werttyp"

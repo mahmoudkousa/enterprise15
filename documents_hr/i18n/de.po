@@ -3,8 +3,8 @@
 # 	* documents_hr
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2021
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:39+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Martin Trigaux, 2023\n"
+"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -51,7 +51,7 @@ msgstr "Abwesenheiten"
 #: model_terms:ir.ui.view,arch_db:documents_hr.res_config_settings_view_form
 msgid "Centralize your employees' documents (contracts, payslips, etc.)"
 msgstr ""
-"Zentralisieren Sie Mitarbeiterdokumente (Verträge, Gehaltsabrechnungen, "
+"Zentralisieren Sie Mitarbeiterdokumente (Verträge, Gehaltsabrechnungen "
 "etc.)."
 
 #. module: documents_hr
@@ -67,7 +67,7 @@ msgstr "Unternehmen"
 #. module: documents_hr
 #: model:ir.model,name:documents_hr.model_res_config_settings
 msgid "Config Settings"
-msgstr "Konfiguration "
+msgstr "Konfigurationseinstellungen "
 
 #. module: documents_hr
 #: model:ir.model.fields,field_description:documents_hr.field_res_users__document_ids
@@ -77,7 +77,7 @@ msgstr "Dokument"
 #. module: documents_hr
 #: model:ir.model.fields,field_description:documents_hr.field_hr_employee__document_count
 msgid "Document Count"
-msgstr "Dokumentenanzahl"
+msgstr "Anzahl Dokumente"
 
 #. module: documents_hr
 #: model:documents.facet,name:documents_hr.documents_hr_documents
@@ -100,7 +100,7 @@ msgstr "Mitarbeiter"
 #. module: documents_hr
 #: model:documents.tag,name:documents_hr.documents_hr_documents_employees
 msgid "Employees Documents"
-msgstr "Mitarbeiter Dokumente"
+msgstr "Mitarbeiterdokumente"
 
 #. module: documents_hr
 #: model:documents.folder,name:documents_hr.documents_hr_folder
@@ -125,17 +125,19 @@ msgstr "Arbeitsbereich"
 #. module: documents_hr
 #: code:addons/documents_hr/models/hr_employee.py:0
 #, python-format
-msgid "You must set an address on the employee to use Documents features."
+msgid ""
+"You must set a private address on the Employee in order to use Document's "
+"features."
 msgstr ""
-"Sie müssen dem Mitarbeiter eine Adresse zuweisen, um die "
-"Dokumentenfunktionen nutzen zu können."
+"Sie müssen dem Mitarbeiter eine Privatadresse zuweisen, um die Funktionen "
+"des Dokuments nutzen zu können."
 
 #. module: documents_hr
 #: model:ir.model.fields,field_description:documents_hr.field_res_company__documents_hr_folder
 msgid "hr Workspace"
-msgstr "HR Arbeitsbereich"
+msgstr "HR-Arbeitsbereich"
 
 #. module: documents_hr
 #: model:ir.model.fields,field_description:documents_hr.field_res_config_settings__documents_hr_folder
 msgid "hr default workspace"
-msgstr "HR Standard-Arbeitsbereich"
+msgstr "HR-Standardarbeitsbereich"

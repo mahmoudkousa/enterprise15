@@ -593,19 +593,13 @@ class AccountEdiFormat(models.Model):
                     total_taxes_withheld[tax_class]['amount_curr'] += tax_val_pay_curr
 
         # CFDI 4.0: rounding needs to be done after all DRs are added
-        # We round up for the currency rate and down for the tax values because we lost a lot of time to find out
-        # that Finkok only accepts it this way.  The other PACs accept either way and are reasonable.
-        # To prevent floating point errors we first do a classic round with high precision
         for v in total_taxes_paid.values():
-            v['base_value'] = float_round(v['base_value'], 10)
-            v['base_value'] = float_round(v['base_value'], move.currency_id.decimal_places, rounding_method='DOWN')
-            v['tax_value'] = float_round(v['tax_value'], 10)
-            v['tax_value'] = float_round(v['tax_value'], move.currency_id.decimal_places, rounding_method='DOWN')
+            v['base_value'] = float_round(v['base_value'], move.currency_id.decimal_places)
+            v['tax_value'] = float_round(v['tax_value'], move.currency_id.decimal_places)
             v['base_value_mxn'] = float_round(v['base_value'] * rate_payment_curr_mxn_40, mxn_currency.decimal_places)
             v['tax_value_mxn'] = float_round(v['tax_value'] * rate_payment_curr_mxn_40, mxn_currency.decimal_places)
         for v in total_taxes_withheld.values():
-            v['amount_curr'] = float_round(v['amount_curr'], 10)
-            v['amount_curr'] = float_round(v['amount_curr'], move.currency_id.decimal_places, rounding_method='DOWN')
+            v['amount_curr'] = float_round(v['amount_curr'], move.currency_id.decimal_places)
             v['amount_mxn'] = float_round(v['amount_curr'] * rate_payment_curr_mxn_40, mxn_currency.decimal_places)
 
         cfdi_values = {
@@ -621,7 +615,7 @@ class AccountEdiFormat(models.Model):
             'payment_account_ord': is_payment_code_emitter_ok and payment_account_ord,
             'receiver_vat_ord': is_payment_code_receiver_ok and move.journal_id.bank_account_id.bank_id.l10n_mx_edi_vat,
             'payment_account_receiver': is_payment_code_receiver_ok and payment_account_receiver,
-            'cfdi_date': move.l10n_mx_edi_post_time.strftime('%Y-%m-%dT%H:%M:%S'),
+            'cfdi_date': (move.l10n_mx_edi_post_time or datetime(move.invoice_date.year, move.invoice_date.month, move.invoice_date.day, 23, 59, 0)).isoformat(),
             'tax_summary': total_taxes_paid,
             'withholding_summary': total_taxes_withheld,
         }
@@ -1159,12 +1153,12 @@ Content-Disposition: form-data; name="xml"; filename="xml"
            <SOAP-ENV:Header/>
            <ns1:Body>
               <ns0:Consulta>
-                 <ns0:expresionImpresa>${data}</ns0:expresionImpresa>
+                 <ns0:expresionImpresa>{data}</ns0:expresionImpresa>
               </ns0:Consulta>
            </ns1:Body>
         </SOAP-ENV:Envelope>"""
         namespace = {'a': 'http://schemas.datacontract.org/2004/07/Sat.Cfdi.Negocio.ConsultaCfdi.Servicio'}
-        params = '?re=%s&amp;rr=%s&amp;tt=%s&amp;id=%s' % (
+        params = "<![CDATA[?re=%s&rr=%s&tt=%s&id=%s]]>" % (
             tools.html_escape(supplier_rfc or ''),
             tools.html_escape(customer_rfc or ''),
             total or 0.0, uuid or '')

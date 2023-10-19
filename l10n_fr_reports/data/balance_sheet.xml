@@ -1426,8 +1426,8 @@
         <field name="level" eval="3" />
         <field name="sequence" eval="1"/>
         <field name="parent_id" ref='account_financial_report_line_02_9_fr_bilan_passif'/>
-        <field name="domain" eval="['|', ('account_id.code', '=', '1670'),
-                                   ('account_id.code', '=', '1671')]"/>
+        <field name="domain" eval="['|', ('account_id.code', '=like', '1670%'),
+                                   ('account_id.code', '=like', '1671%')]"/>
         <field name="groupby">account_id</field>
         <field name="formulas">-sum</field>
     </record>
@@ -1438,10 +1438,10 @@
         <field name="level" eval="3" />
         <field name="sequence" eval="2"/>
         <field name="parent_id" ref='account_financial_report_line_02_9_fr_bilan_passif'/>
-        <field name="domain" eval="['|', ('account_id.code', '=', '1672'),
-                                   '|', ('account_id.code', '=', '1673'),
-                                   '|', ('account_id.code', '=', '1674'),
-                                   ('account_id.code', '=', '1675')]"/>
+        <field name="domain" eval="['|', ('account_id.code', '=like', '1672%'),
+                                   '|', ('account_id.code', '=like', '1673%'),
+                                   '|', ('account_id.code', '=like', '1674%'),
+                                   ('account_id.code', '=like', '1675%')]"/>
         <field name="groupby">account_id</field>
         <field name="formulas">-sum</field>
     </record>

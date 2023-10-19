@@ -71,6 +71,8 @@ class IntrastatReport(models.AbstractModel):
             'out_vals': out_vals,
             'extended': extended,
             'date': date,
+            'incl_arrivals': incl_arrivals,
+            'incl_dispatches': incl_dispatches,
             '_get_reception_code': self._get_reception_code,
             '_get_reception_form': self._get_reception_form,
             '_get_expedition_code': self._get_expedition_code,

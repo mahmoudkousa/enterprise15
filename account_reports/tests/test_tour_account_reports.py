@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+from freezegun import freeze_time
+
 from odoo import fields
 from odoo.tests import tagged
 from odoo.addons.account.tests.common import AccountTestInvoicingHttpCommon
 
-
+@freeze_time('2020-01-01')
 @tagged('post_install', '-at_install')
 class TestTourAccountReports(AccountTestInvoicingHttpCommon):
 

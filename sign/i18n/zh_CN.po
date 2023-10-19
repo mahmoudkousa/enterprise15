@@ -9,6 +9,8 @@
 # Benson <Benson.Dr@Gmail.com>, 2022
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2022
 # Jeffery CHEN <jeffery9@gmail.com>, 2022
+# Wil Odoo, 2023
+# Chloe Wang, 2023
 # 
 msgid ""
 msgstr ""
@@ -16,8 +18,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:42+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Jeffery CHEN <jeffery9@gmail.com>, 2022\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Last-Translator: Chloe Wang, 2023\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1474,6 +1476,12 @@ msgid "Main Attachment"
 msgstr "主要附件"
 
 #. module: sign
+#: code:addons/sign/models/sign_template.py:0
+#, python-format
+msgid "Malformed expression: %(exp)s"
+msgstr "畸形的表达：%(exp)s"
+
+#. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
@@ -2926,9 +2934,24 @@ msgid "The template doesn't exist anymore."
 msgstr "该模板已经不存在了。"
 
 #. module: sign
+#: code:addons/sign/wizard/sign_duplicate_template_with_pdf.py:0
+#, python-format
+msgid "The uploaded file is not a valid PDF. Please upload a valid PDF file."
+msgstr ""
+
+#. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "There are no signatures request."
 msgstr "没有签名要求。"
+
+#. module: sign
+#: code:addons/sign/models/sign_request.py:0
+#: code:addons/sign/models/sign_request.py:0
+#, python-format
+msgid ""
+"There was an issue downloading your document. Please contact an "
+"administrator."
+msgstr "下载文档时出现问题。请联系管理员。"
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
@@ -3017,6 +3040,14 @@ msgstr "UTC"
 #, python-format
 msgid "Unable to send the SMS, please contact the sender of the document."
 msgstr "无法发送短信，请联系发件人的文档。"
+
+#. module: sign
+#: code:addons/sign/controllers/main.py:0
+#, python-format
+msgid ""
+"Unable to sign the document due to missing required data. Please contact an "
+"administrator."
+msgstr "由于缺少所需数据，无法签署文档。请联系管理员。"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_unread

@@ -3,9 +3,9 @@
 # 	* stock_enterprise
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2021
 # Larissa Manderfeld, 2023
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Larissa Manderfeld, 2023\n"
+"Last-Translator: Martin Trigaux, 2023\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,7 +49,7 @@ msgstr "Unternehmen"
 #. module: stock_enterprise
 #: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__creation_date
 msgid "Creation Date"
-msgstr "Erzeugt am"
+msgstr "Erstellungsdatum"
 
 #. module: stock_enterprise
 #: model:ir.model.fields.selection,name:stock_enterprise.selection__stock_report__picking_type_code__outgoing
@@ -74,7 +74,7 @@ msgstr "Tage"
 #. module: stock_enterprise
 #: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_form_view
 msgid "Delay"
-msgstr "Zeitabweichung"
+msgstr "Verspätung"
 
 #. module: stock_enterprise
 #: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__delay
@@ -128,12 +128,12 @@ msgstr "Erledigte Lieferungen"
 #. module: stock_enterprise
 #: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_search_view
 msgid "Done Receipts"
-msgstr "Fertig Quittungen"
+msgstr "Erledigte Eingänge"
 
 #. module: stock_enterprise
 #: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_search_view
 msgid "Done Transfers"
-msgstr "Erfolgte Lieferungen"
+msgstr "Erledigte Transfers"
 
 #. module: stock_enterprise
 #: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__scheduled_date
@@ -153,12 +153,12 @@ msgstr "Intern"
 #. module: stock_enterprise
 #: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__is_late
 msgid "Is Late"
-msgstr "ist verspätet"
+msgstr "Ist verspätet"
 
 #. module: stock_enterprise
 #: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__is_backorder
 msgid "Is a Backorder"
-msgstr "Ist ein Rückstand"
+msgstr "Ist ein Lieferrückstand"
 
 #. module: stock_enterprise
 #: model:ir.model.fields,field_description:stock_enterprise.field_stock_report____last_update
@@ -190,7 +190,7 @@ msgstr "Nur die Gruppierung nach Produkt wird unterstützt"
 #. module: stock_enterprise
 #: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__operation_type
 msgid "Operation Type"
-msgstr "Vorgangstyp"
+msgstr "Vorgangsart"
 
 #. module: stock_enterprise
 #: model:ir.model.fields.selection,name:stock_enterprise.selection__stock_report__state__partially_available
@@ -205,7 +205,7 @@ msgstr "Partner"
 #. module: stock_enterprise
 #: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__picking_name
 msgid "Picking Name"
-msgstr "Kommissionier Name"
+msgstr "Name der Kommissionierung"
 
 #. module: stock_enterprise
 #: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__product_id
@@ -262,7 +262,7 @@ msgstr "Status"
 #. module: stock_enterprise
 #: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_pivot_view
 msgid "Stock Overview"
-msgstr "Lagerübersicht"
+msgstr "Bestandsübersicht"
 
 #. module: stock_enterprise
 #: model:ir.model,name:stock_enterprise.model_report_stock_quantity
@@ -297,12 +297,12 @@ msgstr ""
 #. module: stock_enterprise
 #: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__date_done
 msgid "Transfer Date"
-msgstr "Überweisungsdatum"
+msgstr "Transferdatum"
 
 #. module: stock_enterprise
 #: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__picking_id
 msgid "Transfer Reference"
-msgstr "Lieferreferenz"
+msgstr "Transferreferenz"
 
 #. module: stock_enterprise
 #: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__picking_type_code
@@ -317,7 +317,7 @@ msgstr "Lieferanten"
 #. module: stock_enterprise
 #: model:ir.model.fields.selection,name:stock_enterprise.selection__stock_report__state__waiting
 msgid "Waiting Another Move"
-msgstr "Erwarte eine andere Buchung"
+msgstr "Wartet auf andere Bewegung"
 
 #. module: stock_enterprise
 #: model:ir.model.fields.selection,name:stock_enterprise.selection__stock_report__state__confirmed

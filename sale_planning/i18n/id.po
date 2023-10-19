@@ -43,7 +43,7 @@ msgstr ""
 #. module: sale_planning
 #: model_terms:ir.ui.view,arch_db:sale_planning.view_order_form_inherit_sale_planning
 msgid "<span>Hours</span>"
-msgstr ""
+msgstr "<span>Jam</span>"
 
 #. module: sale_planning
 #: model_terms:ir.ui.view,arch_db:sale_planning.planning_slot_view_gantt_inherit_sale_planning
@@ -53,7 +53,7 @@ msgstr "<strong>Item Sales Order  — </strong>"
 #. module: sale_planning
 #: model:ir.model.fields,field_description:sale_planning.field_planning_slot__allocated_hours
 msgid "Allocated Hours"
-msgstr ""
+msgstr "Jam yang Dialokasikan"
 
 #. module: sale_planning
 #: model:ir.ui.menu,name:sale_planning.sale_planning_menu_schedule_by_sale_order
@@ -102,7 +102,7 @@ msgstr ""
 #. module: sale_planning
 #: model_terms:ir.actions.act_window,help:sale_planning.sale_planning_action_schedule_by_sale_order
 msgid "Let's start your planning by adding a new shift."
-msgstr ""
+msgstr "Mari memulai perencanaan Anda dengan menambahkan shift baru."
 
 #. module: sale_planning
 #: model_terms:ir.actions.act_window,help:sale_planning.sale_planning_action_schedule_by_sale_order

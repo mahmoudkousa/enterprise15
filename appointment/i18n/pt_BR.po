@@ -4,11 +4,12 @@
 # 
 # Translators:
 # Martin Trigaux, 2021
-# grazziano <gra.negocia@gmail.com>, 2021
+# grazziano <grazziano.do+transifex@gmail.com>, 2021
 # Marcel Savegnago <marcel.savegnago@gmail.com>, 2022
 # Caroline Renson <car@odoo.com>, 2023
-# Layna Nascimento, 2023
 # Kevilyn Rosa, 2023
+# Layna Nascimento, 2023
+# Maitê Dietze, 2023
 # 
 msgid ""
 msgstr ""
@@ -16,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 11:16+0000\n"
 "PO-Revision-Date: 2021-09-14 12:38+0000\n"
-"Last-Translator: Kevilyn Rosa, 2023\n"
+"Last-Translator: Maitê Dietze, 2023\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -570,7 +571,7 @@ msgstr ""
 #: code:addons/appointment/static/src/js/wysiwyg.js:0
 #, python-format
 msgid "Basic blocks"
-msgstr ""
+msgstr "Blocos básicos"
 
 #. module: appointment
 #. openerp-web
@@ -704,7 +705,7 @@ msgstr "Personalizado"
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_type_view_form
 msgid "Customer Preview"
-msgstr ""
+msgstr "Visualização do cliente"
 
 #. module: appointment
 #: code:addons/appointment/controllers/portal.py:0
@@ -1223,7 +1224,7 @@ msgstr "Erro no envio de SMS"
 #. module: appointment
 #: model:calendar.alarm,name:appointment.calendar_alarm_data_1h_sms
 msgid "SMS Text Message - 1 Hours"
-msgstr ""
+msgstr "Mensagem de texto SMS - 1 hora"
 
 #. module: appointment
 #: model:ir.model.fields.selection,name:appointment.selection__calendar_appointment_slot__weekday__6

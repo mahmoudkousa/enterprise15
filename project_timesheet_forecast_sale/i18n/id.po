@@ -50,7 +50,7 @@ msgstr "Konsultan"
 #. module: project_timesheet_forecast_sale
 #: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_project_project__display_planning_timesheet_analysis
 msgid "Display Planning Timesheet Analysis"
-msgstr ""
+msgstr "Tampilkan Analisis Timesheet Planning"
 
 #. module: project_timesheet_forecast_sale
 #: model_terms:ir.ui.view,arch_db:project_timesheet_forecast_sale.project_update_default_description
@@ -75,7 +75,7 @@ msgstr "Proyek"
 #. module: project_timesheet_forecast_sale
 #: model:ir.model,name:project_timesheet_forecast_sale.model_project_update
 msgid "Project Update"
-msgstr ""
+msgstr "Update Project"
 
 #. module: project_timesheet_forecast_sale
 #: model:ir.model.fields,field_description:project_timesheet_forecast_sale.field_project_timesheet_forecast_report_analysis__sale_order_id
@@ -113,17 +113,17 @@ msgstr "Detail Order Penjualan"
 #. module: project_timesheet_forecast_sale
 #: model:ir.model.fields,help:project_timesheet_forecast_sale.field_project_project__display_planning_timesheet_analysis
 msgid "Should we display the planning and timesheet analysis button?"
-msgstr ""
+msgstr "Haruskah kita tampilkan tombol analisis planning dan timesheet?"
 
 #. module: project_timesheet_forecast_sale
 #: model:planning.role,name:project_timesheet_forecast_sale.planning_role_junior_architect
 msgid "Software Junior Architect"
-msgstr ""
+msgstr "Software Junior Architect"
 
 #. module: project_timesheet_forecast_sale
 #: model:planning.role,name:project_timesheet_forecast_sale.planning_role_senior_architect
 msgid "Software Senior Architect"
-msgstr ""
+msgstr "Software Senior Architect"
 
 #. module: project_timesheet_forecast_sale
 #: model:ir.model,name:project_timesheet_forecast_sale.model_project_task
@@ -133,15 +133,15 @@ msgstr "Kegiatan"
 #. module: project_timesheet_forecast_sale
 #: model:ir.model,name:project_timesheet_forecast_sale.model_project_timesheet_forecast_report_analysis
 msgid "Timesheet & Planning Statistics"
-msgstr ""
+msgstr "Statistik Planning & Timesheet"
 
 #. module: project_timesheet_forecast_sale
 #: code:addons/project_timesheet_forecast_sale/models/project.py:0
 #, python-format
 msgid "Timesheets and Planning"
-msgstr ""
+msgstr "Timesheet and Planning"
 
 #. module: project_timesheet_forecast_sale
 #: model_terms:ir.ui.view,arch_db:project_timesheet_forecast_sale.project_timesheet_forecast_view_kanban_inherit_sale_timesheet
 msgid "Timesheets and Planning Analysis"
-msgstr ""
+msgstr "Analisis Planning dan Timesheet"

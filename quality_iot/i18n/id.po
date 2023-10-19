@@ -24,7 +24,7 @@ msgstr ""
 #: code:addons/quality_iot/static/src/js/iot_picture.js:0
 #, python-format
 msgid "Capture image..."
-msgstr ""
+msgstr "Capture image..."
 
 #. module: quality_iot
 #: model:ir.model.fields,field_description:quality_iot.field_quality_point__device_id
@@ -34,24 +34,24 @@ msgstr "Perangkat"
 #. module: quality_iot
 #: model:ir.model,name:quality_iot.model_iot_device
 msgid "IOT Device"
-msgstr ""
+msgstr "Perangkat IOT"
 
 #. module: quality_iot
 #: model:ir.model.fields,field_description:quality_iot.field_iot_device__qcp_test_type
 msgid "Qcp Test Type"
-msgstr ""
+msgstr "Tipe Tes Qcp"
 
 #. module: quality_iot
 #: model:ir.model,name:quality_iot.model_quality_point
 msgid "Quality Control Point"
-msgstr ""
+msgstr "Control Point Kualitas"
 
 #. module: quality_iot
 #: model_terms:ir.ui.view,arch_db:quality_iot.iot_device_view_form_inherit
 msgid "Quality Control Points"
-msgstr ""
+msgstr "Control Point Kualitas"
 
 #. module: quality_iot
 #: model:ir.model.fields,field_description:quality_iot.field_iot_device__quality_point_ids
 msgid "Quality Point"
-msgstr ""
+msgstr "Quality Point"

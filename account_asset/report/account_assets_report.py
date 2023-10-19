@@ -186,7 +186,7 @@ class assets_report(models.AbstractModel):
                 depreciation_add = depreciation_closing - depreciation_opening
                 asset_closing = asset_opening + asset_add
 
-                if al['asset_state'] == 'close' and al['asset_disposal_date'] and al['asset_disposal_date'] <= fields.Date.to_date(options['date']['date_to']):
+                if al['asset_state'] == 'close' and al['asset_disposal_date'] and al['asset_disposal_date'] <= fields.Date.to_date(options['date']['date_to']) and al_currency.is_zero(al['remaining_end']):
                     depreciation_minus = depreciation_closing
                     # depreciation_opening and depreciation_add are computed from first_move (assuming it is a depreciation move),
                     # but when previous condition is True and first_move and last_move are the same record, then first_move is not a

@@ -283,7 +283,7 @@ msgstr "Paramètres de config"
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.res_config_settings_view_form
 msgid "Configure Product Barcodes"
-msgstr "Configurez les codes-barres des produits"
+msgstr "Configurer les codes-barres des produits"
 
 #. module: stock_barcode
 #. openerp-web
@@ -1130,6 +1130,13 @@ msgid "You can't apply a package type. First, scan product or select a line"
 msgstr ""
 "Vous ne pouvez pas applique de type de colis. Scannez un produit ou "
 "sélectionnez une ligne d'abord."
+
+#. module: stock_barcode
+#. openerp-web
+#: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
+#, python-format
+msgid "You can't register scrap at this state of the operation"
+msgstr "Vous ne pouvez pas enregistrer des rebuts à ce stade de l'opération"
 
 #. module: stock_barcode
 #: code:addons/stock_barcode/wizard/stock_barcode_lot.py:0

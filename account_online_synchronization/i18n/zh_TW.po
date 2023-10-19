@@ -5,6 +5,8 @@
 # Translators:
 # sejun huang <sejun.huang@gmail.com>, 2021
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2021
+# Wil Odoo, 2023
+# Tony Ng, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:43+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2021\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Last-Translator: Tony Ng, 2023\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -384,7 +386,7 @@ msgstr "最後修改於"
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_link__last_refresh
 msgid "Last Refresh"
-msgstr "上次刷新"
+msgstr "上次重新載入"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_link_journal__write_uid
@@ -405,7 +407,7 @@ msgstr "最後更新於"
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.account_online_link_view_form
 msgid "Last refresh"
-msgstr "Last refresh"
+msgstr "上次重新載入"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_account__last_sync
@@ -426,7 +428,7 @@ msgstr "Link account to journal"
 #. module: account_online_synchronization
 #: model:ir.model,name:account_online_synchronization.model_account_link_journal
 msgid "Link list of bank accounts to journals"
-msgstr "Link list of bank accounts to journals"
+msgstr "銀行賬戶至日記賬連結清單"
 
 #. module: account_online_synchronization
 #: model:ir.model,name:account_online_synchronization.model_account_link_journal_line
@@ -581,7 +583,7 @@ msgstr "Reconnect"
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_link__refresh_token
 msgid "Refresh Token"
-msgstr "更新 Token"
+msgstr "更新代碼（token）"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_link__client_id
@@ -619,7 +621,7 @@ msgstr "Synchronization frequency"
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.account_journal_dashboard_inherit_online_sync
 msgid "Synchronization link disconnected"
-msgstr "Synchronization link disconnected"
+msgstr "同步連結已斷線"
 
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.account_journal_dashboard_inherit_online_sync
@@ -648,9 +650,7 @@ msgstr ""
 msgid ""
 "The reference of your error is %s. Please mention it when contacting Odoo "
 "support."
-msgstr ""
-"The reference of your error is %s. Please mention it when contacting Odoo "
-"support."
+msgstr "錯誤參考編號為 %s。聯絡 Odoo 技術支援時，請提供此編號。"
 
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.view_account_link_journal_form_wizard
@@ -684,7 +684,7 @@ msgstr "Token used to access API."
 #. module: account_online_synchronization
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_link__refresh_token
 msgid "Token used to sign API request, Never disclose it"
-msgstr "Token used to sign API request, Never disclose it"
+msgstr "用於簽署 API 請求的代碼，切勿洩露"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_link_journal__transactions

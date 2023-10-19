@@ -137,7 +137,7 @@ class HelpdeskTeam(models.Model):
         ticket_data = self.env['helpdesk.ticket'].read_group([
             ('team_id', 'in', self.ids),
             ('sla_deadline', '!=', False),
-            ('sla_deadline', '<=', fields.Datetime.to_string((datetime.date.today() + relativedelta.relativedelta(days=1)))),
+            ('sla_deadline', '<=', fields.Datetime.to_string((datetime.date.today() + relativedelta.relativedelta(days=2)))),
         ], ['team_id'], ['team_id'])
         mapped_data = dict((data['team_id'][0], data['team_id_count']) for data in ticket_data)
         for team in self:

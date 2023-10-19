@@ -3,9 +3,8 @@
 # 	* l10n_ch_reports
 # 
 # Translators:
-# Martin Trigaux, 2022
 # Camille Spiritus, 2022
-# Friederike Fasterling-Nesselbosch, 2022
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-08 09:38+0000\n"
 "PO-Revision-Date: 2022-04-28 11:40+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Martin Trigaux, 2023\n"
+"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -252,11 +251,6 @@ msgid "Participations"
 msgstr "Beteiligungen"
 
 #. module: l10n_ch_reports
-#: model:account.financial.html.report.line,name:l10n_ch_reports.account_financial_report_line_ch_290_b
-msgid "Previous years' unallocated profit or loss"
-msgstr "Nicht zugewiesener gewinn aus früheren Jahren"
-
-#. module: l10n_ch_reports
 #: model:account.financial.html.report.line,name:l10n_ch_reports.account_financial_report_line_ch_7
 msgid "Profit and loss from non-core business"
 msgstr "Betrieblicher Nebenerfolg"
@@ -274,9 +268,19 @@ msgstr "Grund-, Gesellschafter- oder Stiftungskapital"
 #. module: l10n_ch_reports
 #: model:account.financial.html.report.line,name:l10n_ch_reports.account_financial_report_line_ch_106
 msgid "Short-term assets with stock exchange price"
-msgstr "Kurzfristige Vermögenswerte mit Börsenkurs"
+msgstr "Kurzfristig gehaltene Aktiven mit Börsenkurs"
+
+#. module: l10n_ch_reports
+#: model:account.financial.html.report.line,name:l10n_ch_reports.account_financial_report_line_ch_290_a
+msgid "Legal reserves"
+msgstr "Gesetzliche Reserven"
+
+#. module: l10n_ch_reports
+#: model:account.financial.html.report.line,name:l10n_ch_reports.account_financial_report_line_ch_290_b
+msgid "Previous years' unallocated profit or loss"
+msgstr "Nicht zugewiesener gewinn aus früheren Jahren"
 
 #. module: l10n_ch_reports
 #: model:account.financial.html.report.line,name:l10n_ch_reports.account_financial_report_line_ch_5
 msgid "Staff cost"
-msgstr "Personalkosten"
+msgstr "Personalaufwand"

@@ -264,7 +264,7 @@ msgstr "Montante máximo de desconto que pode ser fornecido"
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_base_partner_merge_automatic_wizard
 msgid "Merge Partner Wizard"
-msgstr "Merge Partner Wizard"
+msgstr "Assistente de mesclagem de usuário"
 
 #. module: pos_loyalty
 #: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_reward_form

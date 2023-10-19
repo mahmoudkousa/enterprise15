@@ -4,7 +4,7 @@ odoo.define('website_helpdesk_form.form', function (require) {
 var core = require('web.core');
 var FormEditorRegistry = require('website.form_editor_registry');
 
-var _t = core._t;
+const _lt = core._lt;
 
 FormEditorRegistry.add('create_ticket', {
     formFields: [{
@@ -12,22 +12,22 @@ FormEditorRegistry.add('create_ticket', {
         required: true,
         name: 'partner_name',
         fillWith: 'name',
-        string: 'Your Name',
+        string: _lt('Your Name'),
     }, {
         type: 'email',
         required: true,
         name: 'partner_email',
         fillWith: 'email',
-        string: 'Your Email',
+        string: _lt('Your Email'),
     }, {
         type: 'char',
         modelRequired: true,
         name: 'name',
-        string: 'Subject',
+        string: _lt('Subject'),
     }, {
         type: 'char',
         name: 'description',
-        string: 'Description',
+        string: _lt('Description'),
     }, {
         type: 'binary',
         custom: true,
@@ -37,7 +37,7 @@ FormEditorRegistry.add('create_ticket', {
         name: 'team_id',
         type: 'many2one',
         relation: 'helpdesk.team',
-        string: _t('Helpdesk Team'),
+        string: _lt('Helpdesk Team'),
     }],
     successPage: '/your-ticket-has-been-submitted',
 });

@@ -36,7 +36,7 @@ msgstr ""
 msgid ""
 "<span class=\"o_form_label\">Minimum PO amount total</span>\n"
 "                            <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" role=\"img\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\"/>"
-msgstr ""
+msgstr "Totale importo minimo ordine di produzione"
 
 #. module: partner_commission
 #: model:ir.model.fields,field_description:partner_commission.field_commission_plan__active
@@ -254,7 +254,7 @@ msgstr "Importo massimo indicato nella valuta del listino prezzi, se fornito."
 #: model:ir.model.fields,field_description:partner_commission.field_res_company__commission_po_minimum
 #: model:ir.model.fields,field_description:partner_commission.field_res_config_settings__commission_po_minimum
 msgid "Minimum Total Amount for PO commission"
-msgstr ""
+msgstr "Importo totale minimo per commissione ordine di acquisto"
 
 #. module: partner_commission
 #: model:ir.model.fields.selection,name:partner_commission.selection__res_company__commission_automatic_po_frequency__monthly

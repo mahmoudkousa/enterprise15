@@ -1416,6 +1416,13 @@ msgstr ""
 
 #. module: social
 #. openerp-web
+#: code:addons/social/static/src/js/stream_post_comments.js:0
+#, python-format
+msgid "Something went wrong while posting the comment."
+msgstr ""
+
+#. module: social
+#. openerp-web
 #: code:addons/social/static/src/js/stream_post_kanban_controller.js:0
 #, python-format
 msgid ""

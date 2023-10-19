@@ -41,7 +41,7 @@ msgstr "Alokasi"
 #. module: stock_barcode_picking_batch
 #: model:ir.actions.client,name:stock_barcode_picking_batch.stock_barcode_picking_batch_client_action
 msgid "Barcode Batch Picking Client Action"
-msgstr ""
+msgstr "Action Client Barcode Batch Picking"
 
 #. module: stock_barcode_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.view_batch_picking_confirmation
@@ -52,12 +52,12 @@ msgstr ""
 #: model:ir.model,name:stock_barcode_picking_batch.model_stock_picking_batch
 #: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_barcode_cancel_operation__batch_id
 msgid "Batch Transfer"
-msgstr ""
+msgstr "Transfer Batch"
 
 #. module: stock_barcode_picking_batch
 #: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_barcode_cancel_operation__batch_name
 msgid "Batch Transfer Name"
-msgstr ""
+msgstr "Nama Transfer Batch"
 
 #. module: stock_barcode_picking_batch
 #. openerp-web
@@ -65,12 +65,12 @@ msgstr ""
 #: model:ir.actions.act_window,name:stock_barcode_picking_batch.stock_barcode_batch_picking_action_kanban
 #, python-format
 msgid "Batch Transfers"
-msgstr ""
+msgstr "Transfer Batch"
 
 #. module: stock_barcode_picking_batch
 #: model:ir.model,name:stock_barcode_picking_batch.model_stock_barcode_cancel_operation
 msgid "Cancel Operation"
-msgstr ""
+msgstr "Batalkan Operasi"
 
 #. module: stock_barcode_picking_batch
 #: code:addons/stock_barcode_picking_batch/models/stock_picking_batch.py:0
@@ -107,7 +107,7 @@ msgstr "Deskripsi"
 #. module: stock_barcode_picking_batch
 #: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking__display_batch_button
 msgid "Display Batch Button"
-msgstr ""
+msgstr "Tampilkan Tombol Batch"
 
 #. module: stock_barcode_picking_batch
 #: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_barcode_picking_batch_group_pickings__display_name
@@ -152,14 +152,14 @@ msgstr ""
 #. module: stock_barcode_picking_batch
 #: model_terms:ir.actions.act_window,help:stock_barcode_picking_batch.stock_barcode_batch_picking_action_kanban
 msgid "No batch transfer found"
-msgstr ""
+msgstr "Tidak ada transfer batch yang ditemukan"
 
 #. module: stock_barcode_picking_batch
 #. openerp-web
 #: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
 #, python-format
 msgid "No ready transfers found"
-msgstr ""
+msgstr "Tidak ada transfer yang siap yang ditemukan"
 
 #. module: stock_barcode_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_barcode_batch_picking_view_kanban
@@ -170,7 +170,7 @@ msgstr ""
 #: code:addons/stock_barcode_picking_batch/models/stock_picking_batch.py:0
 #, python-format
 msgid "Open picking batch form"
-msgstr ""
+msgstr "Open picking batch dari"
 
 #. module: stock_barcode_picking_batch
 #: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_barcode_picking_batch_group_pickings__picking_type_name
@@ -187,7 +187,7 @@ msgstr "Pengambilan"
 #: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
 #, python-format
 msgid "Print Batch Transfer"
-msgstr ""
+msgstr "Cetak Transfer Batch"
 
 #. module: stock_barcode_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.view_batch_picking_confirmation
@@ -204,14 +204,14 @@ msgstr "Pergerakan Produk (Baris Pergerakan Stok)"
 #: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
 #, python-format
 msgid "Select an operation type for batch transfer"
-msgstr ""
+msgstr "Pilih tipe operasi untuk transfer batc"
 
 #. module: stock_barcode_picking_batch
 #. openerp-web
 #: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
 #, python-format
 msgid "Select transfers for batch transfer"
-msgstr ""
+msgstr "Pilih transfer untuk transfer batch"
 
 #. module: stock_barcode_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.view_batch_picking_confirmation
@@ -228,14 +228,14 @@ msgstr ""
 #: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
 #, python-format
 msgid "The Batch Transfer has been validated"
-msgstr ""
+msgstr "Transfer Batch telah divalidasi"
 
 #. module: stock_barcode_picking_batch
 #. openerp-web
 #: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
 #, python-format
 msgid "The batch picking has been cancelled"
-msgstr ""
+msgstr "Batch picking telah dibatalkan"
 
 #. module: stock_barcode_picking_batch
 #: model_terms:ir.actions.act_window,help:stock_barcode_picking_batch.stock_barcode_batch_picking_action_kanban
@@ -245,6 +245,10 @@ msgid ""
 "            It may also be useful to assign jobs (one person = one batch) or\n"
 "            help the timing management of operations (tasks to be done at 1pm)."
 msgstr ""
+"Tujuan transfer batch adalah untuk mengelompokkan operasi yang mungkin\n"
+"            (harus) harus dilakukan bersama untuk meningkatkan efisiensi mereka.\n"
+"            Mungkin membantu juga untuk menetapkan tugas (satu orang = satu batch) atau\n"
+"            membantu manajemen timing operasi (task diselesaikan pada jam 1)."
 
 #. module: stock_barcode_picking_batch
 #: model:ir.model.fields,help:stock_barcode_picking_batch.field_stock_move_line__picking_id
@@ -256,14 +260,14 @@ msgstr "Operasi stok di mana pengemasan dibuat"
 #: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
 #, python-format
 msgid "This batch transfer is already done"
-msgstr ""
+msgstr "Transfer batch sudah dilakukan"
 
 #. module: stock_barcode_picking_batch
 #. openerp-web
 #: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
 #, python-format
 msgid "This batch transfer is cancelled"
-msgstr ""
+msgstr "Transfer batch ini dibatalkan"
 
 #. module: stock_barcode_picking_batch
 #. openerp-web
@@ -272,7 +276,7 @@ msgstr ""
 msgid ""
 "This batch transfer is still draft, it must be confirmed before being "
 "processed"
-msgstr ""
+msgstr "Transfer batch ini masih draft, harus dikonfirmasi sebelum diproses"
 
 #. module: stock_barcode_picking_batch
 #: model:ir.model,name:stock_barcode_picking_batch.model_stock_picking
@@ -289,7 +293,7 @@ msgstr "Tipe Operasi"
 #. module: stock_barcode_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_barcode_batch_picking_view_info
 msgid "Unbatch Transfer"
-msgstr ""
+msgstr "Unbatch Transfer"
 
 #. module: stock_barcode_picking_batch
 #: code:addons/stock_barcode_picking_batch/models/stock_picking.py:0
@@ -299,6 +303,9 @@ msgid ""
 "can use the info button on the top right corner of your screen to remove the"
 " transfer in question from the batch."
 msgstr ""
+"Anda tidak dapat memvalidasi transfer bila tidak ada kuantitas yang "
+"direservasi atau selesai. Anda dapat menggunakan tombol info di pojok kanan "
+"atas layar Anda untuk menghapus transfer tersebut dari batch."
 
 #. module: stock_barcode_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.view_batch_picking_confirmation

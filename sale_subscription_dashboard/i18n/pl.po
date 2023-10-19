@@ -294,7 +294,7 @@ msgstr "Od:"
 #. module: sale_subscription_dashboard
 #: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.move_line_entries_report_search
 msgid "Group By"
-msgstr "Grupuj wg."
+msgstr "Grupuj wg"
 
 #. module: sale_subscription_dashboard
 #. openerp-web

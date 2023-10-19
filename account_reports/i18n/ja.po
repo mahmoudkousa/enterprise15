@@ -383,9 +383,9 @@ msgstr "<span>一部の取引先はVAT番号がありません。</span>"
 #: model_terms:ir.ui.view,arch_db:account_reports.template_tax_report
 msgid ""
 "<span>This company is part of a tax unit. You're currently not viewing the "
-"whole unit; to change that, tick the \"aggregate\" option of \"tax unit\" "
-"menu.</span>"
+"whole unit. To change that, use the Tax Unit filter.</span>"
 msgstr ""
+"<span>この会社は税ユニットの一部です。現在、全ユニットを表示していません。これを変更するには、税ユニットフィルタを使用してください。</span>"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.template_multicurrency_report

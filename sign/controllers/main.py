@@ -13,6 +13,7 @@ from odoo import http, _
 from odoo.http import request
 from odoo.addons.web.controllers.main import content_disposition
 from odoo.addons.iap.tools import iap_tools
+from odoo.exceptions import UserError
 
 _logger = logging.getLogger()
 
@@ -36,6 +37,9 @@ class Sign(http.Controller):
             return http.request.not_found()
 
         sign_item_types = http.request.env['sign.item.type'].sudo().search_read([])
+        if not sign_item_types:
+            raise UserError(_("Unable to sign the document due to missing required data. Please contact an administrator."))
+
         if current_request_item:
             for item_type in sign_item_types:
                 if item_type['auto_field']:

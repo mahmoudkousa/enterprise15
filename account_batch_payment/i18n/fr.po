@@ -27,7 +27,7 @@ msgstr ""
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_account_payment_form_inherit_account_batch_payment
 msgid "<span>Batch Payment</span>"
-msgstr "<span>Paiement en groupe</span>"
+msgstr "<span>Paiement par lot</span>"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.batch_error_wizard_form
@@ -127,7 +127,7 @@ msgstr "Rapport sur les dépôts par lots"
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_batch_payment_search
 #, python-format
 msgid "Batch Payment"
-msgstr "Paiement en groupe"
+msgstr "Paiement par lot"
 
 #. module: account_batch_payment
 #: model:ir.actions.act_window,name:account_batch_payment.action_batch_payment_in
@@ -136,7 +136,7 @@ msgstr "Paiement en groupe"
 #: model:ir.ui.menu,name:account_batch_payment.menu_batch_payment_sales
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_account_payment_search_inherit_account_batch_payment
 msgid "Batch Payments"
-msgstr "Paiements en groupe"
+msgstr "Paiements par lot"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_payment__batch_type
@@ -146,7 +146,7 @@ msgstr "Type de Groupe"
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_download_wizard__batch_payment_id
 msgid "Batch payment from which the file has been generated."
-msgstr "Paiement en groupe à partir duquel le fichier a été généré."
+msgstr "Paiement par lot à partir duquel le fichier a été généré."
 
 #. module: account_batch_payment
 #: model_terms:ir.actions.act_window,help:account_batch_payment.action_batch_payment_in
@@ -156,7 +156,7 @@ msgid ""
 "                    reconciliation. They are also useful when depositing checks\n"
 "                    to the bank."
 msgstr ""
-"Les paiements par groupe vous permettent de regrouper différents paiements pour vous faciliter la \n"
+"Les paiements par lot vous permettent de regrouper différents paiements pour vous faciliter la \n"
 " réconciliation. Ils sont également utiles lors du dépôt de chèques\n"
 "  à la Banque."
 
@@ -169,8 +169,8 @@ msgstr "Assistance de rapport d'erreur sur les paiements en lot "
 #: model:ir.model,name:account_batch_payment.model_account_batch_error_wizard_line
 msgid "Batch payments error reporting wizard line"
 msgstr ""
-"Ligne d'assistance pour le signalement des erreurs dans les paiements "
-"groupés"
+"Ligne d'assistance pour le signalement des erreurs dans les paiements par "
+"lot"
 
 #. module: account_batch_payment
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
@@ -200,22 +200,22 @@ msgstr "Code"
 #: code:addons/account_batch_payment/models/account_journal.py:0
 #, python-format
 msgid "Create Batch Payment"
-msgstr "Créer un Paiement en Groupe"
+msgstr "Créer un paiement par lot"
 
 #. module: account_batch_payment
 #: model_terms:ir.actions.act_window,help:account_batch_payment.action_batch_payment_in
 msgid "Create a new customer batch payment"
-msgstr "Créer un nouveau paiement groupé client"
+msgstr "Créer un nouveau paiement par lot client"
 
 #. module: account_batch_payment
 #: model_terms:ir.actions.act_window,help:account_batch_payment.action_batch_payment_out
 msgid "Create a new vendor batch payment"
-msgstr "Créer un nouveau paiement groupé fournisseur"
+msgstr "Créer un nouveau paiement par lot fournisseur"
 
 #. module: account_batch_payment
 #: model:ir.actions.server,name:account_batch_payment.action_account_create_batch_payment
 msgid "Create batch payment"
-msgstr "Créer un Paiement en Groupe"
+msgstr "Créer un Paiement par lot"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_download_wizard__create_uid
@@ -367,7 +367,7 @@ msgstr "Entrant"
 #: code:addons/account_batch_payment/models/account_journal.py:0
 #, python-format
 msgid "Inbound Batch Payments Sequence"
-msgstr "Séquence des paiements groupés entrants"
+msgstr "Séquence des paiements par lot entrants"
 
 #. module: account_batch_payment
 #: model:ir.model,name:account_batch_payment.model_account_journal
@@ -442,7 +442,7 @@ msgstr "Sortant"
 #: code:addons/account_batch_payment/models/account_journal.py:0
 #, python-format
 msgid "Outbound Batch Payments Sequence"
-msgstr "Séquence des paiements groupés sortants"
+msgstr "Séquence des paiements par lot sortants"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_payment__payment_method_id
@@ -492,7 +492,7 @@ msgstr "Imprimer"
 #. module: account_batch_payment
 #: model:ir.actions.report,name:account_batch_payment.action_print_batch_payment
 msgid "Print Batch Payment"
-msgstr "Impression du paiement groupé"
+msgstr "Impression du paiement par lot"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.batch_error_wizard_form
@@ -599,8 +599,8 @@ msgid ""
 "The journal of the batch payment and of the payments it contains must be the"
 " same."
 msgstr ""
-"Le journal du paiement en groupe et des paiements qu'il contient doivent "
-"être le même. "
+"Le journal du paiement par lot et des paiements qu'il contient doivent être "
+"le même. "
 
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_payment__payment_method_id
@@ -648,8 +648,8 @@ msgid ""
 "Whether or not this batch payment should display the 'Generate File' button "
 "instead of 'Print' in form view."
 msgstr ""
-"Si ce paiement par groupe doit ou non afficher le bouton \"Générer un "
-"fichier\" au lieu de \"Imprimer\" en mode formulaire."
+"Si ce paiement par lot doit ou non afficher le bouton \"Générer un fichier\""
+" au lieu de \"Imprimer\" en mode formulaire."
 
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_error_wizard_line__show_remove_button
@@ -680,7 +680,7 @@ msgid ""
 "Payments:\n"
 "%s"
 msgstr ""
-"Vous ne pouvez pas ajouter de paiements avec un montant nul dans un paiement par groupe.\n"
+"Vous ne pouvez pas ajouter de paiements avec un montant nul dans un paiement par lot.\n"
 "Paiements:\n"
 "%s"
 

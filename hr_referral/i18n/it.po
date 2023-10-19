@@ -6,6 +6,7 @@
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
 # Sergio Zanchetta <primes2h@gmail.com>, 2023
+# Marianna Ciofani, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:40+0000\n"
-"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2023\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Last-Translator: Marianna Ciofani, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -390,7 +391,7 @@ msgstr "Referenza diretta"
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_hr_referral_alert__dismissed_user_ids
 msgid "Dismissed User"
-msgstr ""
+msgstr "Utente licenziato"
 
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_hr_referral_alert__display_name
@@ -537,7 +538,7 @@ msgstr "Amici per referenze"
 #. module: hr_referral
 #: model:ir.model.fields.selection,name:hr_referral.selection__hr_referral_friend__position__front
 msgid "Front"
-msgstr ""
+msgstr "Davanti"
 
 #. module: hr_referral
 #. openerp-web
@@ -582,7 +583,7 @@ msgstr "Raggruppa per"
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.hr_referral_alert_view_search
 msgid "HR Referral Alert Search"
-msgstr ""
+msgstr "Ricerca avviso referenza RU"
 
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_hr_referral_reward__has_message
@@ -722,7 +723,7 @@ msgstr "Programma referenze lavorative"
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_hr_job__job_open_date
 msgid "Job Start Recruitment Date"
-msgstr ""
+msgstr "Data avvio selezione lavoro"
 
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_hr_referral_alert____last_update
@@ -873,7 +874,7 @@ msgstr "Le mie referenze"
 #: code:addons/hr_referral/wizard/hr_referral_alert_mail_wizard.py:0
 #, python-format
 msgid "New Alert In Referrals App"
-msgstr ""
+msgstr "Nuovo avviso nell'app Referenze"
 
 #. module: hr_referral
 #: code:addons/hr_referral/models/hr_referral_reward.py:0
@@ -1061,7 +1062,7 @@ msgstr "Fasi di selezione"
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.hr_referral_report_view_tree
 msgid "Referer"
-msgstr ""
+msgstr "Referente"
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.view_hr_referral_points_filter
@@ -1071,7 +1072,7 @@ msgstr "Referenza"
 #. module: hr_referral
 #: model:ir.model,name:hr_referral.model_hr_referral_alert_mail_wizard
 msgid "Referral Alert Mail Wizard"
-msgstr ""
+msgstr "Procedura guidata e-mail di notifica referenza"
 
 #. module: hr_referral
 #: model:ir.model,name:hr_referral.model_hr_referral_link_to_share
@@ -1096,7 +1097,7 @@ msgstr "Tasso referenze"
 #. module: hr_referral
 #: model:res.groups,name:hr_referral.group_hr_referral_reward_responsible_user
 msgid "Referral Reward Responsible User"
-msgstr ""
+msgstr "Utente responsabile ricompensa referenza"
 
 #. module: hr_referral
 #: model:ir.model,name:hr_referral.model_hr_referral_send_mail
@@ -1157,7 +1158,7 @@ msgstr "Persone segnalatrici"
 #. module: hr_referral
 #: model:ir.ui.menu,name:hr_referral.menu_report_employee_referral_all
 msgid "Reporting"
-msgstr "Rendicontazione"
+msgstr "Rendiconto"
 
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.view_hr_referral_level_form
@@ -1271,12 +1272,12 @@ msgstr "Condividi su {{source.name}}"
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_hr_applicant__shared_item_infos
 msgid "Shared Item Infos"
-msgstr ""
+msgstr "Informazioni elemento condiviso"
 
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_hr_recruitment_stage__use_in_referral
 msgid "Show in Referrals"
-msgstr ""
+msgstr "Mostra in Referenze"
 
 #. module: hr_referral
 #. openerp-web
@@ -1374,6 +1375,8 @@ msgid ""
 "This field holds the image used as image for the head's friend when the user"
 " must choose a new friend, limited to 1024x1024px."
 msgstr ""
+"Il campo contiene l'immagine utilizzata per il viso quando un utente deve "
+"scegliere un nuovo amico, con limite a 1024x1024 px."
 
 #. module: hr_referral
 #: model:ir.model.fields,help:hr_referral.field_hr_referral_reward__image
@@ -1399,6 +1402,9 @@ msgid ""
 "This option is used in app 'Referrals'. If checked, the stage is displayed "
 "in 'Referrals Dashboard' and points are given to the employee."
 msgstr ""
+"L'opzione è utilizzata nell'applicazione \"Referenze\". Se selezionata, la "
+"fase non viene visualizzata nella \"Dashboard delle referenze\" e non viene "
+"assegnato alcun punto al dipendente."
 
 #. module: hr_referral
 #: model_terms:ir.actions.act_window,help:hr_referral.employee_referral_report_action
@@ -1503,7 +1509,7 @@ msgstr "Cronologia comunicazioni sito web"
 #. module: hr_referral
 #: model:ir.model,name:hr_referral.model_hr_referral_onboarding
 msgid "Welcome Onboarding in Referral App"
-msgstr ""
+msgstr "Configurazione di benvenuto nell'applicazione referenze"
 
 #. module: hr_referral
 #: code:addons/hr_referral/models/hr_applicant.py:0
@@ -1535,7 +1541,7 @@ msgstr "Hai bisogno di un altro/a"
 #: code:addons/hr_referral/models/hr_applicant.py:0
 #, python-format
 msgid "Your referrer got a step further!"
-msgstr ""
+msgstr "Il tuo segnalatore ha fatto un passo avanti!"
 
 #. module: hr_referral
 #: code:addons/hr_referral/models/hr_applicant.py:0

@@ -3,8 +3,9 @@
 # 	* hr_referral
 # 
 # Translators:
-# Martin Trigaux, 2021
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2021
+# Pak Wai Ho, 2023
+# Martin Trigaux, 2023
 # Tony Ng, 2023
 # 
 msgid ""
@@ -412,7 +413,7 @@ msgstr ""
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_hr_referral_send_mail__email_to
 msgid "Email"
-msgstr "Email"
+msgstr "電郵"
 
 #. module: hr_referral
 #. openerp-web
@@ -469,7 +470,7 @@ msgstr "外部連結須以「http://www.」起首。內部網址則不須輸入�
 #. module: hr_referral
 #: model:ir.model.fields.selection,name:hr_referral.selection__hr_referral_link_to_share__channel__facebook
 msgid "Facebook"
-msgstr "臉書"
+msgstr "Facebook"
 
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_hr_job__facebook_clicks
@@ -539,7 +540,7 @@ msgstr ""
 #. module: hr_referral
 #: model_terms:ir.ui.view,arch_db:hr_referral.view_hr_referral_points_filter
 msgid "Gifts"
-msgstr ""
+msgstr "禮物"
 
 #. module: hr_referral
 #: model:ir.model.fields,help:hr_referral.field_hr_referral_points__sequence_stage
@@ -931,7 +932,7 @@ msgstr "On Click"
 #: model:ir.actions.act_window,name:hr_referral.action_hr_referral_onboarding_configuration
 #: model:ir.ui.menu,name:hr_referral.menu_hr_referral_onboarding_configuration
 msgid "Onboarding"
-msgstr ""
+msgstr "新手簡介"
 
 #. module: hr_referral
 #. openerp-web
@@ -962,7 +963,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_referral.view_hr_referral_reward_backend_kanban
 #: model_terms:ir.ui.view,arch_db:hr_referral.view_hr_referral_reward_kanban
 msgid "Points"
-msgstr ""
+msgstr "分"
 
 #. module: hr_referral
 #: model:ir.model.fields,field_description:hr_referral.field_hr_referral_report__points_not_hired

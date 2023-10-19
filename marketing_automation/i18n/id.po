@@ -191,12 +191,12 @@ msgstr ""
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__ab_testing_mailings_count
 msgid "A/B Test Mailings #"
-msgstr ""
+msgstr "A/B Test Mailings #"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__ab_testing_completed
 msgid "A/B Testing Campaign Finished"
-msgstr ""
+msgstr "Kampanye Testing A/B Selesai"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_participant__trace_ids
@@ -280,7 +280,7 @@ msgstr ""
 #. module: marketing_automation
 #: model:ir.model.fields,help:marketing_automation.field_marketing_campaign__is_auto_campaign
 msgid "Allows us to filter relevant Campaigns"
-msgstr ""
+msgstr "Izinkan kami untuk memfilter Kampanye yang relevan"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__domain
@@ -306,7 +306,7 @@ msgstr "Lampirkan berkas"
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__is_auto_campaign
 msgid "Automatically Generated Campaign"
-msgstr ""
+msgstr "Kampanye yang Dibuat Otomatis"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
@@ -323,7 +323,7 @@ msgstr "Kembali"
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__bounced_ratio
 msgid "Bounced Ratio"
-msgstr ""
+msgstr "Rasio Bounce"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__campaign_id
@@ -384,12 +384,12 @@ msgstr ""
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
 msgid "Clicked"
-msgstr ""
+msgstr "Diklik"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__links_click_datetime
 msgid "Clicked On"
-msgstr ""
+msgstr "Diklik Pada"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
@@ -454,6 +454,8 @@ msgstr "Dibuat pada"
 msgid ""
 "Date that will be used to know when to determine and send the winner mailing"
 msgstr ""
+"Tanggal yang akan digunakan untuk mengetahui kapan untuk menentukan dan "
+"mengirimkan mailing ke pemenang"
 
 #. module: marketing_automation
 #: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_activity__interval_type__days
@@ -696,7 +698,7 @@ msgstr ""
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__crm_lead_count
 msgid "Leads/Opportunities count"
-msgstr ""
+msgstr "Jumlah Lead/Opportunities"
 
 #. module: marketing_automation
 #: model:ir.actions.act_window,name:marketing_automation.link_tracker_action_marketing_campaign
@@ -770,17 +772,17 @@ msgstr ""
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.mailing_mailing_view_form_marketing_activity
 msgid "Mailing"
-msgstr ""
+msgstr "Mailing"
 
 #. module: marketing_automation
 #: model:ir.model,name:marketing_automation.model_mailing_trace
 msgid "Mailing Statistics"
-msgstr ""
+msgstr "Statistik Mailing"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__mass_mailing_id_mailing_type
 msgid "Mailing Type"
-msgstr ""
+msgstr "Tipe Mailing"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
@@ -815,7 +817,7 @@ msgstr ""
 #: model:ir.module.category,name:marketing_automation.module_marketing_automation_category
 #: model:ir.ui.menu,name:marketing_automation.marketing_automation_menu
 msgid "Marketing Automation"
-msgstr ""
+msgstr "Otomasi Marketing"
 
 #. module: marketing_automation
 #: model:ir.actions.act_window,name:marketing_automation.mail_mass_mailing_action_marketing_automation
@@ -878,12 +880,12 @@ msgstr "Pengiriman Massal"
 #: model:ir.model,name:marketing_automation.model_mailing_trace_report
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_trace_view_form
 msgid "Mass Mailing Statistics"
-msgstr ""
+msgstr "Statistik Email Massal"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__mailing_mail_ids
 msgid "Mass Mailings"
-msgstr ""
+msgstr "Email Massal"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__mailing_trace_ids
@@ -909,7 +911,7 @@ msgstr "Model"
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.ir_model_view_tree_marketing
 msgid "Model Description"
-msgstr ""
+msgstr "Keterangan Model"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__model_name
@@ -984,12 +986,12 @@ msgstr ""
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__mailing_mail_count
 msgid "Number of Mass Mailing"
-msgstr ""
+msgstr "Jumlah Email Massal"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__click_count
 msgid "Number of clicks generated by the campaign"
-msgstr ""
+msgstr "Jumlah klik yang dibuat oleh kampanye"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__social_engagement
@@ -1013,7 +1015,7 @@ msgstr "Dibuka"
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__opened_ratio
 msgid "Opened Ratio"
-msgstr ""
+msgstr "Rasio Dibuka"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.mailing_mailing_view_form_marketing_activity
@@ -1084,7 +1086,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:marketing_automation.mailing_mailing_view_form_marketing_activity
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
 msgid "Participants"
-msgstr ""
+msgstr "Partisipan"
 
 #. module: marketing_automation
 #: code:addons/marketing_automation/models/marketing_activity.py:0
@@ -1160,12 +1162,12 @@ msgstr ""
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form
 msgid "Replied"
-msgstr ""
+msgstr "Dibalas"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__replied_ratio
 msgid "Replied Ratio"
-msgstr ""
+msgstr "Rasio Dibalas"
 
 #. module: marketing_automation
 #: model:ir.ui.menu,name:marketing_automation.marketing_automation_reporting_menu
@@ -1195,7 +1197,7 @@ msgstr "Penanggung Jawab"
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form
 msgid "Run"
-msgstr ""
+msgstr "Jalankan"
 
 #. module: marketing_automation
 #: model:ir.model.fields.selection,name:marketing_automation.selection__marketing_campaign__state__running
@@ -1239,12 +1241,12 @@ msgstr ""
 #. module: marketing_automation
 #: model:ir.model.fields,help:marketing_automation.field_marketing_campaign__ab_testing_winner_selection
 msgid "Selection to determine the winner mailing that will be sent."
-msgstr ""
+msgstr "Pemilihan untuk menentukan mailing pemenang yang akan dikirim."
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__ab_testing_schedule_datetime
 msgid "Send Final On"
-msgstr ""
+msgstr "Kirim Final Pada"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__interval_number
@@ -1344,7 +1346,7 @@ msgstr "Dihentikan"
 #. module: marketing_automation
 #: model:ir.model.fields,help:marketing_automation.field_marketing_trace__links_click_datetime
 msgid "Stores last click datetime in case of multi clicks."
-msgstr ""
+msgstr "Simpan tanggalwaktu klik terakhir pada kasus multi-click."
 
 #. module: marketing_automation
 #: code:addons/marketing_automation/models/marketing_activity.py:0
@@ -1386,7 +1388,7 @@ msgstr "Target"
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_tree
 msgid "Target Model"
-msgstr ""
+msgstr "Target Model"
 
 #. module: marketing_automation
 #: model:ir.model.fields,help:marketing_automation.field_marketing_activity__mass_mailing_id_mailing_type
@@ -1458,7 +1460,7 @@ msgstr ""
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__total_sent
 msgid "Total Sent"
-msgstr ""
+msgstr "Total Dikirim"
 
 #. module: marketing_automation
 #: model:ir.actions.act_window,name:marketing_automation.marketing_trace_action
@@ -1482,7 +1484,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__trigger_type
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_trace__trigger_type
 msgid "Trigger Type"
-msgstr ""
+msgstr "Tipe Pemicu"
 
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_activity__utm_campaign_id
@@ -1508,7 +1510,7 @@ msgstr "Perbaharui"
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__use_leads
 msgid "Use Leads"
-msgstr ""
+msgstr "Gunakan Lead"
 
 #. module: marketing_automation
 #: model:ir.model.fields,help:marketing_automation.field_marketing_campaign__unique_field_id
@@ -1563,7 +1565,7 @@ msgstr "Selamat Datang!"
 #. module: marketing_automation
 #: model:ir.model.fields,field_description:marketing_automation.field_marketing_campaign__ab_testing_winner_selection
 msgid "Winner Selection"
-msgstr ""
+msgstr "Pemilihan Pemenang"
 
 #. module: marketing_automation
 #: model_terms:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_form

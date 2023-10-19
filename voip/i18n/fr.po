@@ -806,7 +806,7 @@ msgstr "Mot de passe SIP"
 #. module: voip
 #: model_terms:ir.ui.view,arch_db:voip.res_config_settings_view_form
 msgid "Schedule &amp; make calls from your database"
-msgstr "Planifiez et passez des appels depuis votre base de données"
+msgstr "Planifier & passer des appels depuis votre base de données"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_phonecall_log_wizard__reschedule_option

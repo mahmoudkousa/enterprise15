@@ -328,7 +328,7 @@ msgstr "プロジェクト"
 #. module: industry_fsm_sale
 #: model:ir.model,name:industry_fsm_sale.model_project_sale_line_employee_map
 msgid "Project Sales line, employee mapping"
-msgstr ""
+msgstr "プロジェクト販売明細、従業員マッピング"
 
 #. module: industry_fsm_sale
 #: model:ir.model.fields,field_description:industry_fsm_sale.field_project_task__quotation_count

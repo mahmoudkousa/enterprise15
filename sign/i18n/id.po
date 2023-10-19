@@ -641,7 +641,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__completion_date
 msgid "Completion Date"
-msgstr ""
+msgstr "Tanggal Selesai"
 
 #. module: sign
 #: model:ir.model,name:sign.model_res_config_settings
@@ -1082,7 +1082,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__datas
 msgid "File Content (base64)"
-msgstr ""
+msgstr "Konten File (base64)"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_duplicate_template_pdf__new_pdf
@@ -1174,7 +1174,7 @@ msgstr "Dikelompokkan berdasarkan"
 #. module: sign
 #: model:sign.template.tag,name:sign.sign_template_tag_1
 msgid "HR"
-msgstr ""
+msgstr "HR"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__has_default_template
@@ -1272,7 +1272,7 @@ msgstr "Informasi"
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_item_type__item_type__initial
 msgid "Initial"
-msgstr ""
+msgstr "Inisial"
 
 #. module: sign
 #. openerp-web
@@ -1491,6 +1491,12 @@ msgid "Main Attachment"
 msgstr "Lampiran Utama"
 
 #. module: sign
+#: code:addons/sign/models/sign_template.py:0
+#, python-format
+msgid "Malformed expression: %(exp)s"
+msgstr ""
+
+#. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
@@ -1581,7 +1587,7 @@ msgstr "Permintaan Saya"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_search
 msgid "My Templates"
-msgstr ""
+msgstr "Templat-Templat Saya"
 
 #. module: sign
 #: model:sign.template.tag,name:sign.sign_template_tag_2
@@ -1972,7 +1978,7 @@ msgstr "Kirim ulang SMS"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__redirect_url
 msgid "Redirect Link"
-msgstr ""
+msgstr "Alihkan Ulang Link"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_send_copy__request_id
@@ -2084,7 +2090,7 @@ msgstr "Peran"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_item_role_view_tree
 msgid "Role Name"
-msgstr ""
+msgstr "Nama Peran"
 
 #. module: sign
 #: model:ir.ui.menu,name:sign.sign_item_role_menu
@@ -2328,7 +2334,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sign._doc_sign
 #, python-format
 msgid "Sign Document"
-msgstr ""
+msgstr "Tandatangani Dokumen"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_duplicate_template_pdf
@@ -2424,7 +2430,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model,name:sign.model_sign_send_request
 msgid "Sign send request"
-msgstr ""
+msgstr "Tandatangani permintaan pengiriman"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_request_send_copy
@@ -2501,7 +2507,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sign.sign_send_request_view_form
 #, python-format
 msgid "Signature Request"
-msgstr ""
+msgstr "Permintaan Tanda Tangan"
 
 #. module: sign
 #: code:addons/sign/wizard/sign_send_request.py:0
@@ -2534,7 +2540,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__sign_request_ids
 msgid "Signature Requests"
-msgstr ""
+msgstr "Permintaan Tanda Tangan"
 
 #. module: sign
 #: model:ir.ui.menu,name:sign.sign_request_item_menu
@@ -2588,7 +2594,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.doc_sign
 msgid "Signed"
-msgstr ""
+msgstr "Ditandatangani"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__signed_count
@@ -2733,7 +2739,7 @@ msgstr "Label"
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
 msgid "Tags:"
-msgstr ""
+msgstr "Tag:"
 
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_item_type__auto_field
@@ -2930,8 +2936,23 @@ msgid "The template doesn't exist anymore."
 msgstr ""
 
 #. module: sign
+#: code:addons/sign/wizard/sign_duplicate_template_with_pdf.py:0
+#, python-format
+msgid "The uploaded file is not a valid PDF. Please upload a valid PDF file."
+msgstr ""
+
+#. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "There are no signatures request."
+msgstr ""
+
+#. module: sign
+#: code:addons/sign/models/sign_request.py:0
+#: code:addons/sign/models/sign_request.py:0
+#, python-format
+msgid ""
+"There was an issue downloading your document. Please contact an "
+"administrator."
 msgstr ""
 
 #. module: sign
@@ -3020,6 +3041,14 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Unable to send the SMS, please contact the sender of the document."
+msgstr ""
+
+#. module: sign
+#: code:addons/sign/controllers/main.py:0
+#, python-format
+msgid ""
+"Unable to sign the document due to missing required data. Please contact an "
+"administrator."
 msgstr ""
 
 #. module: sign

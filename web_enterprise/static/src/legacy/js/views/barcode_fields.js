@@ -6,7 +6,7 @@ require('web._field_registry');
 var relational_fields = require('web.relational_fields');
 
 const { _t } = require('web.core');
-const BarcodeScanner = require('@web_enterprise/webclient/barcode/barcode_scanner');
+const BarcodeScanner = require('@web_enterprise/webclient/barcode/barcode_scanner')[Symbol.for("default")];
 
 /**
  * Override the Many2One to open a dialog in mobile.

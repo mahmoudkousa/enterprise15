@@ -6,8 +6,9 @@
 # Martin Trigaux, 2021
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2021
 # monchai7 <montchye@gmail.com>, 2021
-# Amin Cheloh <nineamin@hotmail.com>, 2021
+# Amin Cheloh <amincheloh@gmail.com>, 2021
 # Wichanon Jamwutthipreecha, 2022
+# Rasareeyar Lappiam, 2023
 # 
 msgid ""
 msgstr ""
@@ -15,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Wichanon Jamwutthipreecha, 2022\n"
-"Language-Team: Thai (https://www.transifex.com/odoo/teams/41243/th/)\n"
+"Last-Translator: Rasareeyar Lappiam, 2023\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -26,12 +27,12 @@ msgstr ""
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
 msgid "(if applicable)"
-msgstr ""
+msgstr "(ถ้ามี)"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
 msgid "(optional)"
-msgstr ""
+msgstr "(ไม่บังคับ)"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
@@ -46,22 +47,22 @@ msgstr ""
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
 msgid "<strong>Address:</strong>"
-msgstr ""
+msgstr "<strong>ที่อยู่:</strong>"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
 msgid "<strong>City: </strong>"
-msgstr ""
+msgstr "<strong> เมือง: </strong>"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
 msgid "<strong>Country: </strong>"
-msgstr ""
+msgstr "<strong>ประเทศ: </strong>"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
 msgid "<strong>Creditor identifier:</strong>"
-msgstr ""
+msgstr "<strong>ตัวระบุเจ้าหนี้:</strong>"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
@@ -69,6 +70,8 @@ msgid ""
 "<strong>Date and place of signature:</strong> "
 "......................................"
 msgstr ""
+"<strong>วันที่และสถานที่ลงนาม:</strong> "
+"......................................"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
@@ -78,12 +81,12 @@ msgstr "<strong>อีเมลล์:</strong>"
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
 msgid "<strong>IBAN:</strong>"
-msgstr ""
+msgstr "<strong>IBAN:</strong>"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
 msgid "<strong>Mandate identifier:</strong>"
-msgstr ""
+msgstr "<strong>ตัวระบุข้อบังคับ:</strong>"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
@@ -91,6 +94,7 @@ msgid ""
 "<strong>Name of the reference party:</strong> "
 "......................................"
 msgstr ""
+"<strong>ชื่อของฝ่ายอ้างอิง:</strong> ......................................"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
@@ -100,28 +104,29 @@ msgstr "<strong>เบอร์โทร:</strong>"
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
 msgid "<strong>Signature:</strong>"
-msgstr ""
+msgstr "<strong>ลายเซ็น:</strong>"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
 msgid "<strong>Start date:</strong>"
-msgstr ""
+msgstr "<strong>วันที่เริ่มต้น:</strong>"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
 msgid "<strong>Transaction type:</strong> recurrent"
-msgstr ""
+msgstr "<strong>ประเภทธุรกรรม:</strong> เป็นประจำ"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
 msgid "<strong>Zip: </strong>"
-msgstr ""
+msgstr "<strong>รหัสไปรษณีย์: </strong>"
 
 #. module: account_sepa_direct_debit
 #: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:0
 #, python-format
 msgid "A debtor account is required to validate a SEPA Direct Debit mandate."
 msgstr ""
+"บัญชีลูกหนี้จำเป็นต้องตรวจสอบข้อบังคับการหักบัญชีเงินฝากอัตโนมัติ SEPA"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.actions.act_window,help:account_sepa_direct_debit.account_sepa_direct_debit_mandate_tree_act
@@ -129,11 +134,13 @@ msgid ""
 "A mandate represents the authorization you receive from a customer\n"
 "                    to automatically collect money on her account."
 msgstr ""
+"หนังสือมอบอำนาจแสดงถึงการอนุญาตที่คุณได้รับจากลูกค้า\n"
+"                    เพื่อรวบรวมเงินเข้าบัญชีของพวกเขาโดยอัตโนมัติ"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate__partner_bank_id
 msgid "Account of the customer to collect payments from."
-msgstr ""
+msgstr "บัญชีของลูกค้าที่จะเรียกเก็บเงินจาก"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__message_needaction
@@ -171,7 +178,7 @@ msgstr "ไอคอนประเภทกิจกรรม"
 #: code:addons/account_sepa_direct_debit/models/account_batch_payment.py:0
 #, python-format
 msgid "All the payments in the batch must have the same SDD scheme."
-msgstr ""
+msgstr "การชำระเงินทั้งหมดในชุดงานต้องมีรูปแบบ SDD เดียวกัน"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__message_attachment_count
@@ -192,7 +199,7 @@ msgstr "บัญชีธนาคาร"
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.view_batch_payment_form_inherit
 msgid "Batch Booking"
-msgstr ""
+msgstr "การจองเป็นชุด"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model,name:account_sepa_direct_debit.model_account_batch_payment
@@ -202,13 +209,13 @@ msgstr "เงินดาวน์"
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
 msgid "By signing this mandate form, you authorise (A)"
-msgstr ""
+msgstr "โดยการลงนามในแบบฟอร์มมอบอำนาจนี้ แสดงว่าคุณอนุญาต (A)"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields.selection,name:account_sepa_direct_debit.selection__account_batch_payment__sdd_scheme__core
 #: model:ir.model.fields.selection,name:account_sepa_direct_debit.selection__sdd_mandate__sdd_scheme__core
 msgid "CORE"
-msgstr ""
+msgstr "CORE"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
@@ -239,7 +246,7 @@ msgstr "บริษัท"
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate__company_id
 msgid "Company for whose invoices the mandate can be used."
-msgstr ""
+msgstr "บริษัทที่สามารถใช้ใบแจ้งหนี้ตามข้อกำหนดได้"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model,name:account_sepa_direct_debit.model_res_config_settings
@@ -254,17 +261,17 @@ msgstr "ติดต่อ"
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_account_payment__sdd_mandate_usable
 msgid "Could a SDD mandate be used?"
-msgstr ""
+msgstr "สามารถใช้คำสั่ง SDD ได้หรือไม่"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.actions.act_window,help:account_sepa_direct_debit.account_sepa_direct_debit_mandate_tree_act
 msgid "Create a new direct debit customer mandate"
-msgstr ""
+msgstr "สร้างข้อบังคับลูกค้าแบบหักบัญชีธนาคารใหม่"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_account_payment_form
 msgid "Create it."
-msgstr ""
+msgstr "สร้างขึ้นมา"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__create_uid
@@ -279,17 +286,17 @@ msgstr "สร้างเมื่อ"
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
 msgid "Creditor"
-msgstr ""
+msgstr "เจ้าหนี้"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_res_config_settings__sdd_creditor_identifier
 msgid "Creditor Identifier"
-msgstr ""
+msgstr "ตัวระบุเจ้าหนี้"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_res_config_settings__sdd_creditor_identifier
 msgid "Creditor identifier of your company within SEPA scheme."
-msgstr ""
+msgstr "ตัวระบุเจ้าหนี้ของบริษัทของคุณภายในโครงการ SEPA"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__partner_id
@@ -299,17 +306,17 @@ msgstr "ลูกค้า"
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
 msgid "Customer mandate"
-msgstr ""
+msgstr "ข้อบังคับของลูกค้า"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate__partner_id
 msgid "Customer whose payments are to be managed by this mandate."
-msgstr ""
+msgstr "ลูกค้าที่การชำระเงินจะต้องได้รับการจัดการตามข้อบังคับนี้"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate__start_date
 msgid "Date from which the mandate can be used (inclusive)."
-msgstr ""
+msgstr "วันที่ที่สามารถใช้ข้อบังคับได้ (รวม)"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate__end_date
@@ -317,21 +324,22 @@ msgid ""
 "Date until which the mandate can be used. It will automatically be closed "
 "after this date."
 msgstr ""
+"วันที่ถึงวันที่สามารถใช้ข้อบังคับได้ โดยจะปิดโดยอัตโนมัติหลังจากวันที่นี้"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_account_batch_payment__sdd_required_collection_date
 msgid "Date when the company expects to receive the payments of this batch."
-msgstr ""
+msgstr "วันที่บริษัทคาดว่าจะได้รับการชำระเงินสำหรับชุดนี้"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
 msgid "Debtor"
-msgstr ""
+msgstr "ลูกหนี้"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__debtor_id_code
 msgid "Debtor Identifier"
-msgstr ""
+msgstr "ตัวระบุลูกหนี้"
 
 #. module: account_sepa_direct_debit
 #: model:ir.actions.act_window,name:account_sepa_direct_debit.account_sepa_direct_debit_mandate_tree_act
@@ -339,23 +347,23 @@ msgstr ""
 #: model:ir.ui.menu,name:account_sepa_direct_debit.account_sepa_direct_debit_customer_mandates_menu
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.account_sdd_res_partner_view
 msgid "Direct Debit Mandates"
-msgstr ""
+msgstr "เอกสารการหักบัญชีธนาคาร"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_account_journal_dashboard_kanban_view
 msgid "Direct Debit Payment to Collect"
-msgstr ""
+msgstr "การหักบัญชีเงินฝากโดยตรงเพื่อรวบรวม"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__payments_to_collect_nber
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_account_journal_dashboard_kanban_view
 msgid "Direct Debit Payments to Collect"
-msgstr ""
+msgstr "การชำระเงินแบบหักบัญชีธนาคารเพื่อการรวบรวม"
 
 #. module: account_sepa_direct_debit
 #: model:ir.actions.act_window,name:account_sepa_direct_debit.action_sdd_payments_to_collect
 msgid "Direct debit payments to collect"
-msgstr ""
+msgstr "การชำระเงินแบบหักบัญชีธนาคารเพื่อการเก็บชำระ"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__display_name
@@ -382,7 +390,7 @@ msgstr "วันสิ้นสุด"
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_res_partner__sdd_mandate_ids
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_res_users__sdd_mandate_ids
 msgid "Every mandate belonging to this partner."
-msgstr ""
+msgstr "ข้อบังคับทุกอย่างที่เป็นของพาร์ทเนอร์รายนี้"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__message_follower_ids
@@ -402,12 +410,12 @@ msgstr "ไอคอนแบบอักษรที่ยอดเยี่ย
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate__debtor_id_code
 msgid "Free reference identifying the debtor in your company."
-msgstr ""
+msgstr "อ้างอิงฟรีเพื่อระบุลูกหนี้ในบริษัทของคุณ"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_account_payment_form
 msgid "Good news! A valid Sepa Mandate is available."
-msgstr ""
+msgstr "ข่าวดี! ข้อบังคับ Sepa ที่ถูกต้องสามารถใช้งานได้"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__has_message
@@ -417,7 +425,7 @@ msgstr "มีข้อความ"
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__partner_bank_id
 msgid "IBAN"
-msgstr ""
+msgstr "IBAN"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__id
@@ -437,7 +445,7 @@ msgstr "ไอคอนเพื่อระบุกิจกรรมการ
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
 msgid "Identification code"
-msgstr ""
+msgstr "รหัสประจำตัว"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__name
@@ -460,39 +468,40 @@ msgstr "ถ้าเลือก ข้อความบางข้อคว�
 #: code:addons/account_sepa_direct_debit/models/res_company.py:0
 #, python-format
 msgid "Invalid creditor identifier. Make sure you made no typo."
-msgstr ""
+msgstr "ตัวระบุเจ้าหนี้ไม่ถูกต้อง ตรวจสอบให้แน่ใจว่าคุณไม่ได้พิมพ์ผิด"
 
 #. module: account_sepa_direct_debit
 #: code:addons/account_sepa_direct_debit/models/res_company.py:0
 #, python-format
 msgid "Invalid creditor identifier. Wrong format."
-msgstr ""
+msgstr "ตัวระบุเจ้าหนี้ไม่ถูกต้อง เนื่องจากการใช้งานรูปแบบที่ผิด"
 
 #. module: account_sepa_direct_debit
 #: model:mail.message.subtype,description:account_sepa_direct_debit.sdd_mt_invoice_paid_with_mandate
 msgid "Invoice paid via direct debit."
-msgstr ""
+msgstr "ใบแจ้งหนี้ที่ชำระผ่านการหักบัญชีธนาคาร"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__paid_invoice_ids
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
 msgid "Invoices Paid"
-msgstr ""
+msgstr "ใบแจ้งหนี้ที่ชำระแล้ว"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.view_account_invoice_filter
 msgid "Invoices matching a valid SEPA Direct Debit Mandate"
 msgstr ""
+"ใบแจ้งหนี้ที่ตรงกับข้อกำหนดการหักบัญชีเงินฝากอัตโนมัติ SEPA ที่ถูกต้อง"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate__paid_invoice_ids
 msgid "Invoices paid using this mandate."
-msgstr ""
+msgstr "ใบแจ้งหนี้ที่ชำระโดยใช้เอกสารนี้"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
 msgid "Invoices paid with this mandate."
-msgstr ""
+msgstr "ใบแจ้งหนี้ที่ชำระด้วยข้อบังคับนี้"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__message_is_follower
@@ -519,7 +528,7 @@ msgstr "รายการสมุดบัญชีรายวัน"
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate__payment_journal_id
 msgid ""
 "Journal to use to receive SEPA Direct Debit payments from this mandate."
-msgstr ""
+msgstr "สมุดรายวันเพื่อใช้รับการชำระเงิน SEPA Direct Debit จากข้อบังคับนี้"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate____last_update
@@ -544,7 +553,7 @@ msgstr "เอกสารหลักที่แนบมา"
 #. module: account_sepa_direct_debit
 #: model:ir.actions.report,name:account_sepa_direct_debit.sdd_mandate_form_report_main
 msgid "Mandate form"
-msgstr ""
+msgstr "รูปแบบข้อบังคับ"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.constraint,message:account_sepa_direct_debit.constraint_sdd_mandate_name_unique
@@ -556,7 +565,7 @@ msgstr ""
 #: model:ir.cron,cron_name:account_sepa_direct_debit.sdd_mandate_state_cron
 #: model:ir.cron,name:account_sepa_direct_debit.sdd_mandate_state_cron
 msgid "Mandate state updater"
-msgstr ""
+msgstr "ตัวอัปเดตสถานะของข้อบังคับ"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__message_has_error
@@ -596,7 +605,7 @@ msgstr "ประเภทกิจกรรมถัดไป"
 #. module: account_sepa_direct_debit
 #: model_terms:ir.actions.act_window,help:account_sepa_direct_debit.action_sdd_payments_to_collect
 msgid "No direct debit payment to collect"
-msgstr ""
+msgstr "ไม่มีการชำระเงินแบบหักบัญชีเงินฝากโดยตรง"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__message_needaction_counter
@@ -611,6 +620,10 @@ msgid ""
 "mandate and still needs their XML file to be generated and sent to the bank "
 "to debit the customer's account."
 msgstr ""
+"จำนวนการชำระเงินแบบหักบัญชีอัตโนมัติที่จะรวบรวมสำหรับข้อบังคับนี้ นั่นคือ "
+"จำนวนการชำระเงินที่ได้รับการสร้างและลงรายการบัญชีตามข้อบังคับนี้ "
+"และยังคงต้องการให้สร้างไฟล์ XML "
+"และส่งไปที่ธนาคารเพื่อหักเงินจากบัญชีของลูกค้า"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__message_has_error_counter
@@ -655,11 +668,13 @@ msgid ""
 "Once this invoice has been paid with Direct Debit, contains the mandate that"
 " allowed the payment."
 msgstr ""
+"เมื่อใบแจ้งหนี้นี้ได้รับการชำระด้วยการหักบัญชีอัตโนมัติแล้ว "
+"จะมีข้อบังคับที่อนุญาตให้ชำระเงินได้"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__one_off
 msgid "One-off Mandate"
-msgstr ""
+msgstr "ข้อบังคับครั้งเดียว"
 
 #. module: account_sepa_direct_debit
 #: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:0
@@ -668,6 +683,8 @@ msgid ""
 "Only IBAN account numbers can receive SEPA Direct Debit payments. Please "
 "select a journal associated to one."
 msgstr ""
+"เฉพาะหมายเลขบัญชี IBAN เท่านั้น ที่สามารถรับการชำระเงิน SEPA Direct Debit "
+"ได้ โปรดเลือกสมุดรายวันที่เกี่ยวข้องกับหนึ่งรายการ"
 
 #. module: account_sepa_direct_debit
 #: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:0
@@ -675,22 +692,23 @@ msgstr ""
 msgid ""
 "Only mandates in draft state can be deleted from database when cancelled."
 msgstr ""
+"เฉพาะข้อบังคับที่อยู่ในสถานะฉบับร่างเท่านั้นที่สามารถลบออกจากฐานข้อมูลได้เมื่อถูกยกเลิก"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_account_payment_form
 msgid "Oops! No valid SEPA mandate for this customer."
-msgstr ""
+msgstr "Oops! ไม่มีข้อบังคับ SEPA ที่ถูกต้องสำหรับลูกค้ารายนี้"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.account_sdd_res_partner_view
 msgid "Open this partner's mandates"
-msgstr ""
+msgstr "เปิดเอกสารของพาร์ทเนอร์รายนี้"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_account_payment_form
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_account_payment_with_mandates_tree
 msgid "Originating SEPA mandate"
-msgstr ""
+msgstr "ที่มาของข้อบังคับ SEPA"
 
 #. module: account_sepa_direct_debit
 #: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:0
@@ -701,12 +719,12 @@ msgstr "ชำระแล้ว"
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__paid_invoices_nber
 msgid "Paid Invoices Number"
-msgstr ""
+msgstr "หมายเลขใบแจ้งหนี้ที่ชำระแล้ว"
 
 #. module: account_sepa_direct_debit
 #: model:mail.message.subtype,name:account_sepa_direct_debit.sdd_mt_invoice_paid_with_mandate
 msgid "Paid via direct debit"
-msgstr ""
+msgstr "ชำระเงินผ่านการหักบัญชีอัตโนมัติ"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model,name:account_sepa_direct_debit.model_account_payment_method
@@ -722,19 +740,19 @@ msgstr "การชำระ"
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
 msgid "Payments generated for this mandate that have not yet been collected."
-msgstr ""
+msgstr "การชำระเงินที่สร้างขึ้นสำหรับข้อบังคับนี้ที่ยังไม่ได้รับการชำระ"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate__payment_ids
 msgid "Payments generated thanks to this mandate."
-msgstr ""
+msgstr "การชำระเงินได้สร้างขึ้นแล้วเพราะข้อบังคับนี้"
 
 #. module: account_sepa_direct_debit
 #: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:0
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
 #, python-format
 msgid "Payments to Collect"
-msgstr ""
+msgstr "การชำระเงินที่ได้รับการชำระแล้ว"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_report_invoice_document
@@ -742,6 +760,8 @@ msgid ""
 "Please do not pay it manually, the payment will be asked to your bank to be processed\n"
 "                        automatically."
 msgstr ""
+"กรุณาอย่าชำระเงินด้วยตนเอง การชำระเงินจะถูกขอให้ธนาคารของคุณดำเนินการ\n"
+"                         โดยอัตโนมัติ"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.account_sepa_direct_debit_mandate_form
@@ -751,12 +771,12 @@ msgstr "พิมพ์"
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_account_batch_payment__sdd_batch_booking
 msgid "Request batch booking from the bank for the related bank statements."
-msgstr ""
+msgstr "คำขอการจองชุดงานจากธนาคารสำหรับรายการเดินบัญชีจากธนาคารที่เกี่ยวข้อง"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_account_batch_payment__sdd_required_collection_date
 msgid "Required collection date"
-msgstr ""
+msgstr "วันที่เก็บชำระที่จำเป็น"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__activity_user_id
@@ -771,33 +791,33 @@ msgstr "เพิกถอน"
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields.selection,name:account_sepa_direct_debit.selection__sdd_mandate__state__revoked
 msgid "Revoked"
-msgstr ""
+msgstr "เพิกถอนแล้ว"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_view_account_payment_search
 msgid "Revoked SDD Mandate"
-msgstr ""
+msgstr "เพิกถอนคำสั่ง SDD"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.view_account_payment_search
 msgid "SDD B2B"
-msgstr ""
+msgstr "SDD B2B"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_account_batch_payment__sdd_batch_booking
 msgid "SDD Batch Booking"
-msgstr ""
+msgstr "การจองชุด SDD"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.view_account_payment_search
 msgid "SDD CORE"
-msgstr ""
+msgstr "SDD CORE"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model,name:account_sepa_direct_debit.model_sdd_mandate
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.view_account_invoice_filter
 msgid "SDD Mandate"
-msgstr ""
+msgstr "ข้อบังคับ SDD"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_view_account_payment_search
@@ -811,24 +831,24 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_account_payment__sdd_mandate_scheme
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__sdd_scheme
 msgid "SDD Scheme"
-msgstr ""
+msgstr "โครงการ SDD"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_res_partner__sdd_count
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_res_users__sdd_count
 msgid "SDD count"
-msgstr ""
+msgstr "จำนวน SDD"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_res_company__sdd_creditor_identifier
 msgid "SDD creditor identifier"
-msgstr ""
+msgstr "ตัวระบุเจ้าหนี้ SDD"
 
 #. module: account_sepa_direct_debit
 #: code:addons/account_sepa_direct_debit/models/account_batch_payment.py:0
 #, python-format
 msgid "SDD scheme is set on the customer mandate."
-msgstr ""
+msgstr "โครงการ SDD ถูกกำหนดไว้ตามข้อบังคับของลูกค้า"
 
 #. module: account_sepa_direct_debit
 #: model:account.payment.method,name:account_sepa_direct_debit.payment_method_sdd
@@ -838,13 +858,14 @@ msgstr "เดบิต"
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
 msgid "SEPA Direct Debit Mandate"
-msgstr ""
+msgstr "ข้อบังคับการหักบัญชีอัตโนมัติของ SEPA"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_res_company__sdd_creditor_identifier
 msgid ""
 "SEPA Direct Debit creditor identifier of the company, given by the bank."
 msgstr ""
+"ตัวระบุเจ้าหนี้การหักบัญชีอัตโนมัติของ SEPA สำหรับบริษัทที่ได้รับจากธนาคาร"
 
 #. module: account_sepa_direct_debit
 #: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:0
@@ -853,6 +874,8 @@ msgid ""
 "SEPA Direct Debit scheme only accepts IBAN account numbers. Please select an"
 " IBAN-compliant debtor account for this mandate."
 msgstr ""
+"โครงการหักบัญชีอัตโนมัติของ SEPA ยอมรับเฉพาะหมายเลขบัญชี IBAN เท่านั้น "
+"โปรดเลือกบัญชีลูกหนี้ที่สอดคล้องกับ IBAN สำหรับเอกสารนี้"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__message_has_sms_error
@@ -864,7 +887,7 @@ msgstr "ข้อผิดพลาดในการส่ง SMS"
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_account_move__sdd_has_usable_mandate
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_account_payment__sdd_has_usable_mandate
 msgid "Sdd Has Usable Mandate"
-msgstr ""
+msgstr "Sdd มีข้อบังคับที่สามารถใช้งานได้"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_account_bank_statement_line__sdd_mandate_id
@@ -873,7 +896,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_res_partner__sdd_mandate_ids
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_res_users__sdd_mandate_ids
 msgid "Sdd Mandate"
-msgstr ""
+msgstr "ข้อบังคับ Sdd"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
@@ -887,6 +910,8 @@ msgid ""
 "Some draft payments could not be posted because of the lack of any active "
 "mandate."
 msgstr ""
+"ไม่สามารถผ่านรายการการชำระเงินฉบับร่างบางรายการได้ "
+"เนื่องจากไม่มีข้อบังคับที่ใช้งานอยู่"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__start_date
@@ -914,7 +939,7 @@ msgstr ""
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__suitable_journal_ids
 msgid "Suitable Journal"
-msgstr ""
+msgstr "สมุดรายวันที่เหมาะสม"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_account_payment__sdd_mandate_usable
@@ -934,6 +959,9 @@ msgid ""
 "offered exclusively to business payers.\n"
 "Some banks/businesses might not accept B2B SDD."
 msgstr ""
+"โครงการ B2B เป็นโครงการทางเลือก\n"
+"เสนอให้เฉพาะผู้ชำระเงินทางธุรกิจเท่านั้น\n"
+"ธนาคาร/ธุรกิจบางแห่งอาจไม่ยอมรับ B2B SDD"
 
 #. module: account_sepa_direct_debit
 #: code:addons/account_sepa_direct_debit/models/account_payment.py:0
@@ -942,12 +970,14 @@ msgid ""
 "The SEPA Direct Debit mandate associated to the payment has been revoked and"
 " cannot be used anymore."
 msgstr ""
+"ข้อบังคับการหักบัญชีอัตโนมัติของ SEPA "
+"ที่เกี่ยวข้องกับการชำระเงินได้ถูกเพิกถอนแล้วและไม่สามารถใช้ได้อีกต่อไป"
 
 #. module: account_sepa_direct_debit
 #: code:addons/account_sepa_direct_debit/models/res_company.py:0
 #, python-format
 msgid "The creditor identifier exceeds the maximum length of 35 characters."
-msgstr ""
+msgstr "ตัวระบุเจ้าหนี้มีความยาวเกินกำหนดที่ 35 ตัวอักษร"
 
 #. module: account_sepa_direct_debit
 #: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:0
@@ -956,13 +986,15 @@ msgid ""
 "The debtor identifier you specified exceeds the limitation of 35 characters "
 "imposed by SEPA regulation"
 msgstr ""
+"ตัวระบุลูกหนี้ที่คุณระบุ มีความยาวเกิน 35 ตัวอักษร "
+"ที่ถูกกำหนดโดยกฎระเบียบของ SEPA"
 
 #. module: account_sepa_direct_debit
 #: code:addons/account_sepa_direct_debit/models/sdd_mandate.py:0
 #, python-format
 msgid ""
 "The end date of the mandate must be posterior or equal to its start date."
-msgstr ""
+msgstr "วันที่สิ้นสุดของข้อบังคับจะต้องอยู่หลังหรือเท่ากับวันที่เริ่มต้น"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
@@ -971,6 +1003,9 @@ msgid ""
 "                specified time range. If no end date is specified,\n"
 "                you will have to contact us to stop its use."
 msgstr ""
+"ข้อบังคับจะใช้เพื่อชำระใบแจ้งหนี้ภายใน\n"
+"ช่วงเวลาที่ระบุเท่านั้น หากไม่มีการระบุวันที่สิ้นสุด\n"
+"คุณจำเป็นต้องติดต่อเราเพื่อหยุดการใช้งาน"
 
 #. module: account_sepa_direct_debit
 #: code:addons/account_sepa_direct_debit/models/account_payment.py:0
@@ -979,6 +1014,8 @@ msgid ""
 "The payment must be linked to a SEPA Direct Debit mandate in order to "
 "generate a Direct Debit XML."
 msgstr ""
+"การชำระเงินจะต้องเชื่อมโยงกับข้อบังคับการหักบัญชีอัตโนมัติของ SEPA "
+"เพื่อสร้างการหักบัญชีอัตโนมัติ XML "
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate__state
@@ -988,11 +1025,15 @@ msgid ""
 "- 'active' means that this mandate can be used to pay invoices. \n"
 "- 'closed' designates a mandate that has been marked as not to use anymore without invalidating the previous transactions done with it.- 'revoked' means the mandate has been signaled as fraudulent by the customer. It cannot be used anymore, and should not ever have been. You will probably need to refund the related invoices, if any.\n"
 msgstr ""
+"สถานะที่อยู่ในข้อบังคับนี้\n"
+"- 'ฉบับร่าง' หมายความว่าข้อบังคับนี้ยังต้องได้รับการยืนยันก่อนจึงจะสามารถใช้งานได้\n"
+"- 'กำลังใช้งานอยู่' หมายความว่าข้อบังคับนี้สามารถใช้เพื่อชำระใบแจ้งหนี้ได้\n"
+"- 'ปิด' กำหนดข้อบังคับที่ถูกทำเครื่องหมายว่าไม่ใช้อีกต่อไป โดยไม่ทำให้ธุรกรรมก่อนหน้าเป็นโมฆะ - 'เพิกถอน' หมายความว่าข้อบังคับดังกล่าวได้รับการส่งสัญญาณว่าเป็นการฉ้อโกงโดยลูกค้า ซึ่งไม่สามารถใช้ได้อีกต่อไป และไม่ควรจะมีอีกต่อไป คุณอาจต้องคืนเงินตามใบแจ้งหนี้ที่เกี่ยวข้อง ถ้ามี\n"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate__name
 msgid "The unique identifier of this mandate."
-msgstr ""
+msgstr "ตัวระบุเฉพาะของข้อบังคับนี้"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_report_invoice_document
@@ -1000,6 +1041,8 @@ msgid ""
 "This invoice will be paid using direct debit and is only\n"
 "                        sent for informative purposes."
 msgstr ""
+"ใบแจ้งหนี้นี้จะชำระโดยใช้การหักบัญชีอัตโนมัติ\n"
+"                        และส่งไปเพื่อวัตถุประสงค์ในการให้ข้อมูลเท่านั้น"
 
 #. module: account_sepa_direct_debit
 #: code:addons/account_sepa_direct_debit/models/account_batch_payment.py:0
@@ -1008,6 +1051,9 @@ msgid ""
 "To solve that, you should create a mandate for each of the involved "
 "customers, valid at the moment of the payment date."
 msgstr ""
+"เพื่อแก้ไขปัญหาดังกล่าว "
+"คุณควรสร้างข้อบังคับสำหรับลูกค้าที่เกี่ยวข้องแต่ละราย ซึ่งใช้ได้ ณ "
+"เวลาที่ชำระเงิน"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate__one_off
@@ -1016,6 +1062,9 @@ msgid ""
 "will automatically go from 'active' to 'closed' after its first use in "
 "payment if this option is set.\n"
 msgstr ""
+"True ต่อเมื่อเอกสารนี้สามารถใช้ได้สำหรับธุรกรรมเดียวเท่านั้น "
+"ซึ่งจะเปลี่ยนจาก 'กำลังใช้งานอยู่' เป็น 'ปิด' "
+"โดยอัตโนมัติหลังจากการใช้งานครั้งแรกในการชำระเงิน หากตั้งค่าตัวเลือกนี้ไว้\n"
 
 #. module: account_sepa_direct_debit
 #: code:addons/account_sepa_direct_debit/models/account_payment.py:0
@@ -1024,6 +1073,8 @@ msgid ""
 "Trying to generate a Direct Debit XML file containing payments from another "
 "company than that file's creditor."
 msgstr ""
+"กำลังพยายามสร้างไฟล์การหักบัญชีอัตโนมัติ XML "
+"ที่มีการชำระเงินจากบริษัทอื่นที่ไม่ใช่เจ้าหนี้ของไฟล์นั้น"
 
 #. module: account_sepa_direct_debit
 #: code:addons/account_sepa_direct_debit/models/account_payment.py:0
@@ -1032,6 +1083,9 @@ msgid ""
 "Trying to generate a Direct Debit XML for payments coming from another "
 "payment method than SEPA Direct Debit."
 msgstr ""
+"กำลังพยายามสร้างการหักบัญชีอัตโนมัติ XML "
+"สำหรับการชำระเงินที่มาจากวิธีการชำระเงินอื่นที่ไม่ใช่การหักบัญชีอัตโนมัติของ"
+" SEPA"
 
 #. module: account_sepa_direct_debit
 #: code:addons/account_sepa_direct_debit/models/account_payment.py:0
@@ -1040,6 +1094,7 @@ msgstr ""
 msgid ""
 "Trying to register a payment on a mandate belonging to a different partner."
 msgstr ""
+"กำลังพยายามลงทะเบียนการชำระเงินตามข้อบังคับที่เป็นของพาร์ทเนอร์รายอื่น"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate__activity_exception_decoration
@@ -1054,6 +1109,9 @@ msgid ""
 "at date %(date)s for partner %(partner)r. Please create one before encoding "
 "a SEPA Direct Debit payment."
 msgstr ""
+"ไม่สามารถผ่านรายการการชำระเงิน %(payment)r เนื่องจากไม่มีเอกสารที่ใช้งานได้ "
+"ณ วันที่ %(date)s สำหรับพาร์ทเนอร์ %(partner)r. "
+"โปรดสร้างบัญชีก่อนเข้ารหัสการชำระเงินแบบหักบัญชีอัตโนมัติของ SEPA"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__message_unread
@@ -1092,6 +1150,8 @@ msgid ""
 "You cannot delete a bank account linked to an active SEPA Direct Debit "
 "mandate."
 msgstr ""
+"คุณไม่สามารถลบบัญชีธนาคารที่เชื่อมโยงกับข้อบังคับการหักบัญชีอัตโนมัติ SEPA "
+"ที่กำลังใช้งานอยู่ได้"
 
 #. module: account_sepa_direct_debit
 #: code:addons/account_sepa_direct_debit/models/account_batch_payment.py:0
@@ -1100,6 +1160,8 @@ msgid ""
 "You cannot generate a SEPA Direct Debit file with a required collection date"
 " in the past."
 msgstr ""
+"คุณไม่สามารถสร้างไฟล์การหักบัญชีอัตโนมัติ SEPA "
+"ด้วยวันที่เรียกเก็บเงินที่กำหนดในอดีตได้"
 
 #. module: account_sepa_direct_debit
 #: code:addons/account_sepa_direct_debit/models/account_batch_payment.py:0
@@ -1108,6 +1170,8 @@ msgid ""
 "Your company must have a creditor identifier in order to issue SEPA Direct "
 "Debit payments requests. It can be defined in accounting module's settings."
 msgstr ""
+"บริษัทของคุณต้องมีตัวระบุเจ้าหนี้เพื่อออกคำขอการชำระเงินแบบหักบัญชีอัตโนมัติ"
+" SEPA สามารถกำหนดได้ในการตั้งค่าของโมดูลระบบบัญชี"
 
 #. module: account_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:account_sepa_direct_debit.sdd_mandate_form
@@ -1115,3 +1179,5 @@ msgid ""
 "to send instructions to your bank to debit your account and (B) your bank to"
 " debit your account in accordance with the instructions from"
 msgstr ""
+"ที่จะส่งคำแนะนำไปยังธนาคารของคุณ เพื่อหักบัญชีของคุณ และ (B) "
+"ธนาคารของคุณเพื่อหักบัญชีของคุณตามคำแนะนำจาก"

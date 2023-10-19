@@ -3,8 +3,8 @@
 # 	* hr_recruitment_reports
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-11 09:32+0000\n"
 "PO-Revision-Date: 2021-09-14 12:40+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Martin Trigaux, 2023\n"
+"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -84,12 +84,12 @@ msgstr "ID"
 #. module: hr_recruitment_reports
 #: model:ir.model.fields,field_description:hr_recruitment_reports.field_hr_recruitment_report__job_id
 msgid "Job"
-msgstr "Arbeitsstelle"
+msgstr "Stelle"
 
 #. module: hr_recruitment_reports
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_reports.recruitment_report_view_search
 msgid "Job Position"
-msgstr "Beruf"
+msgstr "Stelle"
 
 #. module: hr_recruitment_reports
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_reports.recruitment_report_view_search
@@ -111,7 +111,7 @@ msgstr "Medium"
 #: model:ir.model.fields,field_description:hr_recruitment_reports.field_hr_recruitment_report__process_duration
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_reports.hr_recruitment_report_view_dashboard
 msgid "Process Duration"
-msgstr "Prozessdauer"
+msgstr "Verfahrensdauer"
 
 #. module: hr_recruitment_reports
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_reports.hr_recruitment_report_view_dashboard
@@ -124,7 +124,7 @@ msgstr "Prozessdauer in Tagen"
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_reports.recruitment_report_view_pivot
 #: model_terms:ir.ui.view,arch_db:hr_recruitment_reports.recruitment_report_view_search
 msgid "Recruitment Analysis"
-msgstr "Statistik Personalbeschaffung"
+msgstr "Einstellungsanalyse"
 
 #. module: hr_recruitment_reports
 #: model:ir.model,name:hr_recruitment_reports.model_hr_recruitment_report
@@ -144,7 +144,7 @@ msgstr "Ablehnungsgrund"
 #. module: hr_recruitment_reports
 #: model:ir.model.fields,field_description:hr_recruitment_reports.field_hr_recruitment_report__stage_id
 msgid "Stage"
-msgstr "Stufe"
+msgstr "Phase"
 
 #. module: hr_recruitment_reports
 #: model:ir.model.fields,field_description:hr_recruitment_reports.field_hr_recruitment_report__create_date

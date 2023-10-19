@@ -39,8 +39,8 @@ msgid ""
 "A set of condition and actions which will be available to all attachments "
 "matching the conditions"
 msgstr ""
-"Estarán disponibles un conjunto de condiciones y acciones para todos los "
-"archivos adjuntos que coincidan con las condiciones"
+"Un conjunto de condiciones y acciones que estarán disponibles para todos los"
+" archivos adjuntos que coincidan con las condiciones"
 
 #. module: documents_product
 #: model_terms:ir.ui.view,arch_db:documents_product.res_config_settings_view_form

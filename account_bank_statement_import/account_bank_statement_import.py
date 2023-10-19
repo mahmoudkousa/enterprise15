@@ -301,7 +301,7 @@ class AccountBankStatementImport(models.TransientModel):
                     format_values['seq'] = int(number)
                     #build the full name like BNK/2016/00135 by just giving the number '135'
                     statement.name = format.format(**format_values)
-                if statement.balance_end == statement.balance_end_real:
+                if not statement.currency_id.compare_amounts(statement.balance_end, statement.balance_end_real):
                     statement.button_post()
                 statement_line_ids.extend(statement.line_ids.ids)
         if len(statement_line_ids) == 0:

@@ -38,7 +38,7 @@ msgstr "%s 문서"
 #: code:addons/documents/static/src/js/documents_controller_mixin.js:0
 #, python-format
 msgid "%s Documents (%s locked)"
-msgstr ""
+msgstr "%s 문서 (%s 잠김)"
 
 #. module: documents
 #. openerp-web
@@ -75,6 +75,8 @@ msgid ""
 "your documents in bulk with the split tool: launch user defined actions, "
 "request a signature, convert to vendor bills with AI, etc."
 msgstr ""
+". 스캔한 파일은 작업 공간에 자동으로 나타납니다. 이후, 분할 도구를 통해 문서를 일괄 처리하게 됩니다. 사용자 지정 작업을 시작하거나"
+" 서명 요청 혹은 AI를 사용하여 공급업체 청구서로 변환하는 등의 작업이 가능합니다. "
 
 #. module: documents
 #: model:documents.tag,name:documents.documents_finance_fiscal_year_2017
@@ -84,12 +86,12 @@ msgstr ""
 #. module: documents
 #: model:documents.tag,name:documents.documents_finance_fiscal_year_2018
 msgid "2022"
-msgstr ""
+msgstr "2022"
 
 #. module: documents
 #: model_terms:digest.tip,tip_description:documents.digest_tip_documents_0
 msgid "<b class=\"tip_title\">Tip: Become a paperless company</b>"
-msgstr ""
+msgstr "<b class=\"tip_title\">도움말: 종이 없는 회사 만들기</b>"
 
 #. module: documents
 #: code:addons/documents/controllers/main.py:0
@@ -119,7 +121,7 @@ msgstr "<b>Bytes</b>"
 #: code:addons/documents/static/src/js/tours/documents.js:0
 #, python-format
 msgid "<b>Deselect this page</b> as we plan to process all bills first."
-msgstr ""
+msgstr "먼저 업체 청구서를 모두 처리할 예정이오니 <b>페이지를 선택 해제하세요</b>."
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.format_file_size
@@ -175,7 +177,7 @@ msgstr "<i class=\"fa fa-download fa-fw\"/> 내려받기"
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.document_view_kanban
 msgid "<i class=\"fa fa-globe\" title=\"Document url\"/>"
-msgstr ""
+msgstr "<i class=\"fa fa-globe\" title=\"Document url\"/>"
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.share_single
@@ -486,7 +488,7 @@ msgstr "추가 작업"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_workflow_rule__name
 msgid "Action Button Name"
-msgstr ""
+msgstr "작업 버튼 이름"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_folder__action_count
@@ -576,7 +578,7 @@ msgstr "추가"
 #: code:addons/documents/static/src/owl/components/pdf_manager/pdf_manager.xml:0
 #, python-format
 msgid "Add File"
-msgstr ""
+msgstr "파일 추가"
 
 #. module: documents
 #: model:ir.actions.act_window,name:documents.action_url_form
@@ -588,7 +590,7 @@ msgstr "URL 추가"
 #: code:addons/documents/static/src/xml/documents_views.xml:0
 #, python-format
 msgid "Add a Link"
-msgstr ""
+msgstr "링크 추가"
 
 #. module: documents
 #. openerp-web
@@ -598,7 +600,7 @@ msgstr ""
 #: code:addons/documents/static/src/owl/components/pdf_manager/pdf_manager.xml:0
 #, python-format
 msgid "Add new file"
-msgstr ""
+msgstr "새로운 파일 추가"
 
 #. module: documents
 #: model:res.groups,name:documents.group_documents_manager
@@ -655,14 +657,14 @@ msgstr "문서를 관리할 수 있습니다."
 #: code:addons/documents/models/workflow.py:0
 #, python-format
 msgid "Already linked Documents"
-msgstr ""
+msgstr "이미 연결되어 있는 문서임"
 
 #. module: documents
 #: model_terms:digest.tip,tip_description:documents.digest_tip_documents_0
 msgid ""
 "An easy way to process incoming mails is to configure your scanner to send "
 "PDFs to"
-msgstr ""
+msgstr "받은 메일을 쉽게 처리하려면 다음으로 PDF 파일을 전송하도록 스캐너 설정을 해놓으시면 됩니다."
 
 #. module: documents
 #: model_terms:digest.tip,tip_description:documents.digest_tip_documents_0
@@ -673,6 +675,9 @@ msgid ""
 "launch user defined actions, request a signature, convert to vendor bills "
 "with AI, etc."
 msgstr ""
+"받은 메일을 쉽게 처리하려면 작업 공간으로 PDF 파일을 전송하도록 스캐너 설정을 해놓으시면 됩니다. 스캔한 파일은 작업 공간에 자동으로"
+" 나타납니다. 이후, 분할 도구를 통해 문서를 일괄 처리합니다 사용자 지정 작업을 시작하거나 서명 요청, AI를 사용하여 공급업체 "
+"청구서로 변환하는 등의 작업이 가능합니다."
 
 #. module: documents
 #. openerp-web
@@ -687,7 +692,7 @@ msgstr "보관"
 #: code:addons/documents/static/src/owl/components/pdf_manager/pdf_manager.xml:0
 #, python-format
 msgid "Archive original file(s)"
-msgstr ""
+msgstr "원본 파일 보관"
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.document_view_form
@@ -708,12 +713,12 @@ msgstr ""
 #, python-format
 msgid ""
 "As this PDF contains multiple documents, let's split and process in bulk."
-msgstr ""
+msgstr "이 PDF 에는 여러 개의 문서가 포함되어 있으므로, 분할하여 일괄 처리하겠습니다."
 
 #. module: documents
 #: model:documents.workflow.rule,name:documents.documents_rule_finance_afv
 msgid "Ask for Validation"
-msgstr ""
+msgstr "승인 요청"
 
 #. module: documents
 #: model:documents.facet,name:documents.documents_marketing_assets
@@ -766,6 +771,9 @@ msgid ""
 "class=\"o_folder_description_alias\"><strong>inbox-financial</strong> email "
 "alias</span>."
 msgstr ""
+"받은 편지함을 자동화하여 스캔한 문서나 이메일이 <span "
+"class=\"o_folder_description_alias\"><strong>받은 편지함-금융</strong> 별칭 이메일로 "
+"수신되도록 합니다."
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__available_rule_ids
@@ -834,21 +842,21 @@ msgstr "체크섬/SHA1"
 #: code:addons/documents/models/workflow.py:0
 #, python-format
 msgid "Choose a record to link"
-msgstr ""
+msgstr "연결할 레코드 선택"
 
 #. module: documents
 #. openerp-web
 #: code:addons/documents/static/src/js/tours/documents.js:0
 #, python-format
 msgid "Click on a card to <b>select the document</b>."
-msgstr ""
+msgstr "카드를 클릭하여 <b>문서를 선택</b>하세요."
 
 #. module: documents
 #. openerp-web
 #: code:addons/documents/static/src/js/tours/documents.js:0
 #, python-format
 msgid "Click on a thumbnail to <b>preview the document</b>."
-msgstr ""
+msgstr "<b>문서 미리보기</b>를 하려면 썸네일을 클릭하세요."
 
 #. module: documents
 #. openerp-web
@@ -857,7 +865,7 @@ msgstr ""
 msgid ""
 "Click on the <b>page separator</b>: we don't want to split these two pages "
 "as they belong to the same document."
-msgstr ""
+msgstr "<b>페이지 구분 기호</b>를 선택하세요. 해당 페이지는 같은 문서에 있는 두 페이지이므로 분할하지 않습니다."
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__company_id
@@ -884,7 +892,7 @@ msgstr "구성"
 #: model_terms:ir.ui.view,arch_db:documents.share_view_form
 #: model_terms:ir.ui.view,arch_db:documents.share_view_form_popup
 msgid "Configure Email Servers"
-msgstr ""
+msgstr "이메일 서버 설정"
 
 #. module: documents
 #: model:ir.model,name:documents.model_res_partner
@@ -1072,7 +1080,7 @@ msgstr "문서 요청"
 #: model:mail.template,subject:documents.mail_template_document_request
 msgid ""
 "Document Request {{ object.name != False and ': '+ object.name or '' }}"
-msgstr ""
+msgstr "문서 요청 {{ object.name != False and ': '+ object.name or '' }}"
 
 #. module: documents
 #: code:addons/documents/models/document.py:0
@@ -1125,7 +1133,7 @@ msgstr "문서"
 #. module: documents
 #: model:ir.model,name:documents.model_documents_link_to_record_wizard
 msgid "Documents Link to Record"
-msgstr ""
+msgstr "레코드로 문서 연결"
 
 #. module: documents
 #: model:ir.model,name:documents.model_documents_share
@@ -1178,7 +1186,7 @@ msgstr "다운로드"
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.share_page
 msgid "Download all files"
-msgstr ""
+msgstr "전체 파일 다운로드"
 
 #. module: documents
 #: model:ir.model.fields.selection,name:documents.selection__documents_share__action__downloadupload
@@ -1432,6 +1440,8 @@ msgid ""
 "Incoming letters sent to <span class=\"o_folder_description_alias\">inbox "
 "email alias</span> will be added to your inbox automatically."
 msgstr ""
+"<span class=\"o_folder_description_alias\">별칭인 받은 메일함</span>으로 받은 메일은 받은 "
+"편지함에 자동으로 추가됩니다."
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__index_content
@@ -1446,7 +1456,7 @@ msgstr "내부"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__is_editable_attachment
 msgid "Is Editable Attachment"
-msgstr ""
+msgstr "편집 가능한 첨부 파일입니다."
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__is_favorited
@@ -1515,21 +1525,21 @@ msgstr "합법"
 msgid ""
 "Let's process documents in your Inbox.<br/><i>Tip: Use Tags to filter "
 "documents and structure your process.</i>"
-msgstr ""
+msgstr "받은 메일함에서 문서를 처리해봅시다.<br/><i>도움말: 문서 필터와 작업 구축에 필터를 활용하세요.</i>"
 
 #. module: documents
 #. openerp-web
 #: code:addons/documents/static/src/js/tours/documents.js:0
 #, python-format
 msgid "Let's process these bills: send to Finance workspace."
-msgstr ""
+msgstr "이 업체 청구서를 처리해봅시다. 재무 작업 공간으로 전송합니다."
 
 #. module: documents
 #. openerp-web
 #: code:addons/documents/static/src/js/tours/documents.js:0
 #, python-format
 msgid "Let's process this document, coming from our scanner."
-msgstr ""
+msgstr "스캐너에서 전송된 이 문서를 처리해봅시다."
 
 #. module: documents
 #. openerp-web
@@ -1539,6 +1549,7 @@ msgid ""
 "Let's tag this mail as legal<br/> <i>Tips: actions can be tailored to your "
 "process, according to the workspace.</i>"
 msgstr ""
+"이 메일에 법률 관련 태그를 지정합시다.<br/><i>도움말: 작업 공간에 따라서 프로세스에 맞게 작업을 조정할 수 있습니다.</i>"
 
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_folder__user_specific
@@ -1548,7 +1559,7 @@ msgstr "읽기 그룹을 자신이 소유한 문서로 제한하십시오."
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_folder__user_specific_write
 msgid "Limit Write Groups to the documents of which they are owner."
-msgstr ""
+msgstr "문서 소유자가 쓰기 그룹인 경우로 제한합니다."
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.documents_link_to_record_form_view
@@ -1558,7 +1569,7 @@ msgstr "링크"
 #. module: documents
 #: model:ir.model.fields.selection,name:documents.selection__documents_workflow_rule__create_model__link_to_record
 msgid "Link to record"
-msgstr ""
+msgstr "기록용 링크"
 
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_document__email_cc
@@ -1740,14 +1751,14 @@ msgstr "이름 또는 범주에 다음 포함 : %s"
 #: code:addons/documents/static/src/owl/components/pdf_manager/pdf_manager.js:0
 #, python-format
 msgid "New File"
-msgstr ""
+msgstr "새로운 파일"
 
 #. module: documents
 #. openerp-web
 #: code:addons/documents/static/src/owl/components/pdf_manager/pdf_manager.js:0
 #, python-format
 msgid "New Group"
-msgstr ""
+msgstr "새 그룹"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__activity_calendar_event_id
@@ -1774,12 +1785,12 @@ msgstr "다음 활동 유형"
 #: code:addons/documents/static/src/owl/components/pdf_manager/pdf_manager.js:0
 #, python-format
 msgid "No document has been selected"
-msgstr ""
+msgstr "선택된 문서가 없습니다."
 
 #. module: documents
 #: model_terms:ir.actions.act_window,help:documents.share_action
 msgid "No shared links"
-msgstr ""
+msgstr "공유된 링크가 없습니다."
 
 #. module: documents
 #: code:addons/documents/models/document.py:0
@@ -1865,7 +1876,7 @@ msgstr ""
 #: code:addons/documents/static/src/xml/documents_views.xml:0
 #, python-format
 msgid "Or send emails to"
-msgstr ""
+msgstr "또는 다음으로 이메일을 전송합니다."
 
 #. module: documents
 #: model:documents.tag,name:documents.documents_internal_knowledge_other
@@ -1881,14 +1892,14 @@ msgstr "자신의 문서만"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_folder__user_specific_write
 msgid "Own Documents Only (Write)"
-msgstr ""
+msgstr "내 문서만 (쓰기)"
 
 #. module: documents
 #: model:ir.model.constraint,message:documents.constraint_documents_folder_check_user_specific
 msgid ""
 "Own Documents Only may not be enabled for write groups if it is not enabled "
 "for read groups."
-msgstr ""
+msgstr "내 문서만 기능을 읽기 그룹에서 사용할 수 없도록 한 경우 쓰기 그룹에서도 사용하지 못할 수 있습니다."
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__owner_id
@@ -1981,7 +1992,7 @@ msgstr "레코드 스레드 ID"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_workflow_rule__domain_folder_id
 msgid "Related Workspace"
-msgstr ""
+msgstr "관련 작업 공간"
 
 #. module: documents
 #. openerp-web
@@ -1989,7 +2000,7 @@ msgstr ""
 #: code:addons/documents/static/src/owl/components/pdf_manager/pdf_manager.js:0
 #, python-format
 msgid "Remaining Pages"
-msgstr ""
+msgstr "잔여 페이지"
 
 #. module: documents
 #: model:ir.model.fields.selection,name:documents.selection__documents_workflow_action__action__remove
@@ -2025,7 +2036,7 @@ msgstr "요청 활동"
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.documents_request_form_view
 msgid "Request To"
-msgstr ""
+msgstr "요청 대상"
 
 #. module: documents
 #. openerp-web
@@ -2135,12 +2146,12 @@ msgstr "태그 선택"
 #: code:addons/documents/static/src/js/tours/documents.js:0
 #, python-format
 msgid "Send this letter to the legal department, by assigning the right tags."
-msgstr ""
+msgstr "알맞은 태그를 지정하여 이 메일을 법무팀으로 전송하세요."
 
 #. module: documents
 #: model:documents.workflow.rule,name:documents.documents_rule_internal_legal
 msgid "Send to Legal"
-msgstr ""
+msgstr "법무팀으로 전송"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_facet__sequence
@@ -2173,7 +2184,7 @@ msgstr "태그 설정"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_workflow_rule__has_owner_activity
 msgid "Set the activity on the document owner"
-msgstr ""
+msgstr "문서 소유자의 활동 설정"
 
 #. module: documents
 #: model:ir.actions.act_window,name:documents.configuration_action
@@ -2260,7 +2271,7 @@ msgstr "태그 공유함"
 #. module: documents
 #: model:ir.ui.menu,name:documents.share_menu
 msgid "Shares & Emails"
-msgstr ""
+msgstr "공유 및 이메일"
 
 #. module: documents
 #. openerp-web
@@ -2272,7 +2283,7 @@ msgstr "사이즈"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_workflow_rule__link_model
 msgid "Specific Model Linked"
-msgstr ""
+msgstr "연결된 특정 모델"
 
 #. module: documents
 #. openerp-web
@@ -2290,7 +2301,7 @@ msgstr "분할"
 #: code:addons/documents/static/src/xml/documents_thread.xml:0
 #, python-format
 msgid "Split PDF"
-msgstr ""
+msgstr "PDF 분할"
 
 #. module: documents
 #: model:documents.facet,name:documents.documents_finance_status
@@ -2461,12 +2472,12 @@ msgstr "미리보기 이미지"
 #: code:addons/documents/static/src/xml/documents_views.xml:0
 #, python-format
 msgid "Tip: configure your scanner to send all documents to this address."
-msgstr ""
+msgstr "도움말: 스캐너 설정을 하면 이 주소로 모든 문서를 전송합니다."
 
 #. module: documents
 #: model:digest.tip,name:documents.digest_tip_documents_0
 msgid "Tip: Become a paperless company"
-msgstr ""
+msgstr "도움말: 종이없는 회사를 만들어 보세요."
 
 #. module: documents
 #: model:documents.tag,name:documents.documents_finance_status_tc
@@ -2489,7 +2500,7 @@ msgstr "툴팁"
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_document__is_editable_attachment
 msgid "True if we can edit the link attachment."
-msgstr ""
+msgstr "True 값인 경우 첨부 링크를 편집할 수 있습니다."
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__type
@@ -2577,7 +2588,7 @@ msgstr "이메일을 통해 업로드"
 #: code:addons/documents/models/mail_activity.py:0
 #, python-format
 msgid "Upload file request"
-msgstr ""
+msgstr "요청받은 파일 업로드"
 
 #. module: documents
 #: model:res.groups,name:documents.group_documents_user
@@ -2616,7 +2627,7 @@ msgstr "동영상"
 #, python-format
 msgid ""
 "Want to become a <b>paperless company</b>? Let's discover Odoo Documents."
-msgstr ""
+msgstr "<b>종이 없는 회사</b>를 만들고자 하시나요? Odoo 문서를 확인해보세요."
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__website_message_ids
@@ -2672,6 +2683,7 @@ msgid ""
 "Wow... 6 documents processed in a few seconds, You're good.<br/>The tour is "
 "complete. Try uploading your own documents now."
 msgstr ""
+"대단합니다. 몇 초 만에 6건의 문서를 처리했습니다. 잘하셨습니다.<br/>투어를 마치셨습니다. 이제 내 문서를 업로드해보세요. "
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.folder_view_form
@@ -2787,7 +2799,7 @@ msgstr ""
 #: code:addons/documents/static/src/xml/documents_inspector.xml:0
 #, python-format
 msgid "download"
-msgstr ""
+msgstr "다운로드"
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.share_view_form
@@ -2804,32 +2816,32 @@ msgstr "예. 재무"
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.documents_request_form_view
 msgid "e.g. Missing Expense"
-msgstr ""
+msgstr "예: 경비 누락"
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.facet_view_form
 msgid "e.g. Status"
-msgstr ""
+msgstr "예: 상태"
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.tag_view_form
 msgid "e.g. To Validate"
-msgstr ""
+msgstr "예: 문서 승인"
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.workflow_rule_form_view
 msgid "e.g. Validate document"
-msgstr ""
+msgstr "예: 문서 승인"
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.documents_upload_url_view
 msgid "e.g. https://www.youtube.com/watch?v=CP96yVnXNrY"
-msgstr ""
+msgstr "예: https://www.youtube.com/watch?v=CP96yVnXNrY"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_link_to_record_wizard__is_readonly_model
 msgid "is_readonly_model"
-msgstr ""
+msgstr "is_readonly_model"
 
 #. module: documents
 #. openerp-web
@@ -2837,7 +2849,7 @@ msgstr ""
 #: code:addons/documents/static/src/xml/documents_inspector.xml:0
 #, python-format
 msgid "restore"
-msgstr ""
+msgstr "복원"
 
 #. module: documents
 #. openerp-web
@@ -2845,7 +2857,7 @@ msgstr ""
 #: code:addons/documents/static/src/owl/components/pdf_page/pdf_page.xml:0
 #, python-format
 msgid "select"
-msgstr ""
+msgstr "선택"
 
 #. module: documents
 #. openerp-web
@@ -2864,7 +2876,7 @@ msgstr "다음에 의해 공유됨"
 #: code:addons/documents/static/src/js/documents_controller_mixin.js:0
 #, python-format
 msgid "status code: %s, message: %s"
-msgstr ""
+msgstr "상태 코드: %s, 메시지: %s"
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.document_view_kanban

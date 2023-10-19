@@ -6,6 +6,7 @@
 # Martin Trigaux, 2021
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2021
 # Wichanon Jamwutthipreecha, 2022
+# Rasareeyar Lappiam, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:43+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Wichanon Jamwutthipreecha, 2022\n"
-"Language-Team: Thai (https://www.transifex.com/odoo/teams/41243/th/)\n"
+"Last-Translator: Rasareeyar Lappiam, 2023\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -24,7 +25,7 @@ msgstr ""
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_account_payment_form_inherit_account_batch_payment
 msgid "<span>Batch Payment</span>"
-msgstr ""
+msgstr "<span>การชำระเงินเป็นกลุ่ม</span>"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.batch_error_wizard_form
@@ -32,16 +33,19 @@ msgid ""
 "<strong attrs=\"{'invisible': [('warning_line_ids', '=', [])]}\">The "
 "following warnings were also raised; they do not impeach validation</strong>"
 msgstr ""
+"<strong attrs=\"{'invisible': [('warning_line_ids', '=', "
+"[])]}\">คำแจ้งเตือนต่อไปนี้ก็ถูกหยิบยกขึ้นมาเช่นกัน "
+"พวกเขาไม่ได้กล่าวโทษการตรวจสอบความถูกต้อง</strong>"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.batch_error_wizard_form
 msgid "<strong>Please first consider the following warnings</strong>"
-msgstr ""
+msgstr "<strong>โปรดพิจารณาคำเตือนต่อไปนี้ก่อน</strong>"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.batch_error_wizard_form
 msgid "<strong>The following errors occurred</strong>"
-msgstr ""
+msgstr "<strong>เกิดข้อผิดพลาดต่อไปนี้</strong>"
 
 #. module: account_batch_payment
 #: model:ir.model,name:account_batch_payment.model_account_batch_download_wizard
@@ -57,13 +61,13 @@ msgstr ""
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
 #, python-format
 msgid "All payments in the batch must belong to the same company."
-msgstr ""
+msgstr "การชำระเงินทั้งหมดในกลุ่มต้องเป็นของบริษัทเดียวกัน"
 
 #. module: account_batch_payment
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
 #, python-format
 msgid "All payments in the batch must share the same payment method."
-msgstr ""
+msgstr "การชำระเงินทั้งหมดในกลุ่มต้องใช้วิธีการชำระเงินเดียวกัน"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_payment__amount
@@ -75,12 +79,12 @@ msgstr "จำนวน"
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_payment__amount_signed
 msgid "Amount Signed"
-msgstr ""
+msgstr "จำนวนเงินที่ลงนาม"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_payment__available_payment_method_ids
 msgid "Available Payment Method"
-msgstr ""
+msgstr "วิธีการชำระเงินที่ใช้ได้"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_payment__journal_id
@@ -95,18 +99,18 @@ msgstr "สมุดบันทึกธนาคาร"
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_batch_payment_form
 msgid "Batch Content"
-msgstr ""
+msgstr "เนื้อหาเป็นกลุ่ม"
 
 #. module: account_batch_payment
 #: model:account.payment.method,name:account_batch_payment.account_payment_method_batch_deposit
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.account_journal_dashboard_kanban_view_inherited
 msgid "Batch Deposit"
-msgstr ""
+msgstr "การฝากเป็นกลุ่ม"
 
 #. module: account_batch_payment
 #: model:ir.model,name:account_batch_payment.model_report_account_batch_payment_print_batch_payment
 msgid "Batch Deposit Report"
-msgstr ""
+msgstr "รายงานการฝากเป็นกลุ่ม"
 
 #. module: account_batch_payment
 #: code:addons/account_batch_payment/models/account_payment.py:0
@@ -132,7 +136,7 @@ msgstr "การชำระ"
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_payment__batch_type
 msgid "Batch Type"
-msgstr ""
+msgstr "ประเภทกลุ่ม"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_download_wizard__batch_payment_id
@@ -147,22 +151,25 @@ msgid ""
 "                    reconciliation. They are also useful when depositing checks\n"
 "                    to the bank."
 msgstr ""
+"การชำระเงินเป็นชุดช่วยให้คุณสามารถจัดกลุ่มการชำระเงินที่แตกต่างกันเพื่อลดการกระทบยอดได้\n"
+"นอกจากนี้ยังมีประโยชน์ในการฝากเช็ค\n"
+"เข้าธนาคารอีกด้วย"
 
 #. module: account_batch_payment
 #: model:ir.model,name:account_batch_payment.model_account_batch_error_wizard
 msgid "Batch payments error reporting wizard"
-msgstr ""
+msgstr "โปรแกรมรายงานข้อผิดพลาดในการชำระเงินเป็นชุด"
 
 #. module: account_batch_payment
 #: model:ir.model,name:account_batch_payment.model_account_batch_error_wizard_line
 msgid "Batch payments error reporting wizard line"
-msgstr ""
+msgstr "บรรทัดโปรแกรมรายงานข้อผิดพลาดในการชำระเงินชุดงาน"
 
 #. module: account_batch_payment
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
 #, python-format
 msgid "Cannot validate an empty batch. Please add some payments to it first."
-msgstr ""
+msgstr "ไม่สามารถตรวจสอบชุดที่ว่างได้ โปรดเพิ่มการชำระเงินบางส่วนก่อน"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.download_xml_form
@@ -184,22 +191,22 @@ msgstr "รหัส"
 #: code:addons/account_batch_payment/models/account_journal.py:0
 #, python-format
 msgid "Create Batch Payment"
-msgstr ""
+msgstr "สร้างการชำระเงินเป็นกลุ่ม"
 
 #. module: account_batch_payment
 #: model_terms:ir.actions.act_window,help:account_batch_payment.action_batch_payment_in
 msgid "Create a new customer batch payment"
-msgstr ""
+msgstr "สร้างการชำระเงินเป็นกลุ่มสำหรับลูกค้าใหม่"
 
 #. module: account_batch_payment
 #: model_terms:ir.actions.act_window,help:account_batch_payment.action_batch_payment_out
 msgid "Create a new vendor batch payment"
-msgstr ""
+msgstr "สร้างการชำระเงินเป็นกลุ่มสำหรับผู้จำหน่ายใหม่"
 
 #. module: account_batch_payment
 #: model:ir.actions.server,name:account_batch_payment.action_account_create_batch_payment
 msgid "Create batch payment"
-msgstr ""
+msgstr "สร้างการชำระเงินเป็นกลุ่ม"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_download_wizard__create_uid
@@ -220,7 +227,7 @@ msgstr "สร้างเมื่อ"
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_payment__export_file_create_date
 msgid "Creation date of the related export file."
-msgstr ""
+msgstr "วันที่สร้างไฟล์ส่งออกที่เกี่ยวข้อง"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_payment__currency_id
@@ -264,22 +271,22 @@ msgstr ""
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_error_wizard__error_line_ids
 msgid "Error Line"
-msgstr ""
+msgstr "บรรทัดข้อผิดพลาด"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_error_wizard_line__error_wizard_id
 msgid "Error Wizard"
-msgstr ""
+msgstr "โปรแกรมเกิดข้อผิดพลาด"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.batch_error_wizard_line_tree
 msgid "Exclude Payments"
-msgstr ""
+msgstr "ไม่รวมการชำระเงิน"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_payment__export_file
 msgid "Export file related to this batch"
-msgstr ""
+msgstr "ส่งออกไฟล์ที่เกี่ยวข้องกับกลุ่มนี้"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_batch_payment_form
@@ -295,7 +302,7 @@ msgstr "ไฟล์"
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_payment__file_generation_enabled
 msgid "File Generation Enabled"
-msgstr ""
+msgstr "เปิดใช้งานการสร้างไฟล์แล้ว"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_payment__export_filename
@@ -315,7 +322,7 @@ msgstr ""
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_payment__export_file_create_date
 msgid "Generation Date"
-msgstr ""
+msgstr "วันที่สร้าง"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_batch_payment_search
@@ -351,7 +358,7 @@ msgstr "ขาเข้า"
 #: code:addons/account_batch_payment/models/account_journal.py:0
 #, python-format
 msgid "Inbound Batch Payments Sequence"
-msgstr ""
+msgstr "ลำดับการชำระเงินเป็นกลุ่มขาเข้า"
 
 #. module: account_batch_payment
 #: model:ir.model,name:account_batch_payment.model_account_journal
@@ -395,7 +402,7 @@ msgstr "ชื่อ"
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_payment__export_filename
 msgid "Name of the export file generated for this batch"
-msgstr ""
+msgstr "ชื่อของไฟล์ส่งออกที่สร้างขึ้นสำหรับกลุ่มนี้"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_download_wizard__export_filename
@@ -405,7 +412,7 @@ msgstr ""
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_payment__amount_signed
 msgid "Negative value of amount field if payment_type is outbound"
-msgstr ""
+msgstr "ช่องจำนวนเงินจะเป็นค่าลบ ถ้า payment_type เป็นขาออก"
 
 #. module: account_batch_payment
 #: model:ir.model.fields.selection,name:account_batch_payment.selection__account_batch_payment__state__draft
@@ -415,7 +422,7 @@ msgstr "ใหม่"
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_account_payment_search_inherit_account_batch_payment
 msgid "Not reconciled"
-msgstr ""
+msgstr "ไม่มีการกระทบยอด"
 
 #. module: account_batch_payment
 #: model:ir.model.fields.selection,name:account_batch_payment.selection__account_batch_payment__batch_type__outbound
@@ -426,7 +433,7 @@ msgstr "ขาออก"
 #: code:addons/account_batch_payment/models/account_journal.py:0
 #, python-format
 msgid "Outbound Batch Payments Sequence"
-msgstr ""
+msgstr "ลำดับการชำระเงินเป็นกลุ่มขาออก"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_payment__payment_method_id
@@ -441,7 +448,7 @@ msgstr "วิธีการชำระเงิน"
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_batch_payment_form
 msgid "Payment method"
-msgstr ""
+msgstr "วิธีการชำระเงิน"
 
 #. module: account_batch_payment
 #: model:ir.model,name:account_batch_payment.model_account_payment
@@ -460,13 +467,13 @@ msgstr ""
 #: code:addons/account_batch_payment/wizard/batch_error.py:0
 #, python-format
 msgid "Payments in Error"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการชำระเงิน"
 
 #. module: account_batch_payment
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
 #, python-format
 msgid "Payments must be posted to be added to a batch."
-msgstr ""
+msgstr "ต้องผ่านรายการการชำระเงินจึงจะเพิ่มลงในกลุ่มได้"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_batch_payment_form
@@ -476,17 +483,17 @@ msgstr "พิมพ์"
 #. module: account_batch_payment
 #: model:ir.actions.report,name:account_batch_payment.action_print_batch_payment
 msgid "Print Batch Payment"
-msgstr ""
+msgstr "พิมพ์การชำระเงินเป็นกลุ่ม"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.batch_error_wizard_form
 msgid "Proceed with validation"
-msgstr ""
+msgstr "ดำเนินการตรวจสอบความถูกต้อง"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_batch_payment_form
 msgid "Re-generate Export File"
-msgstr ""
+msgstr "สร้างไฟล์ส่งออกใหม่"
 
 #. module: account_batch_payment
 #: model:ir.model.fields.selection,name:account_batch_payment.selection__account_batch_payment__state__reconciled
@@ -507,7 +514,7 @@ msgstr "ส่งแล้ว"
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
 #, python-format
 msgid "Set payments state to \"posted\"."
-msgstr ""
+msgstr "ตั้งค่าสถานะการชำระเงินเป็น \"ผ่านรายการแล้ว\""
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.batch_error_wizard_line_tree
@@ -517,24 +524,24 @@ msgstr "แสดง"
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_error_wizard_line__show_remove_button
 msgid "Show Remove Button"
-msgstr ""
+msgstr "แสดงปุ่มลบ"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_error_wizard__show_remove_options
 msgid "Show Remove Options"
-msgstr ""
+msgstr "แสดงตัวเลือกการลบ"
 
 #. module: account_batch_payment
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
 #, python-format
 msgid "Some payments have already been matched with a bank statement."
-msgstr ""
+msgstr "การชำระเงินบางรายการได้รับการจับคู่กับรายการเดินบัญชีธนาคารแล้ว"
 
 #. module: account_batch_payment
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
 #, python-format
 msgid "Some payments have already been sent."
-msgstr ""
+msgstr "การชำระเงินบางส่วนได้ถูกส่งไปแล้ว"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_payment__state
@@ -545,12 +552,12 @@ msgstr "สถานะ"
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.batch_error_wizard_form
 msgid "The batch cannot be validated."
-msgstr ""
+msgstr "ไม่สามารถตรวจสอบกลุ่มได้"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.batch_error_wizard_form
 msgid "The batch could not be validated"
-msgstr ""
+msgstr "ไม่สามารถตรวจสอบกลุ่มได้"
 
 #. module: account_batch_payment
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
@@ -558,19 +565,20 @@ msgstr ""
 msgid ""
 "The batch must have the same payment method as the payments it contains."
 msgstr ""
+"กลุ่มการชำระเงินจะต้องมีวิธีการชำระเงินเดียวกันกับการชำระเงินที่มีอยู่"
 
 #. module: account_batch_payment
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
 #, python-format
 msgid "The batch must have the same type as the payments it contains."
-msgstr ""
+msgstr "กลุ่มการชำระเงินจะต้องมีประเภทเดียวกันกับการชำระเงินที่มีอยู่"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_error_wizard__batch_payment_id
 msgid ""
 "The batch payment generating the errors and warnings displayed in this "
 "wizard."
-msgstr ""
+msgstr "การชำระเงินเป็นกลุ่มที่สร้างข้อผิดพลาดและคำเตือนที่แสดงในโปรแกรมนี้"
 
 #. module: account_batch_payment
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
@@ -579,11 +587,12 @@ msgid ""
 "The journal of the batch payment and of the payments it contains must be the"
 " same."
 msgstr ""
+"สมุดรายวันของการชำระเงินเป็นกลุ่มและการชำระเงินที่มีอยู่จะต้องเหมือนกัน"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_payment__payment_method_id
 msgid "The payment method used by the payments in this batch."
-msgstr ""
+msgstr "วิธีการชำระเงินที่ใช้โดยการชำระเงินในกลุ่มนี้"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_batch_payment_form
@@ -596,6 +605,8 @@ msgid ""
 "True if and only if the options to remove the payments causing the errors or"
 " warnings from the batch should be shown"
 msgstr ""
+"เลือก True หากควรแสดงตัวเลือกในการลบการชำระเงินที่ทำให้เกิดข้อผิดพลาด "
+"หรือคำเตือนจากกลุ่มการชำระเงิน"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_batch_payment_search
@@ -610,12 +621,12 @@ msgstr "ตรวจสอบ"
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_error_wizard__warning_line_ids
 msgid "Warning Line"
-msgstr ""
+msgstr "บรรทัดการแจ้งเตือน"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_error_wizard_line__warning_wizard_id
 msgid "Warning Wizard"
-msgstr ""
+msgstr "โปรแกรมคำเตือน"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_payment__file_generation_enabled
@@ -623,6 +634,8 @@ msgid ""
 "Whether or not this batch payment should display the 'Generate File' button "
 "instead of 'Print' in form view."
 msgstr ""
+"การชำระเงินกลุ่มนี้ควรแสดงปุ่ม 'สร้างไฟล์' แทน 'พิมพ์' "
+"ในมุมมองแบบฟอร์มหรือไม่"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_error_wizard_line__show_remove_button

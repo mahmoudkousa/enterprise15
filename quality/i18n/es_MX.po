@@ -491,7 +491,7 @@ msgstr "Actividades atrasadas"
 #. module: quality
 #: model:ir.model.fields,help:quality.field_quality_alert__email_cc
 msgid "List of cc from incoming emails."
-msgstr "Listado de cc en correos entrantes."
+msgstr "Lista de cc en correos electrónicos entrantes."
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__lot_id
@@ -656,7 +656,7 @@ msgstr "Número de mensajes con error de envío"
 #: model:ir.model.fields,help:quality.field_quality_check__message_unread_counter
 #: model:ir.model.fields,help:quality.field_quality_point__message_unread_counter
 msgid "Number of unread messages"
-msgstr "Número de mensajes no leídos"
+msgstr "Número de mensajes sin leer"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_point__picking_type_ids

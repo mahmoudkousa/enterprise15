@@ -3,8 +3,9 @@
 # 	* website_helpdesk_forum
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2021
+# Martin Trigaux, 2023
+# Larissa Manderfeld, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:44+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Larissa Manderfeld, 2023\n"
+"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -34,34 +35,34 @@ msgstr "Forumsbeitrag"
 #. module: website_helpdesk_forum
 #: model:ir.model.fields,field_description:website_helpdesk_forum.field_helpdesk_ticket__use_website_helpdesk_forum
 msgid "Help Center Active"
-msgstr "Hilfe-Center-Archiv"
+msgstr "Hilfezentrum Aktiv"
 
 #. module: website_helpdesk_forum
 #: model:ir.model.fields,field_description:website_helpdesk_forum.field_helpdesk_team__forum_id
 msgid "Help Center Forum"
-msgstr "Hilfe-Center-Forum"
+msgstr "Hilfezentrumsforum"
 
 #. module: website_helpdesk_forum
 #: model:ir.model.fields,field_description:website_helpdesk_forum.field_helpdesk_team__forum_url
 msgid "Help Center Forum URL"
-msgstr "URL zum Hilfe-Center-Forum"
+msgstr "URL zum Hilfezentrumsforum"
 
 #. module: website_helpdesk_forum
 #: code:addons/website_helpdesk_forum/models/helpdesk.py:0
 #: code:addons/website_helpdesk_forum/models/helpdesk.py:0
 #, python-format
 msgid "Help Center not active for this team."
-msgstr "Hilfe-Center nicht aktiv für dieses Team."
+msgstr "Hilfezentrum nicht aktiv für dieses Team."
 
 #. module: website_helpdesk_forum
 #: model:ir.model,name:website_helpdesk_forum.model_helpdesk_team
 msgid "Helpdesk Team"
-msgstr "Helpdesk-Team"
+msgstr "Kundendienstteam"
 
 #. module: website_helpdesk_forum
 #: model:ir.model,name:website_helpdesk_forum.model_helpdesk_ticket
 msgid "Helpdesk Ticket"
-msgstr "Kundendienst-Ticket"
+msgstr "Kundendienstticket"
 
 #. module: website_helpdesk_forum
 #: code:addons/website_helpdesk_forum/models/helpdesk.py:0
@@ -78,9 +79,9 @@ msgstr "Im Forum teilen"
 #: code:addons/website_helpdesk_forum/models/helpdesk.py:0
 #, python-format
 msgid "Ticket has been shared on the %s forum."
-msgstr "Der wurde geteilt im Forum %s."
+msgstr "Ticket wurde im Forum %s geteilt."
 
 #. module: website_helpdesk_forum
 #: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.website_helpdesk_forum_team_page
 msgid "Visit our Help Center"
-msgstr "Besuchen Sie unser Help Center"
+msgstr "Besuchen Sie unser Hilfezentrum"

@@ -321,9 +321,14 @@ class VoipPhonecall(models.Model):
         else:
             record = self.env[model].browse(res_id)
             fields = self.env[model]._fields.items()
-            partner_field_name = [k for k, v in fields if v.type == 'many2one' and v.comodel_name == 'res.partner'][0]
-            if len(partner_field_name):
-                partner_id = record[partner_field_name].id
+            partner_id = next(
+                (
+                    record[key]
+                    for key, value in fields
+                    if value.comodel_name == "res.partner" and value.type == "many2one"
+                ),
+                self.env["res.partner"]
+            ).id
         vals = {
             'name': _('Call to %s', number),
             'phone': number,

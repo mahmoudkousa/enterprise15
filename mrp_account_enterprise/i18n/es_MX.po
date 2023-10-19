@@ -25,7 +25,7 @@ msgstr ""
 #. module: mrp_account_enterprise
 #: model:ir.actions.report,print_report_name:mrp_account_enterprise.action_cost_struct_mrp_production
 msgid "'Cost Analysis - %s ' % object.name"
-msgstr "'Análisis de costos-%s' % object.name"
+msgstr "'Análisis de costos - %s' % object.name"
 
 #. module: mrp_account_enterprise
 #: model:ir.actions.report,print_report_name:mrp_account_enterprise.action_cost_struct_product_template
@@ -279,7 +279,7 @@ msgstr "Reporte de fabricación"
 #. module: mrp_account_enterprise
 #: model_terms:ir.actions.act_window,help:mrp_account_enterprise.mrp_report_dashboard_action
 msgid "No data yet!"
-msgstr "¡No hay datos aún!"
+msgstr "Todavía no hay información"
 
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__unit_operation_cost
@@ -363,7 +363,7 @@ msgstr "Costo total de operación"
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__unit_operation_cost
 msgid "Total Operation Cost / Unit"
-msgstr "Costo total de operación / Unidad"
+msgstr "Costo total de operación/unidad"
 
 #. module: mrp_account_enterprise
 #: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__component_cost

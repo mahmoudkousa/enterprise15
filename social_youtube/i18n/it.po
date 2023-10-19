@@ -5,6 +5,7 @@
 # Translators:
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
+# Marianna Ciofani, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,13 +13,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:01+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Last-Translator: Marianna Ciofani, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. module: social_youtube
 #: model:ir.model.fields,help:social_youtube.field_social_account__youtube_upload_playlist_id
@@ -26,6 +27,8 @@ msgid ""
 "'Uploads' Playlist ID provided by the YouTube API, this should never be set "
 "manually."
 msgstr ""
+"\"Caricamenti\" ID playlist forniti dall'API di YouTube, non devono mai "
+"essere configurati manualmente."
 
 #. module: social_youtube
 #: model_terms:ir.ui.view,arch_db:social_youtube.youtube_preview
@@ -91,6 +94,7 @@ msgstr "Si è verificato un errore."
 #, python-format
 msgid "Auth endpoint did not provide a refresh token. Please try again."
 msgstr ""
+"L'auth endpoint non ha fornito un token di aggiornamento. Prova di nuovo."
 
 #. module: social_youtube
 #. openerp-web
@@ -104,6 +108,7 @@ msgstr "Immagine autore"
 #: model_terms:ir.ui.view,arch_db:social_youtube.social_account_view_form
 msgid "By using our Social YouTube Application, you implicitly agree to the:"
 msgstr ""
+"Utilizzando la nostra applicazione social YouTube accetti implicitamente:"
 
 #. module: social_youtube
 #: model:social.stream.type,name:social_youtube.stream_type_youtube_channel_videos
@@ -150,6 +155,7 @@ msgstr "Contiene l'ID del video come restituito dall'API di YouTube"
 #: model:ir.model.fields,help:social_youtube.field_social_post__youtube_video_category_id
 msgid "Contains the ID of the video category as returned by the YouTube API"
 msgstr ""
+"Contiene l'ID della categoria del video come restituito dall'API di YouTube"
 
 #. module: social_youtube
 #. openerp-web
@@ -312,7 +318,7 @@ msgstr "Post flusso social"
 #: code:addons/social_youtube/models/social_post.py:0
 #, python-format
 msgid "The 'message' field is required for post ID %s"
-msgstr ""
+msgstr "Il campo \"messaggio\" è richiesto per l'ID post %s"
 
 #. module: social_youtube
 #. openerp-web
@@ -338,11 +344,19 @@ msgid "The video you are trying to publish has been deleted from YouTube."
 msgstr "Il video che stai cercando di pubblicare è stato rimosso da YouTube."
 
 #. module: social_youtube
+#: code:addons/social_youtube/controllers/main.py:0
+#, python-format
+msgid "There is no channel linked with this YouTube account."
+msgstr "Non è presente alcun canale collegato all'account YouTube."
+
+#. module: social_youtube
 #: model_terms:ir.ui.view,arch_db:social_youtube.social_account_view_form
 msgid ""
 "To provide our application services, note that we store the following data "
 "from your YouTube account:"
 msgstr ""
+"Per garantire i servizi della nostra applicazione, memorizziamo i seguenti "
+"dati dal vostro account YouTube:"
 
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_social_account__youtube_token_expiration_date
@@ -487,6 +501,8 @@ msgid ""
 "YouTube Channel ID provided by the YouTube API, this should never be set "
 "manually."
 msgstr ""
+"ID canale YouTube fornito dall'API YouTube, non deve mai essere configurato "
+"manualmente."
 
 #. module: social_youtube
 #. openerp-web
@@ -538,7 +554,7 @@ msgstr "Anteprima YouTube"
 #. module: social_youtube
 #: model_terms:ir.ui.view,arch_db:social_youtube.social_account_view_form
 msgid "YouTube Terms of Service (ToS)"
-msgstr ""
+msgstr "Termini di servizio YouTube "
 
 #. module: social_youtube
 #: model_terms:ir.ui.view,arch_db:social_youtube.social_stream_post_view_kanban
@@ -548,7 +564,7 @@ msgstr "YouTube Thumbnail"
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_social_account__youtube_upload_playlist_id
 msgid "YouTube Upload Playlist ID"
-msgstr ""
+msgstr "ID caricamento playlist YouTube"
 
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_social_post__youtube_video

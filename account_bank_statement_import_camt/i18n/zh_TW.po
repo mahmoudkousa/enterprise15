@@ -5,6 +5,7 @@
 # Translators:
 # sejun huang <sejun.huang@gmail.com>, 2021
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2021
+# Wil Odoo, 2023
 # Tony Ng, 2023
 # 
 msgid ""
@@ -1068,7 +1069,7 @@ msgstr "Intra Company Transfer"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Invoice Accepted with Differed Due Date"
-msgstr "Invoice Accepted with Differed Due Date"
+msgstr "已接納不同到期日發票"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1243,9 +1244,7 @@ msgstr "Netting"
 msgid ""
 "No exchange rate was found to convert an amount into the currency of the "
 "journal"
-msgstr ""
-"No exchange rate was found to convert an amount into the currency of the "
-"journal"
+msgstr "找不到將金額轉換為日記帳貨幣的匯率"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1641,7 +1640,7 @@ msgstr "Repo"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Repurchase offer/Issuer Bid/Reverse Rights."
-msgstr "Repurchase offer/Issuer Bid/Reverse Rights."
+msgstr "回購要約/發行人要約/反向權利。"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1705,7 +1704,7 @@ msgstr "Rights Issue/Subscription Rights/Rights Offer"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "SEPA B2B Direct Debit"
-msgstr "SEPA B2B Direct Debit"
+msgstr "SEPA B2B 直接扣賬"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1721,7 +1720,7 @@ msgstr "SEPA Core Direct Debit"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "SEPA Credit Transfer"
-msgstr "SEPA 信用卡轉帳"
+msgstr "SEPA 轉賬付款"
 
 #. module: account_bank_statement_import_camt
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import_camt.account_bank_statement_import_camt

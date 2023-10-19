@@ -134,5 +134,4 @@ export class StudioHomeMenu extends HomeMenu {
     }
 }
 
-StudioHomeMenu.props = { apps: HomeMenu.props.apps };
 StudioHomeMenu.template = "web_studio.StudioHomeMenu";

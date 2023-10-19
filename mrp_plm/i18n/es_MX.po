@@ -43,7 +43,7 @@ msgstr "# Órdenes de cambio de ingeniería en curso"
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_type_dashboard_view_kanban
 msgid "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
 msgstr ""
-"<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" "
+"<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Gestionar\" "
 "title=\"Gestionar\"/>"
 
 #. module: mrp_plm
@@ -52,8 +52,8 @@ msgid ""
 "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Domain alias\" "
 "title=\"Domain alias\"/>&amp;nbsp;"
 msgstr ""
-"<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Domain alias\" "
-"title=\"Seudónimo de dominio\"/>&amp;nbsp;"
+"<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Seudónimo de "
+"dominio\" title=\"Seudónimo de dominio\"/>&amp;nbsp;"
 
 #. module: mrp_plm
 #: code:addons/mrp_plm/models/mrp_eco.py:0
@@ -92,14 +92,14 @@ msgid ""
 "A Python dictionary that will be evaluated to provide default values when "
 "creating new records for this alias."
 msgstr ""
-"Un diccionario Python que se evaluará para proporcionar valores "
-"predeterminados al crear nuevos registros para este seudónimo."
+"Un diccionario de Python que se evaluará con el fin de proporcionar valores "
+"predefinidos cuando se creen nuevos registros para este seudónimo."
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__message_needaction
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_type__message_needaction
 msgid "Action Needed"
-msgstr "Acción requerida"
+msgstr "Se requiere una acción"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__active
@@ -1077,13 +1077,13 @@ msgstr "Última lista de materiales"
 #. module: mrp_plm
 #: model:ir.model.fields,help:mrp_plm.field_mrp_eco__email_cc
 msgid "List of cc from incoming emails."
-msgstr "Listado de cc en correos electrónicos entrantes."
+msgstr "Lista de cc en correos electrónicos entrantes."
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__message_main_attachment_id
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_type__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "Archivo adjunto principales"
+msgstr "Archivo adjunto principal"
 
 #. module: mrp_plm
 #: model_terms:ir.actions.act_window,help:mrp_plm.mrp_eco_action
@@ -1381,12 +1381,12 @@ msgstr "Información general de gestión de ciclo de vida del producto"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_type__alias_parent_model_id
 msgid "Parent Model"
-msgstr "Modelo padre"
+msgstr "Modelo principal"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_type__alias_parent_thread_id
 msgid "Parent Record Thread ID"
-msgstr "ID del hilo del registro padre"
+msgstr "ID del hilo del registro principal"
 
 #. module: mrp_plm
 #: model:ir.model.fields,help:mrp_plm.field_mrp_eco_type__alias_parent_model_id
@@ -1395,9 +1395,9 @@ msgid ""
 " necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
 msgstr ""
-"Modelo padre que posee el seudónimo. El modelo que contiene la referencia de"
-" seudónimo no es necesariamente el modelo dado por alias_model_id (ejemplo: "
-"proyecto (parent_model) y tarea (model))"
+"Modelo principal que posee el seudónimo. El modelo que contiene la "
+"referencia del seudónimo no es necesariamente el modelo dado por "
+"alias_model_id (por ejemplo: proyecto (parent_model) y tarea (model))"
 
 #. module: mrp_plm
 #: model:ir.model.fields,help:mrp_plm.field_mrp_eco_type__alias_contact
@@ -1407,10 +1407,10 @@ msgid ""
 "- partners: only authenticated partners\n"
 "- followers: only followers of the related document or members of following channels\n"
 msgstr ""
-"Política para publicar un mensaje en el documento utilizando el servidor de correo.\n"
-"- todo el mundo: todos pueden publicar\n"
-"- partners: solo partners autenticados\n"
-"- seguidores: solo seguidores del documento relacionado o miembros de los siguientes canales\n"
+"Política sobre cómo publicar un mensaje en el documento utilizando el servidor de correo.\n"
+"- todos: todos pueden publicar\n"
+"- contactos: solo los contactos verificados\n"
+"- seguidores: solo los seguidores del documento relacionado o los miembros de los canales\n"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_bom__previous_bom_id
@@ -1587,7 +1587,7 @@ msgstr "Enrutamiento"
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__message_has_sms_error
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_type__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr "Error de entrega del SMS"
+msgstr "Error en el envío del SMS"
 
 #. module: mrp_plm
 #: model:ir.ui.menu,name:mrp_plm.menu_mrp_plm_search
@@ -1666,9 +1666,9 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Estado basado en actividades\n"
-"Vencida: la fecha límite ya pasó\n"
-"Hoy: la fecha límite es hoy\n"
+"Estado según las actividades\n"
+"Vencida: ya pasó la fecha límite\n"
+"Hoy: hoy es la fecha de la actividad\n"
 "Planeada: futuras actividades."
 
 #. module: mrp_plm
@@ -1758,7 +1758,7 @@ msgid ""
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
 "El modelo (tipo de documento de Odoo) al que corresponde este seudónimo. "
-"Cualquier correo entrante que no sea respuesta a un registro existente, "
+"Cualquier correo entrante que no sea respuesta a un registro existente "
 "causará la creación de un nuevo registro de este modelo (por ejemplo, una "
 "tarea de proyecto)."
 
@@ -1768,9 +1768,8 @@ msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
 "<jobs@example.odoo.com>"
 msgstr ""
-"El nombre de este seudónimo de correo electrónico. Por ejemplo, "
-"\"trabajos\",  si lo que desea es obtener los correos para "
-"<jobs@example.odoo.com>."
+"Use el seudónimo del correo electrónico, por ejemplo, \"jobs\" si desea "
+"recibir correos electrónicos en <jobs@example.odoo.com>"
 
 #. module: mrp_plm
 #: model:ir.model.fields,help:mrp_plm.field_mrp_eco_type__alias_user_id
@@ -1781,9 +1780,10 @@ msgid ""
 "system user is found for that address."
 msgstr ""
 "El propietario de los registros creados al recibir correos electrónicos en "
-"este seudónimo. Si no se establece el campo, el sistema tratará de encontrar"
-" el propietario adecuado según la dirección del remitente (De), o usará la "
-"cuenta de administrador si no se encuentra un usuario para esa dirección."
+"este seudónimo. Si no se establece en el campo, el sistema tratará de "
+"encontrar al propietario adecuado según la dirección del emisor (De), o "
+"usará la cuenta de administrador si no se encuentra un usuario para esa "
+"dirección."
 
 #. module: mrp_plm
 #. openerp-web

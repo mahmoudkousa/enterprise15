@@ -10,6 +10,7 @@
 # Tim Siu Lai <tl@roomsfor.hk>, 2022
 # 前園義博 <yoshihiro.maezono@pro-spire.co.jp>, 2022
 # Ryoko Tsuda <ryoko@quartile.co>, 2022
+# Junko Augias, 2023
 # 
 msgid ""
 msgstr ""
@@ -17,8 +18,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:39+0000\n"
-"Last-Translator: Ryoko Tsuda <ryoko@quartile.co>, 2022\n"
-"Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
+"Last-Translator: Junko Augias, 2023\n"
+"Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -86,7 +87,7 @@ msgstr "表示名"
 #. module: helpdesk_fsm
 #: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_team__fsm_project_id
 msgid "FSM Project"
-msgstr ""
+msgstr "FSMプロジェクト"
 
 #. module: helpdesk_fsm
 #: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_ticket__use_fsm
@@ -96,7 +97,7 @@ msgstr "フィールドサービス"
 #. module: helpdesk_fsm
 #: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_ticket__fsm_task_count
 msgid "Fsm Task Count"
-msgstr ""
+msgstr "FSMタスク数"
 
 #. module: helpdesk_fsm
 #: model:ir.model,name:helpdesk_fsm.model_helpdesk_team
@@ -148,7 +149,7 @@ msgstr "プロジェクト"
 #. module: helpdesk_fsm
 #: model:ir.model.fields,help:helpdesk_fsm.field_helpdesk_create_fsm_task__project_id
 msgid "Project in which to create the task"
-msgstr ""
+msgstr "タスクを作成するプロジェクト"
 
 #. module: helpdesk_fsm
 #: model:project.task,legend_done:helpdesk_fsm.helpdesk_fsm_task_1
@@ -159,7 +160,7 @@ msgstr "準備完了"
 #. module: helpdesk_fsm
 #: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__helpdesk_ticket_id
 msgid "Related ticket"
-msgstr ""
+msgstr "関連チケット"
 
 #. module: helpdesk_fsm
 #: model:ir.model,name:helpdesk_fsm.model_project_task
@@ -172,7 +173,7 @@ msgstr "タスク"
 #: model:mail.message.subtype,name:helpdesk_fsm.mt_team_ticket_task_done
 #: model:mail.message.subtype,name:helpdesk_fsm.mt_ticket_task_done
 msgid "Task Done"
-msgstr ""
+msgstr "タスク完了"
 
 #. module: helpdesk_fsm
 #: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_ticket__fsm_task_ids
@@ -185,12 +186,12 @@ msgstr "タスク"
 #: code:addons/helpdesk_fsm/wizard/create_task.py:0
 #, python-format
 msgid "Tasks from Tickets"
-msgstr ""
+msgstr "チケットからのタスク"
 
 #. module: helpdesk_fsm
 #: model:ir.model.fields,help:helpdesk_fsm.field_helpdesk_ticket__fsm_task_ids
 msgid "Tasks generated from this ticket"
-msgstr ""
+msgstr "このチケットから作成されたタスク"
 
 #. module: helpdesk_fsm
 #: model:ir.model.fields,field_description:helpdesk_fsm.field_project_task__helpdesk_ticket_id
@@ -201,7 +202,7 @@ msgstr "チケット"
 #. module: helpdesk_fsm
 #: model_terms:ir.ui.view,arch_db:helpdesk_fsm.project_sharing_inherit_project_task_view_form
 msgid "Ticket from this task"
-msgstr ""
+msgstr "このタスクからのチケット"
 
 #. module: helpdesk_fsm
 #: model:ir.model.fields,help:helpdesk_fsm.field_project_task__helpdesk_ticket_id
@@ -211,7 +212,7 @@ msgstr ""
 #. module: helpdesk_fsm
 #: model:ir.model.fields,help:helpdesk_fsm.field_helpdesk_create_fsm_task__partner_id
 msgid "Ticket's customer, will be linked to the task"
-msgstr ""
+msgstr "チケットの顧客がタスクにリンクされます"
 
 #. module: helpdesk_fsm
 #: model_terms:ir.ui.view,arch_db:helpdesk_fsm.project_sharing_inherit_project_task_view_form

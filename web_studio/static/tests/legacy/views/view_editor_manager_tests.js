@@ -4106,7 +4106,6 @@ QUnit.module('ViewEditorManager', {
     QUnit.module('Graph');
 
     QUnit.test('empty graph editor', async function (assert) {
-        var done = assert.async();
         assert.expect(3);
 
         this.data.coucou.records = [{
@@ -4122,13 +4121,11 @@ QUnit.module('ViewEditorManager', {
 
         assert.strictEqual(vem.view_type, 'graph',
             "view type should be graph");
-        return concurrency.delay(0).then(function () {
-            assert.containsOnce(vem, '.o_web_studio_view_renderer .o_legacy_graph_renderer');
-            assert.containsOnce(vem, '.o_web_studio_view_renderer .o_legacy_graph_renderer .o_graph_canvas_container canvas',
-                "the graph should be a child of its container");
-            vem.destroy();
-            done();
-        });
+        await testUtils.nextTick();
+        assert.containsOnce(vem, '.o_web_studio_view_renderer .o_legacy_graph_renderer');
+        assert.containsOnce(vem, '.o_web_studio_view_renderer .o_legacy_graph_renderer .o_graph_canvas_container canvas',
+            "the graph should be a child of its container");
+        vem.destroy();
     });
 
     QUnit.test('switching chart types in graph editor', async function (assert) {
@@ -6986,7 +6983,7 @@ QUnit.module('ViewEditorManager', {
                 if (args.view_id !== 1) {
                     return result;
                 }
-                assert.equal(args.operations[0].new_attrs.attrs, '{"column_invisible": [["parent.id","=",False]]}',
+                assert.equal(args.operations[0].new_attrs.attrs, '{"column_invisible": "[["parent.id","=",False]]"}',
                     'we should send "column_invisible" in attrs.attrs');
 
                 assert.equal(args.operations[0].new_attrs.readonly, '1',

@@ -60,7 +60,8 @@ class GermanTaxReportTest(AccountSalesReportCommon):
         options = report._get_options(None)
 
         expected_xml = """
-        <Anmeldungssteuern art="UStVA" version="201801">
+        <Anmeldungssteuern art="UStVA" version="2023">
+            <Erstellungsdatum>20191231</Erstellungsdatum>
             <DatenLieferant>
                 <Name>company_1_data</Name>
                 <Strasse />
@@ -69,8 +70,15 @@ class GermanTaxReportTest(AccountSalesReportCommon):
                 <Telefon>+32475123456</Telefon>
                 <Email>jsmith@mail.com</Email>
             </DatenLieferant>
-            <Erstellungsdatum>20191231</Erstellungsdatum>
             <Steuerfall>
+                <Unternehmer>
+                    <Bezeichnung>company_1_data</Bezeichnung>
+                    <Str />
+                    <Ort />
+                    <PLZ />
+                    <Telefon>+32475123456</Telefon>
+                    <Email>jsmith@mail.com</Email>
+                </Unternehmer>
                 <Umsatzsteuervoranmeldung>
                     <Jahr>2019</Jahr>
                     <Zeitraum>11</Zeitraum>

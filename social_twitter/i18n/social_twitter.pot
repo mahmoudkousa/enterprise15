@@ -33,11 +33,25 @@ msgid "<i class=\"fa fa-heart\" title=\"Likes\"/>"
 msgstr ""
 
 #. module: social_twitter
+#: code:addons/social_twitter/controllers/main.py:0
+#, python-format
+msgid "Authentication failed. Please enter valid credentials."
+msgstr ""
+
+#. module: social_twitter
 #. openerp-web
 #: code:addons/social_twitter/static/src/xml/social_twitter_templates.xml:0
 #: model_terms:ir.ui.view,arch_db:social_twitter.social_stream_post_view_kanban
 #, python-format
 msgid "Author Image"
+msgstr ""
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid ""
+"Can not like / unlike the tweet\n"
+"%s."
 msgstr ""
 
 #. module: social_twitter
@@ -86,6 +100,33 @@ msgstr ""
 #: model:ir.model.fields,field_description:social_twitter.field_social_post__display_twitter_preview
 #: model:ir.model.fields,field_description:social_twitter.field_social_post_template__display_twitter_preview
 msgid "Display Twitter Preview"
+msgstr ""
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid ""
+"Failed to delete the Tweet\n"
+"%s."
+msgstr ""
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid "Failed to fetch the conversation id: '%s' using the account %i."
+msgstr ""
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid ""
+"Failed to fetch the tweets in the same thread: '%s' using the account %i."
+msgstr ""
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid "Failed to post comment: %s with the account %i."
 msgstr ""
 
 #. module: social_twitter
@@ -246,6 +287,12 @@ msgstr ""
 msgid ""
 "The url that this service requested returned an error. Please contact the "
 "author of the app."
+msgstr ""
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid "This tweet is older than 7 days and so we can not get the replies."
 msgstr ""
 
 #. module: social_twitter

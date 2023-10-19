@@ -4,8 +4,9 @@
 # 
 # Translators:
 # Martin Trigaux, 2021
-# Amin Cheloh <nineamin@hotmail.com>, 2021
+# Amin Cheloh <amincheloh@gmail.com>, 2021
 # Wichanon Jamwutthipreecha, 2022
+# Rasareeyar Lappiam, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:01+0000\n"
 "PO-Revision-Date: 2021-09-14 12:42+0000\n"
-"Last-Translator: Wichanon Jamwutthipreecha, 2022\n"
-"Language-Team: Thai (https://www.transifex.com/odoo/teams/41243/th/)\n"
+"Last-Translator: Rasareeyar Lappiam, 2023\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -113,7 +114,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:project_forecast.field_planning_slot__parent_id
 #: model_terms:ir.ui.view,arch_db:project_forecast.planning_slot_view_search
 msgid "Parent Task"
-msgstr ""
+msgstr "งานหลัก"
 
 #. module: project_forecast
 #: model_terms:ir.ui.view,arch_db:project_forecast.project_view_form_inherit_project_forecast
@@ -155,12 +156,12 @@ msgstr "ทรัพยากร"
 #. module: project_forecast
 #: model:ir.actions.act_window,name:project_forecast.planning_action_schedule_by_project
 msgid "Schedule by Project"
-msgstr ""
+msgstr "กำหนดการตามโปรเจ็กต์"
 
 #. module: project_forecast
 #: model:ir.actions.act_window,name:project_forecast.project_forecast_action_schedule_by_employee
 msgid "Schedule by Resource"
-msgstr ""
+msgstr "กำหนดการตามทรัพยากร"
 
 #. module: project_forecast
 #: code:addons/project_forecast/controllers/main.py:0
@@ -171,7 +172,7 @@ msgstr "เลื่อน"
 #. module: project_forecast
 #: model:ir.model,name:project_forecast.model_planning_slot_template
 msgid "Shift Template"
-msgstr ""
+msgstr "เทมเพลตกะงาน"
 
 #. module: project_forecast
 #: model_terms:ir.actions.act_window,help:project_forecast.planning_action_schedule_by_project
@@ -198,17 +199,17 @@ msgstr ""
 #. module: project_forecast
 #: model:ir.model.fields,field_description:project_forecast.field_project_project__total_forecast_time
 msgid "Total Forecast Time"
-msgstr ""
+msgstr "เวลาที่คาดการณ์ทั้งหมด"
 
 #. module: project_forecast
 #: model:ir.model.fields,help:project_forecast.field_project_project__total_forecast_time
 msgid "Total number of forecast hours in the project rounded to the unit."
-msgstr ""
+msgstr "จำนวนชั่วโมงที่คาดการณ์ทั้งหมดในโปรเจ็กต์ถูกปัดเศษเป็นหน่วยแล้ว"
 
 #. module: project_forecast
 #: model:ir.actions.act_window,name:project_forecast.action_project_task_view_planning
 msgid "View Planning"
-msgstr ""
+msgstr "ดูการวางแผน"
 
 #. module: project_forecast
 #: code:addons/project_forecast/models/project.py:0

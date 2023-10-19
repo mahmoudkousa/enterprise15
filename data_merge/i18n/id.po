@@ -265,7 +265,7 @@ msgstr "Abaikan"
 #: model_terms:ir.ui.view,arch_db:data_merge.data_merge_record_view_search_merge_action
 #: model_terms:ir.ui.view,arch_db:data_merge.view_data_merge_record_search
 msgid "Discarded"
-msgstr ""
+msgstr "Dibuang"
 
 #. module: data_merge
 #: model:ir.model.fields,field_description:data_merge.field_data_merge_group__display_name
@@ -385,7 +385,7 @@ msgstr "Terakhir diubah pada"
 #. module: data_merge
 #: model:ir.model.fields,field_description:data_merge.field_data_merge_model__last_notification
 msgid "Last Notification"
-msgstr ""
+msgstr "Notifikasi Terakhir"
 
 #. module: data_merge
 #: model:ir.model.fields,field_description:data_merge.field_data_merge_group__write_uid
@@ -514,17 +514,17 @@ msgstr ""
 #. module: data_merge
 #: model:ir.model.fields,field_description:data_merge.field_data_merge_model__notify_frequency
 msgid "Notify"
-msgstr ""
+msgstr "Notifikasi"
 
 #. module: data_merge
 #: model:ir.model.fields,field_description:data_merge.field_data_merge_model__notify_frequency_period
 msgid "Notify Frequency Period"
-msgstr ""
+msgstr "Periode Frekuensi Notifikasi"
 
 #. module: data_merge
 #: model:ir.model.fields,field_description:data_merge.field_data_merge_model__notify_user_ids
 msgid "Notify Users"
-msgstr ""
+msgstr "Notifikasi User"
 
 #. module: data_merge
 #: model:ir.model.fields,field_description:data_merge.field_data_merge_group__record_ids
@@ -545,7 +545,7 @@ msgstr "Record ID"
 #: model_terms:ir.ui.view,arch_db:data_merge.data_merge_record_view_search_merge_action
 #: model_terms:ir.ui.view,arch_db:data_merge.view_data_merge_record_search
 msgid "Records"
-msgstr ""
+msgstr "Record-Record"
 
 #. module: data_merge
 #: model:ir.model.fields,field_description:data_merge.field_data_merge_model__records_to_merge_count
@@ -608,7 +608,7 @@ msgstr ""
 #. module: data_merge
 #: model:ir.model.constraint,message:data_merge.constraint_data_merge_model_check_notif_freq
 msgid "The notification frequency should be greater than 0"
-msgstr ""
+msgstr "Frekuensi frekuensi harus lebih besar dari 0"
 
 #. module: data_merge
 #. openerp-web
@@ -638,7 +638,7 @@ msgstr ""
 #: code:addons/data_merge/static/src/xml/data_merge_list_views.xml:0
 #, python-format
 msgid "Unselect"
-msgstr ""
+msgstr "Batalkan pilihan"
 
 #. module: data_merge
 #: model:ir.model.fields,field_description:data_merge.field_data_merge_record__record_write_uid

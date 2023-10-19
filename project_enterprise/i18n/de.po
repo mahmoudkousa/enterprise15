@@ -3,12 +3,12 @@
 # 	* project_enterprise
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Felix Schubert <felix.schubert@go-erp.com>, 2021
 # Philipp Fürstos <pfu@odoo.com>, 2021
 # Robert Förster <hello@suppliot.eu>, 2021
 # Friederike Fasterling-Nesselbosch, 2022
 # Larissa Manderfeld, 2023
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 11:18+0000\n"
 "PO-Revision-Date: 2021-09-14 12:42+0000\n"
-"Last-Translator: Larissa Manderfeld, 2023\n"
+"Last-Translator: Martin Trigaux, 2023\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +36,7 @@ msgstr ""
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_gantt
 msgid "<i class=\"fa fa-long-arrow-right\" title=\"Arrow\"/>"
-msgstr "<i class=\"fa fa-long-arrow-right\" title=\"Pfeil\"/>"
+msgstr "<i class=\"fa fa-long-arrow-right\" title=\"Arrow\"/>"
 
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_form
@@ -80,7 +80,7 @@ msgstr "Datum"
 #. module: project_enterprise
 #: model:ir.model.fields,field_description:project_enterprise.field_project_task__display_warning_dependency_in_gantt
 msgid "Display Warning Dependency In Gantt"
-msgstr "Warnung über Abhängigkeit in Ganrr anzeigen"
+msgstr "Warnung über Abhängigkeit in Gantt anzeigen"
 
 #. module: project_enterprise
 #: model:ir.model.fields,field_description:project_enterprise.field_project_task__planned_date_end
@@ -127,7 +127,7 @@ msgstr "Planung"
 #. module: project_enterprise
 #: model:ir.model.fields,field_description:project_enterprise.field_project_task__planning_overlap
 msgid "Planning Overlap"
-msgstr "Überlappung planen"
+msgstr "Planungsüberlappung"
 
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_map_view
@@ -137,7 +137,7 @@ msgstr "Projekt"
 #. module: project_enterprise
 #: model:ir.model,name:project_enterprise.model_project_milestone
 msgid "Project Milestone"
-msgstr "Projekt Milestone"
+msgstr "Projektmeilenstein"
 
 #. module: project_enterprise
 #: model:ir.model.fields,field_description:project_enterprise.field_project_task__project_color
@@ -177,7 +177,7 @@ msgstr "Das geplante Startdatum muss vor dem geplanten Enddatum liegen."
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.res_config_settings_view_form
 msgid "Timesheets"
-msgstr "Zeiterfassung"
+msgstr "Zeiterfassungen"
 
 #. module: project_enterprise
 #. openerp-web

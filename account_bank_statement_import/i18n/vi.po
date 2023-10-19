@@ -8,7 +8,7 @@
 # Dung Nguyen Thi <dungnt@trobz.com>, 2021
 # Trần Hà <tranthuha13590@gmail.com>, 2021
 # Vo Thanh Thuy, 2021
-# Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2022
+# Nancy Momoland <thanh.np2502@gmail.com>, 2022
 # Thi Huong Nguyen, 2023
 # 
 msgid ""
@@ -18,7 +18,7 @@ msgstr ""
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
 "Last-Translator: Thi Huong Nguyen, 2023\n"
-"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -968,6 +968,18 @@ msgstr "You can upload your bank statement using:"
 #, python-format
 msgid "You have to set a Default Account for the journal: %s"
 msgstr "You have to set a Default Account for the journal: %s"
+
+#. module: account_bank_statement_import
+#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
+#, python-format
+msgid "The following files could not be imported:\n"
+msgstr "Không thể nhập các tập tệp sau đây:\n"
+
+#. module: account_bank_statement_import
+#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
+#, python-format
+msgid "View successfully imported statements"
+msgstr "Xem các sao kê đã được nhập thành công"
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.journal_dashboard_view_inherit

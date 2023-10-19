@@ -468,6 +468,9 @@ var StreamPostComments = Dialog.extend(MailEmojisMixin, SocialStreamPostFormatte
             $replyEl.find('.o_input_file').val('');
             $textarea.prop('disabled', false);
             $textarea.focus();
+        }).catch(() => {
+            this.do_warn(false, _t("Something went wrong while posting the comment."));
+            $textarea.prop('disabled', false);
         });
     },
 

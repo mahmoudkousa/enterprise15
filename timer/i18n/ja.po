@@ -86,7 +86,7 @@ msgstr "最終更新日"
 #. module: timer
 #: model:ir.model.constraint,message:timer.constraint_timer_timer_unique_timer
 msgid "Only one timer occurrence by model, record and user"
-msgstr ""
+msgstr "モデル、レコード、ユーザによるタイマーの発生は1回のみです。"
 
 #. module: timer
 #. openerp-web
@@ -98,7 +98,7 @@ msgstr "演奏する"
 #. module: timer
 #: model:ir.model.fields,field_description:timer.field_timer_timer__res_id
 msgid "Res"
-msgstr ""
+msgstr "リセット"
 
 #. module: timer
 #: model:ir.model.fields,field_description:timer.field_timer_timer__res_model
@@ -134,7 +134,7 @@ msgstr "タイマーMixin"
 #. module: timer
 #: model:ir.model,name:timer.model_timer_timer
 msgid "Timer Module"
-msgstr ""
+msgstr "タイマーモジュール"
 
 #. module: timer
 #: model:ir.model.fields,field_description:timer.field_timer_mixin__timer_start

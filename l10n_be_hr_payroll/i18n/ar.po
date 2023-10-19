@@ -3938,7 +3938,7 @@ msgstr ""
 #. module: l10n_be_hr_payroll
 #: model:ir.model.fields,field_description:l10n_be_hr_payroll.field_hr_payroll_generate_warrant_payslips__import_file
 msgid "Import File"
-msgstr ""
+msgstr "استيراد ملف"
 
 #. module: l10n_be_hr_payroll
 #: model:ir.model.fields.selection,name:l10n_be_hr_payroll.selection__hr_payroll_generate_warrant_payslips__state__import
@@ -4460,7 +4460,7 @@ msgstr "تعديل"
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.report_281_10
 msgid "Montant"
-msgstr ""
+msgstr "Montant"
 
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.report_273S
@@ -5085,7 +5085,7 @@ msgstr ""
 #. module: l10n_be_hr_payroll
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll.report_social_balance
 msgid "Part-Time"
-msgstr ""
+msgstr "دوام جزئي "
 
 #. module: l10n_be_hr_payroll
 #: model:hr.work.entry.type,name:l10n_be_hr_payroll.work_entry_type_partial_incapacity
@@ -5316,7 +5316,7 @@ msgstr "الضريبة المهنية"
 #. module: l10n_be_hr_payroll
 #: model:hr.work.entry.type,name:l10n_be_hr_payroll.work_entry_type_bank_holiday
 msgid "Public Holiday"
-msgstr ""
+msgstr "إجازة رسمية "
 
 #. module: l10n_be_hr_payroll
 #: model:hr.work.entry.type,name:l10n_be_hr_payroll.work_entry_type_phc

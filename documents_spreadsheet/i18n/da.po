@@ -3,20 +3,20 @@
 # 	* documents_spreadsheet
 # 
 # Translators:
-# Sanne Kristensen <sanne@vkdata.dk>, 2021
 # Ejner Sønniksen <ejner@vkdata.dk>, 2021
 # Walther Barnett <walther@gundogpro.dk>, 2022
 # Mads Søndergaard, 2022
 # Mads Søndergaard, 2023
-# Martin Trigaux, 2023
 # JonathanStein <jstein@image.dk>, 2023
+# Martin Trigaux, 2023
+# Sanne Kristensen <sanne@vkdata.dk>, 2023
 # lhmflexerp <lhm@flexerp.dk>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-28 07:19+0000\n"
+"POT-Creation-Date: 2023-07-20 12:29+0000\n"
 "PO-Revision-Date: 2021-09-14 12:39+0000\n"
 "Last-Translator: lhmflexerp <lhm@flexerp.dk>, 2023\n"
 "Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
@@ -99,7 +99,7 @@ msgstr "(Udefineret)"
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.res_config_settings_view_form_inherit_documents_spreadsheet
 msgid ""
 "<strong>Spreadsheets</strong>\n"
-"                            <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+"                            <span class=\"fa fa-lg fa-building-o ml-1\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
 msgstr ""
 
 #. module: documents_spreadsheet
@@ -209,6 +209,13 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Also modify formulas"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/actions/control_panel/collaborative_cross_tab_bus_warning.js:0
+#, python-format
+msgid "An issue occurred while auto-saving"
 msgstr ""
 
 #. module: documents_spreadsheet
@@ -439,7 +446,7 @@ msgstr "Midten"
 #. module: documents_spreadsheet
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.res_config_settings_view_form_inherit_documents_spreadsheet
 msgid "Centralize your spreadsheets"
-msgstr ""
+msgstr "Centralisér dine regneark"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -516,7 +523,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Color scale"
-msgstr ""
+msgstr "Farve skala"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1799,7 +1806,7 @@ msgstr "Indsæt link"
 #: code:addons/documents_spreadsheet/static/src/js/components/insert_list_spreadsheet_menu.xml:0
 #, python-format
 msgid "Insert list in spreadsheet"
-msgstr ""
+msgstr "Indsæt liste i regneark"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1888,13 +1895,6 @@ msgstr "Ugyldig formular"
 #, python-format
 msgid "Invalid lower inflection point formula"
 msgstr ""
-
-#. module: documents_spreadsheet
-#. openerp-web
-#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
-#, python-format
-msgid "Invalid merge zone"
-msgstr "Ugyldig sammenfletnings zone"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2243,7 +2243,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/insert_action_link_menu/insert_action_link_menu.xml:0
 #, python-format
 msgid "Link menu in spreadsheet"
-msgstr ""
+msgstr "Link til menu i regneark"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2512,6 +2512,27 @@ msgstr ""
 #, python-format
 msgid "Minute component of a specific time."
 msgstr "Minut komponent for en specifik tid."
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/plugins/ui/list_autofill_plugin.js:0
+#, python-format
+msgid "Missing list #%s"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/plugins/ui/pivot_autofill_plugin.js:0
+#, python-format
+msgid "Missing pivot"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/plugins/ui/pivot_autofill_plugin.js:0
+#, python-format
+msgid "Missing pivot #%s"
+msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2955,6 +2976,13 @@ msgstr "Vær venlig at angive et gyldigt ark navn"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/actions/control_panel/collaborative_cross_tab_bus_warning.js:0
+#, python-format
+msgid "Please, close all other Odoo tabs and reload the current page."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Position of item in range that matches value."
@@ -3098,6 +3126,13 @@ msgstr "Relateret model"
 #, python-format
 msgid "Relation"
 msgstr "Relation"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/actions/control_panel/collaborative_cross_tab_bus_warning.js:0
+#, python-format
+msgid "Reload"
+msgstr "Opdater"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3406,7 +3441,7 @@ msgstr "Vælg et regneark at indsætte dit pivot i"
 #: code:addons/documents_spreadsheet/static/src/js/components/ir_menu_selector/ir_menu_selector.js:0
 #, python-format
 msgid "Select an Odoo menu to link in your spreadsheet"
-msgstr ""
+msgstr "Vælg en Odoo menu at linke til i dit regneark"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4364,7 +4399,6 @@ msgstr "Der er ingen pivot med ID \"%s\""
 
 #. module: documents_spreadsheet
 #. openerp-web
-#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format

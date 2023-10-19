@@ -6,6 +6,7 @@
 # Martin Trigaux, 2021
 # Duy BQ <duybq86@gmail.com>, 2021
 # Trần Hà <tranthuha13590@gmail.com>, 2021
+# Thi Huong Nguyen, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Trần Hà <tranthuha13590@gmail.com>, 2021\n"
-"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Last-Translator: Thi Huong Nguyen, 2023\n"
+"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -36,7 +37,7 @@ msgstr "A bank account must be set on the following documents: "
 #. module: account_sepa
 #: model:ir.model.fields.selection,name:account_sepa.selection__account_journal__sepa_pain_version__pain_001_001_03_austrian_004
 msgid "Austrian"
-msgstr ""
+msgstr "Áo"
 
 #. module: account_sepa
 #: code:addons/account_sepa/models/account_journal.py:0
@@ -83,13 +84,13 @@ msgstr "Tổng quát"
 #. module: account_sepa
 #: model:ir.model.fields.selection,name:account_sepa.selection__account_journal__sepa_pain_version__pain_001_003_03
 msgid "German"
-msgstr ""
+msgstr "Đức"
 
 #. module: account_sepa
 #: model:ir.model.fields,field_description:account_sepa.field_account_bank_statement_import_journal_creation__has_sepa_ct_payment_method
 #: model:ir.model.fields,field_description:account_sepa.field_account_journal__has_sepa_ct_payment_method
 msgid "Has Sepa Ct Payment Method"
-msgstr ""
+msgstr "Có phương thức thanh toán chuyển khoản tín dụng Sepa"
 
 #. module: account_sepa
 #: model:ir.model.fields,field_description:account_sepa.field_res_company__sepa_orgid_id
@@ -132,7 +133,7 @@ msgstr ""
 #: code:addons/account_sepa/models/account_journal.py:0
 #, python-format
 msgid "Partner %s has no country code defined."
-msgstr ""
+msgstr "Chưa xác định mã quốc gia cho đối tác %s."
 
 #. module: account_sepa
 #: code:addons/account_sepa/models/account_journal.py:0
@@ -214,6 +215,9 @@ msgid ""
 "recommendations made by the EPC (European Payment Council) and thus the XML "
 "created need some tweaking."
 msgstr ""
+"SEPA có thể chỉ là một định dạng chung, một số quốc gia có định dạng khác "
+"với khuyến nghị SEPA do EPC (Hội đồng Thanh toán châu Âu) đưa ra và do đó "
+"cần thực hiện một số điều chỉnh trên XML được tạo."
 
 #. module: account_sepa
 #: model:ir.model.fields,field_description:account_sepa.field_account_batch_payment__sct_generic
@@ -230,11 +234,27 @@ msgstr "Some payments are above the maximum amount allowed."
 #: code:addons/account_sepa/models/account_batch_payment.py:0
 #, python-format
 msgid ""
+"Some payments are linked to partner addresses with characters not supported "
+"by SEPA. These characters have been replaced by blanks."
+msgstr ""
+
+#. module: account_sepa
+#: code:addons/account_sepa/models/account_batch_payment.py:0
+#, python-format
+msgid ""
 "Some payments are not made on an IBAN recipient account. This batch might "
 "not be accepted by certain banks because of that."
 msgstr ""
 "Some payments are not made on an IBAN recipient account. This batch might "
 "not be accepted by certain banks because of that."
+
+#. module: account_sepa
+#: code:addons/account_sepa/models/account_batch_payment.py:0
+#, python-format
+msgid ""
+"Some payments have a name or reference containing characters not supported "
+"by SEPA. These characters have been replaced by blanks."
+msgstr ""
 
 #. module: account_sepa
 #: code:addons/account_sepa/models/account_batch_payment.py:0
@@ -255,12 +275,12 @@ msgstr ""
 #. module: account_sepa
 #: model:ir.model.fields.selection,name:account_sepa.selection__account_journal__sepa_pain_version__pain_001_001_03_se
 msgid "Swedish"
-msgstr ""
+msgstr "Thuỵ Điển"
 
 #. module: account_sepa
 #: model:ir.model.fields.selection,name:account_sepa.selection__account_journal__sepa_pain_version__pain_001_001_03_ch_02
 msgid "Swiss"
-msgstr ""
+msgstr "Thuỵ Sĩ"
 
 #. module: account_sepa
 #: model:ir.model.fields,help:account_sepa.field_account_batch_payment__sct_generic
@@ -312,6 +332,26 @@ msgid ""
 "The bank defined on account %s (from partner %s) has no BIC. Please first "
 "set one."
 msgstr ""
+"Ngân hàng được xác định trên tài khoản %s (từ đối tác %s) không có BIC. Vui "
+"lòng thiết lập trước."
+
+#. module: account_sepa
+#: code:addons/account_sepa/models/account_journal.py:0
+#, python-format
+msgid ""
+"The BIC code '%s' associated to the bank '%s' of bank account '%s' of partner '%s' does not respect the required convention.\n"
+"It must contain 8 or 11 characters and match the following structure:\n"
+"- 4 letters: institution code or bank code\n"
+"- 2 letters: country code\n"
+"- 2 letters or digits: location code\n"
+"- 3 letters or digits: branch code, optional\n"
+msgstr ""
+"Mã BIC '%s' liên kết với ngân hàng '%s' của tài khoản ngân hàng '%s' thuộc đối tác '%s' không tuân thủ quy ước bắt buộc.\n"
+"Phải chứa 8 hoặc 11 ký tự và khớp với cấu trúc sau:\n"
+"- 4 chữ cái: mã tổ chức hoặc mã ngân hàng\n"
+"- 2 chữ cái: mã quốc gia\n"
+"- 2 chữ cái hoặc chữ số: mã vị trí\n"
+"- 3 chữ cái hoặc chữ số: mã chi nhánh, tùy chọn\n"
 
 #. module: account_sepa
 #: code:addons/account_sepa/models/account_payment.py:0

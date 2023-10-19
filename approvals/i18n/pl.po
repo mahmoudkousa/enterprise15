@@ -1131,6 +1131,16 @@ msgid ""
 msgstr "Nie można zatwierdzić przed poprzednim zatwierdzającym."
 
 #. module: approvals
+#: code:addons/approvals/models/ir_attachment.py:0
+#, python-format
+msgid ""
+"You cannot unlink an attachment which is linked to a validated, refused or "
+"cancelled approval request."
+msgstr ""
+"Nie można odłączyć załącznika, który jest powiązany z zatwierdzonym, "
+"odrzuconym lub anulowanym wnioskiem o zatwierdzenie."
+
+#. module: approvals
 #: code:addons/approvals/models/approval_request.py:0
 #, python-format
 msgid "You have to add at least %s approvers to confirm your request."

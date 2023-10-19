@@ -178,6 +178,17 @@ export default class ListPlugin extends spreadsheet.CorePlugin {
         return (getMaxObjectId(this.lists) + 1).toString();
     }
 
+    /**
+     * Check if an id is an id of an existing list
+     *
+     * @param {string} id Id of the list
+     *
+     * @returns {boolean}
+     */
+    isExistingList(id) {
+        return id in this.lists;
+    }
+
     // ---------------------------------------------------------------------
     // Import/Export
     // ---------------------------------------------------------------------
@@ -249,4 +260,5 @@ ListPlugin.getters = [
     "getListModel",
     "getListOrderBy",
     "getNextListId",
+    "isExistingList",
 ];

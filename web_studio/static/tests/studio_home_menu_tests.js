@@ -151,6 +151,7 @@ QUnit.module("Studio", (hooks) => {
                     xmlid: "app.3",
                 },
             ],
+            menuItems: [],
         };
     });
 
@@ -238,6 +239,27 @@ QUnit.module("Studio", (hooks) => {
             assert.strictEqual(menuId, 1);
         });
         const { studioHomeMenu, destroy } = await createStudioHomeMenu(homeMenuProps);
+
+        await testUtils.dom.click(studioHomeMenu.el.querySelector(".o_menuitem"));
+
+        destroy();
+    });
+
+    QUnit.test("Click on a normal App after filtering", async function (assert) {
+        assert.expect(3);
+
+        bus.on("studio:open", null, (mode, actionId) => {
+            assert.strictEqual(mode, MODES.EDITOR);
+            assert.strictEqual(actionId, 123);
+        });
+        bus.on("menu:setCurrentMenu", null, (menuId) => {
+            assert.strictEqual(menuId, 3);
+        });
+        const { studioHomeMenu, destroy } = await createStudioHomeMenu(homeMenuProps);
+
+        const input = studioHomeMenu.el.querySelector(".o_menu_search_input");
+        await testUtils.dom.triggerEvent(input, "focus");
+        await testUtils.fields.editInput(input, "contact");
 
         await testUtils.dom.click(studioHomeMenu.el.querySelector(".o_menuitem"));
 

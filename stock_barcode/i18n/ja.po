@@ -109,12 +109,12 @@ msgstr "<i class=\"fa fa-fw fa-lg fa-user-o text-center mr-3\" title=“持ち�
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_quant_barcode_kanban_2
 msgid "<i class=\"fa fa-lg fa-archive\" title=\"Package\"/>"
-msgstr ""
+msgstr "<i class=\"fa fa-lg fa-archive\" title=\"Package\"/>"
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_quant_barcode_kanban_2
 msgid "<i class=\"fa fa-lg fa-user-o\" title=\"Owner\"/>"
-msgstr ""
+msgstr "<i class=\"fa fa-lg fa-user-o\" title=\"Owner\"/>"
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.res_config_settings_view_form
@@ -138,7 +138,7 @@ msgstr ""
 msgid ""
 "A product tracked by serial numbers can't have multiple quantities for the "
 "same serial number."
-msgstr ""
+msgstr "シリアル番号で追跡されるプロダクトは、同じシリアル番号で複数の数量を持つことはできません。"
 
 #. module: stock_barcode
 #. openerp-web
@@ -159,7 +159,7 @@ msgstr "割当"
 msgid ""
 "An unexisting package type was scanned. This part of the barcode can't be "
 "processed."
-msgstr ""
+msgstr "存在しない梱包タイプがスキャンされました。バーコードのこの部分は処理できません。"
 
 #. module: stock_barcode
 #. openerp-web
@@ -189,7 +189,7 @@ msgstr "バーコード"
 #. module: stock_barcode
 #: model:ir.actions.client,name:stock_barcode.stock_barcode_inventory_client_action
 msgid "Barcode Inventory Client Action"
-msgstr ""
+msgstr "バーコード在庫顧客アクション"
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.res_config_settings_view_form
@@ -221,7 +221,7 @@ msgstr "バーコードスキャン"
 #: code:addons/stock_barcode/static/src/models/barcode_model.js:0
 #, python-format
 msgid "Barcode scan is ambiguous with several model: %s. Use the most likely."
-msgstr ""
+msgstr "バーコードスキャンは、いくつかのモデルであいまいです%s： 最も可能性の高いものを使用してください。"
 
 #. module: stock_barcode
 #: model:product.product,name:stock_barcode.product_cable_management_box_2
@@ -241,12 +241,12 @@ msgstr "取消"
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_stock_barcode_cancel_operation
 msgid "Cancel Operation"
-msgstr ""
+msgstr "オペレーションをキャンセル"
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_barcode_cancel_operation_view
 msgid "Cancel operation"
-msgstr ""
+msgstr "オペレーションをキャンセル"
 
 #. module: stock_barcode
 #: code:addons/stock_barcode/models/stock_picking.py:0
@@ -314,13 +314,13 @@ msgstr "作成日"
 #: model:product.product,name:stock_barcode.product_custom_cabinet_metric
 #: model:product.template,name:stock_barcode.product_custom_cabinet_metric_product_template
 msgid "Customized Cabinet (Metric)"
-msgstr ""
+msgstr "カスタマイズキャビネット (メートル法)"
 
 #. module: stock_barcode
 #: model:product.product,name:stock_barcode.product_custom_cabinet_usa
 #: model:product.template,name:stock_barcode.product_custom_cabinet_usa_product_template
 msgid "Customized Cabinet (USA)"
-msgstr ""
+msgstr "カスタマイズキャビネット (USA)"
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_barcode_lot__default_move_id
@@ -537,13 +537,13 @@ msgstr "内部操作タイプはありません。倉庫設定で構成してく
 #: code:addons/stock_barcode/controllers/stock_barcode.py:0
 #, python-format
 msgid "No picking or location or product corresponding to barcode %(barcode)s"
-msgstr ""
+msgstr "バーコード%(barcode)sに対応するピッキングまたは場所はありません"
 
 #. module: stock_barcode
 #: code:addons/stock_barcode/controllers/stock_barcode.py:0
 #, python-format
 msgid "No picking or product corresponding to barcode %(barcode)s"
-msgstr ""
+msgstr "バーコード%(barcode)sに対応するピッキングまたはプロダクトはありません。"
 
 #. module: stock_barcode
 #: code:addons/stock_barcode/models/stock_picking.py:0
@@ -601,7 +601,7 @@ msgstr "%sは棚卸できません。在庫可能品のみ棚卸することが�
 #: code:addons/stock_barcode/static/src/models/barcode_quant_model.js:0
 #, python-format
 msgid "Package type %s was correctly applied to the package %s"
-msgstr ""
+msgstr "梱包タイプ %sが正しく梱包%sに適用されました。"
 
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_stock_quant_package
@@ -694,7 +694,7 @@ msgstr "製品包装"
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_move_line__product_stock_quant_ids
 msgid "Product Stock Quant"
-msgstr ""
+msgstr "プロダクト在庫数"
 
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_uom_uom
@@ -761,7 +761,7 @@ msgstr "スキャン"
 #: code:addons/stock_barcode/static/src/models/barcode_model.js:0
 #, python-format
 msgid "Scan a product"
-msgstr ""
+msgstr "プロダクトをスキャン"
 
 #. module: stock_barcode
 #: code:addons/stock_barcode/models/stock_picking.py:0
@@ -825,7 +825,7 @@ msgstr "ソースの場所をスキャンするか、製品をスキャンしま
 msgid ""
 "Scanned quantity uses %s as Unit of Measure, but this UoM is not compatible "
 "with the line's one (%s)."
-msgstr ""
+msgstr "スキャンされた数量は%sを単位として使用していますが、この単位は項目の単位 (%s)と互換性がありません。"
 
 #. module: stock_barcode
 #. openerp-web
@@ -835,7 +835,7 @@ msgstr ""
 msgid ""
 "Scanned quantity uses %s as Unit of Measure, but this UoM is not compatible "
 "with the product's one (%s)."
-msgstr ""
+msgstr "スキャンされた数量は%sを単位として使用していますが、この単位は項目の単位 (%s)と互換性がありません。"
 
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_stock_scrap
@@ -856,7 +856,7 @@ msgstr "シリアル/ロット番号"
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_res_config_settings__show_barcode_nomenclature
 msgid "Show Barcode Nomenclature"
-msgstr ""
+msgstr "バーコード命名法を表示"
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_move_line__picking_location_id
@@ -882,7 +882,7 @@ msgstr "ストックバーコードロットライン"
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_stock_package_type
 msgid "Stock package type"
-msgstr ""
+msgstr "在庫梱包タイプ"
 
 #. module: stock_barcode
 #. openerp-web
@@ -940,14 +940,14 @@ msgstr "転送が検証されました"
 #: code:addons/stock_barcode/static/src/models/barcode_quant_model.js:0
 #, python-format
 msgid "There is nothing to apply in this page."
-msgstr ""
+msgstr "このページに適用するものはありません。"
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/models/barcode_quant_model.js:0
 #, python-format
 msgid "There is nothing to print in this page."
-msgstr ""
+msgstr "このページで印刷するものはありません。"
 
 #. module: stock_barcode
 #. openerp-web
@@ -969,14 +969,14 @@ msgstr "このピッキングはすでに行われています"
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 #, python-format
 msgid "This picking is cancelled"
-msgstr ""
+msgstr "このピッキングはキャンセルされました。"
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/models/barcode_model.js:0
 #, python-format
 msgid "This serial number is already used."
-msgstr ""
+msgstr "このシリアル番号はすでに使用済です。"
 
 #. module: stock_barcode
 #. openerp-web
@@ -995,7 +995,7 @@ msgstr "未処理"
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 #, python-format
 msgid "To use packages, enable 'Packages' in the settings"
-msgstr ""
+msgstr "梱包を使用するには設定で '梱包' を有効にして下さい。"
 
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_stock_picking
@@ -1006,7 +1006,7 @@ msgstr "運送"
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_barcode_cancel_operation__picking_name
 msgid "Transfer Name"
-msgstr ""
+msgstr "転送名"
 
 #. module: stock_barcode
 #: model_terms:ir.actions.act_window,help:stock_barcode.stock_picking_action_kanban
@@ -1070,7 +1070,7 @@ msgstr "特定の製品についてSN /LNをスキャンするウィザード"
 #: code:addons/stock_barcode/static/src/models/barcode_quant_model.js:0
 #, python-format
 msgid "Wrong Unit of Measure"
-msgstr ""
+msgstr "誤った単位"
 
 #. module: stock_barcode
 #: code:addons/stock_barcode/models/stock_picking.py:0
@@ -1085,7 +1085,7 @@ msgstr "間違ったバーコードです"
 msgid ""
 "You are expected to scan one or more products or a package available at the "
 "picking location"
-msgstr ""
+msgstr "ピッキングロケーションにある1つ以上のプロダクトまたは梱包をスキャンして下さい。"
 
 #. module: stock_barcode
 #. openerp-web
@@ -1099,7 +1099,14 @@ msgstr "1つ以上の製品をスキャンする必要があります。"
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 #, python-format
 msgid "You can't apply a package type. First, scan product or select a line"
-msgstr ""
+msgstr "梱包タイプを適用できません。最初にプロダクトまたは項目をスキャンして下さい。"
+
+#. module: stock_barcode
+#. openerp-web
+#: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
+#, python-format
+msgid "You can't register scrap at this state of the operation"
+msgstr "オペレーションのこの段階で廃棄を登録することはできません。"
 
 #. module: stock_barcode
 #: code:addons/stock_barcode/wizard/stock_barcode_lot.py:0
@@ -1126,7 +1133,7 @@ msgstr "ドキュメント"
 #: model:product.product,uom_name:stock_barcode.product_custom_cabinet_usa
 #: model:product.template,uom_name:stock_barcode.product_custom_cabinet_usa_product_template
 msgid "ft³"
-msgstr ""
+msgstr "ft³"
 
 #. module: stock_barcode
 #. openerp-web
@@ -1139,7 +1146,7 @@ msgstr "場所"
 #: model:product.product,uom_name:stock_barcode.product_custom_cabinet_metric
 #: model:product.template,uom_name:stock_barcode.product_custom_cabinet_metric_product_template
 msgid "m³"
-msgstr ""
+msgstr "m³"
 
 #. module: stock_barcode
 #. openerp-web

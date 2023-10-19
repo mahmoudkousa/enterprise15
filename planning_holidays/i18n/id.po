@@ -24,7 +24,7 @@ msgstr ""
 #: code:addons/planning_holidays/models/planning_slot.py:0
 #, python-format
 msgid " and"
-msgstr ""
+msgstr "dan"
 
 #. module: planning_holidays
 #: code:addons/planning_holidays/models/planning_slot.py:0
@@ -54,7 +54,7 @@ msgstr ""
 #: code:addons/planning_holidays/models/planning_slot.py:0
 #, python-format
 msgid "%(prefix)s from the %(dfrom)s to the %(dto)s"
-msgstr ""
+msgstr "%(prefix)s dari %(dfrom)s sampai %(dto)s"
 
 #. module: planning_holidays
 #: code:addons/planning_holidays/models/planning_slot.py:0
@@ -72,12 +72,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:planning_holidays.field_planning_slot__is_absent
 #: model_terms:ir.ui.view,arch_db:planning_holidays.planning_slot_view_search_inherit_planning_holidays
 msgid "Employees on Time Off"
-msgstr ""
+msgstr "Karyawan yang Cuti"
 
 #. module: planning_holidays
 #: model:ir.model.fields,field_description:planning_holidays.field_planning_slot__leave_warning
 msgid "Leave Warning"
-msgstr ""
+msgstr "Peringatan Cuti"
 
 #. module: planning_holidays
 #: code:addons/planning_holidays/models/planning_slot.py:0

@@ -1451,6 +1451,13 @@ msgstr "التواصل الاجتماعي: قم بنشر المنشورات ال
 
 #. module: social
 #. openerp-web
+#: code:addons/social/static/src/js/stream_post_comments.js:0
+#, python-format
+msgid "Something went wrong while posting the comment."
+msgstr "حدث خطأ ما أثناء نشر التعليق. "
+
+#. module: social
+#. openerp-web
 #: code:addons/social/static/src/js/stream_post_kanban_controller.js:0
 #, python-format
 msgid ""

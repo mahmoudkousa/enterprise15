@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Jumshud Sultanov <cumshud@gmail.com>, 2022
-# erpgo translator <jumshud@erpgo.az>, 2022
+# erpgo translator <jumshud@erpgo.az>, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: erpgo translator <jumshud@erpgo.az>, 2022\n"
-"Language-Team: Azerbaijani (https://www.transifex.com/odoo/teams/41243/az/)\n"
+"Last-Translator: erpgo translator <jumshud@erpgo.az>, 2023\n"
+"Language-Team: Azerbaijani (https://app.transifex.com/odoo/teams/41243/az/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -541,7 +541,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:social.field_social_media__has_message
 #: model:ir.model.fields,field_description:social.field_social_post__has_message
 msgid "Has Message"
-msgstr ""
+msgstr "Mesajı Var"
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_account__has_trends
@@ -873,7 +873,7 @@ msgstr ""
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_post__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr ""
+msgstr "Mənim Fəaliyyətlərimin Son Tarixi "
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_post_view_search
@@ -918,7 +918,7 @@ msgstr "Növbəti"
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_post__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr ""
+msgstr "Növbəti Fəaliyyət Təqvimi Tədbiri"
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_post__activity_date_deadline
@@ -1417,6 +1417,13 @@ msgstr ""
 #: model:ir.cron,cron_name:social.ir_cron_post_scheduled
 #: model:ir.cron,name:social.ir_cron_post_scheduled
 msgid "Social: Publish Scheduled Posts"
+msgstr ""
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/js/stream_post_comments.js:0
+#, python-format
+msgid "Something went wrong while posting the comment."
 msgstr ""
 
 #. module: social

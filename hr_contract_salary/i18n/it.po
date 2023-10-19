@@ -6,6 +6,7 @@
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
 # Sergio Zanchetta <primes2h@gmail.com>, 2023
+# Marianna Ciofani, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 11:17+0000\n"
 "PO-Revision-Date: 2021-09-14 12:40+0000\n"
-"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2023\n"
+"Last-Translator: Marianna Ciofani, 2023\n"
 "Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -324,7 +325,7 @@ msgstr "Data inizio contratto"
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_history__default_contract_id
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_job__default_contract_id
 msgid "Contract Template"
-msgstr "Modello abbonamento"
+msgstr "Modello contratto"
 
 #. module: hr_contract_salary
 #: model:ir.actions.act_window,name:hr_contract_salary.action_hr_contract_templates
@@ -341,7 +342,7 @@ msgstr "Tipo Contratto"
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract__contract_update_template_id
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_history__contract_update_template_id
 msgid "Contract Update Document Template"
-msgstr ""
+msgstr "Modello documento aggiornamento contratto"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields.selection,name:hr_contract_salary.selection__hr_contract_salary_resume__value_type__contract
@@ -371,7 +372,7 @@ msgstr ""
 #. module: hr_contract_salary
 #: model:ir.model.fields,help:hr_contract_salary.field_hr_contract_salary_advantage__fold_res_field_id
 msgid "Contract field used to fold this advantage."
-msgstr ""
+msgstr "Campo del contratto utilizzato per minimizzare il beneficio."
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,help:hr_contract_salary.field_hr_contract_salary_advantage__manual_res_field_id
@@ -397,7 +398,7 @@ msgstr "Contratto: Il tuo pacchetto salariale"
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_view_form
 msgid "Contracts Reviews"
-msgstr ""
+msgstr "Revisioni contratti"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_advantage__cost_res_field_id
@@ -578,7 +579,7 @@ msgstr "Menù a discesa"
 #. module: hr_contract_salary
 #: model:ir.model.fields.selection,name:hr_contract_salary.selection__hr_contract_salary_advantage__display_type__dropdown-group
 msgid "Dropdown Group"
-msgstr ""
+msgstr "Gruppo a discesa"
 
 #. module: hr_contract_salary
 #: model:hr.contract.salary.personal.info,name:hr_contract_salary.hr_contract_salary_personal_info_email
@@ -667,17 +668,17 @@ msgstr "Valore fisso"
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_advantage__fold_field
 msgid "Fold Field Name"
-msgstr ""
+msgstr "Nome campo minimizzato"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_advantage__fold_label
 msgid "Fold Label"
-msgstr ""
+msgstr "Etichetta minimizzato"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_advantage__fold_res_field_id
 msgid "Fold Res Field"
-msgstr ""
+msgstr "Campo risorsa minimizzata"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_advantage__folded
@@ -729,7 +730,7 @@ msgstr ""
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_personal_info__helper
 msgid "Helper"
-msgstr ""
+msgstr "Aiuto"
 
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.salary_package_personal_information
@@ -908,7 +909,7 @@ msgstr "Input manuale"
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_advantage__manual_res_field_id
 msgid "Manual Res Field"
-msgstr ""
+msgstr "Campo risorsa manuale"
 
 #. module: hr_contract_salary
 #: model:hr.contract.salary.personal.info.value,name:hr_contract_salary.hr_contract_salary_personal_info_certificate_master
@@ -1331,7 +1332,7 @@ msgstr "Selezione"
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_personal_info__dropdown_selection
 msgid "Selection Nature"
-msgstr ""
+msgstr "Natura selezione"
 
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.generate_simulation_link_view_form
@@ -1367,7 +1368,7 @@ msgstr "Pannello laterale"
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_advantage__sign_frenquency
 msgid "Sign Frenquency"
-msgstr ""
+msgstr "Frequenza firma"
 
 #. module: hr_contract_salary
 #: model:ir.model,name:hr_contract_salary.model_hr_contract_sign_document_wizard
@@ -1571,12 +1572,12 @@ msgstr "Retribuzione"
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract__wage_on_signature
 msgid "Wage on Payroll"
-msgstr ""
+msgstr "Stipendio in busta paga"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,help:hr_contract_salary.field_hr_contract__wage_on_signature
 msgid "Wage on contract signature"
-msgstr ""
+msgstr "Stipendio alla firma del contratto"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,help:hr_contract_salary.field_hr_contract_history__reference_monthly_wage
@@ -1647,7 +1648,7 @@ msgstr "Chiudi"
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_generate_simulation_link__employee_contract_employee_id
 msgid "contract employee"
-msgstr ""
+msgstr "dipendente con contratto"
 
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_salary_personal_info_view_form

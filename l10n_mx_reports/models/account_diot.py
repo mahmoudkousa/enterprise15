@@ -269,7 +269,8 @@ class MxReportPartnerLedger(models.AbstractModel):
                 line_credit = line.credit
                 progress = progress + line_debit - line_credit
                 name = line.display_name
-                name = name[:32] + "..." if len(name) > 35 else name
+                if len(name) > 35 and not self._context.get('print_mode'):
+                    name = name[:32] + "..."
                 columns = ['', '', '', '']
                 columns.append('')
                 balance_withheld = line_credit = 0

@@ -410,7 +410,7 @@ msgstr "Subject Email"
 #: code:addons/account_followup/models/account_followup_report.py:0
 #, python-format
 msgid "Excluded"
-msgstr ""
+msgstr "Dikecualikan"
 
 #. module: account_followup
 #: code:addons/account_followup/models/account_followup_report.py:0

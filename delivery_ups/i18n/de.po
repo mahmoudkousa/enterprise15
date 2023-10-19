@@ -3,9 +3,9 @@
 # 	* delivery_ups
 # 
 # Translators:
-# Martin Trigaux, 2021
-# Chris Egal <sodaswed@web.de>, 2021
 # Friederike Fasterling-Nesselbosch, 2021
+# Martin Trigaux, 2023
+# Larissa Manderfeld, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:56+0000\n"
 "PO-Revision-Date: 2021-09-14 12:38+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Larissa Manderfeld, 2023\n"
+"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -45,7 +45,8 @@ msgstr ""
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Access License number is invalid for this delivery provider."
-msgstr "Zugriffslizenznummer ist für diesen Zustelldienstleister ungültig."
+msgstr ""
+"Die Zugriffslizenznummer ist für diesen Versanddienstleister ungültig."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
@@ -60,7 +61,7 @@ msgstr ""
 #, python-format
 msgid "Access License number is revoked contact UPS to get access."
 msgstr ""
-"Zugriffslizenznummer ist widerrufen Kontaktieren Sie UPS, um Zugriff zu "
+"Zugriffslizenznummer wurde widerrufen. Kontaktieren Sie UPS, um Zugriff zu "
 "erhalten."
 
 #. module: delivery_ups
@@ -77,30 +78,30 @@ msgstr ""
 #: model:ir.model.fields,field_description:delivery_ups.field_res_users__bill_my_account
 #: model:ir.model.fields,field_description:delivery_ups.field_sale_order__ups_bill_my_account
 msgid "Bill My Account"
-msgstr "Bill My Account"
+msgstr "Mein Konto abrechnen"
 
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_cod_funds_code
 msgid "COD Funding Option"
-msgstr "COD Ratenzahlung"
+msgstr "Finanzierung per Nachnahme"
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Cancel shipment not available at this time , Please try again Later."
 msgstr ""
-"Stornierung der Sendung ist zur Zeit nicht möglich, bitte versuchen Sie es "
+"Stornierung der Sendung ist zurzeit nicht möglich, bitte versuchen Sie es "
 "später erneut."
 
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_stock_package_type__package_carrier_type
 msgid "Carrier"
-msgstr "Frachtführer"
+msgstr "Transportunternehmen"
 
 #. module: delivery_ups
 #: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_cod_funds_code__8
 msgid "Cashier's Check or MoneyOrder"
-msgstr "Bankcheck oder Zahlungsauftrag"
+msgstr "Bankscheck oder Postanweisung"
 
 #. module: delivery_ups
 #: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_package_dimension_unit__cm
@@ -110,12 +111,12 @@ msgstr "Zentimeter"
 #. module: delivery_ups
 #: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_cod_funds_code__0
 msgid "Check, Cashier's Check or MoneyOrder"
-msgstr "Check, Bankcheck oder Zahlungsauftrag"
+msgstr "Scheck, Bankscheck oder Postanweisung"
 
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_cod
 msgid "Collect on Delivery"
-msgstr "Abholung bei Lieferung"
+msgstr "Lieferung per Nachnahme"
 
 #. module: delivery_ups
 #: model:ir.model,name:delivery_ups.model_res_partner
@@ -148,7 +149,7 @@ msgstr ""
 msgid ""
 "Exceeds Total Number of allowed pieces per World Wide Express Shipment."
 msgstr ""
-"Überschreitet die Gesamtzahl der zulässigen Stücke pro World Wide Express-"
+"Überschreitet die Gesamtzahl der zulässigen Stücke pro Weltweiter Express-"
 "Sendung."
 
 #. module: delivery_ups
@@ -160,8 +161,8 @@ msgid ""
 "If checked, ecommerce users will be prompted their UPS account number\n"
 "and delivery fees will be charged on it."
 msgstr ""
-"Wenn diese Option aktiviert ist, werden E-Commerce-Benutzer aufgefordert, "
-"ihre UPS Kundennummer anzugeben und Versandkosten werden berechnet."
+"Wenn diese Option aktiviert ist, werden E-Commerce-Benutzer aufgefordert, ihre UPS-Kundennummer anzugeben\n"
+"und Versandgebühren werden berechnet."
 
 #. module: delivery_ups
 #: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_package_dimension_unit__in
@@ -191,12 +192,12 @@ msgstr "PDF"
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_package_dimension_unit
 msgid "Package Size Unit"
-msgstr "Verpackungsgröße Einheit"
+msgstr "Abmessungseinheit des Pakets"
 
 #. module: delivery_ups
 #: model_terms:ir.ui.view,arch_db:delivery_ups.view_delivery_carrier_form_with_provider_ups
 msgid "Package Weight Unit"
-msgstr "Gewichtseinheit der Verpackung"
+msgstr "Gewichtseinheit des Pakets"
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
@@ -214,7 +215,7 @@ msgstr "Bitte geben Sie in der Lageradresse eine gültige Stadt an."
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Please provide a valid Country in recipient's address."
-msgstr "Bitte geben Sie ein gültiges Land in der Empfängeradresse an."
+msgstr "Bitte geben Sie in der Empfängeradresse ein gültiges Land an."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
@@ -244,7 +245,7 @@ msgstr "Bitte geben Sie eine gültige Stadt in der Empfängeradresse an."
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Please provide a valid city in the shipper's address."
-msgstr "Bitte geben Sie eine gültige Stadt in der Adresse des Versenders an."
+msgstr "Bitte geben Sie in der Absenderadresse eine gültige Stadt an."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
@@ -273,7 +274,9 @@ msgstr "Bitte geben Sie eine gültige Telefonnummer für den Empfänger an."
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Please provide a valid shipper Number/Carrier Account."
-msgstr "Bitte geben Sie eine gültige Absendernummer/Frachtführerkonto an."
+msgstr ""
+"Bitte geben Sie eine gültige Absendernummer und/oder ein gültiges "
+"Zustellerkonto an."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
@@ -281,13 +284,15 @@ msgstr "Bitte geben Sie eine gültige Absendernummer/Frachtführerkonto an."
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Please provide a valid shipper number/Carrier Account."
-msgstr "Bitte geben Sie eine gültige Versendernummer/Carrier Account an."
+msgstr ""
+"Bitte geben Sie eine gültige Absendernummer und/oder ein gültiges "
+"Zustellerkonto an."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Please provide a valid shipper phone number."
-msgstr "Bitte geben Sie eine gültige Telefonnummer des Versenders an."
+msgstr "Bitte geben Sie eine gültige Telefonnummer des Absenders an."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
@@ -305,7 +310,7 @@ msgstr "Bitte geben Sie in der Absenderadresse ein gültiges Bundesland an."
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Please provide a valid street in shipper's address."
-msgstr "Bitte geben Sie eine gültige Straße in der Absenderadresse an."
+msgstr "Bitte geben Sie in der Absenderadresse eine gültige Straße an."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
@@ -323,58 +328,57 @@ msgstr "Bitte geben Sie in der Lageradresse eine gültige Straße an."
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Please provide a valid warehouse Phone Number"
-msgstr "Bitte geben Sie eine gültige Lager-Telefonnummer an"
+msgstr "Bitte geben Sie eine gültige Telefonnummer für das Lager an."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Please provide a valid zip code in the recipient address."
-msgstr "Please provide a valid zip code in the recipient address."
+msgstr "Bitte geben Sie in der Empfängeradresse eine gültige Postleitzahl an."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Please provide a valid zip code in the shipper's address."
-msgstr ""
-"Bitte geben Sie eine gültige Postleitzahl in der Adresse des Versenders an."
+msgstr "Bitte geben Sie in der Absenderadresse eine gültige Postleitzahl an."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Please provide a valid zip code in the warehouse address."
-msgstr "Bitte geben Sie eine gültige Postleitzahl in der Lageradresse an."
+msgstr "Bitte geben Sie in der Lageradresse eine gültige Postleitzahl an."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Please provide a valid zipcode in the recipient address."
-msgstr "Bitte geben Sie eine gültige Postleitzahl in der Empfängeradresse an."
+msgstr "Bitte geben Sie in der Empfängeradresse eine gültige Postleitzahl an."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Please provide at least one item to ship"
-msgstr "Bitte geben Sie mindestens einen zu versendenden Artikel an"
+msgstr "Bitte geben Sie mindestens einen zu versendenden Artikel an."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Please provide at least one item to ship."
-msgstr "Bitte wählen Sie mindestens ein Eintrag zum Versenden"
+msgstr "Bitte geben Sie mindestens einen zu versendenden Artikel an."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Please set a valid country in the recipient address."
-msgstr "Please set a valid country in the recipient address."
+msgstr "Bitte geben Sie in der Empfängeraresse ein gültiges Land an."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Please set a valid country in the warehouse address."
-msgstr "Bitte stellen Sie in der Lageradresse ein gültiges Land ein."
+msgstr "Bitte geben Sie in der Lageradresse ein gültiges Land ein."
 
 #. module: delivery_ups
 #: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_package_weight_unit__lbs
@@ -386,14 +390,14 @@ msgstr "Pfund"
 #, python-format
 msgid "Provided Access License Number not found in the UPS database"
 msgstr ""
-"Bereitgestellte Zugriffslizenznummer nicht in der UPS Datenbank gefunden"
+"Bereitgestellte Zugriffslizenznummer nicht in der UPS-Datenbank gefunden"
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Provided Tracking Ref. Number is invalid."
-msgstr "Die angegebene Tracking Ref. Nummer ist ungültig."
+msgstr "Die angegebene Sendungsverfolgungsref. ist ungültig."
 
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__delivery_type
@@ -410,20 +414,21 @@ msgstr "Empfänger"
 #, python-format
 msgid "Recipient Phone must be at least 10 alphanumeric characters."
 msgstr ""
-"Empfänger Telefon muss aus mindestens 10 alphanumerischen Zeichen bestehen."
+"Empfängertelefon muss aus mindestens 10 alphanumerischen Zeichen bestehen."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Recipient PhoneExtension cannot exceed the length of 4."
 msgstr ""
-"Die Telefonnummer Erweiterung kann die Länge von 4 nicht überschreiten."
+"Die Telefondurchwahl des Empfängers darf die Länge von 4 nicht "
+"überschreiten."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Recipient PhoneExtension must contain only numbers."
-msgstr "Die Empfänger Telefonnummer Erweiterung darf nur Nummern enthalten."
+msgstr "Die Telefondurchwahl des Empfängers darf nur Zahlen enthalten."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/delivery_ups.py:0
@@ -432,7 +437,8 @@ msgid ""
 "Return label generated<br/><b>Tracking Numbers:</b> %s<br/><b>Packages:</b> "
 "%s"
 msgstr ""
-"Rücksendeetikett generiert<br/><b>Tracking Nummern:</b> Pakete:</b> %s"
+"Rücksendeetikett erzeugt<br/><b>Sendungsnummern:</b> %s<br/><b>Pakete:</b> "
+"%s"
 
 #. module: delivery_ups
 #: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_label_file_type__spl
@@ -467,14 +473,14 @@ msgid ""
 "Shipment created into UPS<br/><b>Tracking Numbers:</b> "
 "%s<br/><b>Packages:</b> %s"
 msgstr ""
-"Sendung erstellt bei UPS<br/><b>Sendungsnummer</b>%s<br/><b>Pakete:</b>%s"
+"Sendung erstellt in UPS<br/><b>Sendungsnummer</b>%s<br/><b>Pakete:</b>%s"
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Shipper Phone must be at least 10 alphanumeric characters."
 msgstr ""
-"Shipper Phone muss aus mindestens 10 alphanumerischen Zeichen bestehen."
+"Absendertelefon muss aus mindestens 10 alphanumerischen Zeichen bestehen."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
@@ -487,14 +493,13 @@ msgstr "Die Absendernummer darf nur alphanumerische Zeichen enthalten."
 #, python-format
 msgid "Shipper phone extension cannot exceed the length of 4."
 msgstr ""
-"Die Erweiterung des Absendertelefons kann die Länge von 4 nicht "
-"überschreiten."
+"Die Telefondurchwahl des Absenders darf die Länge von 4 nicht überschreiten."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Shipper phone extension must contain only numbers."
-msgstr "Die Telefondurchwahl des Absenders darf nur Nummern enthalten."
+msgstr "Die Telefondurchwahl des Absenders darf nur Zahlen enthalten."
 
 #. module: delivery_ups
 #: model:ir.model,name:delivery_ups.model_delivery_carrier
@@ -521,8 +526,8 @@ msgid ""
 "The address of your company is missing or wrong.\n"
 "(Missing field(s) : %s)"
 msgstr ""
-"Fehlende oder falsche Adresse Ihrer Firma.\n"
-"(fehlende(s)  Feld(er) : %s)"
+"Die Adresse Ihres Unternehmens fehlt oder ist falsch.\n"
+"(Fehlende(s) Feld(er): %s)"
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
@@ -532,15 +537,14 @@ msgid ""
 "(Missing field(s) : %s)"
 msgstr ""
 "Die Adresse Ihres Lagers fehlt oder ist falsch.\n"
-"(Fehlende Felder : %s)"
+"(Fehlende(s) Feld(er): %s)"
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid ""
 "The delivery cannot be done because the weight of your product is missing."
-msgstr ""
-"Die Lieferung kann nicht erfolgen, da das Gewicht des Produkts fehlt. "
+msgstr "Die Lieferung kann nicht erfolgen, da das Gewicht des Produkts fehlt."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
@@ -570,7 +574,7 @@ msgid ""
 "(Missing field(s) : %s)"
 msgstr ""
 "Die Empfängeradresse fehlt oder ist falsch.\n"
-"(Missing field(s) : %s)"
+"(Fehlende(s) Feld(er): %s)"
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
@@ -608,14 +612,14 @@ msgid ""
 "The selected service is not possible from your warehouse to the recipient "
 "address, please choose another service."
 msgstr ""
-"Der gewählte Service ist von Ihrem Lager bis zur Empfängeradresse nicht "
-"möglich, bitte wählen Sie einen anderen Service."
+"Der gewählte Dienst ist von Ihrem Lager bis zur Empfängeradresse nicht "
+"möglich, bitte wählen Sie einen anderen Dienst."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "The selected service is not valid with the selected packaging."
-msgstr "Der gewählte Service ist nicht mit der gewählten Verpackung gültig."
+msgstr "Der gewählte Dienst ist nicht mit der gewählten Verpackung gültig."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
@@ -625,7 +629,7 @@ msgid ""
 " from LBS/IN to KGS/CM (or vice versa). Configure it from delivery method"
 msgstr ""
 "Dieses Maßsystem ist für das gewählte Land nicht gültig. Bitte wechseln Sie "
-"von LBS/IN zu KGS/CM (oder umgekehrt). Konfigurieren Sie es aus "
+"von LBS/IN zu KGS/CM (oder umgekehrt). Konfigurieren Sie es über die "
 "Liefermethode"
 
 #. module: delivery_ups
@@ -646,8 +650,8 @@ msgid ""
 "This value added service enables UPS to collect the payment of the shipment "
 "from your customer."
 msgstr ""
-"Dieser Premium Service ermöglicht es UPS, die Zahlung der Sendung von Ihrem "
-"Kunden abzuholen."
+"Diese Mehrwert-Serviceleistung ermöglicht es UPS, die Zahlung der Sendung "
+"von Ihrem Kunden abzuholen."
 
 #. module: delivery_ups
 #: model:ir.model.fields,help:delivery_ups.field_delivery_carrier__ups_saturday_delivery
@@ -655,7 +659,8 @@ msgid ""
 "This value added service will allow you to ship the package on saturday "
 "also."
 msgstr ""
-"Dieser Premium Service eröglicht es Pakete auch an Samstagen zu versenden. "
+"Diese Mehrwert-Serviceleistung ermöglicht es, Pakete auch an Samstagen zu "
+"versenden."
 
 #. module: delivery_ups
 #: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__delivery_type__ups
@@ -666,13 +671,13 @@ msgstr "UPS"
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_access_number
 msgid "UPS Access Key"
-msgstr "UPS-Zugangsschlüssel"
+msgstr "UPS-Zugriffsschlüssel"
 
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_res_partner__property_ups_carrier_account
 #: model:ir.model.fields,field_description:delivery_ups.field_res_users__property_ups_carrier_account
 msgid "UPS Account Number"
-msgstr "UPS Kundennummer"
+msgstr "UPS-Kontonummer"
 
 #. module: delivery_ups
 #: model:delivery.carrier,name:delivery_ups.delivery_carrier_ups_be
@@ -684,49 +689,49 @@ msgstr "UPS BE"
 #. module: delivery_ups
 #: model_terms:ir.ui.view,arch_db:delivery_ups.view_delivery_carrier_form_with_provider_ups
 msgid "UPS Configuration"
-msgstr "UPS Konfiguration"
+msgstr "UPS-Konfiguration"
 
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_label_file_type
 msgid "UPS Label File Type"
-msgstr "UPS Aufkleber Datei Typ"
+msgstr "Dateityp von UPS-Etiketten"
 
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_default_package_type_id
 msgid "UPS Package Type"
-msgstr "UPS Paket Typ"
+msgstr "UPS-Pakettyp"
 
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_passwd
 msgid "UPS Password"
-msgstr "UPS Passwort"
+msgstr "UPS-Passwort"
 
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_saturday_delivery
 msgid "UPS Saturday Delivery"
-msgstr "UPS Samstagszustellung"
+msgstr "UPS-Samstagszustellung"
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "UPS Server Not Found"
-msgstr "UPS Server nicht gefunden"
+msgstr "UPS-Server nicht gefunden"
 
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_default_service_type
 msgid "UPS Service Type"
-msgstr "UPS Service Type"
+msgstr "UPS-Servicetyp"
 
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_shipper_number
 msgid "UPS Shipper Number"
-msgstr "UPS Shipper Number"
+msgstr "UPS-Absendernummer"
 
 #. module: delivery_ups
 #: model_terms:ir.ui.view,arch_db:delivery_ups.res_config_settings_view_form_sale
 #: model_terms:ir.ui.view,arch_db:delivery_ups.res_config_settings_view_form_stock
 msgid "UPS Shipping Methods"
-msgstr "UPS Versandmethoden"
+msgstr "UPS-Versandmethoden"
 
 #. module: delivery_ups
 #: model:delivery.carrier,name:delivery_ups.delivery_carrier_ups_us
@@ -738,12 +743,12 @@ msgstr "UPS US"
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_username
 msgid "UPS Username"
-msgstr "UPS Benutzername"
+msgstr "UPS-Benutzername"
 
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_sale_order__partner_ups_carrier_account
 msgid "UPS account number"
-msgstr "UPS Kundennummer"
+msgstr "UPS-Kontonummer"
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
@@ -752,7 +757,7 @@ msgid ""
 "UPS address lines can only contain a maximum of 35 characters. You can split"
 " the contacts addresses on multiple lines to try to avoid this limitation."
 msgstr ""
-"UPS Adresszeilen können nur maximal 35 Zeichen enthalten. Sie können die "
+"UPS-Adresszeilen können nur maximal 35 Zeichen enthalten. Sie können die "
 "Kontaktadressen auf mehrere Zeilen aufteilen, um zu versuchen, diese "
 "Begrenzung zu umgehen."
 
@@ -767,46 +772,46 @@ msgstr "Einheiten"
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_duty_payment
 msgid "Ups Duty Payment"
-msgstr "Ups Zollzahlung "
+msgstr "Ups-Zollzahlung "
 
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_package_weight_unit
 msgid "Ups Package Weight Unit"
-msgstr "UPS Paket Gewichtseinheit "
+msgstr "Gewichtseinheit für UPS-Pakete"
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Username/Password is invalid for this delivery provider."
-msgstr "Benutzername/Passwort ist für diesen Lieferanbieter ungültig."
+msgstr "Benutzername/Passwort ist für diesen Versanddienstleister ungültig."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Warehouse Phone must be at least 10 alphanumeric characters."
 msgstr ""
-"Die Lager Telefonnummer muss aus mindestens 10 alphanumerischen Zeichen "
-"bestehen "
+"Die Telefonnummer des Lagers muss aus mindestens 10 alphanumerischen Zeichen"
+" bestehen."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Warehouse Phone must contain only numbers."
-msgstr "Die Lager Telefonnummer darf nur Zahlen enthalten."
+msgstr "Die Telefonnummer des Lagers darf nur Zahlen enthalten."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Warehouse PhoneExtension cannot exceed the length of 4."
 msgstr ""
-"Die Lager Telefon Erweiterung kann die Länge von 4 nicht überschreiten."
+"Die Telefondurchwahl des Lagers darf die Länge von 4 nicht überschreiten."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/sale.py:0
 #, python-format
 msgid "You must enter an UPS account number."
-msgstr "Sie müssen eine UPS Kundennummer eingeben."
+msgstr "Sie müssen eine UPS-Kontonummer eingeben."
 
 #. module: delivery_ups
 #: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_label_file_type__zpl

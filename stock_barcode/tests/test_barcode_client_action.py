@@ -1219,7 +1219,7 @@ class TestPickingBarcodeClientAction(TestBarcodeClientAction):
         delivery_picking.action_assign()
 
         url = self._get_client_action_url(delivery_picking.id)
-        self.start_tour(url, 'test_remaining_decimal_accuracy', login='admin', timeout=90, watch=True)
+        self.start_tour(url, 'test_remaining_decimal_accuracy', login='admin', timeout=90)
 
     def test_receipt_reserved_lots_multiloc_1(self):
         clean_access_rights(self.env)
@@ -2628,3 +2628,31 @@ class TestInventoryAdjustmentBarcodeClientAction(TestBarcodeClientAction):
             smls_serial.lot_id.mapped('name'),
             ['Serial1', 'Serial2', 'Serial3', 'Serial4']
         )
+
+    def test_scan_product_lot_with_package(self):
+        """
+        Check that a lot can be scanned in the inventory Adjustments,
+        when the package is set in the quant.
+        """
+        # Enable the package option
+        self.env['res.config.settings'].create({'group_stock_tracking_lot': True}).execute()
+        product = self.env['product.product'].create({
+            'name': 'Product',
+            'type': 'product',
+            'tracking': 'lot',
+        })
+        self.env["stock.quant"].create({
+            'product_id': product.id,
+            'location_id': self.env.ref('stock.stock_location_stock').id,
+            'quantity': 10,
+            'package_id': self.env['stock.quant.package'].create({
+                'name': 'Package-test',
+            }).id,
+            'lot_id': self.env['stock.production.lot'].create({
+                'name': 'Lot-test',
+                'product_id': product.id,
+                'company_id': self.env.company.id,
+            }).id,
+        })
+        self.assertEqual(product.qty_available, 10)
+        self.start_tour("/web", 'stock_barcode_package_with_lot', login="admin")

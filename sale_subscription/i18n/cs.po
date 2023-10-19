@@ -14,6 +14,7 @@
 # Martin Trigaux, 2021
 # Jiří Podhorecký, 2022
 # Aleš Fiala <f.ales1@seznam.cz>, 2023
+# Jakub Smolka, 2023
 # 
 msgid ""
 msgstr ""
@@ -21,8 +22,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:42+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Aleš Fiala <f.ales1@seznam.cz>, 2023\n"
-"Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
+"Last-Translator: Jakub Smolka, 2023\n"
+"Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1336,6 +1337,9 @@ msgid ""
 "                                    You can put a negative number if you need a delay before the\n"
 "                                    trigger date, like sending a reminder 15 minutes before a meeting."
 msgstr ""
+"Zpoždění po datumu spuštění.\n"
+"Pokud potřebujete zpoždění před zadáním čísla, můžete zadat záporné číslo\n"
+"datum spuštění, například odeslání připomínky 15 minut před schůzkou."
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__trg_date_range
@@ -3083,12 +3087,12 @@ msgstr "Upozornění na předplatné"
 #: model_terms:ir.ui.view,arch_db:sale_subscription.view_subcription_report_graph
 #: model_terms:ir.ui.view,arch_db:sale_subscription.view_subcription_report_pivot
 msgid "Subscription Analysis"
-msgstr ""
+msgstr "Analýza předplatných"
 
 #. module: sale_subscription
 #: model:ir.model,name:sale_subscription.model_sale_subscription_close_reason
 msgid "Subscription Close Reason"
-msgstr ""
+msgstr "Důvod ukončení předplatného"
 
 #. module: sale_subscription
 #: model:ir.model,name:sale_subscription.model_sale_subscription_close_reason_wizard
@@ -3183,7 +3187,7 @@ msgstr "Fáze předplatného"
 #: model:ir.ui.menu,name:sale_subscription.menu_sale_subscription_stage
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_stage_view_list
 msgid "Subscription Stages"
-msgstr ""
+msgstr "Fáze předplatného"
 
 #. module: sale_subscription
 #: model:ir.model,name:sale_subscription.model_sale_subscription_template
@@ -3592,6 +3596,13 @@ msgid "This upsell order has been created from the subscription "
 msgstr ""
 
 #. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid ""
+"This will trigger the action on all linked subscriptions, regardless of "
+"possible timed conditions. Are you sure you want to proceed?"
+msgstr ""
+
+#. module: sale_subscription
 #: model:uom.category,name:sale_subscription.uom_categ_time
 msgid "Time"
 msgstr "Čas"
@@ -3959,6 +3970,14 @@ msgstr ""
 #: model:uom.uom,name:sale_subscription.subscription_uom_year
 msgid "Years"
 msgstr "Roků"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/res_partner.py:0
+#, python-format
+msgid ""
+"You can't archive the partner as it is used in the following recurring "
+"orders: %s"
+msgstr ""
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/models/sale_order.py:0

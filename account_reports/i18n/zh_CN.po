@@ -5,9 +5,10 @@
 # Translators:
 # liAnGjiA <liangjia@qq.com>, 2021
 # keecome <7017511@qq.com>, 2021
-# Martin Trigaux, 2022
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2022
-# Jeffery CHEN <jeffery9@gmail.com>, 2022
+# Jeffery CHEN <jeffery9@gmail.com>, 2023
+# Martin Trigaux, 2023
+# Emily Jia <eji@odoo.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -15,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-18 09:51+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Jeffery CHEN <jeffery9@gmail.com>, 2022\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Last-Translator: Emily Jia <eji@odoo.com>, 2023\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -54,7 +55,7 @@ msgid ""
 "%s for Transactions(+) imported from your online bank account (dated today) "
 "that are not yet reconciled in Odoo (Waiting the final reconciliation "
 "allowing finding the right account)"
-msgstr "%s 表示从您的线上银行帐户（日期为今天日期）导入的交易（日期为 Odoo）（等待最终调节，从而允许查找正确的帐户）"
+msgstr "%s 表示从您的线上银行帐户（日期为今天日期）导入的交易（日期为 Odoo）（等待最终对账，从而允许查找正确的帐户）"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
@@ -64,7 +65,7 @@ msgid ""
 "that are not yet reconciled in Odoo (Waiting the final reconciliation "
 "allowing finding the right account)"
 msgstr ""
-"%s 表示从您的线上银行帐户（日期为今天）导入的交易（日期为今天），这些交易尚未在 Odoo 中调节（等待最终调节，从而允许查找正确的帐户）"
+"%s 表示从您的线上银行帐户（日期为今天）导入的交易（日期为今天），这些交易尚未在 Odoo 中对账（等待最终对账，从而允许查找正确的帐户）"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.bank_reconciliation_report_cell_template_unexplained_difference
@@ -377,9 +378,8 @@ msgstr "<span>一些合作伙伴缺少一个增值税号码。</span>"
 #: model_terms:ir.ui.view,arch_db:account_reports.template_tax_report
 msgid ""
 "<span>This company is part of a tax unit. You're currently not viewing the "
-"whole unit; to change that, tick the \"aggregate\" option of \"tax unit\" "
-"menu.</span>"
-msgstr "<span>这个公司是一个税务组织的一部分。您目前没有看到整个单位；要改变这一点，请勾选 \"税务组织 \"菜单的 \"总数 \"选项。</span>"
+"whole unit. To change that, use the Tax Unit filter.</span>"
+msgstr ""
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.template_multicurrency_report
@@ -706,7 +706,10 @@ msgid "Analytic Tags:"
 msgstr "分析会计标签"
 
 #. module: account_reports
+#. openerp-web
+#: code:addons/account_reports/static/src/js/account_reports.js:0
 #: model_terms:ir.ui.view,arch_db:account_reports.line_template
+#, python-format
 msgid "Annotate"
 msgstr "注释"
 
@@ -1868,13 +1871,13 @@ msgstr "包含未发布的分录"
 #: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
 #, python-format
 msgid "Including Unreconciled Bank Statement Payments"
-msgstr "包括未调节银行调节单付款"
+msgstr "包括未对账银行对账单付款"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
 #, python-format
 msgid "Including Unreconciled Bank Statement Receipts"
-msgstr "包括未调节的银行调节单收据"
+msgstr "包括未对账的银行对账单收据"
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_income0
@@ -2393,7 +2396,7 @@ msgstr "仅允许计费管理员更改锁定日期！"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_extra_options
 msgid "Only Show Unreconciled Entries"
-msgstr "只显示未调节的项"
+msgstr "只显示未对账的项"
 
 #. module: account_reports
 #: model:ir.model,name:account_reports.model_account_financial_year_op
@@ -2672,7 +2675,7 @@ msgstr "应收"
 #: model_terms:ir.ui.view,arch_db:account_reports.line_template_aged_receivable_report
 #: model_terms:ir.ui.view,arch_db:account_reports.line_template_partner_ledger_report
 msgid "Reconcile"
-msgstr "调节"
+msgstr "对账"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.account_reports_journal_dashboard_kanban_view
@@ -3278,7 +3281,7 @@ msgstr "未实现货币收益/损失"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_extra_options
 msgid "Unreconciled"
-msgstr "未调节"
+msgstr "未对账"
 
 #. module: account_reports
 #: model:ir.model.fields.selection,name:account_reports.selection__account_financial_html_report_line__special_date_changer__normal
@@ -3536,3 +3539,24 @@ msgstr "⇒重置为 Odoo 的速率"
 #: model_terms:ir.ui.view,arch_db:account_reports.line_template_general_ledger_report
 msgid "⇒ journal items"
 msgstr "⇒ 会计分录"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.main_template
+msgid "Some journal items appear to point to obsolete report lines."
+msgstr "部分日记账项目似乎指向过时的报告行。"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.main_template
+msgid "Check them"
+msgstr "检查一下"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.main_template
+msgid "and correct their tax tags if necessary."
+msgstr "如有需要，应更改其税项标签。"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_generic_tax_report.py:0
+#, python-format
+msgid "Journal items with archived tax tags"
+msgstr "具有存档税项标签的日记帐项目"

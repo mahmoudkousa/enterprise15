@@ -71,3 +71,9 @@ msgid ""
 msgstr ""
 "Defina al menos un contacto (teléfono fijo o celular) para los siguientes "
 "contactos: %s."
+
+#. module: account_saft
+#: code:addons/account_saft/models/account_general_ledger.py:0
+#, python-format
+msgid "Please define one or more Contacts belonging to your company."
+msgstr "Defina uno o más contactos que pertenezcan a su empresa."

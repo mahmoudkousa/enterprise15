@@ -4,10 +4,12 @@
 # 
 # Translators:
 # Sergio Zanchetta <primes2h@gmail.com>, 2021
-# Martin Trigaux, 2021
 # Paolo Valier, 2021
 # Léonie Bouchat <lbo@odoo.com>, 2021
 # Friederike Fasterling-Nesselbosch, 2022
+# Luca Carlo, 2023
+# Martin Trigaux, 2023
+# Marianna Ciofani, 2023
 # 
 msgid ""
 msgstr ""
@@ -15,8 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 11:16+0000\n"
 "PO-Revision-Date: 2021-09-14 12:38+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Last-Translator: Marianna Ciofani, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -43,7 +45,7 @@ msgstr "#{day['today_cls'] and 'Oggi' or ''}"
 #: code:addons/appointment/models/calendar_appointment_type.py:0
 #, python-format
 msgid "%s - Let's meet"
-msgstr ""
+msgstr "%s - Incontriamoci"
 
 #. module: appointment
 #: code:addons/appointment/controllers/main.py:0
@@ -348,6 +350,13 @@ msgid "Active"
 msgstr "Attivo"
 
 #. module: appointment
+#. openerp-web
+#: code:addons/appointment/static/src/js/wysiwyg.js:0
+#, python-format
+msgid "Add a specific appointment."
+msgstr "Aggiungi un appuntamento specifico."
+
+#. module: appointment
 #: model:res.groups,name:appointment.group_calendar_manager
 msgid "Administrator"
 msgstr "Amministratore"
@@ -403,6 +412,13 @@ msgstr "Uno slot di tipo unico deve avere una data di inizio e di fine"
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_answer_view_form
 msgid "Answer"
 msgstr "risposta"
+
+#. module: appointment
+#. openerp-web
+#: code:addons/appointment/static/src/js/wysiwyg.js:0
+#, python-format
+msgid "Appointment"
+msgstr "Appuntamento"
 
 #. module: appointment
 #: model:mail.message.subtype,description:appointment.mt_calendar_event_booked
@@ -556,7 +572,18 @@ msgid "Available Employees"
 msgstr "Dipendenti disponibili"
 
 #. module: appointment
+#. openerp-web
+#: code:addons/appointment/static/src/js/wysiwyg.js:0
+#: code:addons/appointment/static/src/js/wysiwyg.js:0
+#, python-format
+msgid "Basic blocks"
+msgstr "Blocchi base"
+
+#. module: appointment
+#. openerp-web
+#: code:addons/appointment/static/src/js/wysiwyg.js:0
 #: model:ir.ui.menu,name:appointment.calendar_appointment_type_menu_action
+#, python-format
 msgid "Calendar"
 msgstr "Calendario"
 
@@ -822,7 +849,7 @@ msgstr "Da"
 #: code:addons/appointment/static/src/xml/calendar_appointment_scheduling.xml:0
 #, python-format
 msgid "Get Share Link"
-msgstr ""
+msgstr "Ottieni link condivisione"
 
 #. module: appointment
 #: model_terms:calendar.appointment.type,message_intro:appointment.calendar_appointment_0
@@ -875,6 +902,13 @@ msgstr "Se selezionata, nuovi messaggi richiedono attenzione."
 #: model:ir.model.fields,help:appointment.field_calendar_appointment_type__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr "Se selezionata, alcuni messaggi presentano un errore di consegna."
+
+#. module: appointment
+#. openerp-web
+#: code:addons/appointment/static/src/js/wysiwyg.js:0
+#, python-format
+msgid "Insert Appointment Link"
+msgstr "Inserisci link appuntamento"
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_insert_share_view_form
@@ -1067,7 +1101,7 @@ msgstr "Numero di messaggi non letti"
 #. module: appointment
 #: model:ir.model.fields.selection,name:appointment.selection__calendar_appointment_slot__slot_type__unique
 msgid "One Shot"
-msgstr ""
+msgstr "Slot singolo"
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_event__appointment_type_id
@@ -1175,7 +1209,7 @@ msgstr "Promemoria"
 #. module: appointment
 #: model:ir.ui.menu,name:appointment.menu_schedule_report
 msgid "Reporting"
-msgstr "Rendicontazione"
+msgstr "Rendiconto"
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_question__question_required
@@ -1227,6 +1261,13 @@ msgstr "Programma una dimostrazione "
 #: model_terms:ir.ui.view,arch_db:appointment.appointments_list_layout
 msgid "Schedule an Appointment"
 msgstr "Programma un appuntamento"
+
+#. module: appointment
+#. openerp-web
+#: code:addons/appointment/static/src/js/wysiwyg.js:0
+#, python-format
+msgid "Schedule an appointment."
+msgstr "Fissa un appuntamento."
 
 #. module: appointment
 #: model_terms:ir.actions.act_window,help:appointment.calendar_event_action_report
@@ -1432,7 +1473,7 @@ msgstr "Fino a (max.)"
 #: code:addons/appointment/controllers/portal.py:0
 #, python-format
 msgid "Upcoming"
-msgstr ""
+msgstr "Imminente"
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointments_list_layout

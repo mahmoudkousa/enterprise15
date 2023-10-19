@@ -4,6 +4,7 @@
 # 
 # Translators:
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2021
+# Tony Ng, 2023
 # 
 msgid ""
 msgstr ""
@@ -11,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:58+0000\n"
 "PO-Revision-Date: 2021-09-14 12:44+0000\n"
-"Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2021\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Last-Translator: Tony Ng, 2023\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -26,7 +27,7 @@ msgstr ""
 msgid ""
 "Allow notifications to be able to add talks into your favorite list or "
 "connect to other attendees."
-msgstr ""
+msgstr "允許在通知中將演講加入最愛清單或連線至其他參加者。"
 
 #. module: website_event_social
 #: model:ir.model,name:website_event_social.model_res_partner
@@ -36,7 +37,7 @@ msgstr "聯絡人"
 #. module: website_event_social
 #: model:ir.model.fields,field_description:website_event_social.field_event_event__firebase_enable_push_notifications
 msgid "Enable Web Push Notifications"
-msgstr ""
+msgstr "啟用網絡推送通知"
 
 #. module: website_event_social
 #: model:ir.model,name:website_event_social.model_event_event
@@ -54,7 +55,7 @@ msgstr "活動登記"
 #: code:addons/website_event_social/static/src/js/push_notification_widget.js:0
 #, python-format
 msgid "Get the best experience!"
-msgstr ""
+msgstr "獲得最佳體驗！"
 
 #. module: website_event_social
 #: model_terms:ir.ui.view,arch_db:website_event_social.social_post_view_form
@@ -64,7 +65,7 @@ msgstr ""
 #. module: website_event_social
 #: model_terms:ir.ui.view,arch_db:website_event_social.event_event_view_form
 msgid "Send Push"
-msgstr ""
+msgstr "發出推送"
 
 #. module: website_event_social
 #: model:ir.model,name:website_event_social.model_social_live_post
@@ -74,11 +75,11 @@ msgstr ""
 #. module: website_event_social
 #: model:ir.model,name:website_event_social.model_social_post
 msgid "Social Post"
-msgstr ""
+msgstr "社交帖文"
 
 #. module: website_event_social
 #: code:addons/website_event_social/models/event.py:0
 #: code:addons/website_event_social/models/event.py:0
 #, python-format
 msgid "You do not have access to this action."
-msgstr ""
+msgstr "你無權執行此操作。"

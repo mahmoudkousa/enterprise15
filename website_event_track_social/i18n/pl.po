@@ -88,7 +88,7 @@ msgstr "Powiadomienie Typu Push"
 #. module: website_event_track_social
 #: model:ir.model.fields,field_description:website_event_track_social.field_event_track__push_reminder_delay
 msgid "Push Reminder Delay"
-msgstr ""
+msgstr "Opóźnienie przypomnienia"
 
 #. module: website_event_track_social
 #: model:ir.model.fields,field_description:website_event_track_social.field_event_track__push_reminder_posts

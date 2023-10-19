@@ -491,7 +491,7 @@ msgstr "작업 기록 시간 표시"
 #: code:addons/timesheet_grid/static/src/js/timesheet_pivot/timesheet_pivot_view.js:0
 #, python-format
 msgid "Download our App"
-msgstr ""
+msgstr "앱 다운로드"
 
 #. module: timesheet_grid
 #: model:ir.model.fields.selection,name:timesheet_grid.selection__account_analytic_line__validated_status__draft

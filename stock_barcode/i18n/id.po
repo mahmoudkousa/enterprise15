@@ -115,22 +115,22 @@ msgstr ""
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_quant_barcode_kanban_2
 msgid "<i class=\"fa fa-lg fa-archive\" title=\"Package\"/>"
-msgstr ""
+msgstr "<i class=\"fa fa-lg fa-archive\" title=\"Paket\"/>"
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_quant_barcode_kanban_2
 msgid "<i class=\"fa fa-lg fa-user-o\" title=\"Owner\"/>"
-msgstr ""
+msgstr "<i class=\"fa fa-lg fa-user-o\" title=\"Pemilik\"/>"
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.res_config_settings_view_form
 msgid "<i class=\"fa fa-print\"/> Print barcode commands"
-msgstr ""
+msgstr "<i class=\"fa fa-print\"/> Cetak command barcode"
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.res_config_settings_view_form
 msgid "<i class=\"fa fa-print\"/> Print barcode demo sheet"
-msgstr ""
+msgstr "<i class=\"fa fa-print\"/> Cetak lembar demo barcode"
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.view_barcode_lot_form
@@ -145,6 +145,8 @@ msgid ""
 "A product tracked by serial numbers can't have multiple quantities for the "
 "same serial number."
 msgstr ""
+"Produk yang dilacak oleh nomor seri tidka dapat memiliki lebih dari satu "
+"kuantitas untuk nomor seri yang sama."
 
 #. module: stock_barcode
 #. openerp-web
@@ -166,6 +168,8 @@ msgid ""
 "An unexisting package type was scanned. This part of the barcode can't be "
 "processed."
 msgstr ""
+"Ada tipe paket yang tidak tersedia yang discan. Bagian barcode ini tidak "
+"dapat diproses."
 
 #. module: stock_barcode
 #. openerp-web
@@ -205,7 +209,7 @@ msgstr "Tatanama Barcode"
 #. module: stock_barcode
 #: model:ir.actions.client,name:stock_barcode.stock_barcode_picking_client_action
 msgid "Barcode Picking Client Action"
-msgstr ""
+msgstr "Action Klien Picking Barcode"
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_barcode_lot___barcode_scanned
@@ -220,7 +224,7 @@ msgstr "Barcode telah dipindai"
 #: code:addons/stock_barcode/static/src/stock_barcode_menu.xml:0
 #, python-format
 msgid "Barcode Scanning"
-msgstr ""
+msgstr "Scanning Barcode"
 
 #. module: stock_barcode
 #. openerp-web
@@ -228,12 +232,14 @@ msgstr ""
 #, python-format
 msgid "Barcode scan is ambiguous with several model: %s. Use the most likely."
 msgstr ""
+"Scan barcode ambigu dengan beberapa model: %s. Gunakan yang paling "
+"memungkinkan."
 
 #. module: stock_barcode
 #: model:product.product,name:stock_barcode.product_cable_management_box_2
 #: model:product.template,name:stock_barcode.product_cable_management_box_2_product_template
 msgid "Cable Management Box"
-msgstr ""
+msgstr "Kotak Manajemen Kabel"
 
 #. module: stock_barcode
 #. openerp-web
@@ -247,12 +253,12 @@ msgstr "Batal"
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_stock_barcode_cancel_operation
 msgid "Cancel Operation"
-msgstr ""
+msgstr "Batalkan Operasi"
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_barcode_cancel_operation_view
 msgid "Cancel operation"
-msgstr ""
+msgstr "Batalkan operasi"
 
 #. module: stock_barcode
 #: code:addons/stock_barcode/models/stock_picking.py:0
@@ -278,7 +284,7 @@ msgstr "Pengaturan Konfigurasi"
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.res_config_settings_view_form
 msgid "Configure Product Barcodes"
-msgstr ""
+msgstr "Konfigurasi Barcode Produ"
 
 #. module: stock_barcode
 #. openerp-web
@@ -295,12 +301,12 @@ msgstr "Kontak"
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_quant_barcode
 msgid "Counted Quantity"
-msgstr ""
+msgstr "Kuantitas Terhitung"
 
 #. module: stock_barcode
 #: model_terms:ir.actions.act_window,help:stock_barcode.stock_picking_action_kanban
 msgid "Create a new transfer"
-msgstr ""
+msgstr "Buat transfer baru"
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_barcode_cancel_operation__create_uid
@@ -320,13 +326,13 @@ msgstr "Dibuat pada"
 #: model:product.product,name:stock_barcode.product_custom_cabinet_metric
 #: model:product.template,name:stock_barcode.product_custom_cabinet_metric_product_template
 msgid "Customized Cabinet (Metric)"
-msgstr ""
+msgstr "Kabinet Kustom (Metrik)"
 
 #. module: stock_barcode
 #: model:product.product,name:stock_barcode.product_custom_cabinet_usa
 #: model:product.template,name:stock_barcode.product_custom_cabinet_usa_product_template
 msgid "Customized Cabinet (USA)"
-msgstr ""
+msgstr "Kabinet Kustom (AS)"
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_barcode_lot__default_move_id
@@ -336,7 +342,7 @@ msgstr ""
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_res_config_settings__stock_barcode_demo_active
 msgid "Demo Data Active"
-msgstr ""
+msgstr "Data Demo Akti"
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_picking_barcode
@@ -379,14 +385,14 @@ msgstr ""
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_barcode_cancel_operation_view
 msgid "Don't cancel"
-msgstr ""
+msgstr "Jangan batalkan"
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/stock_barcode_menu.js:0
 #, python-format
 msgid "Don't show this message again"
-msgstr ""
+msgstr "Jangan tunjukkan pesan ini lagi"
 
 #. module: stock_barcode
 #. openerp-web
@@ -400,7 +406,7 @@ msgstr "Unduh"
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_move_line__dummy_id
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_quant__dummy_id
 msgid "Dummy"
-msgstr ""
+msgstr "Dummy"
 
 #. module: stock_barcode
 #. openerp-web
@@ -419,7 +425,7 @@ msgstr "ID"
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_picking_type_kanban
 msgid "In #{kanban_getcolorname(record.color.raw_value)}"
-msgstr ""
+msgstr "Dalam #{kanban_getcolorname(record.color.raw_value)}"
 
 #. module: stock_barcode
 #: model:ir.model.fields,help:stock_barcode.field_stock_move_line__product_barcode
@@ -484,7 +490,7 @@ msgstr "Terakhir diperbarui pada"
 #: code:addons/stock_barcode/static/src/stock_barcode_menu.js:0
 #, python-format
 msgid "Leave it"
-msgstr ""
+msgstr "Tinggalkan"
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_quant_barcode
@@ -494,7 +500,7 @@ msgstr "Lokasi"
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_move_line__location_processed
 msgid "Location Processed"
-msgstr ""
+msgstr "Lokasi Proses"
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_barcode_lot_line__lot_name
@@ -536,18 +542,22 @@ msgstr ""
 msgid ""
 "No internal operation type. Please configure one in warehouse settings."
 msgstr ""
+"Tidak ada tipe operasi internal. Mohon konfigurasi satu di pengaturan "
+"warehouse."
 
 #. module: stock_barcode
 #: code:addons/stock_barcode/controllers/stock_barcode.py:0
 #, python-format
 msgid "No picking or location or product corresponding to barcode %(barcode)s"
 msgstr ""
+"Tidak ada picking atau lokasi atau produk yang sesuai dengan barcode "
+"%(barcode)s"
 
 #. module: stock_barcode
 #: code:addons/stock_barcode/controllers/stock_barcode.py:0
 #, python-format
 msgid "No picking or product corresponding to barcode %(barcode)s"
-msgstr ""
+msgstr "Tidak ada picking atau produk sesuai dengan barcode %(barcode)s"
 
 #. module: stock_barcode
 #: code:addons/stock_barcode/models/stock_picking.py:0
@@ -563,14 +573,14 @@ msgstr "Tata Nama"
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.picking_view_kanban_inherit_barcode
 msgid "Open picking"
-msgstr ""
+msgstr "Open picking"
 
 #. module: stock_barcode
 #: code:addons/stock_barcode/models/stock_picking.py:0
 #: model:ir.actions.act_window,name:stock_barcode.open_picking
 #, python-format
 msgid "Open picking form"
-msgstr ""
+msgstr "Formulir open picking"
 
 #. module: stock_barcode
 #. openerp-web
@@ -598,6 +608,8 @@ msgstr "Kemasan"
 #, python-format
 msgid "%s can't be inventoried. Only storable products can be inventoried."
 msgstr ""
+"%s tidak dapat di-inventaris. Hanya produk yang storable yang dapat di-"
+"inventaris."
 
 #. module: stock_barcode
 #. openerp-web
@@ -605,7 +617,7 @@ msgstr ""
 #: code:addons/stock_barcode/static/src/models/barcode_quant_model.js:0
 #, python-format
 msgid "Package type %s was correctly applied to the package %s"
-msgstr ""
+msgstr "Tipe paket %s secara tepat diterapkan ke paket %s"
 
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_stock_quant_package
@@ -621,7 +633,7 @@ msgstr "Pengambilan"
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_picking_barcode
 msgid "Picking Details"
-msgstr ""
+msgstr "Detail Picking"
 
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_stock_picking_type
@@ -648,14 +660,14 @@ msgstr "Sebelum"
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 #, python-format
 msgid "Print Barcodes PDF"
-msgstr ""
+msgstr "Cetak PDF Barcode"
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 #, python-format
 msgid "Print Delivery Slip"
-msgstr ""
+msgstr "Cetak Slip Pengiriman"
 
 #. module: stock_barcode
 #. openerp-web
@@ -669,7 +681,7 @@ msgstr "Cetak Inventaris"
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 #, python-format
 msgid "Print Picking Operations"
-msgstr ""
+msgstr "Cetak Operasi Picking"
 
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_product_product
@@ -698,7 +710,7 @@ msgstr "Kemasan Produk"
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_move_line__product_stock_quant_ids
 msgid "Product Stock Quant"
-msgstr ""
+msgstr "Stok Produk Quant"
 
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_uom_uom
@@ -710,7 +722,7 @@ msgstr "Satuan Produk"
 #: code:addons/stock_barcode/static/src/components/main.xml:0
 #, python-format
 msgid "Put In Pack"
-msgstr ""
+msgstr "Masukkan Dalam Paket"
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_barcode_lot__qty_done
@@ -749,7 +761,7 @@ msgstr "Kuant"
 #: code:addons/stock_barcode/static/src/stock_barcode_menu.js:0
 #, python-format
 msgid "Remove it"
-msgstr ""
+msgstr "Hapuskan"
 
 #. module: stock_barcode
 #. openerp-web
@@ -758,14 +770,14 @@ msgstr ""
 #: code:addons/stock_barcode/static/src/stock_barcode_menu.xml:0
 #, python-format
 msgid "Scan a"
-msgstr ""
+msgstr "Scan"
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/models/barcode_model.js:0
 #, python-format
 msgid "Scan a product"
-msgstr ""
+msgstr "Scan produk"
 
 #. module: stock_barcode
 #: code:addons/stock_barcode/models/stock_picking.py:0
@@ -785,14 +797,14 @@ msgstr ""
 #: code:addons/stock_barcode/static/src/stock_barcode_menu.xml:0
 #, python-format
 msgid "Scan an"
-msgstr ""
+msgstr "Scan"
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/models/barcode_model.js:0
 #, python-format
 msgid "Scan more products, or scan a new source location"
-msgstr ""
+msgstr "Scan lebih banyak produk, atau scan sumber lokasi lain"
 
 #. module: stock_barcode
 #. openerp-web
@@ -830,6 +842,8 @@ msgid ""
 "Scanned quantity uses %s as Unit of Measure, but this UoM is not compatible "
 "with the line's one (%s)."
 msgstr ""
+"Kuantitas yang discan menggunakan %s sebagai Satuan Ukuran, tapi Satuan "
+"Ukuran ini tidak kompatibel dengan satuan ukuran baris (%s)."
 
 #. module: stock_barcode
 #. openerp-web
@@ -840,6 +854,8 @@ msgid ""
 "Scanned quantity uses %s as Unit of Measure, but this UoM is not compatible "
 "with the product's one (%s)."
 msgstr ""
+"Kuantitas yang discan menggunakan %s sebagai Satuan Ukuran, tapi Satuan "
+"Ukuran ini tidak kompatibel dengan satuan ukuran produk (%s)."
 
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_stock_scrap
@@ -849,7 +865,7 @@ msgstr "Pembuangan"
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_move_line_product_selector
 msgid "Select a Product"
-msgstr ""
+msgstr "Pilih Produk"
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_move_line_product_selector
@@ -860,7 +876,7 @@ msgstr "Nomor Seri/Lot"
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_res_config_settings__show_barcode_nomenclature
 msgid "Show Barcode Nomenclature"
-msgstr ""
+msgstr "Tampilkan Tata Nama Barcode "
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_move_line__picking_location_id
@@ -886,7 +902,7 @@ msgstr ""
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_stock_package_type
 msgid "Stock package type"
-msgstr ""
+msgstr "Tipe paket stok"
 
 #. module: stock_barcode
 #. openerp-web
@@ -923,35 +939,35 @@ msgstr ""
 #: code:addons/stock_barcode/static/src/models/barcode_model.js:0
 #, python-format
 msgid "The scanned serial number is already used."
-msgstr ""
+msgstr "Nomor seri yang discan sudah digunakan."
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 #, python-format
 msgid "The transfer has been cancelled"
-msgstr ""
+msgstr "Transfer telah dibatalkan."
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 #, python-format
 msgid "The transfer has been validated"
-msgstr ""
+msgstr "Transfer telah divalidasi"
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/models/barcode_quant_model.js:0
 #, python-format
 msgid "There is nothing to apply in this page."
-msgstr ""
+msgstr "TIdak ada yang dapat diterapkan di halaman ini."
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/models/barcode_quant_model.js:0
 #, python-format
 msgid "There is nothing to print in this page."
-msgstr ""
+msgstr "Tidak ada yang perlu dicetak di halaman ini."
 
 #. module: stock_barcode
 #. openerp-web
@@ -959,28 +975,28 @@ msgstr ""
 #: code:addons/stock_barcode/static/src/models/barcode_quant_model.js:0
 #, python-format
 msgid "This package is already scanned."
-msgstr ""
+msgstr "Paket ini sudah discan."
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 #, python-format
 msgid "This picking is already done"
-msgstr ""
+msgstr "Picking ini sudah selesai"
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 #, python-format
 msgid "This picking is cancelled"
-msgstr ""
+msgstr "Picking ini dibatalkan"
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/models/barcode_model.js:0
 #, python-format
 msgid "This serial number is already used."
-msgstr ""
+msgstr "Nomor seri ini sudah digunakan."
 
 #. module: stock_barcode
 #. openerp-web
@@ -999,7 +1015,7 @@ msgstr "Untuk Diproses"
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 #, python-format
 msgid "To use packages, enable 'Packages' in the settings"
-msgstr ""
+msgstr "Untuk menggunakan paket, aktifkan 'Paket' di pengaturan"
 
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_stock_picking
@@ -1010,12 +1026,14 @@ msgstr "Transfer"
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_barcode_cancel_operation__picking_name
 msgid "Transfer Name"
-msgstr ""
+msgstr "Nama Transfer"
 
 #. module: stock_barcode
 #: model_terms:ir.actions.act_window,help:stock_barcode.stock_picking_action_kanban
 msgid "Transfers allow you to move products from one location to another."
 msgstr ""
+"Transfer memungkinkan Anda untuk menggerakan produk dari satu lokasi ke yang"
+" lain."
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_move_line_product_selector
@@ -1062,6 +1080,8 @@ msgid ""
 "We have created a few demo data with barcodes for you to explore the "
 "features. Print the"
 msgstr ""
+"Kita telah membuat beberapa data demo dengan barcode untuk Anda untuk "
+"mengeksplorasi fitur tersebut. Cetak"
 
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_stock_barcode_lot
@@ -1074,7 +1094,7 @@ msgstr ""
 #: code:addons/stock_barcode/static/src/models/barcode_quant_model.js:0
 #, python-format
 msgid "Wrong Unit of Measure"
-msgstr ""
+msgstr "Satuan Ukuran Salah"
 
 #. module: stock_barcode
 #: code:addons/stock_barcode/models/stock_picking.py:0
@@ -1090,13 +1110,15 @@ msgid ""
 "You are expected to scan one or more products or a package available at the "
 "picking location"
 msgstr ""
+"Anda diharapkan untuk scan satu atau lebih produk atau paket yang tersedia "
+"pada lokasi picking"
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/models/barcode_model.js:0
 #, python-format
 msgid "You are expected to scan one or more products."
-msgstr ""
+msgstr "Anda diharapkan untuk scan satu atau lebih produk."
 
 #. module: stock_barcode
 #. openerp-web
@@ -1104,6 +1126,15 @@ msgstr ""
 #, python-format
 msgid "You can't apply a package type. First, scan product or select a line"
 msgstr ""
+"Anda tidak dapat menerapkan tipe kemasan. Pertama, scan produk atau pilih "
+"baris"
+
+#. module: stock_barcode
+#. openerp-web
+#: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
+#, python-format
+msgid "You can't register scrap at this state of the operation"
+msgstr "Anda tidak dapat mendaftarkan scrap pada tahap operasi ini"
 
 #. module: stock_barcode
 #: code:addons/stock_barcode/wizard/stock_barcode_lot.py:0
@@ -1150,7 +1181,7 @@ msgstr ""
 #: code:addons/stock_barcode/static/src/stock_barcode_menu.xml:0
 #, python-format
 msgid "operation type"
-msgstr ""
+msgstr "tipe operasi"
 
 #. module: stock_barcode
 #. openerp-web
@@ -1164,7 +1195,7 @@ msgstr "produk"
 #: code:addons/stock_barcode/static/src/stock_barcode_menu.xml:0
 #, python-format
 msgid "stock barcodes sheet"
-msgstr ""
+msgstr "lembar barcode stok"
 
 #. module: stock_barcode
 #. openerp-web
@@ -1172,31 +1203,33 @@ msgstr ""
 #, python-format
 msgid "to check out what this module can do! You can also print the barcode"
 msgstr ""
+"untuk memeriksa apa yang modul ini dapat lakukan! Anda juga dapat mencetak "
+"barcode"
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/stock_barcode_menu.xml:0
 #, python-format
 msgid "to create a new transfer from this location."
-msgstr ""
+msgstr "untuk membuat transfer baru dari lokasi ini."
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/stock_barcode_menu.xml:0
 #, python-format
 msgid "to create a new transfer."
-msgstr ""
+msgstr "untuk membuat transfer baru."
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/stock_barcode_menu.xml:0
 #, python-format
 msgid "to open it."
-msgstr ""
+msgstr "untuk membukanya."
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/stock_barcode_menu.xml:0
 #, python-format
 msgid "to show its location and quantity."
-msgstr ""
+msgstr "untuk menunjukkan lokasi dan kuantitasnya."

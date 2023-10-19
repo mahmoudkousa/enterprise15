@@ -671,7 +671,7 @@ class FecImportWizard(models.TransientModel):
         for record in self.env.cr.fetchall():
             matched_move_line_ids, account_id = record
             self.env["account.account"].browse([account_id]).reconcile = True
-            self.env["account.move.line"].browse(matched_move_line_ids).with_context(no_exchange_difference=True).reconcile()
+            self.env["account.move.line"].browse(matched_move_line_ids).with_context(no_exchange_difference=True, no_cash_basis=True).reconcile()
 
     def _post_process(self, journals, moves):
         """ Post-process the imported entities.

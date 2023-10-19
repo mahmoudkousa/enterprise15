@@ -67,13 +67,15 @@ msgid ""
 "All fields will be automated by Artificial Intelligence, it might take 5 "
 "seconds."
 msgstr ""
+"Todos os campos serão automatizados pela inteligência artificial, o que pode"
+" levar 5 segundos."
 
 #. module: account_invoice_extract
 #: code:addons/account_invoice_extract/models/account_invoice.py:0
 #: model:ir.model.fields.selection,name:account_invoice_extract.selection__account_move__extract_state__error_status
 #, python-format
 msgid "An error occurred"
-msgstr "Ocorreu um erro"
+msgstr "Houve um erro"
 
 #. module: account_invoice_extract
 #: model:ir.model,name:account_invoice_extract.model_ir_attachment
@@ -182,7 +184,7 @@ msgstr ""
 #. module: account_invoice_extract
 #: model_terms:ir.ui.view,arch_db:account_invoice_extract.res_config_settings_view_form
 msgid "Enable to get only one invoice line per tax"
-msgstr ""
+msgstr "Habilite para obter apenas uma linha de fatura por imposto"
 
 #. module: account_invoice_extract
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_bank_statement_line__extract_error_message
@@ -213,7 +215,7 @@ msgstr "Palavras extraídas da verificação da fatura"
 #. module: account_invoice_extract
 #: model_terms:ir.ui.view,arch_db:account_invoice_extract.view_move_form_inherit_ocr
 msgid "Extraction Information"
-msgstr ""
+msgstr "Informações de extração"
 
 #. module: account_invoice_extract
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_invoice_extract_words__field
@@ -242,7 +244,7 @@ msgstr "Fatura"
 #: model:ir.cron,cron_name:account_invoice_extract.ir_cron_update_ocr_status
 #: model:ir.cron,name:account_invoice_extract.ir_cron_update_ocr_status
 msgid "Invoice OCR: Update All Status"
-msgstr ""
+msgstr "OCR de fatura: atualizar todos os status"
 
 #. module: account_invoice_extract
 #: model:ir.model.fields,help:account_invoice_extract.field_account_bank_statement_line__extract_remote_id
@@ -399,7 +401,7 @@ msgstr "Formato de imagem não suportado"
 #. module: account_invoice_extract
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_invoice_extract_words__user_selected
 msgid "User Selected"
-msgstr ""
+msgstr "Usuário selecionado"
 
 #. module: account_invoice_extract
 #. openerp-web
@@ -449,42 +451,42 @@ msgstr ""
 #. module: account_invoice_extract
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_invoice_extract_words__word_box_angle
 msgid "Word Box Angle"
-msgstr ""
+msgstr "Ângulo da caixa do word"
 
 #. module: account_invoice_extract
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_invoice_extract_words__word_box_height
 msgid "Word Box Height"
-msgstr ""
+msgstr "Altura da caixa do word"
 
 #. module: account_invoice_extract
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_invoice_extract_words__word_box_midX
 msgid "Word Box Midx"
-msgstr ""
+msgstr "Meiox da caixa do word"
 
 #. module: account_invoice_extract
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_invoice_extract_words__word_box_midY
 msgid "Word Box Midy"
-msgstr ""
+msgstr "Meioy da caixa do word"
 
 #. module: account_invoice_extract
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_invoice_extract_words__word_box_width
 msgid "Word Box Width"
-msgstr ""
+msgstr "Largura da caixa do word"
 
 #. module: account_invoice_extract
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_invoice_extract_words__word_page
 msgid "Word Page"
-msgstr ""
+msgstr "Página do word"
 
 #. module: account_invoice_extract
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_invoice_extract_words__word_text
 msgid "Word Text"
-msgstr ""
+msgstr "Texto do word"
 
 #. module: account_invoice_extract
 #: model_terms:ir.ui.view,arch_db:account_invoice_extract.view_move_form_inherit_ocr
 msgid "You don't have enough credit to extract data from your invoice."
-msgstr ""
+msgstr "Você não tem créditos suficientes para extrair dados de sua fatura."
 
 #. module: account_invoice_extract
 #: code:addons/account_invoice_extract/models/account_invoice.py:0

@@ -87,8 +87,8 @@ msgid ""
 "Average revenue of a subscription, obtained by dividing the MRR by the "
 "number of subscriptions"
 msgstr ""
-"Durchschnittlicher Umsatz eines Abonnements, ermittelt durch Division des "
-"monatlichen wiederkehrenden Umsatzes durch die Anzahl der Abonnements"
+"Durchschnittlicher Umsatz eines Abonnements, ermittelt durch Division der "
+"MRR durch die Anzahl der Abonnements"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -103,7 +103,7 @@ msgstr "Kategorien"
 #: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
 #, python-format
 msgid "Churned MRR"
-msgstr "MWE Abwanderung"
+msgstr "MRR-Abwanderung"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -132,7 +132,7 @@ msgstr "Aktuell"
 #: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
 #, python-format
 msgid "Current MRR"
-msgstr "Aktuelle MWE"
+msgstr "Aktuelle MRR"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -210,7 +210,7 @@ msgstr "Dokument"
 #: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
 #, python-format
 msgid "Down MRR"
-msgstr "MWE Verkleinerung"
+msgstr "MRR-Verminderung"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -225,7 +225,7 @@ msgstr "Enddatum:"
 #: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
 #, python-format
 msgid "Expansion MRR"
-msgstr "MWE Erweiterung"
+msgstr "MRR-Erweiterung"
 
 #. module: sale_subscription_dashboard
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
@@ -236,9 +236,9 @@ msgid ""
 "MRR is $ 100 and your churn rate is 5%, the LTV will be $ 100/5% = $ 2,000)"
 msgstr ""
 "Erwarteter lebenslanger Umsatz eines durchschnittlichen Abonnements; erhält "
-"man, indem man die durchschnittliche MRR eines Abonnements durch die "
-"Abwanderungsrate dividiert (z. B. wenn Ihre durchschnittliche MRR 100 $ und "
-"Ihre Abwanderungsrate 5 % beträgt, beträgt der Lebenszeitwert 100/5 % $ = "
+"man, indem man die durchschnittlichen MRR eines Abonnements durch die "
+"Abwanderungsrate dividiert (z. B. wenn Ihre durchschnittlichen MRR 100 $ und"
+" Ihre Abwanderungsrate 5 % betragen, beträgt der Lebenszeitwert 100/5 % $ = "
 "2,000 $)"
 
 #. module: sale_subscription_dashboard
@@ -253,7 +253,7 @@ msgstr "Exponential"
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
 #, python-format
 msgid "Forecasted Annual MRR Growth"
-msgstr "Geplanter jährlicher MWE-Zuwachs"
+msgstr "Geplanter jährlicher MRR-Zuwachs"
 
 #. module: sale_subscription_dashboard
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
@@ -316,7 +316,7 @@ msgid ""
 "It makes no sense to sum MRR of different currencies. Please select "
 "companies with the same currency."
 msgstr ""
-"Es ist nicht möglich, das MWE verschiedener Währungen zu summieren. Bitte "
+"Es ist nicht möglich, die MRR verschiedener Währungen zu summieren. Bitte "
 "wählen Sie Unternehmen aus, die die gleiche Währung teilen. "
 
 #. module: sale_subscription_dashboard
@@ -365,8 +365,8 @@ msgid ""
 "List all invoices containing non-recurring sales and the amount of non-recurring\n"
 "                    revenues in these invoices for this particular salesperson."
 msgstr ""
-"Listen Sie alle Rechnungen auf, die einmalige Umsätze enthalten, und den Betrag der einmaligen\n"
-"Erlöse in diesen Rechnungen für diesen bestimmten Verkäufer."
+"Listen Sie alle Rechnungen auf, die nicht wiederkehrende Verkäufe enthalten, und den Betrag der nicht wiederkehrenden\n"
+"                    Umsätze in diesen Rechnungen für diesen bestimmten Vertriebsmitarbeiter."
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -387,7 +387,7 @@ msgstr "Lädt…"
 #: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
 #, python-format
 msgid "MRR Growth"
-msgstr "MWE-Zuwachs"
+msgstr "MRR-Zuwachs"
 
 #. module: sale_subscription_dashboard
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
@@ -397,7 +397,7 @@ msgid ""
 "subscription of $ 1,200, the MRR is $ 100)"
 msgstr ""
 "Kurz MRR; Gesamtumsatz durch Abonnements pro Monat (z. B. für ein "
-"Jahresabonnement von 1,200 $ beträgt die MRR 100 $)"
+"Jahresabonnement von 1,200 $ betragen die MRR 100 $)"
 
 #. module: sale_subscription_dashboard
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
@@ -410,14 +410,14 @@ msgstr "Monatlich wiederkehrende Einnahmen"
 #: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
 #, python-format
 msgid "Monthly Recurring Revenue :"
-msgstr "Monatlich Wiederkehrende Einnahmen:"
+msgstr "Monatlich wiederkehrende Einnahmen:"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
 #: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
 #, python-format
 msgid "Monthly Recurring Revenue Growth"
-msgstr "Zuwachs Monatlich Wiederkehrender Einnahmen"
+msgstr "Zuwachs der monatlich wiederkehrenden Einnahmen"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -441,7 +441,7 @@ msgstr "Nicht-WE"
 #: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
 #, python-format
 msgid "Net New MRR"
-msgstr "Neue Netto MWE"
+msgstr "Neue Netto-MRR"
 
 #. module: sale_subscription_dashboard
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
@@ -455,7 +455,7 @@ msgstr "Nettoumsatz"
 #: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
 #, python-format
 msgid "New MRR"
-msgstr "Neue MWE"
+msgstr "Neue MRR"
 
 #. module: sale_subscription_dashboard
 #: code:addons/sale_subscription_dashboard/controllers/revenue_kpis_dashboard.py:0
@@ -474,14 +474,14 @@ msgstr "Nicht wiederkehrende Rechnungen"
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
 #, python-format
 msgid "Non-Recurring Revenue"
-msgstr "Nicht-wiederkehrender Umsatz"
+msgstr "Nicht wiederkehrende Umsätze"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
 #: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
 #, python-format
 msgid "Non-Recurring Revenue :"
-msgstr "Nicht-wiederkehrender Umsatz:"
+msgstr "Nicht wiederkehrende Umsätze:"
 
 #. module: sale_subscription_dashboard
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
@@ -547,7 +547,7 @@ msgstr "Planung"
 #: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
 #, python-format
 msgid "Previous MRR"
-msgstr "Vorheriger MWE"
+msgstr "Vorherige MRR"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -641,7 +641,7 @@ msgstr "Startdatum:"
 #: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
 #, python-format
 msgid "Starting MRR:"
-msgstr "Anfangs-MWE:"
+msgstr "Anfangs-MRR"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -793,8 +793,8 @@ msgid ""
 "Total subscription revenue per month (e.g. for an annual subscription of $ "
 "1,200, the MRR is $ 100)"
 msgstr ""
-"Gesamtabonnementumsatz pro Monat (z. B. bei einem Jahresabonnement von $ "
-"1.200 beträgt der MRR $ 100)"
+"Gesamtabonnementumsatz pro Monat (z. B. bei einem Jahresabonnement von 1.200"
+" $ betragen die MRR 100 $)"
 
 #. module: sale_subscription_dashboard
 #: code:addons/sale_subscription_dashboard/controllers/revenue_kpis_dashboard.py:0
@@ -830,7 +830,7 @@ msgstr ""
 #: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
 #, python-format
 msgid "churn, your MRR will be"
-msgstr "abgewandert, Ihr MWE wird"
+msgstr "abgewandert, Ihre MRR werden sein:"
 
 #. module: sale_subscription_dashboard
 #. openerp-web

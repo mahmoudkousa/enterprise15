@@ -4,11 +4,12 @@
 # 
 # Translators:
 # gsong <gsong2014@foxmail.com>, 2021
-# Amin Cheloh <nineamin@hotmail.com>, 2021
+# Amin Cheloh <amincheloh@gmail.com>, 2021
 # Odoo Thaidev <odoothaidev@gmail.com>, 2021
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2021
 # Martin Trigaux, 2021
 # Wichanon Jamwutthipreecha, 2022
+# Rasareeyar Lappiam, 2023
 # 
 msgid ""
 msgstr ""
@@ -16,8 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:42+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Wichanon Jamwutthipreecha, 2022\n"
-"Language-Team: Thai (https://www.transifex.com/odoo/teams/41243/th/)\n"
+"Last-Translator: Rasareeyar Lappiam, 2023\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -235,7 +236,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_terms_conditions_setting_banner
 msgid "<span>This is a preview of your Terms &amp; Conditions.</span>"
-msgstr ""
+msgstr "<span>นี่คือการแสดงตัวอย่าง ข้อกำหนด &amp; เงื่อนไข</span>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
@@ -984,7 +985,7 @@ msgstr "อีเมล"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__subject
 msgid "Email Subject"
-msgstr ""
+msgstr "หัวเรื่องอีเมล"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -1083,7 +1084,7 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Final Validation"
-msgstr ""
+msgstr "การตรวจสอบความถูกต้องครั้งสุดท้าย"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_follower_ids
@@ -1248,7 +1249,7 @@ msgstr "ข้อมูล"
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_item_type__item_type__initial
 msgid "Initial"
-msgstr ""
+msgstr "อักษรย่อ"
 
 #. module: sign
 #. openerp-web
@@ -1465,6 +1466,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_main_attachment_id
 msgid "Main Attachment"
 msgstr "เอกสารหลักที่แนบมา"
+
+#. module: sign
+#: code:addons/sign/models/sign_template.py:0
+#, python-format
+msgid "Malformed expression: %(exp)s"
+msgstr ""
 
 #. module: sign
 #. openerp-web
@@ -2709,7 +2716,7 @@ msgstr "ป้ายกำกับ"
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
 msgid "Tags:"
-msgstr ""
+msgstr "แท็ก:"
 
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_item_type__auto_field
@@ -2865,7 +2872,7 @@ msgstr ""
 #: code:addons/sign/controllers/terms.py:0
 #, python-format
 msgid "The requested page is invalid, or doesn't exist anymore."
-msgstr ""
+msgstr "หน้าที่ส่งคำขอไม่ถูกต้อง หรือไม่มีอยู่อีกต่อไป"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.deleted_sign_request
@@ -2906,8 +2913,23 @@ msgid "The template doesn't exist anymore."
 msgstr ""
 
 #. module: sign
+#: code:addons/sign/wizard/sign_duplicate_template_with_pdf.py:0
+#, python-format
+msgid "The uploaded file is not a valid PDF. Please upload a valid PDF file."
+msgstr ""
+
+#. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "There are no signatures request."
+msgstr ""
+
+#. module: sign
+#: code:addons/sign/models/sign_request.py:0
+#: code:addons/sign/models/sign_request.py:0
+#, python-format
+msgid ""
+"There was an issue downloading your document. Please contact an "
+"administrator."
 msgstr ""
 
 #. module: sign
@@ -2996,6 +3018,14 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Unable to send the SMS, please contact the sender of the document."
+msgstr ""
+
+#. module: sign
+#: code:addons/sign/controllers/main.py:0
+#, python-format
+msgid ""
+"Unable to sign the document due to missing required data. Please contact an "
+"administrator."
 msgstr ""
 
 #. module: sign
@@ -3330,7 +3360,7 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "next"
-msgstr ""
+msgstr "ถัดไป"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_tree

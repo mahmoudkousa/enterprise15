@@ -9,13 +9,14 @@
 # Ryoko Tsuda <ryoko@quartile.co>, 2023
 # Andy Yiu, 2023
 # Martin Trigaux, 2023
+# Wil Odoo, 2023
 # Junko Augias, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-28 07:19+0000\n"
+"POT-Creation-Date: 2023-07-20 12:29+0000\n"
 "PO-Revision-Date: 2021-09-14 12:39+0000\n"
 "Last-Translator: Junko Augias, 2023\n"
 "Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
@@ -98,10 +99,8 @@ msgstr "(未定義)"
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.res_config_settings_view_form_inherit_documents_spreadsheet
 msgid ""
 "<strong>Spreadsheets</strong>\n"
-"                            <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+"                            <span class=\"fa fa-lg fa-building-o ml-1\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
 msgstr ""
-"<strong>スプレッドシート</strong>\n"
-"                            <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
 
 #. module: documents_spreadsheet
 #: model:ir.model.constraint,message:documents_spreadsheet.constraint_spreadsheet_contributor_spreadsheet_user_unique
@@ -156,7 +155,7 @@ msgstr "0を含み1を除く0から1の間の乱数。"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "A range needs to be defined"
-msgstr ""
+msgstr "範囲を定義して下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -177,14 +176,14 @@ msgstr "指定された文字列の末尾からの部分文字列。"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "ABOUT"
-msgstr ""
+msgstr "およそ"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Absolute value of a number."
-msgstr ""
+msgstr "数字の絶対値"
 
 #. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_revision__active
@@ -214,6 +213,13 @@ msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/actions/control_panel/collaborative_cross_tab_bus_warning.js:0
+#, python-format
+msgid "An issue occurred while auto-saving"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Angle from the X axis to a point (x,y), in radians."
@@ -224,14 +230,14 @@ msgstr "X軸から点(x、y)までのラジアン角度。"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Annual yield of a security paying interest at maturity."
-msgstr ""
+msgstr "満期利息を支払う証券の年間利回り"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Annual yield of a security paying periodic interest."
-msgstr ""
+msgstr "定期的に利息を支払う証券の年間利回り"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -272,7 +278,7 @@ msgstr "このシートを削除してもよろしいですか？"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Argument must be a reference to a cell or range."
-msgstr ""
+msgstr "引数はセルまたは範囲への参照である必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -288,7 +294,7 @@ msgstr "昇順 (A ⟶ Z)"
 msgid ""
 "Ask an admin to configure the workspace to be accessible to the users you "
 "want."
-msgstr ""
+msgstr "管理者に頼んで、希望するユーザがアクセスできるように作業区を設定してもらいましょう。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -368,7 +374,7 @@ msgstr "太字"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Borders"
-msgstr ""
+msgstr "枠線"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -382,7 +388,7 @@ msgstr "下"
 msgid ""
 "By default, the spreadsheets in this workspace will only be seen and updated"
 " by their <strong>creator</strong>."
-msgstr ""
+msgstr "デフォルトでは、この作業区内のスプレッドシートは、<strong>作成者</strong>のみが表示および更新できます。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -412,7 +418,7 @@ msgstr ""
 msgid ""
 "Cannot sort. To sort, select only cells or only merges that have the same "
 "size."
-msgstr ""
+msgstr "ソートできません。ソートするには、同じサイズのセルまたはマージのみを選択して下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -426,7 +432,7 @@ msgstr "カテゴリ / ラベル"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Cell values"
-msgstr ""
+msgstr "セル値"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -507,7 +513,7 @@ msgstr "%s - %s 行目をクリア"
 #. module: documents_spreadsheet
 #: model:ir.model,name:documents_spreadsheet.model_spreadsheet_revision
 msgid "Collaborative spreadsheet revision"
-msgstr ""
+msgstr "スプレッドシートの共同修正"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -515,7 +521,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Color scale"
-msgstr ""
+msgstr "カラースケール"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -529,7 +535,7 @@ msgstr "左の列"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Column number of a specified cell."
-msgstr ""
+msgstr "指定したセルの列番号。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -548,7 +554,7 @@ msgstr "複数の文字列や配列からのテキストを結合します。"
 #. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_revision__commands
 msgid "Commands"
-msgstr ""
+msgstr "コマンド"
 
 #. module: documents_spreadsheet
 #: model:ir.model,name:documents_spreadsheet.model_res_company
@@ -561,7 +567,7 @@ msgstr "会社"
 #, python-format
 msgid ""
 "Computes the number of periods needed for an investment to reach a value."
-msgstr ""
+msgstr "投資額が目標額に達するまでに必要な期間数を計算します。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -688,7 +694,7 @@ msgstr "コピー"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Copy of %s"
-msgstr ""
+msgstr " %sのコピー"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -902,7 +908,7 @@ msgstr "12月"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Decrease decimal places"
-msgstr ""
+msgstr "小数点以下の桁数を減らす"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -980,7 +986,7 @@ msgstr "値を削除"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Depreciation via declining balance method."
-msgstr ""
+msgstr "定率法による減価償却"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -999,7 +1005,7 @@ msgstr "降順 (Z ⟶ A)"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Did not find value '%s' in [[FUNCTION_NAME]] evaluation."
-msgstr ""
+msgstr " [[FUNCTION_NAME]] 検証において値'%s' が見つかりませんでした。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1041,14 +1047,14 @@ msgstr "ドキュメント"
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_res_company__documents_spreadsheet_folder_id
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_res_config_settings__documents_spreadsheet_folder_id
 msgid "Documents Spreadsheet Folder"
-msgstr ""
+msgstr "ドキュメントスプレッドシートフォルダ"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Does not contain"
-msgstr ""
+msgstr "有価証券の価格に基づく割引率"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1102,7 +1108,7 @@ msgstr "編集"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Edit link"
-msgstr ""
+msgstr "リンクを編集"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1121,7 +1127,7 @@ msgstr "終了値"
 #. module: documents_spreadsheet
 #: model_terms:documents.folder,description:documents_spreadsheet.documents_spreadsheet_folder
 msgid "Enjoy collaborative work on your spreadsheets."
-msgstr ""
+msgstr "スプレッドシートを使用した共同作業をお楽しみ下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1161,7 +1167,7 @@ msgstr "関数[[FUNCTION_NAME]]により、ゼロ除算エラーが発生しま�
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Exact number of years between two dates."
-msgstr ""
+msgstr "2つの日付の間の正確な年数"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1281,7 +1287,7 @@ msgstr "フォーマット"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Format as percent"
-msgstr ""
+msgstr "パーセント形式"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1318,7 +1324,7 @@ msgstr "計算式"
 msgid ""
 "Function ${name} has an argument that has been declared with more than one "
 "type whose type 'META'. The 'META' type can only be declared alone."
-msgstr ""
+msgstr "機能 ${name} に'META'型を持つ複数の型で宣言された引数があります。META'型は単独でしか宣言できません。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1338,6 +1344,7 @@ msgid ""
 "Function ${name} has no-repeatable arguments declared after repeatable ones."
 " All repeatable arguments must be declared last."
 msgstr ""
+"関数 ${name} に繰返し可能な引数の後に繰返し不可能な引数が宣言されています。繰返し可能な引数は全て最後に宣言されている必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1346,7 +1353,7 @@ msgstr ""
 msgid ""
 "Function %s expects its parameters to be single values or single cell "
 "references, not ranges."
-msgstr ""
+msgstr "関数 %sはそのパラメータが範囲ではなく、単一の値または単一のセル参照であることを想定しています。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1355,7 +1362,7 @@ msgstr ""
 msgid ""
 "Function %s expects the parameter %s to be a single value or a single cell "
 "reference, not a range."
-msgstr ""
+msgstr "関数 %s はパラメータ%sが、範囲ではなく、単一の値または単一のセル参照であることを想定しています。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1364,7 +1371,7 @@ msgstr ""
 msgid ""
 "Function %s expects the parameter %s to be reference to a cell or range, not"
 " a %s."
-msgstr ""
+msgstr "関数 %sはパラメータ%sが、%sではなく、セルまたは範囲の参照であることを想定しています。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1410,7 +1417,7 @@ msgstr "機能[[FUNCTION_NAME]]を期待は同じ次元を持つことが条件�
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Function [[FUNCTION_NAME]] parameter 2 value (%s) is out of range."
-msgstr ""
+msgstr "関数 [[FUNCTION_NAME]] パラメータ 2 値 (%s) は範囲外です。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1418,14 +1425,14 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Function [[FUNCTION_NAME]] parameter 2 value is out of range."
-msgstr ""
+msgstr "関数 [[FUNCTION_NAME]] パラメータ 2 値 は範囲外です。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Future value of an annuity investment."
-msgstr ""
+msgstr "年金投資の将来価値"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1453,7 +1460,7 @@ msgstr " ピボット内の要素の絶対IDを取得します"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/registries/list_functions.js:0
 #, python-format
 msgid "Get the header of a list."
-msgstr ""
+msgstr "リストのヘッダを取得します。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1467,7 +1474,7 @@ msgstr "ピボットのヘッダーを取得します。"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/registries/list_functions.js:0
 #, python-format
 msgid "Get the value from a list."
-msgstr ""
+msgstr "リストから値を取得します。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1507,14 +1514,14 @@ msgstr "%s 列目を非表示"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Hide columns"
-msgstr ""
+msgstr "列を非表示"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Hide columns %s - %s"
-msgstr ""
+msgstr "列を非表示 %s - %s"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1535,35 +1542,35 @@ msgstr "目盛線を非表示"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Hide row %s"
-msgstr ""
+msgstr "行を非表示 %s"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Hide rows"
-msgstr ""
+msgstr "行を非表示"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Hide rows %s - %s"
-msgstr ""
+msgstr "行を非表示 %s - %s"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Horizontal align"
-msgstr ""
+msgstr "水平アライン"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Horizontal lookup"
-msgstr ""
+msgstr "水平検索"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1641,19 +1648,19 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Icon set"
-msgstr ""
+msgstr "アイコン設定"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Icons"
-msgstr ""
+msgstr "アイコン"
 
 #. module: documents_spreadsheet
 #: model_terms:documents.folder,description:documents_spreadsheet.documents_spreadsheet_folder
 msgid "If you want to work together on those spreadsheets :"
-msgstr ""
+msgstr "これらのスプレッドシートで協働したいのであれば:"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1661,14 +1668,14 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "In [[FUNCTION_NAME]] evaluation, cannot find '%s' within '%s'."
-msgstr ""
+msgstr " [[FUNCTION_NAME]] の検証で、 '%s' 内の '%s'が見つかりません。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Increase decimal places"
-msgstr ""
+msgstr "小数点以下の桁数を増やす"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1682,7 +1689,7 @@ msgstr "挿入"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Insert %s columns"
-msgstr ""
+msgstr "列 %s を挿入"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1703,7 +1710,7 @@ msgstr "右に %s 列挿入"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Insert %s rows"
-msgstr ""
+msgstr "%s行を挿入"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1827,35 +1834,35 @@ msgstr "リストの先頭の"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Internal rate of return given periodic cashflows."
-msgstr ""
+msgstr "期間キャッシュ・フローを考慮した場合の内部収益率"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Invalid Maxpoint formula"
-msgstr ""
+msgstr "無効な最大点公式"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Invalid Midpoint formula"
-msgstr ""
+msgstr "無効な中点公式"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Invalid Minpoint formula"
-msgstr ""
+msgstr "無効な最小点公式"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Invalid expression"
-msgstr ""
+msgstr "無効な式"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1871,14 +1878,7 @@ msgstr "無効な式"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Invalid lower inflection point formula"
-msgstr ""
-
-#. module: documents_spreadsheet
-#. openerp-web
-#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
-#, python-format
-msgid "Invalid merge zone"
-msgstr "無効なマージゾーン"
+msgstr "無効な下部変曲点の公式"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1887,7 +1887,7 @@ msgstr "無効なマージゾーン"
 msgid ""
 "Invalid number of arguments for the %s function. Expected %s maximum, but "
 "got %s instead."
-msgstr ""
+msgstr " 関数%s用の引数の数が無効です。最大%sを予測していますが、代わりに%sを取得しました。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1896,7 +1896,7 @@ msgstr ""
 msgid ""
 "Invalid number of arguments for the %s function. Expected %s minimum, but "
 "got %s instead."
-msgstr ""
+msgstr " 関数%s用の引数の数が無効です。最少%sを予測していますが、代わりに%sを取得しました。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1906,6 +1906,8 @@ msgid ""
 "Invalid number of arguments for the %s function. Expected all arguments "
 "after position %s to be supplied by groups of %s arguments"
 msgstr ""
+"関数%s 用の引数の数が無効です。Expected all arguments after position位置 "
+"%s以降の全ての引数は%s引数のグループに供給されるのを想定しています。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1914,14 +1916,14 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Invalid reference"
-msgstr ""
+msgstr "無効な参照"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Invalid sheet"
-msgstr ""
+msgstr "無効なシート"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1935,14 +1937,14 @@ msgstr "無効なシート名"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Invalid sheet name: %s"
-msgstr ""
+msgstr "無効なシート名: %s"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Invalid upper inflection point formula"
-msgstr ""
+msgstr "無効な上部変曲点の公式"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2005,14 +2007,14 @@ msgstr "ラジアンの値の逆正接、。"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Is between"
-msgstr ""
+msgstr "間か"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Is empty"
-msgstr ""
+msgstr "空か"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2054,14 +2056,14 @@ msgstr "次の数値を下回る、又はそれに等しい:"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Is not between"
-msgstr ""
+msgstr "間ではないか"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Is not empty"
-msgstr ""
+msgstr "空ではないか"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2112,7 +2114,7 @@ msgstr "ラベル"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Labels are invalid"
-msgstr ""
+msgstr "ラベルが無効です"
 
 #. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_save_spreadsheet_template____last_update
@@ -2170,7 +2172,7 @@ msgstr "左側"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Legend position"
-msgstr ""
+msgstr "凡例ポジション"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2241,7 +2243,7 @@ msgstr "シートへリンク"
 #: code:addons/documents_spreadsheet/static/src/side_panels/list/listing_details_side_panel.xml:0
 #, python-format
 msgid "List Name"
-msgstr ""
+msgstr "リスト名"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2249,7 +2251,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/registries/menu_item_registry.js:0
 #, python-format
 msgid "List properties"
-msgstr ""
+msgstr "リストプロパティ"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2313,7 +2315,7 @@ msgstr "コピーを作成"
 msgid ""
 "Manage and work with all the <strong>spreadsheets</strong> created in other "
 "applications."
-msgstr ""
+msgstr "他のアプリで作成された全ての <strong>スプレッドシート</strong>を管理し、利用して業務を行います。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2327,14 +2329,14 @@ msgstr "3月"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Match case"
-msgstr ""
+msgstr "一致の場合"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Match entire cell content"
-msgstr ""
+msgstr "セル全部の内容を一致させる"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2398,7 +2400,7 @@ msgstr "分析対象"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Median value in a numeric dataset."
-msgstr ""
+msgstr "数値データセットの中央値"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2421,7 +2423,7 @@ msgstr ""
 msgid ""
 "Merged cells are preventing this operation. Unmerge those cells and try "
 "again."
-msgstr ""
+msgstr "マージされたセルがこの操作を妨げています。セルをアンマージして、もう一度試して下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2443,21 +2445,21 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Midpoint must be smaller then Maximum"
-msgstr ""
+msgstr "中間点は最大点より小さい必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Minimum must be smaller then Maximum"
-msgstr ""
+msgstr "最小は最大より小さい必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Minimum must be smaller then Midpoint"
-msgstr ""
+msgstr "最小は中間点より小さい必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2485,7 +2487,7 @@ msgstr "数値データセット内の最小値。"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Minpoint"
-msgstr ""
+msgstr "最小ポイント"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2494,6 +2496,27 @@ msgstr ""
 #, python-format
 msgid "Minute component of a specific time."
 msgstr "特定の時間の分のコンポーネント。"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/plugins/ui/list_autofill_plugin.js:0
+#, python-format
+msgid "Missing list #%s"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/plugins/ui/pivot_autofill_plugin.js:0
+#, python-format
+msgid "Missing pivot"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/plugins/ui/pivot_autofill_plugin.js:0
+#, python-format
+msgid "Missing pivot #%s"
+msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2513,7 +2536,7 @@ msgstr "モデル"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Modified Macaulay duration."
-msgstr ""
+msgstr "修正済マコーレー・デュレーション"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2542,7 +2565,7 @@ msgstr "特定の日がみなされる月"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "More formats"
-msgstr ""
+msgstr "その他のフォマット"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2568,7 +2591,7 @@ msgstr "右に動く"
 #. module: documents_spreadsheet
 #: model_terms:documents.folder,description:documents_spreadsheet.documents_spreadsheet_folder
 msgid "Move them to another workspace"
-msgstr ""
+msgstr "それらを他の作業区へ移動"
 
 #. module: documents_spreadsheet
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.spreadsheet_template_view_search
@@ -2607,7 +2630,7 @@ msgstr "新規"
 #: code:addons/documents_spreadsheet/static/src/js/components/filter_editor_side_panel.js:0
 #, python-format
 msgid "New %s filter"
-msgstr ""
+msgstr "新規%s フィルタ"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2703,7 +2726,7 @@ msgstr "不一致。"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Not implemented operator %s for kind of conditional formatting:  %s"
-msgstr ""
+msgstr "条件付き書式: %sの種類に演算子 %sが実装されていません"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2753,7 +2776,7 @@ msgstr "数値（1,000.12）"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Number of columns in a specified array or range."
-msgstr ""
+msgstr "指定した配列または範囲内の列数"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2774,14 +2797,14 @@ msgstr "空の値の数。"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Number of periods for an investment to reach a value."
-msgstr ""
+msgstr "投資額が一定額に達するまでの期間"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Number of rows in a specified array or range."
-msgstr ""
+msgstr "指定した配列または範囲内の行数"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2830,12 +2853,12 @@ msgstr "別の分の1人の数。"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Paint Format"
-msgstr ""
+msgstr "ペイント形式"
 
 #. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_revision__parent_revision_id
 msgid "Parent Revision"
-msgstr ""
+msgstr "親改訂"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2903,7 +2926,7 @@ msgstr "パーセント"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Percentile"
-msgstr ""
+msgstr "パーセンタイル"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2936,6 +2959,13 @@ msgstr "有効なシート名を入力してください。"
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/actions/control_panel/collaborative_cross_tab_bus_warning.js:0
+#, python-format
+msgid "Please, close all other Odoo tabs and reload the current page."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Position of item in range that matches value."
@@ -2953,7 +2983,7 @@ msgstr "正の数の正の平方根。"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Present value of an annuity investment."
-msgstr ""
+msgstr "年金投資の現在価値"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2981,7 +3011,7 @@ msgstr "前"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Price of a security paying periodic interest."
-msgstr ""
+msgstr "定期的に利子を支払う証券の価格"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3019,7 +3049,7 @@ msgstr "2つの値までの間のランダムな整数。"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/registries/menu_item_registry.js:0
 #, python-format
 msgid "Re-insert list"
-msgstr ""
+msgstr "再挿入リスト"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3034,7 +3064,7 @@ msgstr "再挿入ピボット"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/plugins/ui/list_autofill_plugin.js:0
 #, python-format
 msgid "Record #"
-msgstr ""
+msgstr "レコード数"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3079,6 +3109,13 @@ msgstr "関連モデル"
 #, python-format
 msgid "Relation"
 msgstr "関係"
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/actions/control_panel/collaborative_cross_tab_bus_warning.js:0
+#, python-format
+msgid "Reload"
+msgstr "リロード"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3128,7 +3165,7 @@ msgstr "置き換える"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Replace all"
-msgstr ""
+msgstr "全てを入替"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3156,7 +3193,7 @@ msgstr "一緒に一連の番号を乗算した結果。"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/registries/pivot_functions.js:0
 #, python-format
 msgid "Return the current value of a spreadsheet filter."
-msgstr ""
+msgstr "スプレッドシートフィルタの現在の値を返します。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3202,7 +3239,7 @@ msgstr "戻り値は、論理式に応じた値。"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Reverse icons"
-msgstr ""
+msgstr "リバースアイコン"
 
 #. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_revision__revision_id
@@ -3288,7 +3325,7 @@ msgstr "下の行"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Row number of a specified cell."
-msgstr ""
+msgstr "指定したセルの行番号。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3333,7 +3370,7 @@ msgstr "検索"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Search in formulas"
-msgstr ""
+msgstr "数式で検索"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3390,7 +3427,7 @@ msgstr "Odooメニューを選択してスプレッドシートにリンクを�
 #: code:addons/documents_spreadsheet/static/src/js/components/spreadsheet_component.js:0
 #, python-format
 msgid "Select the number of records to insert"
-msgstr ""
+msgstr "挿入するレコードの数を選ぶ"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3473,7 +3510,7 @@ msgstr "ラジアンで提供された角度のサイン。"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Single color"
-msgstr ""
+msgstr "単色"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3487,7 +3524,7 @@ msgstr "テーブルのような範囲から単一の値。"
 #: code:addons/documents_spreadsheet/static/src/js/components/filter_editor_side_panel.js:0
 #, python-format
 msgid "Some required fields are not valid"
-msgstr ""
+msgstr "必要なフィールドで有効でないものがあります"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3516,7 +3553,7 @@ msgstr "範囲を並べ替え"
 #: code:addons/documents_spreadsheet/static/src/side_panels/list/listing_details_side_panel.xml:0
 #, python-format
 msgid "Sorting"
-msgstr ""
+msgstr "並べ替え"
 
 #. module: documents_spreadsheet
 #: model:documents.folder,name:documents_spreadsheet.documents_spreadsheet_folder
@@ -3540,7 +3577,7 @@ msgstr "スプレッドシートのプレビュー"
 #. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_documents_document__spreadsheet_revision_ids
 msgid "Spreadsheet Revision"
-msgstr ""
+msgstr "スプレッドシート修正"
 
 #. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_documents_document__spreadsheet_snapshot
@@ -3571,6 +3608,8 @@ msgid ""
 "Spreadsheets mass download not yet supported.\n"
 " Download spreadsheets individually instead."
 msgstr ""
+"スプレッドシートの一括ダウンロードはまだサポートされていません。\n"
+"代わりにスプレッドシートを個別にダウンロードして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3628,7 +3667,7 @@ msgstr "標準偏差。"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Starts with"
-msgstr ""
+msgstr "以下で始まる:"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3721,7 +3760,7 @@ msgstr "テキストの色"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The anchor must be part of the provided zone"
-msgstr ""
+msgstr "アンカーは提供されたゾーンの一部である必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3735,42 +3774,42 @@ msgstr "引数 %sは有効な対策ではありません。ここでの対策は
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The argument is missing. Please provide a value"
-msgstr ""
+msgstr "引数がありません。値を指定して下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The base (%s) must be between 2 and 36 inclusive."
-msgstr ""
+msgstr "基数(%s)は2以上36以下でなければならない。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The cashflow_amounts must include negative and positive values."
-msgstr ""
+msgstr "cashflow_amountsには負と正の値を含めて下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The cell you are trying to edit has been deleted."
-msgstr ""
+msgstr "編集しようとしているセルは削除されました。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The chart definition is invalid for an unknown reason"
-msgstr ""
+msgstr "チャート定義が原因不明で無効です"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The cost (%s) must be strictly positive."
-msgstr ""
+msgstr "原価(%s)は必ず正の値である必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3785,21 +3824,21 @@ msgstr "データセットの共分散。"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The criteria range contains %s row, it must be at least 2 rows."
-msgstr ""
+msgstr "基準範囲には%s行が含まれ、少なくとも2行でなければなりません。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The dataset is invalid"
-msgstr ""
+msgstr "データセットが無効です"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The date_string (%s) cannot be parsed to date/time."
-msgstr ""
+msgstr "date_string (%s) は日付/時間に解析できません。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3809,7 +3848,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The day_count_convention (%s) must be between 0 and 4 inclusive."
-msgstr ""
+msgstr "day_count_convention (%s) は 0以上4以下にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3823,35 +3862,35 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The discount (%s) must be different from -1."
-msgstr ""
+msgstr "割引 (%s) は -1と異なる必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The divisor must be different from 0."
-msgstr ""
+msgstr "除数は 0 以外にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The divisor must be different from zero."
-msgstr ""
+msgstr "除数は ゼロ以外にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The end_date (%s) must be positive or null."
-msgstr ""
+msgstr "end_date (%s)は正の値またはNULLである必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The exponent (%s) must be an integer when the base is negative."
-msgstr ""
+msgstr "基数が負の場合、指数(%s) は整数にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3859,14 +3898,14 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The factor (%s) must be positive when the value (%s) is positive."
-msgstr ""
+msgstr "係数 (%s) は値 (%s) が正のとき、正である必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/helpers/list_data_source.js:0
 #, python-format
 msgid "The field %s does not exist or you do not have access to that field"
-msgstr ""
+msgstr "フィールド%sが存在しないか、そのフィールドへのアクセス権がありません。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3875,35 +3914,35 @@ msgstr ""
 msgid ""
 "The field (%s) must be one of %s or must be a number between 1 and %s "
 "inclusive."
-msgstr ""
+msgstr "フィールド (%s)は%sの1つであるか、1と%s以下の間の数である必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The field (%s) must be one of %s."
-msgstr ""
+msgstr "フィールド (%s) は%sの1つである必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The field must be a number or a string"
-msgstr ""
+msgstr "フィールドは数値または文字列である必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The first value must be a number"
-msgstr ""
+msgstr "最初の値は数値にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The frequency (%s) must be one of %s"
-msgstr ""
+msgstr "頻度(%s)は %sのうち1つである必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3920,7 +3959,7 @@ msgstr ""
 msgid ""
 "The function [[FUNCTION_NAME]] expects a boolean value, but '%s' is a text, "
 "and cannot be coerced to a number."
-msgstr ""
+msgstr "関数[[FUNCTION_NAME]]は、ブール値であるべきですが、 '%s' はテキストであり、数値にすることはできません。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3929,14 +3968,14 @@ msgstr ""
 msgid ""
 "The function [[FUNCTION_NAME]] expects a number value, but '%s' is a string,"
 " and cannot be coerced to a number."
-msgstr ""
+msgstr "関数[[FUNCTION_NAME]]は数値を想定していますが、 '%s'は文字列であり、数値にすることができません。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The function [[FUNCTION_NAME]] result cannot be negative"
-msgstr ""
+msgstr "関数 [[FUNCTION_NAME]]結果は負の数であることはできません。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3945,28 +3984,28 @@ msgstr ""
 msgid ""
 "The function [[FUNCTION_NAME]] result must be greater than or equal "
 "01/01/1900."
-msgstr ""
+msgstr "関数[[FUNCTION_NAME]]結果は01/01/1900より大きいかそれと同等でなくてはなりません。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The future_value (%s) must be strictly positive."
-msgstr ""
+msgstr "future_value (%s) は必ず正の値である必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The high (%s) must be greater than or equal to the low (%s)."
-msgstr ""
+msgstr "high (%s) は low(%s)より大きいか同等である必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The life (%s) must be strictly positive."
-msgstr ""
+msgstr "life (%s) は必ず正の値である必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3983,35 +4022,35 @@ msgstr "数値の対数、底e（オイラー数）。"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The maturity (%s) must be strictly greater than the settlement (%s)."
-msgstr ""
+msgstr "満期(%s) は支払(%s)よりも必ず大きい必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The maxpoint must be a number"
-msgstr ""
+msgstr "最大点は数値にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The midpoint must be a number"
-msgstr ""
+msgstr "中点は数値にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The minpoint must be a number"
-msgstr ""
+msgstr "最小点は数値にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The month (%s) must be between 1 and 12 inclusive."
-msgstr ""
+msgstr "月 (%s) は1以上12以下にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4020,7 +4059,7 @@ msgstr ""
 msgid ""
 "The net present value of an investment based on a series of periodic cash "
 "flows and a discount rate."
-msgstr ""
+msgstr "一連の期間キャッシュフローと割引率に基づく投資の正味現在価値"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4049,42 +4088,42 @@ msgstr "数のパイ。"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The number_of_characters (%s) must be positive or null."
-msgstr ""
+msgstr "number_of_characters (%s) は正の値かNULLにして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The occurrenceNumber (%s) must be positive or null."
-msgstr ""
+msgstr "occurrenceNumber (%s) は正の値またはNULLにして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The period (%s) must be less than or equal to %s."
-msgstr ""
+msgstr "期間 (%s) は %sより少ないか同等にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The period (%s) must be strictly positive."
-msgstr ""
+msgstr "期間 (%s) は必ず正の値にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The position (%s) must be greater than or equal to 1."
-msgstr ""
+msgstr "ポジション (%s)は1以上にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The present_value (%s) must be strictly positive."
-msgstr ""
+msgstr "present_value (%s)は必ず正の値にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4092,21 +4131,21 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The price (%s) must be strictly positive."
-msgstr ""
+msgstr "価格は (%s)は必ず正の値にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range is invalid"
-msgstr ""
+msgstr "範囲が無効です"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The range must be a single row or a single column."
-msgstr ""
+msgstr "範囲は1つのみの行または列である必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4116,21 +4155,21 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The rate (%s) must be positive or null."
-msgstr ""
+msgstr "割合 (%s)は正の値かNULLにして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The rate (%s) must be strictly positive."
-msgstr ""
+msgstr "割合 (%s) は必ず正の値にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The rate_guess (%s) must be strictly greater than -1."
-msgstr ""
+msgstr "rate_guess (%s) は必ず -1より大きくして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4138,28 +4177,28 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The redemption (%s) must be strictly positive."
-msgstr ""
+msgstr "還元 (%s) は必ず正の値にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The result_range must be a single row or a single column."
-msgstr ""
+msgstr "result_rangeは1つの行または1つの列である必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The rule is invalid for an unknown reason"
-msgstr ""
+msgstr "規則は不明な理由で無効です。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The salvage (%s) must be positive or null."
-msgstr ""
+msgstr "サルベージ (%s) は正の値かNULLにして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4173,28 +4212,28 @@ msgstr "データセットの標本共分散。"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The second argument is missing. Please provide a value"
-msgstr ""
+msgstr "第2引数がありません。値を指定して下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The second value must be a number"
-msgstr ""
+msgstr "2番目の値は数値にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The settlement (%s) must be greater than or equal to the issue (%s)."
-msgstr ""
+msgstr "決済(%s)は発行 (%s)以上にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The start_date (%s) must be positive or null."
-msgstr ""
+msgstr "start_date (%s)は正の値またはNULLにして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4202,14 +4241,14 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The starting_at (%s) must be greater than or equal to 1."
-msgstr ""
+msgstr "starting_at (%s) は1以上にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The table_number (%s) is out of range."
-msgstr ""
+msgstr "table_number (%s) は範囲外です"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4217,35 +4256,35 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The text_to_search must be non-empty."
-msgstr ""
+msgstr " text_to_searchは空にしないで下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The time_string (%s) cannot be parsed to date/time."
-msgstr ""
+msgstr "time_string (%s) は日付/時刻に解析できません。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The type (%s) is out of range."
-msgstr ""
+msgstr "タイプ (%s) は範囲外です。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The type (%s) must be 1, 2 or 3."
-msgstr ""
+msgstr "タイプ (%s) は 1, 2 または3にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The value (%s) cannot be between -1 and 1 inclusive."
-msgstr ""
+msgstr "値 (%s) には-1から1までの値を含めることはできません。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4253,14 +4292,14 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The value (%s) must be a valid base %s representation."
-msgstr ""
+msgstr "値 (%s) は有効なベース%s表現である必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The value (%s) must be between -1 and 1 exclusive."
-msgstr ""
+msgstr "値 (%s) は -1 から1 より小さい間である必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4268,28 +4307,28 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The value (%s) must be between -1 and 1 inclusive."
-msgstr ""
+msgstr "値 (%s)は-1 以上1 以下である必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The value (%s) must be greater than or equal to 1."
-msgstr ""
+msgstr "値 (%s)は 1以上である必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The value (%s) must be positive or null."
-msgstr ""
+msgstr "値 (%s) は正の値またはNULLである必要があります。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The value (%s) must be strictly positive."
-msgstr ""
+msgstr "値 (%s)は必ず正の値にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4304,21 +4343,21 @@ msgstr ""
 #, python-format
 msgid ""
 "The weekend (%s) must be a string or a number in the range 1-7 or 11-17."
-msgstr ""
+msgstr "週末 (%s)は 1-7 または11-17の範囲の文字列または数にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The weekend (%s) must be different from '1111111'."
-msgstr ""
+msgstr "週末 (%s)は'1111111'と異なる必要があります"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The year (%s) must be between 0 and 9999 inclusive."
-msgstr ""
+msgstr "年(%s)は0から9999以下の間にして下さい。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4326,7 +4365,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "The yield (%s) must be positive or null."
-msgstr ""
+msgstr "利回り (%s) は正の数かNULLにして下さい"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4337,7 +4376,6 @@ msgstr "ピボットは、ID\"%s\"はありません"
 
 #. module: documents_spreadsheet
 #. openerp-web
-#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
@@ -4367,7 +4405,7 @@ msgstr "この操作は、複数選択を許可されていません。"
 msgid ""
 "This operation is not possible due to a merge. Please remove the merges "
 "first than try again."
-msgstr ""
+msgstr "この操作はマージのためできません。マージを削除してから再試行して下さい。"
 
 #. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_save_spreadsheet_template__thumbnail
@@ -4440,7 +4478,7 @@ msgstr "タイプ"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/helpers/pivot_data_source.js:0
 #, python-format
 msgid "Unable to fetch the label of %s of model %s"
-msgstr ""
+msgstr "%s のラベル(%sモデルの)を取得できません"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4463,7 +4501,7 @@ msgstr "戻す"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Unexpected token: %s"
-msgstr ""
+msgstr "予期せぬトークン: %s"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4477,7 +4515,7 @@ msgstr "全ての列を再表示"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Unhide all rows"
-msgstr ""
+msgstr "すべての行を非表示にする"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4538,7 +4576,7 @@ msgstr "値"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Value at a given percentile of a dataset exclusive of 0 and 1."
-msgstr ""
+msgstr "0と1を除いた既定のデータセットのパーセンタイルの値"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4546,7 +4584,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Value at a given percentile of a dataset."
-msgstr ""
+msgstr "データセットの既定のパーセンタイルにおける値"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4568,7 +4606,7 @@ msgstr "値はパーセンテージとして解釈しました。"
 #, python-format
 msgid ""
 "Value nearest to a specific quartile of a dataset exclusive of 0 and 4."
-msgstr ""
+msgstr "0と4を除いた、データセットの特定の四分位数に最も近い値。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4576,7 +4614,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Value nearest to a specific quartile of a dataset."
-msgstr ""
+msgstr "データセットの特定の四分位数に最も近い値"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4678,14 +4716,14 @@ msgstr "加重平均。"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "When value is"
-msgstr ""
+msgstr "値が以下の時:"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "When weekend is a string (%s) it must be composed of \"0\" or \"1\"."
-msgstr ""
+msgstr "週末が文字列 (%s) の時、 \"0\" または \"1\"で構成される必要があります"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4741,14 +4779,14 @@ msgstr "ワークスペース"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Wrong function call"
-msgstr ""
+msgstr "間違った関数呼び出し"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Wrong number of Argument[]. Expected an even number of Argument[]."
-msgstr ""
+msgstr "引数の数が誤っています[]。偶数の引数となるべきです[]."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4785,49 +4823,49 @@ msgstr "[[FUNCTION_NAME]]は、スプレッドシートから呼び出すこと�
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "[[FUNCTION_NAME]] evaluates to an out of bounds range."
-msgstr ""
+msgstr "[[FUNCTION_NAME]]は範囲外と評価されます"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "[[FUNCTION_NAME]] evaluates to an out of range column value %s."
-msgstr ""
+msgstr "[[FUNCTION_NAME]] は列の値 %sの範囲外と評価されます"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "[[FUNCTION_NAME]] evaluates to an out of range row value %s."
-msgstr ""
+msgstr "[[FUNCTION_NAME]] は行の値 %sの範囲外と評価されます"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "[[FUNCTION_NAME]] expects number values."
-msgstr ""
+msgstr "[[FUNCTION_NAME]]には数値が入ります"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "[[FUNCTION_NAME]] expects the weight to be positive or equal to 0."
-msgstr ""
+msgstr "[[FUNCTION_NAME]] は重量が正の値または0と同等を予測しています"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "[[FUNCTION_NAME]] has mismatched argument count %s vs %s."
-msgstr ""
+msgstr "[[FUNCTION_NAME]] は引数の数が %s と %sで不一致です"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "[[FUNCTION_NAME]] has mismatched range sizes."
-msgstr ""
+msgstr "[[FUNCTION_NAME]]が一致しない範囲サイズです"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4839,7 +4877,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "[[FUNCTION_NAME]] has no valid input data."
-msgstr ""
+msgstr "[[FUNCTION_NAME]]に有効な入力データがありません"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4868,12 +4906,12 @@ msgstr "このシートからセル削除がありません"
 #: code:addons/documents_spreadsheet/static/src/side_panels/pivot/pivot_details_side_panel.js:0
 #, python-format
 msgid "never"
-msgstr ""
+msgstr "しない"
 
 #. module: documents_spreadsheet
 #: model:ir.model.constraint,message:documents_spreadsheet.constraint_spreadsheet_revision_parent_revision_unique
 msgid "o-spreadsheet revision refused due to concurrency"
-msgstr ""
+msgstr "o-スプレッドシートの修正が同時実行のため拒否されました。"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4894,4 +4932,4 @@ msgstr "レコードを挿入"
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "repeatable"
-msgstr ""
+msgstr "繰り返し可能"

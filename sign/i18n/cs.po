@@ -11,7 +11,9 @@
 # Rastislav Brencic <rastislav.brencic@azet.sk>, 2021
 # karolína schusterová <karolina.schusterova@vdp.sk>, 2021
 # Martin Trigaux, 2021
-# trendspotter <jirka.p@volny.cz>, 2022
+# Jiří Podhorecký, 2022
+# Jakub Smolka, 2023
+# Tomáš Píšek, 2023
 # 
 msgid ""
 msgstr ""
@@ -19,8 +21,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:42+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: trendspotter <jirka.p@volny.cz>, 2022\n"
-"Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
+"Last-Translator: Tomáš Píšek, 2023\n"
+"Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -44,7 +46,7 @@ msgstr "%s Dokument nelze podepsat kvůli nedostatečné kreditní chybě."
 #: code:addons/sign/models/sign_request.py:0
 #, python-format
 msgid "%s has been edited and signed"
-msgstr ""
+msgstr "%s byl upraven a podepsán"
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -141,6 +143,8 @@ msgid ""
 "<i class=\"fa fa-arrow-right\"/>\n"
 "                                                Preview"
 msgstr ""
+"<i class=\"fa fa-arrow-right\"/>\n"
+"                                                Náhled"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -269,6 +273,9 @@ msgid ""
 "            They will be able to access this document and sign it as yourself.<br/>\n"
 "            <span>Your IP address and localization are associated to your signature to ensure traceability.</span>"
 msgstr ""
+"<strong>Varování</strong> neposílejte tento e-mail dalším osobám!<br/>\n"
+"            Budou moci měnit a podepsat tento dokument vaším jménem. <br/>\n"
+"            <span> Pro zajištění dohledatelnosti, bude k Vašemu podpisu přiřazena Vaše IP adresa a lokalizace.</span>"
 
 #. module: sign
 #. openerp-web
@@ -487,7 +494,7 @@ msgstr "Přílohy"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item_type__auto_field
 msgid "Auto-fill Partner Field"
-msgstr ""
+msgstr "Pole pro automatické doplnění partnera"
 
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_log__request_state__sent
@@ -800,14 +807,14 @@ msgstr "Smazat"
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Delete sign"
-msgstr ""
+msgstr "Vymazat podpis"
 
 #. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Delete sign item"
-msgstr ""
+msgstr "Vymazat položku podpisu"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_kanban
@@ -861,7 +868,7 @@ msgstr "Zobrazované jméno"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_config_settings__sign_preview_ready
 msgid "Display sign preview button"
-msgstr ""
+msgstr "Zobrazit tlačítko náhledu podpisu"
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
@@ -1004,7 +1011,7 @@ msgstr "E-mail "
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__subject
 msgid "Email Subject"
-msgstr ""
+msgstr "Předmět e-mailu"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -1175,7 +1182,7 @@ msgstr "HR"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__has_default_template
 msgid "Has Default Template"
-msgstr ""
+msgstr "Má výchozí šablonu"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__has_message
@@ -1302,7 +1309,7 @@ msgstr "Je sledující"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__is_mail_sent
 msgid "Is Mail Sent"
-msgstr ""
+msgstr "Byl e-mail odeslán"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template_share__is_one_responsible
@@ -1440,7 +1447,7 @@ msgstr "Odkaz na sdílení"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__activity_id
 msgid "Linked Activity"
-msgstr ""
+msgstr "Připojená aktivita"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__log_date
@@ -1479,12 +1486,18 @@ msgstr "Zeměpisná délka"
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_log__action__update_mail
 msgid "Mail Update"
-msgstr ""
+msgstr "Aktualizace e-mailu"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_main_attachment_id
 msgid "Main Attachment"
 msgstr "Hlavní příloha"
+
+#. module: sign
+#: code:addons/sign/models/sign_template.py:0
+#, python-format
+msgid "Malformed expression: %(exp)s"
+msgstr "Nesprávný výraz: %(exp)s"
 
 #. module: sign
 #. openerp-web
@@ -1511,7 +1524,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_send_request__message
 msgid "Message to be sent to signers of the specified document"
-msgstr ""
+msgstr "Zpráva, která má být odeslána podepisujícím osobám dokumentu"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_ids
@@ -1631,7 +1644,7 @@ msgstr "Potřebujete podepsat? Zabezpečený přístup získáte v doručené po
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_duplicate_template_pdf__new_template
 msgid "New Template Name"
-msgstr ""
+msgstr "Název nové šablony"
 
 #. module: sign
 #: code:addons/sign/controllers/portal.py:0
@@ -1990,7 +2003,7 @@ msgstr "Vyžádat informace o položce"
 #: model:mail.activity.type,name:sign.mail_activity_data_signature_request
 #, python-format
 msgid "Request Signature"
-msgstr ""
+msgstr "Požadavek na podpis"
 
 #. module: sign
 #: model_terms:ir.actions.act_window,help:sign.sign_request_action
@@ -2227,7 +2240,7 @@ msgstr "Odeslat kopii"
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "Send the invitation"
-msgstr ""
+msgstr "Pošlete pozvánku"
 
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_request__state__sent
@@ -2283,7 +2296,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.res_config_settings_view_form
 msgid "Show standard terms &amp; conditions on signature requests"
-msgstr ""
+msgstr "Zobrazte všeobecné podmínky k podpisovým požadavkům"
 
 #. module: sign
 #. openerp-web
@@ -2309,12 +2322,12 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_config_settings__use_sign_terms
 msgid "Sign Default Terms & Conditions"
-msgstr ""
+msgstr "Podepsat výchozí Podmínky"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_company__sign_terms
 msgid "Sign Default Terms and Conditions"
-msgstr ""
+msgstr "Podepsat výchozí Podmínky"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_company__sign_terms_html
@@ -2369,7 +2382,7 @@ msgstr "Podepište žádost o odeslání"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.res_config_settings_view_form
 msgid "Sign Settings"
-msgstr ""
+msgstr "Nastavení ePodpis"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_template_share
@@ -2384,18 +2397,18 @@ msgstr "Podepsat tag šablony"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_config_settings__sign_terms
 msgid "Sign Terms & Conditions"
-msgstr ""
+msgstr "Podepsat Podmínky"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_config_settings__sign_terms_html
 msgid "Sign Terms & Conditions as a Web page"
-msgstr ""
+msgstr "Podmínky podepisování na web stránce"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_company__sign_terms_type
 #: model:ir.model.fields,field_description:sign.field_res_config_settings__sign_terms_type
 msgid "Sign Terms & Conditions format"
-msgstr ""
+msgstr "Formát Podmínek podepisování"
 
 #. module: sign
 #. openerp-web
@@ -2565,6 +2578,8 @@ msgid ""
 "Signature requested for template: %s\n"
 "Signatories: %s"
 msgstr ""
+"Požadavek podpisu k šabloně: %s\n"
+"Podepisující: %s"
 
 #. module: sign
 #: code:addons/sign/models/res_partner.py:0
@@ -2602,7 +2617,7 @@ msgstr "Podepsané dokumenty"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_completed
 msgid "Signed document"
-msgstr ""
+msgstr "Podepsaný dokument"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__signing_date
@@ -2666,7 +2681,7 @@ msgstr "Někdo již vyplňuje dokument, který používá tuto šablonu"
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Sorry, an error occurred, please try to fill the document again."
-msgstr ""
+msgstr "Omlouváme se, nastala chyba, prosím zkuste vyplnit dokument znovu."
 
 #. module: sign
 #: model:sign.item.role,name:sign.sign_item_role_default
@@ -2740,6 +2755,8 @@ msgid ""
 "Technical name of the field on the partner model to auto-complete this "
 "signature field at the time of signature."
 msgstr ""
+"Technický název pole na modelu partnera pro automatické vyplnění tohoto "
+"podpisového pole během podepisování."
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__template_id
@@ -2758,7 +2775,7 @@ msgstr "Předloha"
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Template \"%s\""
-msgstr ""
+msgstr "Šablona \"%s\""
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__group_ids
@@ -2807,7 +2824,7 @@ msgstr "Podmínky jako webová strana"
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__res_company__sign_terms_type__plain
 msgid "Terms in Email"
-msgstr ""
+msgstr "Podmínky v e-mailu"
 
 #. module: sign
 #: model:ir.model.fields,help:sign.field_res_company__sign_terms_type
@@ -2818,6 +2835,10 @@ msgid ""
 "        Terms as Web Page - A link will be pasted at the bottom of every signature request email, leading to your content.\n"
 "        "
 msgstr ""
+"Podmínky v e-mailu  - Na konci e-mailu s požadavkem podpisu bude zobrazen text Podmínek. \n"
+"\n"
+"        Podmínky jako web stránka - Na konci e-mailu s požadavkem podpisu bude zobrazen odkaz, vedoucí na váš obsah.\n"
+"        "
 
 #. module: sign
 #. openerp-web
@@ -2910,7 +2931,7 @@ msgstr ""
 #: code:addons/sign/models/sign_request.py:0
 #, python-format
 msgid "The signature mail has been sent to: "
-msgstr ""
+msgstr "E-mail k podpisu byl odelán na:"
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -2921,7 +2942,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_request_item__is_mail_sent
 msgid "The signature mail has been sent."
-msgstr ""
+msgstr "E-mail k podpisu byl odelán"
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -2937,9 +2958,25 @@ msgid "The template doesn't exist anymore."
 msgstr "Šablona již neexistuje."
 
 #. module: sign
+#: code:addons/sign/wizard/sign_duplicate_template_with_pdf.py:0
+#, python-format
+msgid "The uploaded file is not a valid PDF. Please upload a valid PDF file."
+msgstr ""
+
+#. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "There are no signatures request."
 msgstr "Neexistují žádné žádosti o podpisy."
+
+#. module: sign
+#: code:addons/sign/models/sign_request.py:0
+#: code:addons/sign/models/sign_request.py:0
+#, python-format
+msgid ""
+"There was an issue downloading your document. Please contact an "
+"administrator."
+msgstr ""
+"Nastal problém při stahování vašeho dokumentu. Prosím kontaktujte správce."
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
@@ -3032,6 +3069,16 @@ msgid "Unable to send the SMS, please contact the sender of the document."
 msgstr "Nelze odeslat SMS, kontaktujte odesílatele dokumentu."
 
 #. module: sign
+#: code:addons/sign/controllers/main.py:0
+#, python-format
+msgid ""
+"Unable to sign the document due to missing required data. Please contact an "
+"administrator."
+msgstr ""
+"Nebylo možné podepsat dokument kvůli chybějícím požadovaným datům. Prosím "
+"kontaktujte administrátora."
+
+#. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_unread
 msgid "Unread Messages"
 msgstr "Nepřečtené zprávy"
@@ -3055,7 +3102,7 @@ msgstr "Nahrát PDF"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 msgid "Use Layout"
-msgstr ""
+msgstr "Použijte rozložení"
 
 #. module: sign
 #: model:ir.actions.act_window,name:sign.action_sign_duplicate_template_with_pdf
@@ -3151,12 +3198,12 @@ msgstr "Shlédnuto / staženo"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "Waiting for me"
-msgstr ""
+msgstr "Čeká na můj podpis"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "Waiting for others"
-msgstr ""
+msgstr "Čeká na ostatní"
 
 #. module: sign
 #. openerp-web
@@ -3345,12 +3392,12 @@ msgstr "vyplnit"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_completed
 msgid "has been completed and signed by"
-msgstr ""
+msgstr "byl dokončen a podepsán"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_completed
 msgid "has been edited, completed and signed by"
-msgstr ""
+msgstr "byl upraven, dokončen a podepsán"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -3374,7 +3421,7 @@ msgstr "další"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_tree
 msgid "sign"
-msgstr ""
+msgstr "podpis"
 
 #. module: sign
 #: model:sign.item.type,tip:sign.sign_item_type_signature
@@ -3384,7 +3431,7 @@ msgstr "podepište"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message
 msgid "sign.message"
-msgstr ""
+msgstr "podpisová zpráva"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_cc
@@ -3403,7 +3450,7 @@ msgstr "začněte s naší ukázkovou šablonou"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "tags"
-msgstr ""
+msgstr "značky"
 
 #. module: sign
 #. openerp-web

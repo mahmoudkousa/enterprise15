@@ -27,18 +27,18 @@ msgstr ""
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
 msgid "% of Operations"
-msgstr ""
+msgstr "작업의 %"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
 msgid "% of Transfers"
-msgstr ""
+msgstr "전송의 %"
 
 #. module: quality_control
 #: model:ir.actions.report,print_report_name:quality_control.quality_check_report
 #: model:ir.actions.report,print_report_name:quality_control.quality_check_report_internal
 msgid "'Worksheet_%s' % object.name"
-msgstr ""
+msgstr "'Worksheet_%s' % object.name"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_team_dashboard_view_kanban
@@ -199,7 +199,7 @@ msgstr "추가 노트"
 #. module: quality_control
 #: model:ir.model.fields,help:quality_control.field_quality_check_wizard__additional_note
 msgid "Additional remarks concerning this check."
-msgstr ""
+msgstr "이 점검에 대한 추가 설명."
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_stock_picking__quality_alert_ids
@@ -215,7 +215,7 @@ msgstr "전체"
 #. module: quality_control
 #: model:ir.model.fields.selection,name:quality_control.selection__stock_move_line__check_state__pass
 msgid "All checks passed"
-msgstr ""
+msgstr "모든 검사 합격"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_search
@@ -240,7 +240,7 @@ msgstr "확인"
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_stock_move_line__check_state
 msgid "Check State"
-msgstr ""
+msgstr "검사 상태"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_tree
@@ -302,7 +302,7 @@ msgstr "관리점"
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__measure_on
 #: model:ir.model.fields,field_description:quality_control.field_quality_point__measure_on
 msgid "Control per"
-msgstr ""
+msgstr "관리 단위"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_wizard_form_failure
@@ -317,7 +317,7 @@ msgstr "시정 조치"
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_form
 msgid "Create Alert"
-msgstr ""
+msgstr "알람 만들기"
 
 #. module: quality_control
 #: model_terms:ir.actions.act_window,help:quality_control.quality_alert_action_check
@@ -342,7 +342,7 @@ msgstr "작성일자"
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__current_check_id
 msgid "Current Check"
-msgstr ""
+msgstr "현재 점검"
 
 #. module: quality_control
 #: model:ir.model.fields.selection,name:quality_control.selection__quality_point__measure_frequency_unit__day
@@ -362,6 +362,8 @@ msgid ""
 "Define Quality Control Points in order to automatically generate\n"
 "              quality checks at the right logistic operation: transfers, manufacturing orders."
 msgstr ""
+"품질 관리 지점을 정의하면 배송, 제조 주문 등 적절한 물류 작업에서\n"
+"              품질 검사를 자동으로 생성할 수 있습니다."
 
 #. module: quality_control
 #: model:ir.model.fields,help:quality_control.field_quality_check__measure_on
@@ -377,7 +379,7 @@ msgstr ""
 #: model:ir.model.fields,help:quality_control.field_quality_check_wizard__testing_percentage_within_lot
 #: model:ir.model.fields,help:quality_control.field_quality_point__testing_percentage_within_lot
 msgid "Defines the percentage within a lot that should be tested"
-msgstr ""
+msgstr "검사를 시행할 LOT 내 백분율을 정의합니다"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_form
@@ -404,7 +406,7 @@ msgstr "문제 설명 ..."
 #: model:ir.model.fields,help:quality_control.field_quality_check_wizard__is_lot_tested_fractionally
 #: model:ir.model.fields,help:quality_control.field_quality_point__is_lot_tested_fractionally
 msgid "Determines if only a fraction of the lot should be tested"
-msgstr ""
+msgstr "LOT의 일부만 검사를 시행할지의 여부를 결정합니다"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__display_name
@@ -487,7 +489,7 @@ msgstr "지침"
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__is_last_check
 msgid "Is Last Check"
-msgstr ""
+msgstr "마지막 검사"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard____last_update
@@ -508,19 +510,19 @@ msgstr "최근 갱신 일자"
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__lot_line_id
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__lot_line_id
 msgid "Lot Line"
-msgstr ""
+msgstr "Lot 내역"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__is_lot_tested_fractionally
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__is_lot_tested_fractionally
 #: model:ir.model.fields,field_description:quality_control.field_quality_point__is_lot_tested_fractionally
 msgid "Lot Tested Fractionally"
-msgstr ""
+msgstr "Lot 부분적으로 점검"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.view_quality_check_wizard
 msgid "Lot/SN"
-msgstr ""
+msgstr "Lot/SN"
 
 #. module: quality_control
 #: model:ir.model,name:quality_control.model_stock_production_lot
@@ -585,7 +587,7 @@ msgstr "월"
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__nb_checks
 msgid "Nb Checks"
-msgstr ""
+msgstr "Nb 검사"
 
 #. module: quality_control
 #: code:addons/quality_control/models/quality.py:0
@@ -601,7 +603,7 @@ msgstr "다음"
 #. module: quality_control
 #: model:ir.model.fields.selection,name:quality_control.selection__stock_move_line__check_state__no_checks
 msgid "No checks"
-msgstr ""
+msgstr "검사 없음"
 
 #. module: quality_control
 #: model_terms:ir.actions.act_window,help:quality_control.quality_check_action_spc
@@ -622,17 +624,17 @@ msgstr "품질 경고 없음"
 #: model_terms:ir.actions.act_window,help:quality_control.quality_check_action_main
 #: model_terms:ir.actions.act_window,help:quality_control.quality_check_action_team
 msgid "No quality check found"
-msgstr ""
+msgstr "품질 검사를 찾을 수 없습니다"
 
 #. module: quality_control
 #: model_terms:ir.actions.act_window,help:quality_control.quality_check_action_report
 msgid "No quality checks"
-msgstr ""
+msgstr "품질 검사 없음"
 
 #. module: quality_control
 #: model_terms:ir.actions.act_window,help:quality_control.quality_point_action
 msgid "No quality control point found"
-msgstr ""
+msgstr "품질 관리 지점을 찾을 수 없습니다"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_point__norm
@@ -675,7 +677,7 @@ msgstr "입출고 현황"
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
 msgid "Partial Transfer Test"
-msgstr ""
+msgstr "부분 이전 검사"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_form
@@ -724,7 +726,7 @@ msgstr "사진 불러옴"
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__position_current_check
 msgid "Position Current Check"
-msgstr ""
+msgstr "현재 점검 위치"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_form
@@ -851,17 +853,17 @@ msgstr "품질 검사 실패함"
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
 msgid "Quality Check Picture"
-msgstr ""
+msgstr "품질 검사 사진"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_stock_production_lot__quality_check_qty
 msgid "Quality Check Qty"
-msgstr ""
+msgstr "품질 검사 수량"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
 msgid "Quality Check:"
-msgstr ""
+msgstr "품질 검사:"
 
 #. module: quality_control
 #: code:addons/quality_control/models/quality.py:0
@@ -951,12 +953,12 @@ msgstr "품질 팀은 필요한 역할(팀)에 따라 서로 다른 품질 경�
 #. module: quality_control
 #: model:ir.model,name:quality_control.model_report_quality_control_quality_worksheet_internal
 msgid "Quality Worksheet Internal Report"
-msgstr ""
+msgstr "품질 작업 계획표 내부 보고서"
 
 #. module: quality_control
 #: model:ir.model,name:quality_control.model_report_quality_control_quality_worksheet
 msgid "Quality Worksheet Report"
-msgstr ""
+msgstr "품질 작업 계획표 보고서"
 
 #. module: quality_control
 #: model_terms:ir.actions.act_window,help:quality_control.quality_point_action
@@ -964,6 +966,8 @@ msgid ""
 "Quality control points define the quality checks which should be\n"
 "              performed at each operation, for your different products."
 msgstr ""
+"품질 관리 포인트는 다양한 품목에 대해 각 작업에서 수행해야 하는\n"
+"              품질  검사를 정의합니다."
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__qty_line
@@ -975,25 +979,25 @@ msgstr "수량"
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__qty_tested
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__qty_tested
 msgid "Quantity Tested"
-msgstr ""
+msgstr "검사된 수량"
 
 #. module: quality_control
 #: model:ir.model.fields,help:quality_control.field_quality_check__qty_tested
 #: model:ir.model.fields,help:quality_control.field_quality_check_wizard__qty_tested
 msgid "Quantity of product tested within the lot"
-msgstr ""
+msgstr "lot 내에서 검사한 품목의 수량"
 
 #. module: quality_control
 #: model:ir.model.fields,help:quality_control.field_quality_check__qty_to_test
 #: model:ir.model.fields,help:quality_control.field_quality_check_wizard__qty_to_test
 msgid "Quantity of product to test within the lot"
-msgstr ""
+msgstr "lot 내에서 검사할 품목의 수량"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__qty_to_test
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__qty_to_test
 msgid "Quantity to Test"
-msgstr ""
+msgstr "검사할 수량"
 
 #. module: quality_control
 #: model:ir.model.fields.selection,name:quality_control.selection__quality_point__measure_frequency_type__random
@@ -1019,17 +1023,17 @@ msgstr "담당자"
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__show_lot_text
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__show_lot_text
 msgid "Show Lot Text"
-msgstr ""
+msgstr "LOT 텍스트 표시"
 
 #. module: quality_control
 #: model:ir.model.fields.selection,name:quality_control.selection__stock_move_line__check_state__fail
 msgid "Some checks failed"
-msgstr ""
+msgstr "일부 검사 실패"
 
 #. module: quality_control
 #: model:ir.model.fields.selection,name:quality_control.selection__stock_move_line__check_state__in_progress
 msgid "Some checks to be done"
-msgstr ""
+msgstr "수행해야 할 몇 가지 검사"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_stage_view_tree
@@ -1092,14 +1096,14 @@ msgstr "테스트 유형"
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_tree
 msgid "Testing % Within Lot"
-msgstr ""
+msgstr "Lot 내 검사 %"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__testing_percentage_within_lot
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__testing_percentage_within_lot
 #: model:ir.model.fields,field_description:quality_control.field_quality_point__testing_percentage_within_lot
 msgid "Testing Percentage Within Lot"
-msgstr ""
+msgstr "Lot 내 검사 비율"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_alert__title
@@ -1154,17 +1158,17 @@ msgstr "주"
 #. module: quality_control
 #: model:ir.model,name:quality_control.model_quality_check_wizard
 msgid "Wizard for Quality Check Pop Up"
-msgstr ""
+msgstr "품질 검사 마법사 팝업"
 
 #. module: quality_control
 #: model:ir.actions.report,name:quality_control.quality_check_report
 msgid "Worksheet Report - External (PDF)"
-msgstr ""
+msgstr "작업 계획표 보고서- 외부 (PDF)"
 
 #. module: quality_control
 #: model:ir.actions.report,name:quality_control.quality_check_report_internal
 msgid "Worksheet Report - Internal (PDF)"
-msgstr ""
+msgstr "작업 계획표 보고서- 내부 (PDF)"
 
 #. module: quality_control
 #: code:addons/quality_control/models/quality.py:0
@@ -1181,4 +1185,4 @@ msgstr "품질 검사를 해야 합니다!"
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_team_view_form
 msgid "e.g. The QA Masters"
-msgstr ""
+msgstr "예. QA 마스터"

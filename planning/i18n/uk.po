@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2021
-# Alina Lisnenko <alinasemeniuk1@gmail.com>, 2022
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 08:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:41+0000\n"
-"Last-Translator: Alina Lisnenko <alinasemeniuk1@gmail.com>, 2022\n"
-"Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
+"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/odoo/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1613,6 +1613,12 @@ msgid "The schedule was successfully sent to your employees."
 msgstr "Розклад успішно надіслано вашим співробітникам."
 
 #. module: planning
+#: code:addons/planning/models/planning_template.py:0
+#, python-format
+msgid "The selected duration creates a date too far into the future."
+msgstr "Вибрана тривалість створює дату занадто далеко в майбутньому."
+
+#. module: planning
 #: code:addons/planning/models/planning.py:0
 #, python-format
 msgid "The shift has successfully been sent."
@@ -1642,6 +1648,12 @@ msgstr "Зміни успішно опубліковано і надіслано
 #, python-format
 msgid "The shifts have successfully been published."
 msgstr "Зміни успішно опубліковано."
+
+#. module: planning
+#: code:addons/planning/models/planning_template.py:0
+#, python-format
+msgid "The start hour must be greater or equal to 0 and lower than 24."
+msgstr "Час початку має бути більге або дорівнювати 0 та менше ніж 24."
 
 #. module: planning
 #. openerp-web
@@ -1811,6 +1823,12 @@ msgstr "У вас не може бути негативної тривалост
 #: model:ir.model.constraint,message:planning.constraint_planning_slot_template_check_start_time_lower_than_24
 msgid "You cannot have a start hour greater than 24"
 msgstr "Ви не можете мати годину початку більшою, ніж 24"
+
+#. module: planning
+#: code:addons/planning/models/planning_template.py:0
+#, python-format
+msgid "You cannot have a start hour greater than 24."
+msgstr ""
 
 #. module: planning
 #: model:ir.model.constraint,message:planning.constraint_planning_slot_check_allocated_hours_positive

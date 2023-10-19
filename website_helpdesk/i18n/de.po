@@ -3,8 +3,9 @@
 # 	* website_helpdesk
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2021
+# Martin Trigaux, 2023
+# Larissa Manderfeld, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:56+0000\n"
 "PO-Revision-Date: 2021-09-14 12:44+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Larissa Manderfeld, 2023\n"
+"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -45,13 +46,13 @@ msgstr "Kundendienst"
 #: code:addons/website_helpdesk/models/website.py:0
 #, python-format
 msgid "Helpdesk Customer Satisfaction"
-msgstr "Helpdesk Kundenzufriedenheit"
+msgstr "Kundenzufriedenheit für Kundendienst"
 
 #. module: website_helpdesk
 #: model:ir.model,name:website_helpdesk.model_helpdesk_team
 #: model_terms:ir.ui.view,arch_db:website_helpdesk.team
 msgid "Helpdesk Team"
-msgstr "Helpdesk-Team"
+msgstr "Kundendienstteam"
 
 #. module: website_helpdesk
 #: model:ir.model.fields,field_description:website_helpdesk.field_helpdesk_team__is_published
@@ -67,12 +68,12 @@ msgstr "Bewertungen unseres Teams"
 #: model:ir.model.fields,help:website_helpdesk.field_helpdesk_team__website_url
 msgid "The full URL to access the document through the website."
 msgstr ""
-"Die vollständige URL mit der das Dokument überall aufgerufen werden kann."
+"Die vollständige URL, um über die Website auf das Dokument zuzugreifen."
 
 #. module: website_helpdesk
 #: model_terms:ir.ui.view,arch_db:website_helpdesk.not_published_any_team
 msgid "There is no public Helpdesk team to show."
-msgstr "Es gibt kein öffentliches Helpdesk-Team zu sehen."
+msgstr "Es gibt kein öffentliches Kundendienstteam zu sehen."
 
 #. module: website_helpdesk
 #: model_terms:ir.ui.view,arch_db:website_helpdesk.team

@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-28 07:19+0000\n"
+"POT-Creation-Date: 2023-07-20 12:29+0000\n"
 "PO-Revision-Date: 2021-09-14 12:39+0000\n"
 "Last-Translator: Lasse L, 2023\n"
 "Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
@@ -36,7 +36,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/wizard/save_spreadsheet_template.py:0
 #, python-format
 msgid "\"%s\" saved as template"
-msgstr ""
+msgstr "\"%s\" sparad som mall"
 
 #. module: documents_spreadsheet
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.share_page
@@ -105,13 +105,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.res_config_settings_view_form_inherit_documents_spreadsheet
 msgid ""
 "<strong>Spreadsheets</strong>\n"
-"                            <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+"                            <span class=\"fa fa-lg fa-building-o ml-1\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
 msgstr ""
 
 #. module: documents_spreadsheet
 #: model:ir.model.constraint,message:documents_spreadsheet.constraint_spreadsheet_contributor_spreadsheet_user_unique
 msgid "A combination of the spreadsheet and the user already exist"
-msgstr ""
+msgstr "En kombination av kalkylbladet och användaren finns redan"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -219,6 +219,13 @@ msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/actions/control_panel/collaborative_cross_tab_bus_warning.js:0
+#, python-format
+msgid "An issue occurred while auto-saving"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Angle from the X axis to a point (x,y), in radians."
@@ -250,6 +257,8 @@ msgstr "Anonym"
 msgid ""
 "Any user will be able to create a new spreadsheet based on this template."
 msgstr ""
+"Alla användare kommer att kunna skapa ett nytt kalkylblad baserat på denna "
+"mall."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -447,7 +456,7 @@ msgstr "Centrera"
 #. module: documents_spreadsheet
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.res_config_settings_view_form_inherit_documents_spreadsheet
 msgid "Centralize your spreadsheets"
-msgstr ""
+msgstr "Centralisera dina kalkylblad"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -775,7 +784,7 @@ msgstr "Skapa"
 #: code:addons/documents_spreadsheet/static/src/xml/documents_views.xml:0
 #, python-format
 msgid "Create Spreadsheet"
-msgstr ""
+msgstr "Skapa kalkylblad"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1050,7 +1059,7 @@ msgstr "Dokument"
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_res_company__documents_spreadsheet_folder_id
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_res_config_settings__documents_spreadsheet_folder_id
 msgid "Documents Spreadsheet Folder"
-msgstr ""
+msgstr "Mapp för dokumentkalkylblad"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1130,7 +1139,7 @@ msgstr ""
 #. module: documents_spreadsheet
 #: model_terms:documents.folder,description:documents_spreadsheet.documents_spreadsheet_folder
 msgid "Enjoy collaborative work on your spreadsheets."
-msgstr ""
+msgstr "Njut av samarbete på dina kalkylblad."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1501,7 +1510,7 @@ msgstr ""
 #. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_documents_document__handler
 msgid "Handler"
-msgstr ""
+msgstr "Handläggare"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1661,7 +1670,7 @@ msgstr ""
 #. module: documents_spreadsheet
 #: model_terms:documents.folder,description:documents_spreadsheet.documents_spreadsheet_folder
 msgid "If you want to work together on those spreadsheets :"
-msgstr ""
+msgstr "Om du vill arbeta tillsammans med dessa kalkylblad :"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -1879,13 +1888,6 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Invalid lower inflection point formula"
-msgstr ""
-
-#. module: documents_spreadsheet
-#. openerp-web
-#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
-#, python-format
-msgid "Invalid merge zone"
 msgstr ""
 
 #. module: documents_spreadsheet
@@ -2156,7 +2158,7 @@ msgstr ""
 #. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_contributor__last_update_date
 msgid "Last update date"
-msgstr ""
+msgstr "Datum för senaste uppdatering"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2314,7 +2316,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.spreadsheet_template_view_tree
 #, python-format
 msgid "Make a copy"
-msgstr ""
+msgstr "Gör en kopia"
 
 #. module: documents_spreadsheet
 #: model_terms:documents.folder,description:documents_spreadsheet.documents_spreadsheet_folder
@@ -2322,6 +2324,8 @@ msgid ""
 "Manage and work with all the <strong>spreadsheets</strong> created in other "
 "applications."
 msgstr ""
+"Hantera och arbeta med alla <strong>kalkylblad</strong> som skapats i andra "
+"applikationer."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2505,6 +2509,27 @@ msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/plugins/ui/list_autofill_plugin.js:0
+#, python-format
+msgid "Missing list #%s"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/plugins/ui/pivot_autofill_plugin.js:0
+#, python-format
+msgid "Missing pivot"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
+#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/plugins/ui/pivot_autofill_plugin.js:0
+#, python-format
+msgid "Missing pivot #%s"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/side_panels/list/listing_details_side_panel.xml:0
 #: code:addons/documents_spreadsheet/static/src/side_panels/pivot/pivot_details_side_panel.xml:0
 #, python-format
@@ -2581,7 +2606,7 @@ msgstr "Flytta dem till ett annat arbetsområde"
 #. module: documents_spreadsheet
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.spreadsheet_template_view_search
 msgid "My Templates"
-msgstr ""
+msgstr "Mina mallar"
 
 #. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_spreadsheet_template__name
@@ -2630,7 +2655,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/spreadsheet_selector_dialog.xml:0
 #, python-format
 msgid "New Spreadsheet"
-msgstr ""
+msgstr "Nytt kalkylblad"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2653,12 +2678,12 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/components/spreadsheet_template_dialog.js:0
 #, python-format
 msgid "New sheet saved in Documents"
-msgstr ""
+msgstr "Nytt ark sparat i Dokument"
 
 #. module: documents_spreadsheet
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.spreadsheet_template_view_tree
 msgid "New spreadsheet"
-msgstr ""
+msgstr "Nytt kalkylblad"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2668,14 +2693,14 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/js/pivot_view.js:0
 #, python-format
 msgid "New spreadsheet created in Documents"
-msgstr ""
+msgstr "Nytt kalkylblad skapat i Documents"
 
 #. module: documents_spreadsheet
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/actions/spreadsheet_template/spreadsheet_template_action.js:0
 #, python-format
 msgid "New spreadsheet template created"
-msgstr ""
+msgstr "Ny mall för kalkylblad skapad"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -2944,6 +2969,13 @@ msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/actions/control_panel/collaborative_cross_tab_bus_warning.js:0
+#, python-format
+msgid "Please, close all other Odoo tabs and reload the current page."
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "Position of item in range that matches value."
@@ -3090,6 +3122,13 @@ msgstr ""
 
 #. module: documents_spreadsheet
 #. openerp-web
+#: code:addons/documents_spreadsheet/static/src/actions/control_panel/collaborative_cross_tab_bus_warning.js:0
+#, python-format
+msgid "Reload"
+msgstr ""
+
+#. module: documents_spreadsheet
+#. openerp-web
 #: code:addons/documents_spreadsheet/static/src/xml/spreadsheet.xml:0
 #, python-format
 msgid "Remove"
@@ -3221,7 +3260,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:documents_spreadsheet.spreadsheet_revision_action
 #: model:ir.ui.menu,name:documents_spreadsheet.menu_technical_spreadsheet_revision
 msgid "Revisions"
-msgstr ""
+msgstr "Revisioner"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3538,38 +3577,38 @@ msgstr "Kalkylblad"
 #. module: documents_spreadsheet
 #: model:ir.model,name:documents_spreadsheet.model_spreadsheet_contributor
 msgid "Spreadsheet Contributor"
-msgstr ""
+msgstr "Bidragsgivare till kalkylblad"
 
 #. module: documents_spreadsheet
 #: model_terms:ir.ui.view,arch_db:documents_spreadsheet.spreadsheet_document_view_kanban
 msgid "Spreadsheet Preview"
-msgstr ""
+msgstr "Förhandsgranskning av kalkylblad"
 
 #. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_documents_document__spreadsheet_revision_ids
 msgid "Spreadsheet Revision"
-msgstr ""
+msgstr "Revidering av kalkylblad"
 
 #. module: documents_spreadsheet
 #: model:ir.model.fields,field_description:documents_spreadsheet.field_documents_document__spreadsheet_snapshot
 msgid "Spreadsheet Snapshot"
-msgstr ""
+msgstr "Snapshot av kalkylblad"
 
 #. module: documents_spreadsheet
 #: model:ir.model,name:documents_spreadsheet.model_spreadsheet_template
 msgid "Spreadsheet Template"
-msgstr ""
+msgstr "Mall för kalkylblad"
 
 #. module: documents_spreadsheet
 #: model:ir.model,name:documents_spreadsheet.model_save_spreadsheet_template
 msgid "Spreadsheet Template Save Wizard"
-msgstr ""
+msgstr "Guide för att spara mall för kalkylblad"
 
 #. module: documents_spreadsheet
 #: model:ir.actions.act_window,name:documents_spreadsheet.spreadsheet_template_action
 #: model:ir.ui.menu,name:documents_spreadsheet.menu_technical_spreadsheet_template
 msgid "Spreadsheet Templates"
-msgstr ""
+msgstr "Mallar för kalkylblad"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -3579,6 +3618,8 @@ msgid ""
 "Spreadsheets mass download not yet supported.\n"
 " Download spreadsheets individually instead."
 msgstr ""
+"Massnedladdning av kalkylblad stöds ännu inte.\n"
+" Ladda istället ner kalkylblad individuellt."
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4347,7 +4388,6 @@ msgstr ""
 #. openerp-web
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
-#: code:addons/documents_spreadsheet/static/src/js/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "This formula depends on invalid values"
 msgstr ""
@@ -4410,7 +4450,7 @@ msgstr "Titel"
 #: code:addons/documents_spreadsheet/static/src/actions/control_panel/spreadsheet_control_panel.xml:0
 #, python-format
 msgid "Toggle favorite"
-msgstr ""
+msgstr "Växla favorit"
 
 #. module: documents_spreadsheet
 #. openerp-web
@@ -4520,7 +4560,7 @@ msgstr ""
 #: code:addons/documents_spreadsheet/static/src/actions/spreadsheet_template/spreadsheet_template_service.js:0
 #, python-format
 msgid "Untitled spreadsheet template"
-msgstr ""
+msgstr "Kalkylbladsmall utan titel"
 
 #. module: documents_spreadsheet
 #. openerp-web

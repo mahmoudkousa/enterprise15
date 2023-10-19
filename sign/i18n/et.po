@@ -17,8 +17,8 @@
 # Triine Aavik <triine@avalah.ee>, 2022
 # Rivo Zängov <eraser@eraser.ee>, 2022
 # Anna, 2023
-# Jana Jaakson, 2023
 # Leaanika Randmets, 2023
+# JanaAvalah, 2023
 # 
 msgid ""
 msgstr ""
@@ -26,8 +26,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:42+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Leaanika Randmets, 2023\n"
-"Language-Team: Estonian (https://www.transifex.com/odoo/teams/41243/et/)\n"
+"Last-Translator: JanaAvalah, 2023\n"
+"Language-Team: Estonian (https://app.transifex.com/odoo/teams/41243/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1491,6 +1491,12 @@ msgid "Main Attachment"
 msgstr "Peamine manus"
 
 #. module: sign
+#: code:addons/sign/models/sign_template.py:0
+#, python-format
+msgid "Malformed expression: %(exp)s"
+msgstr "Vigane avaldis: %(exp)s"
+
+#. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
@@ -2944,6 +2950,15 @@ msgstr "Malli pole enam olemas."
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "There are no signatures request."
 msgstr "Allkirjataotlused puuduvad"
+
+#. module: sign
+#: code:addons/sign/models/sign_request.py:0
+#: code:addons/sign/models/sign_request.py:0
+#, python-format
+msgid ""
+"There was an issue downloading your document. Please contact an "
+"administrator."
+msgstr ""
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0

@@ -511,12 +511,6 @@ msgid "Assign the ticket to a <b>member of your team</b>."
 msgstr "<b>チームのメンバー</b>にチケットを割り当てます。"
 
 #. module: helpdesk
-#: code:addons/helpdesk/models/helpdesk_ticket.py:0
-#, python-format
-msgid "Assign to me"
-msgstr "自分に割当"
-
-#. module: helpdesk
 #: code:addons/helpdesk/controllers/portal.py:0
 #, python-format
 msgid "Assigned"
@@ -3166,7 +3160,7 @@ msgstr "終了済チケット"
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_sla__ticket_count
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_stage__ticket_count
 msgid "Ticket Count"
-msgstr ""
+msgstr "チケット数"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_sla_report_analysis__create_date

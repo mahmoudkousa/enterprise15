@@ -43,12 +43,28 @@ msgid "<i class=\"fa fa-heart\" title=\"Likes\"/>"
 msgstr ""
 
 #. module: social_twitter
+#: code:addons/social_twitter/controllers/main.py:0
+#, python-format
+msgid "Authentication failed. Please enter valid credentials."
+msgstr "Tunnistautuminen epäonnistui. Syötä kelvolliset tunnukset."
+
+#. module: social_twitter
 #. openerp-web
 #: code:addons/social_twitter/static/src/xml/social_twitter_templates.xml:0
 #: model_terms:ir.ui.view,arch_db:social_twitter.social_stream_post_view_kanban
 #, python-format
 msgid "Author Image"
 msgstr "Tekijän kuva"
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid ""
+"Can not like / unlike the tweet\n"
+"%s."
+msgstr ""
+"Ei voi tykätä / olla tykkäämättä twiitistä\n"
+"%s."
 
 #. module: social_twitter
 #: model:ir.model.fields,help:social_twitter.field_res_config_settings__twitter_use_own_account
@@ -99,6 +115,35 @@ msgstr "Näyttönimi"
 #: model:ir.model.fields,field_description:social_twitter.field_social_post_template__display_twitter_preview
 msgid "Display Twitter Preview"
 msgstr "Näytä Twitter-esikatselu"
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid ""
+"Failed to delete the Tweet\n"
+"%s."
+msgstr ""
+"Twiitin poistaminen epäonnistui\n"
+"%s."
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid "Failed to fetch the conversation id: '%s' using the account %i."
+msgstr ""
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid ""
+"Failed to fetch the tweets in the same thread: '%s' using the account %i."
+msgstr ""
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid "Failed to post comment: %s with the account %i."
+msgstr ""
 
 #. module: social_twitter
 #: model:social.stream.type,name:social_twitter.stream_type_twitter_likes
@@ -267,6 +312,12 @@ msgstr ""
 " tekijään."
 
 #. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid "This tweet is older than 7 days and so we can not get the replies."
+msgstr ""
+
+#. module: social_twitter
 #: model:social.stream.type,name:social_twitter.stream_type_twitter_follow
 msgid "Tweets of"
 msgstr "Tweetit"
@@ -416,6 +467,16 @@ msgid ""
 msgstr ""
 "Käytetään vertailujen tekemiseen, kun joitakin ominaisuuksia on rajoitettava"
 " tiettyyn mediaan ('facebook', 'twitter', ...)."
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_account.py:0
+#, python-format
+msgid ""
+"We could not upload your image, it may be corrupted, it may exceed size "
+"limit or API may have send improper response (error: %s)."
+msgstr ""
+"Emme pystyneet lataamaan kuvaa, se voi olla vioittunut, se voi ylittää "
+"kokorajan tai API on saattanut lähettää virheellisen vastauksen (virhe: %s)."
 
 #. module: social_twitter
 #: code:addons/social_twitter/models/social_account.py:0

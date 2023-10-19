@@ -39,22 +39,22 @@ msgstr "Nombre en pantalla"
 #. module: timer
 #: model:ir.model.fields,field_description:timer.field_timer_mixin__display_timer_pause
 msgid "Display Timer Pause"
-msgstr "Pausar temporizador en pantalla"
+msgstr "Mostrar botón para pausar temporizador"
 
 #. module: timer
 #: model:ir.model.fields,field_description:timer.field_timer_mixin__display_timer_resume
 msgid "Display Timer Resume"
-msgstr "Resumir temporizador en pantalla"
+msgstr "Mostrar botón para resumir temporizador"
 
 #. module: timer
 #: model:ir.model.fields,field_description:timer.field_timer_mixin__display_timer_start_primary
 msgid "Display Timer Start Primary"
-msgstr "Iniciar temporizador en pantalla"
+msgstr "Mostrar botón de inicio del temporizador "
 
 #. module: timer
 #: model:ir.model.fields,field_description:timer.field_timer_mixin__display_timer_stop
 msgid "Display Timer Stop"
-msgstr "Detener temporizador en pantalla"
+msgstr "Mostrar botón para detener temporizador "
 
 #. module: timer
 #: model:ir.model.fields,field_description:timer.field_timer_timer__id
@@ -117,7 +117,7 @@ msgstr "Iniciar"
 #: code:addons/timer/static/src/js/timer_toggle_button.js:0
 #, python-format
 msgid "Stop"
-msgstr "Parar"
+msgstr "Detener"
 
 #. module: timer
 #: model:ir.model.fields,field_description:timer.field_timer_mixin__timer_pause

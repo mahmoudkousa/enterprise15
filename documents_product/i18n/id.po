@@ -43,6 +43,8 @@ msgid ""
 "A set of condition and actions which will be available to all attachments "
 "matching the conditions"
 msgstr ""
+"Rangkaian ketentuan dan tindakan yang akan tersedia untuk semua lampiran "
+"yang cocok dengan ketentuan"
 
 #. module: documents_product
 #: model_terms:ir.ui.view,arch_db:documents_product.res_config_settings_view_form
@@ -72,7 +74,7 @@ msgstr ""
 #. module: documents_product
 #: model_terms:ir.ui.view,arch_db:documents_product.res_config_settings_view_form
 msgid "Default Tags"
-msgstr ""
+msgstr "Tag Default"
 
 #. module: documents_product
 #: model:documents.facet,name:documents_product.documents_product_documents_facet
@@ -139,7 +141,7 @@ msgstr ""
 #. module: documents_product
 #: model_terms:ir.ui.view,arch_db:documents_product.res_config_settings_view_form
 msgid "Workspace"
-msgstr ""
+msgstr "Ruang Kerja"
 
 #. module: documents_product
 #: model:ir.model.fields,field_description:documents_product.field_res_config_settings__product_folder

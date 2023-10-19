@@ -10,8 +10,9 @@
 # Seongseok Shin <shinss61@hotmail.com>, 2021
 # Martin Trigaux, 2021
 # Heesoo Choi, 2021
-# Sarah Park, 2023
+# Wil Odoo, 2023
 # Daye Jeong, 2023
+# Sarah Park, 2023
 # 
 msgid ""
 msgstr ""
@@ -19,7 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:42+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Daye Jeong, 2023\n"
+"Last-Translator: Sarah Park, 2023\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1479,6 +1480,12 @@ msgid "Main Attachment"
 msgstr "주요 첨부 파일"
 
 #. module: sign
+#: code:addons/sign/models/sign_template.py:0
+#, python-format
+msgid "Malformed expression: %(exp)s"
+msgstr "잘못된 표현식: %(exp)s"
+
+#. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
@@ -2932,9 +2939,24 @@ msgid "The template doesn't exist anymore."
 msgstr "해당 서식이 더 이상 존재하지 않습니다."
 
 #. module: sign
+#: code:addons/sign/wizard/sign_duplicate_template_with_pdf.py:0
+#, python-format
+msgid "The uploaded file is not a valid PDF. Please upload a valid PDF file."
+msgstr ""
+
+#. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "There are no signatures request."
 msgstr "서명 요청이 없습니다."
+
+#. module: sign
+#: code:addons/sign/models/sign_request.py:0
+#: code:addons/sign/models/sign_request.py:0
+#, python-format
+msgid ""
+"There was an issue downloading your document. Please contact an "
+"administrator."
+msgstr "문서를 다운로드하는 동안 문제가 발생했습니다. 관리자에게 문의해 주세요."
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
@@ -3023,6 +3045,14 @@ msgstr "UTC"
 #, python-format
 msgid "Unable to send the SMS, please contact the sender of the document."
 msgstr "SMS를 보낼 수 없는 경우 문서 발신자에게 문의하십시오."
+
+#. module: sign
+#: code:addons/sign/controllers/main.py:0
+#, python-format
+msgid ""
+"Unable to sign the document due to missing required data. Please contact an "
+"administrator."
+msgstr "필수 정보가 누락되어 문서 서명을 할 수 없습니다. 관리자에게 문의하세요."
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_unread

@@ -15,12 +15,13 @@
 # Pekko Tuomisto <pekko.tuomisto@web-veistamo.fi>, 2021
 # Tuomas Lyyra <tuomas.lyyra@legenda.fi>, 2021
 # Sari Mäyrä <sari.mayra@sv-oy.fi>, 2021
-# Johanna Valkonen <johanna@vividi.fi>, 2021
+# Johanna Valkonen <miujohanna@gmail.com>, 2021
 # Jenni Heikkilä <jenni.heikkila@sv-oy.fi>, 2021
 # Simo Suurla <simo@suurla.fi>, 2021
 # Mikko Virtanen <mikko.virtanen2013@gmail.com>, 2021
 # Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2021
 # Antti Oksman <antti.oksman@web-veistamo.fi>, 2021
+# Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023
 # 
 msgid ""
 msgstr ""
@@ -28,8 +29,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Antti Oksman <antti.oksman@web-veistamo.fi>, 2021\n"
-"Language-Team: Finnish (https://www.transifex.com/odoo/teams/41243/fi/)\n"
+"Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023\n"
+"Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -43,6 +44,7 @@ msgid ""
 "\"End Date\" of the budget line should be included in the Period of the "
 "budget"
 msgstr ""
+"Talousarvion rivin loppupäivän (end date) tulee kuulua talousarvion kauteen"
 
 #. module: account_budget
 #: code:addons/account_budget/models/account_budget.py:0
@@ -51,16 +53,17 @@ msgid ""
 "\"Start Date\" of the budget line should be included in the Period of the "
 "budget"
 msgstr ""
+"Talousarvion rivin alkupäivän (start date) tulee kuulua talousarvion kauteen"
 
 #. module: account_budget
 #: model_terms:ir.ui.view,arch_db:account_budget.view_crossovered_budget_kanban
 msgid "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Period\" title=\"Period\"/>"
-msgstr ""
+msgstr "<i class=\"fa fa-clock-o\" role=\"img\" aria-label=\"Kausi\" title=\"Kausi\"/>"
 
 #. module: account_budget
 #: model_terms:ir.ui.view,arch_db:account_budget.view_account_analytic_account_form_inherit_budget
 msgid "<span class=\"o_stat_text\">Budget</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Talousarvio</span>"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_account_budget_post__account_ids
@@ -101,12 +104,12 @@ msgstr "Toimenpiteen ikoni"
 #. module: account_budget
 #: model:ir.model.fields,help:account_budget.field_crossovered_budget_lines__practical_amount
 msgid "Amount really earned/spent."
-msgstr ""
+msgstr "Todella ansaittu tai kulutettu määrä."
 
 #. module: account_budget
 #: model:ir.model.fields,help:account_budget.field_crossovered_budget_lines__theoritical_amount
 msgid "Amount you are supposed to have earned/spent at this date."
-msgstr ""
+msgstr "Tähän päivään mennessä kertyneet saatavat tai vastuut."
 
 #. module: account_budget
 #: model:ir.model.fields,help:account_budget.field_crossovered_budget_lines__planned_amount
@@ -114,6 +117,8 @@ msgid ""
 "Amount you plan to earn/spend. Record a positive amount if it is a revenue "
 "and a negative amount if it is a cost."
 msgstr ""
+"Suunniteltu tulo tai meno. Kirjaa positiivinen arvo, mikäli kyseessä on tulo"
+" ja negatiivinen arvo, jos kyseessä on meno."
 
 #. module: account_budget
 #: model:ir.model,name:account_budget.model_account_analytic_account
@@ -176,7 +181,7 @@ msgstr "Budjetin nimi"
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_lines__crossovered_budget_state
 msgid "Budget State"
-msgstr ""
+msgstr "Talousarvion tila"
 
 #. module: account_budget
 #: model:ir.model,name:account_budget.model_account_budget_post
@@ -204,7 +209,7 @@ msgstr "Budjetit"
 #: model:ir.actions.act_window,name:account_budget.act_crossovered_budget_lines_view
 #: model:ir.ui.menu,name:account_budget.menu_act_crossovered_budget_lines_view
 msgid "Budgets Analysis"
-msgstr ""
+msgstr "Talousarvioiden analyysit"
 
 #. module: account_budget
 #: model_terms:ir.ui.view,arch_db:account_budget.crossovered_budget_view_form
@@ -234,6 +239,8 @@ msgid ""
 "Comparison between practical and theoretical amount. This measure tells you "
 "if you are below or over budget."
 msgstr ""
+"Todellisen ja teoreettisen summan eron vertailu. Tämä mittari kertoo, oletko"
+" ylittämässä vai alittamassa talousarvion."
 
 #. module: account_budget
 #: model_terms:ir.ui.view,arch_db:account_budget.crossovered_budget_view_form
@@ -302,7 +309,7 @@ msgstr "Päättymispäivä"
 #. module: account_budget
 #: model_terms:ir.ui.view,arch_db:account_budget.crossovered_budget_view_form
 msgid "Entries..."
-msgstr ""
+msgstr "Merkinnät..."
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget__message_follower_ids
@@ -371,7 +378,7 @@ msgstr "Jos valittu, joitakin viestejä ei ole toimitettu."
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_lines__is_above_budget
 msgid "Is Above Budget"
-msgstr ""
+msgstr "Ylittää talousarvion"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget__message_is_follower
@@ -453,7 +460,7 @@ msgstr "Seuraavan toimenpiteen tyyppi"
 #. module: account_budget
 #: model_terms:ir.ui.view,arch_db:account_budget.view_crossovered_budget_line_search
 msgid "Not Cancelled"
-msgstr ""
+msgstr "Ei peruttu"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget__message_needaction_counter
@@ -500,7 +507,7 @@ msgstr "Suunniteltu määrä"
 #: model_terms:ir.ui.view,arch_db:account_budget.view_crossovered_budget_line_graph
 #: model_terms:ir.ui.view,arch_db:account_budget.view_crossovered_budget_line_pivot
 msgid "Planned amount"
-msgstr ""
+msgstr "Suunniteltu määrä"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_lines__practical_amount
@@ -513,7 +520,7 @@ msgstr "Käytännön määrä"
 #: model_terms:ir.ui.view,arch_db:account_budget.view_crossovered_budget_line_graph
 #: model_terms:ir.ui.view,arch_db:account_budget.view_crossovered_budget_line_pivot
 msgid "Practical amount"
-msgstr ""
+msgstr "Todellinen määrä"
 
 #. module: account_budget
 #: model_terms:ir.ui.view,arch_db:account_budget.crossovered_budget_view_form
@@ -568,7 +575,7 @@ msgstr ""
 #: code:addons/account_budget/models/account_budget.py:0
 #, python-format
 msgid "The budget must have at least one account."
-msgstr ""
+msgstr "Talousarviolla täytyy olla vähintään yksi tili."
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_lines__theoritical_amount
@@ -581,7 +588,7 @@ msgstr "Teoreettinen määrä"
 #: model_terms:ir.ui.view,arch_db:account_budget.view_crossovered_budget_line_graph
 #: model_terms:ir.ui.view,arch_db:account_budget.view_crossovered_budget_line_pivot
 msgid "Theoretical amount"
-msgstr ""
+msgstr "Teoreettinen määrä"
 
 #. module: account_budget
 #: model_terms:ir.ui.view,arch_db:account_budget.crossovered_budget_view_form
@@ -606,7 +613,7 @@ msgstr "Tämän päivän toimenpiteet"
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_account_analytic_account__total_planned_amount
 msgid "Total Planned Amount"
-msgstr ""
+msgstr "Suunniteltu määrä yhteensä"
 
 #. module: account_budget
 #: model:ir.model.fields,help:account_budget.field_crossovered_budget__activity_exception_decoration
@@ -650,6 +657,8 @@ msgid ""
 "You have to enter at least a budgetary position or analytic account on a "
 "budget line."
 msgstr ""
+"Sinun tulee syöttää vähintään yksi kiinteä varaus tai kustannuspaikka "
+"talousarvion riville."
 
 #. module: account_budget
 #: model_terms:ir.ui.view,arch_db:account_budget.crossovered_budget_view_form

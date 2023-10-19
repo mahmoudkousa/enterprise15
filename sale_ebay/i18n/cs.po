@@ -7,8 +7,9 @@
 # Jan Horzinka <jan.horzinka@centrum.cz>, 2021
 # Michal Veselý <michal@veselyberanek.net>, 2021
 # Rastislav Brencic <rastislav.brencic@azet.sk>, 2021
-# trendspotter <jirka.p@volny.cz>, 2021
+# Jiří Podhorecký, 2021
 # milda dvorak <milda.dvorak@optimal4.cz>, 2021
+# Jakub Smolka, 2023
 # 
 msgid ""
 msgstr ""
@@ -16,8 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 11:16+0000\n"
 "PO-Revision-Date: 2021-09-14 12:42+0000\n"
-"Last-Translator: milda dvorak <milda.dvorak@optimal4.cz>, 2021\n"
-"Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
+"Last-Translator: Jakub Smolka, 2023\n"
+"Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -873,12 +874,12 @@ msgstr ""
 #. module: sale_ebay
 #: model:ir.model,name:sale_ebay.model_ebay_item_condition
 msgid "eBay Item Condition"
-msgstr ""
+msgstr "eBay stav předmětu"
 
 #. module: sale_ebay
 #: model:ir.model,name:sale_ebay.model_ebay_link_listing
 msgid "eBay Link Listing"
-msgstr ""
+msgstr "eBay odkaz na zalistování"
 
 #. module: sale_ebay
 #: model:ir.model.fields,field_description:sale_ebay.field_ebay_link_listing__ebay_id

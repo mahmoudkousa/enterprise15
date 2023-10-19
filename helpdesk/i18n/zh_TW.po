@@ -5,8 +5,8 @@
 # Translators:
 # Mandy Choy <mnc@odoo.com>, 2021
 # Benson <Benson.Dr@Gmail.com>, 2021
-# Martin Trigaux, 2021
-# 敬雲 林 <chingyun@yuanchih-consult.com>, 2022
+# 敬雲 林 <chingyun@yuanchih-consult.com>, 2023
+# Martin Trigaux, 2023
 # Tony Ng, 2023
 # 
 msgid ""
@@ -31,7 +31,7 @@ msgstr ""
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__rating_count
 msgid "# Ratings"
-msgstr ""
+msgstr "評分數目"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__sla_policy_count
@@ -174,7 +174,7 @@ msgstr ""
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.portal_helpdesk_ticket
 msgid "<em class=\"font-weight-normal text-muted\">Tickets in stage:</em>"
-msgstr ""
+msgstr "<em class=\"font-weight-normal text-muted\">支援請求階段：</em>"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.tickets_followup
@@ -368,7 +368,7 @@ msgstr ""
 msgid ""
 "Add a description to help your coworkers understand the meaning and purpose "
 "of the stage."
-msgstr ""
+msgstr "加入描述，幫助同事理解該階段的意義和目的。"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_stage_view_form
@@ -489,12 +489,6 @@ msgid "Assign the ticket to a <b>member of your team</b>."
 msgstr ""
 
 #. module: helpdesk
-#: code:addons/helpdesk/models/helpdesk_ticket.py:0
-#, python-format
-msgid "Assign to me"
-msgstr ""
-
-#. module: helpdesk
 #: code:addons/helpdesk/controllers/portal.py:0
 #, python-format
 msgid "Assigned"
@@ -521,7 +515,7 @@ msgstr "分派給"
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_search_analysis
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_search_analysis_closed
 msgid "Assignee"
-msgstr ""
+msgstr "被指派人"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
@@ -556,7 +550,7 @@ msgstr ""
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__auto_close_ticket
 msgid "Automatic Closing"
-msgstr ""
+msgstr "自動關閉"
 
 #. module: helpdesk
 #: model:ir.model.fields,help:helpdesk.field_helpdesk_team__assign_method
@@ -636,7 +630,7 @@ msgstr ""
 #: model:helpdesk.ticket,legend_blocked:helpdesk.helpdesk_ticket_9
 #, python-format
 msgid "Blocked"
-msgstr "已封鎖"
+msgstr "受阻"
 
 #. module: helpdesk
 #: model:helpdesk.tag,name:helpdesk.tag_crm
@@ -1079,7 +1073,7 @@ msgstr "編輯"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_form
 msgid "Email"
-msgstr "Email"
+msgstr "電郵"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__use_alias
@@ -1104,7 +1098,7 @@ msgstr ""
 #. module: helpdesk
 #: model_terms:digest.tip,tip_description:helpdesk.digest_tip_helpdesk_0
 msgid "Emails sent to"
-msgstr ""
+msgstr "電郵傳送至"
 
 #. module: helpdesk
 #: model_terms:digest.tip,tip_description:helpdesk.digest_tip_helpdesk_0
@@ -1338,7 +1332,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:helpdesk.rating_rating_view_search_inherit_helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.rating_rating_view_tree_inherit_helpdesk
 msgid "Helpdesk Team"
-msgstr ""
+msgstr "技術支援團隊"
 
 #. module: helpdesk
 #: model:ir.actions.act_window,name:helpdesk.helpdesk_team_action
@@ -1351,7 +1345,7 @@ msgstr ""
 #: model:ir.model,name:helpdesk.model_helpdesk_ticket
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_form
 msgid "Helpdesk Ticket"
-msgstr ""
+msgstr "技術支援請求"
 
 #. module: helpdesk
 #: model:ir.model,name:helpdesk.model_helpdesk_ticket_type
@@ -2178,8 +2172,7 @@ msgid ""
 " necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
 msgstr ""
-"上級模型擁有別名。擁有別名參照的模型不必是alias_model_id給出的模型 (example: project(parent_model) and"
-" task (model))"
+"載有該別名的母項模型。載有別名參照的模型，不一定是 alias_model_id 提供的模型，例如：專案（parent_model）與任務（model）"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_ticket__partner_ticket_ids
@@ -3209,7 +3202,7 @@ msgstr ""
 #. module: helpdesk
 #: model:mail.message.subtype,description:helpdesk.mt_ticket_new
 msgid "Ticket created"
-msgstr ""
+msgstr "支援請求已建立"
 
 #. module: helpdesk
 #: model:mail.template,name:helpdesk.rating_ticket_request_email_template

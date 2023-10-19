@@ -814,7 +814,7 @@ msgstr "Entier"
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_personal_info__is_required
 msgid "Is Required"
-msgstr "Est requis"
+msgstr "Est obligatoire"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract__is_origin_contract_template
@@ -1244,7 +1244,7 @@ msgstr "Res Model"
 #: model:ir.actions.act_window,name:hr_contract_salary.hr_contract_salary_resume_action
 #: model:ir.ui.menu,name:hr_contract_salary.salary_package_resume
 msgid "Resume"
-msgstr "Curriculum vitæ"
+msgstr "Résumé"
 
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.salary_package_next_step_button

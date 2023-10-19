@@ -27,7 +27,7 @@ msgstr ""
 #. module: delivery_iot
 #: model:ir.model.fields,help:delivery_iot.field_stock_picking_type__iot_printer_id
 msgid "Automatically print the shipping labels using this printer."
-msgstr ""
+msgstr "このプリンタを使用して配送ラベルを自動的に印刷します。"
 
 #. module: delivery_iot
 #: model:ir.model.fields,help:delivery_iot.field_choose_delivery_package__available_scale_ids
@@ -35,7 +35,7 @@ msgstr ""
 msgid ""
 "Choose the scales you want to use for this operation type. Those scales can "
 "be used to weigh the packages created."
-msgstr ""
+msgstr "このオペレーションタイプに使用する秤を選択して下さい。これらの秤は、作成された梱包の計量に使用できます。"
 
 #. module: delivery_iot
 #: model:ir.model,name:delivery_iot.model_choose_delivery_package
@@ -75,7 +75,7 @@ msgstr "手動計測"
 #. module: delivery_iot
 #: model:ir.model.fields,help:delivery_iot.field_choose_delivery_package__manual_measurement
 msgid "Manually read the measurement from the device"
-msgstr ""
+msgstr "デバイスから測定値を手動で読み込む"
 
 #. module: delivery_iot
 #: model:ir.model.fields,field_description:delivery_iot.field_iot_device__picking_type_ids
@@ -92,7 +92,7 @@ msgstr "ピッキングタイプ"
 #: code:addons/delivery_iot/static/src/xml/iot_widgets_templates.xml:0
 #, python-format
 msgid "Read weight"
-msgstr ""
+msgstr "重量を読む"
 
 #. module: delivery_iot
 #: model:ir.model.fields,field_description:delivery_iot.field_choose_delivery_package__iot_device_id
@@ -103,12 +103,12 @@ msgstr "スケール"
 #: model:ir.model.fields,field_description:delivery_iot.field_choose_delivery_package__available_scale_ids
 #: model:ir.model.fields,field_description:delivery_iot.field_stock_picking_type__iot_scale_ids
 msgid "Scales"
-msgstr ""
+msgstr "秤"
 
 #. module: delivery_iot
 #: model:ir.model.fields,field_description:delivery_iot.field_stock_picking_type__iot_printer_id
 msgid "Shipping Labels Printer"
-msgstr ""
+msgstr "発送ラベルプリンタ"
 
 #. module: delivery_iot
 #: model:ir.model,name:delivery_iot.model_stock_picking

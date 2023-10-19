@@ -454,7 +454,7 @@ msgstr ""
 #. module: sale_amazon
 #: model:amazon.marketplace,name:sale_amazon.marketplace_IT
 msgid "Italy"
-msgstr ""
+msgstr "Italy"
 
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_account____last_update
@@ -495,7 +495,7 @@ msgstr "Marketplace"
 #. module: sale_amazon
 #: model:amazon.marketplace,name:sale_amazon.marketplace_MX
 msgid "Mexico"
-msgstr ""
+msgstr "Mexico"
 
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_account__name
@@ -506,7 +506,7 @@ msgstr "Nama"
 #. module: sale_amazon
 #: model:amazon.marketplace,name:sale_amazon.marketplace_NL
 msgid "Netherlands"
-msgstr ""
+msgstr "Netherlands"
 
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_account__offer_count
@@ -867,7 +867,7 @@ msgstr ""
 #. module: sale_amazon
 #: model:amazon.marketplace,name:sale_amazon.marketplace_UK
 msgid "United Kingdom"
-msgstr ""
+msgstr "United Kingdom"
 
 #. module: sale_amazon
 #: model:amazon.marketplace,name:sale_amazon.marketplace_US
@@ -903,6 +903,7 @@ msgstr "Peringatan"
 #, python-format
 msgid "You don't have an active subscription. Please buy one here: %s"
 msgstr ""
+"Anda tidak memiliki langganan yang aktif. Mohon beli langganan di sini: %s"
 
 #. module: sale_amazon
 #: code:addons/sale_amazon/models/amazon_account.py:0

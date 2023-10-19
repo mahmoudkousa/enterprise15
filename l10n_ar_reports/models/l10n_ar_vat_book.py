@@ -258,7 +258,7 @@ class L10nARVatBook(models.AbstractModel):
         else:
             doc_number = partner.ensure_vat()
             doc_code = '80'
-        return doc_code, doc_number.rjust(20, '0')
+        return doc_code, (doc_number or '').rjust(20, '0')
 
     @api.model
     def _get_pos_and_invoice_invoice_number(self, invoice):

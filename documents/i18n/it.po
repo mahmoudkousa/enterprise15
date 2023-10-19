@@ -71,6 +71,10 @@ msgid ""
 "your documents in bulk with the split tool: launch user defined actions, "
 "request a signature, convert to vendor bills with AI, etc."
 msgstr ""
+". I file scansionati appariranno automaticamente nel tuo spazio di lavoro. "
+"In seguito, elabora i documenti in massa attraverso lo strumento di "
+"divisione: è possibile eseguire azioni personalizzate, richiedere una firma,"
+" convertire le fatture fornitore con l'IA, ecc."
 
 #. module: documents
 #: model:documents.tag,name:documents.documents_finance_fiscal_year_2017
@@ -572,6 +576,8 @@ msgid ""
 "An easy way to process incoming mails is to configure your scanner to send "
 "PDFs to"
 msgstr ""
+"Un modo facile di elaborare le e-mail in entrata è di configurare lo scanner"
+" per inviare i PDF a"
 
 #. module: documents
 #: model_terms:digest.tip,tip_description:documents.digest_tip_documents_0
@@ -683,6 +689,9 @@ msgid ""
 "class=\"o_folder_description_alias\"><strong>inbox-financial</strong> email "
 "alias</span>."
 msgstr ""
+"Automatizza la posta in arrivo utilizzando documenti scansionati o le e-mail"
+" inviate <span class=\"o_folder_description_alias\">all'alias e-mail "
+"<strong>inbox-finanza</strong></span>."
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__available_rule_ids
@@ -1473,6 +1482,8 @@ msgid ""
 "Let's tag this mail as legal<br/> <i>Tips: actions can be tailored to your "
 "process, according to the workspace.</i>"
 msgstr ""
+"Etichettiamo l'e-mail come legale<br/> <i>Suggerimenti: le azioni possono "
+"essere adattate al processo, in base allo spazio di lavoro.</i>"
 
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_folder__user_specific
@@ -1482,7 +1493,7 @@ msgstr "Limita i gruppi in lettura ai documenti di cui sono proprietari."
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_folder__user_specific_write
 msgid "Limit Write Groups to the documents of which they are owner."
-msgstr ""
+msgstr "Limita i gruppi di scrittura ai documenti di cui sono proprietari."
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.documents_link_to_record_form_view
@@ -1817,7 +1828,7 @@ msgstr "Solo Documenti Propri"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_folder__user_specific_write
 msgid "Own Documents Only (Write)"
-msgstr ""
+msgstr "Solo documenti personali (Scrivi)"
 
 #. module: documents
 #: model:ir.model.constraint,message:documents.constraint_documents_folder_check_user_specific
@@ -1825,6 +1836,8 @@ msgid ""
 "Own Documents Only may not be enabled for write groups if it is not enabled "
 "for read groups."
 msgstr ""
+"La funzione \"Solo documenti propri\" potrebbe non essere attiva per i "
+"gruppi di scrittura se non attiva per i gruppi di lettura."
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__owner_id
@@ -2210,7 +2223,7 @@ msgstr "Dimensione"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_workflow_rule__link_model
 msgid "Specific Model Linked"
-msgstr ""
+msgstr "Modello specifico collegato"
 
 #. module: documents
 #. openerp-web
@@ -2524,7 +2537,7 @@ msgstr "Caricare per email"
 #: code:addons/documents/models/mail_activity.py:0
 #, python-format
 msgid "Upload file request"
-msgstr ""
+msgstr "Carica richiesta file"
 
 #. module: documents
 #: model:res.groups,name:documents.group_documents_user
@@ -2815,7 +2828,7 @@ msgstr "condiviso da"
 #: code:addons/documents/static/src/js/documents_controller_mixin.js:0
 #, python-format
 msgid "status code: %s, message: %s"
-msgstr ""
+msgstr "codice stato: %s, messaggio: %s"
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.document_view_kanban

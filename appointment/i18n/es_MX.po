@@ -982,7 +982,7 @@ msgstr "Desde"
 #: code:addons/appointment/static/src/xml/calendar_appointment_scheduling.xml:0
 #, python-format
 msgid "Get Share Link"
-msgstr "Obtener un vínculo para compartir"
+msgstr "Obtener un enlace para compartir"
 
 #. module: appointment
 #: model_terms:calendar.appointment.type,message_intro:appointment.calendar_appointment_0

@@ -35,7 +35,7 @@ odoo.define('l10n_de_pos_cert.pos', function(require) {
                     this.company.l10n_de_fiskaly_api_secret = data['api_secret'];
                     this.useKassensichvVersion2 = this.config.l10n_de_fiskaly_tss_id.includes('|');
                     this.apiUrl = data['kassensichv_url'] + '/api/v' + (this.useKassensichvVersion2 ? '2' : '1'); // use correct version
-                    this.initVatRates(data['dsfinvk_url'] + '/api/v0');
+                    return this.initVatRates(data['dsfinvk_url'] + '/api/v0');
                 })
             }
             return _super_posmodel.after_load_server_data.apply(this, arguments);
@@ -80,7 +80,7 @@ odoo.define('l10n_de_pos_cert.pos', function(require) {
                 'api_secret': this.getApiSecret()
             }
 
-            $.ajax({
+            return $.ajax({
                 url: url + '/auth',
                 method: 'POST',
                 data: JSON.stringify(data),
@@ -88,7 +88,7 @@ odoo.define('l10n_de_pos_cert.pos', function(require) {
                 timeout: 5000
             }).then((data) => {
                 const token = data.access_token;
-                $.ajax({
+                return $.ajax({
                     url: url + '/vat_definitions',
                     method: 'GET',
                     headers: { 'Authorization': `Bearer ${token}` },
@@ -274,6 +274,7 @@ odoo.define('l10n_de_pos_cert.pos', function(require) {
         },
         //@Override
         init_from_JSON(json) {
+            this.state = json.state;
             _super_order.init_from_JSON.apply(this, arguments);
             if (this.pos.isCountryGermanyAndFiskaly()) {
                 this.fiskalyUuid = json.fiskaly_uuid;
@@ -303,7 +304,8 @@ odoo.define('l10n_de_pos_cert.pos', function(require) {
         },
         //@override
         add_orderline(line){
-            this.check_germany_taxes(line.product);
+            if (line.order && !['paid', 'done', 'invoiced'].includes(line.order.state))
+                this.check_germany_taxes(line.product);
             return _super_order.add_orderline.apply(this, arguments);
         },
         _authenticate() {

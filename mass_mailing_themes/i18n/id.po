@@ -9,7 +9,7 @@
 # Martin Trigaux, 2022
 # Febrasari Almania <febrasari.almania@gmail.com>, 2022
 # Ryanto The <ry.the77@gmail.com>, 2022
-# Abe Manyo, 2022
+# Abe Manyo, 2023
 # 
 msgid ""
 msgstr ""
@@ -17,8 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 15:07+0000\n"
 "PO-Revision-Date: 2021-09-14 12:41+0000\n"
-"Last-Translator: Abe Manyo, 2022\n"
-"Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
+"Last-Translator: Abe Manyo, 2023\n"
+"Language-Team: Indonesian (https://app.transifex.com/odoo/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -28,17 +28,17 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "&amp;nbsp;&amp;nbsp;"
-msgstr ""
+msgstr "&amp;nbsp;&amp;nbsp;"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"
-msgstr ""
+msgstr "&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "*For orders over $39."
-msgstr ""
+msgstr "*Untuk order diatas $39."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
@@ -58,7 +58,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "24/7 <br/>Customer Service"
-msgstr ""
+msgstr "Customer Service <br/>24/7"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
@@ -159,7 +159,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "<font style=\"color: rgb(173, 173, 173);\">Unsubscribe</font>"
-msgstr ""
+msgstr "<font style=\"color: rgb(173, 173, 173);\">Berhenti Berlangganan</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
@@ -194,6 +194,8 @@ msgid ""
 "<font style=\"color: rgb(255, 255, 255);\">And it won't cost you a "
 "thing!</font>"
 msgstr ""
+"<font style=\"color: rgb(255, 255, 255);\">Dan Anda tidak perlu membayar "
+"sepeserpun!</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
@@ -204,7 +206,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "<font style=\"color: rgb(255, 255, 255);\">Hi there!</font>"
-msgstr ""
+msgstr "<font style=\"color: rgb(255, 255, 255);\">Halo!</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
@@ -219,6 +221,8 @@ msgid ""
 "<font style=\"color: rgb(255, 255, 255);\">Zero, zilch, nada! Odoo "
 "Experience is free for everyone!</font>"
 msgstr ""
+"<font style=\"color: rgb(255, 255, 255);\">Zero, zilch, nada! Odoo "
+"Experience gratis untuk semua orang!</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -548,6 +552,8 @@ msgid ""
 "Bitten by the travel bug but looking to travel consciously? Eco-travel is "
 "the way forward."
 msgstr ""
+"Tiba-tiba ingin berkenala tapi tidak ingin gegabah?? Eco-travel adalah "
+"pilihan terbaik."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
@@ -577,7 +583,7 @@ msgstr "Cover"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
 msgid "Cover image"
-msgstr ""
+msgstr "Cover image"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
@@ -585,11 +591,13 @@ msgid ""
 "Create your very own chat room or join an existing one that sparks your "
 "interest."
 msgstr ""
+"Buat chat room Anda sendiri atau bergabung dengan chat room yang menarik "
+"minat Anda."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Customer Service"
-msgstr ""
+msgstr "Customer Service"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
@@ -606,7 +614,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "Delicious recipes from around the world"
-msgstr ""
+msgstr "Resep-resep lezat dari seluruh dunia"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
@@ -616,7 +624,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "Destinations for an eco-holiday"
-msgstr ""
+msgstr "Tempat tujuan untuk eco-holiday"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
@@ -626,7 +634,7 @@ msgstr "Temukan"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Easy Returns"
-msgstr ""
+msgstr "Pengembalian Gampang"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
@@ -653,17 +661,17 @@ msgstr "Facebook"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "Find out more"
-msgstr ""
+msgstr "Temukan lebih banyak lagi"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Free Delivery"
-msgstr ""
+msgstr "Pengiriman Grati"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Free delivery*"
-msgstr ""
+msgstr "Pengiriman gratis*"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
@@ -673,7 +681,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "Go to the chatrooms"
-msgstr ""
+msgstr "Pergi ke chatroom"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
@@ -686,6 +694,8 @@ msgid ""
 "Imagine waking up with more energy, more flexibility, with less stress and "
 "fewer instances of anxiously rushing out the door."
 msgstr ""
+"Coba bayangkan Anda bangun dengan lebih banyak energi, fleksibilitas, dengan"
+" lebih sedikit stres dan kecemasan selagi Anda keluar rumah."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -697,11 +707,13 @@ msgstr "Instagram"
 msgid ""
 "Join the community to see our latest news, events, discounts and much more!"
 msgstr ""
+"Bergabunglah dengan komunitas kami untuk mendapatkan berita terkini, acara, "
+"diskon dan lebih banyak lagi!"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
 msgid "Join us"
-msgstr ""
+msgstr "Join u"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
@@ -714,6 +726,8 @@ msgid ""
 "Learn through workshops, product demos, and inspiring talks from Odoo "
 "Experts and Partners."
 msgstr ""
+"Belajar melalui workshop, demo produk, dan talkshow inspirasi dari Pakar "
+"Odoo dan Partner."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -728,7 +742,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "Man on a rock looking at mountains in the distance"
-msgstr ""
+msgstr "Lelaki di atas batu memandangi pegunungan di kejauhan"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
@@ -771,12 +785,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "READ MORE"
-msgstr ""
+msgstr "LIHAT LEBIH LANJUT"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
 msgid "Read More"
-msgstr ""
+msgstr "Lihat Lebih"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
@@ -793,12 +807,12 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
 msgid "Redeem it now"
-msgstr ""
+msgstr "Tebus sekarang"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "Register now!"
-msgstr ""
+msgstr "Daftar sekarang!"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
@@ -808,7 +822,7 @@ msgstr "Registrasi rawat inap"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "See what we've got planned"
-msgstr ""
+msgstr "Lihat apa yang kami rencanakan"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
@@ -829,6 +843,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
 msgid "Thank you for being one of our most loyal customers."
 msgstr ""
+"Terima kasih telah menjadi salah satu pelanggan kami yang paling setia."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
@@ -843,7 +858,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "Top 5 energy-boosting morning routines"
-msgstr ""
+msgstr "Top 5 energy-boosting morning routines"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -851,6 +866,9 @@ msgid ""
 "Travel without leaving your kitchen with these international recipes. From "
 "Canada to Australia, Mexico to Sweden, and everywhere in between."
 msgstr ""
+"Travel tanpa meninggalkan dapur Anda dengan resep-resep internasional "
+"berikut. Dari Kanada sampai Australia, Meksiko sampai Swedia, dan di manapun"
+" di antaranya."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -866,17 +884,17 @@ msgstr "Berhenti Subskripsi"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "VISIT OUR WEBSITE"
-msgstr ""
+msgstr "KUNJUNGI WEBSITE KAMI"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Valid on all sales prices in our webshop."
-msgstr ""
+msgstr "Valid pada semua harga sales di toko website kami."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Visit the website"
-msgstr ""
+msgstr "Kunjungi website"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template

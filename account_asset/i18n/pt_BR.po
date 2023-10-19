@@ -53,13 +53,13 @@ msgstr "%s criado a partir da fatura"
 #: code:addons/account_asset/report/account_assets_report.py:0
 #, python-format
 msgid "%s m"
-msgstr ""
+msgstr "%s m"
 
 #. module: account_asset
 #: code:addons/account_asset/report/account_assets_report.py:0
 #, python-format
 msgid "%s y"
-msgstr ""
+msgstr "%s a"
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:0
@@ -606,12 +606,12 @@ msgstr "Criar em rascunho"
 #. module: account_asset
 #: model_terms:ir.actions.act_window,help:account_asset.action_account_asset_form
 msgid "Create new asset"
-msgstr ""
+msgstr "Criar novo ativo"
 
 #. module: account_asset
 #: model_terms:ir.actions.act_window,help:account_asset.action_account_asset_model_form
 msgid "Create new asset model"
-msgstr ""
+msgstr "Criar novo modelo de ativo"
 
 #. module: account_asset
 #: model_terms:ir.actions.act_window,help:account_asset.action_account_expense_form
@@ -1008,7 +1008,7 @@ msgstr "Descarte"
 #. module: account_asset
 #: model:ir.model.fields.selection,name:account_asset.selection__account_asset__state__draft
 msgid "Draft"
-msgstr "Provisório"
+msgstr "Rascunho"
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_bank_statement_line__draft_asset_ids
@@ -1027,7 +1027,7 @@ msgstr "Duração"
 #: code:addons/account_asset/report/account_assets_report.py:0
 #, python-format
 msgid "Duration / Rate"
-msgstr ""
+msgstr "Duração/taxa"
 
 #. module: account_asset
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form

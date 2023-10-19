@@ -27,17 +27,17 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "&amp;nbsp;&amp;nbsp;"
-msgstr ""
+msgstr "&amp;nbsp;&amp;nbsp;"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"
-msgstr ""
+msgstr "&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "*For orders over $39."
-msgstr ""
+msgstr "*$39以上のオーダで"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
@@ -57,7 +57,7 @@ msgstr "7月21日"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "24/7 <br/>Customer Service"
-msgstr ""
+msgstr "24/7 <br/>顧客サービス"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
@@ -158,7 +158,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "<font style=\"color: rgb(173, 173, 173);\">Unsubscribe</font>"
-msgstr ""
+msgstr "<font style=\"color: rgb(173, 173, 173);\">登録解除</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
@@ -192,7 +192,7 @@ msgstr ""
 msgid ""
 "<font style=\"color: rgb(255, 255, 255);\">And it won't cost you a "
 "thing!</font>"
-msgstr ""
+msgstr "<font style=\"color: rgb(255, 255, 255);\">しかも、費用は一切かかりません！</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
@@ -203,7 +203,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "<font style=\"color: rgb(255, 255, 255);\">Hi there!</font>"
-msgstr ""
+msgstr "<font style=\"color: rgb(255, 255, 255);\">こんにちは！</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
@@ -218,6 +218,8 @@ msgid ""
 "<font style=\"color: rgb(255, 255, 255);\">Zero, zilch, nada! Odoo "
 "Experience is free for everyone!</font>"
 msgstr ""
+"<font style=\"color: rgb(255, 255, "
+"255);\">ゼロ、０、Zero！Odooエクスペリエンスは誰でも無料で利用できます！</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -552,7 +554,7 @@ msgstr "BBQ Mix"
 msgid ""
 "Bitten by the travel bug but looking to travel consciously? Eco-travel is "
 "the way forward."
-msgstr ""
+msgstr "旅行に夢中になり、意識の高い旅行をお探しですか？エコ・トラベルがお勧めです。"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
@@ -582,14 +584,14 @@ msgstr "カバー"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
 msgid "Cover image"
-msgstr ""
+msgstr "カバー画像"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid ""
 "Create your very own chat room or join an existing one that sparks your "
 "interest."
-msgstr ""
+msgstr "自分だけのチャットルームを作ったり、興味のある既存のチャットルームに参加することができます。"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
@@ -613,7 +615,7 @@ msgstr "サイバーセキュリティ"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "Delicious recipes from around the world"
-msgstr ""
+msgstr "世界中の美味しいレシピ"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
@@ -623,7 +625,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "Destinations for an eco-holiday"
-msgstr ""
+msgstr "エコ・ホリデーの行先"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
@@ -633,7 +635,7 @@ msgstr "発見"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Easy Returns"
-msgstr ""
+msgstr "返却簡単"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
@@ -660,17 +662,17 @@ msgstr "Facebook"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "Find out more"
-msgstr ""
+msgstr "もっと知る"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Free Delivery"
-msgstr ""
+msgstr "配送無料"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Free delivery*"
-msgstr ""
+msgstr "配送無料*"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
@@ -680,7 +682,7 @@ msgstr "ギブソンレスポールジュニア"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "Go to the chatrooms"
-msgstr ""
+msgstr "チャットルームに行く"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
@@ -692,7 +694,7 @@ msgstr "ポップコーンを加熱し、臨場感あふれる体験のための
 msgid ""
 "Imagine waking up with more energy, more flexibility, with less stress and "
 "fewer instances of anxiously rushing out the door."
-msgstr ""
+msgstr "よりエネルギーに満ち、より柔軟で、ストレスが減った状態で目覚め、不安でドアを飛び出すことが少なくなることを想像して下さい。"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -703,12 +705,12 @@ msgstr "Instagram"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
 msgid ""
 "Join the community to see our latest news, events, discounts and much more!"
-msgstr ""
+msgstr "コミュニティに参加して、最新ニュースやイベント、割引情報などをご覧下さい！"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
 msgid "Join us"
-msgstr ""
+msgstr "ご参加下さい"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
@@ -720,7 +722,7 @@ msgstr "基調講演"
 msgid ""
 "Learn through workshops, product demos, and inspiring talks from Odoo "
 "Experts and Partners."
-msgstr ""
+msgstr "ワークショップ、製品デモ、Odooエキスパートやパートナーから刺激的なトークを通して学びましょう。"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -735,7 +737,7 @@ msgstr "Mains"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "Man on a rock looking at mountains in the distance"
-msgstr ""
+msgstr "岩の上で遠くの山々を眺める男"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
@@ -778,7 +780,7 @@ msgstr "プッチーニジャー"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "READ MORE"
-msgstr ""
+msgstr "さらに読む"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
@@ -800,12 +802,12 @@ msgstr "今日のレシピ"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
 msgid "Redeem it now"
-msgstr ""
+msgstr "今すぐ利用する"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "Register now!"
-msgstr ""
+msgstr "今すぐ登録！"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
@@ -815,7 +817,7 @@ msgstr "登録"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "See what we've got planned"
-msgstr ""
+msgstr "計画しているものをご覧下さい"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
@@ -835,7 +837,7 @@ msgstr "Tagliatelle Boscaiola"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
 msgid "Thank you for being one of our most loyal customers."
-msgstr ""
+msgstr "私たちの最も忠実な顧客の一人でいらっしゃることに感謝します。"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
@@ -850,14 +852,14 @@ msgstr "トマトスープ"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "Top 5 energy-boosting morning routines"
-msgstr ""
+msgstr "エネルギーを高める朝の習慣トップ5"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid ""
 "Travel without leaving your kitchen with these international recipes. From "
 "Canada to Australia, Mexico to Sweden, and everywhere in between."
-msgstr ""
+msgstr "世界各国のレシピで、キッチンにいながらにして旅行気分を味わいましょう。カナダからオーストラリア、メキシコからスウェーデンまで。"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -873,17 +875,17 @@ msgstr "購読解除"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "VISIT OUR WEBSITE"
-msgstr ""
+msgstr "当社のウェブサイトを見る"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Valid on all sales prices in our webshop."
-msgstr ""
+msgstr "ウェブショップの全ての販売価格に対して有効"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Visit the website"
-msgstr ""
+msgstr "ウェブサイトを密"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
@@ -903,7 +905,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "Your Logo"
-msgstr ""
+msgstr "あなたのロゴ"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template

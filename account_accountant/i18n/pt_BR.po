@@ -39,6 +39,8 @@ msgid ""
 "<b class=\"tip_title\">Tip: Find an Accountant or register your Accounting "
 "Firm</b>"
 msgstr ""
+"<b class=\"tip_title\">Dica: encontre um contador ou registre seu escritório"
+" de contabilidade</b>"
 
 #. module: account_accountant
 #. openerp-web
@@ -54,12 +56,12 @@ msgstr ""
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
 msgid "<i>Lock all journal entries</i>"
-msgstr ""
+msgstr "<i>Travar todos os lançamentos de diário</i>"
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
 msgid "<i>Lock specific journal entries</i>"
-msgstr ""
+msgstr "<i>Travar lançamentos de diário específicos</i>"
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
@@ -80,12 +82,14 @@ msgstr "<span class=\"o_form_label\">Ano fiscal</span>"
 #. module: account_accountant
 #: model_terms:digest.tip,tip_description:account_accountant.digest_tip_account_accountant_1
 msgid "<span class=\"tip_button_text\">Find an Accountant</span>"
-msgstr ""
+msgstr "<span class=\"tip_button_text\">Encontre um contador</span>"
 
 #. module: account_accountant
 #: model_terms:digest.tip,tip_description:account_accountant.digest_tip_account_accountant_1
 msgid "<span class=\"tip_button_text\">Register your Accounting Firm</span>"
 msgstr ""
+"<span class=\"tip_button_text\">Registre o seu escritório de "
+"contabilidade</span>"
 
 #. module: account_accountant
 #. openerp-web
@@ -147,12 +151,12 @@ msgstr "Financeiro"
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
 msgid "Accounting Period Closing"
-msgstr ""
+msgstr "Fechamento de exercício contábil"
 
 #. module: account_accountant
 #: model:ir.actions.act_window,name:account_accountant.action_view_account_change_lock_date
 msgid "Accounting closing dates"
-msgstr ""
+msgstr "Datas de fechamento contábil"
 
 #. module: account_accountant
 #: model_terms:ir.actions.act_window,help:account_accountant.account_tag_action
@@ -162,7 +166,7 @@ msgstr "Adicionar um novo marcador"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date__fiscalyear_lock_date
 msgid "All Users Lock Date"
-msgstr ""
+msgstr "Data de travamento de todos os usuários"
 
 #. module: account_accountant
 #. openerp-web
@@ -298,6 +302,8 @@ msgid ""
 "Click here to find an accountant or if you want to list out your accounting "
 "services on Odoo"
 msgstr ""
+"Clique aqui para encontrar um contador ou se quiser listar seus serviços de "
+"contabilidade no Odoo"
 
 #. module: account_accountant
 #. openerp-web
@@ -632,7 +638,7 @@ msgstr "Diário"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date__period_lock_date
 msgid "Journal Entries Lock Date"
-msgstr ""
+msgstr "Período de bloqueio dos lançamentos de diário"
 
 #. module: account_accountant
 #: model:ir.model,name:account_accountant.model_account_move
@@ -767,7 +773,7 @@ msgstr "Bloquear datas"
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
 msgid "Management Closing"
-msgstr ""
+msgstr "Fechamento da gestão"
 
 #. module: account_accountant
 #. openerp-web
@@ -937,7 +943,7 @@ msgstr "Pagamentos sem cliente não podem ser correspondidos"
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
 msgid "Pick a date to lock"
-msgstr ""
+msgstr "Escolha uma data para travar"
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
@@ -1096,7 +1102,7 @@ msgstr "Data de Bloqueio Fiscal"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date__tax_lock_date
 msgid "Tax Return Lock Date"
-msgstr ""
+msgstr "Data de travamento para declaração de imposto"
 
 #. module: account_accountant
 #. openerp-web
@@ -1200,6 +1206,7 @@ msgstr "Dica: Artigos de periódicos de atualização em massa"
 #: model:digest.tip,name:account_accountant.digest_tip_account_accountant_1
 msgid "Tip: Find an Accountant or register your Accounting Firm"
 msgstr ""
+"Dica: encontre um contador ou registre seu escritório de contabilidade"
 
 #. module: account_accountant
 #. openerp-web

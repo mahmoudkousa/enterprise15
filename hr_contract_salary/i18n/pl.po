@@ -3,6 +3,7 @@
 # 	* hr_contract_salary
 # 
 # Translators:
+# Piotr Strębski <strebski@gmail.com>, 2021
 # Judyta Kaźmierczak <judyta.kazmierczak@openglobe.pl>, 2021
 # Tomasz Leppich <t.leppich@gmail.com>, 2021
 # Jaroslaw Kaczmarski, 2021
@@ -12,7 +13,6 @@
 # Andrzej Wiśniewski <a.wisniewski@hadron.eu.com>, 2021
 # Piotr Cierkosz <piotr.w.cierkosz@gmail.com>, 2021
 # Paweł Wodyński <pw@myodoo.pl>, 2021
-# Piotr Strębski <strebski@gmail.com>, 2021
 # Martin Trigaux, 2021
 # Dariusz Żbikowski <darek@krokus.com.pl>, 2021
 # Wojciech Warczakowski <w.warczakowski@gmail.com>, 2021
@@ -732,7 +732,7 @@ msgstr "Zielony"
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_advantage_view_search
 msgid "Group By"
-msgstr "Grupuj wg."
+msgstr "Grupuj wg"
 
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.salary_package_thank_you
@@ -1651,7 +1651,7 @@ msgstr "Kod pocztowy"
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.salary_package
 msgid "close"
-msgstr "zamknięcia"
+msgstr "zamknij"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_generate_simulation_link__employee_contract_employee_id

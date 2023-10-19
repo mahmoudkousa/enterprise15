@@ -58,7 +58,7 @@ msgstr "Entradas de trabajo"
 #. module: hr_work_entry_contract_enterprise
 #: model:ir.ui.menu,name:hr_work_entry_contract_enterprise.menu_hr_work_entry_type_view
 msgid "Work Entry Types"
-msgstr "Tipo de entradas de trabajo"
+msgstr "Tipos de entradas de trabajo"
 
 #. module: hr_work_entry_contract_enterprise
 #: model:ir.ui.menu,name:hr_work_entry_contract_enterprise.menu_resource_calendar_view

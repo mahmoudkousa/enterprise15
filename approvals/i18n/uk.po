@@ -4,7 +4,8 @@
 # 
 # Translators:
 # Martin Trigaux, 2021
-# Alina Lisnenko <alinasemeniuk1@gmail.com>, 2021
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2023
+# Wil Odoo, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:38+0000\n"
-"Last-Translator: Alina Lisnenko <alinasemeniuk1@gmail.com>, 2021\n"
-"Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
+"Last-Translator: Wil Odoo, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/odoo/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -734,6 +735,7 @@ msgstr "Ім'я"
 #. module: approvals
 #: model:ir.model.fields.selection,name:approvals.selection__approval_approver__status__new
 #: model:ir.model.fields.selection,name:approvals.selection__approval_request__user_status__new
+#: code:addons/approvals/models/approval_category.py:0
 msgid "New"
 msgstr "Новий"
 
@@ -1107,6 +1109,25 @@ msgstr "Статус користувача"
 #: model_terms:ir.ui.view,arch_db:approvals.approval_request_view_kanban
 msgid "Withdraw"
 msgstr "Зняти"
+
+#. module: approvals
+#: code:addons/approvals/models/approval_request.py:0
+#, python-format
+msgid ""
+"You cannot assign the same approver multiple times on the same request."
+msgstr ""
+"Ви не можете призначити того самого схвалювача кілька разів для одного "
+"запиту."
+
+#. module: approvals
+#: code:addons/approvals/models/ir_attachment.py:0
+#, python-format
+msgid ""
+"You cannot unlink an attachment which is linked to a validated, refused or "
+"cancelled approval request."
+msgstr ""
+"Ви не можете відв'язати прикріплення, яке пов'язане з підтвердженим, "
+"відхиленим або скасованим запитом."
 
 #. module: approvals
 #: code:addons/approvals/models/approval_request.py:0

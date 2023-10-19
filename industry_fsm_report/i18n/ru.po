@@ -13,6 +13,8 @@
 # Дмитрий Ефременко <shiza867@gmail.com>, 2021
 # Ekaterina <nawsikaya@bk.ru>, 2021
 # Сергей Шебанин <sergey@shebanin.ru>, 2022
+# Alena Vlasova, 2023
+# alenafairy, 2023
 # 
 msgid ""
 msgstr ""
@@ -20,8 +22,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 09:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:40+0000\n"
-"Last-Translator: Сергей Шебанин <sergey@shebanin.ru>, 2022\n"
-"Language-Team: Russian (https://www.transifex.com/odoo/teams/41243/ru/)\n"
+"Last-Translator: alenafairy, 2023\n"
+"Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -174,7 +176,7 @@ msgstr "Дата"
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
 msgid "Days Spent"
-msgstr ""
+msgstr "Дней затрачено"
 
 #. module: industry_fsm_report
 #: model:ir.model,name:industry_fsm_report.model_x_custom_worksheet_x_project_task_worksheet_template_2
@@ -412,7 +414,7 @@ msgstr "Задача"
 #. module: industry_fsm_report
 #: model:ir.model,name:industry_fsm_report.model_project_task_recurrence
 msgid "Task Recurrence"
-msgstr ""
+msgstr "Повтор задачи"
 
 #. module: industry_fsm_report
 #: model:mail.template,name:industry_fsm_report.mail_template_data_send_report
@@ -531,7 +533,7 @@ msgstr "Worksheet Templates"
 #: model:mail.template,report_name:industry_fsm_report.mail_template_data_send_report
 msgid ""
 "Worksheet {{ object.name }}{{ (' - ' + object.partner_id.name) if "
-"object.partner_id else '' }}.pdf"
+"object.partner_id.name else '' }}.pdf"
 msgstr ""
 
 #. module: industry_fsm_report

@@ -377,7 +377,7 @@ msgstr "Nie można zmienić produktu odebranej linii."
 #. module: sale_stock_renting
 #: model_terms:ir.ui.view,arch_db:sale_stock_renting.res_config_settings_inherit_view_form
 msgid "hours"
-msgstr "godzin"
+msgstr "godziny"
 
 #. module: sale_stock_renting
 #: model_terms:ir.ui.view,arch_db:sale_stock_renting.product_template_inherit_view_form_stock_rental

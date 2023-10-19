@@ -2910,6 +2910,36 @@
         return argument !== undefined;
     }
     const DEBUG = {};
+    /**
+     * Compares two objects.
+     */
+    function deepEquals(o1, o2) {
+        if (o1 === o2)
+            return true;
+        if ((o1 && !o2) || (o2 && !o1))
+            return false;
+        if (typeof o1 !== typeof o2)
+            return false;
+        if (typeof o1 !== "object")
+            return o1 === o2;
+        // Objects can have different keys if the values are undefined
+        const keys = new Set();
+        Object.keys(o1).forEach((key) => keys.add(key));
+        Object.keys(o2).forEach((key) => keys.add(key));
+        for (let key of keys) {
+            if (typeof o1[key] !== typeof o1[key])
+                return false;
+            if (typeof o1[key] === "object") {
+                if (!deepEquals(o1[key], o2[key]))
+                    return false;
+            }
+            else {
+                if (o1[key] !== o2[key])
+                    return false;
+            }
+        }
+        return true;
+    }
 
     /**
      * Convert from a cartesian reference to a Zone
@@ -19146,6 +19176,7 @@
             // stores the computed styles in the format of computedStyles.sheetName[col][row] = Style
             this.computedStyles = {};
             this.computedIcons = {};
+            this.uuidGenerator = new UuidGenerator();
             /**
              * Execute the predicate to know if a conditional formatting rule should be applied to a cell
              */
@@ -19499,12 +19530,19 @@
                             this.adaptRules(origin.sheetId, cf, [xc], toRemoveRange);
                         }
                         else {
-                            this.adaptRules(target.sheetId, cf, [xc], []);
                             this.adaptRules(origin.sheetId, cf, [], toRemoveRange);
+                            const cfToCopyTo = this.getCFToCopyTo(target.sheetId, cf);
+                            this.adaptRules(target.sheetId, cfToCopyTo, [xc], []);
                         }
                     }
                 }
             }
+        }
+        getCFToCopyTo(targetSheetId, originCF) {
+            const cfInTarget = this.getters
+                .getConditionalFormats(targetSheetId)
+                .find((cf) => cf.stopIfTrue === originCF.stopIfTrue && deepEquals(cf.rule, originCF.rule));
+            return cfInTarget ? cfInTarget : { ...originCF, id: this.uuidGenerator.uuidv4(), ranges: [] };
         }
     }
     EvaluationConditionalFormatPlugin.getters = ["getConditionalStyle", "getConditionalIcon"];
@@ -31406,9 +31444,9 @@
     Object.defineProperty(exports, '__esModule', { value: true });
 
 
-    __info__.version = '15.0.9';
-    __info__.date = '2023-06-12T14:07:25.996Z';
-    __info__.hash = '40ae7eb';
+    __info__.version = '15.0.10';
+    __info__.date = '2023-09-22T07:45:27.293Z';
+    __info__.hash = '23bff2d';
 
 
 })(this.o_spreadsheet = this.o_spreadsheet || {}, owl);

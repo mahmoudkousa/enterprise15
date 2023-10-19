@@ -205,7 +205,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:social.field_social_post__calendar_date
 #: model_terms:ir.ui.view,arch_db:social.social_post_view_search
 msgid "Calendar Date"
-msgstr ""
+msgstr "カレンダ日付"
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_post_view_form
@@ -225,7 +225,7 @@ msgstr "キャンペーン"
 msgid ""
 "Campaigns are used to centralize your marketing efforts and track their "
 "results."
-msgstr ""
+msgstr "キャンペーンは、マーケティング活動を一元化し、その結果を追跡するために使用されます。"
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_media__can_link_accounts
@@ -729,7 +729,7 @@ msgstr ""
 #: code:addons/social/static/src/xml/social_templates.xml:0
 #, python-format
 msgid "Like"
-msgstr ""
+msgstr "いいね(好評価)"
 
 #. module: social
 #. openerp-web
@@ -765,7 +765,7 @@ msgstr ""
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_stream_post__link_url
 msgid "Link URL"
-msgstr ""
+msgstr "リンクURL"
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_media_view_kanban
@@ -1004,7 +1004,7 @@ msgstr "エラー数"
 #: model:ir.model.fields,field_description:social.field_utm_campaign__social_engagement
 msgid ""
 "Number of interactions (likes, shares, comments ...) with the social posts"
-msgstr ""
+msgstr "ソーシャル投稿での交流(いいね、共有、コメントなど)の数"
 
 #. module: social
 #: model:ir.model.fields,help:social.field_social_post__stream_posts_count
@@ -1126,7 +1126,7 @@ msgstr ""
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_stream_post__post_link
 msgid "Post Link"
-msgstr ""
+msgstr "投稿リンク"
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_post_view_search
@@ -1298,7 +1298,7 @@ msgstr ""
 #. module: social
 #: model:ir.model.fields.selection,name:social.selection__social_post__post_method__now
 msgid "Send now"
-msgstr ""
+msgstr "今すぐ送信"
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_stream__sequence
@@ -1381,7 +1381,7 @@ msgstr "ソーシャル・ポスト"
 #: model:ir.model,name:social.model_social_post_template
 #: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
 msgid "Social Post Template"
-msgstr ""
+msgstr "ソーシャルポストテンプレート"
 
 #. module: social
 #: model:ir.actions.act_window,name:social.social_post_template_action
@@ -1433,12 +1433,19 @@ msgstr ""
 
 #. module: social
 #. openerp-web
+#: code:addons/social/static/src/js/stream_post_comments.js:0
+#, python-format
+msgid "Something went wrong while posting the comment."
+msgstr ""
+
+#. module: social
+#. openerp-web
 #: code:addons/social/static/src/js/stream_post_kanban_controller.js:0
 #, python-format
 msgid ""
 "Sorry, you're not allowed to re-link this account, please contact your "
 "administrator."
-msgstr ""
+msgstr "このアカウントに再リンクする権限がありません。管理者に連絡して下さい。"
 
 #. module: social
 #: model:ir.model.fields,help:social.field_social_post__live_posts_by_media
@@ -1551,7 +1558,7 @@ msgstr ""
 #: code:addons/social/models/social_post_template.py:0
 #, python-format
 msgid "The 'message' field is required for post ID %s"
-msgstr ""
+msgstr "'メッセージ'フィールドがポストIDに必要です %s"
 
 #. module: social
 #: model:ir.model.fields,help:social.field_social_post__account_ids

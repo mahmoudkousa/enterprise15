@@ -7,6 +7,7 @@
 # Martin Trigaux, 2021
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2021
 # Wichanon Jamwutthipreecha, 2022
+# Rasareeyar Lappiam, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:56+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Wichanon Jamwutthipreecha, 2022\n"
-"Language-Team: Thai (https://www.transifex.com/odoo/teams/41243/th/)\n"
+"Last-Translator: Rasareeyar Lappiam, 2023\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -36,22 +37,22 @@ msgstr "# กลุ่ม"
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_period__journal_ids_count
 msgid "# Journals"
-msgstr ""
+msgstr "# สมุดรายวัน"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_chart__period_ids_count
 msgid "# Periods"
-msgstr ""
+msgstr "# ระยะเวลา"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_form
 msgid "% Control"
-msgstr ""
+msgstr "% ควบคุม"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_form
 msgid "% Ownership"
-msgstr ""
+msgstr "% ความเป็นเจ้าของ"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.header_cell_template
@@ -62,13 +63,13 @@ msgstr ""
 #: code:addons/account_consolidation/report/builder/abstract.py:0
 #, python-format
 msgid "%s (%s Currency Conversion Method)"
-msgstr ""
+msgstr "%s (%s วิธีการแปลงสกุลเงิน)"
 
 #. module: account_consolidation
 #: code:addons/account_consolidation/models/consolidation_period.py:0
 #, python-format
 msgid "%s Consolidated Accounting"
-msgstr ""
+msgstr "%s การบัญชีรวม"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_company_period_form
@@ -79,17 +80,17 @@ msgstr "&amp;nbsp;"
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_form
 msgid "(Re)Compute"
-msgstr ""
+msgstr "คำนวณใหม่"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_kanban
 msgid "(Re)compute"
-msgstr ""
+msgstr "คำนวณใหม่"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.header_cell_template
 msgid "/ End Rate: 1"
-msgstr ""
+msgstr "/ อัตราสิ้นสุด: 1"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_kanban
@@ -119,12 +120,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_journal_form
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_composition_form
 msgid "<span class=\"o_form_label oe_inline\">%</span>"
-msgstr ""
+msgstr "<span class=\"o_form_label oe_inline\">%</span>"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_kanban
 msgid "<span role=\"separator\">Actions</span>"
-msgstr ""
+msgstr "<span role=\"ตัวคั่น\">การดำเนินการ</span>"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_kanban
@@ -136,7 +137,7 @@ msgstr "<span role=\"separator\">มุมมอง </span>"
 msgid ""
 "A consolidation account with the same code already exists in this "
 "consolidation."
-msgstr ""
+msgstr "งบการเงินรวมที่มีรหัสเดียวกันนี้มีอยู่แล้วในงบการเงินรวมนี้"
 
 #. module: account_consolidation
 #: code:addons/account_consolidation/models/consolidation_journal.py:0
@@ -156,7 +157,7 @@ msgstr "บัญชี"
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_res_company__account_consolidation_currency_is_different
 msgid "Account Consolidation Currency Is Different"
-msgstr ""
+msgstr "สกุลเงินงบการเงินรวมที่แตกต่างกัน"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_group_tree
@@ -182,19 +183,19 @@ msgstr "การจับคู่บัญชี"
 #: code:addons/account_consolidation/models/consolidation_coa.py:0
 #, python-format
 msgid "Account Mapping: %(chart)s"
-msgstr ""
+msgstr "การแมปบัญชี: %(chart)s"
 
 #. module: account_consolidation
 #: code:addons/account_consolidation/models/res_company.py:0
 #, python-format
 msgid "Account Mapping: %(company)s"
-msgstr ""
+msgstr "การแมปบัญชี: %(company)s"
 
 #. module: account_consolidation
 #: code:addons/account_consolidation/models/consolidation_period.py:0
 #, python-format
 msgid "Account Mapping: %s (for %s)"
-msgstr ""
+msgstr "การแมปบัญชี: %s (เพื่อ %s)"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_account_form
@@ -223,7 +224,7 @@ msgstr "บัญชี"
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_res_company__consolidation_color
 msgid "Accounts color"
-msgstr ""
+msgstr "สีประจำบัญชี"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_period__message_needaction
@@ -241,7 +242,7 @@ msgstr "เปิดใช้งาน"
 #: code:addons/account_consolidation/static/src/js/trial_balance_grid/controller.js:0
 #, python-format
 msgid "Add a column"
-msgstr ""
+msgstr "เพิ่มคอลัมน์"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_company_period_form
@@ -251,7 +252,7 @@ msgstr "ข้อมูลเพิ่มเติม"
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_chart_form
 msgid "Advanced Consolidation"
-msgstr ""
+msgstr "การรวมขั้นสูง"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.search_template_consolidation_journals
@@ -262,7 +263,7 @@ msgstr "ทั้งหมด"
 #: model_terms:ir.ui.view,arch_db:account_consolidation.account_mapping_search
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_account_search_mapping
 msgid "Already Mapped"
-msgstr ""
+msgstr "ได้แมปเรียบร้อยแล้ว"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_journal_line__amount
@@ -281,24 +282,24 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_journal__period_id
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_form
 msgid "Analysis Period"
-msgstr ""
+msgstr "ระยะเวลาการวิเคราะห์"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_period_composition__using_period_id
 msgid "Analysis Period Using This"
-msgstr ""
+msgstr "ระยะเวลาการวิเคราะห์โดยใช้สิ่งนี้"
 
 #. module: account_consolidation
 #: model:ir.actions.act_window,name:account_consolidation.analysis_period_config_action
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_chart__period_ids
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_tree
 msgid "Analysis Periods"
-msgstr ""
+msgstr "ระยะเวลาการวิเคราะห์"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.create_period_step
 msgid "Analysis period"
-msgstr ""
+msgstr "ระยะเวลาการวิเคราะห์"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.create_period_step
@@ -319,34 +320,34 @@ msgstr "จํานวนสิ่งที่แนบมา"
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.line_template
 msgid "Audit"
-msgstr ""
+msgstr "ตรวจสอบ"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_journal_search
 msgid "Auto-generated"
-msgstr ""
+msgstr "สร้างโดยอัตโนมัติ"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_journal__auto_generated
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_journal_line__auto_generated
 msgid "Automatically Generated"
-msgstr ""
+msgstr "สร้างโดยอัตโนมัติ"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_company_period__currency_rate_avg
 msgid "Average Currency Rate"
-msgstr ""
+msgstr "อัตราสกุลเงินเฉลี่ย"
 
 #. module: account_consolidation
 #: model:ir.model.fields.selection,name:account_consolidation.selection__consolidation_account__currency_mode__avg
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_company_period_form
 msgid "Average Rate"
-msgstr ""
+msgstr "อัตราเฉลี่ย"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.header_cell_template
 msgid "Avg Rate: 1"
-msgstr ""
+msgstr "อัตราเฉลี่ย: 1"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_journal__balance
@@ -384,7 +385,7 @@ msgstr "ผังบัญชี"
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_chart_tree
 msgid "Charts"
-msgstr ""
+msgstr "ชาร์ต"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_group__child_ids
@@ -399,7 +400,7 @@ msgstr "ปิด"
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_kanban
 msgid "Close period"
-msgstr ""
+msgstr "ระยะเวลาปิด"
 
 #. module: account_consolidation
 #: model:ir.model.fields.selection,name:account_consolidation.selection__consolidation_period__state__closed
@@ -411,7 +412,7 @@ msgstr "ปิด"
 #. module: account_consolidation
 #: model:ir.model.fields.selection,name:account_consolidation.selection__consolidation_account__currency_mode__end
 msgid "Closing Rate"
-msgstr ""
+msgstr "อัตราการปิดบัญชี"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_account__code
@@ -459,7 +460,7 @@ msgstr "ชื่อบริษัท"
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_journal__company_period_id
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_company_period_form
 msgid "Company Period"
-msgstr ""
+msgstr "ระยะเวลาของบริษัท"
 
 #. module: account_consolidation
 #: model:ir.actions.act_window,name:account_consolidation.consolidation_company_period_action
@@ -468,22 +469,22 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_company_period_tree
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_form
 msgid "Company Periods"
-msgstr ""
+msgstr "ระยะเวลาของบริษัท"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_period__company_unmapped_accounts_counts
 msgid "Company Unmapped Accounts Counts"
-msgstr ""
+msgstr "จำนวนบัญชีที่ไม่ได้ทำการแมปของบริษัท"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_period_composition__composed_period_id
 msgid "Composed Analysis Period"
-msgstr ""
+msgstr "ระยะเวลาการวิเคราะห์ที่ประกอบด้วย"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_period_composition__composed_chart_currency_id
 msgid "Composed Consolidation Currency"
-msgstr ""
+msgstr "สกุลเงินการรวมบัญชีที่เขียนไว้"
 
 #. module: account_consolidation
 #: model:ir.ui.menu,name:account_consolidation.menu_consolidation_configuration
@@ -493,47 +494,47 @@ msgstr "การกำหนดค่า"
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.header_cell_template
 msgid "Conso Rate:"
-msgstr ""
+msgstr "อัตราการรวมบัญชี:"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_journal_line__account_id
 msgid "Consolidated Account"
-msgstr ""
+msgstr "บัญชีรวม"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.account_mapping_tree
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_account_form
 msgid "Consolidated Accounts"
-msgstr ""
+msgstr "บัญชีรวม"
 
 #. module: account_consolidation
 #: model:ir.actions.client,name:account_consolidation.trial_balance_report_action
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_form
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_kanban
 msgid "Consolidated Balance"
-msgstr ""
+msgstr "ยอดคงเหลือรวม"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_chart_form
 msgid "Consolidated Companies"
-msgstr ""
+msgstr "บริษัทรวม"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_chart__parents_ids
 msgid "Consolidated In"
-msgstr ""
+msgstr "รวมเข้าใน"
 
 #. module: account_consolidation
 #. openerp-web
 #: code:addons/account_consolidation/static/src/js/trial_balance_grid/controller.js:0
 #, python-format
 msgid "Consolidated balance"
-msgstr ""
+msgstr "ยอดคงเหลือรวม"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_account__used_in_ids
 msgid "Consolidated in"
-msgstr ""
+msgstr "รวมไว้ใน"
 
 #. module: account_consolidation
 #: model:ir.actions.act_window,name:account_consolidation.consolidation_chart_action
@@ -559,12 +560,12 @@ msgstr "การรวบรวม"
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_account_form
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_group_form
 msgid "Consolidation Account"
-msgstr ""
+msgstr "บัญชีรวม"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_account_account__consolidation_account_chart_filtered_ids
 msgid "Consolidation Account Chart Filtered"
-msgstr ""
+msgstr "กรองแผนภูมิบัญชีรวมแล้ว"
 
 #. module: account_consolidation
 #: model:ir.actions.act_window,name:account_consolidation.consolidation_account_action
@@ -573,74 +574,74 @@ msgstr ""
 #: model:ir.ui.menu,name:account_consolidation.menu_consolidation_configuration_accounts
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_group_form
 msgid "Consolidation Accounts"
-msgstr ""
+msgstr "บัญชีรวม"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_search
 msgid "Consolidation Chart"
-msgstr ""
+msgstr "แผนภูมิการรวมบัญชี"
 
 #. module: account_consolidation
 #: model:ir.model,name:account_consolidation.model_consolidation_company_period
 msgid "Consolidation Company Period"
-msgstr ""
+msgstr "ระยะเวลาการรวมบัญชีของบริษัท"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_company_period__currency_chart_id
 msgid "Consolidation Currency"
-msgstr ""
+msgstr "สกุลเงินรวม"
 
 #. module: account_consolidation
 #: model:ir.actions.act_window,name:account_consolidation.Consolidation_journal_line_action
 msgid "Consolidation Entries"
-msgstr ""
+msgstr "รายการรวมบัญชี"
 
 #. module: account_consolidation
 #: model:ir.ui.menu,name:account_consolidation.menu_consolidation_operations_consolidation_entries
 msgid "Consolidation Entry"
-msgstr ""
+msgstr "รายการรวมบัญชี"
 
 #. module: account_consolidation
 #: model:ir.model,name:account_consolidation.model_consolidation_group
 msgid "Consolidation Group"
-msgstr ""
+msgstr "กลุ่มการรวมบัญชี"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_journal_line_tree
 msgid "Consolidation Items"
-msgstr ""
+msgstr "รายการรวมบัญชี"
 
 #. module: account_consolidation
 #: model:ir.model,name:account_consolidation.model_consolidation_journal
 msgid "Consolidation Journal"
-msgstr ""
+msgstr "สมุดรายวันการรวมบัญชี"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_account_move_line__consolidation_journal_line_ids
 msgid "Consolidation Journal Line"
-msgstr ""
+msgstr "รายการสมุดรายวันการรวมบัญชี"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_company_period__consolidation_method
 msgid "Consolidation Method"
-msgstr ""
+msgstr "วิธีการรวมบัญชี"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_chart__name
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_period__chart_name
 msgid "Consolidation Name"
-msgstr ""
+msgstr "ชื่อการรวมบัญชี"
 
 #. module: account_consolidation
 #: model:ir.model,name:account_consolidation.model_consolidation_period
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_journal__composition_id
 msgid "Consolidation Period"
-msgstr ""
+msgstr "ระยะเวลาการรวมบัญชี"
 
 #. module: account_consolidation
 #: model:ir.model,name:account_consolidation.model_consolidation_period_composition
 msgid "Consolidation Period Composition"
-msgstr ""
+msgstr "องค์ประกอบรอบระยะเวลาการรวมบัญชี"
 
 #. module: account_consolidation
 #: model:ir.model,name:account_consolidation.model_consolidation_rate
@@ -648,37 +649,37 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_journal__rate_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_period_composition__rate_consolidation
 msgid "Consolidation Rate"
-msgstr ""
+msgstr "อัตราการรวมบัญชี"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_form
 msgid "Consolidation Rate (%)"
-msgstr ""
+msgstr "อัตราการรวมบัญชี (%)"
 
 #. module: account_consolidation
 #: model:ir.model,name:account_consolidation.model_consolidation_account
 msgid "Consolidation account"
-msgstr ""
+msgstr "บัญชีรวม"
 
 #. module: account_consolidation
 #: model:ir.model,name:account_consolidation.model_consolidation_chart
 msgid "Consolidation chart"
-msgstr ""
+msgstr "ชาร์ตการรวมบัญชี"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_journal__line_ids
 msgid "Consolidation items"
-msgstr ""
+msgstr "รายการรวมบัญชี"
 
 #. module: account_consolidation
 #: model:ir.model,name:account_consolidation.model_consolidation_journal_line
 msgid "Consolidation journal line"
-msgstr ""
+msgstr "รายการสมุดรายวันการรวมบัญชี"
 
 #. module: account_consolidation
 #: model:res.groups,name:account_consolidation.group_consolidation_user
 msgid "Consolidation user"
-msgstr ""
+msgstr "ผู้ใช้การรวมบัญชี"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.create_period_step
@@ -688,7 +689,7 @@ msgstr "สร้าง"
 #. module: account_consolidation
 #: model:ir.actions.act_window,name:account_consolidation.consolidation_period_action_onboarding
 msgid "Create First Period"
-msgstr ""
+msgstr "สร้างระยะเวลาแรก"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.create_period_step
@@ -726,7 +727,7 @@ msgstr "สร้างเมื่อ"
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_journal__currencies_are_different
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_period_composition__currencies_are_different
 msgid "Currencies Are Different"
-msgstr ""
+msgstr "สกุลเงินแตกต่างกัน"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_composition_form
@@ -737,12 +738,12 @@ msgstr "สกุลเงิน"
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_journal_line__currency_amount
 msgid "Currency Amount"
-msgstr ""
+msgstr "จำนวนสกุลเงิน"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_account__currency_mode
 msgid "Currency Conversion Method"
-msgstr ""
+msgstr "วิธีการแปลงสกุลเงิน"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_period_composition__currency_rate
@@ -753,7 +754,7 @@ msgstr "อัตราแลกเปลี่ยน"
 #. module: account_consolidation
 #: model:ir.model.fields,help:account_consolidation.field_consolidation_period_composition__currency_rate
 msgid "Currency rate from composed chart currency to using chart currency"
-msgstr ""
+msgstr "อัตราสกุลเงินจากชาร์ตสกุลเงินที่ประกอบขึ้น ไปจนถึงการใช้ชาร์ตสกุลเงิน"
 
 #. module: account_consolidation
 #: model:ir.actions.act_window,name:account_consolidation.consolidation_period_action
@@ -764,7 +765,7 @@ msgstr "แดชบอร์ด"
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_period__dashboard_sections
 msgid "Dashboard Sections"
-msgstr ""
+msgstr "ส่วนแดชบอร์ด"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_journal_line_tree
@@ -774,7 +775,7 @@ msgstr "วันที่"
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_step
 msgid "Define"
-msgstr ""
+msgstr "กำหนด"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_step
@@ -790,7 +791,7 @@ msgstr "รายละเอียด"
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_period__display_dates
 msgid "Display Dates"
-msgstr ""
+msgstr "แสดงวันที่"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_account__display_name
@@ -830,7 +831,7 @@ msgstr "แก้ไข"
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_company_period__currency_rate_end
 msgid "End Currency Rate"
-msgstr ""
+msgstr "สิ้นสุดอัตราแลกเปลี่ยนสกุลเงิน"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_company_period__date_company_end
@@ -845,7 +846,7 @@ msgstr "วันสิ้นสุด"
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_company_period_form
 msgid "End Rate"
-msgstr ""
+msgstr "อัตราสิ้นสุด"
 
 #. module: account_consolidation
 #: model:ir.model.fields.selection,name:account_consolidation.selection__consolidation_company_period__consolidation_method__equity
@@ -855,7 +856,7 @@ msgstr "ส่วนของเจ้าของ"
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_company_period__exclude_journal_ids
 msgid "Exclude Journals"
-msgstr ""
+msgstr "ไม่รวมสมุดรายวัน"
 
 #. module: account_consolidation
 #: code:addons/account_consolidation/report/trial_balance.py:0
@@ -866,7 +867,7 @@ msgstr ""
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_account__filtered_used_in_ids
 msgid "Filtered Used In"
-msgstr ""
+msgstr "กรองใช้ใน"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.line_template
@@ -891,7 +892,7 @@ msgstr "ชื่อเต็ม"
 #. module: account_consolidation
 #: model:ir.model.fields.selection,name:account_consolidation.selection__consolidation_company_period__consolidation_method__full
 msgid "Full consolidation"
-msgstr ""
+msgstr "อ"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_account__group_id
@@ -920,25 +921,25 @@ msgstr "มีข้อความ"
 #. module: account_consolidation
 #: model:ir.model.fields.selection,name:account_consolidation.selection__consolidation_account__currency_mode__hist
 msgid "Historical Rate"
-msgstr ""
+msgstr "อัตราทางประวัติศาสตร์"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_chart_form
 msgid "Historical Rates"
-msgstr ""
+msgstr "อัตราย้อนหลัง"
 
 #. module: account_consolidation
 #: code:addons/account_consolidation/models/res_company.py:0
 #, python-format
 msgid "Historical Rates: %(company)s"
-msgstr ""
+msgstr "อัตราย้อนหลัง: %(company)s"
 
 #. module: account_consolidation
 #: model:ir.model.fields,help:account_consolidation.field_consolidation_company_period__currency_rate_avg
 #: model:ir.model.fields,help:account_consolidation.field_consolidation_company_period__currency_rate_end
 msgid ""
 "How many units of company currency is needed to get 1 unit of chart currency"
-msgstr ""
+msgstr "ต้องใช้สกุลเงินของบริษัทกี่หน่วยเพื่อให้ได้ 1 หน่วยสกุลเงินในชาร์ต"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_account__id
@@ -968,12 +969,12 @@ msgstr "ถ้าเลือก ข้อความบางข้อคว�
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_search
 msgid "In The Future"
-msgstr ""
+msgstr "ในอนาคต"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_search
 msgid "In The Past"
-msgstr ""
+msgstr "ในอดีต"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_period__message_is_follower
@@ -1001,7 +1002,7 @@ msgstr "รายการสมุดบัญชีรายวัน"
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_group__line_ids
 msgid "Journal lines"
-msgstr ""
+msgstr "บรรทัดสมุดรายวัน"
 
 #. module: account_consolidation
 #: model:ir.actions.act_window,name:account_consolidation.consolidation_journal_action
@@ -1067,23 +1068,23 @@ msgstr "เอกสารหลักที่แนบมา"
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_journal_search
 msgid "Manually Created"
-msgstr ""
+msgstr "สร้างด้วยตนเอง"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_chart_form
 msgid "Map Accounts"
-msgstr ""
+msgstr "แมปบัญชี"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_account_tree
 msgid "Mapped Accounts"
-msgstr ""
+msgstr "แมปบัญชีแล้ว"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_account_search_mapping
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_account_tree_mapping
 msgid "Mapped In"
-msgstr ""
+msgstr "แมปใน"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_period__message_has_error
@@ -1115,17 +1116,19 @@ msgid ""
 " for this company or that you have access right to see the accounts of this "
 "company."
 msgstr ""
+"ไม่พบบัญชี ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งผังบัญชีสำหรับบริษัทนี้ "
+"หรือคุณมีสิทธิ์เข้าถึงเพื่อดูบัญชีของบริษัทนี้"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.account_mapping_search
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_account_search_mapping
 msgid "Not Mapped"
-msgstr ""
+msgstr "ไม่ได้แมป"
 
 #. module: account_consolidation
 #: model:ir.model.fields.selection,name:account_consolidation.selection__consolidation_company_period__consolidation_method__none
 msgid "Not consolidated"
-msgstr ""
+msgstr "ไม่ได้รวม"
 
 #. module: account_consolidation
 #: model:ir.model.fields.selection,name:account_consolidation.selection__res_company__consolidation_create_period_state__not_done
@@ -1163,17 +1166,17 @@ msgstr "จํานวนข้อความที่ยังไม่ได
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_search
 msgid "Only the periods containing today"
-msgstr ""
+msgstr "เฉพาะช่วงที่มีวันนี้เท่านั้น"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_search
 msgid "Only the periods in the future"
-msgstr ""
+msgstr "เฉพาะช่วงเวลาในอนาคตเท่านั้น"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_search
 msgid "Only the periods in the past"
-msgstr ""
+msgstr "เฉพาะช่วงที่ผ่านมาเท่านั้น"
 
 #. module: account_consolidation
 #: model:ir.ui.menu,name:account_consolidation.menu_consolidation_operations
@@ -1184,7 +1187,7 @@ msgstr "การดำเนินการ"
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_journal__originating_currency_id
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_journal_line__journal_originating_currency_id
 msgid "Originating Currency"
-msgstr ""
+msgstr "สกุลเงินต้นทาง"
 
 #. module: account_consolidation
 #: code:addons/account_consolidation/report/trial_balance.py:0
@@ -1217,7 +1220,7 @@ msgstr "ช่วงเวลา"
 #: model:ir.ui.menu,name:account_consolidation.menu_consolidation_configuration_analysis_periods
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_chart_form
 msgid "Periods"
-msgstr ""
+msgstr "ระยะเวลา"
 
 #. module: account_consolidation
 #: code:addons/account_consolidation/report/trial_balance.py:0
@@ -1228,7 +1231,7 @@ msgstr ""
 #. module: account_consolidation
 #: model:ir.model.fields.selection,name:account_consolidation.selection__consolidation_company_period__consolidation_method__proportional
 msgid "Proportional consolidation"
-msgstr ""
+msgstr "การรวมบัญชีตามสัดส่วน"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_rate__rate
@@ -1238,22 +1241,22 @@ msgstr "อัตรา"
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_company_period__rate_control
 msgid "Rate Control"
-msgstr ""
+msgstr "การควบคุมอัตรา"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_company_period__rate_ownership
 msgid "Rate Ownership"
-msgstr ""
+msgstr "อัตราความเป็นเจ้าของ"
 
 #. module: account_consolidation
 #: model:ir.actions.act_window,name:account_consolidation.consolidation_rate_action
 msgid "Rate Ranges"
-msgstr ""
+msgstr "ช่วงของอัตรา"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_kanban
 msgid "Reopen period"
-msgstr ""
+msgstr "ช่วงเปิดใหม่"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_form
@@ -1263,7 +1266,7 @@ msgstr "รีเซ็ตเป็นแบบร่าง"
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_chart_form
 msgid "Review Chart Of Accounts"
-msgstr ""
+msgstr "ตรวจสอบผังบัญชี"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_period__message_has_sms_error
@@ -1289,7 +1292,7 @@ msgstr "ตั้งค่า"
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.chart_of_account_step
 msgid "Setup"
-msgstr ""
+msgstr "ตั้งค่า"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.chart_of_account_step
@@ -1297,6 +1300,8 @@ msgid ""
 "Setup your consolidated accounts and their currency conversion method.\n"
 "                Then map them with the companies accounts."
 msgstr ""
+"ตั้งค่าบัญชีรวมและวิธีการแปลงสกุลเงิน\n"
+"จากนั้นทำการแมปกับบัญชีบริษัท"
 
 #. module: account_consolidation
 #: model:ir.model.fields,help:account_consolidation.field_consolidation_company_period__rate_consolidation
@@ -1304,17 +1309,17 @@ msgstr ""
 #: model:ir.model.fields,help:account_consolidation.field_consolidation_company_period__rate_ownership
 #: model:ir.model.fields,help:account_consolidation.field_consolidation_period_composition__rate_consolidation
 msgid "Should be between 0 and 100 %"
-msgstr ""
+msgstr "ควรอยู่ระหว่าง 0 ถึง 100 %"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_group__show_on_dashboard
 msgid "Show On Dashboard"
-msgstr ""
+msgstr "แสดงบนแดชบอร์ด"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.search_template_conso_extra_options
 msgid "Show Zero Balance Accounts"
-msgstr ""
+msgstr "แสดงบัญชียอดคงเหลือเป็นศูนย์"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_company_period__date_company_begin
@@ -1356,28 +1361,28 @@ msgstr ""
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_chart_form
 msgid "Sub-consolidated Chart"
-msgstr ""
+msgstr "ชาร์ตรวมย่อย"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_account__linked_chart_ids
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_chart__children_ids
 msgid "Sub-consolidations"
-msgstr ""
+msgstr "การรวมบัญชีย่อย"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_form
 msgid "Sub-consolidations Periods"
-msgstr ""
+msgstr "ระยะเวลาการรวมบัญชีย่อย"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_period_form
 msgid "Sub-consolidations periods"
-msgstr ""
+msgstr "รอบระยะเวลาการรวมบัญชีย่อย"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_group_form
 msgid "Subgroups"
-msgstr ""
+msgstr "กลุ่มย่อย"
 
 #. module: account_consolidation
 #. openerp-web
@@ -1411,19 +1416,19 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_period__chart_currency_id
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_period_composition__using_chart_currency_id
 msgid "Target Currency"
-msgstr ""
+msgstr "สกุลเงินเป้าหมาย"
 
 #. module: account_consolidation
 #: code:addons/account_consolidation/models/consolidation_period.py:0
 #, python-format
 msgid ""
 "The Composed Analysis Period must be different from the Analysis Period"
-msgstr ""
+msgstr "ระยะเวลาการวิเคราะห์ที่ประกอบต้องแตกต่างจากระยะเวลาการวิเคราะห์"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_step
 msgid "The Scope of Consolidation"
-msgstr ""
+msgstr "ขอบเขตของการรวมบัญชี"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_company_period_form
@@ -1432,11 +1437,12 @@ msgid ""
 "The rate used for the consolidation (basically this rate will multiply the "
 "sum of everything"
 msgstr ""
+"อัตราที่ใช้สำหรับการรวมบัญชี (โดยพื้นฐานแล้ว อัตรานี้จะคูณผลรวมของทุกอย่าง"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_journal_form
 msgid "This journal has been automatically generated on"
-msgstr ""
+msgstr "สมุดรายวันนี้ถูกสร้างขึ้นโดยอัตโนมัติเมื่อ"
 
 #. module: account_consolidation
 #: code:addons/account_consolidation/report/builder/abstract.py:0
@@ -1461,12 +1467,12 @@ msgstr "งบทดลอง"
 #: code:addons/account_consolidation/models/consolidation_period.py:0
 #, python-format
 msgid "Trial Balance: %s"
-msgstr ""
+msgstr "งบทดลอง: %s"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.trial_balance_grid_search
 msgid "Trial balance"
-msgstr ""
+msgstr "งบทดลอง"
 
 #. module: account_consolidation
 #: model:ir.model.constraint,message:account_consolidation.constraint_consolidation_period_composition__unique_composition
@@ -1474,6 +1480,7 @@ msgid ""
 "Two compositions of the same analysis period by the same analysis period "
 "cannot be created"
 msgstr ""
+"ไม่สามารถสร้างองค์ประกอบสองรายการในช่วงเวลาการวิเคราะห์เดียวกันในช่วงเวลาการวิเคราะห์เดียวกันได้"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.line_template
@@ -1498,18 +1505,18 @@ msgstr "อัพเดท"
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_period__used_in_composition_ids
 msgid "Used In Composition"
-msgstr ""
+msgstr "ใช้ในองค์ประกอบ"
 
 #. module: account_consolidation
 #: model:ir.model.fields,help:account_consolidation.field_consolidation_chart__color
 #: model:ir.model.fields,help:account_consolidation.field_consolidation_period__color
 msgid "Used in the kanban view"
-msgstr ""
+msgstr "ใช้ในมุมมองคัมบัง"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_period__using_composition_ids
 msgid "Using Composition"
-msgstr ""
+msgstr "การใช้องค์ประกอบ"
 
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_period__website_message_ids
@@ -1529,12 +1536,14 @@ msgid ""
 " chart for the journal cannot be different from the one of the chosen "
 "period."
 msgstr ""
+"เมื่อตั้งค่ารอบระยะเวลาในสมุดรายวันการรวมบัญชี "
+"ชาร์ตการรวมบัญชีที่เลือกสำหรับสมุดรายวันต้องไม่แตกต่างจากรอบระยะเวลาที่เลือก"
 
 #. module: account_consolidation
 #: code:addons/account_consolidation/report/trial_balance.py:0
 #, python-format
 msgid "XLSX"
-msgstr ""
+msgstr "XLSX"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_chart_form
@@ -1542,19 +1551,21 @@ msgid ""
 "You can here define complex consolidations based on other sub-"
 "consolidations, as part of a whole scheme"
 msgstr ""
+"คุณสามารถกำหนดการรวมบัญชีที่ซับซ้อนได้ที่นี่ "
+"โดยยึดตามการรวมบัญชีย่อยอื่นๆที่เป็นส่วนหนึ่งของแผนงานทั้งหมด"
 
 #. module: account_consolidation
 #: code:addons/account_consolidation/models/consolidation_journal.py:0
 #, python-format
 msgid "You can't delete an auto-generated journal entry."
-msgstr ""
+msgstr "คุณไม่สามารถลบรายการสมุดรายวันที่สร้างขึ้นอัตโนมัติได้"
 
 #. module: account_consolidation
 #: code:addons/account_consolidation/models/consolidation_journal.py:0
 #: code:addons/account_consolidation/models/consolidation_journal.py:0
 #, python-format
 msgid "You can't edit an auto-generated journal entry."
-msgstr ""
+msgstr "คุณไม่สามารถแก้ไขรายการสมุดรายวันที่สร้างขึ้นอัตโนมัติได้"
 
 #. module: account_consolidation
 #: code:addons/account_consolidation/models/consolidation_journal.py:0
@@ -1565,12 +1576,12 @@ msgstr ""
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_group_form
 msgid "e.g. Profit and Loss"
-msgstr ""
+msgstr "เช่น กำไรและขาดทุน"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_account_form
 msgid "e.g. Revenue"
-msgstr ""
+msgstr "เช่น รายได้"
 
 #. module: account_consolidation
 #: code:addons/account_consolidation/report/builder/comparison.py:0
@@ -1583,4 +1594,4 @@ msgstr "ไม่มีข้อมูล"
 #: code:addons/account_consolidation/static/src/xml/fields_templates.xml:0
 #, python-format
 msgid "unmapped accounts"
-msgstr ""
+msgstr "บัญชีที่ไม่ได้แมป"

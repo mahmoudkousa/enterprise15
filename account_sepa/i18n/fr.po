@@ -3,10 +3,10 @@
 # 	* account_sepa
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Tivisse <yti@odoo.com>, 2021
 # Cécile Collart <cco@odoo.com>, 2022
-# Jolien De Paepe, 2022
+# Martin Trigaux, 2023
+# Jolien De Paepe, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Jolien De Paepe, 2022\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Last-Translator: Jolien De Paepe, 2023\n"
+"Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -57,7 +57,7 @@ msgstr "Facturation par Lot"
 #. module: account_sepa
 #: model:ir.model,name:account_sepa.model_account_batch_payment
 msgid "Batch Payment"
-msgstr "Paiement en groupe"
+msgstr "Paiement par lot"
 
 #. module: account_sepa
 #: model:ir.model,name:account_sepa.model_res_company
@@ -347,6 +347,24 @@ msgid ""
 msgstr ""
 "La banque définie sur le compte %s (du partenaire %s) n'a pas de BIC. "
 "Veuillez d'abord en définir un."
+
+#. module: account_sepa
+#: code:addons/account_sepa/models/account_journal.py:0
+#, python-format
+msgid ""
+"The BIC code '%s' associated to the bank '%s' of bank account '%s' of partner '%s' does not respect the required convention.\n"
+"It must contain 8 or 11 characters and match the following structure:\n"
+"- 4 letters: institution code or bank code\n"
+"- 2 letters: country code\n"
+"- 2 letters or digits: location code\n"
+"- 3 letters or digits: branch code, optional\n"
+msgstr ""
+"Le code BIC '%s' associé à la banque '%s' du compte bancaire '%s' du partenaire'%s' ne respecte pas la convention requise.\n"
+"Cela doit contenir 8 ou 11 caractères et correspondre à la structure suivante :\n"
+"- 4 lettres : code de l'institution ou code de la banque\n"
+"- 2 lettres : code du pays\n"
+"- 2 lettres ou chiffres : code de location\n"
+"- 3 lettres ou chiffres : code de la branche optionnelle\n"
 
 #. module: account_sepa
 #: code:addons/account_sepa/models/account_payment.py:0

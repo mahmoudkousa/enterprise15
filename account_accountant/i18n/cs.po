@@ -4,14 +4,16 @@
 # 
 # Translators:
 # Martin Trigaux, 2021
-# Chris <krystof.reklamy13@gmail.com>, 2021
+# Chris, 2021
 # Jaroslav Helemik Nemec <nemec@helemik.cz>, 2021
 # Jan Horzinka <jan.horzinka@centrum.cz>, 2021
 # Michal Veselý <michal@veselyberanek.net>, 2021
-# trendspotter <jirka.p@volny.cz>, 2021
+# Jiří Podhorecký, 2021
 # milda dvorak <milda.dvorak@optimal4.cz>, 2021
 # Rastislav Brencic <rastislav.brencic@azet.sk>, 2021
 # karolína schusterová <karolina.schusterova@vdp.sk>, 2021
+# Aleš Fiala <f.ales1@seznam.cz>, 2023
+# Tomáš Píšek, 2023
 # 
 msgid ""
 msgstr ""
@@ -19,8 +21,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: karolína schusterová <karolina.schusterova@vdp.sk>, 2021\n"
-"Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
+"Last-Translator: Tomáš Píšek, 2023\n"
+"Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -44,6 +46,8 @@ msgid ""
 "<b class=\"tip_title\">Tip: Find an Accountant or register your Accounting "
 "Firm</b>"
 msgstr ""
+"<b class=\"tip_title\">Tip: Najděte účetního nebo registrujte účetní "
+"firmu</b>"
 
 #. module: account_accountant
 #. openerp-web
@@ -59,12 +63,12 @@ msgstr ""
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
 msgid "<i>Lock all journal entries</i>"
-msgstr ""
+msgstr "<i>Uzamknout účetní záznamy</i>"
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
 msgid "<i>Lock specific journal entries</i>"
-msgstr ""
+msgstr "<i>Uzamknout specifické účetní záznamy</i>"
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
@@ -85,12 +89,12 @@ msgstr "<span class=\"o_form_label\">Fiskální rok</span>"
 #. module: account_accountant
 #: model_terms:digest.tip,tip_description:account_accountant.digest_tip_account_accountant_1
 msgid "<span class=\"tip_button_text\">Find an Accountant</span>"
-msgstr ""
+msgstr "<span class=\"tip_button_text\">Najděte účetního</span>"
 
 #. module: account_accountant
 #: model_terms:digest.tip,tip_description:account_accountant.digest_tip_account_accountant_1
 msgid "<span class=\"tip_button_text\">Register your Accounting Firm</span>"
-msgstr ""
+msgstr "<span class=\"tip_button_text\">Registrujte účetní firmu</span>"
 
 #. module: account_accountant
 #. openerp-web
@@ -151,12 +155,12 @@ msgstr "Účetnictví"
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
 msgid "Accounting Period Closing"
-msgstr ""
+msgstr "Uzavření účetního období"
 
 #. module: account_accountant
 #: model:ir.actions.act_window,name:account_accountant.action_view_account_change_lock_date
 msgid "Accounting closing dates"
-msgstr ""
+msgstr "Datumy účetních uzávěrek"
 
 #. module: account_accountant
 #: model_terms:ir.actions.act_window,help:account_accountant.account_tag_action
@@ -166,7 +170,7 @@ msgstr "Přidat nový tag"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date__fiscalyear_lock_date
 msgid "All Users Lock Date"
-msgstr ""
+msgstr "Datum uzamčení všech uživatelů"
 
 #. module: account_accountant
 #. openerp-web
@@ -301,6 +305,7 @@ msgid ""
 "Click here to find an accountant or if you want to list out your accounting "
 "services on Odoo"
 msgstr ""
+"Klikněte zde abyste našli účetního nebo chcete-li využívat účetnictví v Odoo"
 
 #. module: account_accountant
 #. openerp-web
@@ -347,6 +352,8 @@ msgid ""
 "Congrats, you're all done! You reconciled %s transactions in %s. That's on "
 "average %s seconds per transaction."
 msgstr ""
+"Blahopřejeme, vše je hotovo! Spárovali jste %s transakcí za %s. To je v "
+"průměru %s sekund na transakci."
 
 #. module: account_accountant
 #. openerp-web
@@ -631,7 +638,7 @@ msgstr "Deník"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date__period_lock_date
 msgid "Journal Entries Lock Date"
-msgstr ""
+msgstr "Datum uzamčení deníků"
 
 #. module: account_accountant
 #: model:ir.model,name:account_accountant.model_account_move
@@ -766,7 +773,7 @@ msgstr "Datumy Uzávěrky"
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date
 msgid "Management Closing"
-msgstr ""
+msgstr "Manažerská uzávěrka"
 
 #. module: account_accountant
 #. openerp-web
@@ -951,6 +958,8 @@ msgid ""
 "Prevents Journal Entry creation or modification prior to the defined date "
 "for all users. As a closed period, all accounting operations are prohibited."
 msgstr ""
+"Zabrání vytváření nebo úpravě účetních záznamů před definovaným datem pro "
+"všechny uživatele. Pro uzavřené období jsou všechny účetní operace zakázány."
 
 #. module: account_accountant
 #: model:ir.model.fields,help:account_accountant.field_account_change_lock_date__period_lock_date
@@ -966,6 +975,9 @@ msgid ""
 " involving taxes). The Tax Return Lock Date is automatically set when the "
 "corresponding Journal Entry is posted."
 msgstr ""
+"Zabrání změnám zúčtování daní před definovaným datem (účetní záznamy "
+"zahrnující daně). Datum uzamčení zúčtování daní je automaticky nastaveno, "
+"jakmile je zaúčtován odpovídající účetní doklad."
 
 #. module: account_accountant
 #. openerp-web
@@ -1090,7 +1102,7 @@ msgstr "Datum daňového zámku"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date__tax_lock_date
 msgid "Tax Return Lock Date"
-msgstr ""
+msgstr "Datum uzamčení vratky daně"
 
 #. module: account_accountant
 #. openerp-web
@@ -1190,7 +1202,7 @@ msgstr "Tip: hromadně aktualizujte položky účetního deníku"
 #. module: account_accountant
 #: model:digest.tip,name:account_accountant.digest_tip_account_accountant_1
 msgid "Tip: Find an Accountant or register your Accounting Firm"
-msgstr ""
+msgstr "Tip: Najděte účetního nebo registrujte účetní firmu"
 
 #. module: account_accountant
 #. openerp-web

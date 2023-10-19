@@ -11,8 +11,9 @@
 # Duy BQ <duybq86@gmail.com>, 2021
 # Trinh Tran Thi Phuong <trinhttp@trobz.com>, 2021
 # Trần Hà <tranthuha13590@gmail.com>, 2021
-# Martin Trigaux, 2022
-# Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2022
+# Nancy Momoland <thanh.np2502@gmail.com>, 2022
+# Martin Trigaux, 2023
+# Thi Huong Nguyen, 2023
 # 
 msgid ""
 msgstr ""
@@ -20,8 +21,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-18 09:51+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2022\n"
-"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Last-Translator: Thi Huong Nguyen, 2023\n"
+"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -381,8 +382,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_reports.template_tax_report
 msgid ""
 "<span>This company is part of a tax unit. You're currently not viewing the "
-"whole unit; to change that, tick the \"aggregate\" option of \"tax unit\" "
-"menu.</span>"
+"whole unit. To change that, use the Tax Unit filter.</span>"
 msgstr ""
 
 #. module: account_reports
@@ -403,6 +403,8 @@ msgid ""
 "A tax unit can only be created between companies sharing the same main "
 "currency."
 msgstr ""
+"Một đơn vị thuế chỉ có thể được tạo ra giữa các công ty có chung loại tiền "
+"tệ chính."
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_total_assets0
@@ -444,7 +446,7 @@ msgstr "Mã tài khoản"
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_res_company__account_display_representative_field
 msgid "Account Display Representative Field"
-msgstr ""
+msgstr "Trường đại diện hiển thị tài khoản"
 
 #. module: account_reports
 #: model:ir.model,name:account_reports.model_report_account_report_journal
@@ -485,7 +487,7 @@ msgstr "Chân trang báo cáo tài khoản"
 #: model:ir.model.fields,field_description:account_reports.field_res_partner__account_represented_company_ids
 #: model:ir.model.fields,field_description:account_reports.field_res_users__account_represented_company_ids
 msgid "Account Represented Company"
-msgstr ""
+msgstr "Account Represented Company"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_res_company__account_revaluation_journal_id
@@ -495,7 +497,7 @@ msgstr "Account Revaluation Journal"
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_res_company__account_representative_id
 msgid "Accounting Firm"
-msgstr ""
+msgstr "Công ty kế toán"
 
 #. module: account_reports
 #: model:ir.model,name:account_reports.model_account_accounting_report
@@ -627,7 +629,7 @@ msgstr "Tất cả"
 #: code:addons/account_reports/models/account_report.py:0
 #, python-format
 msgid "All Journals"
-msgstr ""
+msgstr "Tất cả sổ nhật ký"
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_allocated_earnings
@@ -713,7 +715,10 @@ msgid "Analytic Tags:"
 msgstr "Từ khóa phân tích:"
 
 #. module: account_reports
+#. openerp-web
+#: code:addons/account_reports/static/src/js/account_reports.js:0
 #: model_terms:ir.ui.view,arch_db:account_reports.line_template
+#, python-format
 msgid "Annotate"
 msgstr "Chú thích"
 
@@ -1030,7 +1035,7 @@ msgstr "Dòng con"
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "Closing Entry"
-msgstr ""
+msgstr "Bút toán quyết toán"
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_closing_bank_balance0
@@ -1080,6 +1085,8 @@ msgid ""
 "Company %s already belongs to a tax unit in %s. A company can at most be "
 "part of one tax unit per country."
 msgstr ""
+"Công ty %s đã thuộc về một nhóm thuế trong %s. Một công ty chỉ có thể là một"
+" phần của một đơn vị thuế ở mỗi quốc gia."
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.filter_info_template
@@ -1089,7 +1096,7 @@ msgstr "Loại tiền của công ty:"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_tax_unit_chooser
 msgid "Company Only"
-msgstr ""
+msgstr "Chỉ công ty"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_report.py:0
@@ -1117,7 +1124,7 @@ msgstr "Thiết lập cấu hình"
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "Configure your TAX accounts - %s"
-msgstr ""
+msgstr "Cấu hình tài khoản THUẾ của bạn - %s"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.res_config_settings_view_form
@@ -1457,7 +1464,7 @@ msgstr "VỐN CHỦ SỞ HỮU"
 #: code:addons/account_reports/models/account_report_coa.py:0
 #, python-format
 msgid "End Balance"
-msgstr ""
+msgstr "Số dư cuối kỳ"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_comparison
@@ -1850,12 +1857,12 @@ msgstr "ID"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.report_journal
 msgid "Impact On Grid"
-msgstr ""
+msgstr "Ảnh hướng đến lưới"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.report_journal
 msgid "Impacted Tax Grids"
-msgstr ""
+msgstr "Lưới thuế bị ảnh hưởng"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.line_template_multicurrency_report
@@ -2130,7 +2137,7 @@ msgstr "Tải thêm... (còn %s nữa)"
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_tax_unit__main_company_id
 msgid "Main Company"
-msgstr ""
+msgstr "Công ty chính"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.view_account_financial_report_line_form
@@ -2141,7 +2148,7 @@ msgstr "Thông tin chính"
 #: model:ir.model.fields,help:account_reports.field_account_tax_unit__main_company_id
 msgid ""
 "Main company of this unit; the one actually reporting and paying the taxes."
-msgstr ""
+msgstr "Công ty chính của đơn vị này; công ty thực sự báo cáo và nộp thuế."
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_multicurrency_revaluation_report.py:0
@@ -2169,7 +2176,7 @@ msgstr "Số khớp"
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_account_tax_unit__company_ids
 msgid "Members of this unit"
-msgstr ""
+msgstr "Thành viên của đơn vị này"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report__generated_menu_id
@@ -2236,6 +2243,8 @@ msgid ""
 "Multiple draft tax closing entries exist for fiscal position %s after %s. There should be at most one. \n"
 " %s"
 msgstr ""
+"Tồn tại nhiều bút toán quyết toán thuế nháp cho vị trí tài chính %s sau %s. Chỉ được có một bút toán. \n"
+" %s"
 
 #. module: account_reports
 #: code:addons/account_reports/models/res_company.py:0
@@ -2244,6 +2253,8 @@ msgid ""
 "Multiple draft tax closing entries exist for your domestic region after %s. There should be at most one. \n"
 " %s"
 msgstr ""
+"Tồn tại nhiều bút toán quyết toán thuế nháp cho khu vực nội địa sau %s. Chỉ được có một bút toán. \n"
+" %s"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
@@ -2330,6 +2341,8 @@ msgstr "Không"
 #, python-format
 msgid "No VAT number associated with your company. Please define one."
 msgstr ""
+"Không có mã số số thuế GTGT liên kết với công ty của bạn. Hãy xác định một "
+"mã."
 
 #. module: account_reports
 #: code:addons/account_reports/wizard/multicurrency_revaluation.py:0
@@ -2387,7 +2400,7 @@ msgstr "Cũ hơn"
 #: code:addons/account_reports/wizard/report_export_wizard.py:0
 #, python-format
 msgid "One of the formats chosen can not be exported in the DMS"
-msgstr ""
+msgstr "Một trong những định dạng đã chọn không thể xuất được trong DMS"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_sales_report.py:0
@@ -2892,6 +2905,7 @@ msgid ""
 "Specify an Accounting Firm that will act as a representative when exporting "
 "reports."
 msgstr ""
+"Xác định một Công ty kế toán sẽ đóng vai trò đại diện khi xuất báo cáo."
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_comparison
@@ -2957,13 +2971,13 @@ msgstr "Mã số thuế"
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "Tax Paid Adjustment"
-msgstr ""
+msgstr "Điều chỉnh thuế đã nộp"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "Tax Received Adjustment"
-msgstr ""
+msgstr "Điều chỉnh thuế đã thu"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
@@ -2993,14 +3007,14 @@ msgstr "Khai thuế"
 #: model:ir.model,name:account_reports.model_account_tax_unit
 #: model_terms:ir.ui.view,arch_db:account_reports.view_tax_unit_form
 msgid "Tax Unit"
-msgstr ""
+msgstr "Đơn vị thuế"
 
 #. module: account_reports
 #: model:ir.actions.act_window,name:account_reports.action_view_tax_units
 #: model:ir.model.fields,field_description:account_reports.field_res_company__account_tax_unit_ids
 #: model:ir.ui.menu,name:account_reports.menu_view_tax_units
 msgid "Tax Units"
-msgstr ""
+msgstr "Đơn vị thuế"
 
 #. module: account_reports
 #: model:ir.model.fields.selection,name:account_reports.selection__mail_activity_type__category__tax_report
@@ -3013,13 +3027,13 @@ msgstr "Báo cáo thuế"
 #: code:addons/account_reports/models/res_company.py:0
 #, python-format
 msgid "Tax return for %s%s"
-msgstr ""
+msgstr "Khai thuế cho %s%s"
 
 #. module: account_reports
 #: code:addons/account_reports/models/res_company.py:0
 #, python-format
 msgid "Tax return from %s to %s%s"
-msgstr ""
+msgstr "Khai thuế từ %s đến %s%s"
 
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_account_bank_statement_line__tax_closing_end_date
@@ -3067,6 +3081,8 @@ msgid ""
 "The country in which this tax unit is used to group your companies' tax "
 "reports declaration."
 msgstr ""
+"Quốc gia nơi đơn vị thuế này được sử dụng để nhóm tờ khai báo cáo thuế của "
+"công ty bạn."
 
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_account_financial_html_report__country_id
@@ -3097,13 +3113,13 @@ msgstr ""
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_account_tax_unit__vat
 msgid "The identifier to be used when submitting a report for this unit."
-msgstr ""
+msgstr "Mã định danh được sử dụng khi gửi báo cáo cho đơn vị này."
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_tax.py:0
 #, python-format
 msgid "The main company of a tax unit has to be part of it."
-msgstr ""
+msgstr "Công ty chính của một đơn vị thuế phải là một bộ phận của nó."
 
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_account_financial_html_report__generated_menu_id
@@ -3115,7 +3131,7 @@ msgstr ""
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_res_company__account_tax_unit_ids
 msgid "The tax units this company belongs to."
-msgstr ""
+msgstr "Đơn vị thuế mà công ty này trực thuộc."
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.main_template
@@ -3171,7 +3187,7 @@ msgstr ""
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "This period is already closed for company %s"
-msgstr ""
+msgstr "Kỳ này đã được chốt đối với công ty %s"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
@@ -3241,7 +3257,7 @@ msgstr "Bảng cân đối thử"
 #: code:addons/account_reports/models/account_sales_report.py:0
 #, python-format
 msgid "Triangular"
-msgstr ""
+msgstr "Triangular"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__figure_type
@@ -3333,7 +3349,7 @@ msgstr "Xem sao kê ngân hàng"
 #: code:addons/account_reports/static/src/xml/account_report_template.xml:0
 #, python-format
 msgid "View Carryover Lines"
-msgstr ""
+msgstr "Xem dòng kết chuyển"
 
 #. module: account_reports
 #. openerp-web
@@ -3565,3 +3581,24 @@ msgstr "⇒ Reset về Odoo’s Rate"
 #: model_terms:ir.ui.view,arch_db:account_reports.line_template_general_ledger_report
 msgid "⇒ journal items"
 msgstr "⇒ bút toán"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.main_template
+msgid "Some journal items appear to point to obsolete report lines."
+msgstr ""
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.main_template
+msgid "Check them"
+msgstr "Kiểm tra chúng"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.main_template
+msgid "and correct their tax tags if necessary."
+msgstr ""
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_generic_tax_report.py:0
+#, python-format
+msgid "Journal items with archived tax tags"
+msgstr "Hạng mục bút toán kèm thẻ thuế đã lưu trữ"

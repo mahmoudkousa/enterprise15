@@ -25,7 +25,7 @@ msgstr ""
 #. module: pos_iot
 #: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
 msgid "Accept payments with a Worldline payment terminal"
-msgstr ""
+msgstr "Worldline 결제용 단말기로 결제 승인"
 
 #. module: pos_iot
 #: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
@@ -44,7 +44,7 @@ msgstr "접근"
 #: code:addons/pos_iot/static/src/xml/LastTransactionStatus.xml:0
 #, python-format
 msgid "Action identifier:"
-msgstr ""
+msgstr "작업 식별자"
 
 #. module: pos_iot
 #. openerp-web
@@ -56,7 +56,7 @@ msgstr "금액:"
 #. module: pos_iot
 #: model_terms:ir.ui.view,arch_db:pos_iot.pos_iot_config_view_form
 msgid "Barcode Scanners/Card Readers"
-msgstr ""
+msgstr "바코드 스캐너/카드 리더기"
 
 #. module: pos_iot
 #: model:ir.model.fields,help:pos_iot.field_pos_config__iface_print_via_proxy
@@ -151,7 +151,7 @@ msgstr "전자 저울"
 #: code:addons/pos_iot/static/src/js/LastTransactionStatus.js:0
 #, python-format
 msgid "Electronic payment in progress"
-msgstr ""
+msgstr "전자 결제 진행 중"
 
 #. module: pos_iot
 #: model:ir.model.fields,help:pos_iot.field_pos_config__iface_scan_via_proxy
@@ -253,7 +253,7 @@ msgstr ""
 #: code:addons/pos_iot/static/src/xml/LastTransactionStatus.xml:0
 #, python-format
 msgid "Last Transaction Status"
-msgstr ""
+msgstr "최근 거래 상태"
 
 #. module: pos_iot
 #. openerp-web
@@ -309,14 +309,14 @@ msgstr "단말기가 여전히 연결되어 있는지 확인하십시오."
 msgid ""
 "Please check the network connection and then check the status of the last "
 "transaction manually."
-msgstr ""
+msgstr "네트워크 연결 확인 후 최근 업무 상태를 수기로 클릭하십시오."
 
 #. module: pos_iot
 #. openerp-web
 #: code:addons/pos_iot/static/src/js/Chrome.js:0
 #, python-format
 msgid "Please process or cancel the current transaction."
-msgstr ""
+msgstr "현재 업무를 처리하거나 취소하시기 바랍니다."
 
 #. module: pos_iot
 #: model:ir.model,name:pos_iot.model_pos_config
@@ -353,7 +353,7 @@ msgstr "원격으로 연결된 화면으로 고객에게 체크 아웃을 표시
 #: code:addons/pos_iot/static/src/js/payment.js:0
 #, python-format
 msgid "Terminal Disconnected"
-msgstr ""
+msgstr "터미널 연결이 끊어졌습니다."
 
 #. module: pos_iot
 #. openerp-web
@@ -375,45 +375,45 @@ msgstr "거래는 Ingenico에서 처리합니다. Ingenico 장치를 관련 결�
 msgid ""
 "The transactions are processed by Worldline. Set your Worldline device on "
 "the related payment method."
-msgstr ""
+msgstr "Worldline에서 업무를 처리합니다. 해당 결제 방법에서 Worldline 자격 증명을 설정하십시오. "
 
 #. module: pos_iot
 #. openerp-web
 #: code:addons/pos_iot/static/src/xml/LastTransactionStatus.xml:0
 #, python-format
 msgid "Time:"
-msgstr ""
+msgstr "시간:"
 
 #. module: pos_iot
 #. openerp-web
 #: code:addons/pos_iot/static/src/js/payment.js:0
 #, python-format
 msgid "Transaction could not be cancelled"
-msgstr ""
+msgstr "거래를 취소할 수 없음"
 
 #. module: pos_iot
 #. openerp-web
 #: code:addons/pos_iot/static/src/js/Chrome.js:0
 #, python-format
 msgid "Transaction in progress"
-msgstr ""
+msgstr "업무 진행 중"
 
 #. module: pos_iot
 #: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
 msgid "Worldline"
-msgstr ""
+msgstr "Worldline"
 
 #. module: pos_iot
 #. openerp-web
 #: code:addons/pos_iot/static/src/xml/LastTransactionStatus.xml:0
 #, python-format
 msgid "Worldline - Last Transaction Status"
-msgstr ""
+msgstr "Worldline - 최근 업무 상태"
 
 #. module: pos_iot
 #: model:ir.model.fields,field_description:pos_iot.field_res_config_settings__worldline_payment_terminal
 msgid "Worldline Payment Terminal"
-msgstr ""
+msgstr "Worldline 결제 단말기"
 
 #. module: pos_iot
 #. openerp-web
@@ -422,7 +422,7 @@ msgstr ""
 msgid ""
 "You cannot check the status of the last transaction when a payment in in "
 "progress."
-msgstr ""
+msgstr "결제 진행 중에는 최근 업무 상태를 확인할 수 없습니다."
 
 #. module: pos_iot
 #. openerp-web

@@ -5,7 +5,8 @@
 # Translators:
 # Martin Trigaux, 2021
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2021
-# Lucia Pacheco <lpo@odoo.com>, 2022
+# Lucia Pacheco, 2022
+# Fernanda Alvarez, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:01+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Lucia Pacheco <lpo@odoo.com>, 2022\n"
-"Language-Team: Spanish (Mexico) (https://www.transifex.com/odoo/teams/41243/es_MX/)\n"
+"Last-Translator: Fernanda Alvarez, 2023\n"
+"Language-Team: Spanish (Mexico) (https://app.transifex.com/odoo/teams/41243/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -39,12 +40,12 @@ msgstr "<i class=\"fa fa-heart\" title=\"Me gusta\"/>"
 #. module: social_instagram
 #: model_terms:ir.ui.view,arch_db:social_instagram.instagram_preview
 msgid "<span class=\"font-weight-bold pr-1\">My_instagram_page</span>"
-msgstr "<span class=\"font-weight-bold pr-1\">Mi_perfil_de_instagram</span>"
+msgstr "<span class=\"font-weight-bold pr-1\">My_instagram_page</span>"
 
 #. module: social_instagram
 #: model_terms:ir.ui.view,arch_db:social_instagram.instagram_preview
 msgid "<span class=\"mt-1 font-weight-bold\">My Instagram Page</span>"
-msgstr "<span class=\"mt-1 font-weight-bold\">Mi perfil de instagram</span>"
+msgstr "<span class=\"mt-1 font-weight-bold\">Mi página de Instagram</span>"
 
 #. module: social_instagram
 #: model_terms:ir.ui.view,arch_db:social_instagram.instagram_preview
@@ -54,7 +55,7 @@ msgid ""
 "                <span>More information on:</span>"
 msgstr ""
 "<span>Su imagen debe tener una relación de 4:5 y 1.91:1, como lo requiere instagram.</span><br/>\n"
-"                <span>No redimensionamos su imagen automáticamente para evitar resultados no deseados</span><br/>\n"
+"                <span>No redimensionamos su imagen de forma automática para evitar resultados indeseados.</span><br/>\n"
 "                <span>Para más información visite:</span>"
 
 #. module: social_instagram
@@ -78,7 +79,7 @@ msgstr "ID de la aplicación"
 #. module: social_instagram
 #: model_terms:ir.ui.view,arch_db:social_instagram.res_config_settings_view_form
 msgid "App Secret"
-msgstr "Secreto de aplicación"
+msgstr "Secreto de la aplicación"
 
 #. module: social_instagram
 #. openerp-web
@@ -95,7 +96,7 @@ msgid ""
 "instead of the provided one."
 msgstr ""
 "Marque esto si quiere usar su propia cuenta de desarrollador de Instagram en"
-" lugar de la proporcionada"
+" lugar de la proporcionada."
 
 #. module: social_instagram
 #: model:ir.model,name:social_instagram.model_res_config_settings
@@ -120,8 +121,8 @@ msgid ""
 "Facebook Account ID provided by the Facebook API, this should never be set manually.\n"
 "        The Instagram (\"Professional\") account is always linked to a Facebook account."
 msgstr ""
-"ID de la cuenta de Facebook proporcionada por el API de Facebook, esto jamás se deberá configurar manualmente.\n"
-"La cuenta (\"profesional\") de instagram siempre está vinculada a una cuenta de Facebook."
+"ID de la cuenta de Facebook proporcionada por la API de Facebook, esto jamás se debe configurar manualmente.\n"
+"La cuenta (\"profesional\") de Instagram siempre está vinculada a una cuenta de Facebook."
 
 #. module: social_instagram
 #: model:ir.model.fields.selection,name:social_instagram.selection__social_media__media_type__instagram
@@ -140,8 +141,8 @@ msgid ""
 "Instagram Access Token provided by the Facebook API, this should never be set manually.\n"
 "        It's used to authenticate requests when posting to or reading information from this account."
 msgstr ""
-"Token de acceso a la página de Facebook que dio el API de Facebook, esto se debe configurar manualmente.\n"
-"            Se usa para autentificar peticiones cuando se publica o se lee información de esta cuenta."
+"Token de acceso a Instagram que proporcionó la API de Facebook, esto jamás se debe configurar de forma manual.\n"
+"            Se usa para autentificar solicitudes cuando se publica o se lee información de esta cuenta."
 
 #. module: social_instagram
 #: model_terms:ir.ui.view,arch_db:social_instagram.res_config_settings_view_form
@@ -159,8 +160,8 @@ msgid ""
 "Instagram Account ID provided by the Facebook API, this should never be set "
 "manually."
 msgstr ""
-"ID de la cuenta de Instagram que dio el API de Facebook, esto jamás se "
-"debería configurar manualmente."
+"ID de la cuenta de Instagram que proporcionó la API de Facebook, esto jamás "
+"se debe configurar de forma manual."
 
 #. module: social_instagram
 #: model:ir.model.fields,field_description:social_instagram.field_res_config_settings__instagram_app_id
@@ -245,14 +246,14 @@ msgstr "Tipo de medios"
 #: code:addons/social_instagram/controllers/main.py:0
 #, python-format
 msgid "No Instagram accounts linked with your Facebook page"
-msgstr "No hay cuentas de Instagram vinculadas a tu página de Facebook."
+msgstr "No hay cuentas de Instagram vinculadas a su página de Facebook."
 
 #. module: social_instagram
 #: code:addons/social_instagram/models/social_post.py:0
 #: model_terms:ir.ui.view,arch_db:social_instagram.instagram_preview
 #, python-format
 msgid "Only .jpg/.jpeg images can be posted on Instagram."
-msgstr "Solo se pueden publicar imágenes en formato .jpg/.jpeg en instagram."
+msgstr "Solo puede publicar imágenes en formato .jpg y .jpeg en Instagram."
 
 #. module: social_instagram
 #: model_terms:ir.ui.view,arch_db:social_instagram.instagram_preview
@@ -330,7 +331,7 @@ msgstr "Use su propia cuenta de Instragram"
 msgid "Use your own Instagram Developer Account on our Social app"
 msgstr ""
 "Use su propia cuenta de desarrollador de Instagram en nuestra aplicación "
-"Social"
+"Marketing social"
 
 #. module: social_instagram
 #: model:ir.model.fields,help:social_instagram.field_social_post__instagram_access_token
@@ -347,7 +348,8 @@ msgid ""
 "specific media ('facebook', 'twitter', ...)."
 msgstr ""
 "Se utiliza para hacer comparaciones cuando necesitamos restringir algunas "
-"características para una red social específica ('facebook', 'twitter', ...)."
+"características para una red social específica (\"Facebook\", \"Twitter\", "
+"...)."
 
 #. module: social_instagram
 #: code:addons/social_instagram/models/social_media.py:0

@@ -452,6 +452,9 @@ class HrContractSalary(http.Controller):
                 field_value = int(field_value) if field_value else False
             return field_value
 
+        def _is_valid_date(date):
+            return fields.Date.from_string(date) < fields.Date.from_string('1900-01-01')
+
         personal_infos = request.env['hr.contract.salary.personal.info'].sudo().search([
             '|', ('structure_type_id', '=', False), ('structure_type_id', '=', contract.structure_type_id.id)])
 
@@ -462,6 +465,10 @@ class HrContractSalary(http.Controller):
         address_home_vals = {}
         bank_account_vals = {}
         attachment_create_vals = []
+
+        if employee_infos.get('birthday') and _is_valid_date(employee_infos['birthday']):
+            employee_infos['birthday'] = ''
+
         for personal_info in personal_infos:
             field_name = personal_info.field
 

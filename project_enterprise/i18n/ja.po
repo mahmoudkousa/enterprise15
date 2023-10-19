@@ -34,7 +34,7 @@ msgstr ""
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_gantt
 msgid "<i class=\"fa fa-long-arrow-right\" title=\"Arrow\"/>"
-msgstr ""
+msgstr "<i class=\"fa fa-long-arrow-right\" title=\"Arrow\"/>"
 
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_form
@@ -44,17 +44,17 @@ msgstr "<span class=\"align-middle\">が同じ時間にこの従業員に対し�
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_gantt
 msgid "<strong>Assignees — </strong>"
-msgstr ""
+msgstr "<strong>担当者 — </strong>"
 
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_gantt
 msgid "<strong>Customer — </strong>"
-msgstr ""
+msgstr "<strong>顧客 — </strong>"
 
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_view_gantt
 msgid "<strong>Project — </strong>"
-msgstr ""
+msgstr "<strong>プロジェクト — </strong>"
 
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_map_view
@@ -76,7 +76,7 @@ msgstr "日付"
 #. module: project_enterprise
 #: model:ir.model.fields,field_description:project_enterprise.field_project_task__display_warning_dependency_in_gantt
 msgid "Display Warning Dependency In Gantt"
-msgstr ""
+msgstr "ガントに警告の依存関係を表示する"
 
 #. module: project_enterprise
 #: model:ir.model.fields,field_description:project_enterprise.field_project_task__planned_date_end
@@ -100,7 +100,7 @@ msgstr ""
 #: code:addons/project_enterprise/models/project.py:0
 #, python-format
 msgid "Overlapping Tasks"
-msgstr ""
+msgstr "重複タスク"
 
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_map_view
@@ -121,7 +121,7 @@ msgstr "計画"
 #. module: project_enterprise
 #: model:ir.model.fields,field_description:project_enterprise.field_project_task__planning_overlap
 msgid "Planning Overlap"
-msgstr ""
+msgstr "計画重複"
 
 #. module: project_enterprise
 #: model_terms:ir.ui.view,arch_db:project_enterprise.project_task_map_view
@@ -183,7 +183,7 @@ msgstr "未割当タスク"
 #. module: project_enterprise
 #: model:ir.model.fields,field_description:project_enterprise.field_project_task__user_names
 msgid "User Names"
-msgstr ""
+msgstr "ユーザ名"
 
 #. module: project_enterprise
 #: code:addons/project_enterprise/models/project.py:0

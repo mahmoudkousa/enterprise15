@@ -48,7 +48,7 @@ msgstr "Amazon Marketplace"
 #. module: sale_amazon_spapi
 #: model_terms:ir.ui.view,arch_db:sale_amazon_spapi.authorization_error
 msgid "An error occurred"
-msgstr "Ocorreu um erro"
+msgstr "Houve um erro"
 
 #. module: sale_amazon_spapi
 #: model_terms:ir.ui.view,arch_db:sale_amazon_spapi.authorization_error

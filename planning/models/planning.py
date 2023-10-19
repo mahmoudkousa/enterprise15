@@ -538,7 +538,7 @@ class Planning(models.Model):
             start = start.astimezone(pytz.utc).replace(tzinfo=None)
 
             h, m = divmod(template_id.duration, 1)
-            delta = timedelta(hours=int(h), minutes=int(m * 60))
+            delta = timedelta(hours=int(h), minutes=int(round(m * 60)))
             end = start + delta
         return (start, end)
 

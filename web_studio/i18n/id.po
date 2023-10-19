@@ -3368,7 +3368,7 @@ msgstr "Disimpan"
 #: code:addons/web_studio/static/src/client_action/editor/editor_menu/editor_menu.js:0
 #, python-format
 msgid "Saving"
-msgstr ""
+msgstr "Menyimpan"
 
 #. module: web_studio
 #. openerp-web

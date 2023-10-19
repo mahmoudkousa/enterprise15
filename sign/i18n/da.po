@@ -45,7 +45,7 @@ msgstr ""
 #: code:addons/sign/models/sign_request.py:0
 #, python-format
 msgid "%s has been edited and signed"
-msgstr ""
+msgstr "%s er blevet redigeret og underskrevet"
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -1012,7 +1012,7 @@ msgstr "E-mail"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__subject
 msgid "Email Subject"
-msgstr ""
+msgstr "Mailemne"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -1493,6 +1493,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_main_attachment_id
 msgid "Main Attachment"
 msgstr "Vedhæftning"
+
+#. module: sign
+#: code:addons/sign/models/sign_template.py:0
+#, python-format
+msgid "Malformed expression: %(exp)s"
+msgstr ""
 
 #. module: sign
 #. openerp-web
@@ -2957,6 +2963,15 @@ msgid "There are no signatures request."
 msgstr "Der er ingen underskrifts anmodninger."
 
 #. module: sign
+#: code:addons/sign/models/sign_request.py:0
+#: code:addons/sign/models/sign_request.py:0
+#, python-format
+msgid ""
+"There was an issue downloading your document. Please contact an "
+"administrator."
+msgstr ""
+
+#. module: sign
 #: code:addons/sign/models/sign_template.py:0
 #, python-format
 msgid "This file cannot be read. Is it a valid PDF?"
@@ -3045,6 +3060,14 @@ msgstr "UTC"
 #, python-format
 msgid "Unable to send the SMS, please contact the sender of the document."
 msgstr "Kan ikke sende SMS'en, kontakt venligst afsender af dokumentet."
+
+#. module: sign
+#: code:addons/sign/controllers/main.py:0
+#, python-format
+msgid ""
+"Unable to sign the document due to missing required data. Please contact an "
+"administrator."
+msgstr ""
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_unread

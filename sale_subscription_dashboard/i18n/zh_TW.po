@@ -5,6 +5,7 @@
 # Translators:
 # Martin Trigaux, 2021
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2021
+# Tony Ng, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2021\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Last-Translator: Tony Ng, 2023\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -24,14 +25,14 @@ msgstr ""
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
 #, python-format
 msgid "# Subscriptions"
-msgstr ""
+msgstr "定期訂購數目"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
 #: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
 #, python-format
 msgid "# of Subscriptions"
-msgstr ""
+msgstr "定期訂購數目"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -59,7 +60,7 @@ msgstr ""
 #: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
 #, python-format
 msgid "30 Days Ago"
-msgstr ""
+msgstr "30 天前"
 
 #. module: sale_subscription_dashboard
 #: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.move_line_entries_report_search
@@ -85,7 +86,7 @@ msgstr "套用"
 msgid ""
 "Average revenue of a subscription, obtained by dividing the MRR by the "
 "number of subscriptions"
-msgstr ""
+msgstr "定期訂購計劃的平均收入，由 MRR 每月經常收入除以訂購計劃總數得出"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -100,7 +101,7 @@ msgstr "類別"
 #: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
 #, python-format
 msgid "Churned MRR"
-msgstr ""
+msgstr "已流失 MRR"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -129,7 +130,7 @@ msgstr "目前"
 #: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
 #, python-format
 msgid "Current MRR"
-msgstr ""
+msgstr "目前 MRR"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -207,7 +208,7 @@ msgstr "文件"
 #: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
 #, python-format
 msgid "Down MRR"
-msgstr ""
+msgstr "縮減 MRR"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -222,7 +223,7 @@ msgstr "終止日期："
 #: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
 #, python-format
 msgid "Expansion MRR"
-msgstr ""
+msgstr "加大 MRR"
 
 #. module: sale_subscription_dashboard
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
@@ -232,6 +233,8 @@ msgid ""
 "the average MRR of a subscription by the churn rate (e.g. if your average "
 "MRR is $ 100 and your churn rate is 5%, the LTV will be $ 100/5% = $ 2,000)"
 msgstr ""
+"平均一個定期訂購計劃的預計終身收入，由訂購計劃的平均 MRR（每月經常收入）除以流失率得出（例：如果你的平均 MRR 為 100 元，流失率為 "
+"5%，LTV 終身價值便是 100 ÷ 5% = 2,000 元）"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -245,7 +248,7 @@ msgstr ""
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
 #, python-format
 msgid "Forecasted Annual MRR Growth"
-msgstr ""
+msgstr "預測年度 MRR 增長"
 
 #. module: sale_subscription_dashboard
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
@@ -305,7 +308,7 @@ msgstr ""
 msgid ""
 "It makes no sense to sum MRR of different currencies. Please select "
 "companies with the same currency."
-msgstr ""
+msgstr "將不同貨幣的 MRR 相加是沒有意義的。請選擇貨幣相同的公司。"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -352,7 +355,7 @@ msgstr "線性"
 msgid ""
 "List all invoices containing non-recurring sales and the amount of non-recurring\n"
 "                    revenues in these invoices for this particular salesperson."
-msgstr ""
+msgstr "列出這名銷售人員所有包含非經常性銷售的發票，以及這些發票中的非經常性收入金額。"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -373,7 +376,7 @@ msgstr "載入中..."
 #: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
 #, python-format
 msgid "MRR Growth"
-msgstr ""
+msgstr "MRR 增長"
 
 #. module: sale_subscription_dashboard
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
@@ -381,7 +384,7 @@ msgstr ""
 msgid ""
 "MRR for short; total subscription revenue per month (e.g. for an annual "
 "subscription of $ 1,200, the MRR is $ 100)"
-msgstr ""
+msgstr "簡稱 MRR，每月總訂購收入（例：若訂購年費為 1,200 元，MRR 會是 100 元）"
 
 #. module: sale_subscription_dashboard
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
@@ -425,7 +428,7 @@ msgstr ""
 #: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
 #, python-format
 msgid "Net New MRR"
-msgstr ""
+msgstr "淨新增 MRR"
 
 #. module: sale_subscription_dashboard
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
@@ -439,7 +442,7 @@ msgstr ""
 #: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
 #, python-format
 msgid "New MRR"
-msgstr ""
+msgstr "新增 MRR"
 
 #. module: sale_subscription_dashboard
 #: code:addons/sale_subscription_dashboard/controllers/revenue_kpis_dashboard.py:0
@@ -531,7 +534,7 @@ msgstr "計劃"
 #: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
 #, python-format
 msgid "Previous MRR"
-msgstr ""
+msgstr "上期 MRR"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -545,7 +548,7 @@ msgstr ""
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
 #, python-format
 msgid "Reduction in total MRR over the period"
-msgstr ""
+msgstr "期內總 MRR 減少"
 
 #. module: sale_subscription_dashboard
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
@@ -625,7 +628,7 @@ msgstr "開始日期："
 #: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
 #, python-format
 msgid "Starting MRR:"
-msgstr ""
+msgstr "起始 MRR："
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -766,7 +769,7 @@ msgstr ""
 msgid ""
 "Total subscription revenue per month (e.g. for an annual subscription of $ "
 "1,200, the MRR is $ 100)"
-msgstr ""
+msgstr "每月總訂購收入（例：若訂購年費為 1,200 元，MRR 會是 100 元）"
 
 #. module: sale_subscription_dashboard
 #: code:addons/sale_subscription_dashboard/controllers/revenue_kpis_dashboard.py:0
@@ -794,14 +797,14 @@ msgstr "警告"
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
 #, python-format
 msgid "Yearly version of the MRR, obtained by multiplying the MRR by 12"
-msgstr ""
+msgstr "MRR 每月經常收入的全年合計金額，由 MRR 乘以 12 得出"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
 #: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
 #, python-format
 msgid "churn, your MRR will be"
-msgstr ""
+msgstr "流失，你的 MRR 將是"
 
 #. module: sale_subscription_dashboard
 #. openerp-web

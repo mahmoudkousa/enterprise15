@@ -845,7 +845,7 @@ msgstr "Projet"
 #. module: timesheet_grid
 #: model:ir.model,name:timesheet_grid.model_hr_employee_public
 msgid "Public Employee"
-msgstr "Employé public"
+msgstr "Fonctionnaire"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_hr_timesheet_merge_wizard__unit_amount

@@ -32,7 +32,7 @@ msgstr "E-mail verzonden naar klant."
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__percentage_satisfaction
 msgid "% Happy"
-msgstr "% Blij"
+msgstr "% Tevreden"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_kanban
@@ -1224,7 +1224,7 @@ msgstr "Geautomatiseerde actie"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__auto_close_limit
 msgid "Automatic Closing"
-msgstr "Automatische afsluiting"
+msgstr "Automatische sluiting"
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/models/sale_subscription.py:0
@@ -1395,7 +1395,7 @@ msgstr "Kies een productnaam.<br/><i>(bijv. e-Learning toegang)</i>"
 msgid ""
 "Choose the recurrence for this template.<br/><i>(e.g. 1 time per Year)</i>"
 msgstr ""
-"Kies de herhaling van dit sjabloon. <br/><i>(bijvoorbeeld 1 keer per "
+"Kies de herhaling van deze sjabloon. <br/><i>(bijvoorbeeld 1 keer per "
 "jaar)</i>"
 
 #. module: sale_subscription
@@ -1553,7 +1553,7 @@ msgstr "Maak & bekijk offerte"
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_form
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_form
 msgid "Create Invoice"
-msgstr "Maak factuur"
+msgstr "Factuur maken"
 
 #. module: sale_subscription
 #: model_terms:ir.actions.act_window,help:sale_subscription.product_action_subscription
@@ -1878,7 +1878,7 @@ msgstr "Einddatum"
 #, python-format
 msgid "Enter a name for this template.<br/><i>(e.g. eLearning Yearly)</i>"
 msgstr ""
-"Geef een naam voor dit sjabloon.<br/><i>(bijv. e-Learning jaarlijks)</i>"
+"Geef een naam voor deze sjabloon.<br/><i>(bijv. e-Learning jaarlijks)</i>"
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_stage__description
@@ -1987,7 +1987,7 @@ msgstr "Goede gezondheid"
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
 msgid "Group By"
-msgstr "Groepeer op"
+msgstr "Groeperen op"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_form
@@ -2146,8 +2146,8 @@ msgid ""
 "If set, subscriptions with this template will invoice in this journal; "
 "otherwise the sales journal with the lowest sequence is used."
 msgstr ""
-"Wanneer ingesteld, zullen abonnement met dit sjabloon worden gefactureerd in"
-" dit dagboek; standaard wordt het verkoop dagboek met de laagste reeks "
+"Wanneer ingesteld, zullen abonnement met deze sjabloon worden gefactureerd "
+"in dit dagboek; standaard wordt het verkoop dagboek met de laagste reeks "
 "gekozen."
 
 #. module: sale_subscription
@@ -3286,7 +3286,7 @@ msgstr ""
 #: code:addons/sale_subscription/static/src/js/tours/sale_subscription.js:0
 #, python-format
 msgid "Save this template and the modifications you've made to it."
-msgstr "Sla dit sjabloon op en de wijzigingen die je hierop heeft gemaakt."
+msgstr "Sla deze sjabloon op en de wijzigingen die je hierop heeft gemaakt."
 
 #. module: sale_subscription
 #: model:res.groups,name:sale_subscription.group_sale_subscription_view

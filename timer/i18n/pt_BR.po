@@ -5,6 +5,7 @@
 # Translators:
 # Martin Trigaux, 2021
 # Marcos Rodrigues, 2021
+# Layna Nascimento, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,13 +13,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:56+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Marcos Rodrigues, 2021\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Last-Translator: Layna Nascimento, 2023\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. module: timer
 #: model:ir.model.fields,field_description:timer.field_timer_timer__create_uid
@@ -84,7 +85,7 @@ msgstr "Última atualização em"
 #. module: timer
 #: model:ir.model.constraint,message:timer.constraint_timer_timer_unique_timer
 msgid "Only one timer occurrence by model, record and user"
-msgstr ""
+msgstr "Apenas uma ocorrência de cronômetro por modelo, registro e usuário"
 
 #. module: timer
 #. openerp-web
@@ -96,7 +97,7 @@ msgstr "Play"
 #. module: timer
 #: model:ir.model.fields,field_description:timer.field_timer_timer__res_id
 msgid "Res"
-msgstr ""
+msgstr "Res"
 
 #. module: timer
 #: model:ir.model.fields,field_description:timer.field_timer_timer__res_model
@@ -127,12 +128,12 @@ msgstr "Última Pausa Temporizador"
 #. module: timer
 #: model:ir.model,name:timer.model_timer_mixin
 msgid "Timer Mixin"
-msgstr ""
+msgstr "Mixin do cronômetro"
 
 #. module: timer
 #: model:ir.model,name:timer.model_timer_timer
 msgid "Timer Module"
-msgstr ""
+msgstr "Módulo do cronômetro"
 
 #. module: timer
 #: model:ir.model.fields,field_description:timer.field_timer_mixin__timer_start

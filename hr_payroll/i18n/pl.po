@@ -600,7 +600,7 @@ msgstr "Anuluj"
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_salary_attachment__state__cancel
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_work_entry_report__state__cancelled
 msgid "Cancelled"
-msgstr "Anulowano"
+msgstr "Anulowane"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payslip.py:0
@@ -1371,7 +1371,7 @@ msgstr "Wynagrodzenie brutto"
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_line_filter
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_rule_filter
 msgid "Group By"
-msgstr "Grupuj wg."
+msgstr "Grupuj wg"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_work_entry_type
@@ -3480,6 +3480,16 @@ msgstr "Nieprawidłowy warunek zakresu zdefiniowany dla:"
 #, python-format
 msgid "You can't validate a cancelled payslip."
 msgstr "Nie można zatwierdzić anulowanego paska wypłaty."
+
+#. module: hr_payroll
+#: code:addons/hr_payroll/models/hr_payslip_input_type.py:0
+#, python-format
+msgid ""
+"You cannot delete %s as it is used in another module but you can archive it "
+"instead."
+msgstr ""
+"Nie można usunąć %s, ponieważ jest używany w innym module, ale można go "
+"zarchiwizować."
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payslip_run.py:0

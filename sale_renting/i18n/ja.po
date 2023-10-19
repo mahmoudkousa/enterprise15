@@ -533,7 +533,7 @@ msgstr "グループ化"
 #: model:ir.model.fields,field_description:sale_renting.field_rental_order_wizard__has_late_lines
 #: model:ir.model.fields,field_description:sale_renting.field_sale_order__has_late_lines
 msgid "Has Late Lines"
-msgstr "延滞明細があります"
+msgstr "延滞明細あり"
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_sale_order__has_pickable_lines

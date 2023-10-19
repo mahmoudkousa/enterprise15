@@ -3,8 +3,8 @@
 # 	* documents_l10n_be_hr_payroll
 # 
 # Translators:
-# Martin Trigaux, 2022
 # Friederike Fasterling-Nesselbosch, 2022
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 11:15+0000\n"
 "PO-Revision-Date: 2022-04-08 12:41+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
+"Last-Translator: Martin Trigaux, 2023\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -80,12 +80,13 @@ msgid ""
 msgstr ""
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%; margin:0px auto;\"><tbody>\n"
 "        <tr><td valign=\"top\" style=\"text-align: left; font-size: 14px;\">\n"
-"            Hallo <t t-esc=\"object.name\"/>, unsere 281.45 Erklärung\n"
-" ist für Sie verfügbar you.<br/><br/>\n"
-"Das PDF finden Sie in Ihrem Mitarbeiterportal.<br/>\n"
-"<br/>\n"
-"Wir wünschen Ihnen einen schönen Tag\n"
-"Das HR Team"
+"            Hallo <t t-esc=\"object.name\"/>, unsere 281.45 Erklärung ist für Sie verfügbar you.<br/><br/>\n"
+"            Das PDF finden Sie in Ihrem Mitarbeiterportal.<br/><br/>\n"
+"            Wir wünschen Ihnen einen schönen Tag,<br/>\n"
+"            Das HR Team\n"
+"        </td></tr>\n"
+"    </tbody></table>\n"
+"                "
 
 #. module: documents_l10n_be_hr_payroll
 #: model:mail.template,body_html:documents_l10n_be_hr_payroll.mail_template_individual_account
@@ -102,9 +103,8 @@ msgid ""
 msgstr ""
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%; margin:0px auto;\"><tbody>\n"
 "        <tr><td valign=\"top\" style=\"text-align: left; font-size: 14px;\">\n"
-"           Hallo <t t-esc=\"object.name\"/>, Ihr individuelles Konto ist für Sie verfügbar.<br/><br/>\n"
-"  Das PDF finden Sie in Ihrem Mitarbeiterportal.\n"
-"<br/>\n"
+"            Hallo <t t-esc=\"object.name\"/>, Ihr individuelles Konto ist für Sie verfügbar.<br/><br/>\n"
+"            Das PDF finden Sie in Ihrem Mitarbeiterportal.<br/><br/>\n"
 "            Wir wünschen Ihnen einen schönen Tag,<br/>\n"
 "            Das HR Team\n"
 "        </td></tr>\n"
@@ -161,7 +161,7 @@ msgstr "Lohnbuchhaltung: Individuelles Konto"
 #: model_terms:ir.ui.view,arch_db:documents_l10n_be_hr_payroll.l10n_be_281_10_form_wizard
 #: model_terms:ir.ui.view,arch_db:documents_l10n_be_hr_payroll.l10n_be_281_45_form_wizard
 msgid "Post in Documents"
-msgstr "In \"Dokumente\" buchen"
+msgstr "In Dokumente buchen"
 
 #. module: documents_l10n_be_hr_payroll
 #: code:addons/documents_l10n_be_hr_payroll/wizard/hr_individual_account_reports.py:0

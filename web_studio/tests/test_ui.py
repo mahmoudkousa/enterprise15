@@ -143,3 +143,28 @@ class TestStudioUIUnit(odoo.tests.HttpCase):
 
         self.env.company.country_id.address_view_id = self.env.ref('base.view_partner_address_form')
         self.start_tour("/web?debug=tests", 'web_studio_test_address_view_id_no_edit', login="admin", timeout=200)
+
+    def test_edit_modifier_domain_with_no_literal(self):
+        self.testView.write({
+            "arch": '''
+                <form>
+                    <group>
+                        <field name="display_name"/>
+                        <field name="user_id"/>
+                        <field name="company_name" attrs="{'invisible': &quot;[('user_id', '=', uid)]&quot;}"/>
+                    </group>
+                </form>
+            '''
+        })
+        self.start_tour("/web?debug=tests", 'web_studio_test_edit_modifier_domain_with_no_literal', login="admin")
+        self.assertXMLEqual(self.testView.get_combined_arch(),
+            '''
+                <form>
+                    <group>
+                        <field name="display_name"/>
+                        <field name="user_id"/>
+                        <field name="company_name" attrs="{&quot;invisible&quot;: &quot;[('user_id', '=', uid)]&quot;}" required="1"/>
+                    </group>
+                </form>
+            '''
+        )

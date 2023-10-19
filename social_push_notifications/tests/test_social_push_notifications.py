@@ -16,9 +16,35 @@ class SocialPushNotificationsCase(SocialCase, CronMixinCase):
     @classmethod
     def setUpClass(cls):
         super(SocialPushNotificationsCase, cls).setUpClass()
-        cls.social_accounts.write({
+
+        cls.website_1 = cls.env['website'].create({
+            'name': 'Website 1 WITHOUT push notifications',
+            'domain': 'website1.example.com',
+            'firebase_enable_push_notifications': False,
+        })
+        cls.website_2 = cls.env['website'].create({
+            'name': 'Website 2 WITH push notifications',
+            'domain': 'website2.example.com',
+            'firebase_enable_push_notifications': True,
             'firebase_use_own_account': True,
             'firebase_admin_key_file': base64.b64encode(b'{}')
+        })
+        cls.website_3 = cls.env['website'].create({
+            'name': 'Website 3 WITH push notifications',
+            'domain': 'website3.example.com',
+            'firebase_enable_push_notifications': True,
+            'firebase_use_own_account': True,
+            'firebase_admin_key_file': base64.b64encode(b'{}')
+        })
+        cls.websites = cls.website_1 | cls.website_2 | cls.website_3
+
+        cls.social_accounts = cls.env['social.account'].search(
+            [('website_id', 'in', cls.websites.ids)]
+        )
+
+        cls.social_post.invalidate_cache(['account_allowed_ids'])
+        cls.social_post.write({
+            'account_ids': [(6, 0, cls.social_accounts.filtered(lambda a: a.website_id.id != cls.website_3.id).ids)],
         })
 
     def test_post(self):
@@ -35,8 +61,10 @@ class SocialPushNotificationsCase(SocialCase, CronMixinCase):
                 'name': timezones[i] or 'Visitor',
                 'timezone': timezones[i],
                 'push_token': 'fake_token_%s' % i if i != 0 else False,
+                'website_id': self.websites[i].id if i != 3 else False,
             })
-        visitors = Visitor.create(visitor_vals)
+
+        self.visitors = Visitor.create(visitor_vals)
         self.social_post.create_uid.write({'tz': timezones[0]})
 
         scheduled_date = fields.Datetime.now() - datetime.timedelta(minutes=1)
@@ -63,27 +91,35 @@ class SocialPushNotificationsCase(SocialCase, CronMixinCase):
 
         # check that live posts are correctly created
         live_posts = self.env['social.live.post'].search([('post_id', '=', self.social_post.id)])
+        # make sure live_posts' create_date is before 'now'
+        live_posts.write({'create_date': live_posts[0].create_date - datetime.timedelta(minutes=1)})
         self.assertEqual(len(live_posts), 2)
 
         self.assertTrue(all(live_post.state == 'ready' for live_post in live_posts))
         self.assertEqual(self.social_post.state, 'posting')
 
-        with patch.object(
-             SocialAccountPushNotifications,
-             '_firebase_send_message_from_configuration',
-             lambda self, data, visitors: visitors.mapped('push_token'), []):
+        def _firebase_send_message_from_configuration(this, data, visitors):
+            website = visitors.website_id
+            push_enabled = website.firebase_enable_push_notifications
+            # Ensure that only visitors from the website with push notifications enabled
+            # and linked to the social account are notified
+            self.assertEqual(len(visitors), 1 if push_enabled else 0)
+            if visitors:
+                self.assertEqual(visitors.website_id, self.website_2)
+            return visitors.mapped('push_token'), []
+
+        with patch.object(SocialAccountPushNotifications, '_firebase_send_message_from_configuration',
+             _firebase_send_message_from_configuration):
             live_posts._post_push_notifications()
 
         self.assertFalse(all(live_post.state == 'posted' for live_post in live_posts))
         self.assertEqual(self.social_post.state, 'posting')
 
         # simulate that everyone can receive the push notif (because their time >= time of the one who created the post)
-        visitors.write({'timezone': self.env.user.tz})
+        self.visitors.write({'timezone': self.env.user.tz})
 
-        with patch.object(
-             SocialAccountPushNotifications,
-             '_firebase_send_message_from_configuration',
-             lambda self, data, visitors: visitors.mapped('push_token'), []):
+        with patch.object(SocialAccountPushNotifications, '_firebase_send_message_from_configuration',
+             _firebase_send_message_from_configuration):
             live_posts._post_push_notifications()
 
         self._checkPostedStatus(True)

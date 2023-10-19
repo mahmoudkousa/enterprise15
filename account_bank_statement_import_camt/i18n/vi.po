@@ -3,11 +3,12 @@
 # 	* account_bank_statement_import_camt
 # 
 # Translators:
-# thanhnguyen.icsc <thanhnguyen.icsc@gmail.com>, 2021
+# Nancy Momoland <thanh.np2502@gmail.com>, 2021
 # Dung Nguyen Thi <dungnt@trobz.com>, 2021
 # Martin Trigaux, 2021
 # Duy BQ <duybq86@gmail.com>, 2021
 # Trần Hà <tranthuha13590@gmail.com>, 2021
+# Thi Huong Nguyen, 2023
 # 
 msgid ""
 msgstr ""
@@ -15,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Trần Hà <tranthuha13590@gmail.com>, 2021\n"
-"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Last-Translator: Thi Huong Nguyen, 2023\n"
+"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -143,7 +144,7 @@ msgstr "Account Transfer"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Additional Info: %s"
-msgstr ""
+msgstr "Thông tin bổ sung: %s"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -342,7 +343,7 @@ msgstr "Charges"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Check Number: %s"
-msgstr ""
+msgstr "Số séc: %s"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -762,13 +763,13 @@ msgstr "Dutch Auction"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "End to end ID: %s"
-msgstr ""
+msgstr "ID E2E: %s"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Entry Info: %s"
-msgstr ""
+msgstr "Thông tin bút toán: %s"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -846,6 +847,12 @@ msgstr "Factor Update"
 #, python-format
 msgid "Fees"
 msgstr "Phí"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
+#, python-format
+msgid "Fees, Commission , Taxes, Charges and Interest"
+msgstr "Phí, hoa hồng, thuế, lệ phí và lãi suất"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1015,7 +1022,7 @@ msgstr "Inspeci/Share Exchange"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Instruction ID: %s"
-msgstr ""
+msgstr "ID chỉ dẫn: %s"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1165,7 +1172,7 @@ msgstr "Management Fees"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Mandate ID: %s"
-msgstr ""
+msgstr "ID ủy quyền: %s"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1240,6 +1247,8 @@ msgid ""
 "No exchange rate was found to convert an amount into the currency of the "
 "journal"
 msgstr ""
+"Không tìm thấy tỷ giá hối đoái nào để chuyển đổi số tiền sang loại tiền tệ "
+"của sổ nhật ký"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1463,6 +1472,16 @@ msgstr "Payroll/Salary Payment"
 #, python-format
 msgid "Placement"
 msgstr "Placement"
+
+#. module: account_bank_statement_import_camt
+#: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
+#, python-format
+msgid ""
+"Please check the currency on your bank journal.\n"
+"No statements in currency %s were found in this CAMT file."
+msgstr ""
+"Vui lòng kiểm tra loại tiền tệ trên sổ nhật ký ngân hàng của bạn.\n"
+"Không tìm thấy sao kê nào bằng loại tiền tệ %s trong tệp CAMT này."
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1964,7 +1983,7 @@ msgstr "Transaction Fees"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Transaction ID: %s"
-msgstr ""
+msgstr "ID giao dịch: %s"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0

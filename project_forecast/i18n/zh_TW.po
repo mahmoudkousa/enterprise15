@@ -7,6 +7,7 @@
 # Mandy Choy <mnc@odoo.com>, 2021
 # 226408 台北 <226408@so8d.com>, 2021
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2021
+# Tony Ng, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:01+0000\n"
 "PO-Revision-Date: 2021-09-14 12:42+0000\n"
-"Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2021\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Last-Translator: Tony Ng, 2023\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -96,7 +97,7 @@ msgstr "讓我們通過添加新排班開始您的計劃。"
 #: model_terms:ir.actions.act_window,help:project_forecast.project_forecast_action_from_project
 #: model_terms:ir.actions.act_window,help:project_forecast.project_forecast_action_schedule_by_employee
 msgid "No shifts found. Let's create one!"
-msgstr ""
+msgstr "找不到班次。讓我們創建一個吧！"
 
 #. module: project_forecast
 #: model:ir.model.fields,help:project_forecast.field_planning_slot__forecast_hours
@@ -161,7 +162,7 @@ msgstr "按專案進度"
 #. module: project_forecast
 #: model:ir.actions.act_window,name:project_forecast.project_forecast_action_schedule_by_employee
 msgid "Schedule by Resource"
-msgstr ""
+msgstr "按資源安排"
 
 #. module: project_forecast
 #: code:addons/project_forecast/controllers/main.py:0

@@ -36,7 +36,7 @@ msgstr "Tambah"
 #: code:addons/web_mobile/static/src/xml/contact_sync.xml:0
 #, python-format
 msgid "Add to"
-msgstr ""
+msgstr "Tambahkan ke"
 
 #. module: web_mobile
 #. openerp-web

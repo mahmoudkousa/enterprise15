@@ -7,7 +7,8 @@
 # Talal Albahra <talal.albahra@outlook.com>, 2021
 # Martin Trigaux, 2021
 # Paul Andrawes, 2021
-# Malaz Abuidris <msea@odoo.com>, 2022
+# Wil Odoo, 2023
+# Malaz Abuidris <msea@odoo.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -15,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:42+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Malaz Abuidris <msea@odoo.com>, 2022\n"
-"Language-Team: Arabic (https://www.transifex.com/odoo/teams/41243/ar/)\n"
+"Last-Translator: Malaz Abuidris <msea@odoo.com>, 2023\n"
+"Language-Team: Arabic (https://app.transifex.com/odoo/teams/41243/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1489,6 +1490,12 @@ msgid "Main Attachment"
 msgstr "المرفق الرئيسي"
 
 #. module: sign
+#: code:addons/sign/models/sign_template.py:0
+#, python-format
+msgid "Malformed expression: %(exp)s"
+msgstr "تعبير لم يتم تشكيله بطريقة صحيحة: %(exp)s"
+
+#. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
@@ -2952,6 +2959,15 @@ msgstr "القالب لم يعد موجوداً بعد الآن. "
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "There are no signatures request."
 msgstr "لا توجد طلبات توقيع. "
+
+#. module: sign
+#: code:addons/sign/models/sign_request.py:0
+#: code:addons/sign/models/sign_request.py:0
+#, python-format
+msgid ""
+"There was an issue downloading your document. Please contact an "
+"administrator."
+msgstr "حدثت مشكلة أثناء تنزيل مستندك. يرجى التواصل مع أحد المدراء. "
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0

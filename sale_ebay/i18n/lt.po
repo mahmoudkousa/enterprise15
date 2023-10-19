@@ -13,7 +13,7 @@
 # Martin Trigaux, 2022
 # Anatolij, 2022
 # Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2022
-# Jonas Zinkevicius <jozi@odoo.com>, 2022
+# Jonas Zinkevicius <jozi@odoo.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -21,8 +21,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 11:16+0000\n"
 "PO-Revision-Date: 2021-09-14 12:42+0000\n"
-"Last-Translator: Jonas Zinkevicius <jozi@odoo.com>, 2022\n"
-"Language-Team: Lithuanian (https://www.transifex.com/odoo/teams/41243/lt/)\n"
+"Last-Translator: Jonas Zinkevicius <jozi@odoo.com>, 2023\n"
+"Language-Team: Lithuanian (https://app.transifex.com/odoo/teams/41243/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -521,7 +521,7 @@ msgstr ""
 #. module: sale_ebay
 #: model:ir.model.fields,field_description:sale_ebay.field_res_config_settings__ebay_out_of_stock
 msgid "Out Of Stock"
-msgstr ""
+msgstr "Prekė išparduota"
 
 #. module: sale_ebay
 #: model:ir.model.fields,field_description:sale_ebay.field_product_product__ebay_seller_payment_policy_id

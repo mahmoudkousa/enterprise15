@@ -27,7 +27,7 @@ msgstr ""
 #. module: sale_renting_crm
 #: model_terms:ir.ui.view,arch_db:sale_renting_crm.crm_case_form_view_oppor
 msgid "<span class=\"o_stat_text\"> Rental Orders</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\"> Rental Order</span>"
 
 #. module: sale_renting_crm
 #: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead_rental__lead_id
@@ -47,7 +47,7 @@ msgstr "Konfirmasi"
 #. module: sale_renting_crm
 #: model:ir.model,name:sale_renting_crm.model_crm_lead_rental
 msgid "Convert Lead to Rental Order"
-msgstr ""
+msgstr "Konversikan Lead menjadi Rental Order"
 
 #. module: sale_renting_crm
 #: model:ir.model.fields.selection,name:sale_renting_crm.selection__crm_lead_rental__action__create
@@ -57,7 +57,7 @@ msgstr "Buat pelanggan baru"
 #. module: sale_renting_crm
 #: model_terms:ir.ui.view,arch_db:sale_renting_crm.crm_case_form_view_oppor
 msgid "Create new rental"
-msgstr ""
+msgstr "Buat rental baru"
 
 #. module: sale_renting_crm
 #: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead_rental__create_uid
@@ -119,17 +119,17 @@ msgstr "Link ke pelanggan yang sudah ada"
 #: model_terms:ir.ui.view,arch_db:sale_renting_crm.crm_case_form_view_oppor
 #: model_terms:ir.ui.view,arch_db:sale_renting_crm.crm_lead_rental_view_form
 msgid "New Rental"
-msgstr ""
+msgstr "Rental Baru"
 
 #. module: sale_renting_crm
 #: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__rental_order_count
 msgid "Number of Rental Orders"
-msgstr ""
+msgstr "Jumlah Rental Order"
 
 #. module: sale_renting_crm
 #: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__rental_quotation_count
 msgid "Number of Rental Quotations"
-msgstr ""
+msgstr "Jumlah Quotation Rental"
 
 #. module: sale_renting_crm
 #: model:ir.model.fields,field_description:sale_renting_crm.field_sale_order__opportunity_id
@@ -139,14 +139,14 @@ msgstr "Peluang"
 #. module: sale_renting_crm
 #: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead_rental__action
 msgid "Rental Customer"
-msgstr ""
+msgstr "Pelanggan Rental"
 
 #. module: sale_renting_crm
 #: code:addons/sale_renting_crm/models/crm_lead.py:0
 #: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__rental_order_ids
 #, python-format
 msgid "Rental Orders"
-msgstr ""
+msgstr "Rental Order"
 
 #. module: sale_renting_crm
 #: model_terms:ir.ui.view,arch_db:sale_renting_crm.crm_case_form_view_oppor
@@ -161,7 +161,7 @@ msgstr "Order Penjualan"
 #. module: sale_renting_crm
 #: model:ir.model.fields,field_description:sale_renting_crm.field_crm_lead__rental_amount_total
 msgid "Sum of Rental Orders"
-msgstr ""
+msgstr "Jumlah Rental Order"
 
 #. module: sale_renting_crm
 #: model:ir.model.fields,help:sale_renting_crm.field_crm_lead__rental_amount_total

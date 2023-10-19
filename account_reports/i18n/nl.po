@@ -273,7 +273,7 @@ msgid ""
 "            Group By:"
 msgstr ""
 "<span class=\"fa fa-filter\"/>\n"
-"            Groepeer op:"
+"            Groeperen op:"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_extra_options
@@ -390,12 +390,11 @@ msgstr "<span>Bij sommige relaties missen een btw-nummer.</span>"
 #: model_terms:ir.ui.view,arch_db:account_reports.template_tax_report
 msgid ""
 "<span>This company is part of a tax unit. You're currently not viewing the "
-"whole unit; to change that, tick the \"aggregate\" option of \"tax unit\" "
-"menu.</span>"
+"whole unit. To change that, use the Tax Unit filter.</span>"
 msgstr ""
 "<span>Dit bedrijf maakt deel uit van een fiscale eenheid. Je bekijkt "
-"momenteel niet het hele eenheid; om dat te veranderen, vink de “samenvoegen”"
-" optie van het “fiscale eenheid” menu aan.</span>"
+"momenteel niet de hele eenheid. Gebruik de filter Fiscale eenheid om dat te "
+"wijzigen.</span>"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.template_multicurrency_report
@@ -1805,17 +1804,17 @@ msgstr "Bruto winst marge (bruto marge / operationele omzet)"
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__groupby
 msgid "Group by"
-msgstr "Groepeer op"
+msgstr "Groeperen op"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_tax_report_choser
 msgid "Group by: Account &gt; Tax"
-msgstr "Groepeer op: Rekening &gt; BTW"
+msgstr "Groeperen op: Rekening &gt; BTW"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_tax_report_choser
 msgid "Group by: Tax &gt; Account"
-msgstr "Groepeer op: BTW &gt; Rekening"
+msgstr "Groeperen op: BTW &gt; Rekening"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_financial_report.py:0
@@ -1826,7 +1825,7 @@ msgstr "Groupby-veld %s is ongeldig op regel met naam '%s'"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.filter_info_template
 msgid "Groupby:"
-msgstr "Groepeer op:"
+msgstr "Groeperen op:"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__hide_if_empty

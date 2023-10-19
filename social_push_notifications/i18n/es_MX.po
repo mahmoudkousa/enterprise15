@@ -84,7 +84,7 @@ msgstr "Dominio desde el cual se envían notificaciones push a los visitantes."
 #: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_enable_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_enable_push_notifications
 msgid "Enable Web Push Notifications"
-msgstr "Activar las notificaciones push del sitio web"
+msgstr "Habilitar las notificaciones push del sitio web"
 
 #. module: social_push_notifications
 #: code:addons/social_push_notifications/controllers/main.py:0
@@ -240,7 +240,7 @@ msgstr "Número de notificaciones push"
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
 msgid "Project ID"
-msgstr "Identificador de proyecto"
+msgstr "ID del proyecto"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.website_visitor_view_kanban
@@ -261,7 +261,7 @@ msgstr "Imagen del icono push"
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.utm_campaign_view_form
 msgid "Push Notification"
-msgstr "Notificación Push"
+msgstr "Notificación push"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.website_visitor_view_search
@@ -303,7 +303,7 @@ msgstr "Vista previa de las notificaciones push"
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_website_visitor__push_token
 msgid "Push Subscription"
-msgstr "Suscripción Push"
+msgstr "Suscripción push"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_post__push_notification_target_url
@@ -357,7 +357,7 @@ msgstr "ID del remitente"
 #. module: social_push_notifications
 #: model:ir.model,name:social_push_notifications.model_social_account
 msgid "Social Account"
-msgstr "Cuenta social"
+msgstr "Cuenta de red social"
 
 #. module: social_push_notifications
 #: model:ir.model,name:social_push_notifications.model_social_live_post
@@ -407,7 +407,7 @@ msgstr "Ya existe una configuración para este sitio web."
 msgid ""
 "This firebase configuration will only be used for the specified website"
 msgstr ""
-"Esta configuración de firebase se utilizará únicamente para el sitio web "
+"Esta configuración de Firebase se utilizará solo para el sitio web "
 "especificado"
 
 #. module: social_push_notifications
@@ -424,7 +424,7 @@ msgstr "Título"
 #. module: social_push_notifications
 #: model:ir.model,name:social_push_notifications.model_utm_campaign
 msgid "UTM Campaign"
-msgstr "Campaña de UTM"
+msgstr "Campaña UTM"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
@@ -447,7 +447,8 @@ msgid ""
 "specific media ('facebook', 'twitter', ...)."
 msgstr ""
 "Se utiliza para hacer comparaciones cuando necesitamos restringir algunas "
-"características para una red social específica ('facebook', 'twitter', ...)."
+"características para una red social específica (\"Facebook\", \"Twitter\", "
+"...)."
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_post__visitor_domain
@@ -518,22 +519,22 @@ msgstr ""
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
 msgid "e.g. \"280765099157\""
-msgstr "por ejemplo, \"280765099157\""
+msgstr "Por ejemplo, \"280765099157\""
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
 msgid "e.g. \"BIzbSyXhhsFHEgphW55CSg5cV7h7c_S-AuTMKc9\""
-msgstr "por ejemplo, \"BIzbSyXhhsFHEgphW55CSg5cV7h7c_S-AuTMKc9\""
+msgstr "Por ejemplo, \"BIzbSyXhhsFHEgphW55CSg5cV7h7c_S-AuTMKc9\""
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
 msgid "e.g. \"CCSc77KP_LX8dTAogFakOoJ_VqNP15u0-43psDJe__a9B...\""
-msgstr "por ejemplo, \"CCSc77KP_LX8dTAogFakOoJ_VqNP15u0-43psDJe__a9B...\""
+msgstr "Por ejemplo, \"CCSc77KP_LX8dTAogFakOoJ_VqNP15u0-43psDJe__a9B...\""
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
 msgid "e.g. \"my-project-id\""
-msgstr "por ejemplo, \"my-project-id\""
+msgstr "Por ejemplo, \"my-project-id\""
 
 #. module: social_push_notifications
 #: model:ir.model.fields,help:social_push_notifications.field_social_post__use_visitor_timezone
@@ -542,5 +543,5 @@ msgid ""
 "e.g: If you post at 15:00 your time, all visitors will receive the post at "
 "15:00 their time."
 msgstr ""
-"por ejemplo, si publica a las 15:00 de su hora local, todos los visitantes "
+"Por ejemplo, si publica a las 15:00 de su hora local, todos los visitantes "
 "recibirán el mensaje a las 15:00 de su hora."

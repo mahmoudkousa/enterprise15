@@ -9,6 +9,7 @@ import {
     waitForEvaluation,
 } from "./spreadsheet_test_utils";
 import { nextTick } from "web.test_utils";
+import spreadsheet from "documents_spreadsheet.spreadsheet";
 
 QUnit.module("documents_spreadsheet > list_autofill", {}, () => {
     QUnit.test("Autofill list values", async function (assert) {
@@ -135,5 +136,36 @@ QUnit.module("documents_spreadsheet > list_autofill", {}, () => {
         assert.strictEqual(getTooltip("A3", true), "Foo");
         assert.strictEqual(getTooltip("A1", false), "Foo");
         assert.strictEqual(getTooltip("A1", true), "Foo");
+    });
+
+    QUnit.test("Autofill list formula with missing listId", async function (assert) {
+        const model = new spreadsheet.Model({
+            sheets: [
+                {
+                    colNumber: 1,
+                    rowNumber: 2,
+                    cells: {
+                        A1: { content: '=LIST("1","1","date")' },
+                        B1: { content: '=LIST.HEADER("1","date")' },
+                    },
+                },
+            ],
+        });
+        assert.strictEqual(
+            getListAutofillValue(model, "A1", { direction: "bottom", steps: 1 }),
+            '=LIST("1","1","date")'
+        );
+        assert.strictEqual(
+            getListAutofillValue(model, "B1", { direction: "bottom", steps: 1 }),
+            '=LIST.HEADER("1","date")'
+        );
+        assert.strictEqual(
+            model.getters.getTooltipListFormula(getCellFormula(model, "A1"), false),
+            "Missing list #1"
+        );
+        assert.strictEqual(
+            model.getters.getTooltipListFormula(getCellFormula(model, "B1"), false),
+            "Missing list #1"
+        );
     });
 });

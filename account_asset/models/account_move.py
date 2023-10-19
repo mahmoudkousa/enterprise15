@@ -149,7 +149,7 @@ class AccountMove(models.Model):
                             vals['name'] = move_line.name + _(" (%s of %s)", i, units_quantity)
                         create_list.extend([vals.copy()])
 
-        assets = self.env['account.asset'].create(create_list)
+        assets = self.env['account.asset'].with_context({}).create(create_list)
         for asset, vals, invoice, validate in zip(assets, create_list, invoice_list, auto_validate):
             if 'model_id' in vals:
                 asset._onchange_model_id()

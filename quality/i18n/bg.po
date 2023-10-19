@@ -603,7 +603,7 @@ msgstr ""
 #: code:addons/quality/models/quality.py:478
 #, python-format
 msgid "New"
-msgstr "Nieuw"
+msgstr "Нов"
 
 #. module: quality
 #: selection:quality.check,measure_success:0

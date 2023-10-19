@@ -1694,7 +1694,7 @@ msgstr ""
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_tag__name
 msgid "Tag Name"
-msgstr "Nazwa znacznika"
+msgstr "Nazwa tagu"
 
 #. module: mrp_plm
 #: model:ir.model.constraint,message:mrp_plm.constraint_mrp_eco_tag_name_uniq
@@ -1705,7 +1705,7 @@ msgstr "Nazwa znacznika już istnieje!"
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__tag_ids
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_tag_view_tree
 msgid "Tags"
-msgstr "Znaczniki"
+msgstr "Tagi"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_stage_view_form

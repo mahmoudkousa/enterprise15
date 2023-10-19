@@ -42,7 +42,7 @@ msgstr ""
 #: code:addons/social_push_notifications/static/src/xml/social_push_notifications_templates.xml:0
 #, python-format
 msgid "Allow"
-msgstr ""
+msgstr "Izinkan"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
@@ -64,7 +64,7 @@ msgstr "Tunda"
 #: code:addons/social_push_notifications/static/src/xml/social_push_notifications_templates.xml:0
 #, python-format
 msgid "Deny"
-msgstr ""
+msgstr "Tola"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_post__display_push_notification_attributes
@@ -172,7 +172,7 @@ msgstr "Waktu Lokal"
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_media__media_type
 msgid "Media Type"
-msgstr ""
+msgstr "Tipe Media"
 
 #. module: social_push_notifications
 #. openerp-web
@@ -230,7 +230,7 @@ msgstr "Notifikasi"
 #: code:addons/social_push_notifications/static/src/js/push_preview.js:0
 #, python-format
 msgid "Notifications blocked"
-msgstr ""
+msgstr "Notifikasi diblokir"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_marketing_campaign__social_push_notifications_count
@@ -354,12 +354,12 @@ msgstr ""
 #. module: social_push_notifications
 #: model:ir.model,name:social_push_notifications.model_social_account
 msgid "Social Account"
-msgstr ""
+msgstr "Akun Sosial"
 
 #. module: social_push_notifications
 #: model:ir.model,name:social_push_notifications.model_social_live_post
 msgid "Social Live Post"
-msgstr ""
+msgstr "Social Live Post"
 
 #. module: social_push_notifications
 #: model:ir.model,name:social_push_notifications.model_social_media
@@ -374,7 +374,7 @@ msgstr "Post Sosial"
 #. module: social_push_notifications
 #: model:ir.model,name:social_push_notifications.model_social_post_template
 msgid "Social Post Template"
-msgstr ""
+msgstr "Social Post Template"
 
 #. module: social_push_notifications
 #: code:addons/social_push_notifications/models/website_visitor.py:0
@@ -385,7 +385,7 @@ msgstr ""
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.social_post_template_view_form
 msgid "Target URL"
-msgstr ""
+msgstr "URL Target"
 
 #. module: social_push_notifications
 #. openerp-web
@@ -439,6 +439,8 @@ msgid ""
 "Used to make comparisons when we need to restrict some features to a "
 "specific media ('facebook', 'twitter', ...)."
 msgstr ""
+"Digunakan untuk membuat perbandingan saat kita harus membatasi beberapa "
+"fitur ke media spesifik ('facebook', 'twitter', ...)."
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_post__visitor_domain

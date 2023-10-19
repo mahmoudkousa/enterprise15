@@ -17,7 +17,7 @@
 # Carles Antoli <carlesantoli@hotmail.com>, 2022
 # marcescu, 2022
 # oscaryuu, 2022
-# jabelchi, 2022
+# Josep Anton Belchi, 2022
 # jabiri7, 2022
 # Susanna Pujol, 2023
 # Óscar Fonseca <tecnico@extreme-micro.com>, 2023
@@ -399,12 +399,8 @@ msgstr "<span>Alguns socis manquen d'un número d'IVA.</span>"
 #: model_terms:ir.ui.view,arch_db:account_reports.template_tax_report
 msgid ""
 "<span>This company is part of a tax unit. You're currently not viewing the "
-"whole unit; to change that, tick the \"aggregate\" option of \"tax unit\" "
-"menu.</span>"
+"whole unit. To change that, use the Tax Unit filter.</span>"
 msgstr ""
-"<span>Aquesta empresa forma part d'una unitat fiscal. Actualment no esteu "
-"veient tota la unitat; per canviar-ho, marqueu l'opció \"agregat\" del menú "
-"\"unitat d'impostos\".</span>"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.template_multicurrency_report

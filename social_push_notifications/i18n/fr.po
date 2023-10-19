@@ -92,7 +92,7 @@ msgstr "Activer les Push Notifications"
 #, python-format
 msgid "Enable push notifications to be notified about new features."
 msgstr ""
-"Activez les notifications push pour être informé des nouvelles "
+"Activer les notifications push pour être informé des nouvelles "
 "fonctionnalités."
 
 #. module: social_push_notifications

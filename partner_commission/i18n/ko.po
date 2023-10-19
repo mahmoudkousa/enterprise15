@@ -8,6 +8,7 @@
 # Link Up링크업 <linkup.way@gmail.com>, 2021
 # Linkup <link-up@naver.com>, 2021
 # Mark Lee <odoos@soti.33mail.com>, 2021
+# Sarah Park, 2023
 # 
 msgid ""
 msgstr ""
@@ -15,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:41+0000\n"
-"Last-Translator: Mark Lee <odoos@soti.33mail.com>, 2021\n"
-"Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
+"Last-Translator: Sarah Park, 2023\n"
+"Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -47,7 +48,7 @@ msgstr "활성"
 #. module: partner_commission
 #: model:res.groups,name:partner_commission.group_commission_manager
 msgid "All Documents"
-msgstr ""
+msgstr "모든 문서"
 
 #. module: partner_commission
 #: model_terms:ir.ui.view,arch_db:partner_commission.commission_plan_search_view
@@ -252,7 +253,7 @@ msgstr "주어진 경우 가격표의 통화로 지정된 최대 금액입니다
 #: model:ir.model.fields,field_description:partner_commission.field_res_company__commission_po_minimum
 #: model:ir.model.fields,field_description:partner_commission.field_res_config_settings__commission_po_minimum
 msgid "Minimum Total Amount for PO commission"
-msgstr ""
+msgstr "PO 커미션 최소 합계액"
 
 #. module: partner_commission
 #: model:ir.model.fields.selection,name:partner_commission.selection__res_company__commission_automatic_po_frequency__monthly
@@ -325,7 +326,7 @@ msgstr "발주서"
 #. module: partner_commission
 #: model:ir.model.fields,field_description:partner_commission.field_purchase_order__purchase_type
 msgid "Purchase Type"
-msgstr ""
+msgstr "구매 유형"
 
 #. module: partner_commission
 #: model:ir.model.fields.selection,name:partner_commission.selection__res_company__commission_automatic_po_frequency__quarterly
@@ -414,7 +415,7 @@ msgstr "이 등급에 사용되는 기본 수수료 계획. 협력사 양식을 
 msgid ""
 "The required minimum amount total needed to automatically confirm purchase "
 "orders"
-msgstr ""
+msgstr "구매발주서 자동 확인에 필요한 최소 금액"
 
 #. module: partner_commission
 #: model:product.product,uom_name:partner_commission.product_commission

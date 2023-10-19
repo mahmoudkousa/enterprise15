@@ -5,8 +5,8 @@
 # Translators:
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
-# Marianna Ciofani, 2023
 # Sergio Zanchetta <primes2h@gmail.com>, 2023
+# Marianna Ciofani, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 08:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:41+0000\n"
-"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2023\n"
+"Last-Translator: Marianna Ciofani, 2023\n"
 "Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -51,6 +51,9 @@ msgid ""
 " duplicate it instead.</i> <b>Adjust the size</b> of the shift to modify its"
 " period."
 msgstr ""
+"<b>Trascina e rilascia</b> i turni per pianificarli. <i>Consiglio: premi "
+"CTRL (o Cmd) per duplicarli.</i> <b>Regola le dimensioni</b> del turno per "
+"modificarne la durata."
 
 #. module: planning
 #. openerp-web
@@ -544,7 +547,7 @@ msgstr "Conferma eliminazione fasce orarie"
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__conflicting_slot_ids
 msgid "Conflicting Slot"
-msgstr ""
+msgstr "Slot in conflitto"
 
 #. module: planning
 #. openerp-web
@@ -818,7 +821,7 @@ msgstr "Genera turni"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.brand_promotion
 msgid "Give depth to your"
-msgstr ""
+msgstr "Dai spessore ai tuoi"
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_slot_template_view_search
@@ -910,7 +913,7 @@ msgstr "Include turni aperti"
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__is_hatched
 msgid "Is Hatched"
-msgstr ""
+msgstr "È tratteggiato"
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__is_assigned_to_me
@@ -925,7 +928,7 @@ msgstr "Questo turno è nel passato?"
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__is_unassign_deadline_passed
 msgid "Is unassignement deadline not past"
-msgstr ""
+msgstr "La data limite per eliminare l'assegnazione non è passata"
 
 #. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_slot__job_title
@@ -980,7 +983,8 @@ msgstr "Consenti annullamento assegnazione ai dipendenti"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.res_config_settings_view_form
 msgid "Let employees unassign themselves from shifts"
-msgstr "Permetterei ai dipendenti di disassegnarsi dai turni"
+msgstr ""
+"Permetti ai dipendenti di annullare l'assegnazione dei turni in autonomia"
 
 #. module: planning
 #: model:ir.model.fields,help:planning.field_planning_planning__allow_self_unassign
@@ -1112,7 +1116,7 @@ msgstr "Turni aperti disponibili"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_search
 msgid "Open Shifts for my Roles"
-msgstr ""
+msgstr "Turni aperti per i miei ruoli"
 
 #. module: planning
 #: code:addons/planning/models/planning.py:0
@@ -1654,7 +1658,7 @@ msgstr "I turni sono stati pubblicati con successo."
 #: code:addons/planning/models/planning_template.py:0
 #, python-format
 msgid "The start hour must be greater or equal to 0 and lower than 24."
-msgstr ""
+msgstr "L'ora di inizio deve essere maggiore o uguale a 0 e minore di 24."
 
 #. module: planning
 #. openerp-web

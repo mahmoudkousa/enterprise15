@@ -7,8 +7,8 @@
 # JH CHOI <hwangtog@gmail.com>, 2021
 # Link Up링크업 <linkup.way@gmail.com>, 2021
 # Linkup <link-up@naver.com>, 2021
-# Sarah Park, 2023
 # Daye Jeong, 2023
+# Sarah Park, 2023
 # 
 msgid ""
 msgstr ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 09:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:40+0000\n"
-"Last-Translator: Daye Jeong, 2023\n"
+"Last-Translator: Sarah Park, 2023\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -96,6 +96,9 @@ msgid ""
 "                                Signed\n"
 "                            </span>"
 msgstr ""
+"<span style=\"                                 font-size: 10px;                                 color: #fff;                                 text-transform: uppercase;                                 text-align: center;                                 font-weight: bold; line-height: 20px;                                 transform: rotate(45deg);                                 width: 100px; height: auto; display: block;                                 background: green;                                 position: absolute;                                 top: 19px; right: -21px; left: auto;                                 padding: 0;\">\n"
+"                                서명함\n"
+"                            </span>"
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
@@ -105,7 +108,7 @@ msgstr "<strong>고객 : </strong>"
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_task_view_gantt_fsm_worksheet
 msgid "<strong>Template — </strong>"
-msgstr ""
+msgstr "<strong>서식 — </strong>"
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
@@ -158,7 +161,7 @@ msgstr "고객 리뷰"
 #. module: industry_fsm_report
 #: model_terms:ir.actions.act_window,help:industry_fsm_report.fsm_worksheets_action_settings
 msgid "Customize worksheet templates for each type of intervention.<br>"
-msgstr ""
+msgstr "개입 유형별 워크시트 서식을 커스터마이징합니다.<br>"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field7
@@ -192,27 +195,27 @@ msgstr "중재에 대한 설명"
 #. module: industry_fsm_report
 #: model:ir.model,name:industry_fsm_report.model_x_custom_worksheet_x_project_task_worksheet_template_3
 msgid "Device Installation and Maintenance"
-msgstr ""
+msgstr "장치 설치 및 유지관리"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__display_send_report_primary
 msgid "Display Send Report Primary"
-msgstr ""
+msgstr "기본 보고서 전송 표시"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__display_send_report_secondary
 msgid "Display Send Report Secondary"
-msgstr ""
+msgstr "2차 보고서 전송 표시"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__display_sign_report_primary
 msgid "Display Sign Report Primary"
-msgstr ""
+msgstr "기본 보고서 서명 표시"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__display_sign_report_secondary
 msgid "Display Sign Report Secondary"
-msgstr ""
+msgstr "2차 보고서 서명 표시"
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_worksheet
@@ -235,14 +238,14 @@ msgstr "작업에 대해 사용자 정의 가능한 작업 계획표를 활성�
 #: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report.js:0
 #, python-format
 msgid "Fill in your <b>worksheet</b> with the details of your intervention."
-msgstr ""
+msgstr "<b>중재</b>에 관한 세부 사항을 작업 계획표에 기입하십시오."
 
 #. module: industry_fsm_report
 #. openerp-web
 #: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report.js:0
 #, python-format
 msgid "Go back to your Field Service <b>task</b>."
-msgstr ""
+msgstr "현장 서비스 <b>작업</b>으로 돌아갑니다."
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
@@ -307,7 +310,7 @@ msgstr "작업이 없습니다."
 #. module: industry_fsm_report
 #: model_terms:ir.actions.act_window,help:industry_fsm_report.fsm_worksheets_action_settings
 msgid "No worksheet templates found. Let's create one!"
-msgstr ""
+msgstr "워크시트 서식을 찾을 수 없습니다. 지금 생성합니다!"
 
 #. module: industry_fsm_report
 #: model:ir.actions.act_window,name:industry_fsm_report.project_task_action_fsm_planning_groupby_worksheet
@@ -355,7 +358,7 @@ msgstr "보고서 보내기"
 #: code:addons/industry_fsm_report/models/project.py:0
 #, python-format
 msgid "Send report"
-msgstr ""
+msgstr "보고서 보내기"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field6
@@ -429,7 +432,7 @@ msgstr "작업용 작업 계획표 사용자 정의 보고서"
 #: code:addons/industry_fsm_report/controllers/portal.py:0
 #, python-format
 msgid "The worksheet has been signed"
-msgstr ""
+msgstr "작업 계획표가 서명되었습니다"
 
 #. module: industry_fsm_report
 #: code:addons/industry_fsm_report/controllers/portal.py:0
@@ -441,7 +444,7 @@ msgstr "작업 계획표의 단계가 고객 서명이 필요한 상태가 아�
 #: code:addons/industry_fsm_report/models/project.py:0
 #, python-format
 msgid "There are no reports to send."
-msgstr ""
+msgstr "전송할 보고서가 없습니다."
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
@@ -466,7 +469,7 @@ msgstr ""
 #: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report.js:0
 #, python-format
 msgid "Validate the <b>signature</b>."
-msgstr ""
+msgstr "<b>서명</b>을 확인합니다."
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_task
@@ -476,7 +479,7 @@ msgstr "작업 계획표 보기"
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
 msgid "Worker"
-msgstr ""
+msgstr "작업자"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field8

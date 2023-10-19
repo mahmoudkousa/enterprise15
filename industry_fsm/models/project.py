@@ -65,7 +65,7 @@ class Task(models.Model):
                 today = fields.Date.context_today(self)
                 date_begin = datetime.combine(today, time(0, 0, 0))
                 date_end = datetime.combine(today, time(23, 59, 59))
-            if date_diff.seconds / 3600 > 23.5:
+            if date_diff.total_seconds() / 3600 > 23.5:
                 # if the interval between both dates are more than 23 hours and 30 minutes
                 # then we changes those dates to fit with the working schedule of the assigned user or the current company
                 # because we assume here, the planned dates are not the ones chosen by the current user.

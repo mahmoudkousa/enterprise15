@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Jumshud Sultanov <cumshud@gmail.com>, 2022
-# erpgo translator <jumshud@erpgo.az>, 2022
+# erpgo translator <jumshud@erpgo.az>, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 11:16+0000\n"
 "PO-Revision-Date: 2021-09-14 12:40+0000\n"
-"Last-Translator: erpgo translator <jumshud@erpgo.az>, 2022\n"
-"Language-Team: Azerbaijani (https://www.transifex.com/odoo/teams/41243/az/)\n"
+"Last-Translator: erpgo translator <jumshud@erpgo.az>, 2023\n"
+"Language-Team: Azerbaijani (https://app.transifex.com/odoo/teams/41243/az/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -97,7 +97,7 @@ msgstr ""
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__date_assign
 msgid "Assignment Date"
-msgstr ""
+msgstr "Tapşırıq Tarixi"
 
 #. module: industry_fsm
 #: model:project.task,legend_blocked:industry_fsm.planning_task_0

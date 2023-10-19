@@ -10,9 +10,10 @@
 # Jaroslav Helemik Nemec <nemec@helemik.cz>, 2021
 # Michal Veselý <michal@veselyberanek.net>, 2021
 # milda dvorak <milda.dvorak@optimal4.cz>, 2021
-# Rastislav Brencic <rastislav.brencic@azet.sk>, 2021
 # karolína schusterová <karolina.schusterova@vdp.sk>, 2021
-# trendspotter <jirka.p@volny.cz>, 2021
+# Jiří Podhorecký, 2021
+# Rastislav Brencic <rastislav.brencic@azet.sk>, 2023
+# Tomáš Píšek, 2023
 # 
 msgid ""
 msgstr ""
@@ -20,8 +21,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: trendspotter <jirka.p@volny.cz>, 2021\n"
-"Language-Team: Czech (https://www.transifex.com/odoo/teams/41243/cs/)\n"
+"Last-Translator: Tomáš Píšek, 2023\n"
+"Language-Team: Czech (https://app.transifex.com/odoo/teams/41243/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -59,13 +60,13 @@ msgstr "%s vytvořeno z faktury"
 #: code:addons/account_asset/report/account_assets_report.py:0
 #, python-format
 msgid "%s m"
-msgstr ""
+msgstr "%s m"
 
 #. module: account_asset
 #: code:addons/account_asset/report/account_assets_report.py:0
 #, python-format
 msgid "%s y"
-msgstr ""
+msgstr "%s r"
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:0
@@ -608,32 +609,32 @@ msgstr "Vytvořit jako koncept"
 #. module: account_asset
 #: model_terms:ir.actions.act_window,help:account_asset.action_account_asset_form
 msgid "Create new asset"
-msgstr ""
+msgstr "Vytvořit nový majetek"
 
 #. module: account_asset
 #: model_terms:ir.actions.act_window,help:account_asset.action_account_asset_model_form
 msgid "Create new asset model"
-msgstr ""
+msgstr "Vytvořit nový model majetku"
 
 #. module: account_asset
 #: model_terms:ir.actions.act_window,help:account_asset.action_account_expense_form
 msgid "Create new deferred expense"
-msgstr ""
+msgstr "Vytvořit nový odložený náklad"
 
 #. module: account_asset
 #: model_terms:ir.actions.act_window,help:account_asset.action_account_expense_model_form
 msgid "Create new deferred expense model"
-msgstr ""
+msgstr "Vytvořit nový model odložených nákladů"
 
 #. module: account_asset
 #: model_terms:ir.actions.act_window,help:account_asset.action_account_revenue_form
 msgid "Create new deferred revenue"
-msgstr ""
+msgstr "Vytvořit nový odložený výnos"
 
 #. module: account_asset
 #: model_terms:ir.actions.act_window,help:account_asset.action_account_revenue_model_form
 msgid "Create new deferred revenue model"
-msgstr ""
+msgstr "Vytvořit nový model odložených výnosů"
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__create_uid
@@ -1029,7 +1030,7 @@ msgstr "Trvání"
 #: code:addons/account_asset/report/account_assets_report.py:0
 #, python-format
 msgid "Duration / Rate"
-msgstr ""
+msgstr "Trvání / četnost"
 
 #. module: account_asset
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
@@ -2133,6 +2134,16 @@ msgid ""
 msgstr ""
 "Nemůžete vytvořit aktivum z řádků obsahujících kredit a debet na účtu nebo s"
 " nulovou částkou"
+
+#. module: account_asset
+#: code:addons/account_asset/models/account_asset.py:0
+#, python-format
+msgid ""
+"You cannot delete an asset linked to posted entries.\n"
+"You should either confirm the asset, then, sell or dispose of it, or cancel the linked journal entries."
+msgstr ""
+"Nemůžete odstranit dílo spojené s zaúčtovanými položkami.\n"
+"Aktivitu byste měli buď potvrdit, poté prodat nebo zlikvidovat nebo zrušit propojené vnitřní účetní doklady."
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:0

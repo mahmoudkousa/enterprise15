@@ -19,7 +19,6 @@
 # Andrzej Wiśniewski <a.wisniewski@hadron.eu.com>, 2021
 # Grzegorz Krukar <grzegorzgk1@gmail.com>, 2021
 # Piotr Cierkosz <piotr.w.cierkosz@gmail.com>, 2021
-# Paweł Wodyński <pw@myodoo.pl>, 2021
 # Maksym <ms@myodoo.pl>, 2021
 # Natalia Gros <nag@odoo.com>, 2021
 # Dawid Prus, 2021
@@ -365,7 +364,7 @@ msgstr "Przyszłe czynności"
 #. module: quality
 #: model_terms:ir.ui.view,arch_db:quality.quality_alert_view_search
 msgid "Group By"
-msgstr "Grupuj wg."
+msgstr "Grupuj wg"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__has_message
@@ -946,12 +945,12 @@ msgstr ""
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_tag__name
 msgid "Tag Name"
-msgstr "Nazwa znacznika"
+msgstr "Nazwa tagu"
 
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_alert__tag_ids
 msgid "Tags"
-msgstr "Znaczniki"
+msgstr "Tagi"
 
 #. module: quality
 #. openerp-web
@@ -1135,4 +1134,4 @@ msgstr "Awaria centrum roboczego"
 #. module: quality
 #: model:ir.model.fields,field_description:quality.field_quality_point_test_type__active
 msgid "active"
-msgstr "aktywny"
+msgstr "aktywne"

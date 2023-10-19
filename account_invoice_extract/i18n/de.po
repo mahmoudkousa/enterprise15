@@ -3,8 +3,8 @@
 # 	* account_invoice_extract
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
+# Martin Trigaux, 2023
 # Larissa Manderfeld, 2023
 # 
 msgid ""
@@ -103,7 +103,7 @@ msgstr "Kann den ocr erneut senden Button anzeigen"
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_move__extract_can_show_send_button
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_payment__extract_can_show_send_button
 msgid "Can show the ocr send button"
-msgstr "Kann den ocr senden Button zeigen"
+msgstr "Kann Schaltfläche zum OCR-Versand anzeigen"
 
 #. module: account_invoice_extract
 #: model:ir.model,name:account_invoice_extract.model_res_company
@@ -118,7 +118,7 @@ msgstr "Vollständiger Flow"
 #. module: account_invoice_extract
 #: model:ir.model,name:account_invoice_extract.model_res_config_settings
 msgid "Config Settings"
-msgstr "Konfiguration "
+msgstr "Konfigurationseinstellungen "
 
 #. module: account_invoice_extract
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_invoice_extract_words__create_uid
@@ -202,14 +202,14 @@ msgstr "Fehlermeldung"
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_move__extract_word_ids
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_payment__extract_word_ids
 msgid "Extract Word"
-msgstr "Wort entnehmen"
+msgstr "Wort extrahieren"
 
 #. module: account_invoice_extract
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_bank_statement_line__extract_state
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_move__extract_state
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_payment__extract_state
 msgid "Extract state"
-msgstr "Auszugstatus"
+msgstr "Extraktionsstatus"
 
 #. module: account_invoice_extract
 #: model:ir.model,name:account_invoice_extract.model_account_invoice_extract_words
@@ -219,7 +219,7 @@ msgstr "Aus Rechnungsscan extrahierte Wörter"
 #. module: account_invoice_extract
 #: model_terms:ir.ui.view,arch_db:account_invoice_extract.view_move_form_inherit_ocr
 msgid "Extraction Information"
-msgstr "Informationsextraktion"
+msgstr "Extraktionsinformationen"
 
 #. module: account_invoice_extract
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_invoice_extract_words__field
@@ -248,14 +248,14 @@ msgstr "Rechnung"
 #: model:ir.cron,cron_name:account_invoice_extract.ir_cron_update_ocr_status
 #: model:ir.cron,name:account_invoice_extract.ir_cron_update_ocr_status
 msgid "Invoice OCR: Update All Status"
-msgstr "Rechnung Texterkennung: Alle Status aktualisieren"
+msgstr "OCR für Rechnungen: Alle Status aktualisieren"
 
 #. module: account_invoice_extract
 #: model:ir.model.fields,help:account_invoice_extract.field_account_bank_statement_line__extract_remote_id
 #: model:ir.model.fields,help:account_invoice_extract.field_account_move__extract_remote_id
 #: model:ir.model.fields,help:account_invoice_extract.field_account_payment__extract_remote_id
 msgid "Invoice extract id"
-msgstr ""
+msgstr "ID der Rechnungsextraktion"
 
 #. module: account_invoice_extract
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_invoice_extract_words__selected_status
@@ -270,7 +270,7 @@ msgstr "Rechnungs-ID"
 #. module: account_invoice_extract
 #: model:ir.model,name:account_invoice_extract.model_account_move
 msgid "Journal Entry"
-msgstr "Buchungssatz"
+msgstr "Journalbuchung"
 
 #. module: account_invoice_extract
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_invoice_extract_words____last_update
@@ -280,7 +280,7 @@ msgstr "Zuletzt geändert am"
 #. module: account_invoice_extract
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_invoice_extract_words__write_uid
 msgid "Last Updated by"
-msgstr "Zuletzt aktualisiert durch"
+msgstr "Zuletzt aktualisiert von"
 
 #. module: account_invoice_extract
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_invoice_extract_words__write_date
@@ -307,7 +307,7 @@ msgstr "Nicht genug Guthaben"
 #: model:ir.model.fields,field_description:account_invoice_extract.field_res_company__extract_single_line_per_tax
 #: model:ir.model.fields,field_description:account_invoice_extract.field_res_config_settings__extract_single_line_per_tax
 msgid "OCR Single Invoice Line Per Tax"
-msgstr ""
+msgstr "OCR: Einzelne Rechnungszeile pro Steuer"
 
 #. module: account_invoice_extract
 #: model:ir.model.fields,field_description:account_invoice_extract.field_res_config_settings__extract_show_ocr_option_selection

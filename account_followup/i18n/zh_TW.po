@@ -178,7 +178,7 @@ msgstr ""
 #. module: account_followup
 #: model_terms:ir.ui.view,arch_db:account_followup.followup_search_template
 msgid "<span class=\"fa fa-filter\"/> Partners:"
-msgstr "<span class=\"fa fa-filter\"/> 業務夥伴:"
+msgstr "<span class=\"fa fa-filter\"/> 合作夥伴："
 
 #. module: account_followup
 #: model_terms:ir.ui.view,arch_db:account_followup.res_partner_view_form
@@ -267,7 +267,7 @@ msgstr "信用差的債務人"
 #. module: account_followup
 #: model_terms:ir.ui.view,arch_db:account_followup.line_template_followup_report
 msgid "Change expected payment date"
-msgstr "變更預計支付日期"
+msgstr "更改預計付款日期"
 
 #. module: account_followup
 #. openerp-web

@@ -70,3 +70,36 @@ class TestUi(TestPointOfSaleHttpCommon):
         })
 
         self.start_tour("/web", 'pos_iot_scale_tour', login="accountman")
+
+    def test_03_pos_iot_payment_terminal_not_loaded_if_not_in_pos_config(self):
+        env = self.env
+
+        self.env['ir.config_parameter'].sudo().set_param('pos_iot.ingenico_payment_terminal', True)
+
+        # Create IoT Box
+        iotbox_id = env['iot.box'].sudo().create({
+            'name': 'iotbox-test',
+            'identifier': '01:01:01:01:01:01',
+            'ip': '1.1.1.1',
+        })
+
+        # Create IoT device
+        payment_terminal_device = env['iot.device'].sudo().create({
+            'iot_id': iotbox_id.id,
+            'name': 'Payment terminal',
+            'identifier': 'test_payment_terminal',
+            'type': 'payment',
+            'connection': 'network',
+        })
+
+        # Create the payment method
+        env['pos.payment.method'].create({
+            'name': 'Terminal',
+            'use_payment_terminal': 'ingenico',
+            'iot_device_id': payment_terminal_device.id,
+            'journal_id': self.bank_journal.id,
+        })
+        # We purposely don't use it, in theory it's IoT device
+        # should not be loaded as we don't need to use it
+
+        self.start_tour("/web", 'pos_iot_no_device_loaded_tour', login="accountman")

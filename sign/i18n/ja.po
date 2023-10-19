@@ -52,7 +52,7 @@ msgstr "%s 不十分な信用のエラーのため、ドキュメントに署名
 #: code:addons/sign/models/sign_request.py:0
 #, python-format
 msgid "%s has been edited and signed"
-msgstr ""
+msgstr "%sが編集され、署名されました。 "
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -65,12 +65,12 @@ msgstr "%s が署名されました"
 #: code:addons/sign/controllers/main.py:0
 #, python-format
 msgid "%s validated the signature by SMS with the phone number %s."
-msgstr ""
+msgstr "%s は電話番号%sのSMSによる署名を検証しました。"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "(UTC)"
-msgstr ""
+msgstr "(UTC)"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_request
@@ -136,7 +136,7 @@ msgstr "<b>署名者：</b>"
 #: model_terms:ir.ui.view,arch_db:sign._doc_sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
 msgid "<br/>(the email access has not been sent)"
-msgstr ""
+msgstr "<br/>(Eメールアクセスは送信されていません)"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_terms_conditions_setting_banner
@@ -162,12 +162,12 @@ msgstr "<i class=\"fa fa-check\"/> ドキュメントの整合性は有効です
 msgid ""
 "<i class=\"fa fa-exclamation-circle\"/> The document's integrity could not "
 "be verified."
-msgstr ""
+msgstr "<i class=\"fa fa-exclamation-circle\"/>ドキュメントの整合性が検証できませんでした。 "
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "<i class=\"fa fa-globe\"/> View"
-msgstr ""
+msgstr "<i class=\"fa fa-globe\"/> ビュー"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign._doc_sign
@@ -184,12 +184,12 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
 msgid "<span class=\"o_portal_category\">Summary</span>"
-msgstr ""
+msgstr "<span class=\"o_portal_category\">概要</span>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
 msgid "<span class=\"o_portal_category\">Your Information</span>"
-msgstr ""
+msgstr "<span class=\"o_portal_category\">あなたの情報</span>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_form
@@ -204,12 +204,12 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.res_partner_view_form
 msgid "<span class=\"o_stat_text\">Signature Requested</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">署名が要求されました</span>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_form
 msgid "<span class=\"o_stat_text\">Signed Document</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">署名済ドキュメント</span>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_form
@@ -242,7 +242,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "<span class=\"text-muted\">Not available</span>"
-msgstr ""
+msgstr "<span class=\"text-muted\">利用不可</span>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_item_type_view_form
@@ -257,7 +257,7 @@ msgstr "<span>これは利用規約のプレビューです。</span>"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
 msgid "<strong>Creation Date:</strong>"
-msgstr ""
+msgstr "<strong>作成日:</strong>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
@@ -282,7 +282,7 @@ msgstr ""
 msgid ""
 "A SMS will be sent to the following phone number. Please update it if it's "
 "not relevant."
-msgstr ""
+msgstr "以下の電話番号にSMSが送信されます。関係ない場合は更新して下さい。"
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -303,7 +303,7 @@ msgstr "アクセス警告"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__access_via_link
 msgid "Accessed Through Token"
-msgstr ""
+msgstr "トークンを介してアクセス済"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_mail_activity_type__category
@@ -319,7 +319,7 @@ msgstr "要アクション"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__action
 msgid "Action Performed"
-msgstr ""
+msgstr "アクションが実行されました"
 
 #. module: sign
 #: model:ir.model.fields,help:sign.field_mail_activity_type__category
@@ -348,7 +348,7 @@ msgstr "例外の活動を示す文字装飾"
 #. module: sign
 #: model:ir.actions.report,name:sign.action_sign_request_print_logs
 msgid "Activity Logs"
-msgstr ""
+msgstr "アクティビティ記録"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__activity_state
@@ -368,7 +368,7 @@ msgstr "活動種別アイコン"
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_request__sign_log_ids
 msgid "Activity logs linked to this request"
-msgstr ""
+msgstr "この要求に関連したアクティビティ記録"
 
 #. module: sign
 #. openerp-web
@@ -414,7 +414,7 @@ msgstr "承認及び署名"
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_log__request_state__signed
 msgid "After Signature"
-msgstr ""
+msgstr "署名後"
 
 #. module: sign
 #. openerp-web
@@ -463,7 +463,7 @@ msgstr "アーカイブ済"
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_request__start_sign
 msgid "At least one signer has signed the document."
-msgstr ""
+msgstr "少なくとも1人の署名者がドキュメントに署名しました。"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_send_request_view_form
@@ -494,7 +494,7 @@ msgstr "パートナー項目の自動入力"
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_log__request_state__sent
 msgid "Before Signature"
-msgstr ""
+msgstr "署名前"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_item_role_view_form
@@ -520,7 +520,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__message_cc
 msgid "CC Message"
-msgstr ""
+msgstr "CCメッセージ"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_send_request_view_form
@@ -623,12 +623,12 @@ msgstr "完了"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__completed_document
 msgid "Completed Document"
-msgstr ""
+msgstr "完了済ドキュメント"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__nb_closed
 msgid "Completed Signatures"
-msgstr ""
+msgstr "完了済署名"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__completion_date
@@ -675,7 +675,7 @@ msgstr "連絡先"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__follower_ids
 msgid "Copy to"
-msgstr ""
+msgstr "以下へコピー"
 
 #. module: sign
 #. openerp-web
@@ -737,7 +737,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
 msgid "Current status of the signature request"
-msgstr ""
+msgstr "署名要求の現在のステイタス"
 
 #. module: sign
 #: model:sign.item.role,name:sign.sign_item_role_customer
@@ -798,14 +798,14 @@ msgstr "削除"
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Delete sign"
-msgstr ""
+msgstr "署名を削除"
 
 #. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Delete sign item"
-msgstr ""
+msgstr "署名項目を削除"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_kanban
@@ -859,7 +859,7 @@ msgstr "表示名"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_config_settings__sign_preview_ready
 msgid "Display sign preview button"
-msgstr ""
+msgstr "署名プレビューボタンを表示"
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
@@ -899,7 +899,7 @@ msgstr "帳票テンプレート"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "Document/Signer"
-msgstr ""
+msgstr "ドキュメント/署名者"
 
 #. module: sign
 #: model:ir.actions.act_window,name:sign.sign_request_action
@@ -950,7 +950,7 @@ msgstr "PDFに項目をドラッグ&ドロップしてください。"
 msgid ""
 "Draw your most beautiful signature!<br>You can also create one automatically"
 " or load a signature from your computer."
-msgstr ""
+msgstr "あなたの最も美しい署名を描いて下さい！また、自動的に署名を作成したり、コンピュータから署名を読み込むこともできます。"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_kanban
@@ -976,7 +976,7 @@ msgstr "複製されたドキュメント"
 #: code:addons/sign/models/sign_request.py:0
 #, python-format
 msgid "ERROR: Invalid PDF file!"
-msgstr ""
+msgstr "エラー: 無効なPDFファイル！"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_form
@@ -1022,7 +1022,7 @@ msgstr "従業員: 署名ファイルを送付"
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Enter the code received through SMS to complete your signature"
-msgstr ""
+msgstr "SMSを通して受取ったコードを入力して署名を完了させて下さい。"
 
 #. module: sign
 #. openerp-web
@@ -1069,7 +1069,7 @@ msgstr "項目"
 #. module: sign
 #: model:ir.model,name:sign.model_sign_item
 msgid "Fields to be sign on Document"
-msgstr ""
+msgstr "ドキュメントで署名されるフィールド"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__datas
@@ -1135,7 +1135,7 @@ msgstr "将来の活動"
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Generate PDF"
-msgstr ""
+msgstr "PDFを作成"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -1166,12 +1166,12 @@ msgstr "グループ化"
 #. module: sign
 #: model:sign.template.tag,name:sign.sign_template_tag_1
 msgid "HR"
-msgstr ""
+msgstr "HR"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__has_default_template
 msgid "Has Default Template"
-msgstr ""
+msgstr "デフォルトテンプレートがあるか"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__has_message
@@ -1211,12 +1211,12 @@ msgstr "ID"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__ip
 msgid "IP address of the visitor"
-msgstr ""
+msgstr "訪問者のIPアドレス"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__activity_exception_icon
@@ -1243,13 +1243,13 @@ msgstr "チェックした場合、一部のメッセージで配信エラーが
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__in_progress_count
 msgid "In Progress Count"
-msgstr ""
+msgstr "進行中数"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_kanban
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 msgid "In favorites, remove it"
-msgstr ""
+msgstr "お気に入りで、それを削除"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__log_hash
@@ -1283,7 +1283,7 @@ msgstr "ここに諸条件を定義..."
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__integrity
 msgid "Integrity of the Sign request"
-msgstr ""
+msgstr "署名要求の整合性"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__favorited_ids
@@ -1298,7 +1298,7 @@ msgstr "フォロー中　"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__is_mail_sent
 msgid "Is Mail Sent"
-msgstr ""
+msgstr "メール送信済か"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template_share__is_one_responsible
@@ -1308,12 +1308,12 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__is_user_signer
 msgid "Is User Signer"
-msgstr ""
+msgstr "ユーザは署名者か"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__last_action_date
 msgid "Last Action Date"
-msgstr ""
+msgstr "最終アクション日"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_duplicate_template_pdf____last_update
@@ -1396,7 +1396,7 @@ msgstr "左側"
 #: code:addons/sign/static/src/js/tours/sign.js:0
 #, python-format
 msgid "Let's <b>prepare & sign</b> our first document."
-msgstr ""
+msgstr " 初めてのドキュメントの<b>準備と署名</b>を行いましょう。"
 
 #. module: sign
 #. openerp-web
@@ -1441,7 +1441,7 @@ msgstr "リンクされたアクティビティ"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__log_date
 msgid "Log Date"
-msgstr ""
+msgstr "記録日"
 
 #. module: sign
 #: code:addons/sign/models/sign_log.py:0
@@ -1475,12 +1475,18 @@ msgstr "経度"
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_log__action__update_mail
 msgid "Mail Update"
-msgstr ""
+msgstr "メール更新"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_main_attachment_id
 msgid "Main Attachment"
 msgstr "主な添付"
+
+#. module: sign
+#: code:addons/sign/models/sign_template.py:0
+#, python-format
+msgid "Malformed expression: %(exp)s"
+msgstr "不正な表現: %(exp)s"
 
 #. module: sign
 #. openerp-web
@@ -1507,7 +1513,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_send_request__message
 msgid "Message to be sent to signers of the specified document"
-msgstr ""
+msgstr "特定のドキュメントの署名者に送られるメッセージ"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_ids
@@ -1517,7 +1523,7 @@ msgstr "メッセージ"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.encrypted_ask_password
 msgid "Missing Password"
-msgstr ""
+msgstr "不明なパスワード"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.deleted_sign_request
@@ -1547,7 +1553,7 @@ msgstr "複数行テキスト"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_share_view_form
 msgid "Multiple Signature Requests"
-msgstr ""
+msgstr "複数署名要求"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__my_activity_date_deadline
@@ -1578,7 +1584,7 @@ msgstr "自分のテンプレート"
 #. module: sign
 #: model:sign.template.tag,name:sign.sign_template_tag_2
 msgid "NDA"
-msgstr ""
+msgstr "秘密保持契約(NDA)"
 
 #. module: sign
 #. openerp-web
@@ -1610,7 +1616,7 @@ msgstr "名前もしくはメールアドレス"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__need_my_signature
 msgid "Need My Signature"
-msgstr ""
+msgstr "自分の署名が必要"
 
 #. module: sign
 #. openerp-web
@@ -1627,7 +1633,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_duplicate_template_pdf__new_template
 msgid "New Template Name"
-msgstr ""
+msgstr "新規テンプレート名"
 
 #. module: sign
 #: code:addons/sign/controllers/portal.py:0
@@ -1662,7 +1668,7 @@ msgstr "次の活動タイプ"
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
 msgid "Next Document"
-msgstr ""
+msgstr "次のドキュメント"
 
 #. module: sign
 #. openerp-web
@@ -1698,12 +1704,12 @@ msgstr "なし"
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_kanban
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 msgid "Not in favorites, add it"
-msgstr ""
+msgstr "お気に入りにありません、追加して下さい。"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 msgid "Not in favorites, set it"
-msgstr ""
+msgstr "お気に入りにありません、設定して下さい。"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_needaction_counter
@@ -1768,7 +1774,7 @@ msgstr "招待制"
 #: code:addons/sign/wizard/sign_template_share.py:0
 #, python-format
 msgid "One or more selection items have no associated options"
-msgstr ""
+msgstr "1つ以上の選択項目に関連するオプションがありません。"
 
 #. module: sign
 #: code:addons/sign/controllers/terms.py:0
@@ -1794,7 +1800,7 @@ msgstr "オプション"
 #. module: sign
 #: model:ir.model,name:sign.model_sign_item_option
 msgid "Option of a selection Field"
-msgstr ""
+msgstr "選択フィールドのオプション"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_send_request_view_form
@@ -1809,7 +1815,7 @@ msgstr "署名後のリダイレクト用オプションリンク"
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_template__redirect_url_text
 msgid "Optional text to display on the button link"
-msgstr ""
+msgstr "ボタンリンクに表示するオプションテキスト"
 
 #. module: sign
 #. openerp-web
@@ -1836,7 +1842,7 @@ msgstr "他にも署名ドキュメントがあります。"
 #: model_terms:ir.ui.view,arch_db:sign.encrypted_ask_password
 #, python-format
 msgid "PDF is encrypted"
-msgstr ""
+msgstr "PDFは暗号化されています"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__partner_id
@@ -1848,7 +1854,7 @@ msgstr "取引先"
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Password is incorrect."
-msgstr ""
+msgstr "パスワードが間違っています。"
 
 #. module: sign
 #: model:sign.item.type,name:sign.sign_item_type_phone
@@ -1959,7 +1965,7 @@ msgstr "パブリックユーザ"
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Re-send SMS"
-msgstr ""
+msgstr "SMSを再送"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__redirect_url
@@ -1974,7 +1980,7 @@ msgstr "リクエスト"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__request_item_infos
 msgid "Request Item Infos"
-msgstr ""
+msgstr "要求項目情報"
 
 #. module: sign
 #. openerp-web
@@ -1998,7 +2004,7 @@ msgstr "テンプレートをアップロード（もしくは既存のものを
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__nb_total
 msgid "Requested Signatures"
-msgstr ""
+msgstr "要求された署名"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign._doc_sign
@@ -2047,7 +2053,7 @@ msgstr "担当者"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__responsible_count
 msgid "Responsible Count"
-msgstr ""
+msgstr "責任者数"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__activity_user_id
@@ -2088,7 +2094,7 @@ msgstr "役割"
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "Rotate Clockwise"
-msgstr ""
+msgstr "時計回り"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item_role__sms_authentification
@@ -2105,12 +2111,12 @@ msgstr "SMS配信エラー"
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "SMS Sent"
-msgstr ""
+msgstr "SMS送信済"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__sms_token
 msgid "SMS Token"
-msgstr ""
+msgstr "SMSトークン"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -2143,7 +2149,7 @@ msgstr "保存しました"
 #: code:addons/sign/controllers/portal.py:0
 #, python-format
 msgid "Search <span class=\"nolabel\"> (in Document)</span>"
-msgstr ""
+msgstr "検索 <span class=\"nolabel\"> (ドキュメント内)</span>"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__access_token
@@ -2154,7 +2160,7 @@ msgstr "セキュリティトークン"
 #. module: sign
 #: model:sign.item.type,tip:sign.sign_item_type_selection
 msgid "Select an option"
-msgstr ""
+msgstr "オプションを選択"
 
 #. module: sign
 #. openerp-web
@@ -2180,7 +2186,7 @@ msgstr "選択"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item__option_ids
 msgid "Selection options"
-msgstr ""
+msgstr "選択オプション"
 
 #. module: sign
 #. openerp-web
@@ -2204,7 +2210,7 @@ msgstr "SMS配信"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__signer_id
 msgid "Send To"
-msgstr ""
+msgstr "以下に送信"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_form
@@ -2221,7 +2227,7 @@ msgstr "コピー送信"
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "Send the invitation"
-msgstr ""
+msgstr "招待状を送信"
 
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_request__state__sent
@@ -2307,12 +2313,12 @@ msgstr "デフォルトの利用規約にサインする"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_company__sign_terms
 msgid "Sign Default Terms and Conditions"
-msgstr ""
+msgstr "デフォルトの利用規約に署名"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_company__sign_terms_html
 msgid "Sign Default Terms and Conditions as a Web page"
-msgstr ""
+msgstr "ウェブページとしてデフォルトの利用規約に署名"
 
 #. module: sign
 #. openerp-web
@@ -2325,7 +2331,7 @@ msgstr "ドキュメントに署名"
 #. module: sign
 #: model:ir.model,name:sign.model_sign_duplicate_template_pdf
 msgid "Sign Duplicate Template with new PDF"
-msgstr ""
+msgstr "新規PDFで重複テンプレートに署名"
 
 #. module: sign
 #. openerp-web
@@ -2347,17 +2353,17 @@ msgstr "今すぐ署名"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__sign_request_id
 msgid "Sign Request"
-msgstr ""
+msgstr "署名要求"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__sign_request_item_id
 msgid "Sign Request Item"
-msgstr ""
+msgstr "署名要求項目"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request_signer__sign_send_request_id
 msgid "Sign Send Request"
-msgstr ""
+msgstr "署名送信要求"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.res_config_settings_view_form
@@ -2372,30 +2378,30 @@ msgstr ""
 #. module: sign
 #: model:ir.model,name:sign.model_sign_template_tag
 msgid "Sign Template Tag"
-msgstr ""
+msgstr "署名テンプレートタグ"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_config_settings__sign_terms
 msgid "Sign Terms & Conditions"
-msgstr ""
+msgstr "利用規約に署名"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_config_settings__sign_terms_html
 msgid "Sign Terms & Conditions as a Web page"
-msgstr ""
+msgstr "ウェブページとして利用規約に署名"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_company__sign_terms_type
 #: model:ir.model.fields,field_description:sign.field_res_config_settings__sign_terms_type
 msgid "Sign Terms & Conditions format"
-msgstr ""
+msgstr "利用規約フォーマットに署名"
 
 #. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Sign all"
-msgstr ""
+msgstr "全てに署名"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_request
@@ -2406,12 +2412,12 @@ msgstr "ドキュメントに署名"
 #: code:addons/sign/models/sign_template.py:0
 #, python-format
 msgid "Sign requests"
-msgstr ""
+msgstr "署名要求"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_log
 msgid "Sign requests access history"
-msgstr ""
+msgstr "署名要求アクセス履歴"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_send_request
@@ -2426,7 +2432,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model,name:sign.model_sign_send_request_signer
 msgid "Sign send request signer"
-msgstr ""
+msgstr "署名要求 署名者送信"
 
 #. module: sign
 #. openerp-web
@@ -2450,7 +2456,7 @@ msgstr "署名"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "Signature Date"
-msgstr ""
+msgstr "署名日付"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item_value__sign_item_id
@@ -2465,7 +2471,7 @@ msgstr "署名項目主体"
 #. module: sign
 #: model:ir.actions.act_window,name:sign.sign_item_role_action
 msgid "Signature Item Role"
-msgstr ""
+msgstr "署名項目役割"
 
 #. module: sign
 #: model:ir.actions.act_window,name:sign.sign_item_type_action
@@ -2476,7 +2482,7 @@ msgstr "署名項目タイプ"
 #. module: sign
 #: model:ir.model,name:sign.model_sign_request_item_value
 msgid "Signature Item Value"
-msgstr ""
+msgstr "署名項目値"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__sign_item_ids
@@ -2506,12 +2512,12 @@ msgstr "署名依頼 - %(file_name)s"
 #: code:addons/sign/wizard/sign_send_request.py:0
 #, python-format
 msgid "Signature Request - %s"
-msgstr ""
+msgstr "署名ようきゅう - %s"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_request_item
 msgid "Signature Request Item"
-msgstr ""
+msgstr "署名要求項目"
 
 #. module: sign
 #: model:ir.actions.act_window,name:sign.sign_request_item_action
@@ -2521,7 +2527,7 @@ msgstr "署名依頼アイテム"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item_value__sign_request_item_id
 msgid "Signature Request item"
-msgstr ""
+msgstr "署名要求項目"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__sign_request_ids
@@ -2536,7 +2542,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__start_sign
 msgid "Signature Started"
-msgstr ""
+msgstr "署名開始済"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_template
@@ -2549,7 +2555,7 @@ msgstr "署名テンプレート"
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Signature configuration"
-msgstr ""
+msgstr "署名設定"
 
 #. module: sign
 #: code:addons/sign/wizard/sign_send_request.py:0
@@ -2558,12 +2564,14 @@ msgid ""
 "Signature requested for template: %s\n"
 "Signatories: %s"
 msgstr ""
+"テンプレート用に要求された署名: %s\n"
+"署名者: %s"
 
 #. module: sign
 #: code:addons/sign/models/res_partner.py:0
 #, python-format
 msgid "Signature(s)"
-msgstr ""
+msgstr "署名"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -2575,7 +2583,7 @@ msgstr "署名："
 #: model_terms:ir.ui.view,arch_db:sign.portal_my_home_sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "Signatures"
-msgstr ""
+msgstr "署名"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.doc_sign
@@ -2585,7 +2593,7 @@ msgstr "署名済"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__signed_count
 msgid "Signed Count"
-msgstr ""
+msgstr "署名済数"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
@@ -2595,7 +2603,7 @@ msgstr "署名済ドキュメント"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_completed
 msgid "Signed document"
-msgstr ""
+msgstr "署名済ドキュメント"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__signing_date
@@ -2618,13 +2626,13 @@ msgstr "署名者"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__signers_count
 msgid "Signers Count"
-msgstr ""
+msgstr "署名者数"
 
 #. module: sign
 #: code:addons/sign/controllers/portal.py:0
 #, python-format
 msgid "Signing Date"
-msgstr ""
+msgstr "署名日付"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -2651,7 +2659,7 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "Somebody is already filling a document which uses this template"
-msgstr ""
+msgstr "誰かがすでにこのテンプレートを使用したドキュメントに入力しています。"
 
 #. module: sign
 #. openerp-web
@@ -2659,7 +2667,7 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Sorry, an error occurred, please try to fill the document again."
-msgstr ""
+msgstr "エラーが発生しました。もう一度入力して下さい。"
 
 #. module: sign
 #: model:sign.item.role,name:sign.sign_item_role_default
@@ -2677,7 +2685,7 @@ msgstr "都道府県/州"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__request_state
 msgid "State of the request on action log"
-msgstr ""
+msgstr "アクション記録上の要求ステータス"
 
 #. module: sign
 #: code:addons/sign/controllers/portal.py:0
@@ -2751,7 +2759,7 @@ msgstr "テンプレート"
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Template \"%s\""
-msgstr ""
+msgstr "テンプレート \"%s\""
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__group_ids
@@ -2778,7 +2786,7 @@ msgstr "テンプレートタグ"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "Template or Tag"
-msgstr ""
+msgstr "テンプレートまたはタグ"
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -2795,12 +2803,12 @@ msgstr "諸条件"
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__res_company__sign_terms_type__html
 msgid "Terms as Web Page"
-msgstr ""
+msgstr "ウェブページとしての条件"
 
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__res_company__sign_terms_type__plain
 msgid "Terms in Email"
-msgstr ""
+msgstr "Eメール内の条件"
 
 #. module: sign
 #: model:ir.model.fields,help:sign.field_res_company__sign_terms_type
@@ -2811,6 +2819,9 @@ msgid ""
 "        Terms as Web Page - A link will be pasted at the bottom of every signature request email, leading to your content.\n"
 "        "
 msgstr ""
+"Eメールでの規約 - テキストは全ての署名要求Eメールの下部に表示されます。\n"
+"\n"
+"ウェブページとしての規約 - 署名要求メールごとにその末尾に、あなたのコンテンツへのリンクが貼り付けられます。"
 
 #. module: sign
 #. openerp-web
@@ -2840,7 +2851,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.encrypted_ask_password
 msgid "The PDF's password is required to generate the final document."
-msgstr ""
+msgstr "最終ドキュメントを生成するには、PDFのパスワードが必要です。"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_completed
@@ -2868,6 +2879,7 @@ msgid ""
 "that signature values or the underlying PDF document may have been modified "
 "after the fact."
 msgstr ""
+"ドキュメント履歴の整合性を検証できません。こ れは、署名値または基礎 となっているPDFドキュメントが事後に変更された可能性があることを意味します。"
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -2895,7 +2907,7 @@ msgstr ""
 #: code:addons/sign/models/sign_request.py:0
 #, python-format
 msgid "The signature mail has been sent to: "
-msgstr ""
+msgstr "この署名メールが以下に送信されましたl: "
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -2906,7 +2918,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_request_item__is_mail_sent
 msgid "The signature mail has been sent."
-msgstr ""
+msgstr "署名メールが送信されました。"
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -2919,12 +2931,27 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "The template doesn't exist anymore."
+msgstr "テンプレートはもう存在しません"
+
+#. module: sign
+#: code:addons/sign/wizard/sign_duplicate_template_with_pdf.py:0
+#, python-format
+msgid "The uploaded file is not a valid PDF. Please upload a valid PDF file."
 msgstr ""
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "There are no signatures request."
 msgstr ""
+
+#. module: sign
+#: code:addons/sign/models/sign_request.py:0
+#: code:addons/sign/models/sign_request.py:0
+#, python-format
+msgid ""
+"There was an issue downloading your document. Please contact an "
+"administrator."
+msgstr "ドキュメントのダウンロードに問題が発生しました。管理者にご連絡下さい。"
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
@@ -2936,7 +2963,7 @@ msgstr ""
 #: model:ir.model.fields,help:sign.field_sign_request__reference
 #: model:ir.model.fields,help:sign.field_sign_request_item__reference
 msgid "This is how the document will be named in the mail"
-msgstr ""
+msgstr "ドキュメントはメール内でこのように名付けられます。"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_form
@@ -2959,7 +2986,7 @@ msgstr "署名未済"
 #: code:addons/sign/controllers/portal.py:0
 #, python-format
 msgid "To sign"
-msgstr ""
+msgstr "署名する"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
@@ -2972,7 +2999,7 @@ msgstr "本日の活動"
 #: code:addons/sign/static/src/js/tours/sign.js:0
 #, python-format
 msgid "Try out this sample contract."
-msgstr ""
+msgstr "このサンプル契約書を試してみましょう"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item__type_id
@@ -3003,7 +3030,7 @@ msgstr "署名用PDFをアップロード"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "UTC"
-msgstr ""
+msgstr "UTC"
 
 #. module: sign
 #. openerp-web
@@ -3012,7 +3039,15 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Unable to send the SMS, please contact the sender of the document."
-msgstr ""
+msgstr "SMSを送信できません。ドキュメントの送信者にお問い合わせ下さい。"
+
+#. module: sign
+#: code:addons/sign/controllers/main.py:0
+#, python-format
+msgid ""
+"Unable to sign the document due to missing required data. Please contact an "
+"administrator."
+msgstr "必要なデータが不足しているため、書類に署名できません。管理者にご連絡く下さい。"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_unread
@@ -3033,7 +3068,7 @@ msgstr "更新"
 #: code:addons/sign/models/sign_template.py:0
 #, python-format
 msgid "Upload a PDF"
-msgstr ""
+msgstr "PDFをアップロード"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
@@ -3077,7 +3112,7 @@ msgstr "検証"
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Validate & Send"
-msgstr ""
+msgstr "認証＆送信"
 
 #. module: sign
 #. openerp-web
@@ -3096,7 +3131,7 @@ msgstr "確認し、完了ドキュメントを送信する"
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Validation Code"
-msgstr ""
+msgstr "検証コード"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__sign_item_value_ids
@@ -3124,7 +3159,7 @@ msgstr "ドキュメントを見る"
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_log__action__open
 msgid "View/Download"
-msgstr ""
+msgstr "見る/ダウンロード"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -3154,7 +3189,7 @@ msgstr "警告"
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "We will send you this document by email once everyone has signed."
-msgstr ""
+msgstr "全員が署名した後、このドキュメントをEメールでお送りします。"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__website_message_ids
@@ -3200,7 +3235,7 @@ msgstr "Eメールを登録もしくは連絡先を検索..."
 #: code:addons/sign/controllers/main.py:0
 #, python-format
 msgid "Wrong password"
-msgstr ""
+msgstr "間違ったパスワード"
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
@@ -3208,7 +3243,7 @@ msgstr ""
 msgid ""
 "You can't delete a template for which signature requests exist but you can "
 "archive it instead."
-msgstr ""
+msgstr "署名要求が存在するテンプレートを削除することはできませんが、代わりにアーカイブすることはできます。"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.doc_sign
@@ -3226,7 +3261,7 @@ msgstr "署名ドキュメントのコピーがメールで送信されます。
 #: code:addons/sign/models/sign_request.py:0
 #, python-format
 msgid "Your confirmation code is %s"
-msgstr ""
+msgstr "確認コードは%s"
 
 #. module: sign
 #. openerp-web
@@ -3234,7 +3269,7 @@ msgstr ""
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Your email"
-msgstr ""
+msgstr "あなたのEメール"
 
 #. module: sign
 #. openerp-web
@@ -3243,7 +3278,7 @@ msgstr ""
 msgid ""
 "Your file is encrypted, PDF's password is required to generate final "
 "document. The final document will be encrypted with the same password."
-msgstr ""
+msgstr "ファイルは暗号化され、最終ドキュメントを生成するためにPDFのパスワードが必要です。最終ドキュメントは同じパスワードで暗号化されます。"
 
 #. module: sign
 #. openerp-web
@@ -3251,7 +3286,7 @@ msgstr ""
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Your name"
-msgstr ""
+msgstr "名前"
 
 #. module: sign
 #. openerp-web
@@ -3288,24 +3323,24 @@ msgstr "と"
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "e.g. +1 415 555 0100"
-msgstr ""
+msgstr "例: +1 415 555 0100"
 
 #. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "e.g. 314159"
-msgstr ""
+msgstr "例 314159"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_item_role_view_form
 msgid "e.g. Employee"
-msgstr ""
+msgstr "例: 従業員"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_form
 msgid "e.g. Non-disclosure agreement"
-msgstr ""
+msgstr "例: 秘密保持契約"
 
 #. module: sign
 #: model:sign.item.type,tip:sign.sign_item_type_checkbox
@@ -3322,22 +3357,22 @@ msgstr "入力してください"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_completed
 msgid "has been completed and signed by"
-msgstr ""
+msgstr "は完了し、以下によって署名済:"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_completed
 msgid "has been edited, completed and signed by"
-msgstr ""
+msgstr "以下によって署名済:"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "ip"
-msgstr ""
+msgstr "ip"
 
 #. module: sign
 #: model:sign.item.type,tip:sign.sign_item_type_initial
 msgid "mark it"
-msgstr ""
+msgstr "印をつける"
 
 #. module: sign
 #. openerp-web
@@ -3351,7 +3386,7 @@ msgstr "次"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_tree
 msgid "sign"
-msgstr ""
+msgstr "サイン"
 
 #. module: sign
 #: model:sign.item.type,tip:sign.sign_item_type_signature
@@ -3361,12 +3396,12 @@ msgstr "署名する"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message
 msgid "sign.message"
-msgstr ""
+msgstr "sign.message"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_cc
 msgid "sign.message_cc"
-msgstr ""
+msgstr "sign.message_cc"
 
 #. module: sign
 #. openerp-web
@@ -3397,4 +3432,4 @@ msgstr "宛先:"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_completed
 msgid "you"
-msgstr ""
+msgstr "あなた"

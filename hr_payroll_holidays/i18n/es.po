@@ -80,7 +80,7 @@ msgstr "Marcar como aplazado"
 #. module: hr_payroll_holidays
 #: model_terms:ir.actions.act_window,help:hr_payroll_holidays.hr_leave_work_entry_action
 msgid "Meet the time off dashboard."
-msgstr "Conoce el tablero de ausencias"
+msgstr "Conozca el tablero de ausencias."
 
 #. module: hr_payroll_holidays
 #: code:addons/hr_payroll_holidays/models/hr_leave.py:0

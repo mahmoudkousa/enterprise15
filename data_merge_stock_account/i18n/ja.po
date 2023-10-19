@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2023
+# Junko Augias, 2023
 # 
 msgid ""
 msgstr ""
@@ -11,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-24 13:01+0000\n"
 "PO-Revision-Date: 2023-03-28 12:35+0000\n"
-"Last-Translator: Martin Trigaux, 2023\n"
+"Last-Translator: Junko Augias, 2023\n"
 "Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +23,7 @@ msgstr ""
 #. module: data_merge_stock_account
 #: model:ir.model,name:data_merge_stock_account.model_data_merge_model
 msgid "Deduplication Model"
-msgstr ""
+msgstr "重複モデル"
 
 #. module: data_merge_stock_account
 #: code:addons/data_merge_stock_account/models/data_merge_model.py:0
@@ -30,7 +31,7 @@ msgstr ""
 msgid ""
 "Merging some products is an important change that will impact your inventory"
 " valuation. You may have to manually rectify it once done."
-msgstr ""
+msgstr "複数プロダクトのマージは、在庫評価に影響を与える重要な変更です。この場合、手動で修正する必要があります。"
 
 #. module: data_merge_stock_account
 #: code:addons/data_merge_stock_account/models/data_merge_model.py:0

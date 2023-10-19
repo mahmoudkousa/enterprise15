@@ -19,14 +19,14 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.rl_config import TTFSearchPath
 from reportlab.pdfgen import canvas
 from reportlab.platypus import Paragraph
-from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.lib.styles import ParagraphStyle
 from reportlab.pdfbase.pdfmetrics import stringWidth
 from werkzeug.urls import url_join
 from random import randint
 from PIL import UnidentifiedImageError
 
 from odoo import api, fields, models, http, _, Command
-from odoo.tools import DEFAULT_SERVER_DATE_FORMAT, config, get_lang, is_html_empty, formataddr
+from odoo.tools import DEFAULT_SERVER_DATE_FORMAT, config, email_normalize, get_lang, is_html_empty, formataddr
 from odoo.exceptions import UserError, ValidationError
 
 TTFSearchPath.append(os.path.join(config["root_path"], "..", "addons", "web", "static", "fonts", "sign"))
@@ -414,17 +414,22 @@ class SignRequest(models.Model):
                 'request_edited': request_edited,
             }, engine='ir.qweb', minimal_qcontext=True)
 
-            if not self.create_uid.email:
+            # beware flows where it has been created as public user / root
+            if self.create_uid.active:
+                author = self.create_uid.partner_id
+                email_from = self.create_uid.email_formatted
+            else:
+                author = self.env['res.partner']
+                email_from = self.env.company.email_formatted
+            if not email_from:
                 raise UserError(_("Please configure the sender's email address"))
-            if not signer.signer_email:
-                raise UserError(_("Please configure the signer's email address"))
 
             self.env['sign.request']._message_send_mail(
                 body, 'mail.mail_notification_light',
                 {'record_name': self.reference},
                 {'model_description': 'signature', 'company': self.create_uid.company_id},
-                {'email_from': self.create_uid.email_formatted,
-                 'author_id': self.create_uid.partner_id.id,
+                {'email_from': email_from,
+                 'author_id': author.id,
                  'email_to': signer.partner_id.email_formatted,
                  'subject': _('%s has been edited and signed', self.reference) if request_edited else _('%s has been signed', self.reference),
                  'attachment_ids': self.attachment_ids.ids},
@@ -582,10 +587,9 @@ class SignRequest(models.Model):
                         else:
                             content.append(option.value)
                     font_size = height * normalFontSize * 0.8
-                    can.setFont(font, font_size)
                     text = " / ".join(content)
                     string_width = stringWidth(text.replace("<strike>", "").replace("</strike>", ""), font, font_size)
-                    p = Paragraph(text, getSampleStyleSheet()["Normal"])
+                    p = Paragraph(text, ParagraphStyle(name='Selection Paragraph', fontName=font, fontSize=font_size, leading=12))
                     w, h = p.wrap(width, height)
                     posX = width * (item.posX + item.width * 0.5) - string_width // 2
                     posY = height * (1 - item.posY - item.height * 0.5) - h // 2
@@ -758,7 +762,8 @@ class SignRequestItem(models.Model):
     def send_signature_accesses(self):
         tpl = self.env.ref('sign.sign_template_mail_request')
         for signer in self:
-            if not signer.partner_id or not signer.signer_email:
+            signer_email_normalized = email_normalize(signer.signer_email or '')
+            if not signer.partner_id or not signer_email_normalized:
                 raise UserError(_("Please complete the partner email address"))
             if not signer.create_uid.email_formatted:
                 raise UserError(_("Please configure your email address"))
@@ -779,7 +784,7 @@ class SignRequestItem(models.Model):
                 {'model_description': 'signature', 'company': self.env.company},
                 {'email_from': signer.create_uid.email_formatted,
                  'author_id': signer.create_uid.partner_id.id,
-                 'email_to': formataddr((signer.partner_id.name, signer.signer_email)),
+                 'email_to': formataddr((signer.partner_id.name, signer_email_normalized)),
                  'attachment_ids': attachment_ids,
                  'subject': self.sign_request_id.subject},
                 force_send=True,

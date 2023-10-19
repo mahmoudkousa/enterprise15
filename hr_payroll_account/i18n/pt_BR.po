@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2021
+# Kevilyn Rosa, 2023
 # Layna Nascimento, 2023
 # 
 msgid ""
@@ -55,7 +56,7 @@ msgstr "Você tem certeza que deseja continuar ?"
 #. module: hr_payroll_account
 #: model:ir.model,name:hr_payroll_account.model_hr_contract_history
 msgid "Contract history"
-msgstr ""
+msgstr "Histórico do contrato"
 
 #. module: hr_payroll_account
 #: model_terms:ir.ui.view,arch_db:hr_payroll_account.hr_payslip_run_view_form
@@ -88,7 +89,7 @@ msgstr "Contrato do Funcionário"
 #, python-format
 msgid ""
 "Incorrect journal: The journal must be in the same currency as the company"
-msgstr ""
+msgstr "Diário incorreto: o diário deve estar na mesma moeda que a empresa"
 
 #. module: hr_payroll_account
 #: model:ir.model.fields,help:hr_payroll_account.field_hr_payslip__date

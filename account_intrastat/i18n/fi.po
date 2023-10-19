@@ -4,7 +4,6 @@
 # 
 # Translators:
 # Eino Mäkitalo <eino.makitalo@netitbe.fi>, 2021
-# Martin Trigaux, 2021
 # Kari Lindgren <kari.lindgren@emsystems.fi>, 2021
 # Mikko Salmela <salmemik@gmail.com>, 2021
 # Svante Suominen <svante.suominen@web-veistamo.fi>, 2021
@@ -14,6 +13,9 @@
 # Veikko Väätäjä <veikko.vaataja@gmail.com>, 2021
 # Jussi Heikkilä <jussi.heikkila@panimo.com>, 2021
 # Joakim Weckman, 2022
+# Konsta Aavaranta, 2023
+# Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -21,8 +23,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Joakim Weckman, 2022\n"
-"Language-Team: Finnish (https://www.transifex.com/odoo/teams/41243/fi/)\n"
+"Last-Translator: Martin Trigaux, 2023\n"
+"Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -35,6 +37,8 @@ msgid ""
 "<span class=\"fa fa-filter\"/>\n"
 "                Types:"
 msgstr ""
+"<span class=\"fa fa-filter\"/>\n"
+"                Tyypit:"
 
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_intrastat_extended
@@ -44,7 +48,7 @@ msgstr "<span class=\"fa fa-filter\"/> Vaihtoehdot:"
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_vat
 msgid "<span class=\"fa fa-filter\"/> Partners:"
-msgstr ""
+msgstr "<span class=\"fa fa-filter\"/>Kumppanit:"
 
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_intrastat_type
@@ -56,28 +60,28 @@ msgstr "Kaikki"
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 #, python-format
 msgid "Arrival"
-msgstr ""
+msgstr "Saapuminen"
 
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.invoice_form_inherit_account_intrastat
 msgid "Arrival country"
-msgstr ""
+msgstr "Saapumismaa"
 
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.view_intrastat_code_search
 msgid "By country"
-msgstr ""
+msgstr "Maan mukaan"
 
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.view_intrastat_code_search
 msgid "By type"
-msgstr ""
+msgstr "Tyypin mukaan"
 
 #. module: account_intrastat
 #: model:ir.model.fields.selection,name:account_intrastat.selection__account_intrastat_code__type__commodity
 #: model_terms:ir.ui.view,arch_db:account_intrastat.view_intrastat_code_search
 msgid "Commodity"
-msgstr ""
+msgstr "Hyödyke"
 
 #. module: account_intrastat
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
@@ -86,7 +90,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_intrastat.field_product_template__intrastat_id
 #, python-format
 msgid "Commodity Code"
-msgstr ""
+msgstr "Hyödykekoodi"
 
 #. module: account_intrastat
 #: model:ir.model,name:account_intrastat.model_res_company
@@ -96,7 +100,7 @@ msgstr "Yritykset"
 #. module: account_intrastat
 #: model:ir.model.fields,field_description:account_intrastat.field_res_config_settings__company_country_id
 msgid "Company country"
-msgstr ""
+msgstr "Yrityksen maa"
 
 #. module: account_intrastat
 #: model:ir.model,name:account_intrastat.model_res_config_settings
@@ -118,7 +122,7 @@ msgstr "Maatunnus"
 #: model:ir.model.fields,field_description:account_intrastat.field_product_product__intrastat_origin_country_id
 #: model:ir.model.fields,field_description:account_intrastat.field_product_template__intrastat_origin_country_id
 msgid "Country of Origin"
-msgstr ""
+msgstr "Alkuperämaa"
 
 #. module: account_intrastat
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
@@ -135,28 +139,28 @@ msgstr ""
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 #, python-format
 msgid "Dispatch"
-msgstr ""
+msgstr "Lähetä"
 
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_intrastat_extended
 msgid "Extended"
-msgstr ""
+msgstr "Laajennettu"
 
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_intrastat_extended
 msgid "Extended Mode"
-msgstr ""
+msgstr "Laajennettu tila"
 
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_vat
 msgid "Include VAT"
-msgstr ""
+msgstr "Sisältää arvonlisäveron"
 
 #. module: account_intrastat
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 #, python-format
 msgid "Incoterm Code"
-msgstr ""
+msgstr "Incoterm-koodi"
 
 #. module: account_intrastat
 #: model:ir.model.fields,field_description:account_intrastat.field_account_move_line__intrastat_transaction_id
@@ -180,7 +184,7 @@ msgstr "Intrastat Code"
 #: model:ir.model.fields,field_description:account_intrastat.field_account_move__intrastat_country_id
 #: model:ir.model.fields,field_description:account_intrastat.field_account_payment__intrastat_country_id
 msgid "Intrastat Country"
-msgstr ""
+msgstr "Intrastat Maa"
 
 #. module: account_intrastat
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
@@ -196,7 +200,7 @@ msgstr "Intrastat-raportti"
 #: model:ir.model.fields,field_description:account_intrastat.field_account_move__intrastat_transport_mode_id
 #: model:ir.model.fields,field_description:account_intrastat.field_account_payment__intrastat_transport_mode_id
 msgid "Intrastat Transport Mode"
-msgstr ""
+msgstr "Intrasta-kuljetustila"
 
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.view_report_intrastat_code_tree
@@ -208,7 +212,7 @@ msgstr "Intrastat code"
 #: model:ir.model.fields,help:account_intrastat.field_account_move__intrastat_country_id
 #: model:ir.model.fields,help:account_intrastat.field_account_payment__intrastat_country_id
 msgid "Intrastat country, arrival for sales, dispatch for purchases"
-msgstr ""
+msgstr "Intrastat-maa, saapuminen myynnin osalta, lähetys ostojen osalta"
 
 #. module: account_intrastat
 #: model:ir.model.fields,field_description:account_intrastat.field_res_country__intrastat
@@ -233,20 +237,20 @@ msgstr "Päiväkirjatapahtuma"
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_vat
 msgid "Only with VAT numbers"
-msgstr ""
+msgstr "Ainoastaan alv-numeroiden kanssa"
 
 #. module: account_intrastat
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 #: model_terms:ir.ui.view,arch_db:account_intrastat.report_invoice_document_intrastat_2019
 #, python-format
-msgid "Origin Country"
-msgstr ""
+msgid "Origin"
+msgstr "Lähde"
 
 #. module: account_intrastat
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 #, python-format
 msgid "Partner VAT"
-msgstr ""
+msgstr "Partnerin ALV"
 
 #. module: account_intrastat
 #: model:ir.model,name:account_intrastat.model_product_product
@@ -261,7 +265,7 @@ msgstr "Tuotekategoria"
 #. module: account_intrastat
 #: model:ir.model.fields,field_description:account_intrastat.field_account_move_line__intrastat_product_origin_country_id
 msgid "Product Country"
-msgstr ""
+msgstr "Tuotteen maa"
 
 #. module: account_intrastat
 #: model:ir.model,name:account_intrastat.model_product_template
@@ -278,13 +282,13 @@ msgstr "Määrä"
 #: model:ir.model.fields.selection,name:account_intrastat.selection__account_intrastat_code__type__region
 #: model_terms:ir.ui.view,arch_db:account_intrastat.view_intrastat_code_search
 msgid "Region"
-msgstr ""
+msgstr "Alue"
 
 #. module: account_intrastat
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 #, python-format
 msgid "Region Code"
-msgstr ""
+msgstr "Alueen koodi"
 
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_intrastat_extended
@@ -295,7 +299,7 @@ msgstr "Normaali"
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 #, python-format
 msgid "System"
-msgstr ""
+msgstr "Järjestelmä"
 
 #. module: account_intrastat
 #: model:ir.model.fields,help:account_intrastat.field_res_config_settings__company_country_id
@@ -318,23 +322,23 @@ msgstr "Tapahtuma"
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 #, python-format
 msgid "Transaction Code"
-msgstr ""
+msgstr "Tapahtuman koodi"
 
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.view_intrastat_code_search
 msgid "Transport"
-msgstr ""
+msgstr "Siirto"
 
 #. module: account_intrastat
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 #, python-format
 msgid "Transport Code"
-msgstr ""
+msgstr "Kuljetuskoodi"
 
 #. module: account_intrastat
 #: model:ir.model.constraint,message:account_intrastat.constraint_account_intrastat_code_intrastat_region_code_unique
 msgid "Triplet code/type/country_id must be unique."
-msgstr ""
+msgstr "Tripletin koodi/tyyppi/country_id on oltava yksilöllinen."
 
 #. module: account_intrastat
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
@@ -362,4 +366,4 @@ msgstr "Paino"
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_vat
 msgid "With VAT numbers"
-msgstr ""
+msgstr "ALV-tunnisteiden kanssa"

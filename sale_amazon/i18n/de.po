@@ -3,8 +3,8 @@
 # 	* sale_amazon
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
+# Martin Trigaux, 2023
 # Larissa Manderfeld, 2023
 # 
 msgid ""
@@ -45,14 +45,14 @@ msgstr ""
 "            <p>Solange die Bestellung nicht in SellerCentral storniert wird, wird keine weitere Synchronisierung angestoßen.</p>\n"
 "            <p>Um einen neuen Synchronisierungsversuch zu unternehmen, gehen Sie wie folgt vor:\n"
 "                <ol>\n"
-"                    <li>Entwicklertools eingeben.</li>\n"
+"                    <li>Geben Sie die Entwicklertools ein.</li>\n"
 "                    <li>Öffnen Sie das Formular des Amazon-Kontos, über das die Bestellung getätigt wurde.</li>\n"
-"                    <li>Navigieren Sie zur Registerkarte Auftragsverfolgung.</li>\n"
+"                    <li>Navigieren Sie zur Registerkarte der Auftragsverfolgung.</li>\n"
 "                    <li>Legen Sie ein Datum für die <em>Synchronisierung der letzten Aufträge</em> fest, das vor der letzten Statusaktualisierung des Auftrags liegt.</li>\n"
 "                    <li>Speichern Sie die Änderungen und klicken Sie auf <em>BESTELLUNGEN SYNCHRONISIEREN</em>.</li>\n"
 "                </ol>\n"
 "            </p>\n"
-"            <p>Sollte das Problem weiterhin bestehen, kontaktieren Sie den <a href=\"https://www.odoo.com/help/\">Odoo Helpdesk</a>.</p>\n"
+"            <p>Sollte das Problem weiterhin bestehen, kontaktieren Sie den <a href=\"https://www.odoo.com/help/\">Odoo-Kundendienst</a>.</p>\n"
 "        </div>\n"
 "        "
 
@@ -90,7 +90,7 @@ msgid ""
 "                                                to which this account has access will be\n"
 "                                                synchronized and automatically made available."
 msgstr ""
-"Nach der Validierung der Anmeldeinformationen werden die Marktplätze\n"
+"Nach der Validierung der Anmeldeinformationen werden die Marketplaces,\n"
 "auf die dieses Konto Zugriff hat, synchronisiert\n"
 "und automatisch verfügbar gemacht."
 
@@ -98,20 +98,20 @@ msgstr ""
 #: model:ir.model,name:sale_amazon.model_amazon_account
 #: model_terms:ir.ui.view,arch_db:sale_amazon.amazon_account_view_form
 msgid "Amazon Account"
-msgstr "Amazon Konto"
+msgstr "Amazon-Konto"
 
 #. module: sale_amazon
 #: model:ir.actions.act_window,name:sale_amazon.list_amazon_account_action
 #: model_terms:ir.ui.view,arch_db:sale_amazon.amazon_account_view_tree
 #: model_terms:ir.ui.view,arch_db:sale_amazon.res_config_settings_view_form
 msgid "Amazon Accounts"
-msgstr "Amazon Konto"
+msgstr "Amazon-Konten"
 
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_res_partner__amazon_email
 #: model:ir.model.fields,field_description:sale_amazon.field_res_users__amazon_email
 msgid "Amazon Email"
-msgstr "Amazon Email"
+msgstr "Amazon-E-Mail"
 
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_stock_location__amazon_location
@@ -135,12 +135,12 @@ msgstr "Amazon Marketplaces"
 #: model:ir.model,name:sale_amazon.model_amazon_offer
 #: model:ir.model.fields,field_description:sale_amazon.field_sale_order_line__amazon_offer_id
 msgid "Amazon Offer"
-msgstr "Amazon Angebot"
+msgstr "Amazon-Angebot"
 
 #. module: sale_amazon
 #: model_terms:ir.ui.view,arch_db:sale_amazon.amazon_offer_view_tree
 msgid "Amazon Offers"
-msgstr "Amazon Angebot"
+msgstr "Amazon-Angebote"
 
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_sale_order__amazon_order_ref
@@ -151,13 +151,13 @@ msgstr "Amazon Bestell Ref"
 #: model:product.product,name:sale_amazon.default_product
 #: model:product.template,name:sale_amazon.default_product_product_template
 msgid "Amazon Sale"
-msgstr "Amazon Verkauf"
+msgstr "Amazon-Verkauf"
 
 #. module: sale_amazon
 #: model:product.product,name:sale_amazon.shipping_product
 #: model:product.template,name:sale_amazon.shipping_product_product_template
 msgid "Amazon Shipping"
-msgstr "Amazon Lieferung "
+msgstr "Amazon-Lieferung "
 
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_stock_picking__amazon_sync_pending
@@ -167,12 +167,12 @@ msgstr "Amazon Sync steht aus"
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_crm_team__amazon_team
 msgid "Amazon Team"
-msgstr "Amazon Team"
+msgstr "Amazon-Team"
 
 #. module: sale_amazon
 #: model_terms:ir.actions.act_window,help:sale_amazon.list_amazon_account_action
 msgid "Amazon accounts correspond to Amazon Seller Central accounts."
-msgstr "Amazon Konten entsprechen dem Amazon Seller Central"
+msgstr "Amazon-Konten entsprechen den Amazon-Seller-Central-Konten"
 
 #. module: sale_amazon
 #: code:addons/sale_amazon/models/amazon_marketplace.py:0
@@ -194,8 +194,8 @@ msgid ""
 "Since the current carrier doesn't automatically provide a tracking "
 "reference, you need to set one manually."
 msgstr ""
-"Amazon verlangt, dass bei jeder Lieferung eine Tracking-Referenz angegeben "
-"wird. Da der aktuelle Versanddienstleister nicht automatisch eine "
+"Amazon verlangt, dass bei jeder Lieferung eine Sendungsverfolgungsnummer "
+"angegeben wird. Da der aktuelle Versanddienstleister nicht automatisch eine "
 "Sendungsverfolgungsnummer bereitstellt, müssen Sie diese manuell eingeben."
 
 #. module: sale_amazon
@@ -205,8 +205,9 @@ msgid ""
 "Amazon requires that a tracking reference is provided with each delivery. "
 "You need to assign a carrier to this delivery."
 msgstr ""
-"Amazon verlangt, dass bei jeder Lieferung eine Tracking-Referenz angegeben "
-"wird. Sie müssen dieser Lieferung einen Spediteur zuweisen."
+"Amazon verlangt, dass bei jeder Lieferung eine Sendungsverfolgungsnummer "
+"angegeben wird. Sie müssen dieser Lieferung einen Versanddienstleister "
+"zuweisen."
 
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_sale_order_line__amazon_item_ref
@@ -223,7 +224,7 @@ msgstr "Amazon: Fehler bei der Synchronisierung von Bestellungen"
 #: model:ir.cron,cron_name:sale_amazon.ir_cron_sync_amazon_orders
 #: model:ir.cron,name:sale_amazon.ir_cron_sync_amazon_orders
 msgid "Amazon: sync orders"
-msgstr "SYNC BESTELLUNGEN"
+msgstr "Amazon: Bestellungen synchronisieren"
 
 #. module: sale_amazon
 #: model:ir.actions.server,name:sale_amazon.ir_cron_sync_amazon_pickings_ir_actions_server
@@ -274,7 +275,7 @@ msgstr "Authorisierungs-Token"
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_account__available_marketplace_ids
 msgid "Available Marketplaces"
-msgstr "Verfügbare Online-Marktplätze"
+msgstr "Verfügbare Marketplaces"
 
 #. module: sale_amazon
 #: model:amazon.marketplace,name:sale_amazon.marketplace_CA
@@ -295,7 +296,7 @@ msgstr "Unternehmen"
 #. module: sale_amazon
 #: model:ir.model,name:sale_amazon.model_res_config_settings
 msgid "Config Settings"
-msgstr "Konfiguration "
+msgstr "Konfigurationseinstellungen "
 
 #. module: sale_amazon
 #: model:ir.model,name:sale_amazon.model_res_partner
@@ -319,14 +320,14 @@ msgstr "Erstellt am"
 #. module: sale_amazon
 #: model_terms:ir.ui.view,arch_db:sale_amazon.amazon_account_view_form
 msgid "Credentials"
-msgstr "Credentials"
+msgstr "Anmeldedaten"
 
 #. module: sale_amazon
 #: code:addons/sale_amazon/models/res_config_settings.py:0
 #: model_terms:ir.ui.view,arch_db:sale_amazon.res_config_settings_view_form
 #, python-format
 msgid "Default Products"
-msgstr "Standard-Produkte"
+msgstr "Standardprodukte"
 
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_account__display_name
@@ -355,12 +356,12 @@ msgstr "Frankreich"
 #. module: sale_amazon
 #: model_terms:ir.ui.view,arch_db:sale_amazon.amazon_order_view_form
 msgid "Fulfilled by Amazon"
-msgstr "Fulfilled by Amazon"
+msgstr "Versand durch Amazon"
 
 #. module: sale_amazon
 #: model_terms:ir.ui.view,arch_db:sale_amazon.amazon_order_view_form
 msgid "Fulfilled by Merchant"
-msgstr "Vom Händler erfüllt"
+msgstr "Versand durch Händler"
 
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_sale_order__amazon_channel
@@ -370,12 +371,12 @@ msgstr "Bestellabwicklungskanal"
 #. module: sale_amazon
 #: model:ir.model.fields.selection,name:sale_amazon.selection__sale_order__amazon_channel__fba
 msgid "Fulfillment by Amazon"
-msgstr "Erfüllung durch Amazon"
+msgstr "Versand durch Amazon"
 
 #. module: sale_amazon
 #: model:ir.model.fields.selection,name:sale_amazon.selection__sale_order__amazon_channel__fbm
 msgid "Fulfillment by Merchant"
-msgstr "Fulfillment by Merchant"
+msgstr "Versand durch Händler"
 
 #. module: sale_amazon
 #: model:amazon.marketplace,name:sale_amazon.marketplace_DE
@@ -389,7 +390,7 @@ msgid ""
 "Gift message:\n"
 "%s"
 msgstr ""
-"Geschenkbenachrichtigung:\n"
+"Geschenknachricht:\n"
 "%s"
 
 #. module: sale_amazon
@@ -422,8 +423,8 @@ msgid ""
 "                                         synchronize and add them to the "
 "current sync marketplaces"
 msgstr ""
-"Wenn dieses Konto Zugang zu neuen Marktplätzen erhalten hat, synchronisieren"
-" Sie diese und fügen Sie sie zu den aktuellen synchronisierten Marktplätzen "
+"Wenn dieses Konto Zugang zu neuen Marketplaces erhalten hat, synchronisieren"
+" Sie diese und fügen Sie sie zu den aktuellen synchronisierten Marketplaces "
 "hinzu."
 
 #. module: sale_amazon
@@ -439,12 +440,12 @@ msgstr "Inventurlager"
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_account__is_follow_up_displayed
 msgid "Is Follow Up Displayed"
-msgstr "Wird Follow-up angezeigt"
+msgstr "Wird Verfolgung angezeigt"
 
 #. module: sale_amazon
 #: model:ir.model.fields,help:sale_amazon.field_stock_picking__amazon_sync_pending
 msgid "Is True if the picking must be notified to Amazon"
-msgstr ""
+msgstr "Ist Wahr, wenn die Kommissionierung an Amazon gemeldet werden muss"
 
 #. module: sale_amazon
 #: model:amazon.marketplace,name:sale_amazon.marketplace_IT
@@ -461,14 +462,14 @@ msgstr "Zuletzt geändert am"
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_account__last_orders_sync
 msgid "Last Orders Sync"
-msgstr "Letzter Sync:"
+msgstr "Letzte Auftragssynchronisierung"
 
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_account__write_uid
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_marketplace__write_uid
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_offer__write_uid
 msgid "Last Updated by"
-msgstr "Zuletzt aktualisiert durch"
+msgstr "Zuletzt aktualisiert von"
 
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_account__write_date
@@ -480,12 +481,12 @@ msgstr "Zuletzt aktualisiert am"
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_offer__marketplace_id
 msgid "Marketplace"
-msgstr "Marktplatz"
+msgstr "Marketplace"
 
 #. module: sale_amazon
 #: model_terms:ir.ui.view,arch_db:sale_amazon.amazon_account_view_form
 msgid "Marketplaces"
-msgstr "Marktplätze"
+msgstr "Marketplaces"
 
 #. module: sale_amazon
 #: model:amazon.marketplace,name:sale_amazon.marketplace_MX
@@ -525,17 +526,17 @@ msgstr "Angebote"
 #: code:addons/sale_amazon/models/amazon_account.py:0
 #, python-format
 msgid "Only available marketplaces can be selected"
-msgstr "Nur verfügbare Marktplätze können ausgewählt werden"
+msgstr "Nur verfügbare Marketplces können ausgewählt werden"
 
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_account__order_count
 msgid "Order Count"
-msgstr "Anzahl der Aufträge"
+msgstr "Anzahl Aufträge"
 
 #. module: sale_amazon
 #: model_terms:ir.ui.view,arch_db:sale_amazon.amazon_account_view_form
 msgid "Order Follow-up"
-msgstr "Bestellungen Nachverfolgen"
+msgstr "Auftragsverfolgung"
 
 #. module: sale_amazon
 #: code:addons/sale_amazon/models/amazon_account.py:0
@@ -571,7 +572,7 @@ msgstr ""
 #. module: sale_amazon
 #: model_terms:ir.actions.act_window,help:sale_amazon.list_amazon_account_action
 msgid "Register your Amazon account"
-msgstr "Registrieren Sie Ihren Amazon-Account"
+msgstr "Ihr Amazon-Konto registrieren"
 
 #. module: sale_amazon
 #: model_terms:ir.actions.act_window,help:sale_amazon.list_amazon_account_action
@@ -589,8 +590,8 @@ msgstr "SKU"
 #: model:ir.model.constraint,message:sale_amazon.constraint_amazon_offer_unique_sku
 msgid "SKU must be unique for a given account and marketplace."
 msgstr ""
-"SKU muss für ein bestimmtes Konto und einen bestimmten Marktplatz eindeutig "
-"sein."
+"SKU muss für ein bestimmtes Konto und einen bestimmten Marketplace eindeutig"
+" sein."
 
 #. module: sale_amazon
 #: model:ir.model,name:sale_amazon.model_sale_order
@@ -600,7 +601,7 @@ msgstr "Verkaufsauftrag"
 #. module: sale_amazon
 #: model:ir.model,name:sale_amazon.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Auftragsposition"
+msgstr "Verkaufsauftragszeile"
 
 #. module: sale_amazon
 #: model:ir.model,name:sale_amazon.model_crm_team
@@ -611,7 +612,7 @@ msgstr "Verkaufsteam"
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_account__user_id
 msgid "Salesperson"
-msgstr "Vertriebsmitarbeiter"
+msgstr "Verkäufer"
 
 #. module: sale_amazon
 #: model_terms:ir.ui.view,arch_db:sale_amazon.amazon_account_view_form
@@ -619,7 +620,7 @@ msgid ""
 "Select the marketplace on which your seller account\n"
 "                                                was originally created."
 msgstr ""
-"Wählen Sie den Marktplatz aus, für den Ihr Verkäufer-Konto\n"
+"Wählen Sie den Marketplace aus, für den Ihr Verkäufer-Konto\n"
 "ursprünglich erstellt wurde."
 
 #. module: sale_amazon
@@ -630,7 +631,7 @@ msgstr "Verkäufer-ID"
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_account__base_marketplace_id
 msgid "Sign-up Marketplace"
-msgstr "Online-Marktplatz-Anmeldung"
+msgstr "Anmeldemarketplace"
 
 #. module: sale_amazon
 #: model:amazon.marketplace,name:sale_amazon.marketplace_ES
@@ -653,12 +654,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_account__active_marketplace_ids
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_offer__active_marketplace_ids
 msgid "Sync Marketplaces"
-msgstr "Marktplätze synchronisieren"
+msgstr "Marketplaces synchronisieren"
 
 #. module: sale_amazon
 #: model_terms:ir.ui.view,arch_db:sale_amazon.amazon_account_view_form
 msgid "Sync Orders"
-msgstr "Sync Bestellungen"
+msgstr "Aufträge synchronisieren"
 
 #. module: sale_amazon
 #: model_terms:ir.ui.view,arch_db:sale_amazon.amazon_account_view_form
@@ -676,12 +677,12 @@ msgstr ""
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_marketplace__tax_included
 msgid "Tax Included"
-msgstr "Steuer eingschlossen"
+msgstr "Inklusive Steuern"
 
 #. module: sale_amazon
 #: model_terms:ir.ui.view,arch_db:sale_amazon.amazon_account_view_form
 msgid "Test Credentials"
-msgstr ""
+msgstr "Test-Anmeldedaten"
 
 #. module: sale_amazon
 #: model:ir.model.fields,help:sale_amazon.field_amazon_marketplace__api_ref
@@ -806,7 +807,7 @@ msgstr "Die Parktplätze, zu denen dieser Account Zugang hat"
 #: model:ir.model.fields,help:sale_amazon.field_amazon_account__active_marketplace_ids
 #: model:ir.model.fields,help:sale_amazon.field_amazon_offer__active_marketplace_ids
 msgid "The marketplaces this account sells on"
-msgstr "Die Marketplaces auf denen dieser Account verkauft"
+msgstr "Die Marketplaces, auf denen dieses Kontos verkauft."
 
 #. module: sale_amazon
 #: code:addons/sale_amazon/models/sale.py:0
@@ -842,14 +843,14 @@ msgstr "Das Verkäuferkonto, das zur Verwaltung dieses Produkts verwendet wird"
 #. module: sale_amazon
 #: model:ir.model.constraint,message:sale_amazon.constraint_amazon_marketplace_unique_api_ref
 msgid "There can only exist one marketplace for a given API Identifier."
-msgstr "Für eine bestimmte API-Kennung kann es nur einen Marktplatz geben."
+msgstr "Für eine bestimmte API-Kennung kann es nur einen Marketplace geben."
 
 #. module: sale_amazon
 #: model:ir.model.constraint,message:sale_amazon.constraint_sale_order_unique_amazon_order_ref
 msgid ""
 "There can only exist one sale order for a given Amazon Order Reference."
 msgstr ""
-"Es kann nur einen Verkaufsauftrag für eine bestimmte Amazon Order Reference "
+"Es kann nur einen Verkaufsauftrag für eine bestimmte Amazon-Bestellreferenz "
 "geben."
 
 #. module: sale_amazon
@@ -863,7 +864,7 @@ msgstr ""
 #. module: sale_amazon
 #: model:ir.model,name:sale_amazon.model_stock_picking
 msgid "Transfer"
-msgstr "Lieferung vornehmen"
+msgstr "Transfer"
 
 #. module: sale_amazon
 #: model:ir.model.fields,help:sale_amazon.field_stock_location__amazon_location
@@ -900,12 +901,12 @@ msgstr "Einheiten"
 #. module: sale_amazon
 #: model_terms:ir.ui.view,arch_db:sale_amazon.amazon_account_view_form
 msgid "Update Available Marketplaces"
-msgstr "Verfügbare Marktplätze aktualisieren"
+msgstr "Verfügbare Marketplaces aktualisieren"
 
 #. module: sale_amazon
 #: model_terms:ir.ui.view,arch_db:sale_amazon.amazon_offer_view_tree
 msgid "View on Seller Central"
-msgstr "Sicht auf Seller Central"
+msgstr "Auf Seller Central ansehen"
 
 #. module: sale_amazon
 #: code:addons/sale_amazon/models/amazon_account.py:0
@@ -944,4 +945,4 @@ msgstr "[%s] Kosten für die Geschenkverpackung für %s"
 #. module: sale_amazon
 #: model_terms:ir.ui.view,arch_db:sale_amazon.amazon_account_view_form
 msgid "e.g. American Market"
-msgstr "z.B. Amerikanischer Markt"
+msgstr "z. B. Amerikanischer Markt"

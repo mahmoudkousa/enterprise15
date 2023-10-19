@@ -5,7 +5,7 @@ var StockBarcodeKanbanRecord = require('stock_barcode.BarcodeKanbanRecord');
 var {_t, bus, qweb} = require('web.core');
 
 var KanbanRenderer = require('web.KanbanRenderer');
-const BarcodeScanner = require('@web_enterprise/webclient/barcode/barcode_scanner');
+const BarcodeScanner = require('@web_enterprise/webclient/barcode/barcode_scanner')[Symbol.for("default")];
 
 
 var StockBarcodeListKanbanRenderer = KanbanRenderer.extend({

@@ -33,7 +33,7 @@ msgstr ""
 #. module: social_sale
 #: model:ir.model.fields,field_description:social_sale.field_social_post__sale_invoiced_amount
 msgid "Invoiced Amount"
-msgstr ""
+msgstr "Jumlah Difaktur"
 
 #. module: social_sale
 #: model:ir.model.fields,field_description:social_sale.field_social_post__sale_quotation_count

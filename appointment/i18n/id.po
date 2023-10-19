@@ -235,7 +235,7 @@ msgstr ""
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_type_view_form
 msgid "<span> days</span>"
-msgstr ""
+msgstr "<span> hari</span>"
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_type_view_form
@@ -1526,7 +1526,7 @@ msgstr "Dengan"
 #: model:ir.model.fields.selection,name:appointment.selection__calendar_appointment_type__category__work_hours
 #, python-format
 msgid "Work Hours"
-msgstr ""
+msgstr "Jam Kerja"
 
 #. module: appointment
 #. openerp-web

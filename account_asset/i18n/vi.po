@@ -9,7 +9,8 @@
 # Trinh Tran Thi Phuong <trinhttp@trobz.com>, 2021
 # Dao Nguyen <trucdao.uel@gmail.com>, 2021
 # Vo Thanh Thuy, 2021
-# Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2022
+# Nancy Momoland <thanh.np2502@gmail.com>, 2022
+# Thi Huong Nguyen, 2023
 # 
 msgid ""
 msgstr ""
@@ -17,8 +18,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2022\n"
-"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Last-Translator: Thi Huong Nguyen, 2023\n"
+"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2135,6 +2136,16 @@ msgid ""
 msgstr ""
 "Bạn không thể tạo tài sản từ chi tiết bút toán nợ và có trên tài khoản hoặc "
 "không có tổng tiền"
+
+#. module: account_asset
+#: code:addons/account_asset/models/account_asset.py:0
+#, python-format
+msgid ""
+"You cannot delete an asset linked to posted entries.\n"
+"You should either confirm the asset, then, sell or dispose of it, or cancel the linked journal entries."
+msgstr ""
+"Bạn không thể xóa tài sản liên kết với các bút toán đã ghi sổ.\n"
+"Bạn nên xác nhận tài sản, sau đó bán hoặc thanh lý nó, hoặc hủy các bút toán được liên kết."
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:0

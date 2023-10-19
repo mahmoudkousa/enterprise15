@@ -3,9 +3,9 @@
 # 	* stock_barcode_picking_batch
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Robert Förster <hello@suppliot.eu>, 2021
 # Friederike Fasterling-Nesselbosch, 2022
+# Martin Trigaux, 2023
 # Larissa Manderfeld, 2023
 # 
 msgid ""
@@ -42,7 +42,7 @@ msgstr "Zuteilung"
 #. module: stock_barcode_picking_batch
 #: model:ir.actions.client,name:stock_barcode_picking_batch.stock_barcode_picking_batch_client_action
 msgid "Barcode Batch Picking Client Action"
-msgstr "Barcode Batch Picking Client Aktion"
+msgstr "Client-Aktion für Barcode-Stapelkommissionierung"
 
 #. module: stock_barcode_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.view_batch_picking_confirmation
@@ -53,7 +53,7 @@ msgstr "Erstellung einer Batch-Kommissionierung"
 #: model:ir.model,name:stock_barcode_picking_batch.model_stock_picking_batch
 #: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_barcode_cancel_operation__batch_id
 msgid "Batch Transfer"
-msgstr "Batch-Transfer"
+msgstr "Stapeltransfer"
 
 #. module: stock_barcode_picking_batch
 #: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_barcode_cancel_operation__batch_name
@@ -108,7 +108,7 @@ msgstr "Beschreibung"
 #. module: stock_barcode_picking_batch
 #: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking__display_batch_button
 msgid "Display Batch Button"
-msgstr "Stapel-Button anzeigen"
+msgstr "Stapel-Schaltfläche anzeigen"
 
 #. module: stock_barcode_picking_batch
 #: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_barcode_picking_batch_group_pickings__display_name
@@ -133,7 +133,7 @@ msgstr "Zuletzt geändert am"
 #. module: stock_barcode_picking_batch
 #: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_barcode_picking_batch_group_pickings__write_uid
 msgid "Last Updated by"
-msgstr "Zuletzt aktualisiert durch"
+msgstr "Zuletzt aktualisiert von"
 
 #. module: stock_barcode_picking_batch
 #: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_barcode_picking_batch_group_pickings__write_date
@@ -143,7 +143,7 @@ msgstr "Zuletzt aktualisiert am"
 #. module: stock_barcode_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_barcode_batch_picking_view_kanban
 msgid "Lines"
-msgstr "Linien"
+msgstr "Zeilen"
 
 #. module: stock_barcode_picking_batch
 #: model:ir.model.fields,help:stock_barcode_picking_batch.field_stock_barcode_cancel_operation__batch_name
@@ -160,18 +160,18 @@ msgstr "Kein Stapeltransfer gefunden"
 #: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
 #, python-format
 msgid "No ready transfers found"
-msgstr "Keine bereiten Transfers gefunden"
+msgstr "Keine fertigen Transfers gefunden"
 
 #. module: stock_barcode_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_barcode_batch_picking_view_kanban
 msgid "Open Batch Picking"
-msgstr ""
+msgstr "Stapelkommissionierung öffnen"
 
 #. module: stock_barcode_picking_batch
 #: code:addons/stock_barcode_picking_batch/models/stock_picking_batch.py:0
 #, python-format
 msgid "Open picking batch form"
-msgstr "Formular für Kommissionierungschargen öffnen"
+msgstr "Formular für Kommissionierstapel öffnen"
 
 #. module: stock_barcode_picking_batch
 #: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_barcode_picking_batch_group_pickings__picking_type_name
@@ -188,7 +188,7 @@ msgstr "Kommissionierung"
 #: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
 #, python-format
 msgid "Print Batch Transfer"
-msgstr "Batch-Transfer drucken"
+msgstr "Stapeltransfer drucken"
 
 #. module: stock_barcode_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.view_batch_picking_confirmation
@@ -198,14 +198,14 @@ msgstr "Prozess"
 #. module: stock_barcode_picking_batch
 #: model:ir.model,name:stock_barcode_picking_batch.model_stock_move_line
 msgid "Product Moves (Stock Move Line)"
-msgstr "Produktbewegungen (Lagerbewegung)"
+msgstr "Produktbewegungen (Lagerbuchung)"
 
 #. module: stock_barcode_picking_batch
 #. openerp-web
 #: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
 #, python-format
 msgid "Select an operation type for batch transfer"
-msgstr "Wählen Sie eine Vorgangsart für die Stapelübertragung"
+msgstr "Wählen Sie eine Vorgangsart für den Stapeltransfer"
 
 #. module: stock_barcode_picking_batch
 #. openerp-web
@@ -229,14 +229,14 @@ msgstr "Ein neues Batch starten"
 #: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
 #, python-format
 msgid "The Batch Transfer has been validated"
-msgstr "Die Batch-Übertragung wurde validiert"
+msgstr "Der Stapeltransfer wurde validiert"
 
 #. module: stock_barcode_picking_batch
 #. openerp-web
 #: code:addons/stock_barcode_picking_batch/static/src/models/barcode_picking_batch_model.js:0
 #, python-format
 msgid "The batch picking has been cancelled"
-msgstr "Die Batch-Kommissionierung wurde abgebrochen"
+msgstr "Die Stapelkommissionierung wurde abgebrochen"
 
 #. module: stock_barcode_picking_batch
 #: model_terms:ir.actions.act_window,help:stock_barcode_picking_batch.stock_barcode_batch_picking_action_kanban
@@ -247,7 +247,7 @@ msgid ""
 "            help the timing management of operations (tasks to be done at 1pm)."
 msgstr ""
 "Ziel des Stapeltransfers ist es, Vorgänge zu gruppieren, die zusammen ausgeführt werden können (oder müssen), um ihre Effizienz zu erhöhen.\n"
-"Er kann auch nützlich sein, um Aufgaben zuzuweisen (eine Person = ein Batch) oder\n"
+"Er kann auch nützlich sein, um Aufgaben zuzuweisen (eine Person = ein Stapel) oder\n"
 "die zeitliche Steuerung von Vorgängen zu erleichtern (Aufgaben, die um 13 Uhr erledigt werden sollen)."
 
 #. module: stock_barcode_picking_batch
@@ -277,7 +277,7 @@ msgid ""
 "This batch transfer is still draft, it must be confirmed before being "
 "processed"
 msgstr ""
-"Diese Stapelüberweisung ist noch ein Entwurf und muss vor der Bearbeitung "
+"Dieser Stapeltransfer ist noch ein Entwurf und muss vor der Bearbeitung "
 "bestätigt werden."
 
 #. module: stock_barcode_picking_batch
@@ -285,17 +285,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_move_line__picking_id
 #: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_move_line_product_selector_inherit
 msgid "Transfer"
-msgstr "Lieferung vornehmen"
+msgstr "Transfer"
 
 #. module: stock_barcode_picking_batch
 #: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking_batch__picking_type_code
 msgid "Type of Operation"
-msgstr "Vorgangstyp"
+msgstr "Vorgangsart"
 
 #. module: stock_barcode_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_barcode_batch_picking_view_info
 msgid "Unbatch Transfer"
-msgstr "Transfer aus der Charge entfernen"
+msgstr "Transfer aus Stapel entfernen"
 
 #. module: stock_barcode_picking_batch
 #: code:addons/stock_barcode_picking_batch/models/stock_picking.py:0
@@ -306,9 +306,9 @@ msgid ""
 " transfer in question from the batch."
 msgstr ""
 "Sie können einen Transfer nicht validieren, wenn keine Mengen reserviert "
-"oder durchgeführt wurden. Über die Info-Schaltfläche in der oberen rechten "
-"Ecke Ihres Bildschirms können Sie die betreffende Überweisung aus dem Stapel"
-" entfernen."
+"oder erledigt wurden. Über die Info-Schaltfläche in der oberen rechten Ecke "
+"Ihres Bildschirms können Sie den betreffenden Transfer aus dem Stapel "
+"entfernen."
 
 #. module: stock_barcode_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.view_batch_picking_confirmation

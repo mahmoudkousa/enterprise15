@@ -23,22 +23,22 @@ msgstr ""
 #. module: quality_mrp
 #: model_terms:ir.ui.view,arch_db:quality_mrp.mrp_production_view_form_inherit_quality
 msgid "<span class=\"o_stat_text text-danger\">Quality Checks</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text text-danger\">Verificações de qualidade</span>"
 
 #. module: quality_mrp
 #: model_terms:ir.ui.view,arch_db:quality_mrp.mrp_production_view_form_inherit_quality
 msgid "<span class=\"o_stat_text text-success\">Quality Checks</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text text-success\">Verificações de qualidade</span>"
 
 #. module: quality_mrp
 #: model_terms:ir.ui.view,arch_db:quality_mrp.mrp_production_view_form_inherit_quality
 msgid "<span class=\"o_stat_text\">Quality Alerts</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Alertas de qualidade</span>"
 
 #. module: quality_mrp
 #: model_terms:ir.ui.view,arch_db:quality_mrp.mrp_production_view_form_inherit_quality
 msgid "<span class=\"o_stat_text\">Quality Checks</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Verificações de qualidade</span>"
 
 #. module: quality_mrp
 #: model_terms:ir.ui.view,arch_db:quality_mrp.worksheet_page
@@ -76,7 +76,7 @@ msgstr "Alerta de Qualidade"
 #. module: quality_mrp
 #: model:ir.model.fields,field_description:quality_mrp.field_mrp_production__quality_alert_count
 msgid "Quality Alert Count"
-msgstr ""
+msgstr "Contagem de alertas de qualidade"
 
 #. module: quality_mrp
 #: model:ir.model,name:quality_mrp.model_quality_check
@@ -86,12 +86,12 @@ msgstr "Verificar Qualidade"
 #. module: quality_mrp
 #: model:ir.model.fields,field_description:quality_mrp.field_mrp_production__quality_check_fail
 msgid "Quality Check Fail"
-msgstr ""
+msgstr "Falha na verificação de qualidade"
 
 #. module: quality_mrp
 #: model:ir.model.fields,field_description:quality_mrp.field_mrp_production__quality_check_todo
 msgid "Quality Check Todo"
-msgstr ""
+msgstr "Lista de tarefas de qualidade"
 
 #. module: quality_mrp
 #: model:ir.actions.act_window,name:quality_mrp.quality_check_action_mo

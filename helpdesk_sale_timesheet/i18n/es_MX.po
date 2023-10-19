@@ -49,7 +49,7 @@ msgstr "Duración (días)"
 #. module: helpdesk_sale_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
 msgid "Duration (Hours)"
-msgstr "Duración (Horas)"
+msgstr "Duración (horas)"
 
 #. module: helpdesk_sale_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_sale_timesheet.tickets_followup_timesheet
@@ -111,8 +111,8 @@ msgid ""
 "information aims at easing your After Sales process and only serves "
 "indicative purposes."
 msgstr ""
-"Referencia de la orden de venta relacionada con este ticket. Configurar esta"
-" información facilitará su proceso de posventa, solo tiene fines "
+"Referencia de la orden de venta relacionada con este ticket. Establecer esta"
+" información facilitará su proceso de posventa y solo tiene fines "
 "indicativos."
 
 #. module: helpdesk_sale_timesheet

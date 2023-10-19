@@ -53,7 +53,7 @@ class PosSession(models.Model):
             return res
         orders = self.order_ids.filtered(lambda o: o.state in ['done', 'invoiced'])
         # We don't want to block the user that need to validate his session order in order to create his TSS
-        if self.config_id.is_company_country_germany and self.config_id.l10n_de_fiskaly_tss_id and self.order_ids:
+        if self.config_id.is_company_country_germany and self.config_id.l10n_de_fiskaly_tss_id and orders:
             orders = orders.sorted('l10n_de_fiskaly_time_end')
             json = self._l10n_de_create_cash_point_closing_json(orders)
             self._l10n_de_send_fiskaly_cash_point_closing(json)

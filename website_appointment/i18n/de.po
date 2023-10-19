@@ -3,8 +3,8 @@
 # 	* website_appointment
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:01+0000\n"
 "PO-Revision-Date: 2021-09-14 12:44+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Martin Trigaux, 2023\n"
+"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -52,7 +52,7 @@ msgstr "Termin"
 #. module: website_appointment
 #: model:ir.model,name:website_appointment.model_calendar_appointment_type
 msgid "Appointment Type"
-msgstr "Termintyp"
+msgstr "Terminart"
 
 #. module: website_appointment
 #: model:ir.model,name:website_appointment.model_calendar_appointment_share
@@ -86,7 +86,7 @@ msgstr "Name"
 #: code:addons/website_appointment/static/src/js/website_appointment.editor.js:0
 #, python-format
 msgid "New Appointment Type"
-msgstr "Neuer Termintyp"
+msgstr "Neue Terminart"
 
 #. module: website_appointment
 #: model_terms:ir.ui.view,arch_db:website_appointment.appointments_cards
@@ -106,7 +106,7 @@ msgstr "Veröffentlicht"
 #. module: website_appointment
 #: model:ir.model.fields,field_description:website_appointment.field_calendar_appointment_type__is_seo_optimized
 msgid "SEO optimized"
-msgstr "SEO optimiert"
+msgstr "SEO-optimiert"
 
 #. module: website_appointment
 #: code:addons/website_appointment/models/website.py:0
@@ -123,13 +123,13 @@ msgstr "Seo-Name"
 #: model:ir.model.fields,help:website_appointment.field_calendar_appointment_type__website_url
 msgid "The full URL to access the document through the website."
 msgstr ""
-"Die vollständige URL mit der das Dokument überall aufgerufen werden kann."
+"Die vollständige URL, um über die Website auf das Dokument zuzugreifen."
 
 #. module: website_appointment
 #: model_terms:ir.ui.view,arch_db:website_appointment.appointments_cards
 msgid "Use the top button '<b>+ New</b>' to create an appointment type."
 msgstr ""
-"Verwenden Sie die obere Schaltfläche <b>+ Neu</b>, um eine Terminart zu "
+"Verwenden Sie die obere Schaltfläche „<b>+ Neu</b>“, um eine Terminart zu "
 "erstellen."
 
 #. module: website_appointment
@@ -145,24 +145,24 @@ msgstr "Website"
 #. module: website_appointment
 #: model:ir.model.fields,field_description:website_appointment.field_calendar_appointment_type__website_url
 msgid "Website URL"
-msgstr "Website URL"
+msgstr "Website-URL"
 
 #. module: website_appointment
 #: model:ir.model.fields,field_description:website_appointment.field_calendar_appointment_type__website_meta_description
 msgid "Website meta description"
-msgstr "Website Meta Beschreibung"
+msgstr "Website-Meta-Beschreibung"
 
 #. module: website_appointment
 #: model:ir.model.fields,field_description:website_appointment.field_calendar_appointment_type__website_meta_keywords
 msgid "Website meta keywords"
-msgstr "Website Schlüsselwörter"
+msgstr "Website-Meta-Schlagwörter"
 
 #. module: website_appointment
 #: model:ir.model.fields,field_description:website_appointment.field_calendar_appointment_type__website_meta_title
 msgid "Website meta title"
-msgstr "Website Meta-Titel"
+msgstr "Website-Meta-Titel"
 
 #. module: website_appointment
 #: model:ir.model.fields,field_description:website_appointment.field_calendar_appointment_type__website_meta_og_img
 msgid "Website opengraph image"
-msgstr "Offenes Grafikbild der Website"
+msgstr "Opengraph-Bild der Website"

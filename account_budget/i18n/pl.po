@@ -217,7 +217,7 @@ msgstr "Anuluj budżet"
 #. module: account_budget
 #: model:ir.model.fields.selection,name:account_budget.selection__crossovered_budget__state__cancel
 msgid "Cancelled"
-msgstr "Anulowano"
+msgstr "Anulowane"
 
 #. module: account_budget
 #: model_terms:ir.actions.act_window,help:account_budget.act_crossovered_budget_view
@@ -337,7 +337,7 @@ msgstr "Przyszłe czynności"
 #. module: account_budget
 #: model_terms:ir.ui.view,arch_db:account_budget.view_crossovered_budget_line_search
 msgid "Group By"
-msgstr "Grupuj wg."
+msgstr "Grupuj wg"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget__has_message

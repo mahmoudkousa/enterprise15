@@ -48,6 +48,8 @@ msgid ""
 "Note that you can only access this value in the read_group, only the sum "
 "operator is supported"
 msgstr ""
+"Ingat bahwa hanya Anda yang dapat mengakses value ini di, hanya sum operator"
+" yang didukung "
 
 #. module: stock_account_enterprise
 #: model:ir.model.fields,help:stock_account_enterprise.field_stock_report__stock_value
@@ -55,6 +57,8 @@ msgid ""
 "Note that you can only access this value in the read_group, only the sum "
 "operator is supported and only date_done is used from the domain"
 msgstr ""
+"Ingat bahwa hanya Anda yang dapat mengakses value ini di read_group, hanya "
+"sum operator yang didukung dan hanya date_done yang digunakan dari domain"
 
 #. module: stock_account_enterprise
 #: model_terms:ir.ui.view,arch_db:stock_account_enterprise.stock_report_dashboard_view_inherit
@@ -64,7 +68,7 @@ msgstr ""
 #. module: stock_account_enterprise
 #: model:ir.model,name:stock_account_enterprise.model_stock_report
 msgid "Stock Report"
-msgstr ""
+msgstr "Laporan Stok"
 
 #. module: stock_account_enterprise
 #: model_terms:ir.ui.view,arch_db:stock_account_enterprise.stock_report_dashboard_view_inherit

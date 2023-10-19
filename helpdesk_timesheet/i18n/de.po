@@ -3,8 +3,8 @@
 # 	* helpdesk_timesheet
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
+# Martin Trigaux, 2023
 # Larissa Manderfeld, 2023
 # 
 msgid ""
@@ -36,13 +36,13 @@ msgstr "<span class=\"o_stat_text\">Erfasst </span>"
 #, python-format
 msgid "A timesheet cannot be linked to a task and a ticket at the same time."
 msgstr ""
-"Ein Stundenzettel kann nicht gleichzeitig mit einer Aufgabe und einem Ticket"
-" verlinkt sein."
+"Eine Zeiterfassung kann nicht gleichzeitig mit einer Aufgabe und einem "
+"Ticket verlinkt sein."
 
 #. module: helpdesk_timesheet
 #: model:ir.model,name:helpdesk_timesheet.model_account_analytic_line
 msgid "Analytic Line"
-msgstr "Analytischer Buchungssatz"
+msgstr "Kostenstellenbuchung"
 
 #. module: helpdesk_timesheet
 #: code:addons/helpdesk_timesheet/models/helpdesk.py:0
@@ -54,12 +54,12 @@ msgstr "Abgeschlossen"
 #: code:addons/helpdesk_timesheet/models/helpdesk.py:0
 #, python-format
 msgid "Confirm Time Spent"
-msgstr "Bestätige die aufgezeichnete Zeit"
+msgstr "Aufgewendete Zeit bestätigen"
 
 #. module: helpdesk_timesheet
 #: model:ir.model,name:helpdesk_timesheet.model_helpdesk_ticket_create_timesheet
 msgid "Create Timesheet from ticket"
-msgstr "Stundenzettel aus Ticket erstellen"
+msgstr "Zeiterfassungbogen aus Ticket erstellen"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket_create_timesheet__create_uid
@@ -74,7 +74,7 @@ msgstr "Erstellt am"
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
 msgid "Days Spent"
-msgstr "Erbrachte Zeit (Tage)"
+msgstr "Aufgewendete Tage"
 
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_create_timesheet_view_form
@@ -84,7 +84,7 @@ msgstr "Löschen"
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_create_timesheet_view_form
 msgid "Describe your activity..."
-msgstr "Beschreiben Sie Ihre Tätigkeit..."
+msgstr "Beschreiben Sie Ihre Aktivität ..."
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket_create_timesheet__description
@@ -110,17 +110,17 @@ msgstr "Anzeigename"
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__display_timer
 msgid "Display Timer"
-msgstr "Anzeige Timer"
+msgstr "Timer anzeigen"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__display_timer_pause
 msgid "Display Timer Pause"
-msgstr "Pause des Timers anzeigen"
+msgstr "Timer-Pause anzeigen"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__display_timer_resume
 msgid "Display Timer Resume"
-msgstr "Fortsetzung des Timers anzeigen"
+msgstr "Timer-Fortsetzung anzeigen"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__display_timer_start_primary
@@ -135,12 +135,12 @@ msgstr "Sekundären Start des Timers anzeigen"
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__display_timer_stop
 msgid "Display Timer Stop"
-msgstr "Stopp des Timers anzeigen"
+msgstr "Timer-Stopp anzeigen"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__display_timesheet_timer
 msgid "Display Timesheet Time"
-msgstr "Stundenzettel anzeigen"
+msgstr "Zeiterfassung anzeigen"
 
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_create_timesheet_view_form
@@ -151,30 +151,30 @@ msgstr "Dauer"
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__encode_uom_in_days
 msgid "Encode Uom In Days"
-msgstr "Zeiterfassung in Tagen"
+msgstr "Zeit in Tagen erfassen"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_project_project__has_helpdesk_team
 msgid "Has Helpdesk Teams"
-msgstr "Hat Helpdesk Teams"
+msgstr "Hat Kundendienstteams"
 
 #. module: helpdesk_timesheet
 #: model:ir.model,name:helpdesk_timesheet.model_helpdesk_team
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_project_project__helpdesk_team
 msgid "Helpdesk Team"
-msgstr "Helpdesk-Team"
+msgstr "Kundendienstteam"
 
 #. module: helpdesk_timesheet
 #: model:ir.model,name:helpdesk_timesheet.model_helpdesk_ticket
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_account_analytic_line__helpdesk_ticket_id
 msgid "Helpdesk Ticket"
-msgstr "Kundendienst-Ticket"
+msgstr "Kundendienstticket"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket_report_analysis__total_hours_spent
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
 msgid "Hours Spent"
-msgstr "Geleistete Stunden"
+msgstr "Aufgewendete Stunden"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket_create_timesheet__id
@@ -190,7 +190,7 @@ msgstr "Laufend"
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__is_timer_running
 msgid "Is Timer Running"
-msgstr "Läuft ein Timer?"
+msgstr "Läuft ein Timer"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket_create_timesheet____last_update
@@ -200,7 +200,7 @@ msgstr "Zuletzt geändert am"
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket_create_timesheet__write_uid
 msgid "Last Updated by"
-msgstr "Zuletzt aktualisiert durch"
+msgstr "Zuletzt aktualisiert von"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket_create_timesheet__write_date
@@ -247,13 +247,13 @@ msgstr "Projekt-Tickets"
 msgid ""
 "Project to which the tickets (and the timesheets) will be linked by default."
 msgstr ""
-"Projekt mit dem die Tickets (und Stundenzettel) standardmäßig verlinkt "
+"Projekt mit dem die Tickets (und Zeiterfassung) standardmäßig verlinkt "
 "werden."
 
 #. module: helpdesk_timesheet
 #: model_terms:ir.actions.act_window,help:helpdesk_timesheet.act_hr_timesheet_line_helpdesk
 msgid "Record a new activity"
-msgstr "Neue Aktivität eintragen"
+msgstr "Neue Aktivität erfassen"
 
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
@@ -303,7 +303,7 @@ msgstr "Timer stoppen"
 #. module: helpdesk_timesheet
 #: model:ir.model.constraint,message:helpdesk_timesheet.constraint_helpdesk_ticket_create_timesheet_time_positive
 msgid "The timesheet's time must be positive"
-msgstr "Die Zeit auf dem Stundenzettel muss positiv sein"
+msgstr "Die Zeitangabe auf dem Zeiterfassungsbogen muss positiv sein"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,help:helpdesk_timesheet.field_helpdesk_ticket__use_helpdesk_timesheet
@@ -317,7 +317,7 @@ msgid ""
 "        and widgets to help the encoding. All reporting will still be expressed in hours (default value)."
 msgstr ""
 "Hier wird die Maßeinheit festgelegt, die zur Codierung der Zeiterfassung verwendet wird. So werden einfach Werkzeuge\n"
-"und Widgets zur Verfügung, die bei der Kodierung helfen. Alle Berichte werden weiterhin in Stunden ausgedrückt (Standardwert)."
+"und Widgets zur Verfügung gestellt, die bei der Codierung helfen. Alle Berichte werden weiterhin in Stunden ausgedrückt (Standardwert)."
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket_create_timesheet__ticket_id
@@ -335,7 +335,7 @@ msgstr "Ticketanalyse"
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,help:helpdesk_timesheet.field_helpdesk_ticket_create_timesheet__ticket_id
 msgid "Ticket for which we are creating a sales order"
-msgstr "Ticket für das wir einen Auftrag erstellen"
+msgstr "Ticket, für das wir einen Verkaufsauftrag erstellen"
 
 #. module: helpdesk_timesheet
 #: code:addons/helpdesk_timesheet/models/project.py:0
@@ -349,7 +349,7 @@ msgstr "Tickets"
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket_create_timesheet__time_spent
 msgid "Time"
-msgstr "Uhrzeit"
+msgstr "Zeit"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__timer_pause
@@ -359,7 +359,7 @@ msgstr "Timer zuletzt pausiert"
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__timer_start
 msgid "Timer Start"
-msgstr "Timer Start"
+msgstr "Timer-Start"
 
 #. module: helpdesk_timesheet
 #: model_terms:ir.ui.view,arch_db:helpdesk_timesheet.helpdesk_ticket_view_form_inherit_helpdesk_timesheet
@@ -369,12 +369,12 @@ msgstr "Zeiterfassungsaktivitäten"
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_team__timesheet_encode_uom_id
 msgid "Timesheet Encoding Unit"
-msgstr "Einheit erf. Zeiten"
+msgstr "Codierungseinheit für Zeiterfassung"
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__use_helpdesk_timesheet
 msgid "Timesheet activated on Team"
-msgstr "Arbeitszeitnachweis im Team aktiviert"
+msgstr "Zeiterfassung im Team aktiviert"
 
 #. module: helpdesk_timesheet
 #: model:ir.actions.act_window,name:helpdesk_timesheet.act_hr_timesheet_line_helpdesk
@@ -394,10 +394,10 @@ msgid ""
 "Track your working hours by projects every day and invoice this time to your"
 " customers."
 msgstr ""
-"Erfassen Sie Ihre Zeiten jeden Tag auf Projekte und berechnen Sie sie an "
-"Ihre Kunden."
+"Erfassen Sie täglich Ihre Arbeitsstunden nach Projekten und berechnen Sie "
+"sie Ihren Kunden."
 
 #. module: helpdesk_timesheet
 #: model:ir.model.fields,field_description:helpdesk_timesheet.field_helpdesk_ticket__user_timer_id
 msgid "User Timer"
-msgstr "Benutzertimer"
+msgstr "Timer des Benutzers"

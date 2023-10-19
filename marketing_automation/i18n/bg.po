@@ -697,7 +697,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:marketing_automation.marketing_campaign_view_search
 #: selection:marketing.campaign,state:0
 msgid "New"
-msgstr "Nieuw"
+msgstr "Нов"
 
 #. module: marketing_automation
 #: model:ir.ui.view,arch_db:marketing_automation.marketing_participant_view_form

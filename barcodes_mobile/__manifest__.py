@@ -15,6 +15,7 @@
         'web.assets_backend': [
             'barcodes_mobile/static/src/js/barcode_events.js',
             'barcodes_mobile/static/src/js/barcode_mobile_mixin.js',
+            'barcodes_mobile/static/src/js/barcode_scanner.js',
             'barcodes_mobile/static/src/scss/barcode_mobile.scss',
         ],
         'web.assets_qweb': [

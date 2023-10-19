@@ -142,7 +142,7 @@ msgstr "Categoría"
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_change_production_qty
 msgid "Change Production Qty"
-msgstr "Cambiar la cantidad de producción"
+msgstr "Cambiar cantidad de producción"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__check_ids
@@ -861,7 +861,7 @@ msgid ""
 "            The tablet provides worksheets for your workers and allow them to scrap products, track time,\n"
 "            launch a maintenance request, perform quality tests, etc."
 msgstr ""
-"Utilice el panel de control de la tableta del centro de trabajo para registrar operaciones en el piso de la tienda directamente.\n"
+"Utilice el panel de control de la tableta del centro de trabajo para registrar operaciones en el taller directamente.\n"
 "            La tableta proporciona hojas de trabajo para sus trabajadores y les permite desechar productos, registrar tiempo,\n"
 "            realizar solicitudes de mantenimiento, realizar pruebas de calidad, etc."
 

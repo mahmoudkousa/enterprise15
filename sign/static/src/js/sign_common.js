@@ -1569,7 +1569,7 @@ odoo.define('sign.document_signing', function (require) {
 
             this.events = _.extend(this.events || {}, {
                 'keydown .page .ui-selected': function(e) {
-                    if((e.keyCode || e.which) !== 13) {
+                    if((e.keyCode || e.which) !== 13 || e.shiftKey) {
                         return true;
                     }
                     e.preventDefault();

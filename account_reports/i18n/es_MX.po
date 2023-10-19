@@ -3,10 +3,10 @@
 # 	* account_reports
 # 
 # Translators:
-# Lucia Pacheco, 2023
 # Martin Trigaux, 2023
-# Aimée Mendoza Sánchez, 2023
 # Fernanda Alvarez, 2023
+# Lucia Pacheco, 2023
+# Aimée Mendoza Sánchez, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-18 09:51+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Fernanda Alvarez, 2023\n"
+"Last-Translator: Aimée Mendoza Sánchez, 2023\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/odoo/teams/41243/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -394,12 +394,11 @@ msgstr "<span>A algunos partners les falta el RFC.</span>"
 #: model_terms:ir.ui.view,arch_db:account_reports.template_tax_report
 msgid ""
 "<span>This company is part of a tax unit. You're currently not viewing the "
-"whole unit; to change that, tick the \"aggregate\" option of \"tax unit\" "
-"menu.</span>"
+"whole unit. To change that, use the Tax Unit filter.</span>"
 msgstr ""
 "<span>Esta empresa forma parte de una unidad tributaria. Actualmente no está"
-" viendo toda la unidad; para cambiarlo, marque la opción \"agregar\" del "
-"menú \"unidad tributaria\".</span>"
+" viendo la unidad completa. Para cambiar eso, utilice el filtro de Unidad "
+"Tributaria.</span>"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.template_multicurrency_report
@@ -1046,7 +1045,7 @@ msgstr "Hijos"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.view_account_financial_report_line_form
 msgid "Children Lines"
-msgstr "Líneas hijas"
+msgstr "Líneas secundarias"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
@@ -1298,7 +1297,7 @@ msgstr "Ganancias asignadas del año actual"
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_current_year_earnings_line_1
 msgid "Current Year Earnings"
-msgstr "Ganancias del año actual"
+msgstr "Ingresos corrientes"
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_current_year_earnings0
@@ -2528,19 +2527,19 @@ msgstr "Libro mayor del partner"
 #: model:ir.model.fields,field_description:account_reports.field_account_aged_payable__partner_name
 #: model:ir.model.fields,field_description:account_reports.field_account_aged_receivable__partner_name
 msgid "Partner Name"
-msgstr "Nombre del partner"
+msgstr "Nombre del contacto"
 
 #. module: account_reports
 #: model:ir.ui.menu,name:account_reports.account_reports_partners_reports_menu
 msgid "Partner Reports"
-msgstr "Reportes de partner"
+msgstr "Reportes de contacto"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_aged_partner__partner_trust
 #: model:ir.model.fields,field_description:account_reports.field_account_aged_payable__partner_trust
 #: model:ir.model.fields,field_description:account_reports.field_account_aged_receivable__partner_trust
 msgid "Partner Trust"
-msgstr "Confianza del partner"
+msgstr "Confianza del contacto"
 
 #. module: account_reports
 #. openerp-web
@@ -2811,7 +2810,7 @@ msgstr "Reportes"
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_retained_earnings0
 msgid "Retained Earnings"
-msgstr "Ganancias retenidas"
+msgstr "Beneficios no distribuidos"
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_return_investment0

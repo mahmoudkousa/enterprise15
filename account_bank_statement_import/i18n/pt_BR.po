@@ -5,6 +5,7 @@
 # Translators:
 # Martin Trigaux, 2021
 # Kevilyn Rosa, 2023
+# Layna Nascimento, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Kevilyn Rosa, 2023\n"
+"Last-Translator: Layna Nascimento, 2023\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,7 +43,7 @@ msgstr "1 transação já havia sido importada e foi ignorada."
 #. module: account_bank_statement_import
 #: model:ir.model.constraint,message:account_bank_statement_import.constraint_account_bank_statement_line_unique_import_id
 msgid "A bank account transactions can be imported only once !"
-msgstr "Transações de contas bancárias podem ser importados apenas uma vez !"
+msgstr "Transações de contas bancárias podem ser importadas apenas uma vez."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__company_partner_id
@@ -177,8 +178,8 @@ msgid ""
 "Bank statements transactions will be posted on the suspense account until "
 "the final reconciliation allowing finding the right account."
 msgstr ""
-"As transações de extratos bancários serão postadas na conta suspensa até a "
-"reconciliação final permitindo encontrar a conta certa."
+"As transações de extratos bancários serão lançadas na conta transitória até "
+"a reconciliação final para encontrar a conta certa."
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
@@ -248,7 +249,7 @@ msgstr "Empresa relacionada a este diário"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__compatible_edi_ids
 msgid "Compatible Edi"
-msgstr ""
+msgstr "EDI compatível"
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
@@ -311,12 +312,12 @@ msgstr "Nome exibido"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__compatible_edi_ids
 msgid "EDI format that support moves in this journal"
-msgstr ""
+msgstr "Formato para EDI que suporta movimentações neste diário"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__edi_format_ids
 msgid "Electronic invoicing"
-msgstr ""
+msgstr "Faturamento eletrônico"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__alias_id
@@ -326,7 +327,7 @@ msgstr "Alias de E-mail"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__entries_count
 msgid "Entries Count"
-msgstr ""
+msgstr "Contagem de lançamentos"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__attachment_ids
@@ -397,6 +398,8 @@ msgid ""
 "If it contains transactions for more than one account, it must be imported "
 "on each of them."
 msgstr ""
+"Se o arquivo contém transações para mais de uma conta, você deve importar "
+"para cada conta individualmente."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__restrict_mode_hash_table
@@ -558,6 +561,9 @@ msgid ""
 "Check: Pay bills by check and print it from Odoo.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 msgstr ""
+"Manual: pagar por qualquer método fora do Odoo.\n"
+"Cheque: pague contas com cheque e imprima-o no Odoo.\n"
+"Transferência de crédito SEPA: pague na zona SEPA enviando um arquivo de transferência de crédito SEPA para seu banco. O módulo account_sepa é necessário.\n"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_has_error
@@ -687,12 +693,12 @@ msgstr ""
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__selected_payment_method_codes
 msgid "Selected Payment Method Codes"
-msgstr ""
+msgstr "Códigos da forma de pagamento selecionada"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__edi_format_ids
 msgid "Send XML/EDI invoices"
-msgstr ""
+msgstr "Enviar faturas XML/EDI"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__alias_id
@@ -769,7 +775,7 @@ msgstr ""
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__suspense_account_id
 msgid "Suspense Account"
-msgstr "Conta Suspensa"
+msgstr "Conta transitória"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence_override_regex
@@ -831,13 +837,13 @@ msgstr "A moeda utilizada para entradas no informe/demonstrativo"
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
 msgid "This file doesn't contain any statement for account %s."
-msgstr ""
+msgstr "Este arquivo não contém nenhum extrato para a conta %s."
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
 msgid "This file doesn't contain any transaction for account %s."
-msgstr ""
+msgstr "Este arquivo não contém nenhuma transação para a conta %s."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__type
@@ -943,7 +949,19 @@ msgstr ""
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
 msgid "You have to set a Default Account for the journal: %s"
-msgstr ""
+msgstr "É necessário definir uma conta padrão para o diário: %s"
+
+#. module: account_bank_statement_import
+#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
+#, python-format
+msgid "The following files could not be imported:\n"
+msgstr "Não foi possível importar os seguintes arquivos:\n"
+
+#. module: account_bank_statement_import
+#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
+#, python-format
+msgid "View successfully imported statements"
+msgstr "Ver extratos importados com sucesso"
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.journal_dashboard_view_inherit

@@ -12,6 +12,7 @@
 # Veikko Väätäjä <veikko.vaataja@gmail.com>, 2021
 # Heikki Katajisto <heikki.katajisto@myyntivoima.fi>, 2021
 # Jussi Heikkilä <jussi.heikkila@panimo.com>, 2021
+# Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023
 # 
 msgid ""
 msgstr ""
@@ -19,8 +20,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:44+0000\n"
-"Last-Translator: Jussi Heikkilä <jussi.heikkila@panimo.com>, 2021\n"
-"Language-Team: Finnish (https://www.transifex.com/odoo/teams/41243/fi/)\n"
+"Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023\n"
+"Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -33,11 +34,13 @@ msgid ""
 "<i class=\"fa fa-arrow-right\"/>\n"
 "                                    Get token"
 msgstr ""
+"<i class=\"fa fa-arrow-right\"/>\n"
+"                                    Hae pääsytunniste"
 
 #. module: web_map
 #: model_terms:ir.ui.view,arch_db:web_map.res_config_settings_view_form
 msgid "<span class=\"o_form_label\">Map Routes</span>"
-msgstr ""
+msgstr "<span class=\"o_form_label\">Reitit kartalla</span>"
 
 #. module: web_map
 #: model:ir.model,name:web_map.model_ir_actions_act_window_view
@@ -79,7 +82,7 @@ msgstr "Kontakti"
 #: model:ir.model.fields,field_description:web_map.field_res_partner__contact_address_complete
 #: model:ir.model.fields,field_description:web_map.field_res_users__contact_address_complete
 msgid "Contact Address Complete"
-msgstr ""
+msgstr "Yhteysosoite valmis"
 
 #. module: web_map
 #: model:ir.model,name:web_map.model_ir_http
@@ -98,20 +101,20 @@ msgstr "Viennit"
 #: code:addons/web_map/static/src/xml/map.xml:0
 #, python-format
 msgid "Locating new addresses..."
-msgstr ""
+msgstr "Paikannetaan uusia osoitteita..."
 
 #. module: web_map
 #: model:ir.model.fields.selection,name:web_map.selection__ir_actions_act_window_view__view_mode__map
 #: model:ir.model.fields.selection,name:web_map.selection__ir_ui_view__type__map
 msgid "Map"
-msgstr ""
+msgstr "Kartta"
 
 #. module: web_map
 #. openerp-web
 #: code:addons/web_map/static/src/js/map_model.js:0
 #, python-format
 msgid "MapBox servers unreachable"
-msgstr ""
+msgstr "MapBox-palvelimia ei tavoiteta"
 
 #. module: web_map
 #. openerp-web
@@ -123,38 +126,38 @@ msgstr "Nimi"
 #. module: web_map
 #: model:ir.model.fields,help:web_map.field_res_config_settings__map_box_token
 msgid "Necessary for some functionalities in the map view"
-msgstr ""
+msgstr "Välttämätön joidenkin karttanäkymän toiminnallisuuksien kannalta"
 
 #. module: web_map
 #: model_terms:ir.ui.view,arch_db:web_map.res_config_settings_view_form
 msgid "Set a MapBox account to activate routes and style"
-msgstr ""
+msgstr "Aseta MapBox-tili reittien ja tyylin aktivoimiseksi"
 
 #. module: web_map
 #. openerp-web
 #: code:addons/web_map/static/src/xml/map.xml:0
 #, python-format
 msgid "Set up token"
-msgstr ""
+msgstr "Aseta pääsytunniste"
 
 #. module: web_map
 #. openerp-web
 #: code:addons/web_map/static/src/js/map_model.js:0
 #, python-format
 msgid "Some routing points are too far apart"
-msgstr ""
+msgstr "Jotkin reitityspisteet ovat liian kaukana toisistaan"
 
 #. module: web_map
 #: code:addons/web_map/models/res_config_settings.py:0
 #, python-format
 msgid "The MapBox server is unreachable"
-msgstr ""
+msgstr "MapBox-palvelinta ei tavoiteta"
 
 #. module: web_map
 #: code:addons/web_map/models/res_config_settings.py:0
 #, python-format
 msgid "The token input is not valid"
-msgstr ""
+msgstr "Pääsytunnisteen syöttö ei ole kelvollinen"
 
 #. module: web_map
 #. openerp-web
@@ -166,12 +169,13 @@ msgid ""
 "The view has switched to another provider but functionalities will be "
 "limited"
 msgstr ""
+"Näkymä on vaihtunut toiseen palveluntarjoajaan. Toiminnot ovat rajoitettuja"
 
 #. module: web_map
 #: code:addons/web_map/models/res_config_settings.py:0
 #, python-format
 msgid "This referer is not authorized"
-msgstr ""
+msgstr "Tämä lähettäjä ei ole valtuutettu"
 
 #. module: web_map
 #. openerp-web
@@ -179,44 +183,46 @@ msgstr ""
 #, python-format
 msgid "To get routing on your map, you first need to setup your Mapbox token."
 msgstr ""
+"Jotta saat reitityksen näkyviin kartallesi, sinun on ensin määritettävä "
+"Mapbox-tunnuksesi."
 
 #. module: web_map
 #: model_terms:ir.ui.view,arch_db:web_map.res_config_settings_view_form
 msgid "Token"
-msgstr ""
+msgstr "Tunnuskoodi"
 
 #. module: web_map
 #: model:ir.model.fields,field_description:web_map.field_res_config_settings__map_box_token
 msgid "Token Map Box"
-msgstr ""
+msgstr "Map Boxin pääsytunniste"
 
 #. module: web_map
 #. openerp-web
 #: code:addons/web_map/static/src/js/map_model.js:0
 #, python-format
 msgid "Token invalid"
-msgstr ""
+msgstr "Pääsytunniste on virheellinen."
 
 #. module: web_map
 #. openerp-web
 #: code:addons/web_map/static/src/js/map_model.js:0
 #, python-format
 msgid "Too many requests, try again in a few minutes"
-msgstr ""
+msgstr "Liian monta pyyntöä, yritä uudelleen hetken kuluttua uudelleen"
 
 #. module: web_map
 #. openerp-web
 #: code:addons/web_map/static/src/js/map_model.js:0
 #, python-format
 msgid "Too many routing points (maximum 25)"
-msgstr ""
+msgstr "Liian monta reitityspistettä (enintään 25)"
 
 #. module: web_map
 #. openerp-web
 #: code:addons/web_map/static/src/js/map_model.js:0
 #, python-format
 msgid "Unauthorized connection"
-msgstr ""
+msgstr "Luvaton yhteys"
 
 #. module: web_map
 #. openerp-web
@@ -230,7 +236,7 @@ msgstr "Ei määritelty"
 #: code:addons/web_map/static/src/xml/map.xml:0
 #, python-format
 msgid "Unsuccessful routing request:"
-msgstr ""
+msgstr "Reitityspyyntö ei onnistunut:"
 
 #. module: web_map
 #. openerp-web
@@ -255,24 +261,26 @@ msgstr "Näkymän tyyppi"
 #: code:addons/web_map/static/src/xml/map.xml:0
 #, python-format
 msgid "View in Google Maps"
-msgstr ""
+msgstr "Näytä Google Mapsissa"
 
 #. module: web_map
 #: code:addons/web_map/models/models.py:0
 #, python-format
 msgid "You need to set a Contact field on this model to use the Map View"
 msgstr ""
+"Sinun on määritettävä Yhteystiedot-kenttä tähän malliin, jotta voit käyttää "
+"Karttanäkymää"
 
 #. module: web_map
 #. openerp-web
 #: code:addons/web_map/static/src/xml/map.xml:0
 #, python-format
 msgid "navigate to"
-msgstr ""
+msgstr "navigoi osoitteeseen"
 
 #. module: web_map
 #. openerp-web
 #: code:addons/web_map/static/src/xml/map.xml:0
 #, python-format
 msgid "open"
-msgstr ""
+msgstr "avoin"

@@ -429,6 +429,14 @@ msgstr ""
 #: code:addons/social_twitter/models/social_account.py:0
 #, python-format
 msgid ""
+"We could not upload your image, it may be corrupted, it may exceed size "
+"limit or API may have send improper response (error: %s)."
+msgstr ""
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_account.py:0
+#, python-format
+msgid ""
 "We could not upload your image, try reducing its size and posting it again "
 "(error: %s)."
 msgstr ""

@@ -8,6 +8,7 @@
 # Vallen Delobel <edv@odoo.com>, 2021
 # Tivisse <yti@odoo.com>, 2022
 # Cécile Collart <cco@odoo.com>, 2022
+# Wil Odoo, 2023
 # Jolien De Paepe, 2023
 # 
 msgid ""
@@ -447,7 +448,7 @@ msgstr "Cession de salaire"
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_salary_attachment__deduction_type__assignment
 #, python-format
 msgid "Assignment of Salary"
-msgstr "Cession de Salaire"
+msgstr "Cession de salaire"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payslip.py:0
@@ -468,7 +469,7 @@ msgstr "Nombre de pièces jointes"
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_salary_attachment__attachment_name
 msgid "Attachment Name"
-msgstr "Nom de la pièce jointe"
+msgstr "Nom de la saisie"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payroll_structure.py:0
@@ -476,7 +477,7 @@ msgstr "Nom de la pièce jointe"
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_salary_attachment__deduction_type__attachment
 #, python-format
 msgid "Attachment of Salary"
-msgstr "Saisie sur Salaire"
+msgstr "Saisie sur salaire"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.payroll_report_view_dashboard
@@ -655,7 +656,7 @@ msgstr "Enfants"
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
 msgid "Choose a Payroll Localization"
-msgstr "Choisissez une localisation pour les règles de paie"
+msgstr "Choisir une localisation pour la paie"
 
 #. module: hr_payroll
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_work_entry_type__round_days_type__half-up
@@ -2597,12 +2598,12 @@ msgstr "Salaire"
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_salary_attachment_view_form
 #, python-format
 msgid "Salary Attachment"
-msgstr "Saisie sur Salaire"
+msgstr "Saisie sur salaire"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_salary_attachment_report
 msgid "Salary Attachment / Report"
-msgstr "Saisie sur Salaire / Rapport"
+msgstr "Saisie sur salaire / Rapport"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_contract_history__salary_attachment_count
@@ -3303,7 +3304,7 @@ msgstr "Message d'avertissement"
 #: code:addons/hr_payroll/models/hr_salary_attachment.py:0
 #, python-format
 msgid "Warning, a similar attachment has been found."
-msgstr "Attention, une pièce jointe similaire a été trouvée."
+msgstr "Attention, une saisie similaire a été trouvée."
 
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_work_entry_type__round_days_type
@@ -3490,6 +3491,16 @@ msgstr "Mauvais intervalle conditionnel défini pour:"
 #, python-format
 msgid "You can't validate a cancelled payslip."
 msgstr "Vous ne pouvez pas valider une fiche de paie annulée."
+
+#. module: hr_payroll
+#: code:addons/hr_payroll/models/hr_payslip_input_type.py:0
+#, python-format
+msgid ""
+"You cannot delete %s as it is used in another module but you can archive it "
+"instead."
+msgstr ""
+"Vous ne pouvez pas supprimer %s, car c'est utilisé dans un autre module. "
+"Veuillez plutôt l'archiver."
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payslip_run.py:0

@@ -353,3 +353,81 @@ class TestAgedReport(TestAccountReportsCommon):
                 ('INV/2023/00001',     '05/01/2023',      '90.000\xa0☺',       'Gol',       '',    45.0,       ''),
             ],
         )
+
+    def test_aged_report_amount_currency_with_several_partial_payments(self):
+        """
+        Check that 'Amount Currency' column value is computed correctly,
+        especially when having an invoice partially paid with two payments
+        """
+        new_partner = self.env['res.partner'].create({'name': 'new_partner'})
+
+        # We need to activate a second currency in order to have the 'amount currency' column on the report,
+        # which is the one we want to test
+        currency = self.currency_data['currency']
+        currency.active = True
+
+        invoice = self.env['account.move'].create({
+            'move_type': 'out_invoice',
+            'invoice_date': '2023-07-24',
+            'partner_id': new_partner.id,
+            'invoice_line_ids': [Command.create({
+                'name': 'test',
+                'quantity': 1,
+                'price_unit': 169.05,
+            })],
+        })
+        invoice.action_post()
+
+        payment_register = self.env['account.payment.register'].with_context(
+            active_model='account.move',
+            active_ids=invoice.ids,
+        ).create({
+            'amount': 100.0,
+            'payment_date': '2023-07-24',
+            'partner_id': new_partner.id,
+        })
+
+        payment = payment_register._create_payments()
+
+        # report._get_lines() makes SQL queries without flushing
+        payment.flush()
+
+        line_id = self.report._get_generic_line_id('res.partner', new_partner.id, markup='partner_id')
+        options = self._init_options(self.report, fields.Date.from_string('2023-07-24'), fields.Date.from_string('2023-07-24'))
+        options['unfolded_lines'] = [line_id]
+
+        self.assertLinesValues(
+            # pylint: disable=C0326
+            self.report._get_lines(options, line_id=line_id),
+            #   Name                       Due Date     Amount Currency     Currency     As Of     Total
+            [   0,                                1,                  2,           3,        6,       12],
+            [
+                ('new_partner',                  '',                 '',          '',    69.05,    69.05),
+                ('INV/2023/00001',     '07/24/2023',       '$\xa069.05',       'USD',    69.05,       ''),
+            ],
+        )
+
+        payment_register = self.env['account.payment.register'].with_context(
+            active_model='account.move',
+            active_ids=invoice.ids,
+        ).create({
+            'amount': 50.0,
+            'payment_date': '2023-07-24',
+            'partner_id': new_partner.id,
+        })
+
+        payment = payment_register._create_payments()
+
+        # report._get_lines() makes SQL queries without flushing
+        payment.flush()
+
+        self.assertLinesValues(
+            # pylint: disable=C0326
+            self.report._get_lines(options, line_id=line_id),
+            #   Name                       Due Date     Amount Currency     Currency     As Of     Total
+            [   0,                                1,                  2,           3,        6,       12],
+            [
+                ('new_partner',                  '',                 '',          '',    19.05,    19.05),
+                ('INV/2023/00001',     '07/24/2023',       '$\xa019.05',       'USD',    19.05,       ''),
+            ],
+        )

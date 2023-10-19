@@ -10,8 +10,9 @@
 # Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2021
 # Veikko Väätäjä <veikko.vaataja@gmail.com>, 2021
 # Tuomas Lyyra <tuomas.lyyra@legenda.fi>, 2021
-# Johanna Valkonen <johanna@vividi.fi>, 2021
+# Johanna Valkonen <miujohanna@gmail.com>, 2021
 # Miika Nissi <miika.nissi@tawasta.fi>, 2021
+# Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023
 # 
 msgid ""
 msgstr ""
@@ -19,8 +20,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 15:07+0000\n"
 "PO-Revision-Date: 2021-09-14 12:41+0000\n"
-"Last-Translator: Miika Nissi <miika.nissi@tawasta.fi>, 2021\n"
-"Language-Team: Finnish (https://www.transifex.com/odoo/teams/41243/fi/)\n"
+"Last-Translator: Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2023\n"
+"Language-Team: Finnish (https://app.transifex.com/odoo/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -30,17 +31,17 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "&amp;nbsp;&amp;nbsp;"
-msgstr ""
+msgstr "&amp;nbsp;&amp;nbsp;"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"
-msgstr ""
+msgstr "&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "*For orders over $39."
-msgstr ""
+msgstr "*Yli 39 euron tilauksille."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
@@ -60,7 +61,7 @@ msgstr "21 heinä"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "24/7 <br/>Customer Service"
-msgstr ""
+msgstr "24/7 <br/>Asiakaspalvelu"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
@@ -161,7 +162,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "<font style=\"color: rgb(173, 173, 173);\">Unsubscribe</font>"
-msgstr ""
+msgstr "<font style=\"color: rgb(173, 173, 173);\">Lopeta tilaus</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
@@ -196,6 +197,8 @@ msgid ""
 "<font style=\"color: rgb(255, 255, 255);\">And it won't cost you a "
 "thing!</font>"
 msgstr ""
+"<font style=\"color: rgb(255, 255, 255);\">Eikä se maksa sinulle "
+"mitään!</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
@@ -206,7 +209,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "<font style=\"color: rgb(255, 255, 255);\">Hi there!</font>"
-msgstr ""
+msgstr "<font style=\"color: rgb(255, 255, 255);\">Hei!</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
@@ -221,6 +224,8 @@ msgid ""
 "<font style=\"color: rgb(255, 255, 255);\">Zero, zilch, nada! Odoo "
 "Experience is free for everyone!</font>"
 msgstr ""
+"<font style=\"color: rgb(255, 255, 255);\">Nolla, nul, nada! Odoo Experience"
+" on ilmainen kaikille!</font>"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -550,6 +555,8 @@ msgid ""
 "Bitten by the travel bug but looking to travel consciously? Eco-travel is "
 "the way forward."
 msgstr ""
+"Oletko saanut matkakuumeen, mutta haluat matkustaa kuin hipiti? Ekomatkailu "
+"on juuri sinulle."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
@@ -579,7 +586,7 @@ msgstr "Kansi"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
 msgid "Cover image"
-msgstr ""
+msgstr "Kansikuva"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
@@ -587,11 +594,13 @@ msgid ""
 "Create your very own chat room or join an existing one that sparks your "
 "interest."
 msgstr ""
+"Luo oma chat-huoneesi tai liity olemassa olevaan, joka herättää "
+"kiinnostuksesi."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Customer Service"
-msgstr ""
+msgstr "Asiakaspalvelu"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
@@ -608,7 +617,7 @@ msgstr "Kyberturvallisuus"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "Delicious recipes from around the world"
-msgstr ""
+msgstr "Herkullisia reseptejä eri puolilta maailmaa"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
@@ -618,7 +627,7 @@ msgstr "Demo-allekirjoitus"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "Destinations for an eco-holiday"
-msgstr ""
+msgstr "Kohteet ekologista lomaa varten"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
@@ -628,7 +637,7 @@ msgstr "Löydä"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Easy Returns"
-msgstr ""
+msgstr "<i class=\"fa fa-check-circle-o text-o-color-1\"/> Helppo palautus"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
@@ -655,17 +664,17 @@ msgstr "Facebook"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "Find out more"
-msgstr ""
+msgstr "Näytä enemmän"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Free Delivery"
-msgstr ""
+msgstr "Ilmainen toimitus"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Free delivery*"
-msgstr ""
+msgstr "Ilmainen toimitus*"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
@@ -675,7 +684,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "Go to the chatrooms"
-msgstr ""
+msgstr "Siirry keskustelupalstoille"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
@@ -688,6 +697,8 @@ msgid ""
 "Imagine waking up with more energy, more flexibility, with less stress and "
 "fewer instances of anxiously rushing out the door."
 msgstr ""
+"Kuvittele, että heräät energisemmin, joustavammin ja vähemmän "
+"stressaantuneena. Älä kiirehdi ulos ovesta rynnäten."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -699,11 +710,13 @@ msgstr "Instagram"
 msgid ""
 "Join the community to see our latest news, events, discounts and much more!"
 msgstr ""
+"Liity yhteisöön nähdäksesi uusimmat uutiset, tapahtumat, alennukset ja "
+"paljon muuta!"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
 msgid "Join us"
-msgstr ""
+msgstr "Luo tili"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
@@ -716,6 +729,8 @@ msgid ""
 "Learn through workshops, product demos, and inspiring talks from Odoo "
 "Experts and Partners."
 msgstr ""
+"Opiskele työpajoissa, tuote-esittelyissä ja Odoo-asiantuntijoiden ja "
+"-kumppaneiden inspiroivissa puheenvuoroissa."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -730,7 +745,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "Man on a rock looking at mountains in the distance"
-msgstr ""
+msgstr "Mies kalliolla katselee kaukana olevia vuoria"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_resto_template
@@ -773,12 +788,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bignews_template
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "READ MORE"
-msgstr ""
+msgstr "LUE LISÄÄ"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
 msgid "Read More"
-msgstr ""
+msgstr "Lue lisää"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
@@ -795,12 +810,12 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
 msgid "Redeem it now"
-msgstr ""
+msgstr "Lunasta se nyt"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "Register now!"
-msgstr ""
+msgstr "Rekisteröidy nyt!"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
@@ -810,7 +825,7 @@ msgstr "Ilmoittautuminen"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_newsletter_template
 msgid "See what we've got planned"
-msgstr ""
+msgstr "Katso, mitä meillä on suunnitteilla"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_airmail_template
@@ -830,7 +845,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_vip_template
 msgid "Thank you for being one of our most loyal customers."
-msgstr ""
+msgstr "Kiitos, että olet yksi uskollisimmista asiakkaistamme."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template
@@ -845,7 +860,7 @@ msgstr ""
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
 msgid "Top 5 energy-boosting morning routines"
-msgstr ""
+msgstr "Top 5 energiaa lisäävää aamurutiinia"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -853,6 +868,8 @@ msgid ""
 "Travel without leaving your kitchen with these international recipes. From "
 "Canada to Australia, Mexico to Sweden, and everywhere in between."
 msgstr ""
+"Matkusta poistumatta keittiöstäsi näiden kansainvälisten reseptien avulla. "
+"Kanadasta Australiaan, Meksikosta Ruotsiin ja kaikkialle siltä väliltä."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_bold_template
@@ -868,17 +885,17 @@ msgstr "Lopeta kanavan tilaus"
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_tech_template
 msgid "VISIT OUR WEBSITE"
-msgstr ""
+msgstr "KÄY VERKKOSIVUILLAMME"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Valid on all sales prices in our webshop."
-msgstr ""
+msgstr "Voimassa kaikkiin verkkokauppamme myyntihintoihin."
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_solar_template
 msgid "Visit the website"
-msgstr ""
+msgstr "Vieraile verkkosivustolla"
 
 #. module: mass_mailing_themes
 #: model_terms:ir.ui.view,arch_db:mass_mailing_themes.theme_expo_template

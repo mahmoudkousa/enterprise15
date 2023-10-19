@@ -5,15 +5,16 @@
 # Translators:
 # Friederike Fasterling-Nesselbosch, 2022
 # Martin Trigaux, 2022
+# Marianna Ciofani, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-17 12:04+0000\n"
+"POT-Creation-Date: 2022-04-08 11:15+0000\n"
 "PO-Revision-Date: 2022-04-08 12:42+0000\n"
-"Last-Translator: Martin Trigaux, 2022\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Last-Translator: Marianna Ciofani, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -596,7 +597,7 @@ msgstr ""
 #. module: l10n_be_reports
 #: model:account.financial.html.report.line,name:l10n_be_reports.account_financial_report_be_provisions_pour_risques_et_charges0
 msgid ""
-"635/8 - Provisions pour risques et charges: dotations (utilisations et "
+"635/7 - Provisions pour risques et charges: dotations (utilisations et "
 "reprises)"
 msgstr ""
 
@@ -926,16 +927,6 @@ msgid "Ask Restitution"
 msgstr ""
 
 #. module: l10n_be_reports
-#: model_terms:ir.ui.view,arch_db:l10n_be_reports.filter_info_template
-msgid "Ask payment:"
-msgstr ""
-
-#. module: l10n_be_reports
-#: model_terms:ir.ui.view,arch_db:l10n_be_reports.filter_info_template
-msgid "Ask restitution:"
-msgstr ""
-
-#. module: l10n_be_reports
 #: model_terms:ir.ui.view,arch_db:l10n_be_reports.line_caret_options
 msgid "Audit"
 msgstr "Verifica"
@@ -982,11 +973,6 @@ msgstr ""
 #. module: l10n_be_reports
 #: model:ir.model.fields,field_description:l10n_be_reports.field_l10n_be_reports_periodic_vat_xml_export__client_nihil
 msgid "Client Nihil"
-msgstr ""
-
-#. module: l10n_be_reports
-#: model_terms:ir.ui.view,arch_db:l10n_be_reports.filter_info_template
-msgid "Client nihil:"
 msgstr ""
 
 #. module: l10n_be_reports
@@ -1313,11 +1299,6 @@ msgid "Modification"
 msgstr "Modifica"
 
 #. module: l10n_be_reports
-#: model_terms:ir.ui.view,arch_db:l10n_be_reports.filter_info_template
-msgid "No"
-msgstr "No"
-
-#. module: l10n_be_reports
 #: code:addons/l10n_be_reports/models/account_sales_report.py:0
 #: code:addons/l10n_be_reports/models/partner_vat_listing.py:0
 #, python-format
@@ -1372,7 +1353,7 @@ msgstr "Almeno un partner non ha un numero di partita IVA."
 #: code:addons/l10n_be_reports/models/res_partner.py:0
 #, python-format
 msgid "Open list"
-msgstr ""
+msgstr "Apri elenco"
 
 #. module: l10n_be_reports
 #: model:ir.model.fields,help:l10n_be_reports.field_l10n_be_reports_periodic_vat_xml_export__calling_export_wizard_id
@@ -1617,11 +1598,6 @@ msgstr "XML"
 #, python-format
 msgid "XML Export Options"
 msgstr ""
-
-#. module: l10n_be_reports
-#: model_terms:ir.ui.view,arch_db:l10n_be_reports.filter_info_template
-msgid "Yes"
-msgstr "Sì"
 
 #. module: l10n_be_reports
 #: code:addons/l10n_be_reports/wizard/l10n_be_281_50_wizard.py:0

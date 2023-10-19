@@ -14,7 +14,8 @@
 # Trần Hà <tranthuha13590@gmail.com>, 2021
 # Martin Trigaux, 2021
 # Vo Thanh Thuy, 2022
-# Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2022
+# Nancy Momoland <thanh.np2502@gmail.com>, 2023
+# Thi Huong Nguyen, 2023
 # 
 msgid ""
 msgstr ""
@@ -22,8 +23,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:42+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2022\n"
-"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Last-Translator: Thi Huong Nguyen, 2023\n"
+"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -40,32 +41,32 @@ msgstr "# Chữ ký"
 #: code:addons/sign/controllers/main.py:0
 #, python-format
 msgid "%s couldn't sign the document due to an insufficient credit error."
-msgstr ""
+msgstr "%s không thể ký tài liệu do lỗi không đủ tín dụng."
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
 #: code:addons/sign/models/sign_request.py:0
 #, python-format
 msgid "%s has been edited and signed"
-msgstr ""
+msgstr "%s đã được chỉnh sửa và ký"
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
 #: code:addons/sign/models/sign_request.py:0
 #, python-format
 msgid "%s has been signed"
-msgstr ""
+msgstr "%s đã được ký"
 
 #. module: sign
 #: code:addons/sign/controllers/main.py:0
 #, python-format
 msgid "%s validated the signature by SMS with the phone number %s."
-msgstr ""
+msgstr "%s đã xác thực chữ ký bằng SMS qua số điện thoại %s."
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "(UTC)"
-msgstr ""
+msgstr "(UTC)"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_request
@@ -73,6 +74,8 @@ msgid ""
 ")\n"
 "        has requested your signature on the document"
 msgstr ""
+")\n"
+"        đã yêu cầu chữ ký của bạn trên tài liệu"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
@@ -82,22 +85,22 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "<b>Created by:</b>"
-msgstr ""
+msgstr "<b>Được tạo bởi:</b>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "<b>Created on:</b>"
-msgstr ""
+msgstr "<b>Được tạo vào:</b>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "<b>Creation IP Address:</b>"
-msgstr ""
+msgstr "<b>Địa chỉ IP tạo:</b>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "<b>Document ID:</b>"
-msgstr ""
+msgstr "<b>ID tài liệu:</b>"
 
 #. module: sign
 #. openerp-web
@@ -118,18 +121,18 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "<b>Signature:</b>"
-msgstr ""
+msgstr "<b>Chữ ký:</b>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "<b>Signers:</b>"
-msgstr ""
+msgstr "<b>Người ký:</b>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign._doc_sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
 msgid "<br/>(the email access has not been sent)"
-msgstr ""
+msgstr "<br/>(quyền truy cập email chưa được gửi đi)"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_terms_conditions_setting_banner
@@ -146,7 +149,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "<i class=\"fa fa-check\"/> The document's integrity is valid."
-msgstr ""
+msgstr "<i class=\"fa fa-check\"/> Tính toàn vẹn của tài liệu hợp lệ."
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -154,11 +157,13 @@ msgid ""
 "<i class=\"fa fa-exclamation-circle\"/> The document's integrity could not "
 "be verified."
 msgstr ""
+"<i class=\"fa fa-exclamation-circle\"/> Không thể xác minh tính toàn vẹn của"
+" tài liệu."
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "<i class=\"fa fa-globe\"/> View"
-msgstr ""
+msgstr "<i class=\"fa fa-globe\"/> Xem"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign._doc_sign
@@ -175,12 +180,12 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
 msgid "<span class=\"o_portal_category\">Summary</span>"
-msgstr ""
+msgstr "<span class=\"o_portal_category\">Tóm tắt</span>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
 msgid "<span class=\"o_portal_category\">Your Information</span>"
-msgstr ""
+msgstr "<span class=\"o_portal_category\">Thông tin của bạn</span>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_form
@@ -195,12 +200,12 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.res_partner_view_form
 msgid "<span class=\"o_stat_text\">Signature Requested</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Chữ ký đã được yêu cầu </span>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_form
 msgid "<span class=\"o_stat_text\">Signed Document</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Tài liệu đã ký</span>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_form
@@ -231,12 +236,12 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "<span class=\"text-muted\">Not available</span>"
-msgstr ""
+msgstr "<span class=\"text-muted\">Không có sẵn</span>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_item_type_view_form
 msgid "<span>(1.0 = full page size)</span>"
-msgstr ""
+msgstr "<span>(1.0 = kích thước trang giấy đầy đủ)</span>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_terms_conditions_setting_banner
@@ -247,7 +252,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
 msgid "<strong>Creation Date:</strong>"
-msgstr ""
+msgstr "<strong>Ngày tạo:</strong>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
@@ -261,6 +266,9 @@ msgid ""
 "            They will be able to access this document and sign it as yourself.<br/>\n"
 "            <span>Your IP address and localization are associated to your signature to ensure traceability.</span>"
 msgstr ""
+"<strong>Cảnh báo</strong> không chuyển tiếp email này cho người khác!<br/>\n"
+"            Họ sẽ có thể truy cập vào tài liệu này và ký tên vào đó thay bạn.<br/>\n"
+"            <span>Địa chỉ IP và bản địa hóa của bạn được liên kết với chữ ký để đảm bảo khả năng truy vết.</span>"
 
 #. module: sign
 #. openerp-web
@@ -270,6 +278,8 @@ msgid ""
 "A SMS will be sent to the following phone number. Please update it if it's "
 "not relevant."
 msgstr ""
+"Một SMS sẽ được gửi đến số điện thoại sau. Vui lòng cập nhật nếu bạn không "
+"còn dùng số điện thoại này."
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -280,7 +290,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "Access Logs"
-msgstr ""
+msgstr "Nhật ký truy cập"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__access_warning
@@ -290,7 +300,7 @@ msgstr "Cảnh báo truy cập"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__access_via_link
 msgid "Accessed Through Token"
-msgstr ""
+msgstr "Đã truy cập bằng token"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_mail_activity_type__category
@@ -306,7 +316,7 @@ msgstr "Hành động cần thiết"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__action
 msgid "Action Performed"
-msgstr ""
+msgstr "Hành động đã thực hiện"
 
 #. module: sign
 #: model:ir.model.fields,help:sign.field_mail_activity_type__category
@@ -336,7 +346,7 @@ msgstr "Hành động ngoại lệ"
 #. module: sign
 #: model:ir.actions.report,name:sign.action_sign_request_print_logs
 msgid "Activity Logs"
-msgstr ""
+msgstr "Nhật ký hoạt động"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__activity_state
@@ -356,14 +366,14 @@ msgstr "Biểu tượng kiểu hoạt động"
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_request__sign_log_ids
 msgid "Activity logs linked to this request"
-msgstr ""
+msgstr "Nhật ký hoạt động liên kết với yêu cầu này"
 
 #. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "Add Initials"
-msgstr ""
+msgstr "Thêm chữ ký nháy"
 
 #. module: sign
 #. openerp-web
@@ -377,7 +387,7 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "Add to all pages"
-msgstr ""
+msgstr "Thêm vào tất cả các trang"
 
 #. module: sign
 #: model:res.groups,name:sign.group_sign_manager
@@ -402,7 +412,7 @@ msgstr "Nhận và ký"
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_log__request_state__signed
 msgid "After Signature"
-msgstr ""
+msgstr "Sau chữ ký"
 
 #. module: sign
 #. openerp-web
@@ -451,7 +461,7 @@ msgstr "Đã lưu"
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_request__start_sign
 msgid "At least one signer has signed the document."
-msgstr ""
+msgstr "Ít nhất một người ký tên đã ký tài liệu."
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_send_request_view_form
@@ -477,12 +487,12 @@ msgstr "Tệp đính kèm"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item_type__auto_field
 msgid "Auto-fill Partner Field"
-msgstr ""
+msgstr "Tự động điền trường đối tác"
 
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_log__request_state__sent
 msgid "Before Signature"
-msgstr ""
+msgstr "Trước chữ ký"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_item_role_view_form
@@ -512,7 +522,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__message_cc
 msgid "CC Message"
-msgstr ""
+msgstr "CC tin nhắn"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_send_request_view_form
@@ -560,7 +570,7 @@ msgstr "Chứng chỉ"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "Certificate of Completion<br/>"
-msgstr ""
+msgstr "Chứng nhận hoàn thành<br/>"
 
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_item_type__item_type__checkbox
@@ -573,7 +583,7 @@ msgstr "Hộp kiểm"
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Click to start"
-msgstr ""
+msgstr "Nhấp để bắt đầu"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_share_view_form
@@ -615,12 +625,12 @@ msgstr "Đã hoàn thành"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__completed_document
 msgid "Completed Document"
-msgstr ""
+msgstr "Tài liệu đã hoàn thành"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__nb_closed
 msgid "Completed Signatures"
-msgstr ""
+msgstr "Chữ ký đã hoàn thành"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__completion_date
@@ -729,7 +739,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
 msgid "Current status of the signature request"
-msgstr ""
+msgstr "Trạng thái hiện tại của yêu cầu chữ ký"
 
 #. module: sign
 #: model:sign.item.role,name:sign.sign_item_role_customer
@@ -762,7 +772,7 @@ msgstr "Ngày"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "Date (UTC)"
-msgstr ""
+msgstr "Ngày (UTC)"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item_role__default
@@ -772,12 +782,12 @@ msgstr "Mặc định"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item_type__default_height
 msgid "Default Height"
-msgstr ""
+msgstr "Chiều cao mặc định"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item_type__default_width
 msgid "Default Width"
-msgstr ""
+msgstr "Chiều rộng mặc định"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_kanban
@@ -790,14 +800,14 @@ msgstr "Xoá"
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Delete sign"
-msgstr ""
+msgstr "Xoá chữ ký"
 
 #. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Delete sign item"
-msgstr ""
+msgstr "Xoá mục chữ ký"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_kanban
@@ -807,12 +817,12 @@ msgstr "Chi tiết"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_users__sign_signature
 msgid "Digital Signature"
-msgstr ""
+msgstr "Chữ ký điện tử"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.res_users_view_form
 msgid "Digital Signatures"
-msgstr ""
+msgstr "Chữ ký điện tử"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_users__sign_initials
@@ -851,7 +861,7 @@ msgstr "Tên hiển thị"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_config_settings__sign_preview_ready
 msgid "Display sign preview button"
-msgstr ""
+msgstr "Hiển thị nút xem trước chữ ký"
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
@@ -868,7 +878,7 @@ msgstr "Tài liệu"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "Document Details"
-msgstr ""
+msgstr "Thông tin tài liệu"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__reference
@@ -881,7 +891,7 @@ msgstr "Tên tài liệu"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item__page
 msgid "Document Page"
-msgstr ""
+msgstr "Trang tài liệu"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item__template_id
@@ -891,7 +901,7 @@ msgstr "Mẫu tài liệu"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "Document/Signer"
-msgstr ""
+msgstr "Tài liệu/Người ký tên"
 
 #. module: sign
 #: model:ir.actions.act_window,name:sign.sign_request_action
@@ -913,7 +923,7 @@ msgstr "Tải xuống"
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_form
 #, python-format
 msgid "Download Document"
-msgstr ""
+msgstr "Tải xuống tài liệu"
 
 #. module: sign
 #. openerp-web
@@ -932,7 +942,7 @@ msgstr "Dự thảo"
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
 msgid "Drag & Drop a field in the PDF"
-msgstr ""
+msgstr "Kéo và thả một trường trong tệp PDF"
 
 #. module: sign
 #. openerp-web
@@ -943,6 +953,8 @@ msgid ""
 "Draw your most beautiful signature!<br>You can also create one automatically"
 " or load a signature from your computer."
 msgstr ""
+"Ký chữ ký đẹp nhất của bạn!<br>Bạn cũng có thể tạo chữ ký tự động hoặc tải "
+"lên chữ ký từ máy tính của mình."
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_kanban
@@ -962,7 +974,7 @@ msgstr "Nhân bản"
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "Duplicated Template"
-msgstr ""
+msgstr "Mẫu được sao chép"
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -981,7 +993,7 @@ msgstr ""
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
 msgid "Edit template name"
-msgstr ""
+msgstr "Chỉnh sửa tên mẫu"
 
 #. module: sign
 #: model:sign.item.type,name:sign.sign_item_type_email
@@ -992,7 +1004,7 @@ msgstr "Email"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__subject
 msgid "Email Subject"
-msgstr ""
+msgstr "Chủ đề email"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -1014,7 +1026,7 @@ msgstr ""
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Enter the code received through SMS to complete your signature"
-msgstr ""
+msgstr "Nhập mã nhận được qua SMS để hoàn thành chữ ký"
 
 #. module: sign
 #. openerp-web
@@ -1048,7 +1060,7 @@ msgstr "Tên trường"
 #. module: sign
 #: model:ir.ui.menu,name:sign.sign_item_type_menu
 msgid "Field Types"
-msgstr ""
+msgstr "Loại trường"
 
 #. module: sign
 #. openerp-web
@@ -1061,7 +1073,7 @@ msgstr "Trường thông tin"
 #. module: sign
 #: model:ir.model,name:sign.model_sign_item
 msgid "Fields to be sign on Document"
-msgstr ""
+msgstr "Các trường cần ký trên tài liệu"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__datas
@@ -1083,7 +1095,7 @@ msgstr "Tên tập tin"
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
 msgid "Filled by"
-msgstr ""
+msgstr "Được điền bởi"
 
 #. module: sign
 #. openerp-web
@@ -1091,7 +1103,7 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Final Validation"
-msgstr ""
+msgstr "Xác thực cuối cùng"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_follower_ids
@@ -1115,7 +1127,7 @@ msgstr "Font biểu tượng ví dụ: fa-tasks"
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 #, python-format
 msgid "Fully Signed"
-msgstr ""
+msgstr "Đã ký xong"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
@@ -1127,7 +1139,7 @@ msgstr "Hoạt động tương lai"
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Generate PDF"
-msgstr ""
+msgstr "Tạo tệp PDF"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -1163,7 +1175,7 @@ msgstr "Nhân sự"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__has_default_template
 msgid "Has Default Template"
-msgstr ""
+msgstr "Có mẫu mặc định"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__has_message
@@ -1203,12 +1215,12 @@ msgstr "ID"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__ip
 msgid "IP address of the visitor"
-msgstr ""
+msgstr "Địa chỉ IP của khách truy cập"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__activity_exception_icon
@@ -1235,13 +1247,13 @@ msgstr "Nếu đánh dấu thì một số thông điệp có lỗi."
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__in_progress_count
 msgid "In Progress Count"
-msgstr ""
+msgstr "Số Đang thực hiện"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_kanban
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 msgid "In favorites, remove it"
-msgstr ""
+msgstr "Trong phần yêu thích, xoá bỏ"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__log_hash
@@ -1265,7 +1277,7 @@ msgstr "Ký nháy"
 #: model:sign.item.type,placeholder:sign.sign_item_type_initial
 #, python-format
 msgid "Initials"
-msgstr ""
+msgstr "Chữ ký nháy"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.res_config_settings_view_form
@@ -1275,7 +1287,7 @@ msgstr "Nhập các điều khoản & điều kiện của bạn vào đây..."
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__integrity
 msgid "Integrity of the Sign request"
-msgstr ""
+msgstr "Tính toàn vẹn của yêu cầu Chữ ký"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__favorited_ids
@@ -1290,7 +1302,7 @@ msgstr "Trở thành người theo dõi"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__is_mail_sent
 msgid "Is Mail Sent"
-msgstr ""
+msgstr "Mail đã gửi"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template_share__is_one_responsible
@@ -1300,12 +1312,12 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__is_user_signer
 msgid "Is User Signer"
-msgstr ""
+msgstr "Là người dùng ký tên"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__last_action_date
 msgid "Last Action Date"
-msgstr ""
+msgstr "Ngày hoạt động cuối cùng"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_duplicate_template_pdf____last_update
@@ -1373,7 +1385,7 @@ msgstr "Hoạt động trễ"
 #: model:ir.model.fields,field_description:sign.field_sign_log__latitude
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__latitude
 msgid "Latitude"
-msgstr ""
+msgstr "Vĩ độ"
 
 #. module: sign
 #. openerp-web
@@ -1388,7 +1400,7 @@ msgstr "Trái"
 #: code:addons/sign/static/src/js/tours/sign.js:0
 #, python-format
 msgid "Let's <b>prepare & sign</b> our first document."
-msgstr ""
+msgstr "Hãy <b>chuẩn bị & ký</b> tài liệu đầu tiên."
 
 #. module: sign
 #. openerp-web
@@ -1433,7 +1445,7 @@ msgstr "Hoạt động được Liên kết"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__log_date
 msgid "Log Date"
-msgstr ""
+msgstr "Ngày ghi nhật ký"
 
 #. module: sign
 #: code:addons/sign/models/sign_log.py:0
@@ -1462,12 +1474,12 @@ msgstr "Nhật ký"
 #: model:ir.model.fields,field_description:sign.field_sign_log__longitude
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__longitude
 msgid "Longitude"
-msgstr ""
+msgstr "Kinh độ"
 
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_log__action__update_mail
 msgid "Mail Update"
-msgstr ""
+msgstr "Cập nhật email"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_main_attachment_id
@@ -1475,11 +1487,17 @@ msgid "Main Attachment"
 msgstr "Tệp đính kèm chính"
 
 #. module: sign
+#: code:addons/sign/models/sign_template.py:0
+#, python-format
+msgid "Malformed expression: %(exp)s"
+msgstr "Biểu thức không đúng định dạng: %(exp)s"
+
+#. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
 msgid "Mandatory field"
-msgstr ""
+msgstr "Trường bắt buộc"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__message
@@ -1499,7 +1517,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_send_request__message
 msgid "Message to be sent to signers of the specified document"
-msgstr ""
+msgstr "Thông báo sẽ được gửi đến những người ký tài liệu xác định"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_ids
@@ -1509,7 +1527,7 @@ msgstr "Thông báo"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.encrypted_ask_password
 msgid "Missing Password"
-msgstr ""
+msgstr "Thiếu mật khẩu"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.deleted_sign_request
@@ -1524,7 +1542,7 @@ msgstr "Di động"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 msgid "Modify Template"
-msgstr ""
+msgstr "Chỉnh sửa mẫu"
 
 #. module: sign
 #. openerp-web
@@ -1539,7 +1557,7 @@ msgstr "Văn bản nhiều dòng"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_share_view_form
 msgid "Multiple Signature Requests"
-msgstr ""
+msgstr "Nhiều yêu cầu chữ ký"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__my_activity_date_deadline
@@ -1570,7 +1588,7 @@ msgstr "My Templates"
 #. module: sign
 #: model:sign.template.tag,name:sign.sign_template_tag_2
 msgid "NDA"
-msgstr ""
+msgstr "NDA"
 
 #. module: sign
 #. openerp-web
@@ -1587,22 +1605,22 @@ msgstr "Tên"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_send_request_view_form
 msgid "Name for the file"
-msgstr ""
+msgstr "Tên cho tệp"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_form
 msgid "Name of the file"
-msgstr ""
+msgstr "Tên tệp"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_send_request_view_form
 msgid "Name or email..."
-msgstr ""
+msgstr "Tên hoặc email..."
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__need_my_signature
 msgid "Need My Signature"
-msgstr ""
+msgstr "Cần chữ ký của tôi"
 
 #. module: sign
 #. openerp-web
@@ -1619,7 +1637,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_duplicate_template_pdf__new_template
 msgid "New Template Name"
-msgstr ""
+msgstr "Tên mẫu mới"
 
 #. module: sign
 #: code:addons/sign/controllers/portal.py:0
@@ -1654,7 +1672,7 @@ msgstr "Kiểu hoạt động kế tiếp"
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
 msgid "Next Document"
-msgstr ""
+msgstr "Tài liệu tiếp theo"
 
 #. module: sign
 #. openerp-web
@@ -1678,7 +1696,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.actions.act_window,help:sign.sign_template_action
 msgid "No template yet"
-msgstr ""
+msgstr "Chưa có mẫu nào"
 
 #. module: sign
 #: code:addons/sign/controllers/portal.py:0
@@ -1690,12 +1708,12 @@ msgstr "Không dùng"
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_kanban
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 msgid "Not in favorites, add it"
-msgstr ""
+msgstr "Không có trong phần yêu thích, thêm vào"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 msgid "Not in favorites, set it"
-msgstr ""
+msgstr "Không có trong phần yêu thích, thiết lập"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_needaction_counter
@@ -1705,12 +1723,12 @@ msgstr "Số lượng hành động"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 msgid "Number of documents in progress for this template."
-msgstr ""
+msgstr "Số lượng tài liệu đang thực hiện dành cho mẫu này."
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 msgid "Number of documents signed for this template."
-msgstr ""
+msgstr "Số lượng tài liệu đã ký đối với mẫu này."
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_has_error_counter
@@ -1760,7 +1778,7 @@ msgstr "Khi được mời"
 #: code:addons/sign/wizard/sign_template_share.py:0
 #, python-format
 msgid "One or more selection items have no associated options"
-msgstr ""
+msgstr "Một hoặc nhiều mục lựa chọn không có tùy chọn liên quan"
 
 #. module: sign
 #: code:addons/sign/controllers/terms.py:0
@@ -1786,7 +1804,7 @@ msgstr "Tùy chọn"
 #. module: sign
 #: model:ir.model,name:sign.model_sign_item_option
 msgid "Option of a selection Field"
-msgstr ""
+msgstr "Tùy chọn của một trường lựa chọn"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_send_request_view_form
@@ -1796,12 +1814,12 @@ msgstr "Tin nhắn tùy chọn..."
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_template__redirect_url
 msgid "Optional link for redirection after signature"
-msgstr ""
+msgstr "Liên kết tùy chọn để chuyển hướng sau khi ký tên"
 
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_template__redirect_url_text
 msgid "Optional text to display on the button link"
-msgstr ""
+msgstr "Văn bản tùy chọn để hiển thị trên liên kết nút"
 
 #. module: sign
 #. openerp-web
@@ -1813,7 +1831,7 @@ msgstr "Tùy chọn"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_duplicate_template_pdf__original_template_id
 msgid "Original File"
-msgstr ""
+msgstr "Tệp gốc"
 
 #. module: sign
 #. openerp-web
@@ -1828,7 +1846,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sign.encrypted_ask_password
 #, python-format
 msgid "PDF is encrypted"
-msgstr ""
+msgstr "Tệp PDF được mã hóa"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__partner_id
@@ -1840,7 +1858,7 @@ msgstr "Đối tác"
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Password is incorrect."
-msgstr ""
+msgstr "Mật khẩu không đúng."
 
 #. module: sign
 #: model:sign.item.type,name:sign.sign_item_type_phone
@@ -1906,12 +1924,12 @@ msgstr "URL truy cập cổng thông tin"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item__posX
 msgid "Position X"
-msgstr ""
+msgstr "Vị trí X"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item__posY
 msgid "Position Y"
-msgstr ""
+msgstr "Vị trí Y"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_form
@@ -1928,7 +1946,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "Printed on"
-msgstr ""
+msgstr "Đã in trên"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__progress
@@ -1951,12 +1969,12 @@ msgstr "Người dùng công khai"
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Re-send SMS"
-msgstr ""
+msgstr "Gửi lại SMS"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__redirect_url
 msgid "Redirect Link"
-msgstr ""
+msgstr "Liên kết chuyển tiếp"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_send_copy__request_id
@@ -1966,7 +1984,7 @@ msgstr "Yêu cầu"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__request_item_infos
 msgid "Request Item Infos"
-msgstr ""
+msgstr "Yêu cầu thông tin mục"
 
 #. module: sign
 #. openerp-web
@@ -1978,7 +1996,7 @@ msgstr ""
 #: model:mail.activity.type,name:sign.mail_activity_data_signature_request
 #, python-format
 msgid "Request Signature"
-msgstr ""
+msgstr "Yêu cầu chữ ký"
 
 #. module: sign
 #: model_terms:ir.actions.act_window,help:sign.sign_request_action
@@ -2017,7 +2035,7 @@ msgstr "Resend"
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "Resend the invitation"
-msgstr ""
+msgstr "Gửi lại lời mời"
 
 #. module: sign
 #. openerp-web
@@ -2039,7 +2057,7 @@ msgstr "Người phụ trách"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__responsible_count
 msgid "Responsible Count"
-msgstr ""
+msgstr "Số người phụ trách"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__activity_user_id
@@ -2080,7 +2098,7 @@ msgstr "Qui tắc"
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "Rotate Clockwise"
-msgstr ""
+msgstr "Xoay theo chiều kim đồng hồ"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item_role__sms_authentification
@@ -2097,12 +2115,12 @@ msgstr "Lỗi gửi SMS"
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "SMS Sent"
-msgstr ""
+msgstr "Đã gửi SMS"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__sms_token
 msgid "SMS Token"
-msgstr ""
+msgstr "Token SMS"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -2135,7 +2153,7 @@ msgstr "Đã lưu"
 #: code:addons/sign/controllers/portal.py:0
 #, python-format
 msgid "Search <span class=\"nolabel\"> (in Document)</span>"
-msgstr ""
+msgstr "Tìm kiếm <span class=\"nolabel\"> (trong Tài liệu)</span>"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__access_token
@@ -2146,7 +2164,7 @@ msgstr "Mã bảo mật"
 #. module: sign
 #: model:sign.item.type,tip:sign.sign_item_type_selection
 msgid "Select an option"
-msgstr ""
+msgstr "Lựa chọn một tuỳ chọn"
 
 #. module: sign
 #. openerp-web
@@ -2172,7 +2190,7 @@ msgstr "Lựa chọn"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item__option_ids
 msgid "Selection options"
-msgstr ""
+msgstr "Tuỳ chọn để chọn lựa"
 
 #. module: sign
 #. openerp-web
@@ -2196,7 +2214,7 @@ msgstr "Gửi SMS"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__signer_id
 msgid "Send To"
-msgstr ""
+msgstr "Gửi đến"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_form
@@ -2213,7 +2231,7 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "Send the invitation"
-msgstr ""
+msgstr "Gửi lời mời"
 
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_request__state__sent
@@ -2224,7 +2242,7 @@ msgstr "Đã gửi"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__nb_wait
 msgid "Sent Requests"
-msgstr ""
+msgstr "Gửi yêu cầu"
 
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_template__privacy
@@ -2253,7 +2271,7 @@ msgstr "Chia sẻ"
 #. module: sign
 #: model:ir.actions.act_window,name:sign.action_sign_template_share
 msgid "Share Document by Link"
-msgstr ""
+msgstr "Chia sẻ tài liệu bằng liên kết"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__share_link
@@ -2294,17 +2312,17 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_config_settings__use_sign_terms
 msgid "Sign Default Terms & Conditions"
-msgstr ""
+msgstr "Chữ ký Điều khoản & điều kiện mặc định"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_company__sign_terms
 msgid "Sign Default Terms and Conditions"
-msgstr ""
+msgstr "Chữ ký Điều khoản và điều kiện mặc định"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_company__sign_terms_html
 msgid "Sign Default Terms and Conditions as a Web page"
-msgstr ""
+msgstr "Chữ ký Điều khoản và điều kiện mặc định dưới dạng một trang web"
 
 #. module: sign
 #. openerp-web
@@ -2317,14 +2335,14 @@ msgstr "Kí tài liệu"
 #. module: sign
 #: model:ir.model,name:sign.model_sign_duplicate_template_pdf
 msgid "Sign Duplicate Template with new PDF"
-msgstr ""
+msgstr "Chữ ký Nhân bản mẫu với tệp PDF mới"
 
 #. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Sign Next Document"
-msgstr ""
+msgstr "Chữ ký Tài liệu tiếp theo"
 
 #. module: sign
 #. openerp-web
@@ -2334,27 +2352,27 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 #, python-format
 msgid "Sign Now"
-msgstr ""
+msgstr "Ký ngay"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__sign_request_id
 msgid "Sign Request"
-msgstr ""
+msgstr "Yêu cầu ký tên"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__sign_request_item_id
 msgid "Sign Request Item"
-msgstr ""
+msgstr "Mục yêu cầu chữ ký"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request_signer__sign_send_request_id
 msgid "Sign Send Request"
-msgstr ""
+msgstr "Chữ ký Gửi yêu cầu"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.res_config_settings_view_form
 msgid "Sign Settings"
-msgstr ""
+msgstr "Cài đặt chữ ký"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_template_share
@@ -2364,46 +2382,46 @@ msgstr ""
 #. module: sign
 #: model:ir.model,name:sign.model_sign_template_tag
 msgid "Sign Template Tag"
-msgstr ""
+msgstr "Thẻ mẫu chữ ký"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_config_settings__sign_terms
 msgid "Sign Terms & Conditions"
-msgstr ""
+msgstr "Chữ ký Điều khoản & điều kiện"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_config_settings__sign_terms_html
 msgid "Sign Terms & Conditions as a Web page"
-msgstr ""
+msgstr "Chữ ký Điều khoản và điều kiện dưới dạng một trang web"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_company__sign_terms_type
 #: model:ir.model.fields,field_description:sign.field_res_config_settings__sign_terms_type
 msgid "Sign Terms & Conditions format"
-msgstr ""
+msgstr "Chữ ký Định dạng điều khoản & điều kiện"
 
 #. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Sign all"
-msgstr ""
+msgstr "Ký tất cả"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_request
 msgid "Sign document"
-msgstr ""
+msgstr "Ký tài liệu"
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
 #, python-format
 msgid "Sign requests"
-msgstr ""
+msgstr "Yêu cầu ký tên"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_log
 msgid "Sign requests access history"
-msgstr ""
+msgstr "Lịch sử truy cập yêu cầu chữ ký"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_send_request
@@ -2418,7 +2436,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model,name:sign.model_sign_send_request_signer
 msgid "Sign send request signer"
-msgstr ""
+msgstr "Sign send request signer"
 
 #. module: sign
 #. openerp-web
@@ -2442,38 +2460,38 @@ msgstr "Chữ ký"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "Signature Date"
-msgstr ""
+msgstr "Ngày ký"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item_value__sign_item_id
 msgid "Signature Item"
-msgstr ""
+msgstr "Mục chữ ký"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_item_role
 msgid "Signature Item Party"
-msgstr ""
+msgstr "Mục chữ ký Bên"
 
 #. module: sign
 #: model:ir.actions.act_window,name:sign.sign_item_role_action
 msgid "Signature Item Role"
-msgstr ""
+msgstr "Mục chữ ký Vai trò"
 
 #. module: sign
 #: model:ir.actions.act_window,name:sign.sign_item_type_action
 #: model:ir.model,name:sign.model_sign_item_type
 msgid "Signature Item Type"
-msgstr ""
+msgstr "Mục chữ ký Loại"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_request_item_value
 msgid "Signature Item Value"
-msgstr ""
+msgstr "Mục chữ ký Giá trị"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__sign_item_ids
 msgid "Signature Items"
-msgstr ""
+msgstr "Mục chữ ký"
 
 #. module: sign
 #. openerp-web
@@ -2491,7 +2509,7 @@ msgstr "Yêu cầu kí"
 #: code:addons/sign/wizard/sign_send_request.py:0
 #, python-format
 msgid "Signature Request - %(file_name)s"
-msgstr ""
+msgstr "Yêu cầu chữ ký - %(file_name)s"
 
 #. module: sign
 #: code:addons/sign/tests/test_common.py:0
@@ -2503,17 +2521,17 @@ msgstr "Yêu cầu chữ ký - %s"
 #. module: sign
 #: model:ir.model,name:sign.model_sign_request_item
 msgid "Signature Request Item"
-msgstr ""
+msgstr "Mục yêu cầu chữ ký"
 
 #. module: sign
 #: model:ir.actions.act_window,name:sign.sign_request_item_action
 msgid "Signature Request Items"
-msgstr ""
+msgstr "Mục yêu cầu chữ ký"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item_value__sign_request_item_id
 msgid "Signature Request item"
-msgstr ""
+msgstr "Mục yêu cầu chữ ký"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__sign_request_ids
@@ -2528,7 +2546,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__start_sign
 msgid "Signature Started"
-msgstr ""
+msgstr "Ký tên đã bắt đầu"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_template
@@ -2541,7 +2559,7 @@ msgstr "Signature Template"
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Signature configuration"
-msgstr ""
+msgstr "Cấu hình chữ ký"
 
 #. module: sign
 #: code:addons/sign/wizard/sign_send_request.py:0
@@ -2550,24 +2568,26 @@ msgid ""
 "Signature requested for template: %s\n"
 "Signatories: %s"
 msgstr ""
+"Chữ ký được yêu cầu cho mẫu: %s\n"
+"Người ký: %s"
 
 #. module: sign
 #: code:addons/sign/models/res_partner.py:0
 #, python-format
 msgid "Signature(s)"
-msgstr ""
+msgstr "(Các) chữ ký"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "Signature:"
-msgstr ""
+msgstr "Chữ ký:"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.portal_my_home_menu_sign
 #: model_terms:ir.ui.view,arch_db:sign.portal_my_home_sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "Signatures"
-msgstr ""
+msgstr "Chữ ký"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.doc_sign
@@ -2577,24 +2597,24 @@ msgstr "Đã kí"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__signed_count
 msgid "Signed Count"
-msgstr ""
+msgstr "Số lượng đã ký"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 msgid "Signed Documents"
-msgstr ""
+msgstr "Tài liệu đã ký"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_completed
 msgid "Signed document"
-msgstr ""
+msgstr "Tài liệu đã ký"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__signing_date
 #: model_terms:ir.ui.view,arch_db:sign._doc_sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
 msgid "Signed on"
-msgstr ""
+msgstr "Đã ký vào"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__signer_email
@@ -2605,23 +2625,23 @@ msgstr ""
 #: model:ir.model.fields,field_description:sign.field_sign_request__request_item_ids
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__signer_ids
 msgid "Signers"
-msgstr ""
+msgstr "Người ký"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__signers_count
 msgid "Signers Count"
-msgstr ""
+msgstr "Số lượng người ký"
 
 #. module: sign
 #: code:addons/sign/controllers/portal.py:0
 #, python-format
 msgid "Signing Date"
-msgstr ""
+msgstr "Ngày ký"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "Signing Events"
-msgstr ""
+msgstr "Sự kiện ký tên"
 
 #. module: sign
 #. openerp-web
@@ -2643,7 +2663,7 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "Somebody is already filling a document which uses this template"
-msgstr ""
+msgstr "Ai đó đã điền vào tài liệu sử dụng mẫu này"
 
 #. module: sign
 #. openerp-web
@@ -2651,7 +2671,7 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Sorry, an error occurred, please try to fill the document again."
-msgstr ""
+msgstr "Rất tiếc, đã xảy ra lỗi! Vui lòng thử điền lại tài liệu."
 
 #. module: sign
 #: model:sign.item.role,name:sign.sign_item_role_default
@@ -2669,7 +2689,7 @@ msgstr "Tỉnh/TP"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__request_state
 msgid "State of the request on action log"
-msgstr ""
+msgstr "Trạng thái yêu cầu trên nhật ký hoạt động"
 
 #. module: sign
 #: code:addons/sign/controllers/portal.py:0
@@ -2717,7 +2737,7 @@ msgstr "Từ khóa"
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
 msgid "Tags:"
-msgstr ""
+msgstr "Từ khóa:"
 
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_item_type__auto_field
@@ -2725,6 +2745,8 @@ msgid ""
 "Technical name of the field on the partner model to auto-complete this "
 "signature field at the time of signature."
 msgstr ""
+"Tên kỹ thuật của trường trên model đối tác để tự động hoàn thành trường chữ "
+"ký này tại thời điểm ký tên."
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__template_id
@@ -2743,7 +2765,7 @@ msgstr "Mẫu"
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Template \"%s\""
-msgstr ""
+msgstr "Mẫu \"%s\""
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__group_ids
@@ -2770,7 +2792,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "Template or Tag"
-msgstr ""
+msgstr "Mẫu hoặc thẻ"
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -2787,12 +2809,12 @@ msgstr "Điều khoản &amp; Điều kiện"
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__res_company__sign_terms_type__html
 msgid "Terms as Web Page"
-msgstr ""
+msgstr "Điều khoản dưới dạng trang web"
 
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__res_company__sign_terms_type__plain
 msgid "Terms in Email"
-msgstr ""
+msgstr "Điều khoản trong email"
 
 #. module: sign
 #: model:ir.model.fields,help:sign.field_res_company__sign_terms_type
@@ -2803,6 +2825,9 @@ msgid ""
 "        Terms as Web Page - A link will be pasted at the bottom of every signature request email, leading to your content.\n"
 "        "
 msgstr ""
+"Điều khoản trong email - Văn bản sẽ được hiển thị ở dưới mỗi email yêu cầu chữ ký.\n"
+"\n"
+"         Điều khoản dưới dạng trang Web - Một liên kết sẽ được dán ở dưới mỗi email yêu cầu chữ ký, điều hướng đến nội dung của bạn."
 
 #. module: sign
 #. openerp-web
@@ -2832,12 +2857,12 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.encrypted_ask_password
 msgid "The PDF's password is required to generate the final document."
-msgstr ""
+msgstr "Cần có mật khẩu của tệp PDF để tạo tài liệu cuối cùng."
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_completed
 msgid "The document"
-msgstr ""
+msgstr "Tài liệu"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -2845,6 +2870,8 @@ msgid ""
 "The final document and this completion history have been sent by email "
 "on&amp;nbsp;"
 msgstr ""
+"Tài liệu cuối cùng và lịch sử hoàn thành này đã được gửi qua email "
+"vào&amp;nbsp;"
 
 #. module: sign
 #: code:addons/sign/wizard/sign_send_request.py:0
@@ -2860,6 +2887,9 @@ msgid ""
 "that signature values or the underlying PDF document may have been modified "
 "after the fact."
 msgstr ""
+"Không thể xác minh tính toàn vẹn của lịch sử tài liệu. Điều này có thể đồng "
+"nghĩa với việc các giá trị chữ ký hoặc tài liệu PDF cơ bản có thể đã được "
+"sửa đổi sau khi ký."
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -2887,7 +2917,7 @@ msgstr ""
 #: code:addons/sign/models/sign_request.py:0
 #, python-format
 msgid "The signature mail has been sent to: "
-msgstr ""
+msgstr "Email chữ ký đã được gửi tới:"
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -2898,7 +2928,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_request_item__is_mail_sent
 msgid "The signature mail has been sent."
-msgstr ""
+msgstr "Email chữ ký đã được gửi đi."
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -2911,12 +2941,29 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "The template doesn't exist anymore."
+msgstr "Mẫu này không còn tồn tại."
+
+#. module: sign
+#: code:addons/sign/wizard/sign_duplicate_template_with_pdf.py:0
+#, python-format
+msgid "The uploaded file is not a valid PDF. Please upload a valid PDF file."
 msgstr ""
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "There are no signatures request."
 msgstr ""
+
+#. module: sign
+#: code:addons/sign/models/sign_request.py:0
+#: code:addons/sign/models/sign_request.py:0
+#, python-format
+msgid ""
+"There was an issue downloading your document. Please contact an "
+"administrator."
+msgstr ""
+"Đã xảy ra sự cố khi tải xuống tài liệu của bạn. Vui lòng liên hệ với quản "
+"trị viên."
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
@@ -2928,7 +2975,7 @@ msgstr ""
 #: model:ir.model.fields,help:sign.field_sign_request__reference
 #: model:ir.model.fields,help:sign.field_sign_request_item__reference
 msgid "This is how the document will be named in the mail"
-msgstr ""
+msgstr "Đây là cách tài liệu sẽ được đặt tên trong email"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_form
@@ -2945,13 +2992,13 @@ msgstr "Hướng dẫn"
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_request_item__state__sent
 msgid "To Sign"
-msgstr ""
+msgstr "Cần ký"
 
 #. module: sign
 #: code:addons/sign/controllers/portal.py:0
 #, python-format
 msgid "To sign"
-msgstr ""
+msgstr "Cần ký"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
@@ -2964,7 +3011,7 @@ msgstr "Hoạt động hôm nay"
 #: code:addons/sign/static/src/js/tours/sign.js:0
 #, python-format
 msgid "Try out this sample contract."
-msgstr ""
+msgstr "Dùng thử hợp đồng mẫu này."
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item__type_id
@@ -2995,7 +3042,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "UTC"
-msgstr ""
+msgstr "UTC"
 
 #. module: sign
 #. openerp-web
@@ -3004,7 +3051,17 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Unable to send the SMS, please contact the sender of the document."
+msgstr "Không thể gửi SMS, vui lòng liên hệ với người gửi tài liệu."
+
+#. module: sign
+#: code:addons/sign/controllers/main.py:0
+#, python-format
+msgid ""
+"Unable to sign the document due to missing required data. Please contact an "
+"administrator."
 msgstr ""
+"Không thể ký tài liệu do thiếu dữ liệu bắt buộc. Vui lòng liên hệ với quản "
+"trị viên."
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_unread
@@ -3025,17 +3082,17 @@ msgstr "Cập nhật"
 #: code:addons/sign/models/sign_template.py:0
 #, python-format
 msgid "Upload a PDF"
-msgstr ""
+msgstr "Tải lên tệp PDF"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 msgid "Use Layout"
-msgstr ""
+msgstr "Sử dụng bố cục"
 
 #. module: sign
 #: model:ir.actions.act_window,name:sign.action_sign_duplicate_template_with_pdf
 msgid "Use the layout of fields on a new PDF"
-msgstr ""
+msgstr "Sử dụng bố cục các trường trên tệp PDF mới"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__user_id
@@ -3069,7 +3126,7 @@ msgstr "Xác nhận"
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Validate & Send"
-msgstr ""
+msgstr "Xác thực và gửi"
 
 #. module: sign
 #. openerp-web
@@ -3081,14 +3138,14 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign._doc_sign
 msgid "Validate &amp; Send Completed Document"
-msgstr ""
+msgstr "Xác thực &amp; gửi tài liệu đã hoàn thành"
 
 #. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Validation Code"
-msgstr ""
+msgstr "Mã xác thực"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__sign_item_value_ids
@@ -3111,27 +3168,27 @@ msgstr "Xác minh"
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
 #, python-format
 msgid "View Document"
-msgstr ""
+msgstr "Xem tài liệu"
 
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_log__action__open
 msgid "View/Download"
-msgstr ""
+msgstr "Xem/Tải xuống"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "Viewed/downloaded by"
-msgstr ""
+msgstr "Đã xem/Đã tải xuống bởi"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "Waiting for me"
-msgstr ""
+msgstr "Chờ tôi"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "Waiting for others"
-msgstr ""
+msgstr "Chờ người ký khác"
 
 #. module: sign
 #. openerp-web
@@ -3147,6 +3204,7 @@ msgstr "Cảnh báo"
 #, python-format
 msgid "We will send you this document by email once everyone has signed."
 msgstr ""
+"Chúng tôi sẽ gửi cho bạn tài liệu này qua email sau khi mọi người đã ký."
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__website_message_ids
@@ -3192,7 +3250,7 @@ msgstr "Viết email hoặc tìm kiếm liên hệ..."
 #: code:addons/sign/controllers/main.py:0
 #, python-format
 msgid "Wrong password"
-msgstr ""
+msgstr "Sai mật khẩu"
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
@@ -3201,6 +3259,8 @@ msgid ""
 "You can't delete a template for which signature requests exist but you can "
 "archive it instead."
 msgstr ""
+"Bạn không thể xóa mẫu dùng để tạo yêu cầu chữ ký đang tồn tại nhưng thay vào"
+" đó, bạn có thể lưu trữ mẫu đó."
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.doc_sign
@@ -3218,7 +3278,7 @@ msgstr ""
 #: code:addons/sign/models/sign_request.py:0
 #, python-format
 msgid "Your confirmation code is %s"
-msgstr ""
+msgstr "Mã xác nhận của bạn là %s"
 
 #. module: sign
 #. openerp-web
@@ -3226,7 +3286,7 @@ msgstr ""
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Your email"
-msgstr ""
+msgstr "Email của bạn"
 
 #. module: sign
 #. openerp-web
@@ -3236,6 +3296,8 @@ msgid ""
 "Your file is encrypted, PDF's password is required to generate final "
 "document. The final document will be encrypted with the same password."
 msgstr ""
+"Tệp của bạn được mã hóa, cần có mật khẩu của tệp PDF để tạo tài liệu cuối "
+"cùng. Tài liệu cuối cùng cũng sẽ được mã hóa bằng mật khẩu này."
 
 #. module: sign
 #. openerp-web
@@ -3280,14 +3342,14 @@ msgstr "và"
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "e.g. +1 415 555 0100"
-msgstr ""
+msgstr "VD: +1 415 555 0100"
 
 #. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "e.g. 314159"
-msgstr ""
+msgstr "VD: 314159"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_item_role_view_form
@@ -3297,7 +3359,7 @@ msgstr "VD: Nhân viên"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_form
 msgid "e.g. Non-disclosure agreement"
-msgstr ""
+msgstr "VD: Thỏa thuận không tiết lộ"
 
 #. module: sign
 #: model:sign.item.type,tip:sign.sign_item_type_checkbox
@@ -3309,27 +3371,27 @@ msgstr ""
 #: model:sign.item.type,tip:sign.sign_item_type_phone
 #: model:sign.item.type,tip:sign.sign_item_type_text
 msgid "fill in"
-msgstr ""
+msgstr "điền vào"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_completed
 msgid "has been completed and signed by"
-msgstr ""
+msgstr "đã được hoàn thành và ký bởi"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_completed
 msgid "has been edited, completed and signed by"
-msgstr ""
+msgstr "đã được chỉnh sửa, hoàn thành và ký bởi"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "ip"
-msgstr ""
+msgstr "ip"
 
 #. module: sign
 #: model:sign.item.type,tip:sign.sign_item_type_initial
 msgid "mark it"
-msgstr ""
+msgstr "đánh dấu"
 
 #. module: sign
 #. openerp-web
@@ -3338,27 +3400,27 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "next"
-msgstr ""
+msgstr "tiếp theo"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_tree
 msgid "sign"
-msgstr ""
+msgstr "ký tên"
 
 #. module: sign
 #: model:sign.item.type,tip:sign.sign_item_type_signature
 msgid "sign it"
-msgstr ""
+msgstr "ký tên"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message
 msgid "sign.message"
-msgstr ""
+msgstr "sign.message"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_cc
 msgid "sign.message_cc"
-msgstr ""
+msgstr "sign.message_cc"
 
 #. module: sign
 #. openerp-web
@@ -3372,14 +3434,14 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "tags"
-msgstr ""
+msgstr "thẻ"
 
 #. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
 msgid "this template to modify it."
-msgstr ""
+msgstr "mẫu này để chỉnh sửa nó."
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -3389,4 +3451,4 @@ msgstr "đến:"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_completed
 msgid "you"
-msgstr ""
+msgstr "bạn"

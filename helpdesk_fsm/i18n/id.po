@@ -18,7 +18,7 @@ msgstr ""
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:39+0000\n"
 "Last-Translator: Abe Manyo, 2023\n"
-"Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
+"Language-Team: Indonesian (https://app.transifex.com/odoo/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -44,19 +44,19 @@ msgstr ""
 #. module: helpdesk_fsm
 #: model_terms:ir.ui.view,arch_db:helpdesk_fsm.create_fsm_task_view_form
 msgid "Create & View Task"
-msgstr ""
+msgstr "Buat & Lihat Task"
 
 #. module: helpdesk_fsm
 #: model_terms:ir.ui.view,arch_db:helpdesk_fsm.create_fsm_task_view_form
 msgid "Create Task"
-msgstr ""
+msgstr "Buat Task"
 
 #. module: helpdesk_fsm
 #: code:addons/helpdesk_fsm/models/helpdesk.py:0
 #: model:ir.model,name:helpdesk_fsm.model_helpdesk_create_fsm_task
 #, python-format
 msgid "Create a Field Service task"
-msgstr ""
+msgstr "Buat task Layanan Lapangan"
 
 #. module: helpdesk_fsm
 #: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__create_uid
@@ -86,17 +86,17 @@ msgstr "Nama Tampilan"
 #. module: helpdesk_fsm
 #: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_team__fsm_project_id
 msgid "FSM Project"
-msgstr ""
+msgstr "Project FSM"
 
 #. module: helpdesk_fsm
 #: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_ticket__use_fsm
 msgid "Field Service"
-msgstr ""
+msgstr "Layanan Lapangan"
 
 #. module: helpdesk_fsm
 #: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_ticket__fsm_task_count
 msgid "Fsm Task Count"
-msgstr ""
+msgstr "Jumlah Task FSM"
 
 #. module: helpdesk_fsm
 #: model:ir.model,name:helpdesk_fsm.model_helpdesk_team
@@ -148,7 +148,7 @@ msgstr "Proyek"
 #. module: helpdesk_fsm
 #: model:ir.model.fields,help:helpdesk_fsm.field_helpdesk_create_fsm_task__project_id
 msgid "Project in which to create the task"
-msgstr ""
+msgstr "Project di mana untuk membuat task"
 
 #. module: helpdesk_fsm
 #: model:project.task,legend_done:helpdesk_fsm.helpdesk_fsm_task_1
@@ -159,7 +159,7 @@ msgstr "Siap"
 #. module: helpdesk_fsm
 #: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__helpdesk_ticket_id
 msgid "Related ticket"
-msgstr ""
+msgstr "Tiket terkait"
 
 #. module: helpdesk_fsm
 #: model:ir.model,name:helpdesk_fsm.model_project_task
@@ -172,7 +172,7 @@ msgstr "Kegiatan"
 #: model:mail.message.subtype,name:helpdesk_fsm.mt_team_ticket_task_done
 #: model:mail.message.subtype,name:helpdesk_fsm.mt_ticket_task_done
 msgid "Task Done"
-msgstr ""
+msgstr "Task Selesai"
 
 #. module: helpdesk_fsm
 #: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_ticket__fsm_task_ids
@@ -185,12 +185,12 @@ msgstr "Kegiatan"
 #: code:addons/helpdesk_fsm/wizard/create_task.py:0
 #, python-format
 msgid "Tasks from Tickets"
-msgstr ""
+msgstr "Task dari Tiket"
 
 #. module: helpdesk_fsm
 #: model:ir.model.fields,help:helpdesk_fsm.field_helpdesk_ticket__fsm_task_ids
 msgid "Tasks generated from this ticket"
-msgstr ""
+msgstr "Task dibuat dari tiket ini"
 
 #. module: helpdesk_fsm
 #: model:ir.model.fields,field_description:helpdesk_fsm.field_project_task__helpdesk_ticket_id
@@ -201,7 +201,7 @@ msgstr "Tiket"
 #. module: helpdesk_fsm
 #: model_terms:ir.ui.view,arch_db:helpdesk_fsm.project_sharing_inherit_project_task_view_form
 msgid "Ticket from this task"
-msgstr ""
+msgstr "Tiket dari task ini"
 
 #. module: helpdesk_fsm
 #: model:ir.model.fields,help:helpdesk_fsm.field_project_task__helpdesk_ticket_id
@@ -211,7 +211,7 @@ msgstr ""
 #. module: helpdesk_fsm
 #: model:ir.model.fields,help:helpdesk_fsm.field_helpdesk_create_fsm_task__partner_id
 msgid "Ticket's customer, will be linked to the task"
-msgstr ""
+msgstr "Tiket pelanggan, yang akan di-link ke task"
 
 #. module: helpdesk_fsm
 #: model_terms:ir.ui.view,arch_db:helpdesk_fsm.project_sharing_inherit_project_task_view_form

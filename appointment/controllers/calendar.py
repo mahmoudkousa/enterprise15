@@ -9,6 +9,7 @@ from odoo.addons.calendar.controllers.main import CalendarController
 from odoo.exceptions import AccessError, ValidationError
 from odoo.addons.http_routing.models.ir_http import slug
 from odoo.http import request, route
+from odoo.tools.misc import clean_context
 
 
 class AppointmentController(CalendarController):
@@ -70,7 +71,10 @@ class AppointmentController(CalendarController):
         # Check if the user is a member of group_user to avoid portal user and the like to create appointment types
         if not request.env.user.user_has_groups('base.group_user'):
             raise AccessError(_("Access Denied"))
-        appointment_type = request.env['calendar.appointment.type'].sudo().create({
+        AppointmentType = request.env['calendar.appointment.type']
+        appointment_type = AppointmentType.with_context(
+            AppointmentType._get_clean_appointment_context()
+        ).sudo().create({
             'category': 'custom',
             'slot_ids': [(0, 0, {
                 'start_datetime': fields.Datetime.from_string(slot.get('start')),
@@ -100,7 +104,7 @@ class AppointmentController(CalendarController):
             # Check if the user is a member of group_user to avoid portal user and the like to create appointment types
             if not request.env.user.user_has_groups('base.group_user'):
                 raise AccessError(_("Access Denied"))
-            appointment_type = request.env['calendar.appointment.type'].sudo().create({
+            appointment_type = request.env['calendar.appointment.type'].with_context(clean_context(request.env.context)).sudo().create({
                 'max_schedule_days': 30,
                 'category': 'work_hours',
                 'slot_ids': [(0, 0, {

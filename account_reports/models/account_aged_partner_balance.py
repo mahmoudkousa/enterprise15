@@ -130,14 +130,22 @@ class ReportAccountAgedPartner(models.AbstractModel):
             )
             JOIN {currency_table} ON currency_table.company_id = account_move_line.company_id
             LEFT JOIN LATERAL (
-                SELECT part.amount, part.debit_amount_currency, part.debit_move_id
+                SELECT
+                    SUM(part.amount) AS amount,
+                    SUM(part.debit_amount_currency) AS debit_amount_currency,
+                    part.debit_move_id
                 FROM account_partial_reconcile part
                 WHERE part.max_date <= %(date)s
+                GROUP BY part.debit_move_id
             ) part_debit ON part_debit.debit_move_id = account_move_line.id
             LEFT JOIN LATERAL (
-                SELECT part.amount, part.credit_amount_currency, part.credit_move_id
+                SELECT
+                    SUM(part.amount) AS amount,
+                    SUM(part.credit_amount_currency) AS credit_amount_currency,
+                    part.credit_move_id
                 FROM account_partial_reconcile part
                 WHERE part.max_date <= %(date)s
+                GROUP BY part.credit_move_id
             ) part_credit ON part_credit.credit_move_id = account_move_line.id
             JOIN {period_table} ON (
                 period_table.date_start IS NULL

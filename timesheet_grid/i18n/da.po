@@ -5,10 +5,10 @@
 # Translators:
 # Pernille Kristensen <pernillekristensen1994@gmail.com>, 2021
 # Sanne Kristensen <sanne@vkdata.dk>, 2021
-# lhmflexerp <lhm@flexerp.dk>, 2021
 # Mads Søndergaard, 2021
 # Mads Søndergaard, 2021
 # Martin Trigaux, 2022
+# lhmflexerp <lhm@flexerp.dk>, 2023
 # 
 msgid ""
 msgstr ""
@@ -16,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 08:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Martin Trigaux, 2022\n"
-"Language-Team: Danish (https://www.transifex.com/odoo/teams/41243/da/)\n"
+"Last-Translator: lhmflexerp <lhm@flexerp.dk>, 2023\n"
+"Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -28,7 +28,7 @@ msgstr ""
 #: code:addons/timesheet_grid/models/analytic.py:0
 #, python-format
 msgid "%s Spent"
-msgstr ""
+msgstr "%s Brugt"
 
 #. module: timesheet_grid
 #. openerp-web
@@ -677,6 +677,7 @@ msgstr "Tryk ESC for at kassere"
 #. module: timesheet_grid
 #. openerp-web
 #: code:addons/timesheet_grid/static/src/js/timesheet_grid/timer_m2o.js:0
+#: code:addons/timesheet_grid/static/src/js/timesheet_grid/timer_m2o.js:0
 #: model:ir.model,name:timesheet_grid.model_project_project
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__project_id
 #: model:ir.model.fields,field_description:timesheet_grid.field_hr_timesheet_merge_wizard__project_id
@@ -719,7 +720,7 @@ msgstr "Genoptag"
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.project_task_view_form
 msgid "Resume timer"
-msgstr ""
+msgstr "Fortsæt timer"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_res_config_settings__timesheet_rounding
@@ -764,10 +765,8 @@ msgstr "Vælg <b>projektet</b> som du arbejder på."
 #: model:ir.model.fields,help:timesheet_grid.field_res_users__timesheet_manager_id
 msgid ""
 "Select the user responsible for approving \"Timesheet\" of this employee.\n"
-"If empty, the approval is done by an Administrator or Team Approver (determined in settings/users)."
+"If empty, the approval is done by a Timesheets > Administrator or a Timesheets > User: all timesheets (as determined in the users settings)."
 msgstr ""
-"Vælg brugeren der er ansvarlig for at godkende \"Timeseddel\" for denne medarbejder.\n"
-"Godkendelsen udføres af en Administrator eller Team Godkender hvis tom (besluttet i indstillinger/brugere)."
 
 #. module: timesheet_grid
 #: model:ir.model.fields,help:timesheet_grid.field_account_analytic_line__is_timesheet
@@ -826,6 +825,7 @@ msgstr ""
 
 #. module: timesheet_grid
 #. openerp-web
+#: code:addons/timesheet_grid/static/src/js/timesheet_grid/timer_m2o.js:0
 #: code:addons/timesheet_grid/static/src/js/timesheet_grid/timer_m2o.js:0
 #: model:ir.model,name:timesheet_grid.model_project_task
 #: model:ir.model.fields,field_description:timesheet_grid.field_hr_timesheet_merge_wizard__task_id

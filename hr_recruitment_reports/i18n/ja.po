@@ -46,7 +46,7 @@ msgstr "# 不採用"
 #. module: hr_recruitment_reports
 #: model:ir.model.fields,field_description:hr_recruitment_reports.field_hr_recruitment_report__name
 msgid "Applicant Name"
-msgstr ""
+msgstr "応募者名"
 
 #. module: hr_recruitment_reports
 #: model:ir.model.fields,field_description:hr_recruitment_reports.field_hr_recruitment_report__company_id

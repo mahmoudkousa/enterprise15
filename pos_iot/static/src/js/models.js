@@ -15,10 +15,10 @@ models.load_models([{
     fields: ['iot_ip', 'iot_id', 'identifier', 'type', 'manual_measurement'],
     domain: function(self) {
         var device_ids = self.config.iot_device_ids;
-        _.each(self.payment_methods, function (payment_method) {
-            if (payment_method.iot_device_id) {
+        _.each(
+            self.payment_methods.filter(pm => self.config.payment_method_ids.includes(pm.id) && pm.iot_device_id),
+            function (payment_method) {
                 device_ids.push(payment_method.iot_device_id[0]);
-            }
         });
         return [['id', 'in', device_ids]];
     },

@@ -123,7 +123,7 @@ msgstr "Conexão ao terminal falhada"
 #: code:addons/pos_iot/static/src/js/ScaleScreen.js:0
 #, python-format
 msgid "Could not connect to IoT scale"
-msgstr "Não pôde connectar à escala IoT"
+msgstr "Não foi possível conectar à balança IoT"
 
 #. module: pos_iot
 #: model_terms:ir.ui.view,arch_db:pos_iot.pos_iot_config_view_form

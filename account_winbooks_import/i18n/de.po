@@ -3,12 +3,9 @@
 # 	* account_winbooks_import
 # 
 # Translators:
-# Wolfgang Taferner, 2021
-# Martin Trigaux, 2021
-# Felix Schubert <felix.schubert@go-erp.com>, 2021
 # Friederike Fasterling-Nesselbosch, 2022
 # Daniela W, 2022
-# Larissa Manderfeld, 2023
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -16,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:38+0000\n"
-"Last-Translator: Larissa Manderfeld, 2023\n"
+"Last-Translator: Martin Trigaux, 2023\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,7 +49,7 @@ msgstr "Assistent für den Import von Winbooks-Konten"
 #: code:addons/account_winbooks_import/wizard/import_wizard.py:0
 #, python-format
 msgid "Accounting Settings"
-msgstr "Konfiguration der Buchhaltung"
+msgstr "Buchhaltungseinstellungen"
 
 #. module: account_winbooks_import
 #: model_terms:ir.ui.view,arch_db:account_winbooks_import.winbooks_import_form
@@ -68,7 +65,7 @@ msgstr "Unternehmen"
 #: code:addons/account_winbooks_import/wizard/import_wizard.py:0
 #, python-format
 msgid "Company Settings"
-msgstr "Firmen Einstellungen"
+msgstr "Unternehmenseinstellungen"
 
 #. module: account_winbooks_import
 #: code:addons/account_winbooks_import/wizard/import_wizard.py:0
@@ -111,7 +108,7 @@ msgstr "ID"
 #: model_terms:ir.ui.view,arch_db:account_winbooks_import.onboarding_winbooks_step
 #: model_terms:ir.ui.view,arch_db:account_winbooks_import.winbooks_import_form
 msgid "Import"
-msgstr "Import"
+msgstr "Importieren"
 
 #. module: account_winbooks_import
 #: model_terms:ir.ui.view,arch_db:account_winbooks_import.winbooks_import_form
@@ -121,7 +118,7 @@ msgstr "Import (sicherer Modus)"
 #. module: account_winbooks_import
 #: model:ir.model.fields,field_description:account_winbooks_import.field_account_winbooks_import_wizard__only_open
 msgid "Import only open years"
-msgstr "Importieren Sie nur offene Jahre"
+msgstr "Nur offene Jahre importieren"
 
 #. module: account_winbooks_import
 #: model_terms:ir.ui.view,arch_db:account_winbooks_import.onboarding_winbooks_step
@@ -146,7 +143,7 @@ msgstr "Zuletzt geändert am"
 #. module: account_winbooks_import
 #: model:ir.model.fields,field_description:account_winbooks_import.field_account_winbooks_import_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zuletzt aktualisiert durch"
+msgstr "Zuletzt aktualisiert von"
 
 #. module: account_winbooks_import
 #: model:ir.model.fields,field_description:account_winbooks_import.field_account_winbooks_import_wizard__write_date
@@ -166,7 +163,7 @@ msgstr "Übereinstimmende Nummer, die in Winbooks verwendet wurde"
 #. module: account_winbooks_import
 #: model:ir.model.fields.selection,name:account_winbooks_import.selection__res_company__account_onboarding_winbooks_state__not_done
 msgid "Not done"
-msgstr "Nicht fertig"
+msgstr "Unerledigt"
 
 #. module: account_winbooks_import
 #: code:addons/account_winbooks_import/wizard/import_wizard.py:0
@@ -177,12 +174,12 @@ msgstr "Bitte definieren Sie ein Land für Ihr Unternehmen."
 #. module: account_winbooks_import
 #: model_terms:ir.ui.view,arch_db:account_winbooks_import.winbooks_import_form
 msgid "Stage Search"
-msgstr "Suche Stufen"
+msgstr "Phasensuche"
 
 #. module: account_winbooks_import
 #: model:ir.model.fields,field_description:account_winbooks_import.field_res_company__account_onboarding_winbooks_state
 msgid "State of the onboarding winbooks step"
-msgstr "Status des Winbooks-Einarbeitungsschritts"
+msgstr "Status des Einführungsschritts für Winbooks"
 
 #. module: account_winbooks_import
 #: model:ir.model.fields,field_description:account_winbooks_import.field_account_winbooks_import_wizard__suspense_code
@@ -216,7 +213,7 @@ msgid ""
 "account that you created in Odoo before the import."
 msgstr ""
 "Dies ist der Code des Kontos, in das Sie den Gegenwert der nicht "
-"ausgeglichenen Züge einfügen möchten. Dies kann ein Konto aus Ihren "
+"ausgeglichenen Bewegungen einfügen möchten. Dies kann ein Konto aus Ihren "
 "Winbooks-Daten sein oder ein Konto, das Sie vor dem Import in Odoo erstellt "
 "haben."
 
@@ -225,12 +222,12 @@ msgstr ""
 #: model:ir.ui.menu,name:account_winbooks_import.menu_action_import_winbooks
 #: model_terms:ir.ui.view,arch_db:account_winbooks_import.onboarding_winbooks_step
 msgid "Winbooks Import"
-msgstr "Winbooks Import"
+msgstr "Winbooks-Import"
 
 #. module: account_winbooks_import
 #: model:ir.model.fields,field_description:account_winbooks_import.field_account_move_line__winbooks_matching_number
 msgid "Winbooks Matching Number"
-msgstr "Winbooks-Übereinstimmungen"
+msgstr "Winbooks-Abgleichsnummer"
 
 #. module: account_winbooks_import
 #: model:ir.model.fields,help:account_winbooks_import.field_account_winbooks_import_wizard__only_open
@@ -246,7 +243,7 @@ msgstr ""
 #: code:addons/account_winbooks_import/wizard/import_wizard.py:0
 #, python-format
 msgid "You should install a Fiscal Localization first."
-msgstr "Sie sollten zuerst eine Steuerlokalisierung installieren."
+msgstr "Sie sollten zuerst eine steuerliche Lokalisierung installieren."
 
 #. module: account_winbooks_import
 #: code:addons/account_winbooks_import/wizard/import_wizard.py:0

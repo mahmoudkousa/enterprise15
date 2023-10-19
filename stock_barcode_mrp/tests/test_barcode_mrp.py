@@ -16,6 +16,11 @@ class TestPickingBarcodeClientAction(TestBarcodeClientAction):
             'type': 'product',
             'barcode': 'compo01',
         })
+        self.component02 = self.env['product.product'].create({
+            'name': 'Compo 02',
+            'type': 'product',
+            'barcode': 'compo02',
+        })
         self.component_lot = self.env['product.product'].create({
             'name': 'Compo Lot',
             'type': 'product',
@@ -23,6 +28,11 @@ class TestPickingBarcodeClientAction(TestBarcodeClientAction):
             'tracking': 'lot',
         })
 
+        self.simple_kit = self.env['product.product'].create({
+            'name': 'Simple Kit',
+            'type': 'product',
+            'barcode': 'simple_kit',
+        })
         self.kit_lot = self.env['product.product'].create({
             'name': 'Kit Lot',
             'type': 'product',
@@ -36,6 +46,15 @@ class TestPickingBarcodeClientAction(TestBarcodeClientAction):
             'bom_line_ids': [
                 (0, 0, {'product_id': self.component01.id, 'product_qty': 1.0}),
                 (0, 0, {'product_id': self.component_lot.id, 'product_qty': 1.0}),
+            ],
+        })
+        self.bom_simple_kit = self.env['mrp.bom'].create({
+            'product_tmpl_id': self.simple_kit.product_tmpl_id.id,
+            'product_qty': 1.0,
+            'type': 'phantom',
+            'bom_line_ids': [
+                (0, 0, {'product_id': self.component01.id, 'product_qty': 1.0}),
+                (0, 0, {'product_id': self.component02.id, 'product_qty': 1.0}),
             ],
         })
 
@@ -62,4 +81,6 @@ class TestPickingBarcodeClientAction(TestBarcodeClientAction):
         self.assertRecordValues(receipt_picking.move_lines.move_line_ids, [
             {'product_id': self.component01.id, 'qty_done': 3.0, 'lot_name': False, 'state': 'done'},
             {'product_id': self.component_lot.id, 'qty_done': 3.0, 'lot_name': 'super_lot', 'state': 'done'},
+            {'product_id': self.component01.id, 'qty_done': 1.0, 'lot_name': False, 'state': 'done'},
+            {'product_id': self.component02.id, 'qty_done': 1.0, 'lot_name': False, 'state': 'done'},
         ])

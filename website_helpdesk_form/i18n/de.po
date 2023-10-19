@@ -5,6 +5,8 @@
 # Translators:
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2021
+# Wil Odoo, 2023
+# Larissa Manderfeld, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:56+0000\n"
 "PO-Revision-Date: 2021-09-14 12:44+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Larissa Manderfeld, 2023\n"
+"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -28,7 +30,7 @@ msgid ""
 "label=\"Success\" title=\"Success\"/>"
 msgstr ""
 "<i class=\"fa fa-check-circle fa-1x text-success mr-2\" role=\"img\" aria-"
-"label=\"Success\" title=\"Erfolg\"/>"
+"label=\"Success\" title=\"Success\"/>"
 
 #. module: website_helpdesk_form
 #: model_terms:ir.ui.view,arch_db:website_helpdesk_form.ticket_submit_form
@@ -73,6 +75,13 @@ msgstr ""
 "                                            <span class=\"s_website_form_mark\"> *</span>"
 
 #. module: website_helpdesk_form
+#. openerp-web
+#: code:addons/website_helpdesk_form/static/src/js/website_helpdesk_form_editor.js:0
+#, python-format
+msgid "Description"
+msgstr "Beschreibung"
+
+#. module: website_helpdesk_form
 #: model:ir.model.fields,field_description:website_helpdesk_form.field_helpdesk_team__website_form_view_id
 msgid "Form"
 msgstr "Formular"
@@ -83,30 +92,46 @@ msgstr "Formular"
 #: model:ir.model,name:website_helpdesk_form.model_helpdesk_team
 #, python-format
 msgid "Helpdesk Team"
-msgstr "Helpdesk-Team"
+msgstr "Kundendienstteam"
+
+#. module: website_helpdesk_form
+#. openerp-web
+#: code:addons/website_helpdesk_form/static/src/js/website_helpdesk_form_editor.js:0
+#, python-format
+msgid "Subject"
+msgstr "Betreff"
 
 #. module: website_helpdesk_form
 #: model_terms:ir.ui.view,arch_db:website_helpdesk_form.ticket_submit_form
 msgid "Submit"
-msgstr "Absenden"
+msgstr "Einreichen"
 
 #. module: website_helpdesk_form
 #: model_terms:ir.ui.view,arch_db:website_helpdesk_form.ticket_submit_form
 msgid "Submit a Ticket"
-msgstr "Senden Sie ein Ticket"
+msgstr "Ein Ticket einreichen"
 
 #. module: website_helpdesk_form
 #: model_terms:ir.ui.view,arch_db:website_helpdesk_form.ticket_submited
 #: model_terms:website.page,arch_db:website_helpdesk_form.aboutus_page
 msgid "Thank you for submitting your issue, our team will get right on it!"
 msgstr ""
-"Vielen Dank für das Senden Ihres Problems. Unser Team wird es sofort "
+"Vielen Dank für die Einreichung Ihres Problems. Unser Team wird es sofort "
 "bearbeiten!"
 
 #. module: website_helpdesk_form
-#: model:ir.model.fields,field_description:website_helpdesk_form.field_helpdesk_team__feature_form_url
-msgid "URL to Submit Issue"
-msgstr "URL für die Problemübermittlung"
+#. openerp-web
+#: code:addons/website_helpdesk_form/static/src/js/website_helpdesk_form_editor.js:0
+#, python-format
+msgid "Your Email"
+msgstr "Ihre E-Mail"
+
+#. module: website_helpdesk_form
+#. openerp-web
+#: code:addons/website_helpdesk_form/static/src/js/website_helpdesk_form_editor.js:0
+#, python-format
+msgid "Your Name"
+msgstr "Ihr Name"
 
 #. module: website_helpdesk_form
 #: model_terms:ir.ui.view,arch_db:website_helpdesk_form.ticket_submited

@@ -6,6 +6,8 @@
 # Martin Trigaux, 2021
 # Marcos Rodrigues, 2021
 # Layna Nascimento, 2023
+# adrianojprado <adrianojprado@gmail.com>, 2023
+# Kevilyn Rosa, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 11:17+0000\n"
 "PO-Revision-Date: 2021-09-14 12:40+0000\n"
-"Last-Translator: Layna Nascimento, 2023\n"
+"Last-Translator: Kevilyn Rosa, 2023\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -371,7 +373,7 @@ msgstr ""
 #. module: hr_contract_salary
 #: model:ir.model,name:hr_contract_salary.model_hr_contract_history
 msgid "Contract history"
-msgstr ""
+msgstr "Histórico do contrato"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields.selection,name:hr_contract_salary.selection__hr_contract_salary_advantage__activity_creation__countersigned
@@ -547,7 +549,7 @@ msgstr "Documento"
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_sign_document_wizard__sign_template_ids
 msgid "Documents to sign"
-msgstr ""
+msgstr "Documentos a serem assinados"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,help:hr_contract_salary.field_hr_contract_sign_document_wizard__sign_template_ids
@@ -556,6 +558,8 @@ msgid ""
 "        Documents with 1 responsible will only have to be signed by the employee while documents with 2 different responsible will have to be signed by both the employee and the responsible.\n"
 "        "
 msgstr ""
+"Documentos a serem assinados. Somente documentos com 1 ou 2 responsáveis diferentes podem ser selecionados.\n"
+"Os documentos com 1 responsável só precisarão ser assinados pelo funcionário, enquanto os documentos com 2 responsáveis diferentes precisarão ser assinados pelo funcionário e pelo responsável."
 
 #. module: hr_contract_salary
 #: model:ir.model.fields.selection,name:hr_contract_salary.selection__hr_contract_salary_advantage__display_type__dropdown
@@ -671,7 +675,7 @@ msgstr "Dobrado"
 #. module: hr_contract_salary
 #: model:hr.contract.salary.personal.info,name:hr_contract_salary.hr_contract_salary_personal_info_gender
 msgid "Gender"
-msgstr "Sexo"
+msgstr "Gênero"
 
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_applicant_view_form
@@ -1066,7 +1070,7 @@ msgstr ""
 #: code:addons/hr_contract_salary/controllers/main.py:0
 #, python-format
 msgid "Oops"
-msgstr ""
+msgstr "Oops"
 
 #. module: hr_contract_salary
 #: model:sign.template,redirect_url_text:hr_contract_salary.sign_template_cdi_developer
@@ -1356,7 +1360,7 @@ msgstr ""
 #. module: hr_contract_salary
 #: model:ir.model,name:hr_contract_salary.model_hr_contract_sign_document_wizard
 msgid "Sign document in contract"
-msgstr ""
+msgstr "Assinar documento no contrato"
 
 #. module: hr_contract_salary
 #: code:addons/hr_contract_salary/controllers/main.py:0
@@ -1365,7 +1369,7 @@ msgstr ""
 #: code:addons/hr_contract_salary/controllers/main.py:0
 #, python-format
 msgid "Signature Request - %s"
-msgstr ""
+msgstr "Solicitação de assinatura- %s"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields.selection,name:hr_contract_salary.selection__hr_contract_salary_advantage__display_type__slider
@@ -1480,6 +1484,8 @@ msgid ""
 "The type of activity that will be created automatically on the contract if "
 "this advantage is chosen by the employee."
 msgstr ""
+"O tipo de atividade que será criada automaticamente no contrato caso esta "
+"vantagem seja escolhida pelo empregado."
 
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.salary_package_advantages

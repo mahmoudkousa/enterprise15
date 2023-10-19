@@ -9,6 +9,7 @@
 # Батмөнх Ганбат <batmunkh2522@gmail.com>, 2021
 # Nomin Erdenchimeg <nomin.bmde@gmail.com>, 2021
 # Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2022
+# Torbat Jargalsaikhan, 2023
 # 
 msgid ""
 msgstr ""
@@ -16,8 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:43+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Baskhuu Lodoikhuu <baskhuujacara@gmail.com>, 2022\n"
-"Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
+"Last-Translator: Torbat Jargalsaikhan, 2023\n"
+"Language-Team: Mongolian (https://app.transifex.com/odoo/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -61,7 +62,7 @@ msgstr "Дансны дугаар"
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_journal__account_online_account_id
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_link__account_online_account_ids
 msgid "Account Online Account"
-msgstr ""
+msgstr "Онлайн дансны бүртгэл"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_bank_statement_import_journal_creation__account_online_link_id
@@ -69,7 +70,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_journal__account_online_link_id
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_account__account_online_link_id
 msgid "Account Online Link"
-msgstr ""
+msgstr "Онлайн дансны холбоос"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_link_journal_line__account_online_wizard_id

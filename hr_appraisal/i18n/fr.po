@@ -1407,7 +1407,7 @@ msgstr "En cours"
 #. module: hr_appraisal
 #: model:ir.model,name:hr_appraisal.model_hr_employee_public
 msgid "Public Employee"
-msgstr "Employé public"
+msgstr "Fonctionnaire"
 
 #. module: hr_appraisal
 #: model:ir.model.fields,field_description:hr_appraisal.field_request_appraisal__recipient_ids

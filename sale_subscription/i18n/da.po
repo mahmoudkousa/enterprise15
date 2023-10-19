@@ -6,12 +6,12 @@
 # Hans Henrik Gabelgaard <hhg@gabelgaard.org>, 2021
 # Kenneth Hansen <kenneth@vkdata.dk>, 2021
 # Pernille Kristensen <pernillekristensen1994@gmail.com>, 2021
-# Sanne Kristensen <sanne@vkdata.dk>, 2021
 # Ejner Sønniksen <ejner@vkdata.dk>, 2021
 # Mads Søndergaard, 2021
 # Martin Trigaux, 2021
 # Mads Søndergaard, 2022
-# lhmflexerp <lhm@flexerp.dk>, 2022
+# Sanne Kristensen <sanne@vkdata.dk>, 2023
+# lhmflexerp <lhm@flexerp.dk>, 2023
 # 
 msgid ""
 msgstr ""
@@ -19,8 +19,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:42+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: lhmflexerp <lhm@flexerp.dk>, 2022\n"
-"Language-Team: Danish (https://www.transifex.com/odoo/teams/41243/da/)\n"
+"Last-Translator: lhmflexerp <lhm@flexerp.dk>, 2023\n"
+"Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2042,12 +2042,12 @@ msgstr "Overskredet aktiviteter"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
 msgid "Latest Rating: Dissatisfied"
-msgstr ""
+msgstr "Seneste bedømmelse: Utilfreds"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
 msgid "Latest Rating: Okay"
-msgstr ""
+msgstr "Seneste bedømmelse: OK"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
@@ -2149,7 +2149,7 @@ msgstr "Vedhæftning"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "Manage Payment Method"
-msgstr ""
+msgstr "Administrér betalingsmetode"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
@@ -3670,6 +3670,13 @@ msgid "This upsell order has been created from the subscription "
 msgstr "Denne mersalgs ordre blev oprettet fra abonnementet"
 
 #. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid ""
+"This will trigger the action on all linked subscriptions, regardless of "
+"possible timed conditions. Are you sure you want to proceed?"
+msgstr ""
+
+#. module: sale_subscription
 #: model:uom.category,name:sale_subscription.uom_categ_time
 msgid "Time"
 msgstr "Tid"
@@ -4036,6 +4043,14 @@ msgstr "Årlig gentagende indtægt"
 #: model:uom.uom,name:sale_subscription.subscription_uom_year
 msgid "Years"
 msgstr "År"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/res_partner.py:0
+#, python-format
+msgid ""
+"You can't archive the partner as it is used in the following recurring "
+"orders: %s"
+msgstr ""
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/models/sale_order.py:0

@@ -313,7 +313,7 @@
                 <table style="width:600px;margin:5px auto;">
                     <tbody>
                         <tr><td>
-                            <a href="/"><img src="/web/binary/company_logo" style="vertical-align:baseline;max-width:100px;" /></a>
+                            <a href="/"><img t-attf-src="/logo.png?company={{ object.company_id.id }}" style="vertical-align:baseline;max-width:100px;" /></a>
                         </td><td style="text-align:right;vertical-align:middle;">
                                 Satisfaction Survey
                         </td></tr>
@@ -389,7 +389,7 @@
                 <table style="width:600px;margin:5px auto;">
                     <tbody>
                         <tr><td>
-                            <a href="/"><img src="/web/binary/company_logo" style="vertical-align:baseline;max-width:100px;" /></a>
+                            <a href="/"><img t-attf-src="/logo.png?company={{ object.company_id.id }}" style="vertical-align:baseline;max-width:100px;" /></a>
                         </td><td style="text-align:right;vertical-align:middle;">
                                 Subscription Feedback
                         </td></tr>
@@ -423,7 +423,7 @@
                 <table style="width:600px;margin:5px auto;">
                     <tbody>
                         <tr><td>
-                            <a href="/"><img src="/web/binary/company_logo" style="vertical-align:baseline;max-width:100px;" /></a>
+                            <a href="/"><img t-attf-src="/logo.png?company={{ object.company_id.id }}" style="vertical-align:baseline;max-width:100px;" /></a>
                         </td><td style="text-align:right;vertical-align:middle;">
                                 Subscription Invoice
                         </td></tr>

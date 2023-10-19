@@ -4,8 +4,8 @@
 # 
 # Translators:
 # Friederike Fasterling-Nesselbosch, 2022
-# Martin Trigaux, 2023
 # Larissa Manderfeld, 2023
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 09:01+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Larissa Manderfeld, 2023\n"
+"Last-Translator: Martin Trigaux, 2023\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr ""
 #. module: social_linkedin
 #: model_terms:ir.ui.view,arch_db:social_linkedin.linkedin_preview
 msgid "<b>LinkedIn Post</b>"
-msgstr "<b>LinkedIn-Post</b>"
+msgstr "<b>LinkedIn-Beitrag</b>"
 
 #. module: social_linkedin
 #: model_terms:ir.ui.view,arch_db:social_linkedin.social_stream_post_view_kanban
@@ -44,12 +44,12 @@ msgstr "Tatsächliche LinkedIn-ID des Beitrags"
 #. module: social_linkedin
 #: model:ir.model.fields,field_description:social_linkedin.field_res_config_settings__linkedin_app_id
 msgid "App ID"
-msgstr "App ID"
+msgstr "App-ID"
 
 #. module: social_linkedin
 #: model:ir.model.fields,field_description:social_linkedin.field_res_config_settings__linkedin_client_secret
 msgid "App Secret"
-msgstr "App Secret"
+msgstr "App-Geheimnis"
 
 #. module: social_linkedin
 #. openerp-web
@@ -57,7 +57,7 @@ msgstr "App Secret"
 #: model_terms:ir.ui.view,arch_db:social_linkedin.social_stream_post_view_kanban
 #, python-format
 msgid "Author Image"
-msgstr "Author Image"
+msgstr "Bild des Autors"
 
 #. module: social_linkedin
 #: model:ir.model.fields,help:social_linkedin.field_res_config_settings__linkedin_use_own_account
@@ -71,7 +71,7 @@ msgstr ""
 #. module: social_linkedin
 #: model:ir.model,name:social_linkedin.model_res_config_settings
 msgid "Config Settings"
-msgstr "Konfiguration "
+msgstr "Konfigurationseinstellungen"
 
 #. module: social_linkedin
 #: model:ir.model.fields,field_description:social_linkedin.field_social_post__display_linkedin_preview
@@ -100,13 +100,13 @@ msgstr "LinkedIn Account Konfiguration"
 #. module: social_linkedin
 #: model:ir.model.fields,field_description:social_linkedin.field_social_account__linkedin_account_id
 msgid "LinkedIn Account ID"
-msgstr "LinkedIn Account ID"
+msgstr "LinkedIn-Konto-ID"
 
 #. module: social_linkedin
 #: model:ir.model.fields,field_description:social_linkedin.field_social_account__linkedin_account_urn
 #: model:ir.model.fields,help:social_linkedin.field_social_account__linkedin_account_urn
 msgid "LinkedIn Account URN"
-msgstr "LinkedIn-Account URN"
+msgstr "LinkedIn-Konto-URN"
 
 #. module: social_linkedin
 #. openerp-web
@@ -119,23 +119,23 @@ msgstr "LinkedIn-Kommentare"
 #. module: social_linkedin
 #: model:ir.model.fields,field_description:social_linkedin.field_social_stream_post__linkedin_likes_count
 msgid "LinkedIn Likes"
-msgstr "LinkedIn Likes"
+msgstr "LinkedIn-Likes"
 
 #. module: social_linkedin
 #: model:ir.model.fields,field_description:social_linkedin.field_social_post__linkedin_preview
 #: model:ir.model.fields,field_description:social_linkedin.field_social_post_template__linkedin_preview
 msgid "LinkedIn Preview"
-msgstr "LinkedIn -Vorschau"
+msgstr "LinkedIn-Vorschau"
 
 #. module: social_linkedin
 #: model:ir.model.fields,field_description:social_linkedin.field_social_stream_post__linkedin_author_vanity_name
 msgid "LinkedIn Vanity Name"
-msgstr "LinkedIn Vanity-Name"
+msgstr "LinkedIn-Vanity-Name"
 
 #. module: social_linkedin
 #: model:ir.model.fields,field_description:social_linkedin.field_social_account__linkedin_access_token
 msgid "LinkedIn access token"
-msgstr "LinkedIn Zugangs-Token"
+msgstr "LinkedIn-Zugriffstoken"
 
 #. module: social_linkedin
 #: model:ir.model.fields,field_description:social_linkedin.field_social_stream_post__linkedin_author_id
@@ -156,7 +156,7 @@ msgstr "URL des LinkedIn-Autorenbild"
 #: code:addons/social_linkedin/controllers/main.py:0
 #, python-format
 msgid "LinkedIn did not provide a valid access token."
-msgstr "LinkedIn hat kein gültiges Zugangstoken zur Verfügung gestellt."
+msgstr "LinkedIn hat kein gültiges Zugriffstoken zur Verfügung gestellt."
 
 #. module: social_linkedin
 #: model:ir.model.fields,field_description:social_linkedin.field_social_stream_post__linkedin_post_urn
@@ -166,7 +166,7 @@ msgstr "URN des LinkedIn-Beitrags"
 #. module: social_linkedin
 #: model:ir.model.fields,field_description:social_linkedin.field_social_media__media_type
 msgid "Media Type"
-msgstr "Medien Typ"
+msgstr "Medientyp"
 
 #. module: social_linkedin
 #: model:ir.model.fields,help:social_linkedin.field_social_stream_post__linkedin_comments_count
@@ -191,37 +191,37 @@ msgstr "Beiträge"
 #. module: social_linkedin
 #: model:ir.model,name:social_linkedin.model_social_account
 msgid "Social Account"
-msgstr "Soziales Konto"
+msgstr "Social-Media-Konto"
 
 #. module: social_linkedin
 #: model:ir.model,name:social_linkedin.model_social_live_post
 msgid "Social Live Post"
-msgstr "Sozialer Live-Post"
+msgstr "Live-Beitrag in Social Media"
 
 #. module: social_linkedin
 #: model:ir.model,name:social_linkedin.model_social_media
 msgid "Social Media"
-msgstr "Soziale Medien"
+msgstr "Social Media"
 
 #. module: social_linkedin
 #: model:ir.model,name:social_linkedin.model_social_post
 msgid "Social Post"
-msgstr "Soziales Netzwerk Beitrag"
+msgstr "Social-Media-Beitrag"
 
 #. module: social_linkedin
 #: model:ir.model,name:social_linkedin.model_social_post_template
 msgid "Social Post Template"
-msgstr "Vorlage für soziale Beiträge"
+msgstr "Vorlage für Social-Media-Beiträge"
 
 #. module: social_linkedin
 #: model:ir.model,name:social_linkedin.model_social_stream
 msgid "Social Stream"
-msgstr "News aus Sozialen Netzwerken"
+msgstr "Social-Media-Stream"
 
 #. module: social_linkedin
 #: model:ir.model,name:social_linkedin.model_social_stream_post
 msgid "Social Stream Post"
-msgstr "Social Stream Post"
+msgstr "Beitrag aus Social-Media-Stream"
 
 #. module: social_linkedin
 #: model:ir.model.fields,help:social_linkedin.field_social_account__linkedin_access_token
@@ -261,7 +261,7 @@ msgstr "Nicht autorisiert. Bitte wenden Sie sich an Ihren Administrator."
 #. module: social_linkedin
 #: model:ir.model.fields,field_description:social_linkedin.field_res_config_settings__linkedin_use_own_account
 msgid "Use your own LinkedIn Account"
-msgstr "Benutzen Sie Ihren eigenen LinkedIn-Account"
+msgstr "Benutzen Sie Ihr eigenes LinkedIn-Konto"
 
 #. module: social_linkedin
 #: model_terms:ir.ui.view,arch_db:social_linkedin.res_config_settings_view_form
@@ -276,7 +276,7 @@ msgid ""
 "specific media ('facebook', 'twitter', ...)."
 msgstr ""
 "Wird verwendet, um Vergleiche anzustellen, wenn wir einige Funktionen auf "
-"ein bestimmtes Medium beschränken müssen (\"Facebook\", \"Twitter\", ...)."
+"ein bestimmtes Medium beschränken müssen („Facebook“, „Twitter“ ...)."
 
 #. module: social_linkedin
 #: model:ir.model.fields,help:social_linkedin.field_social_stream_post__linkedin_author_vanity_name
@@ -291,7 +291,7 @@ msgid ""
 "(error: Failed during upload registering)."
 msgstr ""
 "Wir konnten Ihr Bild nicht hochladen. Versuchen Sie, es zu verkleinern und "
-"erneut hochzuladen (Fehler: Failed during upload registering)."
+"erneut hochzuladen (Fehler: Fehlgeschlagen während Upload-Registrierung)."
 
 #. module: social_linkedin
 #: code:addons/social_linkedin/models/social_live_post.py:0
@@ -300,19 +300,19 @@ msgid ""
 "We could not upload your image, try reducing its size and posting it again."
 msgstr ""
 "Wir konnten Ihr Bild nicht hochladen. Versuchen Sie, es zu verkleinern und "
-"erneut hochzuladen."
+"erneut zu posten."
 
 #. module: social_linkedin
 #: code:addons/social_linkedin/models/social_stream.py:0
 #, python-format
 msgid "Wrong stream type for \"%s\""
-msgstr "Falscher Datenstromtyp für \"%s\""
+msgstr "Falscher Streamtyp für „%s“"
 
 #. module: social_linkedin
 #: code:addons/social_linkedin/models/social_media.py:0
 #, python-format
 msgid "You don't have an active subscription. Please buy one here: %s"
-msgstr "Sie haben kein aktives Abo. Bitte erwerben sie eines hier:%s"
+msgstr "Sie haben kein aktives Abo. Bitte erwerben sie eins hier: %s"
 
 #. module: social_linkedin
 #. openerp-web

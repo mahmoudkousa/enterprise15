@@ -4,8 +4,8 @@
 # 
 # Translators:
 # Martin Trigaux, 2021
-# Sergio Zanchetta <primes2h@gmail.com>, 2022
 # Friederike Fasterling-Nesselbosch, 2022
+# Sergio Zanchetta <primes2h@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,13 +13,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2022\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. module: sale_subscription_dashboard
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
@@ -103,7 +103,7 @@ msgstr "Categorie"
 #: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
 #, python-format
 msgid "Churned MRR"
-msgstr ""
+msgstr "RMR con disdetta"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -235,6 +235,10 @@ msgid ""
 "the average MRR of a subscription by the churn rate (e.g. if your average "
 "MRR is $ 100 and your churn rate is 5%, the LTV will be $ 100/5% = $ 2,000)"
 msgstr ""
+"Ricavo atteso per la durata di un abbonamento medio; ottenuto dividendo il "
+"RMR medio di un abbonamento per il tasso di disdette (es. se il RMR medio è "
+"100,00 € e il tasso di disdette è il 5%, LTV sarà 100,00 € / 5% = 2.000,00 "
+"€)"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -391,6 +395,8 @@ msgid ""
 "MRR for short; total subscription revenue per month (e.g. for an annual "
 "subscription of $ 1,200, the MRR is $ 100)"
 msgstr ""
+"RMR in breve; ricavi totali abbonamenti per mese (es. per un abbonamento "
+"annuale di 1.200,00 €, il RMR è di 100,00 €)"
 
 #. module: sale_subscription_dashboard
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
@@ -668,6 +674,10 @@ msgid ""
 "                    (e.g. two upsells occuring on the same day, or a subscription getting closed and re-opened on the\n"
 "                    same day)."
 msgstr ""
+"Le modifiche agli abbonamenti aggregano tutte le variazioni che si sono verificate nel\n"
+"                    periodo selezionato. Nota: le modifiche avvenute nello stesso giorno possono essere raggruppate assieme\n"
+"                    (es. due incrementi vendite capitati nello stesso giorno, oppure un abbonamento chiuso e riaperto nella\n"
+"                    medesima giornata)."
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -824,7 +834,7 @@ msgstr "chiusure di abbonamenti, le tue Entrate mensili ricorrenti saranno"
 #: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
 #, python-format
 msgid "churn, your subscription base will be"
-msgstr ""
+msgstr "di disdette, la base di abbonamenti sarà"
 
 #. module: sale_subscription_dashboard
 #. openerp-web

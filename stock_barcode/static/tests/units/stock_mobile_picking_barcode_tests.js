@@ -3,7 +3,7 @@ odoo.define('stock_mobile_barcode.stock_picking_barcode_tests', function (requir
 
 const { mock } = require('web.test_utils');
 const { createWebClient, doAction } = require('@web/../tests/webclient/helpers');
-const BarcodeScanner = require('@web_enterprise/webclient/barcode/barcode_scanner');
+const BarcodeScanner = require('@web_enterprise/webclient/barcode/barcode_scanner')[Symbol.for("default")];
 
 QUnit.module('stock_mobile_barcode', {}, function () {
 

@@ -5,9 +5,10 @@
 # Translators:
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2021
 # Braulio D. López Vázquez <bdl@odoo.com>, 2021
-# Lucia Pacheco, 2021
 # Martin Trigaux, 2022
 # Iran Villalobos López, 2023
+# Lucia Pacheco, 2023
+# Fernanda Alvarez, 2023
 # 
 msgid ""
 msgstr ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 08:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Iran Villalobos López, 2023\n"
+"Last-Translator: Fernanda Alvarez, 2023\n"
 "Language-Team: Spanish (Mexico) (https://app.transifex.com/odoo/teams/41243/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -310,7 +311,7 @@ msgstr ""
 "                <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
 "                    <div>\n"
 "                        Hola <t t-out=\"object.name or ''\">Abigail Peterson</t>,<br/><br/>\n"
-"                        Este es un recordatorio para aprovar las hojas de horas de su equipo para el siguiente periodo: <t t-out=\"ctx.get('date_start') or ''\">05/05/2021</t> - <t t-out=\"ctx.get('date_stop') or ''\">06/05/2021</t>.<br/>\n"
+"                        Este es un recordatorio para aprobar las hojas de horas de su equipo para el siguiente periodo: <t t-out=\"ctx.get('date_start') or ''\">05/05/2021</t> - <t t-out=\"ctx.get('date_stop') or ''\">06/05/2021</t>.<br/>\n"
 "                        <div t-if=\"ctx.get('action_url')\" style=\"margin: 16px 0px 16px 0px;\">\n"
 "                            <a t-att-href=\"ctx.get('action_url')\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size: 13px;\">Validar las hojas de horas</a>\n"
 "                        </div>\n"
@@ -352,7 +353,7 @@ msgstr ""
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Con tecnología de <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=mail\" style=\"color: #875A7B;\">Odoo</a>\n"
+"        Con la tecnología de <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=mail\" style=\"color: #875A7B;\">Odoo</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -854,12 +855,12 @@ msgstr "Cantidad"
 #. module: timesheet_grid
 #: model:mail.template,subject:timesheet_grid.mail_template_timesheet_reminder_user
 msgid "Reminder to log your timesheets"
-msgstr " Recordatorio de que debe registrar sus hojas de horas"
+msgstr "Recuerde que debe registrar sus hojas de horas"
 
 #. module: timesheet_grid
 #: model:mail.template,subject:timesheet_grid.mail_template_timesheet_reminder_manager
 msgid "Reminder to validate your team's timesheets"
-msgstr "Recordatorio para validar las hojas de horas de su equipo"
+msgstr "Recuerde que debe validar las hojas de horas de su equipo"
 
 #. module: timesheet_grid
 #: model:ir.actions.server,name:timesheet_grid.invalidate_timesheet_action
@@ -967,7 +968,7 @@ msgstr "Iniciar temporizador"
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.project_task_view_form
 #, python-format
 msgid "Stop"
-msgstr "Parar"
+msgstr "Detener"
 
 #. module: timesheet_grid
 #. openerp-web
@@ -1152,7 +1153,7 @@ msgid ""
 "Track your working hours by projects every day and invoice this time to your"
 " customers."
 msgstr ""
-"Lleve el seguimiento de las horas que dedica por proyecto todos los días y "
+"Lleve el seguimiento de las horas que utiliza por proyecto todos los días y "
 "facture este tiempo a sus clientes."
 
 #. module: timesheet_grid
@@ -1182,8 +1183,8 @@ msgstr "Temporizador del usuario"
 #: model:ir.model.fields,help:timesheet_grid.field_hr_employee_public__timesheet_manager_id
 msgid "User responsible of timesheet validation. Should be Timesheet Manager."
 msgstr ""
-"Usuario responsable de la validación de la hoja de horas. Debería ser un "
-"gerente de partes de horas."
+"Usuario responsable de la validación de las hojas de horas. Debería ser un "
+"gerente de hojas de horas."
 
 #. module: timesheet_grid
 #: model:ir.model,name:timesheet_grid.model_res_users

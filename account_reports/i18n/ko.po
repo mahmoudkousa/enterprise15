@@ -375,11 +375,10 @@ msgstr "<span>일부 협력사 정보에 VAT 번호가 없습니다. </span>"
 #: model_terms:ir.ui.view,arch_db:account_reports.template_tax_report
 msgid ""
 "<span>This company is part of a tax unit. You're currently not viewing the "
-"whole unit; to change that, tick the \"aggregate\" option of \"tax unit\" "
-"menu.</span>"
+"whole unit. To change that, use the Tax Unit filter.</span>"
 msgstr ""
-"<span>해당 회사는 세무 관련 일부 단위 항목입니다. 현재 화면에서는 전체 단위는 나타나지 않습니다; 변경하시려면 \"세금 단위\" "
-"메뉴의 \"집계\" 옵션을 선택하십시오.</span>"
+"<span>해당 회사는 세무 관련 일부 단위 항목입니다. 현재 화면에서는 전체 단위는 나타나지 않습니다. 변경하시려면 단위사업장 필터를 "
+"사용하십시오.</span>"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.template_multicurrency_report

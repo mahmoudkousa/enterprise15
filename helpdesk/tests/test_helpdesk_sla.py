@@ -1,11 +1,11 @@
-# -*- coding: utf-8 -*-
+    # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 from contextlib import contextmanager
 from unittest.mock import patch
 from dateutil.relativedelta import relativedelta
 from datetime import datetime
 
-from odoo import fields
+from odoo import fields, Command
 from odoo.tests.common import TransactionCase
 
 NOW = datetime(2018, 10, 10, 9, 18)
@@ -258,6 +258,12 @@ class HelpdeskSLA(TransactionCase):
         self._utils_set_create_date(ticket, fields.Datetime.now(), ticket)
         self.assertEqual(ticket.sla_deadline, fields.Datetime.now() + relativedelta(days=1, hour=11), "Day0:20h + 3h = Day1:8h + 3h = Day1:11h")
 
+        self.sla.exclude_stage_ids = [Command.link(self.stage_wait.id)]  # same test as above, but the sla has excluded stages
+        ticket = self.create_ticket(user_id=self.env.user.id)
+        self._utils_set_create_date(ticket, fields.Datetime.now(), ticket)
+        self.assertEqual(ticket.sla_deadline, fields.Datetime.now() + relativedelta(days=1, hour=11), "Day0:20h + 3h = Day1:8h + 3h = Day1:11h")
+        self.sla.exclude_stage_ids = [Command.clear()]
+
         self.sla.time = 11
         ticket = self.create_ticket(user_id=self.env.user.id)
         self._utils_set_create_date(ticket, fields.Datetime.now(), ticket)
@@ -279,4 +285,41 @@ class HelpdeskSLA(TransactionCase):
         self.sla.time = 11
         ticket = self.create_ticket(user_id=self.env.user.id)
         self._utils_set_create_date(ticket, fields.Datetime.now(), ticket)
-        self.assertEqual(ticket.sla_deadline, fields.Datetime.now() + relativedelta(days=1, hour=11), "Day0:8h + 11h = Day0:8h + 1day:3h = Day1:8h + 3h = Day1:11h")
+        self.assertEqual(ticket.sla_deadline, fields.Datetime.now() + relativedelta(days=1, hour=11), "Day 0, 8h + 1d, 3h = Day 1, 8h + 3h = Day 1, 11h")
+
+    def test_compute_upcoming_sla_fail_tickets(self):
+        """
+        The sla_deadline are hardcoded for the tickets in this test, for it is easier than to meddle with the create_date of each tickets in order to trigger the correct
+        sla_deadline with the sla associated.
+        """
+        team = self.env['helpdesk.team'].with_user(self.helpdesk_manager).create({
+            'name': 'team Divine orb',
+            'use_sla': True
+        })
+        ticket = self.env['helpdesk.ticket'].create({
+            'name': 'test sla ticket',
+            'team_id': team.id,
+        })
+        ticket.sla_deadline = fields.Datetime.now() - relativedelta(days=1)
+        team._compute_upcoming_sla_fail_tickets()
+        self.assertEqual(1, team.upcoming_sla_fail_tickets, "The ticket 1 should be computed for its deadline precede the current date + 2 (hours 00h00:00)")
+        self.env['helpdesk.ticket'].create({
+            'name': 'test sla ticket 2',
+            'team_id': team.id,
+        })
+        team._compute_upcoming_sla_fail_tickets()
+        self.assertEqual(1, team.upcoming_sla_fail_tickets, "The ticket 2 should not be computed for its deadline is not set")
+        ticket_3 = self.env['helpdesk.ticket'].create({
+            'name': 'test sla ticket 3',
+            'team_id': team.id,
+        })
+        ticket_3.sla_deadline = fields.Datetime.now() + relativedelta(days=1)
+        team._compute_upcoming_sla_fail_tickets()
+        self.assertEqual(2, team.upcoming_sla_fail_tickets, "The ticket 3 should be computed for its deadline (even though its one day in the future) precede the current date + 2 (hours 00h00:00)")
+        ticket_4 = self.env['helpdesk.ticket'].create({
+            'name': 'test sla ticket 4',
+            'team_id': team.id,
+        })
+        ticket_4.sla_deadline = fields.Datetime.now() + relativedelta(days=2)
+        team._compute_upcoming_sla_fail_tickets()
+        self.assertEqual(2, team.upcoming_sla_fail_tickets, "The ticket 4 should not be computed for its deadline follows the current date + 2 (hours 00h00:00)")

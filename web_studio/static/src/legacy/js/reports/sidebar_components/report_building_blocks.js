@@ -506,6 +506,7 @@ var BlockField = AbstractFieldBlock.extend({
         var $field = $('<span/>').attr('t-field', values.related);
         if (values.type === 'binary') {
             $field.attr('t-options-widget', '"image"');
+            $field.attr('t-options-qweb_img_raw_data', '1');
         }
         var fieldHTML = $field.prop('outerHTML');
 
@@ -527,6 +528,7 @@ var InlineField = AbstractFieldBlock.extend({
         var $field = $('<span/>').attr('t-field', values.related);
         if (values.type === 'binary') {
             $field.attr('t-options-widget', '"image"');
+            $field.attr('t-options-qweb_img_raw_data', '1');
         }
         var fieldHTML = $field.prop('outerHTML');
         if (this.node.tag === 'td' || this.node.tag === 'th') {
@@ -563,6 +565,7 @@ var TableColumnField = AbstractFieldBlock.extend({
         var $field = $('<span/>').attr('t-field', values.related);
         if (values.type === 'binary') {
             $field.attr('t-options-widget', '"image"');
+            $field.attr('t-options-qweb_img_raw_data', '1');
         }
         var fieldHTML = $field.prop('outerHTML');
         if (this.node.tag === 'td' || this.node.tag === 'th') {
@@ -605,6 +608,7 @@ var TableCellField = AbstractFieldBlock.extend({
         var $field = $('<span/>').attr('t-field', values.related);
         if (values.type === 'binary') {
             $field.attr('t-options-widget', '"image"');
+            $field.attr('t-options-qweb_img_raw_data', '1');
         }
         var fieldHTML = $field.prop('outerHTML');
         if (this.node.tag === 'td' || this.node.tag === 'th') {
@@ -642,6 +646,7 @@ var LabelledField = AbstractFieldBlock.extend({
         var $field = $('<span/>').attr('t-field', values.related);
         if (values.type === 'binary') {
             $field.attr('t-options-widget', '"image"');
+            $field.attr('t-options-qweb_img_raw_data', '1');
         }
         var fieldHTML = $field.prop('outerHTML');
 

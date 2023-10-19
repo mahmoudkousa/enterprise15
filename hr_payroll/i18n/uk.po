@@ -6,6 +6,7 @@
 # Martin Trigaux, 2021
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2022
 # Bohdan Lisnenko, 2022
+# Wil Odoo, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-19 10:26+0000\n"
 "PO-Revision-Date: 2021-09-14 12:40+0000\n"
-"Last-Translator: Bohdan Lisnenko, 2022\n"
-"Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
+"Last-Translator: Wil Odoo, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/odoo/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -3482,6 +3483,16 @@ msgstr "Неправильна умова діапазону визначена 
 #, python-format
 msgid "You can't validate a cancelled payslip."
 msgstr "Ви не можете підтвердити скасований розрахунковий лист."
+
+#. module: hr_payroll
+#: code:addons/hr_payroll/models/hr_payslip_input_type.py:0
+#, python-format
+msgid ""
+"You cannot delete %s as it is used in another module but you can archive it "
+"instead."
+msgstr ""
+"Ви не можете видалити %s оскільки це використовується в іншому модулі, "
+"натомість ви можете архівувати."
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payslip_run.py:0

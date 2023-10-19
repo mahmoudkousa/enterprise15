@@ -37,7 +37,11 @@ class BrowsableObject(object):
 
 class ResultRules(BrowsableObject):
     def __getattr__(self, attr):
-        return attr in self.dict and self.dict.__getitem__(attr) or {'total': 0, 'amount': 0, 'quantity': 0}
+        value = None
+        if attr in self.dict:
+            value = self.dict.__getitem__(attr)
+        valueChecker.check(value)
+        return value or {'total': 0, 'amount': 0, 'quantity': 0}
 
     def __getitem__(self, key):
         return self.dict[key] if key in self.dict else {'total': 0, 'amount': 0, 'quantity': 0}

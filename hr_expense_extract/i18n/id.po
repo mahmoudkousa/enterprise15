@@ -53,7 +53,7 @@ msgstr "Kolom Metode Pembayaran Tersedia"
 #. module: hr_expense_extract
 #: model_terms:ir.ui.view,arch_db:hr_expense_extract.hr_expense_extract_view_form
 msgid "Buy credits"
-msgstr ""
+msgstr "Beli kredit"
 
 #. module: hr_expense_extract
 #: model:ir.model.fields,field_description:hr_expense_extract.field_hr_expense__extract_can_show_resend_button
@@ -444,7 +444,7 @@ msgstr ""
 #. module: hr_expense_extract
 #: model_terms:ir.ui.view,arch_db:hr_expense_extract.res_config_settings_view_form
 msgid "View My Services"
-msgstr ""
+msgstr "Lihat Layanan Saya"
 
 #. module: hr_expense_extract
 #: model:ir.model.fields.selection,name:hr_expense_extract.selection__hr_expense__extract_state__waiting_extraction
@@ -462,6 +462,7 @@ msgstr "Menunggu validasi"
 #, python-format
 msgid "Wasting time recording your receipts? Let’s try a better way."
 msgstr ""
+"Menghabiskan waktu mencatat pengeluaran? Ayo coba cara yang lebih baik."
 
 #. module: hr_expense_extract
 #: model:ir.model.fields,field_description:hr_expense_extract.field_hr_expense_extract_words__word_page

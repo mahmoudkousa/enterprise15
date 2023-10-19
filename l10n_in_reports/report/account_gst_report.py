@@ -121,6 +121,10 @@ class L10nInReportAccount(models.AbstractModel):
                 gst_return_type,
                 gst_section,
                 fields_values)
+            if gst_section == 'hsn':
+                # the total quantity of products has to be computed separately because "fields_values"
+                # only contains account move lines that are tax lines which have a quantity of 1
+                self._update_product_quantity(options, filter_domain + model_domain.get('domain'), lines)
         else:
             for gst_section, gst_section_name in self.get_gst_section(gst_return_type).items():
                 total_cgst = total_sgst = total_igst = total_cess = 0
@@ -481,3 +485,26 @@ class L10nInReportAccount(models.AbstractModel):
             else:
                 lines.append(u'"%s"' % line.get('name'))
         return u'\n'.join(lines).encode('utf-8') + b'\n'
+
+    def _update_product_quantity(self, options, domain, lines):
+        quantities = {}
+        aml_domain = domain + [
+            ('tax_line_id', '=', False),
+            ('product_id.product_tmpl_id.l10n_in_hsn_code', '!=', False),
+        ]
+        tables, where_clause, where_params = self._query_get(options, aml_domain)
+        self._cr.execute('''
+            SELECT
+                pt.l10n_in_hsn_code AS hsn_code,
+                SUM(account_move_line.quantity * (CASE WHEN am.move_type in ('in_refund','out_refund') THEN -1 ELSE 1 END)) AS quantity
+            FROM ''' + tables + '''
+            JOIN account_move am ON am.id = account_move_line.move_id
+            JOIN product_product pp ON pp.id = account_move_line.product_id
+            JOIN product_template pt ON pt.id = pp.product_tmpl_id
+            WHERE ''' + where_clause + '''
+            GROUP BY pt.l10n_in_hsn_code
+        ''', where_params)
+        for res in self._cr.dictfetchall():
+            quantities[res['hsn_code']] = res['quantity']
+        for line in lines:
+            line['columns'][2]['name'] = quantities.get(line['id'], 0)

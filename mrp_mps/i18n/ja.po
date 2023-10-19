@@ -10,6 +10,7 @@
 # Yoshi Tashiro (Quartile) <tashiro@roomsfor.hk>, 2022
 # Noma Yuki, 2022
 # Ryoko Tsuda <ryoko@quartile.co>, 2022
+# Junko Augias, 2023
 # 
 msgid ""
 msgstr ""
@@ -17,8 +18,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:41+0000\n"
-"Last-Translator: Ryoko Tsuda <ryoko@quartile.co>, 2022\n"
-"Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
+"Last-Translator: Junko Augias, 2023\n"
+"Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -37,7 +38,7 @@ msgstr "- 間接需要予測"
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "ATP"
-msgstr ""
+msgstr "有効在庫数量(ATP)"
 
 #. module: mrp_mps
 #. openerp-web
@@ -45,7 +46,7 @@ msgstr ""
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "Actual"
-msgstr ""
+msgstr "現状"
 
 #. module: mrp_mps
 #. openerp-web
@@ -115,7 +116,7 @@ msgstr "このレコードを本当に削除しますか？"
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "Available to Promise"
-msgstr ""
+msgstr "有効在庫数量(ATP)"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__bom_id
@@ -208,7 +209,7 @@ msgstr "実需を表示"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_actual_demand_year_minus_2
 msgid "Display Actual Demand Before Year"
-msgstr ""
+msgstr "前年までの実需を表示"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_actual_demand_year_minus_1
@@ -223,17 +224,17 @@ msgstr "実補充を表示"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_available_to_promise
 msgid "Display Available to Promise"
-msgstr ""
+msgstr "有効在庫数量を表示"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_demand_forecast
 msgid "Display Demand Forecast"
-msgstr ""
+msgstr "需要予測を表示"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_indirect_demand
 msgid "Display Indirect Demand"
-msgstr ""
+msgstr "間接需要を表示"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__display_name
@@ -245,22 +246,22 @@ msgstr "表示名"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_safety_stock
 msgid "Display Safety Stock"
-msgstr ""
+msgstr "予備在庫を表示"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_starting_inventory
 msgid "Display Starting Inventory"
-msgstr ""
+msgstr "開始在庫を表示"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_to_replenish
 msgid "Display To Replenish"
-msgstr ""
+msgstr "補充数を表示"
 
 #. module: mrp_mps
 #: model:ir.model,name:mrp_mps.model_mrp_mps_forecast_details
 msgid "Forecast Demand Details"
-msgstr ""
+msgstr "需要予測詳細"
 
 #. module: mrp_mps
 #. openerp-web
@@ -289,7 +290,7 @@ msgstr "予測在庫"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__forecast_ids
 msgid "Forecasted quantity at date"
-msgstr ""
+msgstr "日付時点の予測数量"
 
 #. module: mrp_mps
 #: model:ir.model.fields,help:mrp_mps.field_mrp_production_schedule__sequence
@@ -382,7 +383,7 @@ msgstr "仕訳"
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "No product yet. Add one to start scheduling."
-msgstr ""
+msgstr "プロダクトがまだありません。予定を立てるには１つ追加して下さい。"
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.res_config_settings_view_form
@@ -392,19 +393,19 @@ msgstr "カラムの数"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_config_settings__manufacturing_period_to_display
 msgid "Number of Manufacturing Period Columns"
-msgstr ""
+msgstr "製造期間列の数"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__manufacturing_period_to_display
 msgid ""
 "Number of columns for the        given period to display in Master "
 "Production Schedule"
-msgstr ""
+msgstr "基準生産計画を表示するために指定された期間用の列数"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_product_forecast__procurement_launched
 msgid "Procurement has been run for this forecast"
-msgstr ""
+msgstr "この予測のために調達が行われています"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__product_id
@@ -414,7 +415,7 @@ msgstr "プロダクト"
 #. module: mrp_mps
 #: model:ir.model,name:mrp_mps.model_mrp_product_forecast
 msgid "Product Forecast at Date"
-msgstr ""
+msgstr "日付時点のプロダクト予測"
 
 #. module: mrp_mps
 #: model:ir.model,name:mrp_mps.model_product_template
@@ -430,7 +431,7 @@ msgstr "プロダクト単位"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_product_forecast__production_schedule_id
 msgid "Production Schedule"
-msgstr ""
+msgstr "生産計画"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__warehouse_id
@@ -450,17 +451,17 @@ msgstr "購買オーダ明細"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__moves_qty
 msgid "Quantity from Incoming Moves"
-msgstr ""
+msgstr "入荷からの数量"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__manufacture_qty
 msgid "Quantity from Manufacturing Order"
-msgstr ""
+msgstr "製造オーダからの数量"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__rfq_qty
 msgid "Quantity from RFQ"
-msgstr ""
+msgstr "見積書依頼からの数量"
 
 #. module: mrp_mps
 #. openerp-web
@@ -469,7 +470,7 @@ msgstr ""
 msgid ""
 "Quantity predicted to be available for sale at the end of the period (= to "
 "replenish - actual demand)."
-msgstr ""
+msgstr "期末時点で販売可能であると予測される数量 (= 補充予定数量-実際の需要)"
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_forecast_details_form_view
@@ -488,7 +489,7 @@ msgstr "補充"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_product_forecast__replenish_qty_updated
 msgid "Replenish_qty has been manually updated"
-msgstr ""
+msgstr "補充数量が手動で更新されました"
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_forecast_details_form_view
@@ -515,7 +516,7 @@ msgstr "保存"
 #. module: mrp_mps
 #: model:ir.model,name:mrp_mps.model_mrp_production_schedule
 msgid "Schedule the production of Product in a warehouse"
-msgstr ""
+msgstr "倉庫でプロダクト生産を予定する"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_purchase_order__date_planned_mps
@@ -565,7 +566,7 @@ msgstr ""
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "The confirmed demand, based on the confirmed sales orders."
-msgstr ""
+msgstr "検証された販売オーダに基づき検証された需要"
 
 #. module: mrp_mps
 #. openerp-web
@@ -574,7 +575,7 @@ msgstr ""
 msgid ""
 "The forecasted demand to fulfill the needs in components of the "
 "Manufacturing Orders."
-msgstr ""
+msgstr "販売オーダの構成品の必要数を満たす需要予測"
 
 #. module: mrp_mps
 #. openerp-web
@@ -588,14 +589,14 @@ msgstr "需要予測。この値は手入力する必要があります。"
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "The forecasted quantity in stock at the beginning of the period."
-msgstr ""
+msgstr "期間始めの在庫数予測"
 
 #. module: mrp_mps
 #. openerp-web
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "The forecasted quantity in stock at the end of the period."
-msgstr ""
+msgstr "期間末の在庫数予測"
 
 #. module: mrp_mps
 #. openerp-web
@@ -606,6 +607,9 @@ msgid ""
 "                    It ensures everything gets scheduled on time, based on constraints such as: safety stock, production capacity, lead times.\n"
 "                    It's the perfect tool to support your S&OP meetings."
 msgstr ""
+"基準計画は、販売および需要予測を各構成品の生産と購入計画に変換します。\n"
+"　　　　　安全在庫、生産能力、リードタイムなどの制約に基づき、全てが予定通りにスケジュールされることを保証します。\n"
+"　　　　　販売＆オペレーションミーティングをサポートする有効なツールです。"
 
 #. module: mrp_mps
 #. openerp-web
@@ -614,7 +618,7 @@ msgstr ""
 msgid ""
 "The quantity being replenished, based on the Requests for Quotation and the "
 "Manufacturing Orders."
-msgstr ""
+msgstr "見積依頼書と製造オーダに基づいて補充される数量。"
 
 #. module: mrp_mps
 #. openerp-web
@@ -622,7 +626,7 @@ msgstr ""
 #, python-format
 msgid ""
 "The quantity to replenish through Purchase Orders or Manufacturing Orders."
-msgstr ""
+msgstr "購買オーダまたは製造オーダを通して補充される数量。"
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.res_config_settings_view_form
@@ -636,7 +640,7 @@ msgstr "期間"
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_product_forecast__replenish_qty
 #, python-format
 msgid "To Replenish"
-msgstr ""
+msgstr "補充予定"
 
 #. module: mrp_mps
 #: code:addons/mrp_mps/models/res_company.py:0

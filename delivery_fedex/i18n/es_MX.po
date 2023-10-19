@@ -463,7 +463,7 @@ msgstr "Remitente"
 #: code:addons/delivery_fedex/models/delivery_fedex.py:0
 #, python-format
 msgid "Shipment #%s has been cancelled"
-msgstr "El envío #%s ha sido cancelado"
+msgstr "Se canceló el envío #%s "
 
 #. module: delivery_fedex
 #: code:addons/delivery_fedex/models/delivery_fedex.py:0

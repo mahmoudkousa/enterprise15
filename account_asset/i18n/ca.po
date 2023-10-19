@@ -12,7 +12,8 @@
 # Susanna Pujol, 2021
 # Harcogourmet, 2022
 # AncesLatino2004, 2022
-# jabelchi, 2022
+# Josep Anton Belchi, 2022
+# Ivan Espinola, 2023
 # 
 msgid ""
 msgstr ""
@@ -20,8 +21,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: jabelchi, 2022\n"
-"Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
+"Last-Translator: Ivan Espinola, 2023\n"
+"Language-Team: Catalan (https://app.transifex.com/odoo/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2150,6 +2151,16 @@ msgid ""
 msgstr ""
 "No podeu crear un actiu a partir de línies que continguin crèdit i dèbit al "
 "compte o amb un import nul"
+
+#. module: account_asset
+#: code:addons/account_asset/models/account_asset.py:0
+#, python-format
+msgid ""
+"You cannot delete an asset linked to posted entries.\n"
+"You should either confirm the asset, then, sell or dispose of it, or cancel the linked journal entries."
+msgstr ""
+"No podeu suprimir un actiu enllaçat a entrades publicades.\n"
+"Hauríeu de confirmar l'actiu, llavors, vendre'l o desfer-ne, o cancel·lar les entrades de diari enllaçades."
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:0

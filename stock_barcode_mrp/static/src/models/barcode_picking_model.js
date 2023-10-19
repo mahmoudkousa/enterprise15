@@ -14,7 +14,7 @@ patch(BarcodePickingModel.prototype, 'stock_barcode_mrp_barcode_picking_model', 
             await this.orm.call(
                 'stock.move',
                 'action_explode',
-                move_ids,
+                [move_ids],
             );
             this.trigger('refresh');
             this.notification.add(_t("The lines with a kit have been replaced with their components. Please check the picking before the final validation."), {type: 'warning'});

@@ -7,6 +7,7 @@
 # xu aaron, 2021
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2022
 # Jeffery CHEN <jeffery9@gmail.com>, 2022
+# Chloe Wang, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:38+0000\n"
-"Last-Translator: Jeffery CHEN <jeffery9@gmail.com>, 2022\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Last-Translator: Chloe Wang, 2023\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1095,6 +1096,21 @@ msgstr "用户状态"
 #: model_terms:ir.ui.view,arch_db:approvals.approval_request_view_kanban
 msgid "Withdraw"
 msgstr "提取"
+
+#. module: approvals
+#: code:addons/approvals/models/approval_request.py:0
+#, python-format
+msgid ""
+"You cannot assign the same approver multiple times on the same request."
+msgstr "无法在同一请求中多次分配相同的审批者。"
+
+#. module: approvals
+#: code:addons/approvals/models/ir_attachment.py:0
+#, python-format
+msgid ""
+"You cannot unlink an attachment which is linked to a validated, refused or "
+"cancelled approval request."
+msgstr "如果审批申请相关联链接已生效、已拒绝或已取消，则无法解除该附件。"
 
 #. module: approvals
 #: code:addons/approvals/models/approval_request.py:0

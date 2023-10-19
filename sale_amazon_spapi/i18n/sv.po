@@ -7,6 +7,7 @@
 # Martin Trigaux, 2022
 # Bengt Evertsson <zyberfart@gmail.com>, 2022
 # Chrille Hedberg <hedberg.chrille@gmail.com>, 2022
+# Lasse L, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-06 12:46+0000\n"
 "PO-Revision-Date: 2022-06-10 15:35+0000\n"
-"Last-Translator: Chrille Hedberg <hedberg.chrille@gmail.com>, 2022\n"
-"Language-Team: Swedish (https://www.transifex.com/odoo/teams/41243/sv/)\n"
+"Last-Translator: Lasse L, 2023\n"
+"Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -76,7 +77,7 @@ msgstr "Kod"
 #: code:addons/sale_amazon_spapi/utils.py:0
 #, python-format
 msgid "Could not establish the connection to the API."
-msgstr ""
+msgstr "Det gick inte att upprätta anslutningen till API:et."
 
 #. module: sale_amazon_spapi
 #: code:addons/sale_amazon_spapi/utils.py:0

@@ -4,11 +4,11 @@
 # 
 # Translators:
 # e2f <projects@e2f.com>, 2021
-# Martin Trigaux, 2021
 # Kevin Harrings <kha@odoo.com>, 2021
 # Chris Egal <sodaswed@web.de>, 2021
 # Friederike Fasterling-Nesselbosch, 2022
 # Larissa Manderfeld, 2023
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:38+0000\n"
 "PO-Revision-Date: 2021-09-14 12:38+0000\n"
-"Last-Translator: Larissa Manderfeld, 2023\n"
+"Last-Translator: Martin Trigaux, 2023\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,8 +30,8 @@ msgid ""
 "' field cleaning rule.<br/>\n"
 "You can validate changes"
 msgstr ""
-"' Feldreinigungsregel.<br/>\n"
-"Sie können Änderungen validieren"
+"“ identifiziert.<br/>\n"
+"Sie können Änderungen validieren, und zwar"
 
 #. module: data_cleaning
 #: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_merge_model_form
@@ -100,7 +100,7 @@ msgstr "Fall"
 #. module: data_cleaning
 #: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_merge_model_form
 msgid "Clean"
-msgstr "Sauber"
+msgstr "Bereinigen"
 
 #. module: data_cleaning
 #: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_merge_model_form
@@ -133,7 +133,7 @@ msgstr "Bereinigungsregel"
 #. module: data_cleaning
 #: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_cleaning_record_search
 msgid "Cleaning Rules"
-msgstr "Reinigungsregeln"
+msgstr "Bereinigungsregeln"
 
 #. module: data_cleaning
 #: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__company_id
@@ -186,7 +186,7 @@ msgstr "Datenbereinigung"
 #: model:ir.cron,cron_name:data_cleaning.ir_cron_clean_records
 #: model:ir.cron,name:data_cleaning.ir_cron_clean_records
 msgid "Data Cleaning: Clean Records"
-msgstr "Datenbereinigung: Saubere Datensätze"
+msgstr "Datenbereinigung: Datensätze bereinigen"
 
 #. module: data_cleaning
 #: model:ir.model.fields.selection,name:data_cleaning.selection__data_cleaning_model__notify_frequency_period__days
@@ -220,13 +220,13 @@ msgstr "Feld"
 #: model:ir.ui.menu,name:data_cleaning.menu_data_cleaning_config_rules_cleaning
 #: model:ir.ui.menu,name:data_cleaning.menu_data_cleaning_record
 msgid "Field Cleaning"
-msgstr "Feldreinigung"
+msgstr "Feldbereinigung"
 
 #. module: data_cleaning
 #: model:ir.actions.act_window,name:data_cleaning.action_data_cleaning_record
 #: model:ir.actions.act_window,name:data_cleaning.action_data_cleaning_record_notification
 msgid "Field Cleaning Records"
-msgstr "Feldbereinigungseinträge"
+msgstr "Feldbereinigungsdatensätze"
 
 #. module: data_cleaning
 #: model:ir.actions.act_window,name:data_cleaning.action_data_cleaning_config
@@ -242,7 +242,7 @@ msgstr "Feldname"
 #. module: data_cleaning
 #: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_cleaning_field_form
 msgid "Field To Clean"
-msgstr "Zu reinigendes Feld"
+msgstr "Zu bereinigendes Feld"
 
 #. module: data_cleaning
 #: code:addons/data_cleaning/models/data_cleaning_rule.py:0
@@ -266,14 +266,14 @@ msgid ""
 " to uppercase."
 msgstr ""
 "Wie die Groß- und Kleinschreibung durch die Regel festgelegt wird. Bei "
-"\"Erste Buchstaben in Großbuchstaben\" werden alle Buchstaben klein "
+"„Erste Buchstaben in Großbuchstaben“ werden alle Buchstaben klein "
 "geschrieben, außer dem ersten Buchstaben eines Wortes, der in Großbuchstaben"
 " gesetzt wird."
 
 #. module: data_cleaning
 #: model_terms:ir.ui.view,arch_db:data_cleaning.notification
 msgid "I've identified"
-msgstr "Ich habe identifiziert"
+msgstr "Ich habe"
 
 #. module: data_cleaning
 #: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__id
@@ -299,7 +299,7 @@ msgstr "Letzte Benachrichtigung"
 #: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__write_uid
 #: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__write_uid
 msgid "Last Updated by"
-msgstr "Zuletzt aktualisiert durch"
+msgstr "Zuletzt aktualisiert von"
 
 #. module: data_cleaning
 #: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__write_date
@@ -355,7 +355,7 @@ msgstr "Name"
 #: model_terms:ir.actions.act_window,help:data_cleaning.action_data_cleaning_record
 #: model_terms:ir.actions.act_window,help:data_cleaning.action_data_cleaning_record_notification
 msgid "No cleaning suggestions"
-msgstr "Keine Vorschläge zur Reinigung"
+msgstr "Keine Bereinigungsvorschläge"
 
 #. module: data_cleaning
 #: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__notify_frequency
@@ -409,17 +409,17 @@ msgstr "Regeln"
 #: model:ir.model.fields.selection,name:data_cleaning.selection__data_cleaning_rule__action__html
 #, python-format
 msgid "Scrap HTML"
-msgstr "Scrap HTML"
+msgstr "HTML ausrangieren"
 
 #. module: data_cleaning
 #: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_merge_model_form
 msgid "Select a model to configure cleaning actions"
-msgstr "Wählen Sie ein Modell um Reinigungsvorgang zu konfigurieren"
+msgstr "Wählen Sie ein Modell, um Bereinigungsaktionen zu konfigurieren"
 
 #. module: data_cleaning
 #: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__sequence
 msgid "Sequence"
-msgstr "Reihenfolge"
+msgstr "Sequenz"
 
 #. module: data_cleaning
 #: code:addons/data_cleaning/models/data_cleaning_rule.py:0
@@ -452,18 +452,18 @@ msgid ""
 "The Python module `phonenumbers` is not installed. Format phone will not "
 "work."
 msgstr ""
-"Das Python-Modul 'Telefonnummern' ist nicht installiert. Format Telefon wird"
-" daher nicht funktionieren."
+"Das Python-Modul `phonenumbers` ist nicht installiert. Formatierung der "
+"Telefonnummer wird daher nicht funktionieren."
 
 #. module: data_cleaning
 #: model:ir.model.constraint,message:data_cleaning.constraint_data_cleaning_model_check_notif_freq
 msgid "The notification frequency should be greater than 0"
-msgstr "Die Benachrichtigungsfrequenz sollte größer als 0 sein."
+msgstr "Die Benachrichtigungshäufigkeit sollte größer als 0 sein."
 
 #. module: data_cleaning
 #: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__action_trim
 msgid "Trim"
-msgstr "Kürzen"
+msgstr "Wegschneiden"
 
 #. module: data_cleaning
 #: code:addons/data_cleaning/models/data_cleaning_rule.py:0
@@ -477,7 +477,7 @@ msgstr "Leerzeichen wegschneiden"
 #: code:addons/data_cleaning/static/src/xml/data_cleaning.xml:0
 #, python-format
 msgid "Unselect"
-msgstr "abwählen"
+msgstr "Abwählen"
 
 #. module: data_cleaning
 #. openerp-web
@@ -485,7 +485,7 @@ msgstr "abwählen"
 #: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_cleaning_record_list
 #, python-format
 msgid "Validate"
-msgstr "Bestätigen"
+msgstr "Validieren"
 
 #. module: data_cleaning
 #: model:ir.model.fields.selection,name:data_cleaning.selection__data_cleaning_model__notify_frequency_period__weeks
@@ -505,9 +505,9 @@ msgstr ""
 #. module: data_cleaning
 #: model_terms:ir.ui.view,arch_db:data_cleaning.notification
 msgid "here"
-msgstr "Hier"
+msgstr "hier"
 
 #. module: data_cleaning
 #: model_terms:ir.ui.view,arch_db:data_cleaning.notification
 msgid "records to clean with the '"
-msgstr "Datensätze identifiziert, um mit"
+msgstr "Datensätze mit der Feldbereinigungsregel „"

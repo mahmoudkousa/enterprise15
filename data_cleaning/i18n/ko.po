@@ -8,6 +8,7 @@
 # Linkup <link-up@naver.com>, 2021
 # Seongseok Shin <shinss61@hotmail.com>, 2021
 # Mark Lee <odoos@soti.33mail.com>, 2021
+# Daye Jeong, 2023
 # Sarah Park, 2023
 # 
 msgid ""
@@ -48,12 +49,12 @@ msgstr "추가 작업"
 #. module: data_cleaning
 #: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__action_display
 msgid "Action Display"
-msgstr ""
+msgstr "작업 표시"
 
 #. module: data_cleaning
 #: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__action_technical
 msgid "Action Technical"
-msgstr ""
+msgstr "작업 기술"
 
 #. module: data_cleaning
 #: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__action
@@ -95,7 +96,7 @@ msgstr "자동"
 #. module: data_cleaning
 #: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_rule__action_case
 msgid "Case"
-msgstr ""
+msgstr "사례"
 
 #. module: data_cleaning
 #: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_merge_model_form
@@ -264,11 +265,13 @@ msgid ""
 "every letter to lowercase except the first letter of each word, which is set"
 " to uppercase."
 msgstr ""
+"규칙에 따라 대소문자가 설정되는 방식입니다. '첫 글자는 대문자로' 는 첫 글자만 대문자로 표시되며 나머지 글자는 모두 소문자로 "
+"설정됩니다."
 
 #. module: data_cleaning
 #: model_terms:ir.ui.view,arch_db:data_cleaning.notification
 msgid "I've identified"
-msgstr ""
+msgstr "확인했습니다"
 
 #. module: data_cleaning
 #: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__id
@@ -306,7 +309,7 @@ msgstr "최근 갱신 일자"
 #. module: data_cleaning
 #: model:ir.model.fields,help:data_cleaning.field_data_cleaning_model__notify_user_ids
 msgid "List of users to notify when there are new records to clean"
-msgstr ""
+msgstr "정리할 새 레코드가 있을 때 알림을 받을 사용자 목록"
 
 #. module: data_cleaning
 #. openerp-web
@@ -384,7 +387,7 @@ msgstr "기록"
 #. module: data_cleaning
 #: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_model__records_to_clean_count
 msgid "Records To Clean"
-msgstr ""
+msgstr "정리할 레코드"
 
 #. module: data_cleaning
 #: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__rule_ids
@@ -402,7 +405,7 @@ msgstr "규칙"
 #: model:ir.model.fields.selection,name:data_cleaning.selection__data_cleaning_rule__action__html
 #, python-format
 msgid "Scrap HTML"
-msgstr ""
+msgstr "HTML 가져오기"
 
 #. module: data_cleaning
 #: model_terms:ir.ui.view,arch_db:data_cleaning.view_data_merge_model_form
@@ -419,7 +422,7 @@ msgstr "순서"
 #: model:ir.model.fields.selection,name:data_cleaning.selection__data_cleaning_rule__action__case
 #, python-format
 msgid "Set Type Case"
-msgstr ""
+msgstr "대소문자 설정"
 
 #. module: data_cleaning
 #: model:ir.model.fields,field_description:data_cleaning.field_data_cleaning_record__suggested_value_display
@@ -461,7 +464,7 @@ msgstr "자르기"
 #: model:ir.model.fields.selection,name:data_cleaning.selection__data_cleaning_rule__action__trim
 #, python-format
 msgid "Trim Spaces"
-msgstr ""
+msgstr "빈 칸 조정"
 
 #. module: data_cleaning
 #. openerp-web
@@ -489,6 +492,7 @@ msgid ""
 "Which spaces are trimmed by the rule. Leading, trailing, and successive "
 "spaces are considered superfluous."
 msgstr ""
+"규칙에 따라 빈칸을 조정하는 방식입니다. 앞이나 뒤 혹은 연속해서 빈칸이 있는 경우 공백이 불필요하게 있는 것으로 간주합니다."
 
 #. module: data_cleaning
 #: model_terms:ir.ui.view,arch_db:data_cleaning.notification
@@ -498,4 +502,4 @@ msgstr "여기"
 #. module: data_cleaning
 #: model_terms:ir.ui.view,arch_db:data_cleaning.notification
 msgid "records to clean with the '"
-msgstr ""
+msgstr "정리할 레코드 '"

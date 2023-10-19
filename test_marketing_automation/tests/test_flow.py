@@ -221,7 +221,7 @@ for record in records:
             'schedule_date': date_reference,
             # no email -> trace set as canceled
             'trace_status': 'cancel',
-            'failure_type': 'mail_email_missing',
+            'trace_failure_type': 'mail_email_missing',
         }], act1)
 
         # Child traces should have been generated for all traces of parent activity as activity_domain
@@ -280,7 +280,7 @@ for record in records:
             'schedule_date': date_reference,
             # no email -> trace set as canceled
             'trace_status': 'cancel',
-            'failure_type': 'mail_email_missing',
+            'trace_failure_type': 'mail_email_missing',
         }], act1)
 
         # Replied records -> SMS scheduled

@@ -7,6 +7,7 @@
 # Sanne Kristensen <sanne@vkdata.dk>, 2021
 # Ejner Sønniksen <ejner@vkdata.dk>, 2021
 # Mads Søndergaard, 2021
+# lhmflexerp <lhm@flexerp.dk>, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:40+0000\n"
-"Last-Translator: Mads Søndergaard, 2021\n"
-"Language-Team: Danish (https://www.transifex.com/odoo/teams/41243/da/)\n"
+"Last-Translator: lhmflexerp <lhm@flexerp.dk>, 2023\n"
+"Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -51,6 +52,11 @@ msgid "Config Settings"
 msgstr "Konfigurer opsætning"
 
 #. module: hr_payroll_holidays
+#: model:ir.actions.server,name:hr_payroll_holidays.ir_actions_server_report_to_next_month
+msgid "Defer to Next Month"
+msgstr ""
+
+#. module: hr_payroll_holidays
 #: model_terms:ir.ui.view,arch_db:hr_payroll_holidays.res_config_settings_view_form
 msgid "Deferred Time Off"
 msgstr ""
@@ -67,9 +73,28 @@ msgid "Leave to Defer"
 msgstr ""
 
 #. module: hr_payroll_holidays
+#: model:ir.actions.server,name:hr_payroll_holidays.ir_actions_server_mark_as_reported
+msgid "Mark as defered"
+msgstr ""
+
+#. module: hr_payroll_holidays
 #: model_terms:ir.actions.act_window,help:hr_payroll_holidays.hr_leave_work_entry_action
 msgid "Meet the time off dashboard."
 msgstr "Mød fri tid instrumentbrættet."
+
+#. module: hr_payroll_holidays
+#: code:addons/hr_payroll_holidays/models/hr_leave.py:0
+#, python-format
+msgid ""
+"Not enough attendance work entries to report the time off %s. Plase make the"
+" operation manually"
+msgstr ""
+
+#. module: hr_payroll_holidays
+#: code:addons/hr_payroll_holidays/models/hr_leave.py:0
+#, python-format
+msgid "Only an employee time off to defer can be reported to next month"
+msgstr ""
 
 #. module: hr_payroll_holidays
 #: model:ir.model,name:hr_payroll_holidays.model_hr_payslip
@@ -95,9 +120,44 @@ msgid "Postpone time off after payslip validation"
 msgstr ""
 
 #. module: hr_payroll_holidays
+#: model_terms:ir.ui.view,arch_db:hr_payroll_holidays.hr_leave_view_form_inherit
+msgid "Report to Next Month"
+msgstr ""
+
+#. module: hr_payroll_holidays
 #: model_terms:ir.ui.view,arch_db:hr_payroll_holidays.res_config_settings_view_form
 msgid "Responsible"
 msgstr "Ansvarlig"
+
+#. module: hr_payroll_holidays
+#: code:addons/hr_payroll_holidays/models/hr_leave.py:0
+#, python-format
+msgid ""
+"The next month work entries are not generated yet or are validated already "
+"for time off %s"
+msgstr ""
+
+#. module: hr_payroll_holidays
+#: code:addons/hr_payroll_holidays/models/hr_leave.py:0
+#, python-format
+msgid ""
+"The selected period is covered by a validated payslip. You can't create a "
+"time off for that period."
+msgstr ""
+
+#. module: hr_payroll_holidays
+#: code:addons/hr_payroll_holidays/models/hr_leave.py:0
+#, python-format
+msgid ""
+"The time off %s can not be reported because it is defined over more than 2 "
+"months"
+msgstr ""
+
+#. module: hr_payroll_holidays
+#: code:addons/hr_payroll_holidays/models/hr_leave.py:0
+#, python-format
+msgid "There is no work entries linked to this time off to report"
+msgstr ""
 
 #. module: hr_payroll_holidays
 #: code:addons/hr_payroll_holidays/models/hr_payslip.py:0
@@ -163,7 +223,7 @@ msgstr ""
 #: code:addons/hr_payroll_holidays/static/src/xml/templates.xml:0
 #, python-format
 msgid "time off"
-msgstr ""
+msgstr "fri"
 
 #. module: hr_payroll_holidays
 #. openerp-web

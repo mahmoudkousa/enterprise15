@@ -225,11 +225,11 @@ msgstr ""
 "</tbody>\n"
 "</table>\n"
 "</td></tr>\n"
-"<!-- CON TECNOLOGÍA DE -->\n"
+"<!-- CON LA TECNOLOGÍA DE -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Con tecnología de <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=mail\" style=\"color: #875A7B;\">Odoo</a>\n"
+"        Con la tecnología de <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=mail\" style=\"color: #875A7B;\">Odoo</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -378,11 +378,11 @@ msgstr ""
 "</tbody>\n"
 "</table>\n"
 "</td></tr>\n"
-"<!-- CON TECNOLOGÍA DE -->\n"
+"<!-- CON LA TECNOLOGÍA DE -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
-"        Con tecnología de <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=mail\" style=\"color: #875A7B;\">Odoo</a>\n"
+"        Con la tecnología de <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=mail\" style=\"color: #875A7B;\">Odoo</a>\n"
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
@@ -557,7 +557,8 @@ msgstr "SMS enviado"
 #: code:addons/payment_sepa_direct_debit/controllers/main.py:0
 #, python-format
 msgid "SMS could not be sent due to insufficient credit."
-msgstr "No se puede enviar el SMS, no cuenta con crédito suficiente."
+msgstr ""
+"No se puede enviar el SMS debido a que no cuenta con crédito suficiente."
 
 #. module: payment_sepa_direct_debit
 #: code:addons/payment_sepa_direct_debit/controllers/main.py:0
@@ -675,25 +676,25 @@ msgstr "El nombre del signatario"
 #: code:addons/payment_sepa_direct_debit/models/sdd_mandate.py:0
 #, python-format
 msgid "The phone number does not match."
-msgstr "El número de teléfono no coincide"
+msgstr "El número telefónico no coincide."
 
 #. module: payment_sepa_direct_debit
 #: code:addons/payment_sepa_direct_debit/controllers/main.py:0
 #, python-format
 msgid "The phone number must be provided and verified."
-msgstr "Se debe proporcionar y validar el número de teléfono."
+msgstr "Se debe proporcionar y validar el número telefónico."
 
 #. module: payment_sepa_direct_debit
 #: code:addons/payment_sepa_direct_debit/controllers/main.py:0
 #: code:addons/payment_sepa_direct_debit/models/sdd_mandate.py:0
 #, python-format
 msgid "The phone number should be in international format."
-msgstr "El número de teléfono debe estar en formato internacional."
+msgstr "El número telefónico debe estar en formato internacional."
 
 #. module: payment_sepa_direct_debit
 #: model:ir.model.fields,help:payment_sepa_direct_debit.field_sdd_mandate__phone_number
 msgid "The phone number used for verification by SMS code"
-msgstr "Número de teléfono utilizado en la verificación por código de SMS"
+msgstr "Número telefónico utilizado en la verificación por código de SMS"
 
 #. module: payment_sepa_direct_debit
 #: code:addons/payment_sepa_direct_debit/models/payment_transaction.py:0

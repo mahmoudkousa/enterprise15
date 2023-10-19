@@ -5,6 +5,8 @@
 # Translators:
 # Martin Trigaux, 2021
 # Layna Nascimento, 2023
+# Éder Brito <britoederr@gmail.com>, 2023
+# Maitê Dietze, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 15:21+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Layna Nascimento, 2023\n"
+"Last-Translator: Maitê Dietze, 2023\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/odoo/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,14 +34,14 @@ msgstr "(Edição Empresa)"
 #: code:addons/web_enterprise/static/src/webclient/burger_menu/mobile_switch_company_menu/mobile_switch_company_menu.xml:0
 #, python-format
 msgid "(current)"
-msgstr ""
+msgstr "(atual)"
 
 #. module: web_enterprise
 #. openerp-web
 #: code:addons/web_enterprise/static/src/webclient/home_menu/expiration_panel.xml:0
 #, python-format
 msgid ") with the instructions to follow"
-msgstr ""
+msgstr ") com as instruções para seguir"
 
 #. module: web_enterprise
 #. openerp-web
@@ -83,7 +85,7 @@ msgstr "Adicionar campo"
 #: code:addons/web_enterprise/static/src/legacy/xml/promote_studio.xml:0
 #, python-format
 msgid "Add new fields and much more with"
-msgstr ""
+msgstr "Adicione novos campos e muito mais com"
 
 #. module: web_enterprise
 #. openerp-web
@@ -99,7 +101,7 @@ msgstr "Tudo"
 #: code:addons/web_enterprise/static/src/search/control_panel/control_panel.xml:0
 #, python-format
 msgid "CLEAR"
-msgstr ""
+msgstr "LIMPAR"
 
 #. module: web_enterprise
 #. openerp-web
@@ -120,7 +122,7 @@ msgstr "Limpar"
 #: code:addons/web_enterprise/static/src/webclient/home_menu/expiration_panel.xml:0
 #, python-format
 msgid "Click here to send an email"
-msgstr ""
+msgstr "Clique aqui para enviar um e-mail"
 
 #. module: web_enterprise
 #. openerp-web
@@ -135,7 +137,7 @@ msgstr "Fechar"
 #: code:addons/web_enterprise/static/src/webclient/burger_menu/burger_menu.xml:0
 #, python-format
 msgid "Close menu"
-msgstr ""
+msgstr "Fechar menu"
 
 #. module: web_enterprise
 #. openerp-web
@@ -154,21 +156,21 @@ msgstr "Contato"
 #: code:addons/web_enterprise/static/src/legacy/xml/control_panel.xml:0
 #, python-format
 msgid "Control panel toolbar"
-msgstr ""
+msgstr "Barra de ferramentas do painel de controle"
 
 #. module: web_enterprise
 #. openerp-web
 #: code:addons/web_enterprise/static/src/webclient/barcode/barcode_scanner.js:0
 #, python-format
 msgid "Could not start scanning. "
-msgstr ""
+msgstr "Não foi possível iniciar o escaneamento."
 
 #. module: web_enterprise
 #. openerp-web
 #: code:addons/web_enterprise/static/src/legacy/xml/base.xml:0
 #, python-format
 msgid "Database expiration:"
-msgstr ""
+msgstr "Validade da base de dados:"
 
 #. module: web_enterprise
 #. openerp-web
@@ -180,14 +182,14 @@ msgstr "Dispensar"
 #. module: web_enterprise
 #: model:ir.actions.server,name:web_enterprise.download_contact
 msgid "Download (vCard)"
-msgstr ""
+msgstr "Download (vCard)"
 
 #. module: web_enterprise
 #. openerp-web
 #: code:addons/web_enterprise/static/src/webclient/home_menu/expiration_panel.xml:0
 #, python-format
 msgid "Error reason:"
-msgstr ""
+msgstr "Motivo do erro:"
 
 #. module: web_enterprise
 #. openerp-web
@@ -197,7 +199,7 @@ msgstr ""
 #: code:addons/web_enterprise/static/src/search/search_panel/search_panel.xml:0
 #, python-format
 msgid "FILTER"
-msgstr ""
+msgstr "FILTRO"
 
 #. module: web_enterprise
 #: model:ir.model,name:web_enterprise.model_ir_http
@@ -209,7 +211,7 @@ msgstr "Roteamento HTTP"
 #: code:addons/web_enterprise/static/src/legacy/xml/promote_studio.xml:0
 #, python-format
 msgid "Install Odoo Studio"
-msgstr ""
+msgstr "Instalar o Odoo Studio"
 
 #. module: web_enterprise
 #. openerp-web
@@ -231,7 +233,7 @@ msgstr "Menu"
 #: code:addons/web_enterprise/static/src/webclient/barcode/barcode_scanner.js:0
 #, python-format
 msgid "No device can be found."
-msgstr ""
+msgstr "Nenhum dispositivo encontrado"
 
 #. module: web_enterprise
 #. openerp-web
@@ -259,7 +261,7 @@ msgstr "Odoo"
 #: code:addons/web_enterprise/static/src/legacy/xml/base.xml:0
 #, python-format
 msgid "Odoo Enterprise Edition License V1.0"
-msgstr ""
+msgstr "Odoo Edição Enterprise Licença V1.0"
 
 #. module: web_enterprise
 #. openerp-web
@@ -281,7 +283,7 @@ msgstr "Suporte Odoo"
 #: code:addons/web_enterprise/static/src/webclient/barcode/barcode_scanner.js:0
 #, python-format
 msgid "Odoo needs your authorization first."
-msgstr ""
+msgstr "O Odoo precisa de autorização primeiro"
 
 #. module: web_enterprise
 #. openerp-web
@@ -305,7 +307,7 @@ msgstr "Pesquisa rápida: %s"
 #: code:addons/web_enterprise/static/src/webclient/home_menu/expiration_panel.xml:0
 #, python-format
 msgid "Refresh subscription status"
-msgstr ""
+msgstr "Atualizar status da assinatura"
 
 #. module: web_enterprise
 #. openerp-web
@@ -336,7 +338,7 @@ msgstr "Renove sua assinatura"
 #: code:addons/web_enterprise/static/src/search/search_panel/search_panel.xml:0
 #, python-format
 msgid "SEE RESULT"
-msgstr ""
+msgstr "VER RESULTADO"
 
 #. module: web_enterprise
 #. openerp-web
@@ -344,7 +346,7 @@ msgstr ""
 #: code:addons/web_enterprise/static/src/legacy/xml/barcode_fields.xml:0
 #, python-format
 msgid "Scan barcode"
-msgstr ""
+msgstr "Escanear código de barras"
 
 #. module: web_enterprise
 #. openerp-web
@@ -366,7 +368,7 @@ msgstr "Pesquisar..."
 #: code:addons/web_enterprise/static/src/webclient/home_menu/expiration_panel.xml:0
 #, python-format
 msgid "Sending the instructions by email ..."
-msgstr ""
+msgstr "Enviando instruções por e-mail…"
 
 #. module: web_enterprise
 #. openerp-web
@@ -403,6 +405,8 @@ msgid ""
 "The instructions to unlink your subscription from the previous database(s) "
 "have been sent"
 msgstr ""
+"As instruções para desvincular sua assinatura de sua(s) base(s) de dados "
+"anterior(es) foram enviadas"
 
 #. module: web_enterprise
 #. openerp-web
@@ -430,7 +434,7 @@ msgstr ""
 #: code:addons/web_enterprise/static/src/webclient/home_menu/expiration_panel.xml:0
 #, python-format
 msgid "To unlink it you can either:"
-msgstr ""
+msgstr "Para desvincular, você pode:"
 
 #. module: web_enterprise
 #. openerp-web
@@ -446,7 +450,7 @@ msgstr "Hoje"
 #: code:addons/web_enterprise/static/src/webclient/burger_menu/burger_menu.xml:0
 #, python-format
 msgid "Toggle menu"
-msgstr ""
+msgstr "Alternar menu"
 
 #. module: web_enterprise
 #. openerp-web
@@ -454,6 +458,7 @@ msgstr ""
 #, python-format
 msgid "Unable to send the instructions by email, please contact the"
 msgstr ""
+"Nção foi possível enviar as instruções por e-mail. Entre em contato com"
 
 #. module: web_enterprise
 #. openerp-web
@@ -490,6 +495,8 @@ msgstr "Alternador de Visualização"
 msgid ""
 "You have more users or more apps installed than your subscription allows."
 msgstr ""
+"Você tem mais usuários ou mais aplicativos instalados do que a sua "
+"assinatura permite."
 
 #. module: web_enterprise
 #. openerp-web
@@ -499,6 +506,8 @@ msgid ""
 "You will be able to register your database once you have installed your "
 "first app."
 msgstr ""
+"Você poderá cadastrar a sua base de dados quando tiver instalado o primeiro "
+"aplicativo."
 
 #. module: web_enterprise
 #. openerp-web
@@ -512,7 +521,7 @@ msgstr "Seu código de assinatura"
 #: code:addons/web_enterprise/static/src/webclient/home_menu/expiration_panel.xml:0
 #, python-format
 msgid "Your subscription is already linked to a database."
-msgstr ""
+msgstr "Sua assinatura já está vinculada a uma base de dados"
 
 #. module: web_enterprise
 #. openerp-web
@@ -526,7 +535,7 @@ msgstr "Sua assinatura foi atualizada e é válida até"
 #: code:addons/web_enterprise/static/src/webclient/home_menu/expiration_panel.xml:0
 #, python-format
 msgid "buy a subscription"
-msgstr ""
+msgstr "comprar assinatura"
 
 #. module: web_enterprise
 #. openerp-web
@@ -547,4 +556,4 @@ msgstr "ou"
 #: code:addons/web_enterprise/static/src/webclient/home_menu/expiration_panel.xml:0
 #, python-format
 msgid "to the subscription owner (email:"
-msgstr ""
+msgstr "para o proprietário da assinatura (e-mail:"

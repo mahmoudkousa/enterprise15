@@ -436,8 +436,8 @@ msgid ""
 "Enable this option and load demo data to test the social module.<br/>\n"
 "                                    This must never be used on a production database!"
 msgstr ""
-"Activez cette option et chargez les données de démonstration pour tester le module social.<br/>\n"
-"                                    À ne jamais utiliser sur une base de données de production !"
+"Activer cette option et charger les données de démonstration pour tester le module social.<br/>\n"
+"Cela ne doit jamais être utilisé sur une base de données de production !"
 
 #. module: social
 #. openerp-web
@@ -1466,6 +1466,13 @@ msgstr "Flux sociaux"
 #: model:ir.cron,name:social.ir_cron_post_scheduled
 msgid "Social: Publish Scheduled Posts"
 msgstr "Social : publier des publications programmées"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/js/stream_post_comments.js:0
+#, python-format
+msgid "Something went wrong while posting the comment."
+msgstr "Une erreur s'est produite lors de la publication du comment."
 
 #. module: social
 #. openerp-web

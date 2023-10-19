@@ -531,7 +531,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Batch"
-msgstr ""
+msgstr "Batch"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__payslip_run_id
@@ -542,7 +542,7 @@ msgstr ""
 #. module: hr_payroll
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_payslip_run
 msgid "Batches"
-msgstr ""
+msgstr "Batch"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_res_config_settings__module_l10n_be_hr_payroll
@@ -733,7 +733,7 @@ msgstr "Dikonfirmasi"
 #. module: hr_payroll
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_work_entry_report__state__conflict
 msgid "Conflict"
-msgstr ""
+msgstr "Konflik"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_edit_payslip_line__contract_id
@@ -752,7 +752,7 @@ msgstr "Jenis Kontrak"
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_contract_history
 msgid "Contract history"
-msgstr ""
+msgstr "Sejarah Kontrak"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payroll_index_form_view
@@ -1352,7 +1352,7 @@ msgstr "Dikelompokkan berdasarkan"
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_work_entry_type
 msgid "HR Work Entry Type"
-msgstr ""
+msgstr "Tipe Entri Kerja HR"
 
 #. module: hr_payroll
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_work_entry_type__round_days__half
@@ -1538,7 +1538,7 @@ msgstr ""
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip_worked_days__is_paid
 msgid "Is Paid"
-msgstr ""
+msgstr "Apakah Berbayar"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payslip_line_view_search_register
@@ -2013,7 +2013,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_payroll_report__work_type__2
 #: model_terms:ir.ui.view,arch_db:hr_payroll.payroll_report_view_dashboard
 msgid "Paid Time Off"
-msgstr ""
+msgstr "Cuti Berbayar"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.payroll_report_view_dashboard
@@ -2474,7 +2474,7 @@ msgstr "Laporan"
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_resource_calendar
 msgid "Resource Working Time"
-msgstr ""
+msgstr "Sumber Daya Jam Kerja"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__activity_user_id
@@ -2668,7 +2668,7 @@ msgstr "Struktur Gaji"
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payroll_structure_type
 msgid "Salary Structure Type"
-msgstr ""
+msgstr "Tipe Struktur Gaji"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_view_hr_payroll_structure_from_type
@@ -3028,7 +3028,7 @@ msgstr ""
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_filter
 msgid "To Confirm"
-msgstr ""
+msgstr "Untuk Dikonfirmasi"
 
 #. module: hr_payroll
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_payroll_employee_payslips_to_pay
@@ -3135,7 +3135,7 @@ msgstr "Belum Dibayar"
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_payroll_report__work_type__3
 #: model_terms:ir.ui.view,arch_db:hr_payroll.payroll_report_view_dashboard
 msgid "Unpaid Time Off"
-msgstr ""
+msgstr "Cuti Tidak Berbayar"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_structure__unpaid_work_entry_type_ids
@@ -3230,7 +3230,7 @@ msgstr "Menunggu"
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__warning_message
 msgid "Warning Message"
-msgstr ""
+msgstr "Pesan Peringatan"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_salary_attachment.py:0
@@ -3290,7 +3290,7 @@ msgstr ""
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_payroll_work_entries_root
 #: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
 msgid "Work Entries"
-msgstr ""
+msgstr "Entri Kerja"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.hr_work_entry_report_action
@@ -3315,12 +3315,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_work_entry_report__work_entry_type_id
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_work_entry_report_view_search
 msgid "Work Entry Type"
-msgstr ""
+msgstr "Tipe Entri Kerja"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_report__count_work_hours
 msgid "Work Hours"
-msgstr ""
+msgstr "Jam Kerja"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_resource_calendar__work_time_rate
@@ -3415,6 +3415,14 @@ msgstr ""
 #: code:addons/hr_payroll/models/hr_payslip.py:0
 #, python-format
 msgid "You can't validate a cancelled payslip."
+msgstr ""
+
+#. module: hr_payroll
+#: code:addons/hr_payroll/models/hr_payslip_input_type.py:0
+#, python-format
+msgid ""
+"You cannot delete %s as it is used in another module but you can archive it "
+"instead."
 msgstr ""
 
 #. module: hr_payroll

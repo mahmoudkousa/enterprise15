@@ -42,19 +42,19 @@ msgstr ""
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.res_config_settings_view_form
 msgid "<i class=\"fa fa-print\"/> Print barcode commands"
-msgstr ""
+msgstr "<i class=\"fa fa-print\"/> Cetak command barcode"
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.view_mrp_workorder_additional_product_wizard
 #, python-format
 msgid "Add By-Product"
-msgstr ""
+msgstr "Tambahkan Produk-Sampingan"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet_menu
 msgid "Add By-product"
-msgstr ""
+msgstr "Tambahkan Produk-sampingan"
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
@@ -62,27 +62,27 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.view_mrp_workorder_additional_product_wizard
 #, python-format
 msgid "Add Component"
-msgstr ""
+msgstr "Tambahkan Komponen"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.view_mrp_workorder_additional_product_wizard
 msgid "Add product"
-msgstr ""
+msgstr "Tambahkan produk"
 
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_mrp_workorder_additional_product
 msgid "Additional Product"
-msgstr ""
+msgstr "Produk Tambahan"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__allow_producing_quantity_change
 msgid "Allow Changes to Producing Quantity"
-msgstr ""
+msgstr "Izinkan Perubahan ke Kuantitas Dibuat"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point_test_type__allow_registration
 msgid "Allow Registration"
-msgstr ""
+msgstr "Izinkan Pendaftaran"
 
 #. module: mrp_workorder
 #. openerp-web
@@ -120,17 +120,17 @@ msgstr "Blokir"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__bom_product_ids
 msgid "Bom Product"
-msgstr ""
+msgstr "Produk BoM"
 
 #. module: mrp_workorder
 #: model:ir.model.fields.selection,name:mrp_workorder.selection__mrp_workorder_additional_product__type__byproduct
 msgid "By-Product"
-msgstr ""
+msgstr "Produk-Sampingan"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
 msgid "By-product"
-msgstr ""
+msgstr "Produk sampingan"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
@@ -140,7 +140,7 @@ msgstr ""
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
 msgid "CONTINUE PRODUCTION"
-msgstr ""
+msgstr "LANJUTKAN PRODUKSI"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__product_uom_category_id
@@ -150,7 +150,7 @@ msgstr "Kategori"
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_change_production_qty
 msgid "Change Production Qty"
-msgstr ""
+msgstr "Ganti Kuantitas Produksi"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__check_ids
@@ -180,7 +180,7 @@ msgstr "Komponen"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__component_qty_to_do
 msgid "Component Qty To Do"
-msgstr ""
+msgstr "Kuantitas Komponen Untuk Dilakukan"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__component_uom_id
@@ -200,7 +200,7 @@ msgstr "Lanjutkan"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__control_date
 msgid "Control Date"
-msgstr ""
+msgstr "Tanggal Kontro"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,help:mrp_workorder.field_mrp_workorder_additional_product__product_uom_category_id
@@ -224,12 +224,12 @@ msgstr "Dibuat pada"
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
 msgid "Creates a new serial/lot number"
-msgstr ""
+msgstr "Buat nomor seri/lot baru"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__current_quality_check_id
 msgid "Current Quality Check"
-msgstr ""
+msgstr "Pemeriksaan Kualitas Saat Ini"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_inherit_workorder
@@ -240,7 +240,7 @@ msgstr "Tanggal"
 #. module: mrp_workorder
 #: model:ir.model.fields,help:mrp_workorder.field_quality_point__test_type_id
 msgid "Defines the type of the quality control point."
-msgstr ""
+msgstr "Mendefinisikan tipe control point kualitas."
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.view_mrp_workorder_additional_product_wizard
@@ -282,7 +282,7 @@ msgstr "Menu dropdown"
 #: model:ir.model.fields,help:mrp_workorder.field_mrp_workorder__component_tracking
 #: model:ir.model.fields,help:mrp_workorder.field_mrp_workorder_additional_product__product_tracking
 msgid "Ensure the traceability of a storable product in your warehouse."
-msgstr ""
+msgstr "Pastikan produk yang disimpan di gudang Anda dapat dilacak."
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
@@ -292,27 +292,27 @@ msgstr ""
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__finished_lot_id
 msgid "Finished Lot/Serial"
-msgstr ""
+msgstr "Lot/Seri Selesai"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_inherit_workorder
 msgid "Finished Lot/Serial Number"
-msgstr ""
+msgstr "Nomor Seri/Lot Jadi"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__finished_product_check_ids
 msgid "Finished Product Check"
-msgstr ""
+msgstr "Pemeriksaan Produk Jadi"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__finished_product_sequence
 msgid "Finished Product Sequence Number"
-msgstr ""
+msgstr "Urutan Nomor Produk Jadi"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_inherit_workorder
 msgid "Finished Steps"
-msgstr ""
+msgstr "Langkah-Langkah yang Selesai"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__id
@@ -347,7 +347,7 @@ msgstr ""
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__component_tracking
 msgid "Is Component Tracked"
-msgstr ""
+msgstr "Apakah Komponen Dilacak"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__is_first_step
@@ -362,22 +362,22 @@ msgstr ""
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__is_last_unfinished_wo
 msgid "Is Last Work Order To Process"
-msgstr ""
+msgstr "Apakah SPK Terakhir Untuk Diproses"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__is_last_lot
 msgid "Is Last lot"
-msgstr ""
+msgstr "Apakah lot Terakhir"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__is_first_started_wo
 msgid "Is The first Work Order"
-msgstr ""
+msgstr "Apakah SPK Pertama"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__is_workorder_step
 msgid "Is Workorder Step"
-msgstr ""
+msgstr "Apakah Langkah SPK"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product____last_update
@@ -412,7 +412,7 @@ msgstr "Seri/Lot"
 #. module: mrp_workorder
 #: model:res.groups,name:mrp_workorder.group_mrp_wo_tablet_timer
 msgid "Manage Work Order timer on Tablet View"
-msgstr ""
+msgstr "Kelola timer SPK pada Tampilan Tablet"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_production_tree_view_planning
@@ -427,7 +427,7 @@ msgstr "Tandai sebagai Selesai"
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
 msgid "Mark as Done and Close MO"
-msgstr ""
+msgstr "Tandai sebagai Selesai dan Tutup MO"
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
@@ -448,17 +448,17 @@ msgstr "Next"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__next_check_id
 msgid "Next Check"
-msgstr ""
+msgstr "Pemeriksaan Berikutnya"
 
 #. module: mrp_workorder
 #: model_terms:ir.actions.act_window,help:mrp_workorder.action_mrp_workorder_show_steps
 msgid "No manufacturing steps defined yet!"
-msgstr ""
+msgstr "Belum ada langkah manufaktur yang didefinisikan!"
 
 #. module: mrp_workorder
 #: model_terms:ir.actions.act_window,help:mrp_workorder.mrp_workorder_action_tablet
 msgid "No work orders to do!"
-msgstr ""
+msgstr "Tidak ada SPK untuk dilakukan!"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__note
@@ -500,31 +500,31 @@ msgstr "Gambar"
 #. module: mrp_workorder
 #: model:ir.ui.menu,name:mrp_workorder.menu_mrp_workorder_production
 msgid "Planning by Production"
-msgstr ""
+msgstr "Planning berdasarkan Produksi"
 
 #. module: mrp_workorder
 #: model:ir.ui.menu,name:mrp_workorder.menu_mrp_workorder_workcenter
 msgid "Planning by Workcenter"
-msgstr ""
+msgstr "Planning berdasarkan Pusat kerja"
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
 #, python-format
 msgid "Please ensure the quantity to produce is greater than 0."
-msgstr ""
+msgstr "Mohon pastikan kuantitas untuk diproduksi lebih besar dari 0."
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
 #, python-format
 msgid "Please enter a Lot/SN."
-msgstr ""
+msgstr "Mohon masukkan Nomor Seri/Lot."
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
 #, python-format
 msgid "Please enter a positive quantity."
-msgstr ""
+msgstr "Mohon masukkan kuantitas positif."
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
@@ -546,7 +546,7 @@ msgstr "Atur kuantitas yang sedang Anda produksi. Seharusnya bukan nol."
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
 #, python-format
 msgid "Please upload a picture."
-msgstr ""
+msgstr "Mohon unggah gambar."
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
@@ -556,12 +556,12 @@ msgstr "Sebelum"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__previous_check_id
 msgid "Previous Check"
-msgstr ""
+msgstr "Pemeriksaan Sebelumnya"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
 msgid "Print Labels"
-msgstr ""
+msgstr "Cetak Label"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__product_id
@@ -576,12 +576,12 @@ msgstr "Pergerakan Produk (Baris Pergerakan Stok)"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__component_id
 msgid "Product To Register"
-msgstr ""
+msgstr "Produk Untuk Didaftarkan"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__product_uom_id
 msgid "Product Uom"
-msgstr ""
+msgstr "Satuan Ukuran Produk"
 
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_mrp_production
@@ -604,58 +604,58 @@ msgstr "Produk"
 #: model:ir.model,name:mrp_workorder.model_quality_alert
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__quality_alert_ids
 msgid "Quality Alert"
-msgstr ""
+msgstr "Peringatan Kualitas"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__quality_alert_count
 msgid "Quality Alert Count"
-msgstr ""
+msgstr "Jumlah Peringatan Kualitas"
 
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_quality_check
 msgid "Quality Check"
-msgstr ""
+msgstr "Pemeriksaan Kualita"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__quality_check_fail
 msgid "Quality Check Fail"
-msgstr ""
+msgstr "Pemeriksaan Kualitas Gagal"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__quality_check_todo
 msgid "Quality Check Todo"
-msgstr ""
+msgstr "Pemeriksaan Kualitas untuk Dilakukan"
 
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_quality_point
 msgid "Quality Control Point"
-msgstr ""
+msgstr "Control Point Kualitas"
 
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_quality_point_test_type
 msgid "Quality Control Test Type"
-msgstr ""
+msgstr "Tipe Test Quality Control"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_routing_workcenter__quality_point_ids
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__quality_point_ids
 msgid "Quality Point"
-msgstr ""
+msgstr "Quality Point"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.view_routing_steps_search
 msgid "Quality Point Steps"
-msgstr ""
+msgstr "Langkah-Langkah Poin Kualitas"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,help:mrp_workorder.field_quality_point__product_ids
 msgid "Quality Point will apply to every selected Products."
-msgstr ""
+msgstr "Quality Point akan diterapkan ke setiap Produk yang dipilih."
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__quality_state
 msgid "Quality State"
-msgstr ""
+msgstr "Status Kualitas"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__product_qty
@@ -668,23 +668,23 @@ msgstr "Kuantitas"
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
 msgid "Record production"
-msgstr ""
+msgstr "Catat produksi"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__additional
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__additional
 msgid "Register additional product"
-msgstr ""
+msgstr "Catat produk tambahan"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__bom_active
 msgid "Related Bill of Material Active"
-msgstr ""
+msgstr "BoM Terkait Aktif"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__component_remaining_qty
 msgid "Remaining Quantity for Component"
-msgstr ""
+msgstr "Kuantitas Tersisa untuk Komponen"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__test_report_type
@@ -699,7 +699,7 @@ msgstr "Penanggung Jawab"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__result
 msgid "Result"
-msgstr ""
+msgstr "Hasil"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet_menu
@@ -724,7 +724,7 @@ msgstr ""
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.res_config_settings_view_form
 msgid "Show the timer on the work order screen"
-msgstr ""
+msgstr "Tunjukkan timer pada layar SPK"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
@@ -761,7 +761,7 @@ msgstr "Langkah"
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_routing_workcenter__quality_point_count
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__quality_point_count
 msgid "Steps"
-msgstr ""
+msgstr "Langkah-langkah"
 
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_stock_move
@@ -774,18 +774,18 @@ msgstr "Pergerakan Stok"
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__move_line_id
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__move_line_id
 msgid "Stock Move Line"
-msgstr ""
+msgstr "Stock Move Line"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__test_type
 msgid "Technical name"
-msgstr ""
+msgstr "Nama tekni"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__test_type_id
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__test_type_id
 msgid "Test Type"
-msgstr ""
+msgstr "Tipe Tes"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,help:mrp_workorder.field_quality_point__bom_id
@@ -795,7 +795,7 @@ msgstr ""
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_res_config_settings__group_mrp_wo_tablet_timer
 msgid "Timer"
-msgstr ""
+msgstr "Timer"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__title
@@ -837,7 +837,7 @@ msgstr "Satuan"
 #. module: mrp_workorder
 #: model:ir.actions.server,name:mrp_workorder.production_order_unplan_server_action
 msgid "Unplan orders"
-msgstr ""
+msgstr "Batalkan order yang direncanakan"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__component_uom_id
@@ -850,6 +850,8 @@ msgid ""
 "Use steps to show instructions on a worksheet to operators, or trigger "
 "quality checks at specific steps of the work order."
 msgstr ""
+"Gunakan langkah-langkah untuk menunjukkan instruksi pada lembar kerja ke "
+"operator, atau picu pemeriksaan kualitas pada langkah-langkah tertentu SPK."
 
 #. module: mrp_workorder
 #: model_terms:ir.actions.act_window,help:mrp_workorder.mrp_workorder_action_tablet
@@ -858,11 +860,14 @@ msgid ""
 "            The tablet provides worksheets for your workers and allow them to scrap products, track time,\n"
 "            launch a maintenance request, perform quality tests, etc."
 msgstr ""
+"Gunakan tabel control panel pusat kerja untuk langsung mendaftarkan operasi di lantai toko.\n"
+"            Tablet menyediakan lembar kerja untuk pekerja Anda dan memungkinkan mereka untuk membuang produk, melacak waktu,\n"
+"            menjalankan permintaan maintenance, menjalankan tes kualitas, dsb."
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
 msgid "VALIDATE"
-msgstr ""
+msgstr "VALIDASI"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,help:mrp_workorder.field_mrp_workorder___barcode_scanned
@@ -897,7 +902,7 @@ msgstr "Order Kerja"
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.quality_point_view_form_inherit_mrp
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.quality_point_view_tree
 msgid "Work Order Operation"
-msgstr ""
+msgstr "Operasi SPK"
 
 #. module: mrp_workorder
 #: model:ir.actions.act_window,name:mrp_workorder.mrp_workorder_action_tablet
@@ -908,7 +913,7 @@ msgstr "Order Kerja"
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workcenter_view_kanban_inherit_workorder
 msgid "Work orders"
-msgstr ""
+msgstr "SPK"
 
 #. module: mrp_workorder
 #: model_terms:ir.actions.act_window,help:mrp_workorder.mrp_workorder_action_tablet
@@ -916,11 +921,13 @@ msgid ""
 "Work orders are operations to do as part of a manufacturing order.\n"
 "            Operations are defined in the bill of materials or added in the manufacturing order directly."
 msgstr ""
+"SPK dalah operasi untuk dilakukan sebagai bagian dari manufacturing order.\n"
+"                    Operasi ditentukan di BoM atau ditambahkan langsung di manufacturing order."
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__workorder_id
 msgid "Workorder"
-msgstr ""
+msgstr "Workorder"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet_menu
@@ -935,12 +942,12 @@ msgstr "Lembar kerja"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__worksheet_page
 msgid "Worksheet Page"
-msgstr ""
+msgstr "Halaman Lembar kerja"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__worksheet_page
 msgid "Worksheet page"
-msgstr ""
+msgstr "Halaman lembar kerja"
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
@@ -957,12 +964,15 @@ msgid ""
 "You cannot update the quantity to do of an ongoing manufacturing order for "
 "which quality checks have been performed."
 msgstr ""
+"Anda tidak dapat mengupdate kuantitas untuk dipenuhi pada manufacturing "
+"order yang sedang berlangsung untuk mana pemeriksaan kualitasnya telah "
+"dilakukan."
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
 #, python-format
 msgid "You did not set a lot/serial number for the final product"
-msgstr ""
+msgstr "Anda tidak dapat menetapkan nomor seri/lot untuk produk final"
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
@@ -974,12 +984,12 @@ msgstr "Anda harus memberikan nomor seri/lot untuk produk jadi"
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
 #, python-format
 msgid "You still need to do the quality checks!"
-msgstr ""
+msgstr "Anda masih harus melakukan pemeriksaan kualitas!"
 
 #. module: mrp_workorder
 #: model:ir.model.fields.selection,name:mrp_workorder.selection__quality_point__test_report_type__zpl
 msgid "ZPL"
-msgstr ""
+msgstr "ZPL"
 
 #. module: mrp_workorder
 #. openerp-web

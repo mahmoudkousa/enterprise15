@@ -6,6 +6,7 @@
 # Martin Trigaux, 2021
 # Benjamin Stienon <tsb@odoo.com>, 2021
 # Cécile Collart <cco@odoo.com>, 2022
+# Jolien De Paepe, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,13 +14,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Cécile Collart <cco@odoo.com>, 2022\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Last-Translator: Jolien De Paepe, 2023\n"
+"Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. module: account_saft
 #: model:ir.model,name:account_saft.model_ir_attachment
@@ -50,6 +51,14 @@ msgstr "Veuillez définir le `Registre des entreprises` pour votre entreprise."
 #. module: account_saft
 #: code:addons/account_saft/models/account_general_ledger.py:0
 #, python-format
+msgid "Please define a `Phone` or `Mobile` for your company."
+msgstr ""
+"Veuillez définir un `numéro de téléphone` ou `numéro de téléphone portable` "
+"pour votre société."
+
+#. module: account_saft
+#: code:addons/account_saft/models/account_general_ledger.py:0
+#, python-format
 msgid ""
 "Please define at least one address (Zip/City) for the following partners: "
 "%s."
@@ -66,3 +75,10 @@ msgid ""
 msgstr ""
 "Veuillez définir au moins un contact (Téléphone Fixe ou Mobile) pour les "
 "partenaires suivants : %s."
+
+#. module: account_saft
+#: code:addons/account_saft/models/account_general_ledger.py:0
+#, python-format
+msgid "Please define one or more Contacts belonging to your company."
+msgstr ""
+"Veuillez définir un ou plusieurs contacts appartenant à votre société."

@@ -41,12 +41,29 @@ msgid "<i class=\"fa fa-heart\" title=\"Likes\"/>"
 msgstr "<i class=\"fa fa-heart\" title=\"Likes\"/>"
 
 #. module: social_twitter
+#: code:addons/social_twitter/controllers/main.py:0
+#, python-format
+msgid "Authentication failed. Please enter valid credentials."
+msgstr ""
+"Échec de l'authentification. Veuillez saisir des identifiants valides."
+
+#. module: social_twitter
 #. openerp-web
 #: code:addons/social_twitter/static/src/xml/social_twitter_templates.xml:0
 #: model_terms:ir.ui.view,arch_db:social_twitter.social_stream_post_view_kanban
 #, python-format
 msgid "Author Image"
 msgstr "Auteur de l'image"
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid ""
+"Can not like / unlike the tweet\n"
+"%s."
+msgstr ""
+"Impossible d'aimer / ne pas aimer le tweet\n"
+"%s."
 
 #. module: social_twitter
 #: model:ir.model.fields,help:social_twitter.field_res_config_settings__twitter_use_own_account
@@ -97,6 +114,39 @@ msgstr "Nom d'affichage"
 #: model:ir.model.fields,field_description:social_twitter.field_social_post_template__display_twitter_preview
 msgid "Display Twitter Preview"
 msgstr "Afficher l'aperçu Twitter"
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid ""
+"Failed to delete the Tweet\n"
+"%s."
+msgstr ""
+"Échec de la suppression du tweet\n"
+"%s."
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid "Failed to fetch the conversation id: '%s' using the account %i."
+msgstr ""
+"Échec de la récupération de l'id de la conversation : '%s' avec le compte "
+"%i."
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid ""
+"Failed to fetch the tweets in the same thread: '%s' using the account %i."
+msgstr ""
+"Échec de la récupération des tweets dans le même fil : '%s' avec le compte "
+"%i."
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid "Failed to post comment: %s with the account %i."
+msgstr "Échec de publier le commentaire : %s avec le compte %i."
 
 #. module: social_twitter
 #: model:social.stream.type,name:social_twitter.stream_type_twitter_likes
@@ -265,6 +315,14 @@ msgstr ""
 "l'auteur de l'application."
 
 #. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid "This tweet is older than 7 days and so we can not get the replies."
+msgstr ""
+"Ce tweet date de plus de 7 jours et nous ne pouvons pas recevoir les "
+"réponses."
+
+#. module: social_twitter
 #: model:social.stream.type,name:social_twitter.stream_type_twitter_follow
 msgid "Tweets of"
 msgstr "Tweets de"
@@ -414,6 +472,17 @@ msgid ""
 msgstr ""
 "Utilisé pour établir des comparaisons lorsque l'on doit restreindre "
 "certaines fonctionnalités à un média spécifique (Facebook, Twitter,...) "
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_account.py:0
+#, python-format
+msgid ""
+"We could not upload your image, it may be corrupted, it may exceed size "
+"limit or API may have send improper response (error: %s)."
+msgstr ""
+"Impossible de charger votre image. Il se peut qu'elle soit corrompue, "
+"qu'elle dépasse la taille maximale ou que l'API ait envoyé une réponse "
+"inappropriée (erreur : %s)."
 
 #. module: social_twitter
 #: code:addons/social_twitter/models/social_account.py:0

@@ -3,8 +3,8 @@
 # 	* appointment_crm
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2021
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-07 13:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:38+0000\n"
-"Last-Translator: Friederike Fasterling-Nesselbosch, 2021\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Last-Translator: Martin Trigaux, 2023\n"
+"Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -23,12 +23,12 @@ msgstr ""
 #. module: appointment_crm
 #: model:ir.model,name:appointment_crm.model_calendar_appointment_type
 msgid "Appointment Type"
-msgstr "Termintyp"
+msgstr "Terminart"
 
 #. module: appointment_crm
 #: model:ir.model,name:appointment_crm.model_calendar_event
 msgid "Calendar Event"
-msgstr "Kalender Veranstaltung"
+msgstr "Kalender-Ereignis"
 
 #. module: appointment_crm
 #: model:ir.model.fields,field_description:appointment_crm.field_calendar_appointment_type__lead_create

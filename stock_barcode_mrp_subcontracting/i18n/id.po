@@ -23,14 +23,14 @@ msgstr ""
 #. module: stock_barcode_mrp_subcontracting
 #: model:ir.model.fields,field_description:stock_barcode_mrp_subcontracting.field_stock_move_line__is_subcontract_stock_barcode
 msgid "Is Subcontract Stock Barcode"
-msgstr ""
+msgstr "Apakah Barcode Stok Subkontrak"
 
 #. module: stock_barcode_mrp_subcontracting
 #. openerp-web
 #: code:addons/stock_barcode_mrp_subcontracting/static/src/models/barcode_picking_model.js:0
 #, python-format
 msgid "No components to register"
-msgstr ""
+msgstr "Tidak ada komponen untuk didaftarkan"
 
 #. module: stock_barcode_mrp_subcontracting
 #. openerp-web
@@ -49,14 +49,14 @@ msgstr "Pergerakan Produk (Baris Pergerakan Stok)"
 #: code:addons/stock_barcode_mrp_subcontracting/static/src/components/main.xml:0
 #, python-format
 msgid "Record Components"
-msgstr ""
+msgstr "Catat Komponen"
 
 #. module: stock_barcode_mrp_subcontracting
 #. openerp-web
 #: code:addons/stock_barcode_mrp_subcontracting/static/src/components/line.xml:0
 #, python-format
 msgid "Show subcontract Details"
-msgstr ""
+msgstr "Tunjukkan Detail subkontrak"
 
 #. module: stock_barcode_mrp_subcontracting
 #: model:ir.model,name:stock_barcode_mrp_subcontracting.model_stock_picking

@@ -125,12 +125,12 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__invalid_partner_ids
 #, python-format
 msgid "Invalid Addresses"
-msgstr "Direcciones inválidas"
+msgstr "Direcciones no válidas"
 
 #. module: snailmail_account_followup
 #: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__invalid_addresses
 msgid "Invalid Addresses Count"
-msgstr "Número de direcciones invalidadas"
+msgstr "Número de direcciones no válidas"
 
 #. module: snailmail_account_followup
 #: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send____last_update

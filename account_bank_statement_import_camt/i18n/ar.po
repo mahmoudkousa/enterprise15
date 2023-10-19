@@ -814,14 +814,14 @@ msgstr "متداولة "
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Exchange Traded CCP"
-msgstr ""
+msgstr "CCP المؤشرات المتداولة "
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Exchange Traded Non-CCP"
-msgstr ""
+msgstr "المؤشرات المتداولة لغير CCP "
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -974,7 +974,7 @@ msgstr "تجميد الأموال"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Full Call / Early Redemption"
-msgstr ""
+msgstr "الدفع قبل تاريخ الاستحقاق / التحصيل قبل تاريخ الاستحقاق "
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1393,7 +1393,7 @@ msgstr "ضمانات العقود الآجلة المملوكة لوسيط ال�
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Option client owned collateral"
-msgstr ""
+msgstr "ضمانات العقود الآجلة المملوكة لعميل الخيارات "
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1747,7 +1747,7 @@ msgstr ""
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Same Day Value Credit Transfer"
-msgstr ""
+msgstr "تحويل الرصيد بقيمة نفس اليوم "
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1925,7 +1925,7 @@ msgstr "القروض المشتركة "
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "TBA closing"
-msgstr ""
+msgstr "إغلاق TBA "
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -1958,7 +1958,7 @@ msgstr ""
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Trade"
-msgstr ""
+msgstr "تداول "
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0

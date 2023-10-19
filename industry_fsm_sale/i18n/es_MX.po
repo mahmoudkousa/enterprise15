@@ -250,7 +250,7 @@ msgstr "Facturas"
 #, python-format
 msgid "Let's <b>track the material</b> you use for your task."
 msgstr ""
-"<b>Llevemos un seguimiento de los materiales</b>que utiliza en su tarea."
+"Llevemos un <b>seguimiento de los materiales</b>que utiliza en su tarea."
 
 #. module: industry_fsm_sale
 #. openerp-web
@@ -282,12 +282,12 @@ msgstr "Nueva cotización"
 #. module: industry_fsm_sale
 #: model_terms:ir.actions.act_window,help:industry_fsm_sale.product_action_fsm
 msgid "No products found. Let's create one!"
-msgstr "No se encontraron productos. ¡Vamos a crear uno!"
+msgstr "No se ha encontrado ningún producto. ¡Creemos uno!"
 
 #. module: industry_fsm_sale
 #: model_terms:ir.actions.act_window,help:industry_fsm_sale.project_task_action_to_invoice_fsm
 msgid "No tasks found. Let's create one!"
-msgstr "No se encontraron tareas. ¡Vamos a crear una!"
+msgstr "No se encontraron tareas. ¡Creemos una!"
 
 #. module: industry_fsm_sale
 #: model_terms:ir.ui.view,arch_db:industry_fsm_sale.view_product_product_kanban_material

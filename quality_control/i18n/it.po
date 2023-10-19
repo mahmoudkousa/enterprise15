@@ -6,6 +6,8 @@
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
 # Sergio Zanchetta <primes2h@gmail.com>, 2023
+# Stefano Consolaro <stefano.consolaro@mymage.it>, 2023
+# Marianna Ciofani, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:42+0000\n"
 "PO-Revision-Date: 2021-09-14 12:42+0000\n"
-"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2023\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Last-Translator: Marianna Ciofani, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -35,7 +37,7 @@ msgstr "% degli Transfer"
 #: model:ir.actions.report,print_report_name:quality_control.quality_check_report
 #: model:ir.actions.report,print_report_name:quality_control.quality_check_report_internal
 msgid "'Worksheet_%s' % object.name"
-msgstr ""
+msgstr "'Foglio_di_lavoro_%s' % object.name"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_team_dashboard_view_kanban
@@ -131,7 +133,7 @@ msgstr "<strong>Numero di lotto/serie:</strong>"
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
 msgid "<strong>Measure : </strong>"
-msgstr ""
+msgstr "<strong>Misura: </strong>"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
@@ -212,7 +214,7 @@ msgstr "Tutti"
 #. module: quality_control
 #: model:ir.model.fields.selection,name:quality_control.selection__stock_move_line__check_state__pass
 msgid "All checks passed"
-msgstr ""
+msgstr "Superati tutti i controlli"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_search
@@ -237,7 +239,7 @@ msgstr "Controlla"
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_stock_move_line__check_state
 msgid "Check State"
-msgstr ""
+msgstr "Stato controllo"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_tree
@@ -490,7 +492,7 @@ msgstr "Istruzioni"
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__is_last_check
 msgid "Is Last Check"
-msgstr ""
+msgstr "È l'ultimo controllo"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard____last_update
@@ -511,14 +513,14 @@ msgstr "Ultimo aggiornamento il"
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__lot_line_id
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__lot_line_id
 msgid "Lot Line"
-msgstr ""
+msgstr "Riga loto"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__is_lot_tested_fractionally
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__is_lot_tested_fractionally
 #: model:ir.model.fields,field_description:quality_control.field_quality_point__is_lot_tested_fractionally
 msgid "Lot Tested Fractionally"
-msgstr ""
+msgstr "Lotto testato in modo frazionato"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.view_quality_check_wizard
@@ -588,7 +590,7 @@ msgstr "Mesi"
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__nb_checks
 msgid "Nb Checks"
-msgstr ""
+msgstr "N. di controlli"
 
 #. module: quality_control
 #: code:addons/quality_control/models/quality.py:0
@@ -678,7 +680,7 @@ msgstr "Panoramica"
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_form_inherit_quality_control
 msgid "Partial Transfer Test"
-msgstr ""
+msgstr "Test trasferimento parziale"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_check_view_form
@@ -727,7 +729,7 @@ msgstr "Immagine caricata"
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__position_current_check
 msgid "Position Current Check"
-msgstr ""
+msgstr "Posizione controllo attuale"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_view_form
@@ -855,7 +857,7 @@ msgstr "Controllo qualità fallito"
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.worksheet_page
 msgid "Quality Check Picture"
-msgstr ""
+msgstr "Immagie controllo qualità"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_stock_production_lot__quality_check_qty
@@ -957,12 +959,12 @@ msgstr ""
 #. module: quality_control
 #: model:ir.model,name:quality_control.model_report_quality_control_quality_worksheet_internal
 msgid "Quality Worksheet Internal Report"
-msgstr ""
+msgstr "Resoconto interno fogli di lavoro qualità"
 
 #. module: quality_control
 #: model:ir.model,name:quality_control.model_report_quality_control_quality_worksheet
 msgid "Quality Worksheet Report"
-msgstr ""
+msgstr "Resoconto foglio di lavoro qualità"
 
 #. module: quality_control
 #: model_terms:ir.actions.act_window,help:quality_control.quality_point_action
@@ -1016,7 +1018,7 @@ msgstr "Riferimento"
 #. module: quality_control
 #: model:ir.ui.menu,name:quality_control.menu_quality_reporting
 msgid "Reporting"
-msgstr "Rendicontazione"
+msgstr "Rendiconto"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_search
@@ -1027,7 +1029,7 @@ msgstr "Responsabile"
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__show_lot_text
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__show_lot_text
 msgid "Show Lot Text"
-msgstr ""
+msgstr "Visualizza testo lotto"
 
 #. module: quality_control
 #: model:ir.model.fields.selection,name:quality_control.selection__stock_move_line__check_state__fail
@@ -1100,14 +1102,14 @@ msgstr "Tipo di test"
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_point_view_tree
 msgid "Testing % Within Lot"
-msgstr ""
+msgstr "% da testare nel lotto"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__testing_percentage_within_lot
 #: model:ir.model.fields,field_description:quality_control.field_quality_check_wizard__testing_percentage_within_lot
 #: model:ir.model.fields,field_description:quality_control.field_quality_point__testing_percentage_within_lot
 msgid "Testing Percentage Within Lot"
-msgstr ""
+msgstr "Percentuale da testare nel lotto"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_alert__title
@@ -1162,17 +1164,17 @@ msgstr "Settimane"
 #. module: quality_control
 #: model:ir.model,name:quality_control.model_quality_check_wizard
 msgid "Wizard for Quality Check Pop Up"
-msgstr ""
+msgstr "Procedura guidata per la finestra automatica del controllo qualità"
 
 #. module: quality_control
 #: model:ir.actions.report,name:quality_control.quality_check_report
 msgid "Worksheet Report - External (PDF)"
-msgstr ""
+msgstr "Resoconto foglio di lavoro - esterno (PDF)"
 
 #. module: quality_control
 #: model:ir.actions.report,name:quality_control.quality_check_report_internal
 msgid "Worksheet Report - Internal (PDF)"
-msgstr ""
+msgstr "Resoconto foglio di lavoro - interno (PDF)"
 
 #. module: quality_control
 #: code:addons/quality_control/models/quality.py:0
@@ -1189,4 +1191,4 @@ msgstr "Si deve ancora fare i controlli di qualità!"
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_team_view_form
 msgid "e.g. The QA Masters"
-msgstr ""
+msgstr "es. il master AQ"

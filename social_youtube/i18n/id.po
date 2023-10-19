@@ -18,7 +18,7 @@ msgstr ""
 "POT-Creation-Date: 2021-09-14 11:01+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
 "Last-Translator: Abe Manyo, 2023\n"
-"Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
+"Language-Team: Indonesian (https://app.transifex.com/odoo/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -99,7 +99,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:social_youtube.social_stream_post_view_kanban
 #, python-format
 msgid "Author Image"
-msgstr ""
+msgstr "Gambar Pencipta"
 
 #. module: social_youtube
 #: model_terms:ir.ui.view,arch_db:social_youtube.social_account_view_form
@@ -198,12 +198,12 @@ msgstr ""
 #: code:addons/social_youtube/static/src/xml/social_youtube_templates.xml:0
 #, python-format
 msgid "Likes"
-msgstr ""
+msgstr "Likes"
 
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_social_media__media_type
 msgid "Media Type"
-msgstr ""
+msgstr "Tipe Media"
 
 #. module: social_youtube
 #. openerp-web
@@ -269,12 +269,12 @@ msgstr ""
 #. module: social_youtube
 #: model:ir.model,name:social_youtube.model_social_account
 msgid "Social Account"
-msgstr ""
+msgstr "Akun Sosial"
 
 #. module: social_youtube
 #: model:ir.model,name:social_youtube.model_social_live_post
 msgid "Social Live Post"
-msgstr ""
+msgstr "Social Live Post"
 
 #. module: social_youtube
 #: model:ir.model,name:social_youtube.model_social_media
@@ -289,7 +289,7 @@ msgstr "Post Sosial"
 #. module: social_youtube
 #: model:ir.model,name:social_youtube.model_social_post_template
 msgid "Social Post Template"
-msgstr ""
+msgstr "Social Post Template"
 
 #. module: social_youtube
 #: model:ir.model,name:social_youtube.model_social_stream
@@ -299,7 +299,7 @@ msgstr "Streaming sosial"
 #. module: social_youtube
 #: model:ir.model,name:social_youtube.model_social_stream_post
 msgid "Social Stream Post"
-msgstr ""
+msgstr "Social Stream Post"
 
 #. module: social_youtube
 #: code:addons/social_youtube/models/social_post.py:0
@@ -321,11 +321,18 @@ msgid ""
 "The url that this service requested returned an error. Please contact the "
 "author of the app."
 msgstr ""
+"Url yang layanan ini minta mengembalikkan error. Mohon kontak pencipta app."
 
 #. module: social_youtube
 #: code:addons/social_youtube/models/social_live_post.py:0
 #, python-format
 msgid "The video you are trying to publish has been deleted from YouTube."
+msgstr ""
+
+#. module: social_youtube
+#: code:addons/social_youtube/controllers/main.py:0
+#, python-format
+msgid "There is no channel linked with this YouTube account."
 msgstr ""
 
 #. module: social_youtube
@@ -344,7 +351,7 @@ msgstr ""
 #: code:addons/social_youtube/controllers/main.py:0
 #, python-format
 msgid "Unauthorized. Please contact your administrator."
-msgstr ""
+msgstr "Tidak diotorisasi. Mohon hubungi administrator Anda."
 
 #. module: social_youtube
 #. openerp-web
@@ -392,6 +399,8 @@ msgid ""
 "Used to make comparisons when we need to restrict some features to a "
 "specific media ('facebook', 'twitter', ...)."
 msgstr ""
+"Digunakan untuk membuat perbandingan saat kita harus membatasi beberapa "
+"fitur ke media spesifik ('facebook', 'twitter', ...)."
 
 #. module: social_youtube
 #: code:addons/social_youtube/models/social_post.py:0
@@ -441,6 +450,7 @@ msgstr ""
 #, python-format
 msgid "You don't have an active subscription. Please buy one here: %s"
 msgstr ""
+"Anda tidak memiliki langganan yang aktif. Mohon beli langganan di sini: %s"
 
 #. module: social_youtube
 #: code:addons/social_youtube/models/social_post.py:0

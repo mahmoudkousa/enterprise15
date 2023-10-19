@@ -7,6 +7,7 @@
 # Mark Lee <odoos@soti.33mail.com>, 2021
 # Linkup <link-up@naver.com>, 2022
 # Sarah Park, 2023
+# Daye Jeong, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 09:01+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Sarah Park, 2023\n"
+"Last-Translator: Daye Jeong, 2023\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -115,8 +116,8 @@ msgstr "%(name)s 의 회사 간 항목에는 사용자가 한 명 이상 있어�
 #. module: sale_purchase_inter_company_rules
 #: code:addons/sale_purchase_inter_company_rules/models/sale_order.py:0
 #, python-format
-msgid "Provide one user for intercompany relation for % "
-msgstr "%에 대한 회사 간 관계를 위해 한 명 이상의 사용자 필요"
+msgid "Provide one user for intercompany relation for %(name)s "
+msgstr "%(name)s의 회사 간 항목에는 사용자가 한 명 있어야 합니다."
 
 #. module: sale_purchase_inter_company_rules
 #: model:ir.model,name:sale_purchase_inter_company_rules.model_purchase_order

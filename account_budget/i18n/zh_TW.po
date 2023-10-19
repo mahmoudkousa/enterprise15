@@ -308,7 +308,7 @@ msgstr "Font awesome 圖示，例如，fa-task"
 #. module: account_budget
 #: model_terms:ir.ui.view,arch_db:account_budget.crossovered_budget_view_form
 msgid "From"
-msgstr "來自"
+msgstr "由"
 
 #. module: account_budget
 #: model_terms:ir.ui.view,arch_db:account_budget.view_crossovered_budget_search

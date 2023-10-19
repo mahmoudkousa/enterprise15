@@ -3,12 +3,13 @@
 # 	* sale_subscription
 # 
 # Translators:
-# Amin Cheloh <nineamin@hotmail.com>, 2021
+# Amin Cheloh <amincheloh@gmail.com>, 2021
 # Pornvibool Tippayawat <pornvibool.t@gmail.com>, 2021
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2021
 # Odoo Thaidev <odoothaidev@gmail.com>, 2021
 # Martin Trigaux, 2021
 # Wichanon Jamwutthipreecha, 2022
+# Rasareeyar Lappiam, 2023
 # 
 msgid ""
 msgstr ""
@@ -16,8 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:42+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Wichanon Jamwutthipreecha, 2022\n"
-"Language-Team: Thai (https://www.transifex.com/odoo/teams/41243/th/)\n"
+"Last-Translator: Rasareeyar Lappiam, 2023\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1902,7 +1903,7 @@ msgstr "ไอดีภายนอก"
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_alert__on_change_field_ids
 msgid "Fields that trigger the onchange."
-msgstr ""
+msgstr "ฟิลด์ที่ทริกเกอร์การเปลี่ยนแปลง"
 
 #. module: sale_subscription
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_template__recurring_rule_boundary__limited
@@ -2096,13 +2097,14 @@ msgid ""
 "If present, this condition must be satisfied before executing the action "
 "rule."
 msgstr ""
+"หากมี ต้องปฏิบัติตามเงื่อนไขนี้ก่อนที่จะดำเนินการในส่วนของกฎการดำเนินการ"
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_alert__filter_pre_domain
 msgid ""
 "If present, this condition must be satisfied before the update of the "
 "record."
-msgstr ""
+msgstr "หากมี จะต้องเป็นไปตามเงื่อนไขนี้ก่อนที่จะอัปเดตบันทึก"
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription__date
@@ -2110,6 +2112,8 @@ msgid ""
 "If set in advance, the subscription will be set to renew 1 month before the "
 "date and will be closed on the date set in this field."
 msgstr ""
+"หากตั้งค่าไว้ล่วงหน้า การสมัครจะถูกตั้งค่าให้ต่ออายุ 1 "
+"เดือนก่อนวันที่และจะปิดตามวันที่กำหนดในช่องนี้"
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_product_product__recurring_invoice
@@ -2117,6 +2121,7 @@ msgstr ""
 msgid ""
 "If set, confirming a sale order with this product will create a subscription"
 msgstr ""
+"หากตั้งค่าไว้ การยืนยันคำสั่งซื้อขายด้วยสินค้านี้จะสร้างการสมัครสมาชิก"
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_template__journal_id
@@ -2124,6 +2129,8 @@ msgid ""
 "If set, subscriptions with this template will invoice in this journal; "
 "otherwise the sales journal with the lowest sequence is used."
 msgstr ""
+"หากตั้งค่าไว้ การสมัครสมาชิกด้วยเทมเพลตนี้จะออกใบแจ้งหนี้ในสมุดรายวันนี้ "
+"ไม่เช่นนั้นจะใช้สมุดรายวันการขายที่มีลำดับต่ำสุด"
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_template__auto_close_limit
@@ -2183,7 +2190,7 @@ msgstr "อุตสาหกรรม"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
 msgid "Initial"
-msgstr ""
+msgstr "อักษรย่อ"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__partner_invoice_id
@@ -2325,7 +2332,7 @@ msgstr "แก้ไขครั้งล่าสุดเมื่อ"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__last_run
 msgid "Last Run"
-msgstr ""
+msgstr "รันครั้งสุดท้าย"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__write_uid
@@ -2390,7 +2397,7 @@ msgstr "คะแนนล่าสุด: พอใจ"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__least_delay_msg
 msgid "Least Delay Msg"
-msgstr ""
+msgstr "ข้อความที่เกี่ยวกับความล่าช้าน้อยที่สุด"
 
 #. module: sale_subscription
 #. openerp-web
@@ -2441,7 +2448,7 @@ msgstr "MRR เปลี่ยนจำนวน"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
 msgid "MRR Change More"
-msgstr ""
+msgstr "MRR เปลี่ยนแปลงเพิ่มเติม"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__mrr_change_period
@@ -2456,12 +2463,12 @@ msgstr "MRR เปลี่ยนหน่วย"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__mrr_max
 msgid "MRR Range Max"
-msgstr ""
+msgstr "ช่วงสูงสุดของ MRR"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__mrr_min
 msgid "MRR Range Min"
-msgstr ""
+msgstr "ช่วงต่ำสุดของ MRR"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_log__recurring_monthly
@@ -2471,7 +2478,7 @@ msgstr ""
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_log__recurring_monthly
 msgid "MRR, after applying the changes of that particular event"
-msgstr ""
+msgstr "MRR หลังจากใช้การเปลี่ยนแปลงของเหตุการณ์นั้นแล้ว"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__message_main_attachment_id
@@ -2607,7 +2614,7 @@ msgstr "ชื่อ"
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription__health__normal
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_report__health__normal
 msgid "Neutral"
-msgstr ""
+msgstr "เป็นกลาง"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
@@ -2722,7 +2729,7 @@ msgstr "สมัครสมาชิกทำความสะอาดสำ
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__on_change_field_ids
 msgid "On Change Fields Trigger"
-msgstr ""
+msgstr "เมื่อเปลี่ยนทริกเกอร์ฟิลด์"
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_alert__help
@@ -2844,7 +2851,7 @@ msgstr "อยู่ระหว่างดำเนินการสมัค
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_alert__mrr_change_period
 msgid "Period over which the KPI is calculated"
-msgstr ""
+msgstr "ระยะเวลาในการคำนวณ KPI"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
@@ -3066,7 +3073,7 @@ msgstr "สามารถต่ออายุ"
 #. module: sale_subscription
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order__subscription_management__renew
 msgid "Renewal"
-msgstr ""
+msgstr "ต่ออายุ"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_payment_transaction__renewal_allowed
@@ -3128,7 +3135,7 @@ msgstr "การเก็บรักษา"
 #. module: sale_subscription
 #: model:ir.actions.act_window,name:sale_subscription.sale_subscription_report_cohort_action
 msgid "Retention Analysis"
-msgstr ""
+msgstr "การวิเคราะห์การเก็บรักษา"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
@@ -3415,7 +3422,7 @@ msgstr ""
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
 msgid "Stage goes from"
-msgstr ""
+msgstr "ขั้นตอนไปจาก"
 
 #. module: sale_subscription
 #: model:ir.actions.act_window,name:sale_subscription.sale_subscription_stage_action
@@ -3996,6 +4003,13 @@ msgid "This upsell order has been created from the subscription "
 msgstr "คำสั่งเพิ่มยอดนี้ถูกสร้างขึ้นจากการสมัครสมาชิก"
 
 #. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+msgid ""
+"This will trigger the action on all linked subscriptions, regardless of "
+"possible timed conditions. Are you sure you want to proceed?"
+msgstr ""
+
+#. module: sale_subscription
 #: model:uom.category,name:sale_subscription.uom_categ_time
 msgid "Time"
 msgstr "เวลา"
@@ -4361,6 +4375,16 @@ msgstr "รายได้ประจำต่อปี"
 #: model:uom.uom,name:sale_subscription.subscription_uom_year
 msgid "Years"
 msgstr "ปี"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/res_partner.py:0
+#, python-format
+msgid ""
+"You can't archive the partner as it is used in the following recurring "
+"orders: %s"
+msgstr ""
+"คุณไม่สามารถเก็บถาวรพาร์ทเนอร์ได้ "
+"เนื่องจากใช้ในคำสั่งซื้อที่เกิดซ้ำต่อไปนี้: %s"
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/models/sale_order.py:0

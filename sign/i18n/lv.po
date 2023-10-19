@@ -9,8 +9,8 @@
 # JanisJanis <jbojars@gmail.com>, 2022
 # Martin Trigaux, 2022
 # Anzelika Adejanova, 2022
-# Armīns Jeltajevs <armins.jeltajevs@gmail.com>, 2023
 # Will Sensors, 2023
+# Armīns Jeltajevs <armins.jeltajevs@gmail.com>, 2023
 # ievaputnina <ievai.putninai@gmail.com>, 2023
 # 
 msgid ""
@@ -1467,6 +1467,12 @@ msgid "Main Attachment"
 msgstr "Galvenais pielikums"
 
 #. module: sign
+#: code:addons/sign/models/sign_template.py:0
+#, python-format
+msgid "Malformed expression: %(exp)s"
+msgstr ""
+
+#. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
@@ -1552,7 +1558,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "My Requests"
-msgstr ""
+msgstr "Mani pieprasījumi"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_search
@@ -2912,6 +2918,15 @@ msgid "There are no signatures request."
 msgstr ""
 
 #. module: sign
+#: code:addons/sign/models/sign_request.py:0
+#: code:addons/sign/models/sign_request.py:0
+#, python-format
+msgid ""
+"There was an issue downloading your document. Please contact an "
+"administrator."
+msgstr ""
+
+#. module: sign
 #: code:addons/sign/models/sign_template.py:0
 #, python-format
 msgid "This file cannot be read. Is it a valid PDF?"
@@ -2997,6 +3012,14 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Unable to send the SMS, please contact the sender of the document."
+msgstr ""
+
+#. module: sign
+#: code:addons/sign/controllers/main.py:0
+#, python-format
+msgid ""
+"Unable to sign the document due to missing required data. Please contact an "
+"administrator."
 msgstr ""
 
 #. module: sign
@@ -3219,7 +3242,7 @@ msgstr ""
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Your email"
-msgstr ""
+msgstr "Jūsu e-pasts"
 
 #. module: sign
 #. openerp-web

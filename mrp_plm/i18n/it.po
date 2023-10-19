@@ -183,7 +183,7 @@ msgstr "Tutte le validazioni"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__allow_change_kanban_state
 msgid "Allow Change Kanban State"
-msgstr ""
+msgstr "Consenti di cambiare lo stato kanban"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__allow_change_stage
@@ -559,7 +559,7 @@ msgstr "Descrizione"
 #. module: mrp_plm
 #: model:ir.model.fields,help:mrp_plm.field_mrp_eco_stage__description
 msgid "Description and tooltips of the stage states."
-msgstr ""
+msgstr "Descrizione e informazioni sugli stati della fase."
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_view_form

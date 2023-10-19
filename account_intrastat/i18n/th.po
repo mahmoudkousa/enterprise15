@@ -3,8 +3,9 @@
 # 	* account_intrastat
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Wichanon Jamwutthipreecha, 2022
+# Martin Trigaux, 2023
+# Rasareeyar Lappiam, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Wichanon Jamwutthipreecha, 2022\n"
-"Language-Team: Thai (https://www.transifex.com/odoo/teams/41243/th/)\n"
+"Last-Translator: Rasareeyar Lappiam, 2023\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -30,7 +31,7 @@ msgstr ""
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_intrastat_extended
 msgid "<span class=\"fa fa-filter\"/> Options:"
-msgstr ""
+msgstr "<span class=\"fa fa-filter\"/> ตัวเลือก:"
 
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_vat
@@ -47,28 +48,28 @@ msgstr "ทั้งหมด"
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 #, python-format
 msgid "Arrival"
-msgstr ""
+msgstr "การมาถึง"
 
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.invoice_form_inherit_account_intrastat
 msgid "Arrival country"
-msgstr ""
+msgstr "ประเทศที่มาถึง"
 
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.view_intrastat_code_search
 msgid "By country"
-msgstr ""
+msgstr "ตามประเทศ"
 
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.view_intrastat_code_search
 msgid "By type"
-msgstr ""
+msgstr "ตามประเภท"
 
 #. module: account_intrastat
 #: model:ir.model.fields.selection,name:account_intrastat.selection__account_intrastat_code__type__commodity
 #: model_terms:ir.ui.view,arch_db:account_intrastat.view_intrastat_code_search
 msgid "Commodity"
-msgstr ""
+msgstr "สินค้าโภคภัณฑ์"
 
 #. module: account_intrastat
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
@@ -77,7 +78,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_intrastat.field_product_template__intrastat_id
 #, python-format
 msgid "Commodity Code"
-msgstr ""
+msgstr "รหัสสินค้า"
 
 #. module: account_intrastat
 #: model:ir.model,name:account_intrastat.model_res_company
@@ -109,7 +110,7 @@ msgstr "รหัสประเทศ"
 #: model:ir.model.fields,field_description:account_intrastat.field_product_product__intrastat_origin_country_id
 #: model:ir.model.fields,field_description:account_intrastat.field_product_template__intrastat_origin_country_id
 msgid "Country of Origin"
-msgstr ""
+msgstr "ประเทศต้นกำเนิด"
 
 #. module: account_intrastat
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
@@ -126,7 +127,7 @@ msgstr ""
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 #, python-format
 msgid "Dispatch"
-msgstr ""
+msgstr "จัดส่ง"
 
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_intrastat_extended
@@ -136,7 +137,7 @@ msgstr ""
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_intrastat_extended
 msgid "Extended Mode"
-msgstr ""
+msgstr "โหมดเพิ่มเติม"
 
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_vat
@@ -147,7 +148,7 @@ msgstr ""
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 #, python-format
 msgid "Incoterm Code"
-msgstr ""
+msgstr "รหัส Incoterm"
 
 #. module: account_intrastat
 #: model:ir.model.fields,field_description:account_intrastat.field_account_move_line__intrastat_transaction_id
@@ -164,14 +165,14 @@ msgstr "Belgian Intrastat Declaration"
 #: model:ir.ui.menu,name:account_intrastat.menu_report_intrastat_code
 #: model_terms:ir.ui.view,arch_db:account_intrastat.view_report_intrastat_code_form
 msgid "Intrastat Code"
-msgstr ""
+msgstr "รหัสอินทราสแทต"
 
 #. module: account_intrastat
 #: model:ir.model.fields,field_description:account_intrastat.field_account_bank_statement_line__intrastat_country_id
 #: model:ir.model.fields,field_description:account_intrastat.field_account_move__intrastat_country_id
 #: model:ir.model.fields,field_description:account_intrastat.field_account_payment__intrastat_country_id
 msgid "Intrastat Country"
-msgstr ""
+msgstr "ประเทศอินทราสแทต"
 
 #. module: account_intrastat
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
@@ -180,36 +181,36 @@ msgstr ""
 #: model:ir.ui.menu,name:account_intrastat.menu_action_account_report_intrastat
 #, python-format
 msgid "Intrastat Report"
-msgstr ""
+msgstr "รายงานอินทราสแทต"
 
 #. module: account_intrastat
 #: model:ir.model.fields,field_description:account_intrastat.field_account_bank_statement_line__intrastat_transport_mode_id
 #: model:ir.model.fields,field_description:account_intrastat.field_account_move__intrastat_transport_mode_id
 #: model:ir.model.fields,field_description:account_intrastat.field_account_payment__intrastat_transport_mode_id
 msgid "Intrastat Transport Mode"
-msgstr ""
+msgstr "โหมดการขนส่งอินทราสแทต"
 
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.view_report_intrastat_code_tree
 msgid "Intrastat code"
-msgstr ""
+msgstr "รหัสอินทราสแทต"
 
 #. module: account_intrastat
 #: model:ir.model.fields,help:account_intrastat.field_account_bank_statement_line__intrastat_country_id
 #: model:ir.model.fields,help:account_intrastat.field_account_move__intrastat_country_id
 #: model:ir.model.fields,help:account_intrastat.field_account_payment__intrastat_country_id
 msgid "Intrastat country, arrival for sales, dispatch for purchases"
-msgstr ""
+msgstr "ประเทศอินทราสแทต การมาถึงของการขาย การจัดส่งสำหรับการซื้อ"
 
 #. module: account_intrastat
 #: model:ir.model.fields,field_description:account_intrastat.field_res_country__intrastat
 msgid "Intrastat member"
-msgstr ""
+msgstr "สมาชิกอินทราสแทต"
 
 #. module: account_intrastat
 #: model:ir.model.fields,field_description:account_intrastat.field_res_company__intrastat_region_id
 msgid "Intrastat region"
-msgstr ""
+msgstr "ภูมิภาคอินทราสแทต"
 
 #. module: account_intrastat
 #: model:ir.model,name:account_intrastat.model_account_move
@@ -224,20 +225,20 @@ msgstr "รายการสมุดบัญชีรายวัน"
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_vat
 msgid "Only with VAT numbers"
-msgstr ""
+msgstr "เฉพาะหมายเลขภาษีมูลค่าเพิ่มเท่านั้น"
 
 #. module: account_intrastat
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 #: model_terms:ir.ui.view,arch_db:account_intrastat.report_invoice_document_intrastat_2019
 #, python-format
-msgid "Origin Country"
-msgstr ""
+msgid "Origin"
+msgstr "จุดเริ่ม"
 
 #. module: account_intrastat
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 #, python-format
 msgid "Partner VAT"
-msgstr ""
+msgstr "VAT พาร์ทเนอร์"
 
 #. module: account_intrastat
 #: model:ir.model,name:account_intrastat.model_product_product
@@ -252,7 +253,7 @@ msgstr "หมวดหมู่สินค้า"
 #. module: account_intrastat
 #: model:ir.model.fields,field_description:account_intrastat.field_account_move_line__intrastat_product_origin_country_id
 msgid "Product Country"
-msgstr ""
+msgstr "ประเทศของสินค้า"
 
 #. module: account_intrastat
 #: model:ir.model,name:account_intrastat.model_product_template
@@ -275,7 +276,7 @@ msgstr "ภูมิภาค"
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 #, python-format
 msgid "Region Code"
-msgstr ""
+msgstr "รหัสภูมิภาค"
 
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_intrastat_extended
@@ -286,12 +287,12 @@ msgstr "มาตรฐาน"
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 #, python-format
 msgid "System"
-msgstr ""
+msgstr "ระบบ"
 
 #. module: account_intrastat
 #: model:ir.model.fields,help:account_intrastat.field_res_config_settings__company_country_id
 msgid "The country to use the tax reports from for this company"
-msgstr ""
+msgstr "ประเทศที่จะใช้รายงานภาษีสำหรับบริษัทนี้"
 
 #. module: account_intrastat
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
@@ -309,23 +310,23 @@ msgstr "Balance as calculated based on Opening Balance and transaction lines"
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 #, python-format
 msgid "Transaction Code"
-msgstr ""
+msgstr "รหัสธุรกรรม"
 
 #. module: account_intrastat
 #: model_terms:ir.ui.view,arch_db:account_intrastat.view_intrastat_code_search
 msgid "Transport"
-msgstr ""
+msgstr "ขนส่ง"
 
 #. module: account_intrastat
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0
 #, python-format
 msgid "Transport Code"
-msgstr ""
+msgstr "รหัสขนส่ง"
 
 #. module: account_intrastat
 #: model:ir.model.constraint,message:account_intrastat.constraint_account_intrastat_code_intrastat_region_code_unique
 msgid "Triplet code/type/country_id must be unique."
-msgstr ""
+msgstr "Triplet code/type/country_id จะต้องไม่ซ้ำกัน"
 
 #. module: account_intrastat
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0

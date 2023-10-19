@@ -11,6 +11,7 @@
 # Geoffrey_GMF <gmf@odoo.com>, 2022
 # Julien Breton, 2022
 # Cécile Collart <cco@odoo.com>, 2022
+# Wil Odoo, 2023
 # Jolien De Paepe, 2023
 # 
 msgid ""
@@ -1496,6 +1497,12 @@ msgid "Main Attachment"
 msgstr "Pièce jointe principale"
 
 #. module: sign
+#: code:addons/sign/models/sign_template.py:0
+#, python-format
+msgid "Malformed expression: %(exp)s"
+msgstr "Expression malformée : %(exp)s"
+
+#. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
@@ -2968,9 +2975,26 @@ msgid "The template doesn't exist anymore."
 msgstr "Le modèle n'existe plus."
 
 #. module: sign
+#: code:addons/sign/wizard/sign_duplicate_template_with_pdf.py:0
+#, python-format
+msgid "The uploaded file is not a valid PDF. Please upload a valid PDF file."
+msgstr ""
+
+#. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "There are no signatures request."
 msgstr "Il n'y a pas de demandes de signatures."
+
+#. module: sign
+#: code:addons/sign/models/sign_request.py:0
+#: code:addons/sign/models/sign_request.py:0
+#, python-format
+msgid ""
+"There was an issue downloading your document. Please contact an "
+"administrator."
+msgstr ""
+"Une erreur s'est produite lors du téléchargement de votre document. Veuillez"
+" contacter un administrateur."
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
@@ -3061,6 +3085,16 @@ msgstr "UTC"
 #, python-format
 msgid "Unable to send the SMS, please contact the sender of the document."
 msgstr "Impossible d'envoyer le SMS, contactez l'expéditeur du document."
+
+#. module: sign
+#: code:addons/sign/controllers/main.py:0
+#, python-format
+msgid ""
+"Unable to sign the document due to missing required data. Please contact an "
+"administrator."
+msgstr ""
+"Impossible de signer le document en raison de données requises manquantes. "
+"Veuillez contacter un administrateur."
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_unread

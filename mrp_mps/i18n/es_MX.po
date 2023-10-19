@@ -103,7 +103,7 @@ msgstr "Agregar un producto"
 #: code:addons/mrp_mps/static/src/js/client_action.js:0
 #, python-format
 msgid "Are you sure you want to delete this record ?"
-msgstr "¿Está seguro que desea eliminar este registro?"
+msgstr "¿Está seguro de que desea eliminar este registro?"
 
 #. module: mrp_mps
 #. openerp-web

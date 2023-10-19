@@ -37,7 +37,7 @@ msgstr ""
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__mrp_document_count
 msgid "# Attachments"
-msgstr ""
+msgstr "添付数"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_bom__eco_count
@@ -62,6 +62,8 @@ msgid ""
 "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Domain alias\" "
 "title=\"Domain alias\"/>&amp;nbsp;"
 msgstr ""
+"<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Domain alias\" "
+"title=\"Domain alias\"/>&amp;nbsp;"
 
 #. module: mrp_plm
 #: code:addons/mrp_plm/models/mrp_eco.py:0
@@ -92,7 +94,7 @@ msgstr ""
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_view_form
 msgid "<span>Revision</span><br/>"
-msgstr ""
+msgstr "<span>変更</span><br/>"
 
 #. module: mrp_plm
 #: model:ir.model.fields,help:mrp_plm.field_mrp_eco_type__alias_defaults
@@ -191,12 +193,12 @@ msgstr "全ての承認"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__allow_change_kanban_state
 msgid "Allow Change Kanban State"
-msgstr ""
+msgstr "かんばんステートの変更を許可する"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__allow_change_stage
 msgid "Allow Change Stage"
-msgstr ""
+msgstr "ステージの変更を許可する"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_stage__allow_apply_change
@@ -217,7 +219,7 @@ msgstr "変更を適用"
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_view_form
 msgid "Apply Rebase"
-msgstr ""
+msgstr "リベースを適用する"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__type
@@ -255,7 +257,7 @@ msgstr "承認"
 #. module: mrp_plm
 #: model:ir.model.fields,help:mrp_plm.field_mrp_eco__approval_ids
 msgid "Approvals by stage"
-msgstr ""
+msgstr "ステージごとの承認"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_view_form
@@ -338,7 +340,7 @@ msgstr "部品表"
 #. module: mrp_plm
 #: model:ir.model,name:mrp_plm.model_mrp_bom_line
 msgid "Bill of Material Line"
-msgstr ""
+msgstr "部品表明細"
 
 #. module: mrp_plm
 #: code:addons/mrp_plm/models/mrp_eco.py:0
@@ -357,6 +359,9 @@ msgid ""
 "              used to make a finished product; through a manufacturing\n"
 "              order or a pack of products."
 msgstr ""
+"Bills of materials allow you to define the list of required components\n"
+"used to make a finished product; through a manufacturing\n"
+"order or a pack of products."
 
 #. module: mrp_plm
 #: code:addons/mrp_plm/models/mrp_eco.py:0
@@ -372,7 +377,7 @@ msgstr "ブロック済"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_stage__is_blocking
 msgid "Blocking Stage"
-msgstr ""
+msgstr "阻止ステージ"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_view_form
@@ -383,7 +388,7 @@ msgstr "部品表変更"
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__bom_rebase_ids
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_view_form
 msgid "BoM Rebase"
-msgstr ""
+msgstr "部品表リベース"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__new_bom_revision
@@ -393,12 +398,12 @@ msgstr "部品表改訂"
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.report_mrp_bom_inherit_mrp_plm
 msgid "BoM Version"
-msgstr ""
+msgstr "部品表バージョン"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_kanban
 msgid "BoM:"
-msgstr ""
+msgstr "部品表："
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__user_can_approve
@@ -408,7 +413,7 @@ msgstr "承認できます"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__user_can_reject
 msgid "Can Reject"
-msgstr ""
+msgstr "拒否可"
 
 #. module: mrp_plm
 #: model:ir.ui.menu,name:mrp_plm.menu_mrp_plm_changes
@@ -418,22 +423,22 @@ msgstr "変更"
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_view_form
 msgid "Changes made in previous eco"
-msgstr ""
+msgstr "以前の設計変更オーダでの変更"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_view_form
 msgid "Changes made on old bill of materials"
-msgstr ""
+msgstr "古い部品表で行われた変更"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_view_form
 msgid "Changes made on the new revision bill of materials"
-msgstr ""
+msgstr "新しい改訂部品表で行われた変更"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_view_form
 msgid "Changes made on the operation."
-msgstr ""
+msgstr "行程上で行われた変更"
 
 #. module: mrp_plm
 #. openerp-web
@@ -457,7 +462,7 @@ msgstr "カラーインデクス"
 #. module: mrp_plm
 #: model:ir.model.fields.selection,name:mrp_plm.selection__mrp_eco_approval__status__comment
 msgid "Commented"
-msgstr ""
+msgstr "コメント済"
 
 #. module: mrp_plm
 #: model:ir.model.fields.selection,name:mrp_plm.selection__mrp_eco_approval_template__approval_type__comment
@@ -486,7 +491,7 @@ msgstr "不整合"
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_view_form
 msgid "Conflict Resolved"
-msgstr ""
+msgstr "不整合解決済"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_bom_change__operation_change
@@ -502,7 +507,7 @@ msgstr "新しいECOステージを作成"
 #: model_terms:ir.actions.act_window,help:mrp_plm.mrp_eco_type_action_dashboard
 #: model_terms:ir.actions.act_window,help:mrp_plm.mrp_eco_type_action_form
 msgid "Create a new ECO type"
-msgstr ""
+msgstr "設計変更オーダタイプを新規作成"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__create_uid
@@ -563,7 +568,7 @@ msgstr "説明"
 #. module: mrp_plm
 #: model:ir.model.fields,help:mrp_plm.field_mrp_eco_stage__description
 msgid "Description and tooltips of the stage states."
-msgstr ""
+msgstr "ステージステータスの説明とツールチップ。"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_view_form
@@ -573,12 +578,12 @@ msgstr "変更とその理由の説明"
 #. module: mrp_plm
 #: model:ir.model.fields,help:mrp_plm.field_mrp_eco__bom_change_ids
 msgid "Difference between old BoM and new BoM revision"
-msgstr ""
+msgstr "古い部品表と新しい改訂部品表の違い"
 
 #. module: mrp_plm
 #: model:ir.model.fields,help:mrp_plm.field_mrp_eco__routing_change_ids
 msgid "Difference between old operation and new operation revision"
-msgstr ""
+msgstr "古いオペレーションと新しい改訂オペレーションの違い"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__display_name
@@ -621,7 +626,7 @@ msgstr "経過時間"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_approval__eco_id
 msgid "ECO"
-msgstr ""
+msgstr "設計変更オーダ"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_view_graph
@@ -648,17 +653,17 @@ msgstr "ECO部品表変更"
 #. module: mrp_plm
 #: model:ir.model,name:mrp_plm.model_mrp_eco_bom_change
 msgid "ECO BoM changes"
-msgstr ""
+msgstr "設計変更オーダ部品表変更"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_bom_change__eco_rebase_id
 msgid "ECO Rebase"
-msgstr ""
+msgstr "設計変更オーダリベース"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__routing_change_ids
 msgid "ECO Routing Changes"
-msgstr ""
+msgstr "設計変更オーダルーティング変更"
 
 #. module: mrp_plm
 #: model:ir.model,name:mrp_plm.model_mrp_eco_stage
@@ -682,7 +687,7 @@ msgstr "ECOタグ"
 #. module: mrp_plm
 #: model:ir.model,name:mrp_plm.model_mrp_eco_type
 msgid "ECO Type"
-msgstr ""
+msgstr "設計変更オーダタイプ"
 
 #. module: mrp_plm
 #: model:ir.actions.act_window,name:mrp_plm.mrp_eco_type_action_form
@@ -694,7 +699,7 @@ msgstr "ECOタイプ"
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_bom_change_view_form
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_routing_change_view_form
 msgid "ECO details"
-msgstr ""
+msgstr "設計変更オーダ詳細"
 
 #. module: mrp_plm
 #: model_terms:ir.actions.act_window,help:mrp_plm.mrp_eco_stage_action
@@ -704,12 +709,12 @@ msgstr "ECOステージは設計変更オーダの進捗を示します。"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_bom__eco_ids
 msgid "ECO to be applied"
-msgstr ""
+msgstr "適用する設計変更オーダ"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_bom_view_form_inherit_plm
 msgid "ECO(s)"
-msgstr ""
+msgstr "設計変更オーダ"
 
 #. module: mrp_plm
 #. openerp-web
@@ -730,18 +735,18 @@ msgstr "設計変更オーダ"
 #: code:addons/mrp_plm/models/mrp_eco.py:0
 #, python-format
 msgid "Eco"
-msgstr ""
+msgstr "設計変更オーダ"
 
 #. module: mrp_plm
 #: code:addons/mrp_plm/models/mrp_eco.py:0
 #, python-format
 msgid "Eco BoM"
-msgstr ""
+msgstr "設計変更オーダ部品表"
 
 #. module: mrp_plm
 #: model:ir.model,name:mrp_plm.model_mrp_eco_routing_change
 msgid "Eco Routing changes"
-msgstr ""
+msgstr "設計変更オーダルーティング変更"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_kanban
@@ -837,7 +842,7 @@ msgstr "Font awesomeのアイコン 例. fa-tasks"
 #. module: mrp_plm
 #: model:ir.model.fields,help:mrp_plm.field_mrp_eco__effectivity_date
 msgid "For reference only."
-msgstr ""
+msgstr "参照目的のみ。"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_search
@@ -868,7 +873,7 @@ msgstr "メッセージあり"
 #. module: mrp_plm
 #: model:ir.module.category,description:mrp_plm.module_category_manufacturing_product_lifecycle_management_(plm)
 msgid "Helps you manage your product's lifecycles."
-msgstr ""
+msgstr "プロダクトライフサイクルの管理をサポート。"
 
 #. module: mrp_plm
 #: model:ir.model.fields.selection,name:mrp_plm.selection__mrp_eco__priority__1
@@ -939,7 +944,7 @@ msgstr "アクティブな項目をFalseに設定すると、部品表は削除�
 msgid ""
 "If the active field is set to False, it will allow you to hide the "
 "engineering change order without removing it."
-msgstr ""
+msgstr "アクティブフィールドがFalseに設定されている場合、設計変更オーダを削除せずに非表示にすることができます。"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_bom__image_128
@@ -969,7 +974,7 @@ msgstr "進行中"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_approval__is_approved
 msgid "Is Approved"
-msgstr ""
+msgstr "承認済か"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_approval__is_closed
@@ -985,7 +990,7 @@ msgstr "フォロー中　"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_approval__is_rejected
 msgid "Is Rejected"
-msgstr ""
+msgstr "拒否済か"
 
 #. module: mrp_plm
 #: model:ir.model.fields.selection,name:mrp_plm.selection__mrp_eco_approval_template__approval_type__mandatory
@@ -1061,7 +1066,7 @@ msgstr "遅れた活動"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_production__latest_bom_id
 msgid "Latest Bom"
-msgstr ""
+msgstr "最新部品表"
 
 #. module: mrp_plm
 #: model:ir.model.fields,help:mrp_plm.field_mrp_eco__email_cc
@@ -1093,7 +1098,7 @@ msgstr ""
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_routing_change__upd_time_cycle_manual
 msgid "Manual Duration Change"
-msgstr ""
+msgstr "手作業の所要時間変更"
 
 #. module: mrp_plm
 #: model:ir.ui.menu,name:mrp_plm.menu_mrp_plm_master_data
@@ -1115,7 +1120,7 @@ msgstr "メッセージ"
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_tag_view_search
 msgid "Mrp Eco Tags"
-msgstr ""
+msgstr "Mrp設定変更オーダタグ"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__my_activity_date_deadline
@@ -1151,12 +1156,12 @@ msgstr "新しい部品表"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__current_bom_id
 msgid "New Bom"
-msgstr ""
+msgstr "新規部品表"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_bom_change__new_operation_id
 msgid "New Consumed in Operation"
-msgstr ""
+msgstr "工程中の新規消費"
 
 #. module: mrp_plm
 #: model:mrp.eco.type,name:mrp_plm.ecotype0
@@ -1166,22 +1171,22 @@ msgstr "新プロダクト導入"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_bom_change__new_uom_id
 msgid "New Product UoM"
-msgstr ""
+msgstr "新規プロダクト単位"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_routing_change__new_time_cycle_manual
 msgid "New manual duration"
-msgstr ""
+msgstr "新規手作業所要時間"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_routing_change__operation_id
 msgid "New or Previous Operation"
-msgstr ""
+msgstr "新規または以前の工程"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_bom_change__new_product_qty
 msgid "New revision quantity"
-msgstr ""
+msgstr "新規更新数量"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__activity_calendar_event_id
@@ -1206,7 +1211,7 @@ msgstr "次の活動タイプ"
 #. module: mrp_plm
 #: model_terms:ir.actions.act_window,help:mrp_plm.mrp_bom_action_kanban
 msgid "No bill of materials found. Let's create one!"
-msgstr ""
+msgstr "部品表が見つかりません。作成しましょう！"
 
 #. module: mrp_plm
 #: model_terms:ir.actions.act_window,help:mrp_plm.mrp_eco_action
@@ -1275,7 +1280,7 @@ msgstr "未読メッセージ件数"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_routing_change__old_time_cycle_manual
 msgid "Old manual duration"
-msgstr ""
+msgstr "古い手作業所要時間"
 
 #. module: mrp_plm
 #: model:ir.model.fields,help:mrp_plm.field_mrp_eco_stage__final_stage
@@ -1290,7 +1295,7 @@ msgstr "工程"
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_view_form
 msgid "Operation Changes"
-msgstr ""
+msgstr "工程変更"
 
 #. module: mrp_plm
 #: model:ir.model.fields,help:mrp_plm.field_mrp_eco_type__alias_force_thread_id
@@ -1303,7 +1308,7 @@ msgstr "すべての受信メッセージに添付されるスレッド(レコ�
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_document__origin_attachment_id
 msgid "Origin Attachment"
-msgstr ""
+msgstr "移動元添付"
 
 #. module: mrp_plm
 #: model:ir.model.fields,help:mrp_plm.field_mrp_eco__legend_blocked
@@ -1311,7 +1316,7 @@ msgstr ""
 msgid ""
 "Override the default value displayed for the blocked state for kanban "
 "selection, when the ECO is in that stage."
-msgstr ""
+msgstr "設計変更オーダがそのステージにある場合、かんばん選択のブロックステータスに表示されるデフォルト値を上書きします。"
 
 #. module: mrp_plm
 #: model:ir.model.fields,help:mrp_plm.field_mrp_eco__legend_done
@@ -1319,7 +1324,7 @@ msgstr ""
 msgid ""
 "Override the default value displayed for the done state for kanban "
 "selection, when the ECO is in that stage."
-msgstr ""
+msgstr "設計変更オーダがそのステージにある場合、かんばん選択の完了ステータスに表示されるデフォルト値を上書きします。"
 
 #. module: mrp_plm
 #: model:ir.model.fields,help:mrp_plm.field_mrp_eco__legend_normal
@@ -1327,7 +1332,7 @@ msgstr ""
 msgid ""
 "Override the default value displayed for the normal state for kanban "
 "selection, when the ECO is in that stage."
-msgstr ""
+msgstr "設計変更オーダがそのステージにある場合、かんばん選択の通常ステータスに表示されるデフォルト値を上書きします。"
 
 #. module: mrp_plm
 #: model:ir.ui.menu,name:mrp_plm.menu_mrp_plm_dashboard
@@ -1385,32 +1390,32 @@ msgstr ""
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_bom__previous_bom_id
 msgid "Previous BoM"
-msgstr ""
+msgstr "以前の部品表"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_bom_change__old_operation_id
 msgid "Previous Consumed in Operation"
-msgstr ""
+msgstr "行程中の以前の消費"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__previous_change_ids
 msgid "Previous ECO Changes"
-msgstr ""
+msgstr "以前の設計変更オーダ変更"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_view_form
 msgid "Previous Eco Bom Changes"
-msgstr ""
+msgstr "以前の設計変更オーダ部品表変更"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_bom_change__old_uom_id
 msgid "Previous Product UoM"
-msgstr ""
+msgstr "以前のプロダクト単位"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_bom_change__old_product_qty
 msgid "Previous revision quantity"
-msgstr ""
+msgstr "以前の更新数量"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__priority
@@ -1439,7 +1444,7 @@ msgstr "プロダクトテンプレート"
 #. module: mrp_plm
 #: model:ir.model,name:mrp_plm.model_mrp_document
 msgid "Production Document"
-msgstr ""
+msgstr "製造ドキュメント"
 
 #. module: mrp_plm
 #: model:ir.model,name:mrp_plm.model_mrp_production
@@ -1449,7 +1454,7 @@ msgstr "製造オーダ"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_bom__active
 msgid "Production Ready"
-msgstr ""
+msgstr "製造準備完了"
 
 #. module: mrp_plm
 #: model:ir.ui.menu,name:mrp_plm.menu_mrp_plm_products
@@ -1476,12 +1481,12 @@ msgstr "準備完了"
 #: model:ir.model.fields.selection,name:mrp_plm.selection__mrp_eco__state__rebase
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_search
 msgid "Rebase"
-msgstr ""
+msgstr "リベース"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_view_form
 msgid "Rebase new revision of BoM with previous eco bom and old bom changes."
-msgstr ""
+msgstr "新規更新部品表と、以前の設計変更オーダ部品表および古い部品表の変更をリベースする"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_type__alias_force_thread_id
@@ -1511,7 +1516,7 @@ msgstr "拒否済"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__displayed_image_attachment_id
 msgid "Related attachment"
-msgstr ""
+msgstr "関連した添付"
 
 #. module: mrp_plm
 #: model:ir.model.fields.selection,name:mrp_plm.selection__mrp_eco_bom_change__change_type__remove
@@ -1584,7 +1589,7 @@ msgstr "カバーイメージを設定"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__allow_apply_change
 msgid "Show Apply Change"
-msgstr ""
+msgstr "適用する変更を表示"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_search
@@ -1679,12 +1684,12 @@ msgstr "タスクはブロックされています。ブロック解除または
 #. module: mrp_plm
 #: model:ir.model.fields,help:mrp_plm.field_mrp_eco__user_can_approve
 msgid "Technical field to check if approval by current user is required"
-msgstr ""
+msgstr "現在のユーザによる承認が必要かどうかをチェックする技術フィールド"
 
 #. module: mrp_plm
 #: model:ir.model.fields,help:mrp_plm.field_mrp_eco__user_can_reject
 msgid "Technical field to check if reject by current user is possible"
-msgstr ""
+msgstr "現在のユーザによる否認が可能かどうかをチェックする技術フィールド"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_approval__approval_template_id
@@ -1694,12 +1699,12 @@ msgstr "テンプレート"
 #. module: mrp_plm
 #: model:res.groups,comment:mrp_plm.group_plm_manager
 msgid "The PLM manager manages products lifecycle management"
-msgstr ""
+msgstr "PLM管理者はプロダクトライフサイクルマネジメントを行います。"
 
 #. module: mrp_plm
 #: model:res.groups,comment:mrp_plm.group_plm_user
 msgid "The PLM user uses products lifecycle management"
-msgstr ""
+msgstr "PLMユーザはプロダクトサイクルマネジメントを使用します。"
 
 #. module: mrp_plm
 #: model:ir.model.fields,help:mrp_plm.field_product_product__version
@@ -1841,12 +1846,12 @@ msgstr "バージョン"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_type__nb_approvals
 msgid "Waiting Approvals"
-msgstr ""
+msgstr "承認待ち"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_type__nb_approvals_my
 msgid "Waiting my Approvals"
-msgstr ""
+msgstr "自分の承認待ち"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__website_message_ids
@@ -1888,13 +1893,13 @@ msgstr "デフォルトのラベルの代わりにステータスに表示され
 #: code:addons/mrp_plm/models/mrp_eco.py:0
 #, python-format
 msgid "You cannot change the stage, as approvals are required in the process."
-msgstr ""
+msgstr "その過程で承認が必要となるため、ステージを変更することはできません。"
 
 #. module: mrp_plm
 #: code:addons/mrp_plm/models/mrp_eco.py:0
 #, python-format
 msgid "You cannot change the stage, as approvals are still required."
-msgstr ""
+msgstr "承認が必要なため、ステージを変更することはできません。"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_view_form

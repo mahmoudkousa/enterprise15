@@ -49,7 +49,7 @@ msgstr "Editar recordatorio push"
 #. module: website_event_track_social
 #: model:ir.model.fields,field_description:website_event_track_social.field_event_track__firebase_enable_push_notifications
 msgid "Enable Web Push Notifications"
-msgstr "Activar las notificaciones push del sitio web"
+msgstr "Habilitar las notificaciones push del sitio web"
 
 #. module: website_event_track_social
 #: model:ir.model,name:website_event_track_social.model_event_event

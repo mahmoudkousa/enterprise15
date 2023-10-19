@@ -362,14 +362,14 @@ msgstr "Ícone do Tipo de Atividade"
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_request__sign_log_ids
 msgid "Activity logs linked to this request"
-msgstr ""
+msgstr "Registros de atividades vinculados a esta solicitação"
 
 #. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "Add Initials"
-msgstr ""
+msgstr "Adicionar iniciais "
 
 #. module: sign
 #. openerp-web
@@ -383,7 +383,7 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "Add to all pages"
-msgstr ""
+msgstr "Adicionar à todas as páginas"
 
 #. module: sign
 #: model:res.groups,name:sign.group_sign_manager
@@ -408,7 +408,7 @@ msgstr "Aceite e Assine"
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_log__request_state__signed
 msgid "After Signature"
-msgstr ""
+msgstr "Depois da assinatura"
 
 #. module: sign
 #. openerp-web
@@ -457,7 +457,7 @@ msgstr "Arquivado"
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_request__start_sign
 msgid "At least one signer has signed the document."
-msgstr ""
+msgstr "Pelo menos um signatário assinou o documento."
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_send_request_view_form
@@ -483,12 +483,12 @@ msgstr "Anexos"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item_type__auto_field
 msgid "Auto-fill Partner Field"
-msgstr ""
+msgstr "Preenchimento automático do campo do parceiro"
 
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_log__request_state__sent
 msgid "Before Signature"
-msgstr ""
+msgstr "Antes da assinatura"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_item_role_view_form
@@ -518,7 +518,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__message_cc
 msgid "CC Message"
-msgstr ""
+msgstr "Mensagem CC"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_send_request_view_form
@@ -566,7 +566,7 @@ msgstr "Certificado"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "Certificate of Completion<br/>"
-msgstr ""
+msgstr "Certificado de conclusão<br/>"
 
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_item_type__item_type__checkbox
@@ -621,12 +621,12 @@ msgstr "Concluído"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__completed_document
 msgid "Completed Document"
-msgstr ""
+msgstr "Documento concluído"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__nb_closed
 msgid "Completed Signatures"
-msgstr ""
+msgstr "Assinaturas concluídas"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__completion_date
@@ -673,7 +673,7 @@ msgstr "Contatos"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__follower_ids
 msgid "Copy to"
-msgstr ""
+msgstr "Cópia para"
 
 #. module: sign
 #. openerp-web
@@ -735,7 +735,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
 msgid "Current status of the signature request"
-msgstr ""
+msgstr "Status atual da solicitação de assinatura"
 
 #. module: sign
 #: model:sign.item.role,name:sign.sign_item_role_customer
@@ -768,7 +768,7 @@ msgstr "Data"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "Date (UTC)"
-msgstr ""
+msgstr "Data (UTC)"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item_role__default
@@ -778,12 +778,12 @@ msgstr "Padrão"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item_type__default_height
 msgid "Default Height"
-msgstr ""
+msgstr "Altura padrão"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item_type__default_width
 msgid "Default Width"
-msgstr ""
+msgstr "Largura padrão"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_kanban
@@ -796,14 +796,14 @@ msgstr "Excluir"
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Delete sign"
-msgstr ""
+msgstr "Excluir sinal"
 
 #. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Delete sign item"
-msgstr ""
+msgstr "Excluir item de sinal"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_kanban
@@ -813,7 +813,7 @@ msgstr "Detalhes"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_users__sign_signature
 msgid "Digital Signature"
-msgstr ""
+msgstr "Assinatura digital "
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.res_users_view_form
@@ -823,7 +823,7 @@ msgstr "Assinaturas Digitais"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_users__sign_initials
 msgid "Digitial Initials"
-msgstr ""
+msgstr "Iniciais digitais"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_send_copy_view_form
@@ -857,7 +857,7 @@ msgstr "Nome exibido"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_config_settings__sign_preview_ready
 msgid "Display sign preview button"
-msgstr ""
+msgstr "Botão de visualização do sinal de exibição"
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
@@ -897,7 +897,7 @@ msgstr "Template de Documento"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "Document/Signer"
-msgstr ""
+msgstr "Documento/Signatário"
 
 #. module: sign
 #: model:ir.actions.act_window,name:sign.sign_request_action
@@ -931,7 +931,7 @@ msgstr "Baixar documento original"
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_request_item__state__draft
 msgid "Draft"
-msgstr "Provisório"
+msgstr "Rascunho"
 
 #. module: sign
 #. openerp-web
@@ -989,7 +989,7 @@ msgstr ""
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
 msgid "Edit template name"
-msgstr ""
+msgstr "Editar o nome do modelo"
 
 #. module: sign
 #: model:sign.item.type,name:sign.sign_item_type_email
@@ -1000,7 +1000,7 @@ msgstr "E-mail"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__subject
 msgid "Email Subject"
-msgstr ""
+msgstr "Assunto do e-mail"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -1022,7 +1022,7 @@ msgstr ""
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Enter the code received through SMS to complete your signature"
-msgstr ""
+msgstr "Digite o código recebido por SMS para concluir sua assinatura"
 
 #. module: sign
 #. openerp-web
@@ -1069,7 +1069,7 @@ msgstr "Campos"
 #. module: sign
 #: model:ir.model,name:sign.model_sign_item
 msgid "Fields to be sign on Document"
-msgstr ""
+msgstr "Campos para assinatura no documento"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__datas
@@ -1091,7 +1091,7 @@ msgstr "Nome de arquivo"
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
 msgid "Filled by"
-msgstr ""
+msgstr "Preenchido por"
 
 #. module: sign
 #. openerp-web
@@ -1123,7 +1123,7 @@ msgstr "Ícone do Font Awesome. Ex: fa-tasks"
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 #, python-format
 msgid "Fully Signed"
-msgstr ""
+msgstr "Totalmente assinado"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
@@ -1135,7 +1135,7 @@ msgstr "Atividades Futuras"
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Generate PDF"
-msgstr ""
+msgstr "Geração de PDF"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -1171,7 +1171,7 @@ msgstr "RH"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__has_default_template
 msgid "Has Default Template"
-msgstr ""
+msgstr "Possui modelo padrão"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__has_message
@@ -1211,12 +1211,12 @@ msgstr "ID"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__ip
 msgid "IP address of the visitor"
-msgstr ""
+msgstr "Endereço IP do visitante"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__activity_exception_icon
@@ -1243,13 +1243,13 @@ msgstr "Se marcado, algumas mensagens tem erro de entrega."
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__in_progress_count
 msgid "In Progress Count"
-msgstr ""
+msgstr "Contagem de \"em andamento\" "
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_kanban
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 msgid "In favorites, remove it"
-msgstr ""
+msgstr "Em favoritos, remova-a"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__log_hash
@@ -1273,7 +1273,7 @@ msgstr "Inicial"
 #: model:sign.item.type,placeholder:sign.sign_item_type_initial
 #, python-format
 msgid "Initials"
-msgstr ""
+msgstr "Iniciais"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.res_config_settings_view_form
@@ -1283,7 +1283,7 @@ msgstr "Insira seus termos e condições aqui..."
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__integrity
 msgid "Integrity of the Sign request"
-msgstr ""
+msgstr "Integridade do pedido de sinal"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__favorited_ids
@@ -1298,7 +1298,7 @@ msgstr "É um seguidor"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__is_mail_sent
 msgid "Is Mail Sent"
-msgstr ""
+msgstr "É um e-mail enviado?"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template_share__is_one_responsible
@@ -1308,12 +1308,12 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__is_user_signer
 msgid "Is User Signer"
-msgstr ""
+msgstr "É um usuário signatário?"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__last_action_date
 msgid "Last Action Date"
-msgstr ""
+msgstr "Data da última ação"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_duplicate_template_pdf____last_update
@@ -1381,7 +1381,7 @@ msgstr "Últimas Atividades"
 #: model:ir.model.fields,field_description:sign.field_sign_log__latitude
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__latitude
 msgid "Latitude"
-msgstr ""
+msgstr "Latitude"
 
 #. module: sign
 #. openerp-web
@@ -1396,7 +1396,7 @@ msgstr "Esquerda"
 #: code:addons/sign/static/src/js/tours/sign.js:0
 #, python-format
 msgid "Let's <b>prepare & sign</b> our first document."
-msgstr ""
+msgstr "Vamos <b>preparar & assinar</b> nosso primeiro documento."
 
 #. module: sign
 #. openerp-web
@@ -1431,17 +1431,17 @@ msgstr "Rótulo do Link"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template_share__url
 msgid "Link to Share"
-msgstr ""
+msgstr "Link para compartilhamento"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__activity_id
 msgid "Linked Activity"
-msgstr ""
+msgstr "Atividade relacionada."
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__log_date
 msgid "Log Date"
-msgstr ""
+msgstr "Data de registro"
 
 #. module: sign
 #: code:addons/sign/models/sign_log.py:0
@@ -1470,17 +1470,23 @@ msgstr "Logs"
 #: model:ir.model.fields,field_description:sign.field_sign_log__longitude
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__longitude
 msgid "Longitude"
-msgstr ""
+msgstr "Longitude"
 
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_log__action__update_mail
 msgid "Mail Update"
-msgstr ""
+msgstr "Atualização de e-mail"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_main_attachment_id
 msgid "Main Attachment"
 msgstr "Anexo Principal"
+
+#. module: sign
+#: code:addons/sign/models/sign_template.py:0
+#, python-format
+msgid "Malformed expression: %(exp)s"
+msgstr "Expressão malformada: %(exp)s"
 
 #. module: sign
 #. openerp-web
@@ -1507,7 +1513,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_send_request__message
 msgid "Message to be sent to signers of the specified document"
-msgstr ""
+msgstr "Mensagem a ser enviada aos signatários do documento especificado"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_ids
@@ -1517,7 +1523,7 @@ msgstr "Mensagens"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.encrypted_ask_password
 msgid "Missing Password"
-msgstr ""
+msgstr "Senha ausente"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.deleted_sign_request
@@ -1532,7 +1538,7 @@ msgstr "Celular"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 msgid "Modify Template"
-msgstr ""
+msgstr "Modificar modelo"
 
 #. module: sign
 #. openerp-web
@@ -1547,7 +1553,7 @@ msgstr "Texto multilinha"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_share_view_form
 msgid "Multiple Signature Requests"
-msgstr ""
+msgstr "Solicitações de assinaturas múltiplas"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__my_activity_date_deadline
@@ -1573,12 +1579,12 @@ msgstr "Minhas Solicitações"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_search
 msgid "My Templates"
-msgstr ""
+msgstr "Meus modelos"
 
 #. module: sign
 #: model:sign.template.tag,name:sign.sign_template_tag_2
 msgid "NDA"
-msgstr ""
+msgstr "Acordo de confidencialidade "
 
 #. module: sign
 #. openerp-web
@@ -1595,22 +1601,22 @@ msgstr "Nome"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_send_request_view_form
 msgid "Name for the file"
-msgstr ""
+msgstr "Nome para o arquivo"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_form
 msgid "Name of the file"
-msgstr ""
+msgstr "Nome do arquivo "
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_send_request_view_form
 msgid "Name or email..."
-msgstr ""
+msgstr "Nome ou e-mail..."
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__need_my_signature
 msgid "Need My Signature"
-msgstr ""
+msgstr "Precisa da minha assinatura"
 
 #. module: sign
 #. openerp-web
@@ -1627,7 +1633,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_duplicate_template_pdf__new_template
 msgid "New Template Name"
-msgstr ""
+msgstr "Nome do novo template"
 
 #. module: sign
 #: code:addons/sign/controllers/portal.py:0
@@ -1662,7 +1668,7 @@ msgstr "Tipo da Próxima Atividade"
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
 msgid "Next Document"
-msgstr ""
+msgstr "Próximo documento"
 
 #. module: sign
 #. openerp-web
@@ -1686,7 +1692,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.actions.act_window,help:sign.sign_template_action
 msgid "No template yet"
-msgstr ""
+msgstr "Ainda não nenhum modelo"
 
 #. module: sign
 #: code:addons/sign/controllers/portal.py:0
@@ -1698,12 +1704,12 @@ msgstr "Nenhum"
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_kanban
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 msgid "Not in favorites, add it"
-msgstr ""
+msgstr "Não está em favoritos, adicionar"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 msgid "Not in favorites, set it"
-msgstr ""
+msgstr "Não está em favoritos, configurar"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_needaction_counter
@@ -1713,12 +1719,12 @@ msgstr "Número de ações"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 msgid "Number of documents in progress for this template."
-msgstr ""
+msgstr "Número de documentos em andamento para esse modelo."
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 msgid "Number of documents signed for this template."
-msgstr ""
+msgstr "Número de documentos assinados para esse modelo."
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_has_error_counter
@@ -1768,13 +1774,13 @@ msgstr "No Convite"
 #: code:addons/sign/wizard/sign_template_share.py:0
 #, python-format
 msgid "One or more selection items have no associated options"
-msgstr ""
+msgstr "Um ou mais itens de seleção não têm opções associadas"
 
 #. module: sign
 #: code:addons/sign/controllers/terms.py:0
 #, python-format
 msgid "Oops"
-msgstr ""
+msgstr "Oops"
 
 #. module: sign
 #: model:sign.template,redirect_url_text:sign.template_sign_1
@@ -1794,22 +1800,22 @@ msgstr "Opção"
 #. module: sign
 #: model:ir.model,name:sign.model_sign_item_option
 msgid "Option of a selection Field"
-msgstr ""
+msgstr "Opção de um campo de seleção"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_send_request_view_form
 msgid "Optional Message..."
-msgstr ""
+msgstr "Mensagem opcional..."
 
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_template__redirect_url
 msgid "Optional link for redirection after signature"
-msgstr ""
+msgstr "Link opcional para redirecionamento após a assinatura"
 
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_template__redirect_url_text
 msgid "Optional text to display on the button link"
-msgstr ""
+msgstr "Texto opcional a ser exibido no link do botão"
 
 #. module: sign
 #. openerp-web
@@ -1821,7 +1827,7 @@ msgstr "Opções"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_duplicate_template_pdf__original_template_id
 msgid "Original File"
-msgstr ""
+msgstr "Arquivo original"
 
 #. module: sign
 #. openerp-web
@@ -1836,7 +1842,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sign.encrypted_ask_password
 #, python-format
 msgid "PDF is encrypted"
-msgstr ""
+msgstr "O PDF é criptografado"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__partner_id
@@ -1848,7 +1854,7 @@ msgstr "Parceiro"
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Password is incorrect."
-msgstr ""
+msgstr "A senha está incorreta."
 
 #. module: sign
 #: model:sign.item.type,name:sign.sign_item_type_phone
@@ -1914,12 +1920,12 @@ msgstr "Endereço de Acesso ao Portal"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item__posX
 msgid "Position X"
-msgstr ""
+msgstr "Posição X"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item__posY
 msgid "Position Y"
-msgstr ""
+msgstr "Posição Y"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_form
@@ -1931,12 +1937,12 @@ msgstr "Visualizar"
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Print original document"
-msgstr ""
+msgstr "Imprimir documento original"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "Printed on"
-msgstr ""
+msgstr "Impresso em"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__progress
@@ -1964,7 +1970,7 @@ msgstr "Reenviar SMS"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__redirect_url
 msgid "Redirect Link"
-msgstr ""
+msgstr "URL de redirecionamento"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_send_copy__request_id
@@ -1974,7 +1980,7 @@ msgstr "Requisição"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__request_item_infos
 msgid "Request Item Infos"
-msgstr ""
+msgstr "Solicitar informações dos itens"
 
 #. module: sign
 #. openerp-web
@@ -1986,7 +1992,7 @@ msgstr ""
 #: model:mail.activity.type,name:sign.mail_activity_data_signature_request
 #, python-format
 msgid "Request Signature"
-msgstr ""
+msgstr "Solicitar assinatura "
 
 #. module: sign
 #: model_terms:ir.actions.act_window,help:sign.sign_request_action
@@ -1998,7 +2004,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__nb_total
 msgid "Requested Signatures"
-msgstr ""
+msgstr "Assinaturas solicitadas"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign._doc_sign
@@ -2025,7 +2031,7 @@ msgstr "Reenviar"
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "Resend the invitation"
-msgstr ""
+msgstr "Reenviar o convite"
 
 #. module: sign
 #. openerp-web
@@ -2047,7 +2053,7 @@ msgstr "Responsável"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__responsible_count
 msgid "Responsible Count"
-msgstr ""
+msgstr "Contagem de responsáveis "
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__activity_user_id
@@ -2081,14 +2087,14 @@ msgstr "Nome da função"
 #. module: sign
 #: model:ir.ui.menu,name:sign.sign_item_role_menu
 msgid "Roles"
-msgstr ""
+msgstr "Funções"
 
 #. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "Rotate Clockwise"
-msgstr ""
+msgstr "Rotação no sentido horário"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item_role__sms_authentification
@@ -2110,7 +2116,7 @@ msgstr "SMS Enviado"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__sms_token
 msgid "SMS Token"
-msgstr ""
+msgstr "Token de SMS"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -2137,13 +2143,13 @@ msgstr "Salvar"
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
 msgid "Saved"
-msgstr ""
+msgstr "Salvo"
 
 #. module: sign
 #: code:addons/sign/controllers/portal.py:0
 #, python-format
 msgid "Search <span class=\"nolabel\"> (in Document)</span>"
-msgstr ""
+msgstr "Pesquisar <span class=\"nolabel\"> (no documento)</span>"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__access_token
@@ -2154,7 +2160,7 @@ msgstr "Chave de segurança"
 #. module: sign
 #: model:sign.item.type,tip:sign.sign_item_type_selection
 msgid "Select an option"
-msgstr ""
+msgstr "Selecionar uma opção"
 
 #. module: sign
 #. openerp-web
@@ -2180,7 +2186,7 @@ msgstr "Seleção"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item__option_ids
 msgid "Selection options"
-msgstr ""
+msgstr "Opções de seleção"
 
 #. module: sign
 #. openerp-web
@@ -2204,7 +2210,7 @@ msgstr "Enviar SMS"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__signer_id
 msgid "Send To"
-msgstr ""
+msgstr "Enviar para "
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_form
@@ -2221,7 +2227,7 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "Send the invitation"
-msgstr ""
+msgstr "Enviar o convite"
 
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_request__state__sent
@@ -2232,7 +2238,7 @@ msgstr "Enviado"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__nb_wait
 msgid "Sent Requests"
-msgstr ""
+msgstr "Solicitações enviadas"
 
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_template__privacy
@@ -2261,7 +2267,7 @@ msgstr "Compartilhar"
 #. module: sign
 #: model:ir.actions.act_window,name:sign.action_sign_template_share
 msgid "Share Document by Link"
-msgstr ""
+msgstr "Compartilhar documento por link"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__share_link
@@ -2303,17 +2309,17 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_config_settings__use_sign_terms
 msgid "Sign Default Terms & Conditions"
-msgstr ""
+msgstr "Assinar termos e condições padrão"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_company__sign_terms
 msgid "Sign Default Terms and Conditions"
-msgstr ""
+msgstr "Assinar termos e condições padrão"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_company__sign_terms_html
 msgid "Sign Default Terms and Conditions as a Web page"
-msgstr ""
+msgstr "Assine os Termos e Condições padrão como uma página da Web"
 
 #. module: sign
 #. openerp-web
@@ -2326,14 +2332,14 @@ msgstr "Assinar Documento"
 #. module: sign
 #: model:ir.model,name:sign.model_sign_duplicate_template_pdf
 msgid "Sign Duplicate Template with new PDF"
-msgstr ""
+msgstr "Assinar modelo duplicado com novo PDF"
 
 #. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Sign Next Document"
-msgstr ""
+msgstr "Assinar o próximo documento"
 
 #. module: sign
 #. openerp-web
@@ -2343,17 +2349,17 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 #, python-format
 msgid "Sign Now"
-msgstr ""
+msgstr "Assine agora"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__sign_request_id
 msgid "Sign Request"
-msgstr ""
+msgstr "Solicitação de assinatura"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__sign_request_item_id
 msgid "Sign Request Item"
-msgstr ""
+msgstr "Item de solicitação de sinalização"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request_signer__sign_send_request_id
@@ -2363,7 +2369,7 @@ msgstr "Enviar solicitação de assinatura"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.res_config_settings_view_form
 msgid "Sign Settings"
-msgstr ""
+msgstr "Configurações de sinalização"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_template_share
@@ -2373,46 +2379,46 @@ msgstr ""
 #. module: sign
 #: model:ir.model,name:sign.model_sign_template_tag
 msgid "Sign Template Tag"
-msgstr ""
+msgstr "Etiqueta de modelo de sinalização"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_config_settings__sign_terms
 msgid "Sign Terms & Conditions"
-msgstr ""
+msgstr "Assine os Termos e Condições"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_config_settings__sign_terms_html
 msgid "Sign Terms & Conditions as a Web page"
-msgstr ""
+msgstr "Assine os Termos e Condições como uma página da web"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_company__sign_terms_type
 #: model:ir.model.fields,field_description:sign.field_res_config_settings__sign_terms_type
 msgid "Sign Terms & Conditions format"
-msgstr ""
+msgstr "Assinar o formato dos Termos e Condições"
 
 #. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Sign all"
-msgstr ""
+msgstr "Assinar todos"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_request
 msgid "Sign document"
-msgstr ""
+msgstr "Assinar documento"
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
 #, python-format
 msgid "Sign requests"
-msgstr ""
+msgstr "Assinar solicitações "
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_log
 msgid "Sign requests access history"
-msgstr ""
+msgstr "Histórico de acesso às solicitações de assinatura"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_send_request
@@ -2427,7 +2433,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model,name:sign.model_sign_send_request_signer
 msgid "Sign send request signer"
-msgstr ""
+msgstr "Assinar solicitação de envio ao signatário"
 
 #. module: sign
 #. openerp-web
@@ -2451,38 +2457,38 @@ msgstr "Assinatura"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "Signature Date"
-msgstr ""
+msgstr "Data de assinatura"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item_value__sign_item_id
 msgid "Signature Item"
-msgstr ""
+msgstr "Item de assinatura"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_item_role
 msgid "Signature Item Party"
-msgstr ""
+msgstr "Parte do item de assinatura"
 
 #. module: sign
 #: model:ir.actions.act_window,name:sign.sign_item_role_action
 msgid "Signature Item Role"
-msgstr ""
+msgstr "Função do item de assinatura"
 
 #. module: sign
 #: model:ir.actions.act_window,name:sign.sign_item_type_action
 #: model:ir.model,name:sign.model_sign_item_type
 msgid "Signature Item Type"
-msgstr ""
+msgstr "Tipo do item de assinatura "
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_request_item_value
 msgid "Signature Item Value"
-msgstr ""
+msgstr "Valor do item de assinatura"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__sign_item_ids
 msgid "Signature Items"
-msgstr ""
+msgstr "Itens de assinatura"
 
 #. module: sign
 #. openerp-web
@@ -2500,29 +2506,29 @@ msgstr "Solicitar assinatura"
 #: code:addons/sign/wizard/sign_send_request.py:0
 #, python-format
 msgid "Signature Request - %(file_name)s"
-msgstr ""
+msgstr "Solicitação de assinatura - %(file_name)s"
 
 #. module: sign
 #: code:addons/sign/tests/test_common.py:0
 #: code:addons/sign/wizard/sign_send_request.py:0
 #, python-format
 msgid "Signature Request - %s"
-msgstr ""
+msgstr "Solicitação de assinatura- %s"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_request_item
 msgid "Signature Request Item"
-msgstr ""
+msgstr "Item de solicitação de assinatura"
 
 #. module: sign
 #: model:ir.actions.act_window,name:sign.sign_request_item_action
 msgid "Signature Request Items"
-msgstr ""
+msgstr "Itens de solicitação de assinatura"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item_value__sign_request_item_id
 msgid "Signature Request item"
-msgstr ""
+msgstr "Item de solicitação de assinatura"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__sign_request_ids
@@ -2537,7 +2543,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__start_sign
 msgid "Signature Started"
-msgstr ""
+msgstr "Assinatura iniciada"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_template
@@ -2550,7 +2556,7 @@ msgstr "Template de assinatura"
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Signature configuration"
-msgstr ""
+msgstr "Configuração da assinatura"
 
 #. module: sign
 #: code:addons/sign/wizard/sign_send_request.py:0
@@ -2559,24 +2565,26 @@ msgid ""
 "Signature requested for template: %s\n"
 "Signatories: %s"
 msgstr ""
+"Assinatura solicitada para o modelo: %s\n"
+"Signatários: %s"
 
 #. module: sign
 #: code:addons/sign/models/res_partner.py:0
 #, python-format
 msgid "Signature(s)"
-msgstr ""
+msgstr "Assinaturas"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "Signature:"
-msgstr ""
+msgstr "Assinatura"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.portal_my_home_menu_sign
 #: model_terms:ir.ui.view,arch_db:sign.portal_my_home_sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "Signatures"
-msgstr ""
+msgstr "Assinaturas"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.doc_sign
@@ -2586,24 +2594,24 @@ msgstr "Assinado"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__signed_count
 msgid "Signed Count"
-msgstr ""
+msgstr "Contagem de assinaturas"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 msgid "Signed Documents"
-msgstr ""
+msgstr "Documentos assinados"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_completed
 msgid "Signed document"
-msgstr ""
+msgstr "Documento assinado"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__signing_date
 #: model_terms:ir.ui.view,arch_db:sign._doc_sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
 msgid "Signed on"
-msgstr ""
+msgstr "Assinado em"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__signer_email
@@ -2614,23 +2622,23 @@ msgstr ""
 #: model:ir.model.fields,field_description:sign.field_sign_request__request_item_ids
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__signer_ids
 msgid "Signers"
-msgstr ""
+msgstr "Signatários"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request__signers_count
 msgid "Signers Count"
-msgstr ""
+msgstr "Contagem de signatários"
 
 #. module: sign
 #: code:addons/sign/controllers/portal.py:0
 #, python-format
 msgid "Signing Date"
-msgstr ""
+msgstr "Data da assinatura"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "Signing Events"
-msgstr ""
+msgstr "Eventos de assinatura"
 
 #. module: sign
 #. openerp-web
@@ -2652,7 +2660,7 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "Somebody is already filling a document which uses this template"
-msgstr ""
+msgstr "Alguém já está preenchendo um documento que usa esse modelo"
 
 #. module: sign
 #. openerp-web
@@ -2660,7 +2668,7 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Sorry, an error occurred, please try to fill the document again."
-msgstr ""
+msgstr "Desculpe, ocorreu um erro, tente preencher o documento novamente."
 
 #. module: sign
 #: model:sign.item.role,name:sign.sign_item_role_default
@@ -2678,7 +2686,7 @@ msgstr "Estado"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__request_state
 msgid "State of the request on action log"
-msgstr ""
+msgstr "Estado da solicitação no registro de ações"
 
 #. module: sign
 #: code:addons/sign/controllers/portal.py:0
@@ -2734,6 +2742,8 @@ msgid ""
 "Technical name of the field on the partner model to auto-complete this "
 "signature field at the time of signature."
 msgstr ""
+"Nome técnico do campo no modelo de parceiro para preencher automaticamente "
+"esse campo de assinatura no momento da assinatura."
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__template_id
@@ -2752,7 +2762,7 @@ msgstr "Modelo"
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Template \"%s\""
-msgstr ""
+msgstr "Modelo \"%s\""
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__group_ids
@@ -2779,7 +2789,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "Template or Tag"
-msgstr ""
+msgstr "Modelo ou etiqueta"
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -2796,12 +2806,12 @@ msgstr "Termos &amp; Condições"
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__res_company__sign_terms_type__html
 msgid "Terms as Web Page"
-msgstr ""
+msgstr "Termos como uma página web"
 
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__res_company__sign_terms_type__plain
 msgid "Terms in Email"
-msgstr ""
+msgstr "Termos em e-mail"
 
 #. module: sign
 #: model:ir.model.fields,help:sign.field_res_company__sign_terms_type
@@ -2812,6 +2822,9 @@ msgid ""
 "        Terms as Web Page - A link will be pasted at the bottom of every signature request email, leading to your content.\n"
 "        "
 msgstr ""
+"Termos no e-mail - O texto será exibido na parte inferior de cada e-mail de solicitação de assinatura.\n"
+"\n"
+"Termos como página da web - Um link será colado na parte inferior de cada e-mail de solicitação de assinatura, levando ao seu conteúdo."
 
 #. module: sign
 #. openerp-web
@@ -2841,12 +2854,12 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.encrypted_ask_password
 msgid "The PDF's password is required to generate the final document."
-msgstr ""
+msgstr "A senha do PDF é necessária para gerar o documento final."
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_completed
 msgid "The document"
-msgstr ""
+msgstr "O documento"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
@@ -2854,6 +2867,8 @@ msgid ""
 "The final document and this completion history have been sent by email "
 "on&amp;nbsp;"
 msgstr ""
+"O documento final e este histórico de conclusão foram enviados por e-mail "
+"em&amp;nbsp;"
 
 #. module: sign
 #: code:addons/sign/wizard/sign_send_request.py:0
@@ -2861,6 +2876,8 @@ msgstr ""
 msgid ""
 "The following roles must be set to create the signature request: %(roles)s"
 msgstr ""
+"As seguintes funções devem ser definidas para criar a solicitação de "
+"assinatura: %(roles)s"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_form
@@ -2869,6 +2886,9 @@ msgid ""
 "that signature values or the underlying PDF document may have been modified "
 "after the fact."
 msgstr ""
+"A integridade do histórico do documento não pode ser verificada. Isso pode "
+"significar que os valores de assinatura ou o documento PDF subjacente podem "
+"ter sido modificados após o fato."
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -2882,7 +2902,7 @@ msgstr ""
 #: code:addons/sign/controllers/terms.py:0
 #, python-format
 msgid "The requested page is invalid, or doesn't exist anymore."
-msgstr ""
+msgstr "A página solicitada é inválida ou não existe mais."
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.deleted_sign_request
@@ -2896,7 +2916,7 @@ msgstr ""
 #: code:addons/sign/models/sign_request.py:0
 #, python-format
 msgid "The signature mail has been sent to: "
-msgstr ""
+msgstr "O correio de assinatura foi enviado para:"
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -2907,7 +2927,7 @@ msgstr ""
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_request_item__is_mail_sent
 msgid "The signature mail has been sent."
-msgstr ""
+msgstr "O e-mail de assinatura foi enviado para:"
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -2920,12 +2940,29 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "The template doesn't exist anymore."
+msgstr "O modelo não existe mais."
+
+#. module: sign
+#: code:addons/sign/wizard/sign_duplicate_template_with_pdf.py:0
+#, python-format
+msgid "The uploaded file is not a valid PDF. Please upload a valid PDF file."
 msgstr ""
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "There are no signatures request."
+msgstr "Não há solicitação de assinaturas."
+
+#. module: sign
+#: code:addons/sign/models/sign_request.py:0
+#: code:addons/sign/models/sign_request.py:0
+#, python-format
+msgid ""
+"There was an issue downloading your document. Please contact an "
+"administrator."
 msgstr ""
+"Houve um problema ao baixar seu documento. Entre em contato com um "
+"administrador."
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
@@ -2937,7 +2974,7 @@ msgstr ""
 #: model:ir.model.fields,help:sign.field_sign_request__reference
 #: model:ir.model.fields,help:sign.field_sign_request_item__reference
 msgid "This is how the document will be named in the mail"
-msgstr ""
+msgstr "É assim que o documento será nomeado no correio"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_form
@@ -2954,13 +2991,13 @@ msgstr "Dica"
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_request_item__state__sent
 msgid "To Sign"
-msgstr ""
+msgstr "Assinar"
 
 #. module: sign
 #: code:addons/sign/controllers/portal.py:0
 #, python-format
 msgid "To sign"
-msgstr ""
+msgstr "Assinar"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
@@ -2973,7 +3010,7 @@ msgstr "Atividades de Hoje"
 #: code:addons/sign/static/src/js/tours/sign.js:0
 #, python-format
 msgid "Try out this sample contract."
-msgstr ""
+msgstr "Experimente nosso documento de exemplo."
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item__type_id
@@ -3004,7 +3041,7 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "UTC"
-msgstr ""
+msgstr "UTC"
 
 #. module: sign
 #. openerp-web
@@ -3014,6 +3051,18 @@ msgstr ""
 #, python-format
 msgid "Unable to send the SMS, please contact the sender of the document."
 msgstr ""
+"Não foi possível enviar o SMS, entre em contato com o remetente do "
+"documento."
+
+#. module: sign
+#: code:addons/sign/controllers/main.py:0
+#, python-format
+msgid ""
+"Unable to sign the document due to missing required data. Please contact an "
+"administrator."
+msgstr ""
+"Não foi possível assinar o documento devido à falta de alguns dados "
+"obrigatórios. Entre em contato com um administrador."
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_unread
@@ -3034,17 +3083,17 @@ msgstr "Atualizar"
 #: code:addons/sign/models/sign_template.py:0
 #, python-format
 msgid "Upload a PDF"
-msgstr ""
+msgstr "Enviar um PDF"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_kanban
 msgid "Use Layout"
-msgstr ""
+msgstr "Usar o layout"
 
 #. module: sign
 #: model:ir.actions.act_window,name:sign.action_sign_duplicate_template_with_pdf
 msgid "Use the layout of fields on a new PDF"
-msgstr ""
+msgstr "Usar o layout dos campos em um novo PDF"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__user_id
@@ -3078,7 +3127,7 @@ msgstr "Validar"
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Validate & Send"
-msgstr ""
+msgstr "Validar e enviar"
 
 #. module: sign
 #. openerp-web
@@ -3090,14 +3139,14 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign._doc_sign
 msgid "Validate &amp; Send Completed Document"
-msgstr ""
+msgstr "Validar &amp; Enviar documento preenchido"
 
 #. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Validation Code"
-msgstr ""
+msgstr "Código de validação"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__sign_item_value_ids
@@ -3120,27 +3169,27 @@ msgstr "Verificar"
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
 #, python-format
 msgid "View Document"
-msgstr ""
+msgstr "Visualizar documento"
 
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_log__action__open
 msgid "View/Download"
-msgstr ""
+msgstr "Visualizar/Baixar"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "Viewed/downloaded by"
-msgstr ""
+msgstr "Visto/Baixado por"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "Waiting for me"
-msgstr ""
+msgstr "Esperando por mim"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "Waiting for others"
-msgstr ""
+msgstr "Esperando pelos outros"
 
 #. module: sign
 #. openerp-web
@@ -3156,6 +3205,8 @@ msgstr "Aviso"
 #, python-format
 msgid "We will send you this document by email once everyone has signed."
 msgstr ""
+"Nós lhe enviaremos esse documento por e-mail assim que todos tiverem "
+"assinado."
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__website_message_ids
@@ -3195,13 +3246,13 @@ msgstr "Largura"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_send_request_view_form
 msgid "Write email or search contact..."
-msgstr ""
+msgstr "Escreva um e-mail ou pesquise o contato..."
 
 #. module: sign
 #: code:addons/sign/controllers/main.py:0
 #, python-format
 msgid "Wrong password"
-msgstr ""
+msgstr "Senha errada"
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
@@ -3210,6 +3261,8 @@ msgid ""
 "You can't delete a template for which signature requests exist but you can "
 "archive it instead."
 msgstr ""
+"Não é possível excluir um modelo para o qual existem solicitações de "
+"assinatura, mas você pode arquivá-lo."
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.doc_sign
@@ -3235,7 +3288,7 @@ msgstr "O seu código de confirmação é %s"
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "Your email"
-msgstr ""
+msgstr "Seu e-mail"
 
 #. module: sign
 #. openerp-web
@@ -3245,6 +3298,8 @@ msgid ""
 "Your file is encrypted, PDF's password is required to generate final "
 "document. The final document will be encrypted with the same password."
 msgstr ""
+"Se desejar, você pode solicitar o documento novamente depois de comprar mais"
+" créditos para a operação."
 
 #. module: sign
 #. openerp-web
@@ -3268,7 +3323,7 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "Your signature has been saved."
-msgstr ""
+msgstr "A sua assinatura foi salva."
 
 #. module: sign
 #. openerp-web
@@ -3296,17 +3351,17 @@ msgstr "ex: +55 61 3535 3535"
 #: code:addons/sign/static/src/xml/sign_common.xml:0
 #, python-format
 msgid "e.g. 314159"
-msgstr ""
+msgstr "ex.: 314159"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_item_role_view_form
 msgid "e.g. Employee"
-msgstr ""
+msgstr "ex.: Funcionário"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_form
 msgid "e.g. Non-disclosure agreement"
-msgstr ""
+msgstr "ex.: Acordo de confidencialidade"
 
 #. module: sign
 #: model:sign.item.type,tip:sign.sign_item_type_checkbox
@@ -3318,27 +3373,27 @@ msgstr ""
 #: model:sign.item.type,tip:sign.sign_item_type_phone
 #: model:sign.item.type,tip:sign.sign_item_type_text
 msgid "fill in"
-msgstr ""
+msgstr "preencher"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_completed
 msgid "has been completed and signed by"
-msgstr ""
+msgstr "foi preenchido e assinado por"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_completed
 msgid "has been edited, completed and signed by"
-msgstr ""
+msgstr "foi editado, preenchido e assinado por"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "ip"
-msgstr ""
+msgstr "ip"
 
 #. module: sign
 #: model:sign.item.type,tip:sign.sign_item_type_initial
 msgid "mark it"
-msgstr ""
+msgstr "marcar"
 
 #. module: sign
 #. openerp-web
@@ -3347,7 +3402,7 @@ msgstr ""
 #: code:addons/sign/static/src/js/sign_common.js:0
 #, python-format
 msgid "next"
-msgstr ""
+msgstr "próximo"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_tree
@@ -3357,17 +3412,17 @@ msgstr "assinar"
 #. module: sign
 #: model:sign.item.type,tip:sign.sign_item_type_signature
 msgid "sign it"
-msgstr ""
+msgstr "assinar"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message
 msgid "sign.message"
-msgstr ""
+msgstr "sign.message"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_cc
 msgid "sign.message_cc"
-msgstr ""
+msgstr "sign.message_cc"
 
 #. module: sign
 #. openerp-web
@@ -3381,21 +3436,21 @@ msgstr ""
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 msgid "tags"
-msgstr ""
+msgstr "marcadores"
 
 #. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
 msgid "this template to modify it."
-msgstr ""
+msgstr "esse modelo para modificá-lo."
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_logs_user
 msgid "to:"
-msgstr ""
+msgstr "para:"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_completed
 msgid "you"
-msgstr ""
+msgstr "você"

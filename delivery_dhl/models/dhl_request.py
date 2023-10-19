@@ -88,8 +88,12 @@ class DHLProvider():
 
     def _set_dct_to(self, partner_id):
         to = self.factory_dct_request.DCTTo()
-        to.CountryCode = partner_id.country_id.code
-        to.Postalcode = partner_id.zip
+        country_code = partner_id.country_id.code
+        zip_code = partner_id.zip or ''
+        if country_code == 'ES' and (zip_code.startswith('35') or zip_code.startswith('38')):
+            country_code = 'IC'
+        to.CountryCode = country_code
+        to.Postalcode = zip_code
         to.City = partner_id.city
         return to
 

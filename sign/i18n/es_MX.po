@@ -7,6 +7,7 @@
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2021
 # Martin Trigaux, 2021
 # Lucia Pacheco, 2022
+# Wil Odoo, 2023
 # Fernanda Alvarez, 2023
 # 
 msgid ""
@@ -1498,6 +1499,12 @@ msgid "Main Attachment"
 msgstr "Archivos adjuntos principales"
 
 #. module: sign
+#: code:addons/sign/models/sign_template.py:0
+#, python-format
+msgid "Malformed expression: %(exp)s"
+msgstr "Expresión mal formada: %(exp)s"
+
+#. module: sign
 #. openerp-web
 #: code:addons/sign/static/src/xml/sign_backend.xml:0
 #, python-format
@@ -2967,9 +2974,26 @@ msgid "The template doesn't exist anymore."
 msgstr "La plantilla ya no existe."
 
 #. module: sign
+#: code:addons/sign/wizard/sign_duplicate_template_with_pdf.py:0
+#, python-format
+msgid "The uploaded file is not a valid PDF. Please upload a valid PDF file."
+msgstr ""
+
+#. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "There are no signatures request."
 msgstr "No hay solicitud de firmas."
+
+#. module: sign
+#: code:addons/sign/models/sign_request.py:0
+#: code:addons/sign/models/sign_request.py:0
+#, python-format
+msgid ""
+"There was an issue downloading your document. Please contact an "
+"administrator."
+msgstr ""
+"Ocurrió un error al descargar su documento, póngase en contacto con un "
+"administrador."
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
@@ -3062,6 +3086,16 @@ msgid "Unable to send the SMS, please contact the sender of the document."
 msgstr ""
 "No se puede enviar el SMS, póngase en contacto con el remitente del "
 "documento."
+
+#. module: sign
+#: code:addons/sign/controllers/main.py:0
+#, python-format
+msgid ""
+"Unable to sign the document due to missing required data. Please contact an "
+"administrator."
+msgstr ""
+"No es posible firmar el documento, hacen falta datos necesarios. Póngase en "
+"contacto con un administrador."
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_unread

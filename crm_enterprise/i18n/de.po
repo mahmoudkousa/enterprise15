@@ -3,8 +3,8 @@
 # 	* crm_enterprise
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2021
+# Martin Trigaux, 2023
 # Larissa Manderfeld, 2023
 # 
 msgid ""
@@ -39,7 +39,7 @@ msgstr "Durchschnittliche Geschäftsgröße"
 #. module: crm_enterprise
 #: model:ir.model,name:crm_enterprise.model_crm_activity_report
 msgid "CRM Activity Analysis"
-msgstr "CRM Aktivitätsanalyse"
+msgstr "CRM-Aktivitätsanalyse"
 
 #. module: crm_enterprise
 #: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
@@ -90,7 +90,7 @@ msgstr "Dashboard"
 #. module: crm_enterprise
 #: model:ir.model.fields,field_description:crm_enterprise.field_crm_lead__days_to_convert
 msgid "Days To Convert"
-msgstr "Tage zu konvertieren"
+msgstr "Tage bis Umwandlung"
 
 #. module: crm_enterprise
 #: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
@@ -112,7 +112,7 @@ msgstr "Tage bis Beendigung"
 #. module: crm_enterprise
 #: model:ir.model.fields,field_description:crm_enterprise.field_crm_lead__days_exceeding_closing
 msgid "Exceeded Closing Days"
-msgstr "Schließ-Tage überschritten"
+msgstr "Überschrittene Abschlusstage"
 
 #. module: crm_enterprise
 #: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
@@ -144,19 +144,19 @@ msgstr "Gruppieren nach"
 #: model:ir.model.fields,field_description:crm_enterprise.field_crm_activity_report__won_status
 #: model:ir.model.fields,field_description:crm_enterprise.field_crm_lead__won_status
 msgid "Is Won"
-msgstr "ist gewonnen"
+msgstr "Ist gewonnen"
 
 #. module: crm_enterprise
 #: model:ir.model,name:crm_enterprise.model_crm_lead
 msgid "Lead/Opportunity"
-msgstr "Interessent / Chance"
+msgstr "Lead/Verkaufschance"
 
 #. module: crm_enterprise
 #: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
 #: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_view_pivot
 #: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
 msgid "Leads"
-msgstr "Interessenten"
+msgstr "Leads"
 
 #. module: crm_enterprise
 #: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_activity_report__won_status__lost
@@ -196,7 +196,7 @@ msgstr "Keine Daten gefunden!"
 #: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_graph
 #: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
 msgid "Opportunities"
-msgstr "Chancen"
+msgstr "Verkaufschancen"
 
 #. module: crm_enterprise
 #: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
@@ -207,7 +207,7 @@ msgstr "Chancen Statistik"
 #: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_activity_report__won_status__pending
 #: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_lead__won_status__pending
 msgid "Pending"
-msgstr "Anstehend"
+msgstr "Ausstehend"
 
 #. module: crm_enterprise
 #: model:ir.actions.act_window,name:crm_enterprise.crm_opportunity_action_dashboard
@@ -253,7 +253,7 @@ msgstr "Herkunft"
 #. module: crm_enterprise
 #: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
 msgid "Stage"
-msgstr "Stufe"
+msgstr "Phase"
 
 #. module: crm_enterprise
 #: model_terms:ir.actions.act_window,help:crm_enterprise.crm_lead_action_dashboard
@@ -266,7 +266,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:crm_enterprise.crm_opportunity_action_dashboard
 msgid "Use this menu to have an overview of your Pipeline."
 msgstr ""
-"Nutzen Sie dieses Dashboard um eine Übersicht Ihrer Pipeline zu erhalten."
+"Nutzen Sie dieses Dashboard, um eine Übersicht Ihrer Pipeline zu erhalten."
 
 #. module: crm_enterprise
 #: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
@@ -278,7 +278,7 @@ msgstr "Gewinn/Verlust Verhältnis"
 #: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_lead__won_status__won
 #: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
 msgid "Won"
-msgstr "Erfolgreich"
+msgstr "Gewonnen"
 
 #. module: crm_enterprise
 #: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
@@ -289,4 +289,4 @@ msgstr "Tage"
 #. module: crm_enterprise
 #: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_view_graph
 msgid "leads"
-msgstr "Interessenten"
+msgstr "Leads"

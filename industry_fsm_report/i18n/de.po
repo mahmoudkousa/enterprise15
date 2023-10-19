@@ -3,8 +3,8 @@
 # 	* industry_fsm_report
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
+# Martin Trigaux, 2023
 # Larissa Manderfeld, 2023
 # 
 msgid ""
@@ -172,7 +172,7 @@ msgstr "Kunden-Vorschau"
 #. module: industry_fsm_report
 #: model_terms:ir.actions.act_window,help:industry_fsm_report.fsm_worksheets_action_settings
 msgid "Customize worksheet templates for each type of intervention.<br>"
-msgstr "Passen Sie Arbeitsblattvorlagen für jede Art von Einsatz an.<br>"
+msgstr "Passen Sie Arbeitsblattvorlagen für jede Art von Tätigkeit an.<br>"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field7
@@ -190,7 +190,7 @@ msgstr "Erbrachte Zeit (Tage)"
 #: model:ir.model,name:industry_fsm_report.model_x_custom_worksheet_x_project_task_worksheet_template_2
 #: model:ir.model.fields,field_description:industry_fsm_report.field_project_project__worksheet_template_id
 msgid "Default Worksheet"
-msgstr "Standard-Arbeitsblatt."
+msgstr "Standardarbeitsblatt"
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
@@ -236,7 +236,7 @@ msgstr "Herunterladen"
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.view_worksheet_template_kanban
 msgid "Dropdown menu"
-msgstr "Dropdownmenu"
+msgstr "Drop-down-Menü"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,help:industry_fsm_report.field_project_project__allow_worksheets
@@ -446,7 +446,7 @@ msgstr "Tätigkeitsbericht:"
 #. module: industry_fsm_report
 #: model:ir.model,name:industry_fsm_report.model_report_industry_fsm_report_worksheet_custom
 msgid "Task Worksheet Custom Report"
-msgstr "Aufgabe Arbeitsbericht"
+msgstr "Arbeitsblatt für Aufgabe Benutzerdefinierter Bericht"
 
 #. module: industry_fsm_report
 #: code:addons/industry_fsm_report/controllers/portal.py:0
@@ -508,7 +508,7 @@ msgstr "Mitarbeiter"
 #: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field8
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_task_worksheet_template_3
 msgid "Worker Signature"
-msgstr "Unterschrift Mitarbeiter"
+msgstr "Unterschrift des Arbeiters"
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_sharing_project_task_inherit_view_form

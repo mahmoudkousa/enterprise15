@@ -65,11 +65,7 @@ class CarvajalRequest():
         self.co_id_company = company.l10n_co_edi_company or ''
         self.account = l10n_co_edi_account
         self.test_mode = company.l10n_co_edi_test_mode
-        self.wsdl = company.env['ir.config_parameter'].sudo().get_param('l10n_edi_carvajal_wsdl')
-        if self.wsdl:
-            self.wsdl = self.wsdl % ('-stage' if company.l10n_co_edi_test_mode else '')
-        else:  # for old users, keep using the old URL
-            self.wsdl = 'https://wscenf%s.cen.biz/isows/InvoiceService?wsdl' % ('lab' if self.test_mode else '')
+        self.wsdl = 'https://wscenf%s.cen.biz/isows/InvoiceService?wsdl' % ('lab' if self.test_mode else '')
 
     @property
     def client(self):

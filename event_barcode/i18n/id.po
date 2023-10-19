@@ -58,14 +58,14 @@ msgstr "Tatanama Barcode"
 #. module: event_barcode
 #: model:ir.model.constraint,message:event_barcode.constraint_event_registration_barcode_event_uniq
 msgid "Barcode should be unique"
-msgstr ""
+msgstr "Barcode harus unik"
 
 #. module: event_barcode
 #. openerp-web
 #: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
 #, python-format
 msgid "Canceled registration"
-msgstr ""
+msgstr "Pendaftaran dibatalkan"
 
 #. module: event_barcode
 #. openerp-web
@@ -106,7 +106,7 @@ msgstr "Konfirmasi"
 #: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
 #, python-format
 msgid "Confirm attendance for"
-msgstr ""
+msgstr "Konfirmasi pendaftaran untuk"
 
 #. module: event_barcode
 #. openerp-web
@@ -132,7 +132,7 @@ msgstr "Acara"
 #: code:addons/event_barcode/static/src/js/event_barcode.js:0
 #, python-format
 msgid "Invalid ticket"
-msgstr ""
+msgstr "Tiket tidak valid"
 
 #. module: event_barcode
 #. openerp-web
@@ -173,7 +173,7 @@ msgstr "Registrasi rawat inap"
 #: model_terms:ir.ui.view,arch_db:event_barcode.event_event_view_form
 #, python-format
 msgid "Registration Desk"
-msgstr ""
+msgstr "Meja Pendaftara"
 
 #. module: event_barcode
 #. openerp-web
@@ -187,42 +187,42 @@ msgstr ""
 #: code:addons/event_barcode/static/src/js/event_barcode.js:0
 #, python-format
 msgid "Registration confirmed"
-msgstr ""
+msgstr "Pendaftaran dikonfirmasi"
 
 #. module: event_barcode
 #. openerp-web
 #: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
 #, python-format
 msgid "Scan a badge"
-msgstr ""
+msgstr "Scan lencana"
 
 #. module: event_barcode
 #. openerp-web
 #: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
 #, python-format
 msgid "Select Attendee"
-msgstr ""
+msgstr "Pilih Peserta"
 
 #. module: event_barcode
 #. openerp-web
 #: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
 #, python-format
 msgid "The registration must be paid"
-msgstr ""
+msgstr "Pendaftaran harus dibayar"
 
 #. module: event_barcode
 #. openerp-web
 #: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
 #, python-format
 msgid "This ticket is for another event"
-msgstr ""
+msgstr "Tiket ini untuk acara lain"
 
 #. module: event_barcode
 #. openerp-web
 #: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
 #, python-format
 msgid "This ticket is not for an ongoing event"
-msgstr ""
+msgstr "Tiket ini untuk acara yang sedang berlangsung"
 
 #. module: event_barcode
 #. openerp-web
@@ -257,14 +257,14 @@ msgstr "Selamat datang di"
 #: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
 #, python-format
 msgid "is already registered"
-msgstr ""
+msgstr "sudah terdaftar"
 
 #. module: event_barcode
 #. openerp-web
 #: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
 #, python-format
 msgid "is successfully registered"
-msgstr ""
+msgstr "berhasil didaftar"
 
 #. module: event_barcode
 #. openerp-web

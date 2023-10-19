@@ -14,7 +14,7 @@
 # Harcogourmet, 2022
 # AncesLatino2004, 2022
 # marcescu, 2022
-# jabelchi, 2022
+# Josep Anton Belchi, 2022
 # martioodo hola, 2023
 # 
 msgid ""
@@ -1127,6 +1127,16 @@ msgid ""
 "You cannot assign the same approver multiple times on the same request."
 msgstr ""
 "No podeu assignar el mateix aprovador diverses vegades a la mateixa petició."
+
+#. module: approvals
+#: code:addons/approvals/models/ir_attachment.py:0
+#, python-format
+msgid ""
+"You cannot unlink an attachment which is linked to a validated, refused or "
+"cancelled approval request."
+msgstr ""
+"No podeu desvincular un adjunt que està enllaçat a una sol·licitud "
+"d'aprovació validada, rebutjada o cancel·lada."
 
 #. module: approvals
 #: code:addons/approvals/models/approval_request.py:0

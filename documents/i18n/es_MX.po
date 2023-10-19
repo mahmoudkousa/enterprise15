@@ -49,7 +49,7 @@ msgid ""
 "&amp;nbsp;\n"
 "                            <i class=\"fa fa-lock oe_inline\" title=\"Locked\" attrs=\"{'invisible': [('lock_uid', '=', False)]}\"/>"
 msgstr ""
-" \n"
+"&amp;nbsp;\n"
 "                            <i class=\"fa fa-lock oe_inline\" title=\"Bloqueado\" attrs=\"{'invisible': [('lock_uid', '=', False)]}\"/>"
 
 #. module: documents
@@ -391,11 +391,11 @@ msgstr ""
 "                                                <br/>\n"
 "                                                <div style=\"margin: 16px 0px 16px 0px;\">\n"
 "                                                    <a t-att-href=\"object.full_url\" style=\"background-color: #875A7B; padding: 20px 30px 20px 30px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
-"                                                        Subir el documento solicitado\n"
+"                                                        Suba el documento solicitado\n"
 "                                                    </a>\n"
 "                                                </div>\n"
 "                                            </center><br/>\n"
-"                                            Por favor, proporcione el documento faltante antes de que el enlace caduque (planeado para el <t t-out=\"object.date_deadline or ''\">2021-05-17</t>).\n"
+"                                            Proporcione el documento faltante antes de que el enlace caduque (planeado para el <t t-out=\"object.date_deadline or ''\">2021-05-17</t>).\n"
 "                                            <t t-if=\"user and user.signature\">\n"
 "                                                <br/>\n"
 "                                                <t t-out=\"user.signature or ''\">--<br/>Mitchell Admin</t>\n"
@@ -438,7 +438,7 @@ msgstr ""
 "                            <t t-if=\"object.date_deadline\">\n"
 "                                Este enlace caduca el <b t-out=\"object.date_deadline or ''\">2021-05-17</b>.<br/>\n"
 "                            </t>\n"
-"                            Con tecnología de <a target=\"_blank\" href=\"https://www.odoo.com/app/documents\" style=\"color: #875A7B;\">Documentos de Odoo</a>\n"
+"                            Con la tecnología de <a target=\"_blank\" href=\"https://www.odoo.com/app/documents\" style=\"color: #875A7B;\">Documentos de Odoo</a>\n"
 "                          </td></tr>\n"
 "                        </table>\n"
 "                    </td></tr>\n"
@@ -460,14 +460,15 @@ msgid ""
 "A set of condition and actions which will be available to all attachments "
 "matching the conditions"
 msgstr ""
-"Un conjunto de condiciones y acciones estarán disponibles para todos los "
-"archivos adjuntos que coincidan con las condiciones"
+"Un conjunto de condiciones y acciones que estarán disponibles para todos los"
+" archivos adjuntos que coincidan con las condiciones"
 
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_folder__parent_folder_id
 msgid "A workspace will inherit the tags of its parent workspace"
 msgstr ""
-"Un espacio de trabajo heredará las etiquetas de su espacio de trabajo padre"
+"Un espacio de trabajo heredará las etiquetas de su espacio de trabajo "
+"principal"
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.document_view_form
@@ -517,7 +518,7 @@ msgstr "Nombre de acción"
 #: model:ir.model.fields,field_description:documents.field_documents_document__message_needaction
 #: model:ir.model.fields,field_description:documents.field_documents_share__message_needaction
 msgid "Action Needed"
-msgstr "Acción requerida"
+msgstr "Se requiere una acción"
 
 #. module: documents
 #. openerp-web
@@ -723,7 +724,7 @@ msgstr "Archivado"
 #: code:addons/documents/static/src/js/documents_controller_mixin.js:0
 #, python-format
 msgid "Are you confirm deletion ?"
-msgstr "¿Confirma la acción?"
+msgstr "¿Confirma que desea eliminar?"
 
 #. module: documents
 #. openerp-web
@@ -892,7 +893,7 @@ msgid ""
 "Click on the <b>page separator</b>: we don't want to split these two pages "
 "as they belong to the same document."
 msgstr ""
-"Haga clic en el <b>separador de páginas</b>: No queremos separar estas dos "
+"Haga clic en el <b>separador de páginas</b>: no queremos separar estas dos "
 "páginas ya que pertenecen al mismo documento."
 
 #. module: documents
@@ -1003,7 +1004,7 @@ msgstr "Criterios"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_share__alias_bounced_content
 msgid "Custom Bounced Message"
-msgstr "Mensaje devuelto personalizado"
+msgstr "Mensaje personalizado en caso de devolución"
 
 #. module: documents
 #: model:ir.model.fields.selection,name:documents.selection__documents_request_wizard__activity_date_deadline_range_type__days
@@ -1216,7 +1217,7 @@ msgstr "Descargar"
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.share_page
 msgid "Download all files"
-msgstr "Descarga todos los archivos"
+msgstr "Descargar todos los archivos"
 
 #. module: documents
 #: model:ir.model.fields.selection,name:documents.selection__documents_share__action__downloadupload
@@ -1345,12 +1346,12 @@ msgstr "Seguidores"
 #: model:ir.model.fields,field_description:documents.field_documents_document__message_partner_ids
 #: model:ir.model.fields,field_description:documents.field_documents_share__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Seguidores (partners)"
+msgstr "Seguidores (contactos)"
 
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_document__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr "Icono de Font Awesome ej. fa-tasks"
+msgstr "Icono de Font Awesome, por ejemplo, fa-tasks"
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.share_view_form_popup
@@ -1445,7 +1446,8 @@ msgstr ""
 #: model:ir.model.fields,help:documents.field_documents_share__message_has_error
 #: model:ir.model.fields,help:documents.field_documents_share__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Si se encuentra, algunos mensajes tienen error de envío."
+msgstr ""
+"Si se encuentra seleccionado, algunos mensajes presentan un error de envío."
 
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_share__alias_bounced_content
@@ -1453,8 +1455,8 @@ msgid ""
 "If set, this content will automatically be sent out to unauthorized users "
 "instead of the default message."
 msgstr ""
-"Si se establece, este contenido se enviará automáticamente a usuarios no "
-"autorizados en lugar del mensaje predeterminado."
+"Si se establece, este contenido se enviará de forma automática a usuarios no"
+" autorizados en lugar del mensaje predeterminado."
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.document_view_search
@@ -1621,7 +1623,7 @@ msgstr "Vínculo por registrar"
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_document__email_cc
 msgid "List of cc from incoming emails."
-msgstr "Listado de cc en correos electrónicos entrantes."
+msgstr "Lista de cc en correos electrónicos entrantes."
 
 #. module: documents
 #: model:ir.model.fields.selection,name:documents.selection__documents_share__state__live
@@ -1701,7 +1703,7 @@ msgstr "Marketing"
 #: model:ir.model.fields,field_description:documents.field_documents_document__message_has_error
 #: model:ir.model.fields,field_description:documents.field_documents_share__message_has_error
 msgid "Message Delivery error"
-msgstr "Error de envío de mensaje"
+msgstr "Error al enviar el mensaje"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__message_ids
@@ -1752,7 +1754,7 @@ msgstr "Mover al espacio de trabajo"
 #: code:addons/documents/static/src/js/documents_inspector.js:0
 #, python-format
 msgid "Multiple values"
-msgstr "Valores múltiples"
+msgstr "Varios valores"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__my_activity_date_deadline
@@ -1974,7 +1976,7 @@ msgstr "PDF/documento"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_share__alias_parent_model_id
 msgid "Parent Model"
-msgstr "Modelo padre"
+msgstr "Modelo principal"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_share__alias_parent_thread_id
@@ -2057,7 +2059,7 @@ msgstr "Páginas restantes"
 #. module: documents
 #: model:ir.model.fields.selection,name:documents.selection__documents_workflow_action__action__remove
 msgid "Remove"
-msgstr "Remover"
+msgstr "Eliminar"
 
 #. module: documents
 #. openerp-web
@@ -2078,7 +2080,7 @@ msgstr "Reemplazar por"
 #: model_terms:ir.ui.view,arch_db:documents.documents_request_form_view
 #, python-format
 msgid "Request"
-msgstr "Solicitud"
+msgstr "Solicitar"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__request_activity_id
@@ -2088,7 +2090,7 @@ msgstr "Solicitar actividad"
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.documents_request_form_view
 msgid "Request To"
-msgstr "Solicitud de "
+msgstr "Solicitar a"
 
 #. module: documents
 #. openerp-web
@@ -2160,7 +2162,7 @@ msgstr "Restaurar"
 #: model:ir.model.fields,field_description:documents.field_documents_document__message_has_sms_error
 #: model:ir.model.fields,field_description:documents.field_documents_share__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr "Error de entrega del SMS"
+msgstr "Error en el envío del SMS"
 
 #. module: documents
 #: model:documents.tag,name:documents.documents_internal_knowledge_sales
@@ -2184,7 +2186,7 @@ msgstr "Buscar más..."
 #: code:addons/documents/static/src/owl/components/pdf_manager/pdf_manager.xml:0
 #, python-format
 msgid "Select All: Shift + A"
-msgstr "Seleccionar todos: Shift + A"
+msgstr "Seleccionar todo: Shift + A"
 
 #. module: documents
 #. openerp-web
@@ -2257,7 +2259,7 @@ msgstr "Compartir"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_folder__share_link_ids
 msgid "Share Links"
-msgstr "Compartir vínculos"
+msgstr "Compartir enlaces"
 
 #. module: documents
 #: code:addons/documents/models/share.py:0
@@ -2371,9 +2373,9 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Estado basado en actividades\n"
-"Vencida: la fecha límite ya pasó\n"
-"Hoy: la fecha límite es hoy\n"
+"Estado según las actividades\n"
+"Vencida: ya pasó la fecha límite\n"
+"Hoy: hoy es la fecha de la actividad\n"
 "Planeada: futuras actividades."
 
 #. module: documents
@@ -2472,9 +2474,8 @@ msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
 "<jobs@example.odoo.com>"
 msgstr ""
-"El nombre de este seudónimo de correo electrónico. Por ejemplo, "
-"\"trabajos\",  si lo que quiere es obtener los correos para  "
-"<jobs@example.odoo.com>"
+"Use el seudónimo del correo electrónico, por ejemplo, \"jobs\" si desea "
+"recibir correos electrónicos en <jobs@example.odoo.com>"
 
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_share__alias_user_id
@@ -2485,9 +2486,10 @@ msgid ""
 "system user is found for that address."
 msgstr ""
 "El propietario de los registros creados al recibir correos electrónicos en "
-"este seudónimo. Si no se establece el campo, el sistema tratará de encontrar"
-" el propietario adecuado según la dirección del emisor (De), o usará la "
-"cuenta de administrador si no se encuentra un usuario para esa dirección."
+"este seudónimo. Si no se establece en el campo, el sistema tratará de "
+"encontrar al propietario adecuado según la dirección del emisor (De), o "
+"usará la cuenta de administrador si no se encuentra un usuario para esa "
+"dirección."
 
 #. module: documents
 #: model:ir.model.constraint,message:documents.constraint_documents_share_share_unique
@@ -2768,8 +2770,7 @@ msgstr "Grupos de escritura"
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.workflow_rule_form_view
 msgid "Write a tooltip for the action here"
-msgstr ""
-"Escriba un cuadro de información sobre herramientas para la acción aquí"
+msgstr "Escriba una descripción emergente para la acción aquí"
 
 #. module: documents
 #: model:ir.model.fields,help:documents.field_documents_document__attachment_type
@@ -2777,8 +2778,8 @@ msgid ""
 "You can either upload a file from your computer or copy/paste an internet "
 "link to your file."
 msgstr ""
-"Puede tanto subir un archivo de su computadora como copiar y pegar un enlace"
-" de internet a su archivo."
+"Puede subir un archivo de su computadora o copiar y pegar un enlace de "
+"internet a su archivo."
 
 #. module: documents
 #: code:addons/documents/models/folder.py:0

@@ -6,6 +6,7 @@
 # Martin Trigaux, 2021
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2021
 # Wichanon Jamwutthipreecha, 2022
+# Rasareeyar Lappiam, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Wichanon Jamwutthipreecha, 2022\n"
-"Language-Team: Thai (https://www.transifex.com/odoo/teams/41243/th/)\n"
+"Last-Translator: Rasareeyar Lappiam, 2023\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -32,13 +33,13 @@ msgstr ""
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
 msgid "%d transactions had already been imported and were ignored."
-msgstr ""
+msgstr "%d ธุรกรรมถูกนำเข้าแล้วและถูกละเลย"
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
 msgid "1 transaction had already been imported and was ignored."
-msgstr ""
+msgstr "ธุรกรรมรายการถูกนำเข้าแล้วและถูกละเลย"
 
 #. module: account_bank_statement_import
 #: model:ir.model.constraint,message:account_bank_statement_import.constraint_account_bank_statement_line_unique_import_id
@@ -83,7 +84,7 @@ msgstr "สถานะกิจกรรม"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__sale_activity_note
 msgid "Activity Summary"
-msgstr ""
+msgstr "สรุปกิจกรรม"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__activity_type_icon
@@ -93,7 +94,7 @@ msgstr "ไอคอนประเภทกิจกรรม"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__sale_activity_user_id
 msgid "Activity User"
-msgstr ""
+msgstr "ผู้ใช้กิจกรรม"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__sale_activity_type_id
@@ -101,6 +102,8 @@ msgid ""
 "Activity will be automatically scheduled on payment due date, improving "
 "collection process."
 msgstr ""
+"กิจกรรมจะถูกกำหนดโดยอัตโนมัติในวันที่ครบกำหนดการชำระเงิน "
+"เพื่อปรับปรุงขั้นตอนการเก็บเงิน"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__alias_name
@@ -120,7 +123,7 @@ msgstr ""
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__account_control_ids
 msgid "Allowed accounts"
-msgstr ""
+msgstr "บัญชีที่ได้รับอนุญาต"
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
@@ -136,7 +139,7 @@ msgstr "จํานวนสิ่งที่แนบมา"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__available_payment_method_ids
 msgid "Available Payment Method"
-msgstr ""
+msgstr "วิธีการชำระเงินที่ใช้ได้"
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
@@ -176,6 +179,7 @@ msgid ""
 "Bank statements transactions will be posted on the suspense account until "
 "the final reconciliation allowing finding the right account."
 msgstr ""
+"ธุรกรรมใบแจ้งยอดจากธนาคารจะถูกโพสต์ในบัญชีที่ต้องสงสัยจนกว่าจะมีการกระทบยอดขั้นสุดท้ายเพื่อให้ค้นหาบัญชีที่ถูกต้อง"
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
@@ -189,12 +193,12 @@ msgstr "ยกเลิก"
 msgid ""
 "Cannot find in which journal import this statement. Please manually select a"
 " journal."
-msgstr ""
+msgstr "ไม่พบสมุดรายวันใดที่นำเข้าคำสั่งนี้ โปรดเลือกสมุดรายวันด้วยตนเอง"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__check_sequence_id
 msgid "Check Sequence"
-msgstr ""
+msgstr "ตรวจสอบลำดับ"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__refund_sequence
@@ -207,12 +211,12 @@ msgstr ""
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__check_manual_sequencing
 msgid "Check this option if your pre-printed checks are not numbered."
-msgstr ""
+msgstr "เลือกตัวเลือกนี้ หากเช็คที่พิมพ์ไว้ล่วงหน้าของคุณไม่มีหมายเลขกำกับ"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__check_sequence_id
 msgid "Checks numbering sequence."
-msgstr ""
+msgstr "ตรวจสอบลำดับเลข"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__color
@@ -242,7 +246,7 @@ msgstr "บริษัทที่เกี่ยวข้องกับสม
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__compatible_edi_ids
 msgid "Compatible Edi"
-msgstr ""
+msgstr "Edi ที่เข้ากันได้"
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
@@ -303,12 +307,12 @@ msgstr "ชื่อที่ใช้แสดง"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__compatible_edi_ids
 msgid "EDI format that support moves in this journal"
-msgstr ""
+msgstr "รูปแบบ EDI ที่รองรับการเคลื่อนไหวในสมุดรายวันนี้"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__edi_format_ids
 msgid "Electronic invoicing"
-msgstr ""
+msgstr "การออกใบแจ้งหนี้อิเล็กทรอนิกส์"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__alias_id
@@ -318,7 +322,7 @@ msgstr "นามแฝงอีเมล"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__entries_count
 msgid "Entries Count"
-msgstr ""
+msgstr "จำนวนรายการ"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import__attachment_ids
@@ -386,7 +390,7 @@ msgstr "ถ้าเลือก ข้อความบางข้อคว�
 msgid ""
 "If it contains transactions for more than one account, it must be imported "
 "on each of them."
-msgstr ""
+msgstr "หากมีธุรกรรมที่มากกว่าหนึ่งบัญชี จะต้องนำเข้าในแต่ละบัญชี"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__restrict_mode_hash_table
@@ -411,7 +415,7 @@ msgstr "นำเข้ารายการเดินบัญชี"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_line__unique_import_id
 msgid "Import ID"
-msgstr ""
+msgstr "นำเข้าไอดี"
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.journal_dashboard_view_inherit
@@ -421,7 +425,7 @@ msgstr ""
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__inbound_payment_method_line_ids
 msgid "Inbound Payment Methods"
-msgstr ""
+msgstr "วิธีการชำระเงินขาเข้า"
 
 #. module: account_bank_statement_import
 #: model:ir.actions.act_window,name:account_bank_statement_import.install_more_import_formats_action
@@ -509,7 +513,7 @@ msgstr "อัพเดทครั้งสุดท้ายเมื่อ"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__sale_activity_user_id
 msgid "Leave empty to assign the Salesperson of the invoice."
-msgstr ""
+msgstr "เว้นว่างไว้เพื่อกำหนดพนักงานขายให้กับใบแจ้งหนี้"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__restrict_mode_hash_table
@@ -529,7 +533,7 @@ msgstr "เอกสารหลักที่แนบมา"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__check_manual_sequencing
 msgid "Manual Numbering"
-msgstr ""
+msgstr "การกำหนดหมายเลขด้วยตนเอง"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__inbound_payment_method_line_ids
@@ -547,6 +551,9 @@ msgid ""
 "Check: Pay bills by check and print it from Odoo.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 msgstr ""
+"คู่มือ: ชำระเงินด้วยวิธีใดก็ได้ที่นอกเหนือจาก Odoo\n"
+"เช็ค: ชำระบิลด้วยเช็คและพิมพ์จาก Odoo\n"
+"การโอนเครดิต SEPA: ชำระเงินในโซน SEPA โดยส่งไฟล์การโอนเครดิต SEPA ไปยังธนาคารของคุณ จำเป็นต้องมีโมดูล account_sepa\n"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_has_error
@@ -586,13 +593,13 @@ msgstr "ประเภทกิจกรรมถัดไป"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__check_next_number
 msgid "Next Check Number"
-msgstr ""
+msgstr "หมายเลขเช็คถัดไป"
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
 msgid "No currency found matching '%s'."
-msgstr ""
+msgstr "ไม่พบสกุลเงินที่ตรงกัน '%s'."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__message_needaction_counter
@@ -627,7 +634,7 @@ msgstr "ตกลง"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__outbound_payment_method_line_ids
 msgid "Outbound Payment Methods"
-msgstr ""
+msgstr "วิธีการชำระเงินขาออก"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__profit_account_id
@@ -675,12 +682,12 @@ msgstr ""
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__selected_payment_method_codes
 msgid "Selected Payment Method Codes"
-msgstr ""
+msgstr "รหัสวิธีการชำระเงินที่เลือก"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__edi_format_ids
 msgid "Send XML/EDI invoices"
-msgstr ""
+msgstr "ส่งใบแจ้งหนี้ XML/EDI"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__alias_id
@@ -691,6 +698,11 @@ msgid ""
 "\n"
 "Only PDF and XML files will be interpreted by Odoo"
 msgstr ""
+"ส่งอีเมลแยกต่างหากสำหรับแต่ละใบแจ้งหนี้\n"
+"\n"
+"นามสกุลไฟล์ใดก็ตามจะได้รับการยอมรับ\n"
+"\n"
+"Odoo จะตีความเฉพาะไฟล์ PDF และ XML เท่านั้น"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence
@@ -700,12 +712,12 @@ msgstr "ลำดับ"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence_override_regex
 msgid "Sequence Override Regex"
-msgstr ""
+msgstr "ลำดับแทนที่ Regex"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__check_next_number
 msgid "Sequence number of the next printed check."
-msgstr ""
+msgstr "หมายเลขลำดับของเช็คที่พิมพ์ครั้งถัดไป"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__secure_sequence_id
@@ -728,6 +740,8 @@ msgid ""
 "Shorter name used for display. The journal entries of this journal will also"
 " be named using this prefix by default."
 msgstr ""
+"ชื่อที่สั้นกว่าที่ใช้สำหรับแสดง "
+"รายการบันทึกประจำวันของสมุดรายวันนี้จะถูกตั้งชื่อโดยใช้คำนำหน้านี้ตามค่าเริ่มต้น"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__show_on_dashboard
@@ -750,7 +764,7 @@ msgstr ""
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__suspense_account_id
 msgid "Suspense Account"
-msgstr ""
+msgstr "บัญชีพัก"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence_override_regex
@@ -760,6 +774,10 @@ msgid ""
 "The prefix* groups are the separators between the year, month and the actual increasing sequence number (seq).\n"
 "e.g: ^(?P<prefix1>.*?)(?P<year>\\d{4})(?P<prefix2>\\D*?)(?P<month>\\d{2})(?P<prefix3>\\D+?)(?P<seq>\\d+)(?P<suffix>\\D*?)$"
 msgstr ""
+"ฟิลด์ทางเทคนิคใช้เพื่อบังคับใช้องค์ประกอบลำดับที่ซับซ้อนที่ระบบมักจะเข้าใจผิด\n"
+"นี่คือ regex ที่สามารถรวมกลุ่มการจับภาพต่อไปนี้ทั้งหมด: คำนำหน้า 1, ปี, คำนำหน้า 2, เดือน, คำนำหน้า 3, seq, คำต่อท้าย\n"
+"กลุ่มคำนำหน้า* คือตัวคั่นระหว่างปี เดือน และหมายเลขลำดับที่เพิ่มขึ้นจริง (seq)\n"
+"e.g: ^(?P<prefix1>.*?)(?P<year>\\d{4})(?P<prefix2>\\D*?)(?P<month>\\d{2})(?P<prefix3>\\D+?)(?P<seq>\\d+)(?P<suffix>\\D*?)$"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__selected_payment_method_codes
@@ -788,7 +806,7 @@ msgstr ""
 #, python-format
 msgid ""
 "The account of this statement (%s) is not the same as the journal (%s)."
-msgstr ""
+msgstr "บัญชีของรายการเดินบัญชีนี้ (%s) ไม่เหมือนกับสมุดรายวัน (%s)"
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
@@ -797,6 +815,7 @@ msgid ""
 "The currency of the bank statement (%s) is not the same as the currency of "
 "the journal (%s)."
 msgstr ""
+"สกุลเงินของรายการเดินบัญชีธนาคาร (%s) ไม่เหมือนกับสกุลเงินของสมุดรายวัน (%s)"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__currency_id
@@ -807,13 +826,13 @@ msgstr "หน่วยเงินตราที่ใช้ในงบกา
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
 msgid "This file doesn't contain any statement for account %s."
-msgstr ""
+msgstr "ไฟล์นี้ไม่มีรายการเดินบัญชีใดสำหรับบัญชี %s"
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
 msgid "This file doesn't contain any transaction for account %s."
-msgstr ""
+msgstr "ไฟล์นี้ไม่มีธุรกรรมใดสำหรับบัญชี %s"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__type
@@ -888,7 +907,7 @@ msgstr "Whether this journal should be displayed on the dashboard or not"
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
 msgid "You already have imported that file."
-msgstr ""
+msgstr "คุณได้นำเข้าไฟล์นั้นแล้ว"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__invoice_reference_model
@@ -919,7 +938,19 @@ msgstr ""
 #: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
 #, python-format
 msgid "You have to set a Default Account for the journal: %s"
-msgstr ""
+msgstr "คุณต้องตั้งค่าบัญชีเริ่มต้นสำหรับสมุดรายวัน: %s"
+
+#. module: account_bank_statement_import
+#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
+#, python-format
+msgid "The following files could not be imported:\n"
+msgstr "ไม่สามารถนำเข้าไฟล์ต่อไปนี้ได้:\n"
+
+#. module: account_bank_statement_import
+#: code:addons/account_bank_statement_import/account_bank_statement_import.py:0
+#, python-format
+msgid "View successfully imported statements"
+msgstr "ดูรายการเดินบัญชีที่นำเข้าสำเร็จ"
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.journal_dashboard_view_inherit

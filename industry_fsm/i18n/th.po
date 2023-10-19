@@ -8,6 +8,7 @@
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2021
 # Odoo Thaidev <odoothaidev@gmail.com>, 2021
 # Wichanon Jamwutthipreecha, 2022
+# Rasareeyar Lappiam, 2023
 # 
 msgid ""
 msgstr ""
@@ -15,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 11:16+0000\n"
 "PO-Revision-Date: 2021-09-14 12:40+0000\n"
-"Last-Translator: Wichanon Jamwutthipreecha, 2022\n"
-"Language-Team: Thai (https://www.transifex.com/odoo/teams/41243/th/)\n"
+"Last-Translator: Rasareeyar Lappiam, 2023\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -79,7 +80,7 @@ msgstr "ผู้ดูแลระบบ"
 #: model:ir.ui.menu,name:industry_fsm.fsm_menu_all_tasks_root
 #: model:ir.ui.menu,name:industry_fsm.fsm_menu_all_tasks_todo
 msgid "All Tasks"
-msgstr ""
+msgstr "งานทั้งหมด"
 
 #. module: industry_fsm
 #: model_terms:ir.actions.act_window,help:industry_fsm.project_task_user_action_report_fsm
@@ -95,7 +96,7 @@ msgstr "เก็บถาวร"
 #: model:ir.model.fields,field_description:industry_fsm.field_project_task__user_ids
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__user_ids
 msgid "Assignees"
-msgstr ""
+msgstr "ผู้รับมอบหมาย"
 
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__date_assign
@@ -180,12 +181,12 @@ msgstr ""
 #. module: industry_fsm
 #: model:res.groups,name:industry_fsm.group_fsm_quotation_from_task
 msgid "Create new quotations directly from the tasks"
-msgstr ""
+msgstr "สร้างใบเสนอราคาใหม่ได้โดยตรงจากงาน"
 
 #. module: industry_fsm
 #: model_terms:ir.ui.view,arch_db:industry_fsm.res_config_settings_view_form
 msgid "Create new quotations directly from your tasks"
-msgstr ""
+msgstr "สร้างใบเสนอราคาใหม่ได้โดยตรงจากงานของคุณ"
 
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__create_uid
@@ -205,7 +206,7 @@ msgstr "ลูกค้า"
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__delay_endings_days
 msgid "Days to Deadline"
-msgstr ""
+msgstr "วันถึงกำหนด"
 
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__date_deadline
@@ -215,17 +216,17 @@ msgstr "เส้นตาย"
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_project_task__display_enabled_conditions_count
 msgid "Display Enabled Conditions Count"
-msgstr ""
+msgstr "แสดงจำนวนเงื่อนไขที่เปิดใช้งานแล้ว"
 
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_project_task__display_mark_as_done_primary
 msgid "Display Mark As Done Primary"
-msgstr ""
+msgstr "แสดงข้อมูลหลักที่ทำเครื่องหมายว่าเสร็จสิ้นแล้ว"
 
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_project_task__display_mark_as_done_secondary
 msgid "Display Mark As Done Secondary"
-msgstr ""
+msgstr "แสดงข้อมูลรองที่ทำเครื่องหมายว่าเสร็จสิ้นแล้ว"
 
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__display_name
@@ -235,7 +236,7 @@ msgstr "ชื่อที่ใช้แสดง"
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_project_task__display_satisfied_conditions_count
 msgid "Display Satisfied Conditions Count"
-msgstr ""
+msgstr "แสดงจำนวนเงื่อนไขที่พอใจ"
 
 #. module: industry_fsm
 #: model:ir.model.fields,help:industry_fsm.field_project_project__is_fsm
@@ -244,6 +245,7 @@ msgid ""
 "Display tasks in the Field Service module and allow planning with start/end "
 "dates."
 msgstr ""
+"แสดงงานในโมดูลบริการภาคสนาม และอนุญาตการวางแผนด้วยวันที่เริ่มต้น/สิ้นสุด"
 
 #. module: industry_fsm
 #: model:project.task.type,name:industry_fsm.planning_project_stage_3
@@ -259,17 +261,17 @@ msgstr "ชั่วโมงที่มีมีประสิทธิภา
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__date_end
 msgid "Ending Date"
-msgstr ""
+msgstr "วันที่สิ้นสุด"
 
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_res_config_settings__group_industry_fsm_quotations
 msgid "Extra Quotations"
-msgstr ""
+msgstr "ใบเสนอราคาพิเศษ"
 
 #. module: industry_fsm
 #: model:ir.model,name:industry_fsm.model_report_project_task_user_fsm
 msgid "FSM Tasks Analysis"
-msgstr ""
+msgstr "การวิเคราะห์งาน FSM"
 
 #. module: industry_fsm
 #: code:addons/industry_fsm/models/company.py:0
@@ -285,7 +287,7 @@ msgstr "การบริการภาคสนาม"
 #. module: industry_fsm
 #: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_map
 msgid "Find here your itinerary for today's tasks."
-msgstr ""
+msgstr "ค้นหาแผนการเดินทางของคุณสำหรับงานวันนี้ได้ที่นี่"
 
 #. module: industry_fsm
 #: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm
@@ -359,6 +361,8 @@ msgid ""
 "Keep track of the products used for your tasks, and invoice your time and "
 "material to your customers"
 msgstr ""
+"ติดตามสินค้าที่ใช้สำหรับงานของคุณ "
+"และออกใบแจ้งหนี้เวลาและวัสดุของคุณให้กับลูกค้าของคุณ"
 
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm____last_update
@@ -385,7 +389,7 @@ msgstr "อัพเดทครั้งสุดท้ายเมื่อ"
 #: code:addons/industry_fsm/static/src/js/tours/industry_fsm_tour.js:0
 #, python-format
 msgid "Launch the timer to <b>track the time spent</b> on your task."
-msgstr ""
+msgstr "เปิดตัวจับเวลาเพื่อ <b>ติดตามเวลาที่ใช้</b> ในงานของคุณ "
 
 #. module: industry_fsm
 #. openerp-web
@@ -401,12 +405,12 @@ msgstr ""
 #: code:addons/industry_fsm/static/src/js/tours/industry_fsm_tour.js:0
 #, python-format
 msgid "Let's create your first <b>task</b>."
-msgstr ""
+msgstr "มาสร้าง <b>งานแรก</b> ของคุณไปด้วยกัน"
 
 #. module: industry_fsm
 #: model_terms:ir.ui.view,arch_db:industry_fsm.project_view_form_inherit
 msgid "Manage tasks in the Field Service module"
-msgstr ""
+msgstr "จัดการงานในโมดูลบริการภาคสนาม"
 
 #. module: industry_fsm
 #: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm_map
@@ -430,7 +434,7 @@ msgstr "งานของฉัน"
 #: model_terms:ir.ui.view,arch_db:industry_fsm.project_sharing_inherit_project_task_view_form
 #: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
 msgid "Navigate To"
-msgstr ""
+msgstr "นำทางไปยัง"
 
 #. module: industry_fsm
 #: model:project.task.type,name:industry_fsm.planning_project_stage_0
@@ -445,7 +449,7 @@ msgstr "ยังไม่มีข้อมูล!"
 #. module: industry_fsm
 #: model_terms:ir.actions.act_window,help:industry_fsm.project_project_action_only_fsm
 msgid "No projects found. Let's create one!"
-msgstr ""
+msgstr "ไม่พบโปรเจ็กต์ มาสร้างกันเถอะ!"
 
 #. module: industry_fsm
 #: model_terms:ir.actions.act_window,help:industry_fsm.project_task_type_action_fsm
@@ -460,7 +464,7 @@ msgstr "ไม่พบขั้นตอน มาสร้างกันเ�
 #: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_user
 #: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_to_schedule_fsm
 msgid "No tasks found. Let's create one!"
-msgstr ""
+msgstr "ไม่พบงาน มาสร้างกันเถอะ!"
 
 #. module: industry_fsm
 #: model:ir.model.fields,help:industry_fsm.field_report_project_task_user_fsm__working_days_close
@@ -510,12 +514,12 @@ msgstr "การวางแผน"
 #. module: industry_fsm
 #: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm_planning_groupby_project
 msgid "Planning by Project"
-msgstr ""
+msgstr "การวางแผนตามโปรเจ็กต์"
 
 #. module: industry_fsm
 #: model:ir.actions.act_window,name:industry_fsm.project_task_action_fsm_planning_groupby_user
 msgid "Planning by User"
-msgstr ""
+msgstr "การวางแผนโดยผู้ใช้"
 
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__priority
@@ -553,7 +557,7 @@ msgstr ""
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__rating_last_value
 msgid "Rating Value (/5)"
-msgstr ""
+msgstr "ค่าคะแนน (/5)"
 
 #. module: industry_fsm
 #: model:project.task,legend_done:industry_fsm.planning_task_0
@@ -593,6 +597,8 @@ msgid ""
 "Ready to <b>manage your onsite interventions</b>? <i>Click Field Service to "
 "start.</i>"
 msgstr ""
+"พร้อมที่จะ <b>จัดการการดำเนินการนอกสถานที่ของคุณแล้วหรือยัง</b>? <i>คลิก "
+"บริการภาคสนาม เพื่อเริ่มต้น</i>"
 
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__remaining_hours
@@ -619,7 +625,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_project
 #: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm_planning_groupby_user
 msgid "Schedule your tasks and assign them to your workers."
-msgstr ""
+msgstr "กำหนดเวลางานและมอบหมายให้กับพนักงานของคุณ"
 
 #. module: industry_fsm
 #: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
@@ -663,17 +669,17 @@ msgstr "วันที่เริ่ม"
 #: code:addons/industry_fsm/static/src/js/tours/industry_fsm_tour.js:0
 #, python-format
 msgid "Stop the <b>timer</b> when you are done."
-msgstr ""
+msgstr "หยุด<b>จับเวลา</b>เมื่อคุณทำเสร็จแล้ว"
 
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_project_project__allow_subtasks
 msgid "Sub-tasks"
-msgstr ""
+msgstr "งานย่อย"
 
 #. module: industry_fsm
 #: model_terms:ir.ui.view,arch_db:industry_fsm.report_project_task_user_fsm_view_tree
 msgid "Sum of Effective Hours"
-msgstr ""
+msgstr "ผลรวมของชั่วโมงที่มีผลบังคับใช้"
 
 #. module: industry_fsm
 #: model:ir.ui.menu,name:industry_fsm.menu_project_tags_act
@@ -689,7 +695,7 @@ msgstr "งาน"
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_project_project__allow_task_dependencies
 msgid "Task Dependencies"
-msgstr ""
+msgstr "การขึ้นต่อกันของงาน"
 
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_project_task__fsm_done
@@ -735,7 +741,7 @@ msgstr "เวลา"
 #. module: industry_fsm
 #: model_terms:ir.ui.view,arch_db:industry_fsm.timesheet_view_form
 msgid "Time Spent"
-msgstr ""
+msgstr "เวลาที่ใช้ไป"
 
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_res_config_settings__module_industry_fsm_sale
@@ -745,7 +751,7 @@ msgstr ""
 #. module: industry_fsm
 #: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
 msgid "Time recorded on this task"
-msgstr ""
+msgstr "เวลาที่บันทึกไว้ในงานนี้"
 
 #. module: industry_fsm
 #: model_terms:ir.ui.view,arch_db:industry_fsm.timesheet_view_form
@@ -770,11 +776,13 @@ msgid ""
 "To get things done, use activities and status on tasks.<br>\n"
 "                Chat in real-time or by email to collaborate efficiently."
 msgstr ""
+"หากต้องการทำงานให้เสร็จสิ้น ให้ใช้กิจกรรมและสถานะกับงาน<br>\n"
+"                แชทแบบเรียลไทม์หรือทางอีเมลเพื่อทำงานร่วมกันอย่างมีประสิทธิภาพ"
 
 #. module: industry_fsm
 #: model_terms:ir.actions.act_window,help:industry_fsm.project_task_type_action_fsm
 msgid "Track the progress of your tasks from their creation to their closing."
-msgstr ""
+msgstr "ติดตามความคืบหน้าของงานของคุณตั้งแต่การสร้างไปจนถึงการปิดงาน"
 
 #. module: industry_fsm
 #: model:res.groups,name:industry_fsm.group_fsm_user
@@ -785,24 +793,24 @@ msgstr "ผู้ใช้งาน"
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__working_days_open
 #: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_user_view_graph
 msgid "Working Days to Assign"
-msgstr ""
+msgstr "วันทำการที่จะมอบหมาย"
 
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__working_days_close
 #: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_user_view_graph
 #: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_user_view_pivot
 msgid "Working Days to Close"
-msgstr ""
+msgstr "วันทำการเพื่อปิด"
 
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__working_hours_open
 msgid "Working Hours to Assign"
-msgstr ""
+msgstr "ชั่วโมงการทำงานที่จะกำหนด"
 
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__working_hours_close
 msgid "Working Hours to Close"
-msgstr ""
+msgstr "ชั่วโมงการทำงานเพื่อปิด"
 
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_res_config_settings__module_industry_fsm_report
@@ -819,11 +827,17 @@ msgid ""
 "format_datetime(object.planned_date_end, tz=object.partner_id.tz, "
 "lang_code=object.partner_id.lang) or '' }}"
 msgstr ""
+"การดำเนินการของคุณถูกกำหนดไว้แล้ว {{ object.planned_date_begin and "
+"object.planned_date_end and 'from the ' + "
+"format_datetime(object.planned_date_begin, tz=object.partner_id.tz, "
+"lang_code=object.partner_id.lang) + ' to the ' + "
+"format_datetime(object.planned_date_end, tz=object.partner_id.tz, "
+"lang_code=object.partner_id.lang) or '' }}"
 
 #. module: industry_fsm
 #: model_terms:ir.ui.view,arch_db:industry_fsm.quick_create_task_form_fsm
 msgid "e.g. Boiler replacement"
-msgstr ""
+msgstr "เช่น การเปลี่ยนหม้อไอน้ำ"
 
 #. module: industry_fsm
 #: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
@@ -833,4 +847,4 @@ msgstr ""
 #. module: industry_fsm
 #: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_user_view_pivot
 msgid "working days to assign"
-msgstr ""
+msgstr "วันทำการที่จะมอบหมาย"

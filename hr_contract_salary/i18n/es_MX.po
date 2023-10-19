@@ -41,7 +41,7 @@ msgid ""
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <h2>¡Felicidades!</h2>\n"
-"    Puede configurar su paquete salarial al hacer clic en el enlace a continuación.\n"
+"    Puede configurar su paquete salarial mediante el siguiente enlace.\n"
 "    <div style=\"padding: 16px 0px 16px 0px;\">\n"
 "        <a t-att-href=\"ctx.get('salary_package_url')\" target=\"_blank\" style=\"background-color: #875a7b; text-decoration: none; color: #fff; padding: 8px 16px 8px 16px; border-radius: 5px;\">Configure su paquete</a>\n"
 "    </div>\n"
@@ -194,7 +194,7 @@ msgstr "Candidato"
 #. module: hr_contract_salary
 #: model:mail.template,name:hr_contract_salary.mail_template_send_offer_applicant
 msgid "Applicant: Your Salary Package"
-msgstr "Candidato: Su paquete salarial"
+msgstr "Candidato: su paquete salarial"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_personal_info__applies_on
@@ -485,7 +485,7 @@ msgstr "Días"
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_res_config_settings__access_token_validity
 msgid "Default Access Token Validity Duration"
-msgstr "Duración predeterminada de validez de tokens de acceso"
+msgstr "Duración predeterminada de validez del token de acceso"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,help:hr_contract_salary.field_hr_contract__default_contract_id
@@ -1009,7 +1009,7 @@ msgstr "No"
 #: code:addons/hr_contract_salary/wizard/generate_simulation_link.py:0
 #, python-format
 msgid "No HR responsible defined on the contract."
-msgstr "No hay responsable de RR.HH. definido para este contrato."
+msgstr "No hay responsable de RR. HH. definido para este contrato."
 
 #. module: hr_contract_salary
 #: code:addons/hr_contract_salary/controllers/main.py:0
@@ -1289,7 +1289,7 @@ msgstr "Valor de información personal del paquete salarial"
 #. module: hr_contract_salary
 #: model:ir.model,name:hr_contract_salary.model_hr_contract_salary_resume
 msgid "Salary Package Resume"
-msgstr "Resumen del paquete salarial"
+msgstr "Currículum del paquete salarial"
 
 #. module: hr_contract_salary
 #: model:ir.model,name:hr_contract_salary.model_hr_contract_salary_resume_category
@@ -1494,7 +1494,7 @@ msgstr ""
 #. module: hr_contract_salary
 #: model:ir.model.fields,help:hr_contract_salary.field_hr_contract__signatures_count
 msgid "The number of signatures on the pdf contract with the most signatures."
-msgstr "El número de firmas en el contrato en pdf con más firmas"
+msgstr "El número de firmas en el contrato en PDF con más firmas."
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,help:hr_contract_salary.field_hr_contract_salary_advantage__activity_type_id
@@ -1522,8 +1522,8 @@ msgstr "El contrato se ha actualizado, solicite un enlace actualizado."
 msgid ""
 "This link is invalid. Please contact the HR Responsible to get a new one..."
 msgstr ""
-"El enlace es no es válido, contacte al responsable de RR. HH. para recibir "
-"uno nuevo..."
+"El enlace no es válido, contacte al responsable de RR. HH. para recibir uno "
+"nuevo..."
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,help:hr_contract_salary.field_hr_contract__monthly_yearly_costs
@@ -1631,7 +1631,7 @@ msgstr "Su información personal"
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.salary_package_thank_you
 msgid "Your contract has been sent to:"
-msgstr "Su contrato se ha enviado a:"
+msgstr "Su contrato se envió a:"
 
 #. module: hr_contract_salary
 #: model:hr.contract.salary.personal.info,name:hr_contract_salary.hr_contract_salary_personal_info_zip

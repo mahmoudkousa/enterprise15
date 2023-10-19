@@ -1635,7 +1635,6 @@ module(
             await dom.click(dialog.querySelector(".o_pager_next"));
             assert.containsNone(dialog, ".o-template-selected");
             const createButton = dialog.querySelector(".o-spreadsheet-create");
-            await dom.click(createButton);
             assert.ok(createButton.attributes.disabled);
             kanban.destroy();
         });

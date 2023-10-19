@@ -9,6 +9,7 @@
 # Linkup <link-up@naver.com>, 2021
 # Seongseok Shin <shinss61@hotmail.com>, 2021
 # Sarah Park, 2023
+# Daye Jeong, 2023
 # 
 msgid ""
 msgstr ""
@@ -16,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-16 06:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Sarah Park, 2023\n"
+"Last-Translator: Daye Jeong, 2023\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -73,7 +74,7 @@ msgstr "핸드셋으로 항상 리디렉션"
 #, python-format
 msgid ""
 "Are you sure that you want to close this website? There's a call ongoing."
-msgstr ""
+msgstr "이 웹사이트를 닫으시겠습니까? 아직 통화 중입니다."
 
 #. module: voip
 #: model:ir.model.fields.selection,name:voip.selection__res_users__mobile_call_method__ask
@@ -130,7 +131,7 @@ msgstr "통화 명"
 #: code:addons/voip/models/voip_phonecall.py:0
 #, python-format
 msgid "Call duration: %(min)smin %(sec)ssec"
-msgstr ""
+msgstr "통화 시간: %(min)s분 %(sec)s초"
 
 #. module: voip
 #. openerp-web
@@ -325,14 +326,14 @@ msgstr "편집하기"
 #: code:addons/voip/static/src/js/dialing_panel.js:0
 #, python-format
 msgid "End Call"
-msgstr ""
+msgstr "통화 종료"
 
 #. module: voip
 #. openerp-web
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "Enter number or name"
-msgstr ""
+msgstr "번호 또는 이름을 입력하세요"
 
 #. module: voip
 #. openerp-web
@@ -441,7 +442,7 @@ msgstr "%s (%s) 수신 전화"
 #: code:addons/voip/static/src/xml/phone_call_details.xml:0
 #, python-format
 msgid "Incoming call from..."
-msgstr ""
+msgstr "수신 전화..."
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_res_partner__has_call_in_queue
@@ -469,7 +470,7 @@ msgstr "최근 수정일"
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_res_users__last_seen_phone_call
 msgid "Last Seen Phone Call"
-msgstr ""
+msgstr "마지막으로 확인한 전화"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_voip_configurator__write_uid
@@ -516,7 +517,7 @@ msgstr "전화 통화 기록"
 #: code:addons/voip/static/src/js/dialing_panel.js:0
 #, python-format
 msgid "Make a call using:"
-msgstr ""
+msgstr "다음을 사용하여 전화 걸기:"
 
 #. module: voip
 #. openerp-web
@@ -905,7 +906,7 @@ msgstr "연결할 수 없습니다. </br>환경 설정을 확인하십시오.</b
 #: code:addons/voip/static/src/js/user_agent.js:0
 #, python-format
 msgid "The person you try to contact is currently unavailable."
-msgstr ""
+msgstr "수신자가 현재 전화를 받으실 수 없습니다."
 
 #. module: voip
 #. openerp-web
@@ -1027,7 +1028,7 @@ msgstr "VoIP 환경"
 #: model:ir.model.fields.selection,name:voip.selection__res_users__mobile_call_method__voip
 #, python-format
 msgid "Voip"
-msgstr ""
+msgstr "Voip"
 
 #. module: voip
 #: model:ir.model.fields,field_description:voip.field_res_config_settings__wsServer

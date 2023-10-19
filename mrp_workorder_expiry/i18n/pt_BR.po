@@ -23,7 +23,7 @@ msgstr ""
 #. module: mrp_workorder_expiry
 #: model_terms:ir.ui.view,arch_db:mrp_workorder_expiry.mrp_workorder_view_form_tablet_inherit_expiry
 msgid "<span class=\"fa fa-exclamation-triangle\"/> This lot is expired."
-msgstr ""
+msgstr "<span class=\"fa fa-exclamation-triangle\"/> Este lote está vencido."
 
 #. module: mrp_workorder_expiry
 #: model:ir.model.fields,field_description:mrp_workorder_expiry.field_mrp_workorder__is_expired

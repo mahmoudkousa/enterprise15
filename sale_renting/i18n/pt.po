@@ -12,6 +12,8 @@
 # Nuno Silva <nuno.silva@arxi.pt>, 2021
 # Pedro Filipe <pedro2.10@hotmail.com>, 2021
 # Luiz Fernando <lfpsgs@outlook.com>, 2022
+# Mónica Pinheiro, 2023
+# Arxi, 2023
 # 
 msgid ""
 msgstr ""
@@ -19,8 +21,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Luiz Fernando <lfpsgs@outlook.com>, 2022\n"
-"Language-Team: Portuguese (https://www.transifex.com/odoo/teams/41243/pt/)\n"
+"Last-Translator: Arxi, 2023\n"
+"Language-Team: Portuguese (https://app.transifex.com/odoo/teams/41243/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -263,7 +265,7 @@ msgstr "Confirmado"
 #: model_terms:ir.ui.view,arch_db:sale_renting.rental_report_search_view
 #: model_terms:ir.ui.view,arch_db:sale_renting.rental_schedule_view_search
 msgid "Confirmed Orders"
-msgstr ""
+msgstr "Encomendas Confirmadas"
 
 #. module: sale_renting
 #: code:addons/sale_renting/models/rental_pricing.py:0
@@ -568,12 +570,12 @@ msgstr "ID"
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.report_rental_order_document
 msgid "Invoicing Address:"
-msgstr ""
+msgstr "Endereço de Faturação:"
 
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.report_rental_order_document
 msgid "Invoicing and Shipping Address:"
-msgstr ""
+msgstr "Endereço de faturação e de entrega:"
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_rental_order_wizard_line__is_late

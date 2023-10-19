@@ -9,6 +9,7 @@
 # Martin Trigaux, 2022
 # Yoshi Tashiro (Quartile) <tashiro@roomsfor.hk>, 2022
 # Ryoko Tsuda <ryoko@quartile.co>, 2022
+# Junko Augias, 2023
 # 
 msgid ""
 msgstr ""
@@ -16,8 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:43+0000\n"
 "PO-Revision-Date: 2021-09-14 12:41+0000\n"
-"Last-Translator: Ryoko Tsuda <ryoko@quartile.co>, 2022\n"
-"Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
+"Last-Translator: Junko Augias, 2023\n"
+"Language-Team: Japanese (https://app.transifex.com/odoo/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -41,12 +42,12 @@ msgstr "<i class=\"fa fa-print\"/> バーコードコマンド印刷"
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.view_mrp_workorder_additional_product_wizard
 #, python-format
 msgid "Add By-Product"
-msgstr ""
+msgstr "副産品を追加"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet_menu
 msgid "Add By-product"
-msgstr ""
+msgstr "副産品を追加"
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
@@ -54,7 +55,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.view_mrp_workorder_additional_product_wizard
 #, python-format
 msgid "Add Component"
-msgstr ""
+msgstr "構成品を追加"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.view_mrp_workorder_additional_product_wizard
@@ -64,17 +65,17 @@ msgstr "製品を追加する"
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_mrp_workorder_additional_product
 msgid "Additional Product"
-msgstr ""
+msgstr "追加プロダクト"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__allow_producing_quantity_change
 msgid "Allow Changes to Producing Quantity"
-msgstr ""
+msgstr "製造数量の変更を許可する"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point_test_type__allow_registration
 msgid "Allow Registration"
-msgstr ""
+msgstr "登録を許可"
 
 #. module: mrp_workorder
 #. openerp-web
@@ -112,12 +113,12 @@ msgstr "ブロック"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__bom_product_ids
 msgid "Bom Product"
-msgstr ""
+msgstr "部品表プロダクト"
 
 #. module: mrp_workorder
 #: model:ir.model.fields.selection,name:mrp_workorder.selection__mrp_workorder_additional_product__type__byproduct
 msgid "By-Product"
-msgstr ""
+msgstr "副産品"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
@@ -132,7 +133,7 @@ msgstr "消費を継続"
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
 msgid "CONTINUE PRODUCTION"
-msgstr ""
+msgstr "製造継続"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__product_uom_category_id
@@ -142,7 +143,7 @@ msgstr "カテゴリ"
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_change_production_qty
 msgid "Change Production Qty"
-msgstr ""
+msgstr "製造数量を変更"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__check_ids
@@ -172,7 +173,7 @@ msgstr "構成品"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__component_qty_to_do
 msgid "Component Qty To Do"
-msgstr ""
+msgstr "構成品数量 To Do"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__component_uom_id
@@ -214,12 +215,12 @@ msgstr "作成日"
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
 msgid "Creates a new serial/lot number"
-msgstr ""
+msgstr "シリアル/ロット番号を新規作成"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__current_quality_check_id
 msgid "Current Quality Check"
-msgstr ""
+msgstr "現在の品質検査"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_inherit_workorder
@@ -230,7 +231,7 @@ msgstr "日付"
 #. module: mrp_workorder
 #: model:ir.model.fields,help:mrp_workorder.field_quality_point__test_type_id
 msgid "Defines the type of the quality control point."
-msgstr ""
+msgstr "品質管理ポイントのタイプを定義します。"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.view_mrp_workorder_additional_product_wizard
@@ -282,7 +283,7 @@ msgstr ""
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__finished_lot_id
 msgid "Finished Lot/Serial"
-msgstr ""
+msgstr "完了ロット/シリアル"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_inherit_workorder
@@ -292,12 +293,12 @@ msgstr "完成ロット/シリアル番号"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__finished_product_check_ids
 msgid "Finished Product Check"
-msgstr ""
+msgstr "完成品検査"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__finished_product_sequence
 msgid "Finished Product Sequence Number"
-msgstr ""
+msgstr "完成品付番"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_inherit_workorder
@@ -333,7 +334,7 @@ msgstr "この作業オーダでロット番号をスキャンする必要のあ
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__component_tracking
 msgid "Is Component Tracked"
-msgstr ""
+msgstr "構成品が追跡されるか"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__is_first_step
@@ -348,22 +349,22 @@ msgstr ""
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__is_last_unfinished_wo
 msgid "Is Last Work Order To Process"
-msgstr ""
+msgstr "処理する最終の作業オーダか"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__is_last_lot
 msgid "Is Last lot"
-msgstr ""
+msgstr "最終ロットか"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__is_first_started_wo
 msgid "Is The first Work Order"
-msgstr ""
+msgstr "最初の作業オーダか"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__is_workorder_step
 msgid "Is Workorder Step"
-msgstr ""
+msgstr "作業オーダステップか"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product____last_update
@@ -434,12 +435,12 @@ msgstr "次"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__next_check_id
 msgid "Next Check"
-msgstr ""
+msgstr "次の検査"
 
 #. module: mrp_workorder
 #: model_terms:ir.actions.act_window,help:mrp_workorder.action_mrp_workorder_show_steps
 msgid "No manufacturing steps defined yet!"
-msgstr ""
+msgstr "製造ステップがまだ定義されていません！"
 
 #. module: mrp_workorder
 #: model_terms:ir.actions.act_window,help:mrp_workorder.mrp_workorder_action_tablet
@@ -498,7 +499,7 @@ msgstr "作業区別計画"
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
 #, python-format
 msgid "Please ensure the quantity to produce is greater than 0."
-msgstr ""
+msgstr "製造する数量が0より大きいことを確認して下さい。"
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
@@ -510,7 +511,7 @@ msgstr "ロット/シリアル番号を入力してください。"
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
 #, python-format
 msgid "Please enter a positive quantity."
-msgstr ""
+msgstr "正の数量を入力して下さい。"
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
@@ -526,7 +527,7 @@ msgstr ""
 msgid ""
 "Please set the quantity you are currently producing. It should be different "
 "from zero."
-msgstr ""
+msgstr "現在生産している数量を設定してください。ゼロとは異なる数である必要があります。"
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
@@ -542,7 +543,7 @@ msgstr "前"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__previous_check_id
 msgid "Previous Check"
-msgstr ""
+msgstr "以前の検査"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
@@ -562,12 +563,12 @@ msgstr "製品の移動(在庫移動ライン)"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__component_id
 msgid "Product To Register"
-msgstr ""
+msgstr "登録するプロダクト"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__product_uom_id
 msgid "Product Uom"
-msgstr ""
+msgstr "プロダクト単位"
 
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_mrp_production
@@ -610,7 +611,7 @@ msgstr "品質検査不合格"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__quality_check_todo
 msgid "Quality Check Todo"
-msgstr ""
+msgstr "品質検査 Todo"
 
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_quality_point
@@ -620,7 +621,7 @@ msgstr "品質管理ポイント"
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_quality_point_test_type
 msgid "Quality Control Test Type"
-msgstr ""
+msgstr "品質管理テストタイプ"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_routing_workcenter__quality_point_ids
@@ -631,17 +632,17 @@ msgstr "品質ポイント"
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.view_routing_steps_search
 msgid "Quality Point Steps"
-msgstr ""
+msgstr "品質ポイントステップ"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,help:mrp_workorder.field_quality_point__product_ids
 msgid "Quality Point will apply to every selected Products."
-msgstr ""
+msgstr "全ての選択されたプロダクトに適用される品質ポイント"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__quality_state
 msgid "Quality State"
-msgstr ""
+msgstr "品質ステータス"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__product_qty
@@ -654,23 +655,23 @@ msgstr "数量"
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
 msgid "Record production"
-msgstr ""
+msgstr "製造を記録"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__additional
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__additional
 msgid "Register additional product"
-msgstr ""
+msgstr "追加プロダクトを登録"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__bom_active
 msgid "Related Bill of Material Active"
-msgstr ""
+msgstr "関連する有効な部品表"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__component_remaining_qty
 msgid "Remaining Quantity for Component"
-msgstr ""
+msgstr "構成品の残数量"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__test_report_type
@@ -760,7 +761,7 @@ msgstr "在庫移動"
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__move_line_id
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__move_line_id
 msgid "Stock Move Line"
-msgstr ""
+msgstr "在庫移動明細"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__test_type
@@ -823,7 +824,7 @@ msgstr "単位"
 #. module: mrp_workorder
 #: model:ir.actions.server,name:mrp_workorder.production_order_unplan_server_action
 msgid "Unplan orders"
-msgstr ""
+msgstr "オーダの計画取消"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_check__component_uom_id
@@ -835,7 +836,7 @@ msgstr "単位"
 msgid ""
 "Use steps to show instructions on a worksheet to operators, or trigger "
 "quality checks at specific steps of the work order."
-msgstr ""
+msgstr "ステップを使用して、オペレータにワークシート上の説明を表示したり、作業オーダの特定のステップで品質検査をトリガーします。"
 
 #. module: mrp_workorder
 #: model_terms:ir.actions.act_window,help:mrp_workorder.mrp_workorder_action_tablet
@@ -844,6 +845,9 @@ msgid ""
 "            The tablet provides worksheets for your workers and allow them to scrap products, track time,\n"
 "            launch a maintenance request, perform quality tests, etc."
 msgstr ""
+"テーブル作業区のコントロールパネルを使用して、ショップフロアのオペレーションを直接登録します。\n"
+"　　　　タブレットで作業員用のワークシートを提供し、プロダクトの廃棄、時間の記録、\n"
+"　　　　修理依頼、品質検査などを行うことができます。"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
@@ -883,7 +887,7 @@ msgstr "作業オーダ"
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.quality_point_view_form_inherit_mrp
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.quality_point_view_tree
 msgid "Work Order Operation"
-msgstr ""
+msgstr "作業オーダオペレーション"
 
 #. module: mrp_workorder
 #: model:ir.actions.act_window,name:mrp_workorder.mrp_workorder_action_tablet
@@ -894,7 +898,7 @@ msgstr "作業オーダ"
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workcenter_view_kanban_inherit_workorder
 msgid "Work orders"
-msgstr ""
+msgstr "作業オーダ"
 
 #. module: mrp_workorder
 #: model_terms:ir.actions.act_window,help:mrp_workorder.mrp_workorder_action_tablet
@@ -906,7 +910,7 @@ msgstr "作業オーダは、製造オーダの一部として行う工程です
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder_additional_product__workorder_id
 msgid "Workorder"
-msgstr ""
+msgstr "作業オーダ"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet_menu
@@ -921,12 +925,12 @@ msgstr "ワークシート"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__worksheet_page
 msgid "Worksheet Page"
-msgstr ""
+msgstr "ワークシートページ"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__worksheet_page
 msgid "Worksheet page"
-msgstr ""
+msgstr "ワークシートページ"
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
@@ -942,13 +946,13 @@ msgstr ""
 msgid ""
 "You cannot update the quantity to do of an ongoing manufacturing order for "
 "which quality checks have been performed."
-msgstr ""
+msgstr "品質検査が実行された進行中の製造オーダの実行数量を更新することはできません。"
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0
 #, python-format
 msgid "You did not set a lot/serial number for the final product"
-msgstr ""
+msgstr "完成プロダクトのロット/シリアル番号が設定されていません。"
 
 #. module: mrp_workorder
 #: code:addons/mrp_workorder/models/mrp_workorder.py:0

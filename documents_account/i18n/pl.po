@@ -347,7 +347,7 @@ msgstr "Wyślij ten list do działu prawnego, przypisując mu odpowiednie tagi."
 #: model:ir.model.fields,field_description:documents_account.field_account_reports_export_wizard__tag_ids
 #: model:ir.model.fields,field_description:documents_account.field_documents_account_folder_setting__tag_ids
 msgid "Tags"
-msgstr "Znaczniki"
+msgstr "Tagi"
 
 #. module: documents_account
 #: model:mail.activity.type,name:documents_account.mail_documents_activity_data_vat

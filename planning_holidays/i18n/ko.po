@@ -4,6 +4,8 @@
 # 
 # Translators:
 # JH CHOI <hwangtog@gmail.com>, 2021
+# Sarah Park, 2023
+# Daye Jeong, 2023
 # 
 msgid ""
 msgstr ""
@@ -11,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:56+0000\n"
 "PO-Revision-Date: 2021-09-14 12:41+0000\n"
-"Last-Translator: JH CHOI <hwangtog@gmail.com>, 2021\n"
-"Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
+"Last-Translator: Daye Jeong, 2023\n"
+"Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -23,7 +25,7 @@ msgstr ""
 #: code:addons/planning_holidays/models/planning_slot.py:0
 #, python-format
 msgid " and"
-msgstr ""
+msgstr "및"
 
 #. module: planning_holidays
 #: code:addons/planning_holidays/models/planning_slot.py:0
@@ -53,7 +55,7 @@ msgstr ""
 #: code:addons/planning_holidays/models/planning_slot.py:0
 #, python-format
 msgid "%(prefix)s from the %(dfrom)s to the %(dto)s"
-msgstr ""
+msgstr "%(dfrom)s에서 %(dto)s으로 %(prefix)s"
 
 #. module: planning_holidays
 #: code:addons/planning_holidays/models/planning_slot.py:0
@@ -71,12 +73,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:planning_holidays.field_planning_slot__is_absent
 #: model_terms:ir.ui.view,arch_db:planning_holidays.planning_slot_view_search_inherit_planning_holidays
 msgid "Employees on Time Off"
-msgstr ""
+msgstr "휴가 중인 직원"
 
 #. module: planning_holidays
 #: model:ir.model.fields,field_description:planning_holidays.field_planning_slot__leave_warning
 msgid "Leave Warning"
-msgstr ""
+msgstr "경고 남기기"
 
 #. module: planning_holidays
 #: code:addons/planning_holidays/models/planning_slot.py:0

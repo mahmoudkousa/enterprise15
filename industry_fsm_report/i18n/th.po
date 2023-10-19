@@ -6,9 +6,10 @@
 # Martin Trigaux, 2021
 # Seksan Poltree <seksan.poltree@gmail.com>, 2021
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2021
-# Amin Cheloh <nineamin@hotmail.com>, 2021
+# Amin Cheloh <amincheloh@gmail.com>, 2021
 # Odoo Thaidev <odoothaidev@gmail.com>, 2021
 # Wichanon Jamwutthipreecha, 2022
+# Rasareeyar Lappiam, 2023
 # 
 msgid ""
 msgstr ""
@@ -16,8 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 09:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:40+0000\n"
-"Last-Translator: Wichanon Jamwutthipreecha, 2022\n"
-"Language-Team: Thai (https://www.transifex.com/odoo/teams/41243/th/)\n"
+"Last-Translator: Rasareeyar Lappiam, 2023\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -96,6 +97,9 @@ msgid ""
 "                                Signed\n"
 "                            </span>"
 msgstr ""
+"<span style=\"                                 font-size: 10px;                                 color: #fff;                                 text-transform: uppercase;                                 text-align: center;                                 font-weight: bold; line-height: 20px;                                 transform: rotate(45deg);                                 width: 100px; height: auto; display: block;                                 background: green;                                 position: absolute;                                 top: 19px; right: -21px; left: auto;                                 padding: 0;\">\n"
+"                                ลงนามแล้ว\n"
+"                            </span>"
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
@@ -105,7 +109,7 @@ msgstr "<strong>ลูกค้า:</strong>"
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_task_view_gantt_fsm_worksheet
 msgid "<strong>Template — </strong>"
-msgstr ""
+msgstr "<strong>เทมเพลต — </strong>"
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
@@ -158,7 +162,7 @@ msgstr "ตัวอย่างลูกค้า"
 #. module: industry_fsm_report
 #: model_terms:ir.actions.act_window,help:industry_fsm_report.fsm_worksheets_action_settings
 msgid "Customize worksheet templates for each type of intervention.<br>"
-msgstr ""
+msgstr "ปรับแต่งเทมเพลตแผ่นงานสำหรับการดำเนินการแต่ละประเภท<br>"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field7
@@ -176,7 +180,7 @@ msgstr "วันที่ใช้ไป"
 #: model:ir.model,name:industry_fsm_report.model_x_custom_worksheet_x_project_task_worksheet_template_2
 #: model:ir.model.fields,field_description:industry_fsm_report.field_project_project__worksheet_template_id
 msgid "Default Worksheet"
-msgstr ""
+msgstr "แผ่นงานเริ่มต้น"
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
@@ -187,32 +191,32 @@ msgstr "รายละเอียด"
 #: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field2
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_task_worksheet_template_3
 msgid "Description of the Intervention"
-msgstr ""
+msgstr "คำอธิบายของการดำเนินการ"
 
 #. module: industry_fsm_report
 #: model:ir.model,name:industry_fsm_report.model_x_custom_worksheet_x_project_task_worksheet_template_3
 msgid "Device Installation and Maintenance"
-msgstr ""
+msgstr "การติดตั้งและซ่อมบำรุงอุปกรณ์"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__display_send_report_primary
 msgid "Display Send Report Primary"
-msgstr ""
+msgstr "แสดงรายงานการส่งหลัก"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__display_send_report_secondary
 msgid "Display Send Report Secondary"
-msgstr ""
+msgstr "แสดงรายงานการส่งรอง"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__display_sign_report_primary
 msgid "Display Sign Report Primary"
-msgstr ""
+msgstr "แสดงป้ายรายงานหลัก"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__display_sign_report_secondary
 msgid "Display Sign Report Secondary"
-msgstr ""
+msgstr "แสดงป้ายรายงานรอง"
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_worksheet
@@ -235,14 +239,14 @@ msgstr "เปิดใช้งานแผ่นงานที่ปรับ
 #: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report.js:0
 #, python-format
 msgid "Fill in your <b>worksheet</b> with the details of your intervention."
-msgstr ""
+msgstr "กรอกรายละเอียดการดำเนินการลงใน <b>แผ่นงาน</b> ของคุณ"
 
 #. module: industry_fsm_report
 #. openerp-web
 #: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report.js:0
 #, python-format
 msgid "Go back to your Field Service <b>task</b>."
-msgstr ""
+msgstr "กลับไปที่<b>งาน</b>บริการภาคสนามของคุณ"
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
@@ -256,18 +260,19 @@ msgid ""
 "I hereby certify that this device meets the requirements of an acceptable "
 "device at the time of testing."
 msgstr ""
+"ฉันขอรับรองว่าอุปกรณ์นี้ตรงตามข้อกำหนดของอุปกรณ์ที่ยอมรับได้ในขณะที่ทำการทดสอบ"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field1
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_task_worksheet_template_3
 msgid "Intervention Type"
-msgstr ""
+msgstr "ประเภทการดำเนินการ"
 
 #. module: industry_fsm_report
 #: code:addons/industry_fsm_report/controllers/portal.py:0
 #, python-format
 msgid "Invalid Task."
-msgstr ""
+msgstr "งานไม่ถูกต้อง"
 
 #. module: industry_fsm_report
 #: code:addons/industry_fsm_report/controllers/portal.py:0
@@ -286,7 +291,7 @@ msgstr ""
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__fsm_is_sent
 msgid "Is Worksheet sent"
-msgstr ""
+msgstr "ส่งแผ่นงานแล้ว"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field3
@@ -302,12 +307,12 @@ msgstr ""
 #. module: industry_fsm_report
 #: model_terms:ir.actions.act_window,help:industry_fsm_report.project_task_action_fsm_planning_groupby_worksheet
 msgid "No tasks found. Let's create one!"
-msgstr ""
+msgstr "ไม่พบงาน มาสร้างกันเถอะ!"
 
 #. module: industry_fsm_report
 #: model_terms:ir.actions.act_window,help:industry_fsm_report.fsm_worksheets_action_settings
 msgid "No worksheet templates found. Let's create one!"
-msgstr ""
+msgstr "ไม่พบเทมเพลตแผ่นงาน มาสร้างกันเถอะ!"
 
 #. module: industry_fsm_report
 #: model:ir.actions.act_window,name:industry_fsm_report.project_task_action_fsm_planning_groupby_worksheet
@@ -355,7 +360,7 @@ msgstr "ส่งรายงาน"
 #: code:addons/industry_fsm_report/models/project.py:0
 #, python-format
 msgid "Send report"
-msgstr ""
+msgstr "ส่งรายงาน"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field6
@@ -371,12 +376,12 @@ msgstr "เพิ่ม"
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.view_task_form2_inherit
 msgid "Sign Report"
-msgstr ""
+msgstr "ลงนามรายงาน"
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_worksheet
 msgid "Sign Task"
-msgstr ""
+msgstr "ลงชื่องาน"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__worksheet_signature
@@ -423,25 +428,25 @@ msgstr ""
 #. module: industry_fsm_report
 #: model:ir.model,name:industry_fsm_report.model_report_industry_fsm_report_worksheet_custom
 msgid "Task Worksheet Custom Report"
-msgstr ""
+msgstr "รายงานที่กำหนดเองของแผ่นงานงาน"
 
 #. module: industry_fsm_report
 #: code:addons/industry_fsm_report/controllers/portal.py:0
 #, python-format
 msgid "The worksheet has been signed"
-msgstr ""
+msgstr "ลงนามแผ่นงานแล้ว"
 
 #. module: industry_fsm_report
 #: code:addons/industry_fsm_report/controllers/portal.py:0
 #, python-format
 msgid "The worksheet is not in a state requiring customer signature."
-msgstr ""
+msgstr "แผ่นงานไม่อยู่ในสถานะที่จำเป็นต้องมีลายเซ็นจากลูกค้า"
 
 #. module: industry_fsm_report
 #: code:addons/industry_fsm_report/models/project.py:0
 #, python-format
 msgid "There are no reports to send."
-msgstr ""
+msgstr "ไม่มีรายงานที่จะส่ง"
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
@@ -466,7 +471,7 @@ msgstr ""
 #: code:addons/industry_fsm_report/static/src/js/tours/industry_fsm_report.js:0
 #, python-format
 msgid "Validate the <b>signature</b>."
-msgstr ""
+msgstr "ตรวจสอบ<b>ลายเซ็น</b>"
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_task
@@ -476,13 +481,13 @@ msgstr ""
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.worksheet_custom_page
 msgid "Worker"
-msgstr ""
+msgstr "คนงาน"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.fsm_template_field8
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.report_custom_x_project_task_worksheet_template_3
 msgid "Worker Signature"
-msgstr ""
+msgstr "ลายเซ็นคนงาน"
 
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_sharing_project_task_inherit_view_form
@@ -495,7 +500,7 @@ msgstr "แผ่นงาน"
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_sharing_project_task_inherit_view_form
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.view_task_form2_inherit
 msgid "Worksheet Completed"
-msgstr ""
+msgstr "แผ่นงานเสร็จแล้ว"
 
 #. module: industry_fsm_report
 #: model:ir.model.fields,field_description:industry_fsm_report.field_project_task__worksheet_count
@@ -521,13 +526,13 @@ msgstr "เทมเพลตแผ่นงาน"
 #: model:ir.actions.act_window,name:industry_fsm_report.fsm_worksheets_action_settings
 #: model:ir.ui.menu,name:industry_fsm_report.fsm_settings_worksheets
 msgid "Worksheet Templates"
-msgstr ""
+msgstr "เทมเพลตแผ่นงาน"
 
 #. module: industry_fsm_report
 #: model:mail.template,report_name:industry_fsm_report.mail_template_data_send_report
 msgid ""
 "Worksheet {{ object.name }}{{ (' - ' + object.partner_id.name) if "
-"object.partner_id else '' }}.pdf"
+"object.partner_id.name else '' }}.pdf"
 msgstr ""
 
 #. module: industry_fsm_report

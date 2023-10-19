@@ -6,7 +6,7 @@
 # Martin Trigaux, 2021
 # Maicon Grahl <maicongrahl@hotmail.com>, 2021
 # Mateus Lopes <mateus1@gmail.com>, 2021
-# grazziano <gra.negocia@gmail.com>, 2021
+# grazziano <grazziano.do+transifex@gmail.com>, 2021
 # Marcelo Costa <marcelo@comdesk.com.br>, 2021
 # mariana rodrigues <mariana12v@gmail.com>, 2021
 # Kevilyn Rosa, 2023
@@ -39,7 +39,7 @@ msgstr "Token de Acesso"
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_account__account_data
 msgid "Account Data"
-msgstr ""
+msgstr "Dados da conta"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_account__name
@@ -50,7 +50,7 @@ msgstr "Nome da Conta"
 #: model:ir.model.fields,help:account_online_synchronization.field_account_link_journal_line__name
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_account__name
 msgid "Account Name as provided by third party provider"
-msgstr ""
+msgstr "Nome da conta, conforme fornecido pelo provedor terceirizado"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_link_journal_line__account_number
@@ -63,7 +63,7 @@ msgstr "Número da Conta"
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_journal__account_online_account_id
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_link__account_online_account_ids
 msgid "Account Online Account"
-msgstr ""
+msgstr "Conta online da conta"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_bank_statement_import_journal_creation__account_online_link_id
@@ -71,7 +71,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_journal__account_online_link_id
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_account__account_online_link_id
 msgid "Account Online Link"
-msgstr ""
+msgstr "Link online da conta"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_link_journal_line__account_online_wizard_id
@@ -109,12 +109,12 @@ msgstr "Contagem de Anexos"
 #: code:addons/account_online_synchronization/models/account_journal.py:0
 #, python-format
 msgid "Automated Bank Synchronization"
-msgstr ""
+msgstr "Sincronização bancária automatizada"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_link__auto_sync
 msgid "Automatic synchronization"
-msgstr ""
+msgstr "Sincronização automática"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_link_journal_line__balance
@@ -126,7 +126,7 @@ msgstr "Saldo"
 #: model:ir.model.fields,help:account_online_synchronization.field_account_link_journal_line__balance
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_account__balance
 msgid "Balance of the account sent by the third party provider"
-msgstr ""
+msgstr "Saldo da conta enviado por provedor de terceiros"
 
 #. module: account_online_synchronization
 #: model:ir.model,name:account_online_synchronization.model_account_bank_statement
@@ -151,7 +151,7 @@ msgstr "Cliente"
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.account_online_link_view_form
 msgid "Client id"
-msgstr ""
+msgstr "ID do cliente"
 
 #. module: account_online_synchronization
 #: model:ir.model,name:account_online_synchronization.model_res_company
@@ -271,7 +271,7 @@ msgstr "Erro"
 #. module: account_online_synchronization
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_account__account_data
 msgid "Extra information needed by third party provider"
-msgstr ""
+msgstr "Informações adicionais necessárias para o provedor de terceiros"
 
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.account_online_link_view_form
@@ -281,7 +281,7 @@ msgstr ""
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.account_online_link_view_form
 msgid "Fetch Transactions"
-msgstr ""
+msgstr "Buscar transações"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_link__message_follower_ids
@@ -314,7 +314,7 @@ msgstr "ID"
 #. module: account_online_synchronization
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_account__online_identifier
 msgid "Id used to identify account by third party provider"
-msgstr ""
+msgstr "ID usado para identificar a conta pelo provedor de terceiros"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_link__message_needaction
@@ -334,6 +334,8 @@ msgid ""
 "If possible, we will try to automatically fetch new transactions for this "
 "record"
 msgstr ""
+"Se possível, tentaremos obter automaticamente novas transações para esse "
+"registro"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_link__provider_data
@@ -343,19 +345,19 @@ msgstr ""
 #. module: account_online_synchronization
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_link__name
 msgid "Institution Name"
-msgstr ""
+msgstr "Nome da instituição"
 
 #. module: account_online_synchronization
 #: code:addons/account_online_synchronization/models/account_online.py:0
 #, python-format
 msgid "Internal Error"
-msgstr ""
+msgstr "Erro interno"
 
 #. module: account_online_synchronization
 #: code:addons/account_online_synchronization/models/account_online.py:0
 #, python-format
 msgid "Invalid value for proxy_mode config parameter."
-msgstr ""
+msgstr "Valor inválido para o parâmetro de configuração proxy_mode."
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_link__message_is_follower
@@ -407,7 +409,7 @@ msgstr "Última atualização em"
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.account_online_link_view_form
 msgid "Last refresh"
-msgstr ""
+msgstr "Última atualização"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_account__last_sync
@@ -479,7 +481,7 @@ msgstr "Próxima Sincronização"
 #. module: account_online_synchronization
 #: model:ir.model.fields.selection,name:account_online_synchronization.selection__account_online_link__state__disconnected
 msgid "Not Connected"
-msgstr ""
+msgstr "Não conectado"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_link_journal__number_added
@@ -520,7 +522,7 @@ msgstr "Conta Online"
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.account_online_link_view_form
 msgid "Online Accounts"
-msgstr ""
+msgstr "Contas online"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_account__online_identifier
@@ -531,14 +533,14 @@ msgstr "Identificador Online"
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_bank_statement_import_journal_creation__next_link_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_journal__next_link_synchronization
 msgid "Online Link Next synchronization"
-msgstr ""
+msgstr "Próxima sincronização do vínculo online"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_bank_statement_line__online_partner_information
 #: model:ir.model.fields,field_description:account_online_synchronization.field_res_partner__online_partner_information
 #: model:ir.model.fields,field_description:account_online_synchronization.field_res_users__online_partner_information
 msgid "Online Partner Information"
-msgstr ""
+msgstr "Informação online do usuário"
 
 #. module: account_online_synchronization
 #: model:ir.actions.act_window,name:account_online_synchronization.action_account_online_link_form
@@ -551,7 +553,7 @@ msgstr "Sincronização Online"
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_bank_statement_line__online_transaction_identifier
 msgid "Online Transaction Identifier"
-msgstr ""
+msgstr "Identificador da transação online"
 
 #. module: account_online_synchronization
 #: code:addons/account_online_synchronization/models/account_bank_statement.py:0
@@ -563,7 +565,7 @@ msgstr "Declaração de abertura: primeira sincronização"
 #: code:addons/account_online_synchronization/models/account_online.py:0
 #, python-format
 msgid "Please reconnect your online account."
-msgstr ""
+msgstr "Reconecte a sua conta online."
 
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.account_journal_dashboard_inherit_online_sync
@@ -573,12 +575,12 @@ msgstr "Problema durante a sincronização"
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_link__provider_data
 msgid "Provider Data"
-msgstr ""
+msgstr "Dados do provedor"
 
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.account_online_link_view_form
 msgid "Reconnect"
-msgstr ""
+msgstr "Reconectar"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_link__refresh_token
@@ -589,6 +591,8 @@ msgstr "Atualizar Token"
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_link__client_id
 msgid "Represent a link for a given user towards a banking institution"
 msgstr ""
+"Representa um link para um determinado usuário em relação a uma instituição "
+"bancária"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_online_link__message_has_sms_error
@@ -599,7 +603,7 @@ msgstr "Erro no envio de SMS"
 #: model:ir.model.fields,help:account_online_synchronization.field_account_link_journal_line__account_number
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_account__account_number
 msgid "Set if third party provider has the full account number"
-msgstr ""
+msgstr "Definido se o provedor de terceiro tem o número completo da conta"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_bank_statement_import_journal_creation__account_online_link_state
@@ -641,6 +645,8 @@ msgid ""
 "The online synchronization service is not available at the moment. Please "
 "try again later."
 msgstr ""
+"O serviço de sincronização online não está disponível no momento. Tente "
+"novamente mais tarde."
 
 #. module: account_online_synchronization
 #: code:addons/account_online_synchronization/models/account_online.py:0
@@ -649,6 +655,8 @@ msgid ""
 "The reference of your error is %s. Please mention it when contacting Odoo "
 "support."
 msgstr ""
+"A referência do seu erro é %s. Mencione-a ao entrar em contato com o suporte"
+" do Odoo."
 
 #. module: account_online_synchronization
 #: model_terms:ir.ui.view,arch_db:account_online_synchronization.view_account_link_journal_form_wizard
@@ -662,6 +670,9 @@ msgid ""
 "This version of Odoo appears to be outdated and does not support the '%s' "
 "sync mode. Installing the latest update might solve this."
 msgstr ""
+"Esta versão do Odoo parece estar desatualizada e não é compatível com o modo"
+" de sincronização '%s'. A instalação da atualização mais recente pode "
+"resolver o problema."
 
 #. module: account_online_synchronization
 #: model_terms:ir.actions.act_window,help:account_online_synchronization.action_account_online_link_form
@@ -673,12 +684,12 @@ msgstr ""
 #. module: account_online_synchronization
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_link__access_token
 msgid "Token used to access API."
-msgstr ""
+msgstr "Token utilizado para acessar a API."
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,help:account_online_synchronization.field_account_online_link__refresh_token
 msgid "Token used to sign API request, Never disclose it"
-msgstr ""
+msgstr "Token usado para assinar a solicitação de API, nunca divulgue-o"
 
 #. module: account_online_synchronization
 #: model:ir.model.fields,field_description:account_online_synchronization.field_account_link_journal__transactions
@@ -725,7 +736,7 @@ msgstr ""
 #: code:addons/account_online_synchronization/models/account_online.py:0
 #, python-format
 msgid "You cannot have two journals associated with the same Online Account."
-msgstr ""
+msgstr "Não é possível ter dois diários associados à mesma conta online."
 
 #. module: account_online_synchronization
 #: code:addons/account_online_synchronization/wizard/account_link_journal_wizard.py:0
@@ -750,4 +761,4 @@ msgstr ""
 #. module: account_online_synchronization
 #: model:ir.model,name:account_online_synchronization.model_account_online_account
 msgid "representation of an online bank account"
-msgstr ""
+msgstr "representação de uma conta bancária online"

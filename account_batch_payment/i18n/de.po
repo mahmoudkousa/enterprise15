@@ -3,11 +3,11 @@
 # 	* account_batch_payment
 # 
 # Translators:
-# Martin Trigaux, 2021
 # Max-Milan Stoyanov, 2021
 # Chris Egal <sodaswed@web.de>, 2021
 # Friederike Fasterling-Nesselbosch, 2022
 # Larissa Manderfeld, 2023
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:43+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Larissa Manderfeld, 2023\n"
+"Last-Translator: Martin Trigaux, 2023\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +26,7 @@ msgstr ""
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_account_payment_form_inherit_account_batch_payment
 msgid "<span>Batch Payment</span>"
-msgstr "<span>Stapelüberweisung</span>"
+msgstr "<span>Sammelzahlungen</span>"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.batch_error_wizard_form
@@ -35,7 +35,7 @@ msgid ""
 "following warnings were also raised; they do not impeach validation</strong>"
 msgstr ""
 "<strong attrs=\"{'invisible': [('warning_line_ids', '=', [])]}\">Es wurden "
-"auch folgende Warnungen ausgesprochen, die die Validierung jeoch nicht "
+"auch folgende Warnungen ausgesprochen, die die Validierung jedoch nicht "
 "beeinträchtigen</strong>"
 
 #. module: account_batch_payment
@@ -63,14 +63,13 @@ msgstr "Zusätzliche Hilfemeldung zum Fehler"
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
 #, python-format
 msgid "All payments in the batch must belong to the same company."
-msgstr ""
-"Alle Zahlungen der selben Charge müssen demselben Unternehmen gehören."
+msgstr "Alle Zahlungen im Stapel müssen demselben Unternehmen gehören."
 
 #. module: account_batch_payment
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
 #, python-format
 msgid "All payments in the batch must share the same payment method."
-msgstr "Alle Zahlungen der Charge müssen dieselbe Zahlungsmethode haben."
+msgstr "Alle Zahlungen im Stapel müssen dieselbe Zahlungsmethode haben."
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_payment__amount
@@ -108,12 +107,12 @@ msgstr "Stapelinhalt"
 #: model:account.payment.method,name:account_batch_payment.account_payment_method_batch_deposit
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.account_journal_dashboard_kanban_view_inherited
 msgid "Batch Deposit"
-msgstr "Stapelbuchung"
+msgstr "Sammelverarbeitung"
 
 #. module: account_batch_payment
 #: model:ir.model,name:account_batch_payment.model_report_account_batch_payment_print_batch_payment
 msgid "Batch Deposit Report"
-msgstr "Bericht über die Batch-Zahlungen"
+msgstr "Bericht über Sammelverarbeitung von Schecks"
 
 #. module: account_batch_payment
 #: code:addons/account_batch_payment/models/account_payment.py:0
@@ -125,7 +124,7 @@ msgstr "Bericht über die Batch-Zahlungen"
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_batch_payment_search
 #, python-format
 msgid "Batch Payment"
-msgstr "Massenzahlung"
+msgstr "Sammelzahlung"
 
 #. module: account_batch_payment
 #: model:ir.actions.act_window,name:account_batch_payment.action_batch_payment_in
@@ -134,12 +133,12 @@ msgstr "Massenzahlung"
 #: model:ir.ui.menu,name:account_batch_payment.menu_batch_payment_sales
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_account_payment_search_inherit_account_batch_payment
 msgid "Batch Payments"
-msgstr "Stapel-Überweisungen"
+msgstr "Sammelzahlungen"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_payment__batch_type
 msgid "Batch Type"
-msgstr "Zahlungstyp"
+msgstr "Sammelzahlungstyp"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_download_wizard__batch_payment_id
@@ -154,14 +153,14 @@ msgid ""
 "                    reconciliation. They are also useful when depositing checks\n"
 "                    to the bank."
 msgstr ""
-"Batch-Zahlungen ermöglichen es Ihnen, verschiedene Zahlungen zu gruppieren, um\n"
+"Sammelzahlungen ermöglichen es Ihnen, verschiedene Zahlungen zu gruppieren, um\n"
 "                    um die Abstimmung (Konten) zu erleichtern. Sie sind auch nützlich bei der Einreichung von Schecks\n"
 "                    bei der Bank."
 
 #. module: account_batch_payment
 #: model:ir.model,name:account_batch_payment.model_account_batch_error_wizard
 msgid "Batch payments error reporting wizard"
-msgstr "Assistent für die Fehlerberichterstattung bei Batch-Zahlungen"
+msgstr "Assistent für die Fehlerberichterstattung bei Sammelzahlungen"
 
 #. module: account_batch_payment
 #: model:ir.model,name:account_batch_payment.model_account_batch_error_wizard_line
@@ -174,7 +173,7 @@ msgstr ""
 #, python-format
 msgid "Cannot validate an empty batch. Please add some payments to it first."
 msgstr ""
-"Ein leere Batch kann nicht validiert werden. Bitte fügen Sie ihm zuerst "
+"Ein leerer Stapel kann nicht validiert werden. Bitte fügen Sie ihm zuerst "
 "einige Zahlungen hinzu."
 
 #. module: account_batch_payment
@@ -197,22 +196,22 @@ msgstr "Code"
 #: code:addons/account_batch_payment/models/account_journal.py:0
 #, python-format
 msgid "Create Batch Payment"
-msgstr "Batch-Zahlung erstellen"
+msgstr "Sammelzahlung erstellen"
 
 #. module: account_batch_payment
 #: model_terms:ir.actions.act_window,help:account_batch_payment.action_batch_payment_in
 msgid "Create a new customer batch payment"
-msgstr "Erstellen einer neuen Kunden-Batchzahlung"
+msgstr "Eine neue Kunden-Sammelzahlung erstellen"
 
 #. module: account_batch_payment
 #: model_terms:ir.actions.act_window,help:account_batch_payment.action_batch_payment_out
 msgid "Create a new vendor batch payment"
-msgstr "Erstellen einer neuen Lieferanten-Batchzahlung"
+msgstr "Eine neue Lieferanten-Sammelzahlung erstellen"
 
 #. module: account_batch_payment
 #: model:ir.actions.server,name:account_batch_payment.action_account_create_batch_payment
 msgid "Create batch payment"
-msgstr "Stapelzahlung anlegen"
+msgstr "Sammelzahlung erstellen"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_download_wizard__create_uid
@@ -292,7 +291,7 @@ msgstr "Zahlungen ausschließen"
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_payment__export_file
 msgid "Export file related to this batch"
-msgstr "Exportdatei für diesen Batch"
+msgstr "Exportdatei für diesen Stapel"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_batch_payment_form
@@ -308,7 +307,7 @@ msgstr "Datei"
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_payment__file_generation_enabled
 msgid "File Generation Enabled"
-msgstr "Dateierzeugung aktiviert"
+msgstr "Dateierstellung aktiviert"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_payment__export_filename
@@ -364,7 +363,7 @@ msgstr "Eingehend"
 #: code:addons/account_batch_payment/models/account_journal.py:0
 #, python-format
 msgid "Inbound Batch Payments Sequence"
-msgstr "Zahlungsreihenfolge für Eingangsbatch"
+msgstr "Sequenz für eingehende Sammelzahlungen"
 
 #. module: account_batch_payment
 #: model:ir.model,name:account_batch_payment.model_account_journal
@@ -385,7 +384,7 @@ msgstr "Zuletzt geändert am"
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_error_wizard_line__write_uid
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_payment__write_uid
 msgid "Last Updated by"
-msgstr "Zuletzt aktualisiert durch"
+msgstr "Zuletzt aktualisiert von"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_download_wizard__write_date
@@ -408,7 +407,7 @@ msgstr "Name"
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_payment__export_filename
 msgid "Name of the export file generated for this batch"
-msgstr "Name der für diesen Batch erzeugten Exportdatei"
+msgstr "Name der für diesen Stapel erzeugten Exportdatei"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_download_wizard__export_filename
@@ -418,7 +417,7 @@ msgstr "Name der generierten XML-Datei"
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_payment__amount_signed
 msgid "Negative value of amount field if payment_type is outbound"
-msgstr "Negativer Wert des Betragsfeldes, wenn payment_type outbound ist"
+msgstr "Negativer Wert des Betragsfeldes, wenn payment_type ausgehend ist"
 
 #. module: account_batch_payment
 #: model:ir.model.fields.selection,name:account_batch_payment.selection__account_batch_payment__state__draft
@@ -439,7 +438,7 @@ msgstr "Ausgehend"
 #: code:addons/account_batch_payment/models/account_journal.py:0
 #, python-format
 msgid "Outbound Batch Payments Sequence"
-msgstr "Zahlungsreihenfolge für Ausgangsbatch"
+msgstr "Sequenz für ausgehende Sammelzahlungen"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_payment__payment_method_id
@@ -480,7 +479,7 @@ msgstr "Fehlerhafte Zahlungen"
 #, python-format
 msgid "Payments must be posted to be added to a batch."
 msgstr ""
-"Um einem Batch hinzugefügt zu werden, müssen die Zahlungen gebucht werden."
+"Um einem Stapel hinzugefügt zu werden, müssen die Zahlungen gebucht werden."
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_batch_payment_form
@@ -490,12 +489,12 @@ msgstr "Drucken"
 #. module: account_batch_payment
 #: model:ir.actions.report,name:account_batch_payment.action_print_batch_payment
 msgid "Print Batch Payment"
-msgstr "Batchzahlung drucken"
+msgstr "Sammelzahlung drucken"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.batch_error_wizard_form
 msgid "Proceed with validation"
-msgstr "Mit Bestätigung fortfahren"
+msgstr "Mit Validierung fortfahren"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_batch_payment_form
@@ -505,7 +504,7 @@ msgstr "Exportdatei neu generieren"
 #. module: account_batch_payment
 #: model:ir.model.fields.selection,name:account_batch_payment.selection__account_batch_payment__state__reconciled
 msgid "Reconciled"
-msgstr "Ausgeglichen"
+msgstr "Abgestimmt"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_payment__name
@@ -521,7 +520,7 @@ msgstr "Gesendet"
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
 #, python-format
 msgid "Set payments state to \"posted\"."
-msgstr "Zahlungsstatus auf \"gebucht\" setzen."
+msgstr "Zahlungsstatus auf „Gebucht“ setzen."
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.batch_error_wizard_line_tree
@@ -531,7 +530,7 @@ msgstr "Zeigen"
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_error_wizard_line__show_remove_button
 msgid "Show Remove Button"
-msgstr "Schaltfläche \"Entfernen\" anzeigen"
+msgstr "Schaltfläche „Entfernen“ anzeigen"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_error_wizard__show_remove_options
@@ -560,12 +559,12 @@ msgstr "Status"
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.batch_error_wizard_form
 msgid "The batch cannot be validated."
-msgstr "Das Batch kann nicht validiert werden."
+msgstr "Der Stapel kann nicht validiert werden."
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.batch_error_wizard_form
 msgid "The batch could not be validated"
-msgstr "Das Batch konnte nicht validiert werden"
+msgstr "Der Stapel konnte nicht validiert werden"
 
 #. module: account_batch_payment
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
@@ -573,7 +572,7 @@ msgstr "Das Batch konnte nicht validiert werden"
 msgid ""
 "The batch must have the same payment method as the payments it contains."
 msgstr ""
-"Die Batch muss den gleichen Zahlweg haben wie die darin enthaltenen "
+"Der Stapel muss dieselbe Zahlungsmethode haben wie die darin enthaltenen "
 "Zahlungen."
 
 #. module: account_batch_payment
@@ -581,7 +580,7 @@ msgstr ""
 #, python-format
 msgid "The batch must have the same type as the payments it contains."
 msgstr ""
-"Die Batch muss den gleichen Typ haben wie die darin enthaltenen Zahlungen."
+"Die Stapel muss vom selben Typ sein wie die darin enthaltenen Zahlungen."
 
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_error_wizard__batch_payment_id
@@ -589,7 +588,7 @@ msgid ""
 "The batch payment generating the errors and warnings displayed in this "
 "wizard."
 msgstr ""
-"Die Batch-Zahlung erzeugt die in diesem Assistenten angezeigten Fehler und "
+"Die Sammelzahlung erzeugt die in diesem Assistenten angezeigten Fehler und "
 "Warnungen."
 
 #. module: account_batch_payment
@@ -599,7 +598,7 @@ msgid ""
 "The journal of the batch payment and of the payments it contains must be the"
 " same."
 msgstr ""
-"Das Journal der Batch-Zahlung und der darin enthaltenen Zahlungen muss "
+"Das Journal der Sammelzahlung und der darin enthaltenen Zahlungen muss "
 "identisch sein."
 
 #. module: account_batch_payment
@@ -611,7 +610,7 @@ msgstr ""
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_batch_payment_form
 msgid "Total"
-msgstr "Total"
+msgstr "Gesamt"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_error_wizard__show_remove_options
@@ -619,18 +618,18 @@ msgid ""
 "True if and only if the options to remove the payments causing the errors or"
 " warnings from the batch should be shown"
 msgstr ""
-"Nur True, wenn die Optionen zum Entfernen der Zahlungen die Fehler "
+"Nur wahr, wenn die Optionen zum Entfernen der Zahlungen die Fehler "
 "verursachen oder es sollten Warnungen von der Sammelzahlung gezeigt werden"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_batch_payment_search
 msgid "Unreconciled"
-msgstr "Offene Posten"
+msgstr "Nicht abgestimmt"
 
 #. module: account_batch_payment
 #: model_terms:ir.ui.view,arch_db:account_batch_payment.view_batch_payment_form
 msgid "Validate"
-msgstr "Bestätigen"
+msgstr "Validieren"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_error_wizard__warning_line_ids
@@ -640,7 +639,7 @@ msgstr "Warnungzeile"
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_error_wizard_line__warning_wizard_id
 msgid "Warning Wizard"
-msgstr "Warn-Assistent"
+msgstr "Warnungsassistent"
 
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_payment__file_generation_enabled
@@ -648,8 +647,8 @@ msgid ""
 "Whether or not this batch payment should display the 'Generate File' button "
 "instead of 'Print' in form view."
 msgstr ""
-"Gibt an, ob bei dieser Sammelzahlung die Schaltfläche \"Datei generieren\" "
-"anstelle von \"Drucken\" in der Formularansicht angezeigt werden soll."
+"Gibt an, ob bei dieser Sammelzahlung die Schaltfläche „Datei generieren“ "
+"anstelle von „Drucken“ in der Formularansicht angezeigt werden soll."
 
 #. module: account_batch_payment
 #: model:ir.model.fields,help:account_batch_payment.field_account_batch_error_wizard_line__show_remove_button

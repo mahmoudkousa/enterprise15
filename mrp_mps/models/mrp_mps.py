@@ -693,6 +693,8 @@ class MrpProductionSchedule(models.Model):
         stock_moves_and_date = sorted(stock_moves_and_date, key=lambda m: m[1])
         index = 0
         for (move, date) in stock_moves_and_date:
+            if date < after_date or date > before_date:
+                continue
             # Skip to the next time range if the planned date is not in the
             # current time interval.
             while not (date_range[index][0] <= date and date_range[index][1] >= date):
@@ -894,8 +896,8 @@ class MrpProductionSchedule(models.Model):
         for (move, date) in stock_moves_by_date:
             # There are cases when we want to consider moves where their (scheduled) date occurs before the after_date
             # if lead times make their stock delivery at a relevant time. Therefore we need to ignore the lines that have
-            # date + lead time < after_date
-            if date < after_date:
+            # date + lead time < after_date. Similar logic with before_date
+            if date < after_date or date > before_date:
                 continue
             # Skip to the next time range if the planned date is not in the
             # current time interval.

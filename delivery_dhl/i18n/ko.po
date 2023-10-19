@@ -189,19 +189,19 @@ msgstr "DHL 환경 설정"
 #: model:product.product,name:delivery_dhl.product_product_delivery_dhl_eu
 #: model:product.template,name:delivery_dhl.product_product_delivery_dhl_eu_product_template
 msgid "DHL EU"
-msgstr ""
+msgstr "DHL EU"
 
 #. module: delivery_dhl
 #: model:delivery.carrier,name:delivery_dhl.delivery_carrier_dhl_intl
 #: model:product.product,name:delivery_dhl.product_product_delivery_dhl_intl
 #: model:product.template,name:delivery_dhl.product_product_delivery_dhl_intl_product_template
 msgid "DHL EU -> International"
-msgstr ""
+msgstr "DHL EU -> 국제"
 
 #. module: delivery_dhl
 #: model:ir.model.fields,field_description:delivery_dhl.field_delivery_carrier__dhl_default_package_type_id
 msgid "DHL Package Type"
-msgstr ""
+msgstr "DHL 패키지 유형"
 
 #. module: delivery_dhl
 #: model:ir.model.fields,field_description:delivery_dhl.field_delivery_carrier__dhl_password
@@ -235,14 +235,14 @@ msgstr "DHL 사이트 ID"
 #: model:product.product,name:delivery_dhl.product_product_delivery_dhl_us
 #: model:product.template,name:delivery_dhl.product_product_delivery_dhl_us_product_template
 msgid "DHL US"
-msgstr ""
+msgstr "DHL US"
 
 #. module: delivery_dhl
 #: model:delivery.carrier,name:delivery_dhl.delivery_carrier_dhl_intl_us
 #: model:product.product,name:delivery_dhl.product_product_delivery_dhl_intl_us
 #: model:product.template,name:delivery_dhl.product_product_delivery_dhl_intl_us_product_template
 msgid "DHL US -> International"
-msgstr ""
+msgstr "DHL US -> 국제"
 
 #. module: delivery_dhl
 #: code:addons/delivery_dhl/models/dhl_request.py:0
@@ -255,7 +255,7 @@ msgstr "DHL 계정 번호가 없습니다. 배송 방법 설정을 수정하십�
 #: code:addons/delivery_dhl/models/dhl_request.py:0
 #, python-format
 msgid "DHL doesn't support products with name greater than 75 characters."
-msgstr ""
+msgstr "DHL에서는  75자를 초과하는 품목명은 지원되지 않습니다."
 
 #. module: delivery_dhl
 #: code:addons/delivery_dhl/models/dhl_request.py:0
@@ -276,7 +276,7 @@ msgstr "과세 대상"
 #. module: delivery_dhl
 #: model_terms:ir.ui.view,arch_db:delivery_dhl.view_delivery_carrier_form_with_provider_dhl
 msgid "Duties paid by"
-msgstr ""
+msgstr "관세 납부자"
 
 #. module: delivery_dhl
 #: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__e
@@ -312,7 +312,7 @@ msgstr "H - 경제형 선택"
 #: code:addons/delivery_dhl/models/delivery_dhl.py:0
 #, python-format
 msgid "Hint: The destination may not require the dutiable option."
-msgstr ""
+msgstr "참고: 도착지에 관세 선택 항목이 필요 없을 수도 있습니다."
 
 #. module: delivery_dhl
 #: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__i
@@ -560,7 +560,7 @@ msgstr "픽업 날짜 없이 DHL 배송을 취소할 수 없습니다."
 #: code:addons/delivery_dhl/models/delivery_dhl.py:0
 #, python-format
 msgid "You cannot delete the commercial invoice sequence."
-msgstr ""
+msgstr "상업 송장 순서는 삭제할 수 없습니다."
 
 #. module: delivery_dhl
 #: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__z

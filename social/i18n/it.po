@@ -5,6 +5,7 @@
 # Translators:
 # Martin Trigaux, 2021
 # Friederike Fasterling-Nesselbosch, 2022
+# Marianna Ciofani, 2023
 # Sergio Zanchetta <primes2h@gmail.com>, 2023
 # 
 msgid ""
@@ -300,6 +301,8 @@ msgid ""
 "Content of the social post message that is post-processed (links are "
 "shortened, UTMs, ...)"
 msgstr ""
+"Contenuto del messaggio del post social elaborato in seguito (link più "
+"corti, UTM...)"
 
 #. module: social
 #: model:ir.model.fields,help:social.field_social_media__has_streams
@@ -528,7 +531,7 @@ msgstr "Ritorna a Odoo"
 #. module: social
 #: model_terms:ir.actions.act_window,help:social.action_social_stream
 msgid "Go to the"
-msgstr ""
+msgstr "Vai al"
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_account_view_search
@@ -890,6 +893,8 @@ msgid ""
 "Most social.live.posts directly go from Ready to Posted/Failed since they result of a single call to the third party API.\n"
 "        A 'Posting' state is also available for those that are sent through batching (like push notifications)."
 msgstr ""
+"La maggior parte dei post social dal vivo passano direttamente da Pronto a Pubblicato/Non riuscito poiché sono il risultato si una singola chiamata alle API di terze parti.\n"
+"        Per i post inviati tramite raggruppamenti (come le notifiche push) è anche disponibile uno stato \"Pubblicato\"."
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_post__my_activity_date_deadline
@@ -1118,7 +1123,7 @@ msgstr ""
 #: code:addons/social/models/social_post.py:0
 #, python-format
 msgid "Please specify at least one account to post into (for post ID(s) %s)."
-msgstr ""
+msgstr "Specifica almeno un account in cui postare (per l'ID del post %s)."
 
 #. module: social
 #: code:addons/social/models/social_post.py:0
@@ -1210,6 +1215,8 @@ msgstr "Post per account"
 #, python-format
 msgid "Press Enter to post. Press Shift+Enter to insert a Line Break."
 msgstr ""
+"Premi Invio per pubblicare il post. Premi Maiusc + Invio per inserire "
+"un'interruzione di riga."
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_post_template_view_form
@@ -1418,7 +1425,7 @@ msgstr "Template per i post sociali"
 #. module: social
 #: model:res.groups,name:social.group_social_user
 msgid "Social Poster"
-msgstr ""
+msgstr "Utente social"
 
 #. module: social
 #: model:ir.actions.act_window,name:social.action_social_post
@@ -1457,6 +1464,13 @@ msgstr "Flussi social"
 #: model:ir.cron,name:social.ir_cron_post_scheduled
 msgid "Social: Publish Scheduled Posts"
 msgstr "Social: pubblica post programmati"
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/js/stream_post_comments.js:0
+#, python-format
+msgid "Something went wrong while posting the comment."
+msgstr "La pubblicazione del commento non è andata a buon fine."
 
 #. module: social
 #. openerp-web
@@ -1585,7 +1599,7 @@ msgstr "Campo tecnico per la vista calendario."
 #: code:addons/social/models/social_post_template.py:0
 #, python-format
 msgid "The 'message' field is required for post ID %s"
-msgstr ""
+msgstr "Il campo \"messaggio\" è richiesto per l'ID post %s"
 
 #. module: social
 #: model:ir.model.fields,help:social.field_social_post__account_ids
@@ -1637,7 +1651,7 @@ msgstr "Social network collegati agli account social selezionati."
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_post__has_post_errors
 msgid "There are post errors on sub-posts"
-msgstr ""
+msgstr "Sono presenti errori nei post secondari"
 
 #. module: social
 #: model:ir.model.fields,help:social.field_social_media__csrf_token

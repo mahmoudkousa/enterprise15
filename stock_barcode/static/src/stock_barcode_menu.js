@@ -4,7 +4,7 @@ import AbstractAction from 'web.AbstractAction';
 import core from 'web.core';
 import Dialog from 'web.Dialog';
 import Session from 'web.session';
-import * as BarcodeScanner from '@web_enterprise/webclient/barcode/barcode_scanner';
+import BarcodeScanner from '@web_enterprise/webclient/barcode/barcode_scanner';
 
 const _t = core._t;
 

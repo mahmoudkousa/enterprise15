@@ -652,7 +652,7 @@ msgstr "Campo de ID único"
 #: code:addons/data_merge/static/src/xml/data_merge_list_views.xml:0
 #, python-format
 msgid "Unselect"
-msgstr "Deseleccionar"
+msgstr "Desmarcar"
 
 #. module: data_merge
 #: model:ir.model.fields,field_description:data_merge.field_data_merge_record__record_write_uid

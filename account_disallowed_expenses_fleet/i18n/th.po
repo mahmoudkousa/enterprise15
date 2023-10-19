@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2021
+# Rasareeyar Lappiam, 2023
 # 
 msgid ""
 msgstr ""
@@ -11,8 +12,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:37+0000\n"
-"Last-Translator: Martin Trigaux, 2021\n"
-"Language-Team: Thai (https://www.transifex.com/odoo/teams/41243/th/)\n"
+"Last-Translator: Rasareeyar Lappiam, 2023\n"
+"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -42,18 +43,18 @@ msgstr "สร้างเมื่อ"
 #. module: account_disallowed_expenses_fleet
 #: model:ir.model,name:account_disallowed_expenses_fleet.model_account_disallowed_expenses_category
 msgid "Disallowed Expenses Category"
-msgstr ""
+msgstr "หมวดหมู่รายจ่ายต้องห้าม"
 
 #. module: account_disallowed_expenses_fleet
 #: model:ir.model.fields,field_description:account_disallowed_expenses_fleet.field_fleet_vehicle__rate_ids
 #: model_terms:ir.ui.view,arch_db:account_disallowed_expenses_fleet.fleet_vehicle_view_form
 msgid "Disallowed Expenses Rate"
-msgstr ""
+msgstr "อัตรารายจ่ายต้องห้าม"
 
 #. module: account_disallowed_expenses_fleet
 #: model:ir.model,name:account_disallowed_expenses_fleet.model_account_disallowed_expenses_report
 msgid "Disallowed Expenses Report"
-msgstr ""
+msgstr "รายงานรายจ่ายต้องห้าม"
 
 #. module: account_disallowed_expenses_fleet
 #: model:ir.model.fields,field_description:account_disallowed_expenses_fleet.field_fleet_disallowed_expenses_rate__display_name
@@ -104,4 +105,4 @@ msgstr "ยานพาหนะ"
 #. module: account_disallowed_expenses_fleet
 #: model:ir.model,name:account_disallowed_expenses_fleet.model_fleet_disallowed_expenses_rate
 msgid "Vehicle Disallowed Expenses Rate"
-msgstr ""
+msgstr "อัตรารายจ่ายต้องห้ามของยานพาหนะ"

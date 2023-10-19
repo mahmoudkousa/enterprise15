@@ -114,6 +114,7 @@ var StatementModel = BasicModel.extend({
         this.domain = [];
         this.limitMoveLines = options && options.limitMoveLines || 15;
         this.display_context = 'init';
+        this.partnerCache = {};
     },
 
     //--------------------------------------------------------------------------
@@ -382,6 +383,8 @@ var StatementModel = BasicModel.extend({
             context: self.context,
         })
         .then(function(res){
+            // Reset partnerCache after loading data.
+            self.partnerCache = {};
             return self._formatLine(res['lines']);
         })
     },
@@ -444,6 +447,7 @@ var StatementModel = BasicModel.extend({
             _.each(self.lines, function (line) {
                 line.reconcileModels = self.reconcileModels;
             });
+            self.partnerCache = {};
             return self._formatLine(self.statement.lines);
         });
     },
@@ -893,16 +897,24 @@ var StatementModel = BasicModel.extend({
      */
     _changePartner: function (handle, partner_id) {
         var self = this;
-        return this._rpc({
+        if (this.partnerCache && this.partnerCache[partner_id]) {
+            const line = this.getLine(handle);
+            const key = line.balance.amount < 0 ? 'property_account_payable_id' : 'property_account_receivable_id';
+            this.lines[handle].st_line.open_balance_account_id = this.partnerCache[partner_id][key];
+        }
+        else {
+            return this._rpc({
                 model: 'res.partner',
                 method: 'read',
                 args: [partner_id, ["property_account_receivable_id", "property_account_payable_id"]],
-            }).then(function (result) {
-                if (result.length > 0) {
-                    var line = self.getLine(handle);
-                    self.lines[handle].st_line.open_balance_account_id = line.balance.amount < 0 ? result[0]['property_account_payable_id'][0] : result[0]['property_account_receivable_id'][0];
-                }
-            });
+                }).then(function (result) {
+                    if (result.length) {
+                        const line = self.getLine(handle);
+                        const key = line.balance.amount < 0 ? 'property_account_payable_id' : 'property_account_receivable_id';
+                        self.lines[handle].st_line.open_balance_account_id = result[0][key][0];
+                    }
+                });
+        }
     },
     /**
      * Calculates the balance; format each proposition amount_str and mark as
@@ -1067,6 +1079,46 @@ var StatementModel = BasicModel.extend({
         }
     },
     /**
+     * Get all the possible partner_ids from the server lines
+     * and load up a PartnerCache mapping partner_id -> {"property_account_receivable_id", "property_account_payable_id"}
+     *
+     * @private
+     * @param {*} lines
+     * @returns {Promise}
+     */
+    async _loadPartnerCache (lines) {
+        const self = this;
+        const partner_ids = new Set();
+        _.each(lines, function(line) {
+            if (!line.st_line.partner_id) {
+                if (line.partner_id && line.partner_name) {
+                    partner_ids.add(line.partner_id);
+                }
+                if (line.reconciliation_proposition.length && line.reconciliation_proposition[0].partner_id && line.reconciliation_proposition[0].partner_name) {
+                    partner_ids.add(line.reconciliation_proposition[0].partner_id);
+                }
+            }
+        });
+        if (this.context.partner_id && this.context.partner) {
+            partner_ids.add(this.context.partner_id);
+        }
+        if (partner_ids) {
+            return this._rpc({
+                model: 'res.partner',
+                method: 'read',
+                args: [[...partner_ids], ["property_account_receivable_id", "property_account_payable_id"]],
+            }).then(function(result) {
+                _.each(result, function(data) {
+                    self.partnerCache[data['id']] = {
+                        property_account_receivable_id: data["property_account_receivable_id"][0],
+                        property_account_payable_id: data["property_account_payable_id"][0],
+                    };
+                });
+            });
+        }
+        return true;
+    },
+    /**
      * Format each server lines and propositions and compute all lines
      * overridden in ManualModel
      *
@@ -1079,64 +1131,64 @@ var StatementModel = BasicModel.extend({
     _formatLine: function (lines) {
         var self = this;
         var defs = [];
-        _.each(lines, function (data) {
-            var line = _.find(self.lines, function (l) {
-                return l.id === data.st_line.id;
-            });
-            line.visible = true;
-            line.limitMoveLines = self.limitMoveLines;
-            _.extend(line, data);
+        return this._loadPartnerCache(lines)
+        .then(() => {
+            _.each(lines, function (data) {
+                let line = _.find(self.lines, function (l) {
+                    return l.id === data.st_line.id;
+                });
+                line.visible = true;
+                line.limitMoveLines = self.limitMoveLines;
+                _.extend(line, data);
 
-            // Now that extend() has filled in the reconciliation propositions, we need to handle their reconciliation
-            self._refresh_partial_rec_preview(line);
+                // Now that extend() has filled in the reconciliation propositions, we need to handle their reconciliation
+                self._refresh_partial_rec_preview(line);
 
-            self._formatLineProposition(line, line.reconciliation_proposition);
-            if (!line.reconciliation_proposition.length) {
-                delete line.reconciliation_proposition;
-            }
+                self._formatLineProposition(line, line.reconciliation_proposition);
+                if (!line.reconciliation_proposition.length) {
+                    delete line.reconciliation_proposition;
+                }
 
-            // No partner set on st_line and all matching amls have the same one: set it on the st_line.
-            defs.push(
-                self._computeLine(line)
-                .then(function(){
-                    if(!line.st_line.partner_id && line.reconciliation_proposition.length > 0){
-                        var hasDifferentPartners = function(prop){
-                            return !prop.partner_id || prop.partner_id != line.reconciliation_proposition[0].partner_id;
-                        };
+                // No partner set on st_line and all matching amls have the same one: set it on the st_line.
+                defs.push(
+                    self._computeLine(line)
+                    .then(() => {
+                        if(!line.st_line.partner_id && line.reconciliation_proposition.length){
+                            let hasDifferentPartners = function(prop){
+                                return !prop.partner_id || prop.partner_id != line.reconciliation_proposition[0].partner_id;
+                            };
 
-                        if(!_.any(line.reconciliation_proposition, hasDifferentPartners)){
+                            if(!_.any(line.reconciliation_proposition, hasDifferentPartners)){
+                                return self.changePartner(line.handle, {
+                                    'id': line.reconciliation_proposition[0].partner_id,
+                                    'display_name': line.reconciliation_proposition[0].partner_name,
+                                }, true);
+                            }
+                        }else if(!line.st_line.partner_id && line.partner_id && line.partner_name){
                             return self.changePartner(line.handle, {
-                                'id': line.reconciliation_proposition[0].partner_id,
-                                'display_name': line.reconciliation_proposition[0].partner_name,
+                                'id': line.partner_id,
+                                'display_name': line.partner_name,
                             }, true);
                         }
-                    }else if(!line.st_line.partner_id && line.partner_id && line.partner_name){
-                        return self.changePartner(line.handle, {
-                            'id': line.partner_id,
-                            'display_name': line.partner_name,
-                        }, true);
-                    }
-                    return true;
-                })
-                .then(function(){
-                    if (data.write_off_vals) {
-                        return self.prepare_propositions_from_server(line, data.write_off_vals)
-                    }
-                    return true;
-                })
-                .then(function() {
-                    // If still no partner set, take the one from context, if it exists
-                    if (!line.st_line.partner_id && self.context.partner_id && self.context.partner_name) {
-                        return self.changePartner(line.handle, {
-                            'id': self.context.partner_id,
-                            'display_name': self.context.partner_name,
-                        }, true);
-                    }
-                    return true;
-                })
-            );
+                        return true;
+                    })
+                    .then(() => {
+                        return data.write_off_vals ? self.prepare_propositions_from_server(line, data.write_off_vals) : true;
+                    })
+                    .then(() => {
+                        // If still no partner set, take the one from context, if it exists
+                        if (!line.st_line.partner_id && self.context.partner_id && self.context.partner_name) {
+                            return self.changePartner(line.handle, {
+                                'id': self.context.partner_id,
+                                'display_name': self.context.partner_name,
+                            }, true);
+                        }
+                        return true;
+                    })
+                );
+            });
+            return Promise.all(defs);
         });
-        return Promise.all(defs);
     },
     /**
     * Refresh partial reconciliation data for the reconciliation propositions of

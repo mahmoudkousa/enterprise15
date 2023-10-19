@@ -6,6 +6,7 @@
 # Martin Trigaux, 2021
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2021
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2021
+# Jolien De Paepe, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-05 11:17+0000\n"
 "PO-Revision-Date: 2021-09-14 12:40+0000\n"
-"Last-Translator: Erwin van der Ploeg <erwin@odooexperts.nl>, 2021\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Last-Translator: Jolien De Paepe, 2023\n"
+"Language-Team: Dutch (https://app.transifex.com/odoo/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -136,7 +137,7 @@ msgstr "Bevestig de aanmaak van de <b>factuur</b>."
 #: model_terms:ir.ui.view,arch_db:industry_fsm_sale.project_task_view_list_fsm_sale_inherit
 #: model_terms:ir.ui.view,arch_db:industry_fsm_sale.view_task_form2_inherit
 msgid "Create Invoice"
-msgstr "Maak factuur"
+msgstr "Factuur maken"
 
 #. module: industry_fsm_sale
 #: model_terms:ir.ui.view,arch_db:industry_fsm_sale.view_task_form2_inherit
@@ -200,7 +201,7 @@ msgstr "Buitendienst"
 #. module: industry_fsm_sale
 #: model_terms:ir.ui.view,arch_db:industry_fsm_sale.product_search_form_view_inherit_fsm_sale
 msgid "Group By"
-msgstr "Groepeer op"
+msgstr "Groeperen op"
 
 #. module: industry_fsm_sale
 #: model:product.product,uom_name:industry_fsm_sale.field_service_product

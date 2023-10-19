@@ -6,6 +6,7 @@
 # Martin Trigaux, 2021
 # Erwin van der Ploeg <erwin@odooexperts.nl>, 2021
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2021
+# Jolien De Paepe, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:41+0000\n"
-"Last-Translator: Yenthe Van Ginneken <yenthespam@gmail.com>, 2021\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Last-Translator: Jolien De Paepe, 2023\n"
+"Language-Team: Dutch (https://app.transifex.com/odoo/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -152,7 +153,7 @@ msgstr "Electronische weegschaal"
 #: code:addons/pos_iot/static/src/js/LastTransactionStatus.js:0
 #, python-format
 msgid "Electronic payment in progress"
-msgstr "Elektronische betaling in uitvoering"
+msgstr "Elektronische betaling in behandeling"
 
 #. module: pos_iot
 #: model:ir.model.fields,help:pos_iot.field_pos_config__iface_scan_via_proxy
@@ -405,7 +406,7 @@ msgstr "Transactie kon niet worden geannuleerd"
 #: code:addons/pos_iot/static/src/js/Chrome.js:0
 #, python-format
 msgid "Transaction in progress"
-msgstr "Transactie in uitvoering"
+msgstr "Transactie in behandeling"
 
 #. module: pos_iot
 #: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot

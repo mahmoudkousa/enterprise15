@@ -5,6 +5,7 @@
 # Translators:
 # Martin Trigaux, 2021
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2022
+# Tony Ng, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:38+0000\n"
-"Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2022\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Last-Translator: Tony Ng, 2023\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -89,7 +90,7 @@ msgstr "儀表板"
 #. module: crm_enterprise
 #: model:ir.model.fields,field_description:crm_enterprise.field_crm_lead__days_to_convert
 msgid "Days To Convert"
-msgstr ""
+msgstr "轉換天數"
 
 #. module: crm_enterprise
 #: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
@@ -111,7 +112,7 @@ msgstr "關閉日期"
 #. module: crm_enterprise
 #: model:ir.model.fields,field_description:crm_enterprise.field_crm_lead__days_exceeding_closing
 msgid "Exceeded Closing Days"
-msgstr ""
+msgstr "已超過截止日"
 
 #. module: crm_enterprise
 #: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
@@ -143,7 +144,7 @@ msgstr "分組依據"
 #: model:ir.model.fields,field_description:crm_enterprise.field_crm_activity_report__won_status
 #: model:ir.model.fields,field_description:crm_enterprise.field_crm_lead__won_status
 msgid "Is Won"
-msgstr ""
+msgstr "已贏得"
 
 #. module: crm_enterprise
 #: model:ir.model,name:crm_enterprise.model_crm_lead

@@ -6,6 +6,7 @@
 # Martin Trigaux, 2022
 # Cécile Collart <cco@odoo.com>, 2022
 # Tivisse <yti@odoo.com>, 2022
+# Jolien De Paepe, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 11:15+0000\n"
 "PO-Revision-Date: 2022-04-08 12:42+0000\n"
-"Last-Translator: Tivisse <yti@odoo.com>, 2022\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Last-Translator: Jolien De Paepe, 2023\n"
+"Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -24,7 +25,7 @@ msgstr ""
 #. module: l10n_be_hr_payroll_december
 #: model:ir.model,name:l10n_be_hr_payroll_december.model_l10n_be_december_slip_wizard
 msgid "CP200: December Slip Computation"
-msgstr "CP200: Calcul de la fiche de décembre"
+msgstr "CP200 : Calcul de la fiche de décembre"
 
 #. module: l10n_be_hr_payroll_december
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll_december.l10n_be_december_slip_wizard_view_form
@@ -64,7 +65,7 @@ msgstr "Devise"
 #. module: l10n_be_hr_payroll_december
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll_december.l10n_be_december_slip_wizard_view_form
 msgid "December Pay"
-msgstr "Pécule de Décembre"
+msgstr "Pécule de décembre"
 
 #. module: l10n_be_hr_payroll_december
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_payroll_december.l10n_be_december_slip_wizard_view_form
@@ -74,49 +75,49 @@ msgstr "Fiche de décembre"
 #. module: l10n_be_hr_payroll_december
 #: model:ir.model.fields,field_description:l10n_be_hr_payroll_december.field_l10n_be_december_slip_wizard__display_name
 msgid "Display Name"
-msgstr "Nom affiché"
+msgstr "Nom d'affichage"
 
 #. module: l10n_be_hr_payroll_december
 #: model:hr.salary.rule.category,name:l10n_be_hr_payroll_december.l10n_be_double_december_category
 #: model:ir.model.fields,field_description:l10n_be_hr_payroll_december.field_l10n_be_december_slip_wizard__double_december_pay
 msgid "Double December Pay"
-msgstr "Double Pécule de Décembre"
+msgstr "Double pécule de décembre"
 
 #. module: l10n_be_hr_payroll_december
 #: model:hr.salary.rule,name:l10n_be_hr_payroll_december.cp200_employees_salary_double_december_basic
 msgid "Double December Pay Basic"
-msgstr "Base du Double Pécule de Décembre"
+msgstr "Base du double pécule de décembre"
 
 #. module: l10n_be_hr_payroll_december
 #: model:hr.salary.rule,name:l10n_be_hr_payroll_december.cp200_employees_salary_double_december_gross
 #: model:hr.salary.rule.category,name:l10n_be_hr_payroll_december.l10n_be_double_december_category_gross
 msgid "Double December Pay Gross"
-msgstr "Double Pécule de Décembre Brut"
+msgstr "Double pécule de décembre brut"
 
 #. module: l10n_be_hr_payroll_december
 #: model:hr.salary.rule,name:l10n_be_hr_payroll_december.cp200_employees_salary_double_december_net
 msgid "Double December Pay Net"
-msgstr "Double Pécule de Décembre Net"
+msgstr "Double pécule de décembre net"
 
 #. module: l10n_be_hr_payroll_december
 #: model:hr.salary.rule,name:l10n_be_hr_payroll_december.cp200_employees_salary_double_december_pp
 msgid "Double December Pay Withholding Tax"
-msgstr "Précompte Professionnel du Double Pécule de Décembre"
+msgstr "Précompte professionnel du double pécule de décembre"
 
 #. module: l10n_be_hr_payroll_december
 #: model:ir.model.fields,field_description:l10n_be_hr_payroll_december.field_l10n_be_december_slip_wizard__double_holiday_n
 msgid "Double Holiday Pay N"
-msgstr "Double Pécule N"
+msgstr "Double pécule N"
 
 #. module: l10n_be_hr_payroll_december
 #: model:ir.model.fields,field_description:l10n_be_hr_payroll_december.field_l10n_be_december_slip_wizard__double_holiday_n1
 msgid "Double Holiday Pay N-1"
-msgstr "Double Pécule N-1"
+msgstr "Double pécule N-1"
 
 #. module: l10n_be_hr_payroll_december
 #: model:ir.actions.act_window,name:l10n_be_hr_payroll_december.l10n_be_december_slip_wizard_action
 msgid "Double Pay Recovery Computation"
-msgstr "Calcul de la Récupération du Double Pécule"
+msgstr "Calcul de la récupération du double pécule"
 
 #. module: l10n_be_hr_payroll_december
 #: model:ir.model.fields,field_description:l10n_be_hr_payroll_december.field_l10n_be_december_slip_wizard__employee_id
@@ -169,9 +170,9 @@ msgid ""
 "Note: The double holiday pay should only be computed if the reduction in "
 "working time took place between 01/01 and 30/06 compared to year N-1."
 msgstr ""
-"Note: Le double pécule de vacance ne devrait être calculé seulement si la "
-"réduction du temps de travail a eu lieu entre le 01/01 et le 30/06 par "
-"rapport à l'année N-1."
+"Note : Le double pécule de vacances ne doit être calculé que si la réduction"
+" du temps de travail a eu lieu entre le 01/01 et le 30/06 par rapport à "
+"l'année N-1."
 
 #. module: l10n_be_hr_payroll_december
 #: model:ir.model,name:l10n_be_hr_payroll_december.model_hr_payslip
@@ -181,7 +182,7 @@ msgstr "Feuille de paie"
 #. module: l10n_be_hr_payroll_december
 #: model:ir.model.fields,field_description:l10n_be_hr_payroll_december.field_l10n_be_december_slip_wizard__payslip_id
 msgid "Payslip"
-msgstr "Feuille de paye"
+msgstr "Fiche de paie"
 
 #. module: l10n_be_hr_payroll_december
 #: model:ir.model.fields,field_description:l10n_be_hr_payroll_december.field_l10n_be_december_slip_wizard__remuneration_n1
@@ -193,7 +194,7 @@ msgstr "Rémunération N-1"
 #: model:hr.salary.rule.category,name:l10n_be_hr_payroll_december.l10n_be_simple_december_category
 #: model:ir.model.fields,field_description:l10n_be_hr_payroll_december.field_l10n_be_december_slip_wizard__simple_december_pay
 msgid "Simple December Pay"
-msgstr "Simple Précule de Décembre"
+msgstr "Simple pécule de décembre"
 
 #. module: l10n_be_hr_payroll_december
 #: model:ir.model.fields,field_description:l10n_be_hr_payroll_december.field_l10n_be_december_slip_wizard__simple_holiday_n

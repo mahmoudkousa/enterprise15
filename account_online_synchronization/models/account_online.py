@@ -3,14 +3,16 @@
 import requests
 import logging
 import re
+import urllib.parse
 import odoo
 import odoo.release
 from dateutil.relativedelta import relativedelta
 
 from requests.exceptions import RequestException, Timeout, ConnectionError
+from markupsafe import Markup
 from odoo import api, fields, models, _
 from odoo.tools import format_date
-from odoo.exceptions import UserError, CacheMiss, MissingError, ValidationError
+from odoo.exceptions import UserError, CacheMiss, MissingError, ValidationError, RedirectWarning
 from odoo.addons.account_online_synchronization.models.odoofin_auth import OdooFinAuth
 from odoo.tools.misc import get_lang
 
@@ -221,7 +223,7 @@ class AccountOnlineLink(models.Model):
             resp_json = resp.json()
             return self._handle_response(resp_json, url, data, ignore_status)
         except (Timeout, ConnectionError, RequestException, ValueError):
-            _logger.exception('synchronization error')
+            _logger.warning('synchronization error')
             raise UserError(
                 _("The online synchronization service is not available at the moment. "
                   "Please try again later."))
@@ -268,12 +270,12 @@ class AccountOnlineLink(models.Model):
             error_details = error.get('data')
             subject = error.get('message')
             message = error_details.get('message')
-            if error_details.get('error_reference'):
-                message += '\n' + _('The reference of your error is %s. Please mention it when contacting Odoo support.') % error_details['error_reference']
             state = error_details.get('odoofin_state') or 'error'
+            ctx = self.env.context.copy()
+            ctx['error_reference'] = error_details.get('error_reference')
+            ctx['provider_type'] = error_details.get('provider_type')
 
-            self._log_information(state=state, subject=subject, message=message, reset_tx=True)
-            
+            self.with_context(ctx)._log_information(state=state, subject=subject, message=message, reset_tx=True)
 
     def _log_information(self, state, subject=None, message=None, reset_tx=False):
         # If the reset_tx flag is passed, it means that we have an error and we want to log it on the record
@@ -282,17 +284,32 @@ class AccountOnlineLink(models.Model):
         if reset_tx:
             self.env.cr.rollback()
         try:
-            # if state is disconnected, and newstate is error: ignore it
+            if reset_tx:
+                error_reference = self.env.context.get('error_reference')
+                provider = self.env.context.get('provider_type')
+                odoo_help_description = f'''ClientID: {self.client_id}\nInstitution: {self.name}\nError Reference: {error_reference}\nError Message: {message}\n'''
+                odoo_help_summary = f'Bank sync error ref: {error_reference} - Provider: {provider}'
+                url_params = urllib.parse.urlencode({'stage': 'bank_sync', 'summary': odoo_help_summary, 'description': odoo_help_description[:1500]})
+                url = f'https://www.odoo.com/help?{url_params}'
+            # if state is disconnected, and new state is error: ignore it
             if state == 'error' and self.state == 'disconnected':
                 state = 'disconnected'
             if subject and message:
-                self.message_post(body='<b>%s</b> <br> %s' % (subject, message.replace('\n', '<br>')), subject=subject)
+                message_post = message
+                if reset_tx:
+                    message_post = Markup('%s<br>%s <a href="%s" >%s</a>') % (message_post, _("You can contact Odoo support"), url, _("Here"))
+                self.message_post(body=message_post, subject=subject)
             if state and self.state != state:
                 self.write({'state': state})
             if reset_tx:
-                # In case of reset_tx, we commit the changes and then raise the error (see comment at the start of the method)
+                # In case of reset_tx, we commit the changes in order to have the message post saved
+                # and then raise a redirectWarning error so that customer can easily open an issue with Odoo.
                 self.env.cr.commit()
-                raise UserError(message)
+                action_id = {
+                    "type": "ir.actions.act_url",
+                    "url": url,
+                }
+                raise RedirectWarning(message, action_id, _('Report issue'))
         except (CacheMiss, MissingError):
             # This exception can happen if record was created and rollbacked due to error in same transaction
             # Therefore it is not possible to log information on it, in this case we just ignore it.
@@ -320,7 +337,7 @@ class AccountOnlineLink(models.Model):
                 resp_json = link.with_context(delete_sync=True)._fetch_odoo_fin('/proxy/v1/delete_user', data={'provider_data': link.provider_data}, ignore_status=True) # delete proxy user
                 if resp_json.get('delete', True) is True:
                     to_unlink += link
-            except UserError as e:
+            except (UserError, RedirectWarning):
                 continue
         if to_unlink:
             return super(AccountOnlineLink, to_unlink).unlink()
@@ -446,7 +463,7 @@ class AccountOnlineLink(models.Model):
     def _success_reconnect(self):
         self.ensure_one()
         self._log_information(state='connected')
-        return {'type': 'ir.actions.client', 'tag': 'reload'}
+        return self._fetch_transactions()
 
     ##################
     # action buttons #

@@ -1133,6 +1133,16 @@ msgid ""
 msgstr "Et voi määrittää samaa hyväksyjää useaan kertaan samalle pyynnöstä."
 
 #. module: approvals
+#: code:addons/approvals/models/ir_attachment.py:0
+#, python-format
+msgid ""
+"You cannot unlink an attachment which is linked to a validated, refused or "
+"cancelled approval request."
+msgstr ""
+"Et voi poistaa liitettä, joka on liitetty vahvistettuun, hylättyyn tai "
+"peruutettuun hyväksymispyyntöön."
+
+#. module: approvals
 #: code:addons/approvals/models/approval_request.py:0
 #, python-format
 msgid "You have to add at least %s approvers to confirm your request."

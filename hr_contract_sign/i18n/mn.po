@@ -9,6 +9,7 @@
 # Batmunkh Ganbat <batmunkh.g@bumanit.mn>, 2021
 # tserendavaa tsogtoo <tseegii011929@gmail.com>, 2021
 # Khoschuluu Khuderchuluu <khoschuluu@gmail.com>, 2021
+# Sanjaajamts Badamjunai <b.sanjaajamtsfc@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -16,8 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:00+0000\n"
 "PO-Revision-Date: 2021-09-14 12:40+0000\n"
-"Last-Translator: Khoschuluu Khuderchuluu <khoschuluu@gmail.com>, 2021\n"
-"Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
+"Last-Translator: Sanjaajamts Badamjunai <b.sanjaajamtsfc@gmail.com>, 2023\n"
+"Language-Team: Mongolian (https://app.transifex.com/odoo/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -52,7 +53,7 @@ msgstr "Гэрээ"
 #. module: hr_contract_sign
 #: model:ir.model,name:hr_contract_sign.model_hr_contract_history
 msgid "Contract history"
-msgstr ""
+msgstr "Гэрээний түүх"
 
 #. module: hr_contract_sign
 #: model:ir.model.fields,field_description:hr_contract_sign.field_hr_contract_sign_document_wizard__follower_ids

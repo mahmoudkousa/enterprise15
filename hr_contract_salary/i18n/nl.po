@@ -719,7 +719,7 @@ msgstr "Groen"
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.hr_contract_advantage_view_search
 msgid "Group By"
-msgstr "Groepeer op"
+msgstr "Groeperen op"
 
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.salary_package_thank_you
@@ -1142,7 +1142,7 @@ msgstr "Persoonlijke documenten"
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_personal_info_value__personal_info_id
 #: model:ir.ui.menu,name:hr_contract_salary.salary_package_personal_info
 msgid "Personal Info"
-msgstr "Persoonlijke informati"
+msgstr "Persoonlijke informatie"
 
 #. module: hr_contract_salary
 #: code:addons/hr_contract_salary/controllers/main.py:0
@@ -1168,7 +1168,7 @@ msgstr "Geboorteplaats"
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_personal_info__placeholder
 msgid "Placeholder"
-msgstr "Label"
+msgstr "Placeholder"
 
 #. module: hr_contract_salary
 #: model:ir.model.fields,field_description:hr_contract_salary.field_hr_contract_salary_personal_info__position
@@ -1244,7 +1244,7 @@ msgstr "Res Model"
 #: model:ir.actions.act_window,name:hr_contract_salary.hr_contract_salary_resume_action
 #: model:ir.ui.menu,name:hr_contract_salary.salary_package_resume
 msgid "Resume"
-msgstr "Hervatten"
+msgstr "Samenvatting"
 
 #. module: hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:hr_contract_salary.salary_package_next_step_button

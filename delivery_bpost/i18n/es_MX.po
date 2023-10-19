@@ -5,6 +5,8 @@
 # Translators:
 # Martin Trigaux, 2021
 # Braulio D. López Vázquez <bdl@odoo.com>, 2022
+# Fernanda Alvarez, 2023
+# Iran Villalobos López, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:56+0000\n"
 "PO-Revision-Date: 2021-09-14 12:38+0000\n"
-"Last-Translator: Braulio D. López Vázquez <bdl@odoo.com>, 2022\n"
-"Language-Team: Spanish (Mexico) (https://www.transifex.com/odoo/teams/41243/es_MX/)\n"
+"Last-Translator: Iran Villalobos López, 2023\n"
+"Language-Team: Spanish (Mexico) (https://app.transifex.com/odoo/teams/41243/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -58,14 +60,14 @@ msgstr "Tipo de entrega de Bpost"
 #. module: delivery_bpost
 #: model:ir.model.fields,field_description:delivery_bpost.field_delivery_carrier__bpost_domestic_deliver_type
 msgid "Bpost Domestic Deliver Type"
-msgstr "Tipo de entrega doméstica Bpost"
+msgstr "Tipo de entrega nacional Bpost"
 
 #. module: delivery_bpost
 #: model:delivery.carrier,name:delivery_bpost.delivery_carrier_bpost_domestic
 #: model:product.product,name:delivery_bpost.product_product_delivery_bpost_domestic
 #: model:product.template,name:delivery_bpost.product_product_delivery_bpost_domestic_product_template
 msgid "Bpost Domestic bpack 24h Pro"
-msgstr "Bpost Domestic bpack 24h Pro"
+msgstr "Tipo de entrega nacional bpack 24h Pro de Bpost"
 
 #. module: delivery_bpost
 #: model:ir.model.fields,field_description:delivery_bpost.field_delivery_carrier__bpost_international_deliver_type
@@ -230,7 +232,7 @@ msgstr "MUESTRA"
 #: code:addons/delivery_bpost/models/delivery_bpost.py:0
 #, python-format
 msgid "Shipment #%s has been cancelled"
-msgstr "El envío #%s ha sido cancelado"
+msgstr "Se canceló el envío #%s "
 
 #. module: delivery_bpost
 #: code:addons/delivery_bpost/models/delivery_bpost.py:0
@@ -282,7 +284,7 @@ msgid ""
 "The estimated shipping price cannot be computed because the weight is missing for the following product(s): \n"
 " %s"
 msgstr ""
-"El precio estimado de envío no puede ser calculado porque falta el peso para los siguientes productos: \n"
+"No se puede calcular el precio estimado de envío porque falta el peso de los siguientes productos:\n"
 " %s"
 
 #. module: delivery_bpost

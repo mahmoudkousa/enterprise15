@@ -5,6 +5,7 @@
 # Translators:
 # sejun huang <sejun.huang@gmail.com>, 2021
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2021
+# Tony Ng, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:56+0000\n"
 "PO-Revision-Date: 2021-09-14 12:38+0000\n"
-"Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2021\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Last-Translator: Tony Ng, 2023\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -36,9 +37,7 @@ msgstr ""
 msgid ""
 "Access License number is Invalid. Provide a valid number (Length should be "
 "0-35 alphanumeric characters)"
-msgstr ""
-"Access License number is Invalid. Provide a valid number (Length should be "
-"0-35 alphanumeric characters)"
+msgstr "存取許可證號碼無效。請提供有效的號碼（長度應為零至 35 個英數字元）"
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
@@ -70,7 +69,7 @@ msgstr "Authorization system is currently unavailable , try again later."
 #: model:ir.model.fields,field_description:delivery_ups.field_res_users__bill_my_account
 #: model:ir.model.fields,field_description:delivery_ups.field_sale_order__ups_bill_my_account
 msgid "Bill My Account"
-msgstr "Bill My Account"
+msgstr "記賬至我的帳戶"
 
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_cod_funds_code
@@ -723,9 +722,7 @@ msgstr "UPS account number"
 msgid ""
 "UPS address lines can only contain a maximum of 35 characters. You can split"
 " the contacts addresses on multiple lines to try to avoid this limitation."
-msgstr ""
-"UPS address lines can only contain a maximum of 35 characters. You can split"
-" the contacts addresses on multiple lines to try to avoid this limitation."
+msgstr "UPS 地址行最多只能包括 35 個字元。你可將聯絡人地址分拆為多行，以避免此限制。"
 
 #. module: delivery_ups
 #: model:product.product,uom_name:delivery_ups.product_product_delivery_ups_be

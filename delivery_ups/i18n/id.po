@@ -158,12 +158,12 @@ msgstr ""
 #. module: delivery_ups
 #: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_package_weight_unit__kgs
 msgid "Kilograms"
-msgstr ""
+msgstr "Kilogram"
 
 #. module: delivery_ups
 #: model_terms:ir.ui.view,arch_db:delivery_ups.view_delivery_carrier_form_with_provider_ups
 msgid "Label Format"
-msgstr ""
+msgstr "Format Label"
 
 #. module: delivery_ups
 #: model_terms:ir.ui.view,arch_db:delivery_ups.view_delivery_carrier_form_with_provider_ups
@@ -346,7 +346,7 @@ msgstr ""
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Please provide at least one item to ship."
-msgstr ""
+msgstr "Mohon sediakan setidaknya satu barang untuk dikirim."
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
@@ -363,7 +363,7 @@ msgstr ""
 #. module: delivery_ups
 #: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_package_weight_unit__lbs
 msgid "Pounds"
-msgstr ""
+msgstr "Pound"
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
@@ -438,7 +438,7 @@ msgstr "Pengirim"
 #: code:addons/delivery_ups/models/delivery_ups.py:0
 #, python-format
 msgid "Shipment #%s has been cancelled"
-msgstr ""
+msgstr "Pengiriman #%s telah dibatalka"
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/delivery_ups.py:0
@@ -480,7 +480,7 @@ msgstr "Metode Pengiriman"
 #. module: delivery_ups
 #: model:ir.model,name:delivery_ups.model_stock_package_type
 msgid "Stock package type"
-msgstr ""
+msgstr "Tipe paket stok"
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
@@ -518,6 +518,8 @@ msgid ""
 "The estimated shipping price cannot be computed because the weight is missing for the following product(s): \n"
 " %s"
 msgstr ""
+"Estimasi harga pengiriman tidak dapat dihitung karena berat tidak ada untuk produk berikut: \n"
+" %s"
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
@@ -751,4 +753,4 @@ msgstr ""
 #. module: delivery_ups
 #: model:ir.model.fields.selection,name:delivery_ups.selection__delivery_carrier__ups_label_file_type__zpl
 msgid "ZPL"
-msgstr ""
+msgstr "ZPL"

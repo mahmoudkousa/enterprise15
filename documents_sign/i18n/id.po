@@ -26,6 +26,8 @@ msgid ""
 "A set of condition and actions which will be available to all attachments "
 "matching the conditions"
 msgstr ""
+"Rangkaian ketentuan dan tindakan yang akan tersedia untuk semua lampiran "
+"yang cocok dengan ketentuan"
 
 #. module: documents_sign
 #: model:ir.model.fields,field_description:documents_sign.field_documents_workflow_rule__create_model
@@ -56,7 +58,7 @@ msgstr ""
 #. module: documents_sign
 #: model:ir.model,name:documents_sign.model_sign_request
 msgid "Signature Request"
-msgstr ""
+msgstr "Permintaan Tanda Tangan"
 
 #. module: documents_sign
 #: model:ir.model,name:documents_sign.model_sign_template

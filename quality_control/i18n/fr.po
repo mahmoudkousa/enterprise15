@@ -37,7 +37,7 @@ msgstr "% de transferts"
 #: model:ir.actions.report,print_report_name:quality_control.quality_check_report
 #: model:ir.actions.report,print_report_name:quality_control.quality_check_report_internal
 msgid "'Worksheet_%s' % object.name"
-msgstr "'Feuille de travail_%s' % object.name"
+msgstr "'Worksheet_%s' % object.name"
 
 #. module: quality_control
 #: model_terms:ir.ui.view,arch_db:quality_control.quality_alert_team_dashboard_view_kanban

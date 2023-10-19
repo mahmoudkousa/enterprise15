@@ -10,6 +10,7 @@
 # Irina Fedulova <istartlin@gmail.com>, 2021
 # Ekaterina <nawsikaya@bk.ru>, 2021
 # Сергей Шебанин <sergey@shebanin.ru>, 2022
+# alenafairy, 2023
 # 
 msgid ""
 msgstr ""
@@ -17,8 +18,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-24 08:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Сергей Шебанин <sergey@shebanin.ru>, 2022\n"
-"Language-Team: Russian (https://www.transifex.com/odoo/teams/41243/ru/)\n"
+"Last-Translator: alenafairy, 2023\n"
+"Language-Team: Russian (https://app.transifex.com/odoo/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -29,7 +30,7 @@ msgstr ""
 #: code:addons/timesheet_grid/models/analytic.py:0
 #, python-format
 msgid "%s Spent"
-msgstr ""
+msgstr "%s затрачено"
 
 #. module: timesheet_grid
 #. openerp-web
@@ -51,7 +52,7 @@ msgstr ""
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.res_config_settings_view_form
 msgid "<strong>Time Rounding</strong>"
-msgstr ""
+msgstr "<strong>Округление времени</strong>"
 
 #. module: timesheet_grid
 #: model:mail.template,body_html:timesheet_grid.mail_template_timesheet_reminder_user
@@ -227,6 +228,8 @@ msgstr "Сумма"
 #, python-format
 msgid "An employee must be linked to your user to record time."
 msgstr ""
+"Для учета рабочего времени сотрудник должен быть привязан к аккаунту "
+"пользователя."
 
 #. module: timesheet_grid
 #: model:ir.model,name:timesheet_grid.model_account_analytic_line
@@ -257,7 +260,7 @@ msgstr "Конфигурационные настройки"
 #: code:addons/timesheet_grid/models/task.py:0
 #, python-format
 msgid "Confirm Time Spent"
-msgstr ""
+msgstr "Подтвердить затраченное время"
 
 #. module: timesheet_grid
 #. openerp-web
@@ -276,11 +279,13 @@ msgid ""
 "Congratulations, you are up to date. <br>\n"
 "                    Let's wait for your employees to start new activities."
 msgstr ""
+"Поздравляем, вы в курсе событий. <br>\n"
+"Давайте подождем, пока ваши сотрудники приступят к новым действиям."
 
 #. module: timesheet_grid
 #: model:ir.model,name:timesheet_grid.model_project_task_create_timesheet
 msgid "Create Timesheet from task"
-msgstr ""
+msgstr "Создать табель из задачи"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_hr_timesheet_merge_wizard__create_uid
@@ -300,7 +305,7 @@ msgstr "Дата"
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.project_task_view_gantt_timesheet
 msgid "Days Spent —"
-msgstr ""
+msgstr "Отработанные дни - "
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_res_config_settings__reminder_manager_delay
@@ -317,7 +322,7 @@ msgstr "Дней до напоминание пользователю"
 #: code:addons/timesheet_grid/static/src/js/timesheet_uom_timer.js:0
 #, python-format
 msgid "Decrease Time"
-msgstr ""
+msgstr "Сократить время"
 
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.timesheet_merge_wizard_view_form
@@ -333,13 +338,15 @@ msgid ""
 "Describe your activity <i>(e.g. sent an e-mail, meeting with the "
 "customer...)</i>."
 msgstr ""
+"Опишите свою работу (например, отправили электронное письмо, встретились с "
+"клиентом...)."
 
 #. module: timesheet_grid
 #. openerp-web
 #: code:addons/timesheet_grid/static/src/xml/timesheet_grid.xml:0
 #, python-format
 msgid "Describe your activity..."
-msgstr ""
+msgstr "Опишите работу"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_hr_timesheet_merge_wizard__name
@@ -354,6 +361,8 @@ msgid ""
 "Difference between the number of days recorded and the number of days the "
 "employee was supposed to work according to his contract."
 msgstr ""
+"Разница между количеством отработанных дней и количеством дней, которые "
+"сотрудник должен был отработать по договору."
 
 #. module: timesheet_grid
 #. openerp-web
@@ -363,6 +372,8 @@ msgid ""
 "Difference between the number of hours recorded and the number of hours the "
 "employee was supposed to work according to his contract."
 msgstr ""
+"Разница между количеством отработанных часов и количеством дней, которые "
+"сотрудник должен был отработать по договору."
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_hr_timesheet_merge_wizard__display_name
@@ -372,41 +383,41 @@ msgstr "Отображаемое имя"
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__display_timer
 msgid "Display Timer"
-msgstr ""
+msgstr "Показать таймер"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__display_timer_pause
 #: model:ir.model.fields,field_description:timesheet_grid.field_project_task__display_timer_pause
 msgid "Display Timer Pause"
-msgstr ""
+msgstr "Показать паузу таймера"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__display_timer_resume
 #: model:ir.model.fields,field_description:timesheet_grid.field_project_task__display_timer_resume
 msgid "Display Timer Resume"
-msgstr ""
+msgstr "Показать запуск таймера"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__display_timer_start_primary
 #: model:ir.model.fields,field_description:timesheet_grid.field_project_task__display_timer_start_primary
 msgid "Display Timer Start Primary"
-msgstr ""
+msgstr "Показать первичный запуск таймера"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_project_task__display_timer_start_secondary
 msgid "Display Timer Start Secondary"
-msgstr ""
+msgstr "Показать вторичный запуск таймера"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__display_timer_stop
 #: model:ir.model.fields,field_description:timesheet_grid.field_project_task__display_timer_stop
 msgid "Display Timer Stop"
-msgstr ""
+msgstr "Показать остановку таймера"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_project_task__display_timesheet_timer
 msgid "Display Timesheet Time"
-msgstr ""
+msgstr "Показывать время в табеле"
 
 #. module: timesheet_grid
 #. openerp-web
@@ -448,14 +459,14 @@ msgstr "Дни напоминание работников"
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_hr_timesheet_merge_wizard__encoding_uom_id
 msgid "Encoding Uom"
-msgstr ""
+msgstr "Отчетная единица измерения"
 
 #. module: timesheet_grid
 #. openerp-web
 #: code:addons/timesheet_grid/static/src/xml/timesheet_grid.xml:0
 #, python-format
 msgid "Enter"
-msgstr ""
+msgstr "Ввод"
 
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.res_config_settings_view_form
@@ -468,12 +479,12 @@ msgstr "Частота"
 #: code:addons/timesheet_grid/static/src/js/timesheet_grid/timesheet_timer_grid_model.js:0
 #, python-format
 msgid "Grouping by date is not supported"
-msgstr ""
+msgstr "Группировка по дате не поддерживается"
 
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.project_task_view_gantt_timesheet
 msgid "Hours Spent —"
-msgstr ""
+msgstr "Затраченное время - "
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_hr_timesheet_merge_wizard__id
@@ -508,13 +519,13 @@ msgstr ""
 #: code:addons/timesheet_grid/static/src/js/timesheet_uom_timer.js:0
 #, python-format
 msgid "Increase Time"
-msgstr ""
+msgstr "Продлить время"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__is_timer_running
 #: model:ir.model.fields,field_description:timesheet_grid.field_project_task__is_timer_running
 msgid "Is Timer Running"
-msgstr ""
+msgstr "Таймер включен"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_hr_timesheet_merge_wizard____last_update
@@ -557,7 +568,7 @@ msgstr ""
 #: code:addons/timesheet_grid/static/src/js/tours/timesheet_grid.js:0
 #, python-format
 msgid "Launch the <b>timer</b> to start a new activity."
-msgstr ""
+msgstr "Запустите <b>таймер</b> для начала нового действия."
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_res_company__timesheet_mail_manager_allow
@@ -593,7 +604,7 @@ msgstr ""
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_res_config_settings__timesheet_min_duration
 msgid "Minimal Duration"
-msgstr ""
+msgstr "Минимальная продолжительность"
 
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.timesheet_view_grid
@@ -632,7 +643,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:timesheet_grid.action_timesheet_previous_month
 #: model_terms:ir.actions.act_window,help:timesheet_grid.action_timesheet_previous_week
 msgid "No activities to validate."
-msgstr ""
+msgstr "Нет действий для проверки."
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0
@@ -641,6 +652,8 @@ msgid ""
 "Only a Timesheets Approver or Manager is allowed to modify a validated "
 "entry."
 msgstr ""
+"Изменять подтвержденную запись может только ответственный сотрудник или "
+"руководитель."
 
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.project_task_view_form
@@ -650,24 +663,25 @@ msgstr "Приостановить"
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.project_task_view_form
 msgid "Pause timer"
-msgstr ""
+msgstr "Приостановить таймер"
 
 #. module: timesheet_grid
 #. openerp-web
 #: code:addons/timesheet_grid/static/src/js/timesheet_uom_timer.js:0
 #, python-format
 msgid "Play"
-msgstr ""
+msgstr "Включить"
 
 #. module: timesheet_grid
 #. openerp-web
 #: code:addons/timesheet_grid/static/src/xml/timesheet_grid.xml:0
 #, python-format
 msgid "Press Esc to discard"
-msgstr ""
+msgstr "Нажмите Esc для отмены"
 
 #. module: timesheet_grid
 #. openerp-web
+#: code:addons/timesheet_grid/static/src/js/timesheet_grid/timer_m2o.js:0
 #: code:addons/timesheet_grid/static/src/js/timesheet_grid/timer_m2o.js:0
 #: model:ir.model,name:timesheet_grid.model_project_project
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__project_id
@@ -694,14 +708,14 @@ msgstr "Напоминание о записи ваших табелей"
 #. module: timesheet_grid
 #: model:mail.template,subject:timesheet_grid.mail_template_timesheet_reminder_manager
 msgid "Reminder to validate your team's timesheets"
-msgstr ""
+msgstr "Напоминание о необходимости проверки табелей сотрудников"
 
 #. module: timesheet_grid
 #: model:ir.actions.server,name:timesheet_grid.invalidate_timesheet_action
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.timesheet_form_view
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.timesheet_view_form
 msgid "Reset to draft"
-msgstr ""
+msgstr "Сбросить на черновик"
 
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.project_task_view_form
@@ -711,17 +725,17 @@ msgstr "Возобновить"
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.project_task_view_form
 msgid "Resume timer"
-msgstr ""
+msgstr "Возобновить таймер"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_res_config_settings__timesheet_rounding
 msgid "Round up"
-msgstr ""
+msgstr "Округлить"
 
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.res_config_settings_view_form
 msgid "Rounding applied when tracking your time using the timer"
-msgstr ""
+msgstr "Округление применяется при отслеживании времени с помощью таймера"
 
 #. module: timesheet_grid
 #. openerp-web
@@ -735,29 +749,33 @@ msgstr "Просмотреть все записи, агрегированные
 #: code:addons/timesheet_grid/static/src/js/timesheet_grid/timer_m2o.js:0
 #, python-format
 msgid "Select a Project"
-msgstr ""
+msgstr "Выбрать проект"
 
 #. module: timesheet_grid
 #. openerp-web
 #: code:addons/timesheet_grid/static/src/js/timesheet_grid/timer_m2o.js:0
 #, python-format
 msgid "Select a Task"
-msgstr ""
+msgstr "Выбрать задачу"
 
 #. module: timesheet_grid
 #. openerp-web
 #: code:addons/timesheet_grid/static/src/js/tours/timesheet_grid.js:0
 #, python-format
 msgid "Select the <b>project</b> on which you are working."
-msgstr ""
+msgstr "Выберите проект, над которым вы работаете."
 
 #. module: timesheet_grid
 #: model:ir.model.fields,help:timesheet_grid.field_hr_employee__timesheet_manager_id
 #: model:ir.model.fields,help:timesheet_grid.field_res_users__timesheet_manager_id
 msgid ""
 "Select the user responsible for approving \"Timesheet\" of this employee.\n"
-"If empty, the approval is done by an Administrator or Team Approver (determined in settings/users)."
+"If empty, the approval is done by a Timesheets > Administrator or a Timesheets > User: all timesheets (as determined in the users settings)."
 msgstr ""
+"Выберите пользователя, ответственного за утверждение \"Табеля\" данного "
+"сотрудника. Если пользователь не выбран, то утверждение производит Табели > "
+"Администратор или Табели > Пользователь: все табели (как установлено в "
+"настройках пользователей)."
 
 #. module: timesheet_grid
 #: model:ir.model.fields,help:timesheet_grid.field_account_analytic_line__is_timesheet
@@ -772,6 +790,9 @@ msgid ""
 "Set the number of hours you spent on this project (e.g. 1:30 or 1.5). "
 "<i>Tip: use the tab keys to easily navigate from one cell to another.</i>"
 msgstr ""
+"Задайте количество часов, потраченных на этот проект (например, 1:30 или "
+"1,5). <i>Совет: используйте клавиши табуляции для удобного перехода от одной"
+" ячейки к другой.</i>"
 
 #. module: timesheet_grid
 #. openerp-web
@@ -785,7 +806,7 @@ msgstr "Начало"
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.project_task_view_form
 msgid "Start timer"
-msgstr ""
+msgstr "Включить таймер"
 
 #. module: timesheet_grid
 #. openerp-web
@@ -814,6 +835,7 @@ msgstr "Остановить таймер"
 #. module: timesheet_grid
 #. openerp-web
 #: code:addons/timesheet_grid/static/src/js/timesheet_grid/timer_m2o.js:0
+#: code:addons/timesheet_grid/static/src/js/timesheet_grid/timer_m2o.js:0
 #: model:ir.model,name:timesheet_grid.model_project_task
 #: model:ir.model.fields,field_description:timesheet_grid.field_hr_timesheet_merge_wizard__task_id
 #, python-format
@@ -825,6 +847,8 @@ msgstr "Задача"
 msgid ""
 "Technical field used to display the timer if the encoding unit is 'Hours'."
 msgstr ""
+"Техническое поле, используемое для отображения таймера, если измеряется в "
+"\"Часах\"."
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/wizard/timesheet_merge_wizard.py:0
@@ -836,13 +860,13 @@ msgstr ""
 #: code:addons/timesheet_grid/models/analytic.py:0
 #, python-format
 msgid "The timesheets have successfully been reset to draft."
-msgstr ""
+msgstr "Табели были успешно переведены в черновые."
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0
 #, python-format
 msgid "The timesheets have successfully been validated."
-msgstr ""
+msgstr "Табели успешно прошли проверку."
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0
@@ -867,13 +891,13 @@ msgstr "Затраченное время"
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__timer_pause
 #: model:ir.model.fields,field_description:timesheet_grid.field_project_task__timer_pause
 msgid "Timer Last Pause"
-msgstr ""
+msgstr "Последняя остановка таймера"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__timer_start
 #: model:ir.model.fields,field_description:timesheet_grid.field_project_task__timer_start
 msgid "Timer Start"
-msgstr ""
+msgstr "Начало таймера"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_hr_employee__timesheet_manager_id
@@ -892,12 +916,12 @@ msgstr "корректировка табеля"
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.view_employee_tree_inherit_timesheet
 msgid "Timesheet Approver"
-msgstr ""
+msgstr "Ответственный за утверждение табеля"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__duration_unit_amount
 msgid "Timesheet Init Amount"
-msgstr ""
+msgstr "Начальное значение табеля"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__is_timesheet
@@ -907,7 +931,7 @@ msgstr "Строка табеля"
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__unit_amount_validate
 msgid "Timesheet Unit Time"
-msgstr ""
+msgstr "Единица времени табеля"
 
 #. module: timesheet_grid
 #: model:ir.actions.server,name:timesheet_grid.timesheet_reminder_user_ir_actions_server
@@ -919,12 +943,12 @@ msgstr "Табель Напомнить работникам по электро
 #. module: timesheet_grid
 #: model:mail.template,name:timesheet_grid.mail_template_timesheet_reminder_user
 msgid "Timesheet: Employees Reminder"
-msgstr ""
+msgstr "Табель: Напоминание сотрудникам"
 
 #. module: timesheet_grid
 #: model:mail.template,name:timesheet_grid.mail_template_timesheet_reminder_manager
 msgid "Timesheet: Manager Reminder"
-msgstr ""
+msgstr "Табель: Напоминание руководителям"
 
 #. module: timesheet_grid
 #: model:ir.actions.server,name:timesheet_grid.timesheet_reminder_manager_ir_actions_server
@@ -949,7 +973,7 @@ msgstr "Табели"
 #: model:ir.actions.act_window,name:timesheet_grid.timesheet_grid_to_validate_action
 #, python-format
 msgid "Timesheets to Validate"
-msgstr ""
+msgstr "Табели на проверку"
 
 #. module: timesheet_grid
 #: model:ir.ui.menu,name:timesheet_grid.menu_timesheet_grid_validate
@@ -962,6 +986,8 @@ msgstr "На проверку"
 #, python-format
 msgid "Track the <b>time spent</b> on your projects. <i>It starts here.</i>"
 msgstr ""
+"Отслеживайте <b>время</b>, затраченное на выполнение проектов. <i>Оно "
+"начинается здесь.</i>"
 
 #. module: timesheet_grid
 #: model_terms:ir.actions.act_window,help:timesheet_grid.timesheet_grid_to_validate_action
@@ -969,6 +995,8 @@ msgid ""
 "Track your working hours by projects every day and invoice this time to your"
 " customers."
 msgstr ""
+"Отслеживайте рабочее время по проектам каждый день и выставляйте счета за "
+"это время своим клиентам."
 
 #. module: timesheet_grid
 #. openerp-web
@@ -980,7 +1008,7 @@ msgstr "Не определено"
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__user_can_validate
 msgid "User Can Validate"
-msgstr ""
+msgstr "Пользователь может проверить"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_res_config_settings__reminder_user_interval
@@ -991,7 +1019,7 @@ msgstr "Частота упоминания пользователя"
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__user_timer_id
 #: model:ir.model.fields,field_description:timesheet_grid.field_project_task__user_timer_id
 msgid "User Timer"
-msgstr ""
+msgstr "Таймер пользователя"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,help:timesheet_grid.field_hr_employee_public__timesheet_manager_id
@@ -1023,7 +1051,7 @@ msgstr "Проверено"
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__validated_status
 msgid "Validated Status"
-msgstr ""
+msgstr "Подтвержденный статус"
 
 #. module: timesheet_grid
 #: model:ir.model.fields,field_description:timesheet_grid.field_account_analytic_line__validated
@@ -1033,12 +1061,12 @@ msgstr "Проверенная строка"
 #. module: timesheet_grid
 #: model:ir.actions.server,name:timesheet_grid.timesheet_grid_week_action_server
 msgid "Validation Timesheet Week_view Server Action"
-msgstr ""
+msgstr "Действие сервера проверка табелей за неделю"
 
 #. module: timesheet_grid
 #: model:ir.actions.server,name:timesheet_grid.timesheet_grid_month_action_server
 msgid "Validation Timesheet month_view Server Action"
-msgstr ""
+msgstr "Действие сервера проверка табелей за месяц"
 
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.timesheet_view_grid
@@ -1052,7 +1080,7 @@ msgstr "Неделя"
 #: model:ir.model.fields,help:timesheet_grid.field_account_analytic_line__user_can_validate
 msgid ""
 "Whether or not the current user can validate/reset to draft the record."
-msgstr ""
+msgstr "Может ли текущий пользователь подтвердить/сбросить черновик записи."
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0
@@ -1061,6 +1089,8 @@ msgid ""
 "You can only reset to draft the timesheets of employees of whom you are the "
 "manager or the timesheet approver."
 msgstr ""
+"Сбросить на черновик можно только те табели сотрудников, для которых вы "
+"являетесь руководителем или ответственным за утверждение табеля."
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0
@@ -1070,12 +1100,14 @@ msgid ""
 "You can only validate the timesheets of employees of whom you are the "
 "manager or the timesheet approver."
 msgstr ""
+"Вы можете подтверждать табели только тех сотрудников, для которых вы "
+"являетесь руководителем или ответственным за утверждение табеля."
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0
 #, python-format
 msgid "You cannot access timesheets that are not yours."
-msgstr ""
+msgstr "Вы не можете получить доступ к чужим табелям."
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0
@@ -1084,6 +1116,8 @@ msgid ""
 "You cannot delete a validated entry. Please, contact your manager or your "
 "timesheet approver."
 msgstr ""
+"Вы не можете удалить подтвержденную запись. Пожалуйста, обратитесь к своему "
+"руководителю или специалисту по утверждению табеля."
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/project.py:0
@@ -1092,6 +1126,8 @@ msgid ""
 "You cannot start the timer for a project in a company encoding its "
 "timesheets in days."
 msgstr ""
+"Вы не можете запустить таймер для проекта в компании, рассчитывающие табели "
+"в днях."
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0
@@ -1101,7 +1137,7 @@ msgstr ""
 #: code:addons/timesheet_grid/models/analytic.py:0
 #, python-format
 msgid "You cannot use the timer on validated timesheets."
-msgstr ""
+msgstr "Вы не можете использовать таймер в подтвержденных табелях."
 
 #. module: timesheet_grid
 #: code:addons/timesheet_grid/models/analytic.py:0
@@ -1122,13 +1158,13 @@ msgstr "добавить"
 #: model:ir.model.fields.selection,name:timesheet_grid.selection__res_company__timesheet_mail_employee_interval__months
 #: model:ir.model.fields.selection,name:timesheet_grid.selection__res_company__timesheet_mail_manager_interval__months
 msgid "after the end of the month"
-msgstr ""
+msgstr "после окончания месяца"
 
 #. module: timesheet_grid
 #: model:ir.model.fields.selection,name:timesheet_grid.selection__res_company__timesheet_mail_employee_interval__weeks
 #: model:ir.model.fields.selection,name:timesheet_grid.selection__res_company__timesheet_mail_manager_interval__weeks
 msgid "after the end of the week"
-msgstr ""
+msgstr "после окончания недели"
 
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.res_config_settings_view_form
@@ -1168,7 +1204,7 @@ msgstr ""
 #: code:addons/timesheet_grid/static/src/xml/timesheet_grid.xml:0
 #, python-format
 msgid "press"
-msgstr ""
+msgstr "нажмите"
 
 #. module: timesheet_grid
 #. openerp-web

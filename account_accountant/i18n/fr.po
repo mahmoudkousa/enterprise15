@@ -369,7 +369,7 @@ msgstr "Contreparties"
 #: code:addons/account_accountant/models/reconciliation_widget.py:0
 #, python-format
 msgid "Create Reconciliation Model"
-msgstr "Créer un modèle de rapprochement"
+msgstr "Créer un modèle de lettrage"
 
 #. module: account_accountant
 #. openerp-web
@@ -1347,7 +1347,7 @@ msgstr "lettrer"
 #: code:addons/account_accountant/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "reconciliation models"
-msgstr "modèles de réconciliation"
+msgstr "modèles de lettrage"
 
 #. module: account_accountant
 #. openerp-web

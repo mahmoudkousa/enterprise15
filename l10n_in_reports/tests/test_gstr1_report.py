@@ -87,3 +87,25 @@ class TestReports(TestAccountReportsCommon):
             ],
         }]
         self.assertListEqual(expected, lines, "Wrong values for Indian GSTR-1 B2B detailed report.")
+
+    def test_gstr1_hsn_detailed_report(self):
+        # Invoice line:
+        #
+        #   Product  | Unit Price | Quantity |                        Taxes
+        # --------------------------------------------------------------------------------------------
+        #  product_a |    1000    |    10    | GST 5% (Group of [SGST Sale 2.5%] and [CGST Sale 2.5%])
+        self.invoice.write({'invoice_line_ids': [(1, self.invoice.invoice_line_ids.id, {'quantity': 10})]})
+
+        report = self.env["l10n.in.report.account"]
+        options = self._init_options(report, fields.Date.from_string("2019-01-01"), fields.Date.from_string("2019-12-31"))
+        options.update({'gst_section': 'hsn'})
+        self.assertLinesValues(
+            # pylint: disable=C0326
+            report._get_lines(options),
+            #   Name        Total       Total       Taxable     Integrated    Central       State/UT      Cess
+            #               Quantity    Value       Value       Tax Amount    Tax Amount    Tax Amount    Amount
+            [   0,          2,          3,          4,          5,            6,            7,            8],
+            [
+                ('01111',   10.0,       10500.0,    10000.0,    0.0,          250.0,        250.0,        0.0),
+            ]
+        )

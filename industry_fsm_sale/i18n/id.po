@@ -185,7 +185,7 @@ msgstr "Favorit"
 #: model:product.product,name:industry_fsm_sale.field_service_product
 #: model:product.template,name:industry_fsm_sale.field_service_product_product_template
 msgid "Field Service"
-msgstr ""
+msgstr "Layanan Lapangan"
 
 #. module: industry_fsm_sale
 #: model_terms:ir.ui.view,arch_db:industry_fsm_sale.product_search_form_view_inherit_fsm_sale
@@ -275,7 +275,7 @@ msgstr ""
 #. module: industry_fsm_sale
 #: model_terms:ir.actions.act_window,help:industry_fsm_sale.project_task_action_to_invoice_fsm
 msgid "No tasks found. Let's create one!"
-msgstr ""
+msgstr "Tidak ada task yang ditemukan. Ayo buat baru!"
 
 #. module: industry_fsm_sale
 #: model_terms:ir.ui.view,arch_db:industry_fsm_sale.view_product_product_kanban_material
@@ -330,7 +330,7 @@ msgstr "Proyek"
 #. module: industry_fsm_sale
 #: model:ir.model,name:industry_fsm_sale.model_project_sale_line_employee_map
 msgid "Project Sales line, employee mapping"
-msgstr ""
+msgstr "Baris Project Sales, pemetaan karyawan"
 
 #. module: industry_fsm_sale
 #: model:ir.model.fields,field_description:industry_fsm_sale.field_project_task__quotation_count
@@ -477,4 +477,4 @@ msgstr ""
 #. module: industry_fsm_sale
 #: model:ir.model.fields,field_description:industry_fsm_sale.field_project_task__warning_message
 msgid "Warning Message"
-msgstr ""
+msgstr "Pesan Peringatan"

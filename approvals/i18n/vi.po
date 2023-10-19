@@ -5,10 +5,11 @@
 # Translators:
 # Martin Trigaux, 2021
 # fanha99 <fanha99@hotmail.com>, 2021
-# thanhnguyen.icsc <thanhnguyen.icsc@gmail.com>, 2021
+# Nancy Momoland <thanh.np2502@gmail.com>, 2021
 # Duy BQ <duybq86@gmail.com>, 2021
 # Trinh Tran Thi Phuong <trinhttp@trobz.com>, 2021
 # Vo Thanh Thuy, 2022
+# Thi Huong Nguyen, 2023
 # 
 msgid ""
 msgstr ""
@@ -16,8 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 10:59+0000\n"
 "PO-Revision-Date: 2021-09-14 12:38+0000\n"
-"Last-Translator: Vo Thanh Thuy, 2022\n"
-"Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
+"Last-Translator: Thi Huong Nguyen, 2023\n"
+"Language-Team: Vietnamese (https://app.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -735,6 +736,7 @@ msgstr "Tên"
 #. module: approvals
 #: model:ir.model.fields.selection,name:approvals.selection__approval_approver__status__new
 #: model:ir.model.fields.selection,name:approvals.selection__approval_request__user_status__new
+#: code:addons/approvals/models/approval_category.py:0
 msgid "New"
 msgstr "Mới"
 
@@ -1108,6 +1110,24 @@ msgstr "Trạng thái người dùng"
 #: model_terms:ir.ui.view,arch_db:approvals.approval_request_view_kanban
 msgid "Withdraw"
 msgstr "Rút lại "
+
+#. module: approvals
+#: code:addons/approvals/models/approval_request.py:0
+#, python-format
+msgid ""
+"You cannot assign the same approver multiple times on the same request."
+msgstr ""
+"Bạn không thể giao cùng một yêu cầu cho cùng một người phê duyệt nhiều lần."
+
+#. module: approvals
+#: code:addons/approvals/models/ir_attachment.py:0
+#, python-format
+msgid ""
+"You cannot unlink an attachment which is linked to a validated, refused or "
+"cancelled approval request."
+msgstr ""
+"Bạn không thể hủy liên kết tệp đính kèm được liên kết với yêu cầu phê duyệt "
+"đã được xác thực, bị từ chối hoặc bị hủy."
 
 #. module: approvals
 #: code:addons/approvals/models/approval_request.py:0

@@ -3,10 +3,11 @@
 # 	* sign
 # 
 # Translators:
-# Martin Trigaux, 2021
 # sejun huang <sejun.huang@gmail.com>, 2021
 # Ying <acc.tou@gmail.com>, 2021
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2021
+# Martin Trigaux, 2023
+# Tony Ng, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-16 13:42+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2021\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Last-Translator: Tony Ng, 2023\n"
+"Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -32,7 +33,7 @@ msgstr "# 簽名"
 #: code:addons/sign/controllers/main.py:0
 #, python-format
 msgid "%s couldn't sign the document due to an insufficient credit error."
-msgstr "%s couldn't sign the document due to an insufficient credit error."
+msgstr "%s 因為信用額不足錯誤，未能簽署該文件。"
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -65,8 +66,8 @@ msgid ""
 ")\n"
 "        has requested your signature on the document"
 msgstr ""
-")\n"
-"        has requested your signature on the document"
+"）\n"
+"        請求你為文件簽名"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
@@ -195,7 +196,7 @@ msgstr "<span class=\"o_stat_text\">Activity Logs</span>"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.res_partner_view_form
 msgid "<span class=\"o_stat_text\">Signature Requested</span>"
-msgstr "<span class=\"o_stat_text\">Signature Requested</span>"
+msgstr "<span class=\"o_stat_text\">請求簽名</span>"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_form
@@ -373,7 +374,7 @@ msgstr "Activity logs linked to this request"
 #: code:addons/sign/static/src/js/sign_backend.js:0
 #, python-format
 msgid "Add Initials"
-msgstr "Add Initials"
+msgstr "加入簡簽"
 
 #. module: sign
 #. openerp-web
@@ -736,7 +737,7 @@ msgstr "Ctrl + Left click to add a field"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_request
 msgid "Current status of the signature request"
-msgstr "Current status of the signature request"
+msgstr "簽名請求目前狀態"
 
 #. module: sign
 #: model:sign.item.role,name:sign.sign_item_role_customer
@@ -824,7 +825,7 @@ msgstr "Digital Signatures"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_res_users__sign_initials
 msgid "Digitial Initials"
-msgstr "Digitial Initials"
+msgstr "數碼簡簽"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_send_copy_view_form
@@ -996,7 +997,7 @@ msgstr "Edit template name"
 #: model:sign.item.type,name:sign.sign_item_type_email
 #: model:sign.item.type,placeholder:sign.sign_item_type_email
 msgid "Email"
-msgstr "Email"
+msgstr "電郵"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__subject
@@ -1124,7 +1125,7 @@ msgstr "Font awesome 圖示，例如，fa-task"
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
 #, python-format
 msgid "Fully Signed"
-msgstr "Fully Signed"
+msgstr "完全簽署"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_search
@@ -1255,7 +1256,7 @@ msgstr "In favorites, remove it"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__log_hash
 msgid "Inalterability Hash"
-msgstr "不可更改性複述"
+msgstr "不變性雜湊值"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_item_view_form
@@ -1265,7 +1266,7 @@ msgstr "資訊"
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__sign_item_type__item_type__initial
 msgid "Initial"
-msgstr "Initial"
+msgstr "簡簽"
 
 #. module: sign
 #. openerp-web
@@ -1274,7 +1275,7 @@ msgstr "Initial"
 #: model:sign.item.type,placeholder:sign.sign_item_type_initial
 #, python-format
 msgid "Initials"
-msgstr "Initials"
+msgstr "簡簽"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.res_config_settings_view_form
@@ -1284,7 +1285,7 @@ msgstr "在這裡插入您的條款和條件..."
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__integrity
 msgid "Integrity of the Sign request"
-msgstr "Integrity of the Sign request"
+msgstr "簽名請求完整性"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__favorited_ids
@@ -1450,13 +1451,13 @@ msgstr "Log Date"
 #: code:addons/sign/models/sign_log.py:0
 #, python-format
 msgid "Log history of sign requests cannot be deleted !"
-msgstr "Log history of sign requests cannot be deleted !"
+msgstr "簽名請求的日誌記錄不可刪除！"
 
 #. module: sign
 #: code:addons/sign/models/sign_log.py:0
 #, python-format
 msgid "Log history of sign requests cannot be modified !"
-msgstr "Log history of sign requests cannot be modified !"
+msgstr "簽名請求的日誌記錄不可修改！"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.doc_sign
@@ -1484,6 +1485,12 @@ msgstr "Mail Update"
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_main_attachment_id
 msgid "Main Attachment"
 msgstr "主要附件"
+
+#. module: sign
+#: code:addons/sign/models/sign_template.py:0
+#, python-format
+msgid "Malformed expression: %(exp)s"
+msgstr ""
 
 #. module: sign
 #. openerp-web
@@ -1525,7 +1532,7 @@ msgstr "Missing Password"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.deleted_sign_request
 msgid "Missing signature request"
-msgstr "Missing signature request"
+msgstr "缺漏簽名請求"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item__sms_number
@@ -1550,7 +1557,7 @@ msgstr "多行文本"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_share_view_form
 msgid "Multiple Signature Requests"
-msgstr "Multiple Signature Requests"
+msgstr "多個簽名請求"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__my_activity_date_deadline
@@ -1787,7 +1794,7 @@ msgstr "哎呀"
 #: model:sign.template,redirect_url_text:sign.template_sign_5
 #: model:sign.template,redirect_url_text:sign.template_sign_tour
 msgid "Open Link"
-msgstr "Open Link"
+msgstr "開啟連結"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_item_option__value
@@ -1989,7 +1996,7 @@ msgstr "Request Item Infos"
 #: model:mail.activity.type,name:sign.mail_activity_data_signature_request
 #, python-format
 msgid "Request Signature"
-msgstr "Request Signature"
+msgstr "請求簽名"
 
 #. module: sign
 #: model_terms:ir.actions.act_window,help:sign.sign_request_action
@@ -1997,13 +2004,13 @@ msgid ""
 "Request a signature to upload a template (or use an existing one)\n"
 "                to automate your signature process."
 msgstr ""
-"Request a signature to upload a template (or use an existing one)\n"
-"                to automate your signature process."
+"請求簽名以上載範本（或使用現有範本）\n"
+"                以自動化你的簽名流程。"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__nb_total
 msgid "Requested Signatures"
-msgstr "Requested Signatures"
+msgstr "請求的簽名"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign._doc_sign
@@ -2248,11 +2255,11 @@ msgid ""
 "Invited users can always edit the document template.\n"
 "Existing requests based on this template will not be affected by changes."
 msgstr ""
-"Set who can use this template:\n"
-"- All Users: all users of the Sign application can view and use the template\n"
-"- On Invitation: only invited users can view and use the template\n"
-"Invited users can always edit the document template.\n"
-"Existing requests based on this template will not be affected by changes."
+"設定誰人可使用此範本：\n"
+"- 所有用戶：電子簽名應用程式的所有用戶，都可以查看及使用範本\n"
+"- 只限獲邀請：只有受邀請用戶才可查看及使用範本\n"
+"受邀用戶永遠可以編輯文件範本。\n"
+"現有基於此範本的請求，不會受變更影響。"
 
 #. module: sign
 #: model:ir.actions.act_window,name:sign.sign_settings_action
@@ -2286,7 +2293,7 @@ msgstr "顯示在今天之前的下一個行動日期的所有記錄"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.res_config_settings_view_form
 msgid "Show standard terms &amp; conditions on signature requests"
-msgstr "Show standard terms &amp; conditions on signature requests"
+msgstr "在簽名請求顯示標準條款及條件"
 
 #. module: sign
 #. openerp-web
@@ -2330,7 +2337,7 @@ msgstr "Sign Default Terms and Conditions as a Web page"
 #: model_terms:ir.ui.view,arch_db:sign._doc_sign
 #, python-format
 msgid "Sign Document"
-msgstr "Sign Document"
+msgstr "簽署文件"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_duplicate_template_pdf
@@ -2357,17 +2364,17 @@ msgstr "Sign Now"
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__sign_request_id
 msgid "Sign Request"
-msgstr "Sign Request"
+msgstr "簽名請求"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_log__sign_request_item_id
 msgid "Sign Request Item"
-msgstr "Sign Request Item"
+msgstr "簽名請求項目"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_send_request_signer__sign_send_request_id
 msgid "Sign Send Request"
-msgstr "Sign Send Request"
+msgstr "簽署傳送請求"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.res_config_settings_view_form
@@ -2410,33 +2417,33 @@ msgstr "Sign all"
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_request
 msgid "Sign document"
-msgstr "Sign document"
+msgstr "簽署文件"
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
 #, python-format
 msgid "Sign requests"
-msgstr "Sign requests"
+msgstr "簽名請求"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_log
 msgid "Sign requests access history"
-msgstr "Sign requests access history"
+msgstr "簽名請求存取記錄"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_send_request
 msgid "Sign send request"
-msgstr "Sign send request"
+msgstr "簽署傳送請求"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_request_send_copy
 msgid "Sign send request copy"
-msgstr "Sign send request copy"
+msgstr "簽署傳送請求副本"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_send_request_signer
 msgid "Sign send request signer"
-msgstr "Sign send request signer"
+msgstr "簽署傳送請求簽署人"
 
 #. module: sign
 #. openerp-web
@@ -2503,45 +2510,45 @@ msgstr "Signature Items"
 #: model_terms:ir.ui.view,arch_db:sign.sign_send_request_view_form
 #, python-format
 msgid "Signature Request"
-msgstr "Signature Request"
+msgstr "簽名請求"
 
 #. module: sign
 #: code:addons/sign/wizard/sign_send_request.py:0
 #, python-format
 msgid "Signature Request - %(file_name)s"
-msgstr "Signature Request - %(file_name)s"
+msgstr "簽名請求 － %(file_name)s"
 
 #. module: sign
 #: code:addons/sign/tests/test_common.py:0
 #: code:addons/sign/wizard/sign_send_request.py:0
 #, python-format
 msgid "Signature Request - %s"
-msgstr "Signature Request - %s"
+msgstr "簽名請求 － %s"
 
 #. module: sign
 #: model:ir.model,name:sign.model_sign_request_item
 msgid "Signature Request Item"
-msgstr "Signature Request Item"
+msgstr "簽名請求項目"
 
 #. module: sign
 #: model:ir.actions.act_window,name:sign.sign_request_item_action
 msgid "Signature Request Items"
-msgstr "Signature Request Items"
+msgstr "簽名請求項目"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request_item_value__sign_request_item_id
 msgid "Signature Request item"
-msgstr "Signature Request item"
+msgstr "簽名請求項目"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_template__sign_request_ids
 msgid "Signature Requests"
-msgstr "Signature Requests"
+msgstr "簽名請求"
 
 #. module: sign
 #: model:ir.ui.menu,name:sign.sign_request_item_menu
 msgid "Signature Requests Items"
-msgstr "Signature Requests Items"
+msgstr "簽名請求項目"
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__start_sign
@@ -2568,8 +2575,8 @@ msgid ""
 "Signature requested for template: %s\n"
 "Signatories: %s"
 msgstr ""
-"Signature requested for template: %s\n"
-"Signatories: %s"
+"請求為範本簽名：%s\n"
+"簽署人：%s"
 
 #. module: sign
 #: code:addons/sign/models/res_partner.py:0
@@ -2814,7 +2821,7 @@ msgstr "Terms as Web Page"
 #. module: sign
 #: model:ir.model.fields.selection,name:sign.selection__res_company__sign_terms_type__plain
 msgid "Terms in Email"
-msgstr "Terms in Email"
+msgstr "電郵交代條款"
 
 #. module: sign
 #: model:ir.model.fields,help:sign.field_res_company__sign_terms_type
@@ -2825,9 +2832,9 @@ msgid ""
 "        Terms as Web Page - A link will be pasted at the bottom of every signature request email, leading to your content.\n"
 "        "
 msgstr ""
-"Terms in Email - The text will be displayed at the bottom of every signature request email.\n"
+"電郵交代條款：條款原文會在每封請求電郵的底部列出。\n"
 "\n"
-"        Terms as Web Page - A link will be pasted at the bottom of every signature request email, leading to your content.\n"
+"        網頁交代條款：每封請求電郵的底部會附上一條連結，指向你的內容（即列出條款的網頁）。\n"
 "        "
 
 #. module: sign
@@ -2879,8 +2886,7 @@ msgstr ""
 #, python-format
 msgid ""
 "The following roles must be set to create the signature request: %(roles)s"
-msgstr ""
-"The following roles must be set to create the signature request: %(roles)s"
+msgstr "必須設置以下角色才可建立簽名請求： %(roles)s"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_request_view_form
@@ -2915,8 +2921,8 @@ msgid ""
 "The signature access you are trying to reach does not exist. Maybe the signature request has been deleted or modified. <br/>\n"
 "                    If there still exists a signature request for this document, check your inbox to get your access!"
 msgstr ""
-"The signature access you are trying to reach does not exist. Maybe the signature request has been deleted or modified. <br/>\n"
-"                    If there still exists a signature request for this document, check your inbox to get your access!"
+"你嘗試使用的簽名存取權限不存在。簽名請求可能已被刪除或修改。<br/>\n"
+"                    如果仍有此文件的簽名請求，請檢查你的收件箱以獲取存取權限。"
 
 #. module: sign
 #: code:addons/sign/models/sign_request.py:0
@@ -2940,7 +2946,7 @@ msgstr "The signature mail has been sent."
 #: code:addons/sign/models/sign_request.py:0
 #, python-format
 msgid "The signature request was edited by: %s."
-msgstr "The signature request was edited by: %s."
+msgstr "簽名請求由以下人員編輯： %s。"
 
 #. module: sign
 #. openerp-web
@@ -2950,9 +2956,24 @@ msgid "The template doesn't exist anymore."
 msgstr "The template doesn't exist anymore."
 
 #. module: sign
+#: code:addons/sign/wizard/sign_duplicate_template_with_pdf.py:0
+#, python-format
+msgid "The uploaded file is not a valid PDF. Please upload a valid PDF file."
+msgstr ""
+
+#. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_portal_my_requests
 msgid "There are no signatures request."
-msgstr "There are no signatures request."
+msgstr "沒有簽名請求。"
+
+#. module: sign
+#: code:addons/sign/models/sign_request.py:0
+#: code:addons/sign/models/sign_request.py:0
+#, python-format
+msgid ""
+"There was an issue downloading your document. Please contact an "
+"administrator."
+msgstr ""
 
 #. module: sign
 #: code:addons/sign/models/sign_template.py:0
@@ -3043,6 +3064,14 @@ msgstr "UTC"
 #, python-format
 msgid "Unable to send the SMS, please contact the sender of the document."
 msgstr "Unable to send the SMS, please contact the sender of the document."
+
+#. module: sign
+#: code:addons/sign/controllers/main.py:0
+#, python-format
+msgid ""
+"Unable to sign the document due to missing required data. Please contact an "
+"administrator."
+msgstr ""
 
 #. module: sign
 #: model:ir.model.fields,field_description:sign.field_sign_request__message_unread
@@ -3238,9 +3267,7 @@ msgstr "Wrong password"
 msgid ""
 "You can't delete a template for which signature requests exist but you can "
 "archive it instead."
-msgstr ""
-"You can't delete a template for which signature requests exist but you can "
-"archive it instead."
+msgstr "不可刪除有簽名請求的範本，但可以封存。"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.doc_sign
@@ -3311,8 +3338,6 @@ msgid ""
 "Your signature was not submitted. Ensure that all required field of the "
 "documents are completed and that the SMS validation code is correct."
 msgstr ""
-"Your signature was not submitted. Ensure that all required field of the "
-"documents are completed and that the SMS validation code is correct."
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_mail_completed

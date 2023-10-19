@@ -1252,6 +1252,67 @@ class TestAccountAsset(TestAccountReportsCommon):
 
         self.assertLinesValues(report._get_lines(options)[:1], [0, 5, 6, 7, 8, 9, 10, 11, 12, 13], expected_values_closed_asset)
 
+    def test_depreciation_schedule_disposal_move_unposted(self):
+        """
+        Test the computation of values when disposing an asset, and the difference if the disposal move is posted
+        """
+        asset = self.env['account.asset'].create({
+            'name': 'test asset',
+            'asset_type': 'purchase',
+            'method': 'linear',
+            'original_value': 1000,
+            'method_number': 5,
+            'method_period': '12',
+            'acquisition_date': fields.Date.today() + relativedelta(years=-2, month=1, day=1),
+            'prorata': False,
+            'account_asset_id': self.company_data['default_account_assets'].id,
+            'account_depreciation_id': self.company_data['default_account_assets'].id,
+            'account_depreciation_expense_id': self.company_data['default_account_expense'].id,
+            'journal_id': self.company_data['default_journal_misc'].id,
+        })
+        asset.validate()
+
+        expense_account_copy = self.company_data['default_account_expense'].copy()
+
+        disposal_action_view = self.env['account.asset.sell'].create({
+            'asset_id': asset.id,
+            'action': 'dispose',
+            'loss_account_id': expense_account_copy.id,
+        }).do_action()
+
+        report = self.env['account.assets.report']
+        options = {
+            'unfolded_lines': [],
+            'date': {
+                'string': '2021',
+                'period_type': 'fiscalyear',
+                'mode': 'range',
+                'strict_range': False,
+                'date_from': '2021-01-01',
+                'date_to': '2021-12-31',
+                'filter': 'this_year'
+            },
+            'all_entries': False,
+            'hierarchy': True,
+            'unfold_all': True,
+        }
+
+        # The disposal move is in draft and should not be considered (depreciation and book value)
+        # Values are: name, assets_before, assets+, assets-, assets_after, depreciation_before, depreciation+, depreciation-, depreciation_after, book_value
+        expected_values_asset_disposal_unposted = [
+            ("test asset", 1000.0, 0.0, 0, 1000.0, 400.0, 0.0, 0.0, 400.0, 600.0),
+        ]
+
+        self.assertLinesValues(report._get_lines(options)[:1], [0, 5, 6, 7, 8, 9, 10, 11, 12, 13], expected_values_asset_disposal_unposted)
+
+        self.env['account.move'].browse(disposal_action_view.get('res_id')).action_post()
+
+        expected_values_asset_disposal_posted = [
+            ("test asset", 1000.0, 0.0, 1000.0, 0.0, 400.0, 0.0, 400.0, 0.0, 0.0),
+        ]
+
+        self.assertLinesValues(report._get_lines(options)[:1], [0, 5, 6, 7, 8, 9, 10, 11, 12, 13], expected_values_asset_disposal_posted)
+
     def test_asset_analytic_on_lines(self):
         self.env.user.groups_id += self.env.ref('analytic.group_analytic_accounting')
         self.env.user.groups_id += self.env.ref('analytic.group_analytic_tags')
@@ -1330,3 +1391,51 @@ class TestAccountAsset(TestAccountReportsCommon):
         """ Test that we can archive an asset model. """
         self.account_asset_model_fixedassets.active = False
         self.assertFalse(self.account_asset_model_fixedassets.active)
+
+    def test_asset_onchange_model(self):
+        """
+        Test the changes of account_asset_id when changing asset models
+        """
+        account_asset = self.company_data['default_account_assets'].copy()
+        asset_model = self.env['account.asset'].create({
+            'name': 'test model',
+            'state': 'model',
+            'active': True,
+            'asset_type': 'purchase',
+            'method': 'linear',
+            'method_number': 5,
+            'method_period': '1',
+            'prorata': False,
+            'account_depreciation_id': self.company_data['default_account_assets'].id,
+            'account_depreciation_expense_id': self.company_data['default_account_expense'].id,
+            'account_asset_id': account_asset.id,
+            'journal_id': self.company_data['default_journal_misc'].id,
+        })
+
+        asset_form = Form(self.env['account.asset'].with_context(asset_type='purchase'))
+        asset_form.name = "Test Asset"
+        asset_form.original_value = 10000
+        asset_form.model_id = asset_model
+
+        self.assertEqual(asset_form.account_asset_id, account_asset, "The account_asset_id should be the one from the model")
+
+        other_account_on_bill = self.company_data['default_account_assets'].copy()
+        other_account_on_bill.create_asset = 'draft'
+        other_account_on_bill.asset_model = asset_model
+        invoice = self.env['account.move'].create({
+            'move_type': 'in_invoice',
+            'invoice_date': '2020-12-31',
+            'partner_id': self.ref("base.res_partner_12"),
+            'invoice_line_ids': [
+                (0, 0, {
+                    'name': 'A beautiful small bomb',
+                    'account_id': other_account_on_bill.id,
+                    'price_unit': 200.0,
+                    'quantity': 1,
+                }),
+            ],
+        })
+        invoice.action_post()
+
+        self.assertEqual(invoice.asset_ids.account_asset_id, other_account_on_bill,
+                         "The account should be the one from the bill, not the model")

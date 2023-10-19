@@ -1981,7 +1981,7 @@ msgstr "Grupa"
 #: model_terms:ir.ui.view,arch_db:web_studio.studio_approval_rule_search_view
 #, python-format
 msgid "Group By"
-msgstr "Grupuj wg."
+msgstr "Grupuj wg"
 
 #. module: web_studio
 #. openerp-web
@@ -3787,7 +3787,7 @@ msgstr "Tabulatory"
 #: code:addons/web_studio/static/src/legacy/js/views/view_components.js:0
 #, python-format
 msgid "Tags"
-msgstr "Znaczniki"
+msgstr "Tagi"
 
 #. module: web_studio
 #. openerp-web

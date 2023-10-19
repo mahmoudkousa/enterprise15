@@ -9,9 +9,10 @@
 # Deddy Ddr <deddy.ddr@gmail.com>, 2022
 # Ryanto The <ry.the77@gmail.com>, 2022
 # Ikhsanul Wirsa <iwirsa02@outlook.co.id>, 2022
-# oon arfiandwi <oon.arfiandwi@gmail.com>, 2022
+# oon arfiandwi (OonID) <oon.arfiandwi@gmail.com>, 2022
 # Martin Trigaux, 2022
 # Adam Damara <lorenzrenz@gmail.com>, 2022
+# Abe Manyo, 2023
 # 
 msgid ""
 msgstr ""
@@ -19,8 +20,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-12 07:57+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Adam Damara <lorenzrenz@gmail.com>, 2022\n"
-"Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
+"Last-Translator: Abe Manyo, 2023\n"
+"Language-Team: Indonesian (https://app.transifex.com/odoo/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -31,7 +32,7 @@ msgstr ""
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
 #, python-format
 msgid "# Subscriptions"
-msgstr ""
+msgstr "# Langganan"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -187,7 +188,7 @@ msgstr "Tanggal"
 #: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
 #, python-format
 msgid "Delta"
-msgstr ""
+msgstr "Delta"
 
 #. module: sale_subscription_dashboard
 #. openerp-web
@@ -380,7 +381,7 @@ msgstr "Memuat..."
 #: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
 #, python-format
 msgid "MRR Growth"
-msgstr ""
+msgstr "Perkembangan MRR"
 
 #. module: sale_subscription_dashboard
 #: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
@@ -446,7 +447,7 @@ msgstr ""
 #: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
 #, python-format
 msgid "New MRR"
-msgstr ""
+msgstr "MRR Baru"
 
 #. module: sale_subscription_dashboard
 #: code:addons/sale_subscription_dashboard/controllers/revenue_kpis_dashboard.py:0
@@ -779,7 +780,7 @@ msgstr ""
 #: code:addons/sale_subscription_dashboard/controllers/revenue_kpis_dashboard.py:0
 #, python-format
 msgid "Unknown error"
-msgstr ""
+msgstr "Error tidak diketahui"
 
 #. module: sale_subscription_dashboard
 #. openerp-web

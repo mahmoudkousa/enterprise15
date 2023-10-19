@@ -23,7 +23,7 @@ msgstr ""
 #. module: delivery_iot
 #: model:ir.model.fields,help:delivery_iot.field_stock_picking_type__iot_printer_id
 msgid "Automatically print the shipping labels using this printer."
-msgstr ""
+msgstr "Imprima automaticamente as etiquetas de envio usando essa impressora."
 
 #. module: delivery_iot
 #: model:ir.model.fields,help:delivery_iot.field_choose_delivery_package__available_scale_ids
@@ -32,6 +32,8 @@ msgid ""
 "Choose the scales you want to use for this operation type. Those scales can "
 "be used to weigh the packages created."
 msgstr ""
+"Escolha as balanças que você deseja usar para esse tipo de operação. Essas "
+"balanças podem ser usadas para pesar os pacotes criados."
 
 #. module: delivery_iot
 #: model:ir.model,name:delivery_iot.model_choose_delivery_package
@@ -41,7 +43,7 @@ msgstr "Assistente de seleção de pacote de entrega"
 #. module: delivery_iot
 #: model:ir.model.fields,field_description:delivery_iot.field_choose_delivery_package__iot_ip
 msgid "Domain Address"
-msgstr ""
+msgstr "Endereço do domínio"
 
 #. module: delivery_iot
 #: model:ir.model,name:delivery_iot.model_iot_device
@@ -61,17 +63,17 @@ msgstr "Internet das Coisas"
 #. module: delivery_iot
 #: model_terms:ir.ui.view,arch_db:delivery_iot.iot_device_view_form_inherit
 msgid "Linked Operation Types"
-msgstr ""
+msgstr "Tipos de operações vinculadas"
 
 #. module: delivery_iot
 #: model:ir.model.fields,field_description:delivery_iot.field_choose_delivery_package__manual_measurement
 msgid "Manual Measurement"
-msgstr ""
+msgstr "Medição manual"
 
 #. module: delivery_iot
 #: model:ir.model.fields,help:delivery_iot.field_choose_delivery_package__manual_measurement
 msgid "Manually read the measurement from the device"
-msgstr ""
+msgstr "Ler manualmente a medição do dispositivo"
 
 #. module: delivery_iot
 #: model:ir.model.fields,field_description:delivery_iot.field_iot_device__picking_type_ids
@@ -88,7 +90,7 @@ msgstr "Tipo de Separação"
 #: code:addons/delivery_iot/static/src/xml/iot_widgets_templates.xml:0
 #, python-format
 msgid "Read weight"
-msgstr ""
+msgstr "Ler peso"
 
 #. module: delivery_iot
 #: model:ir.model.fields,field_description:delivery_iot.field_choose_delivery_package__iot_device_id
@@ -99,12 +101,12 @@ msgstr "Escala "
 #: model:ir.model.fields,field_description:delivery_iot.field_choose_delivery_package__available_scale_ids
 #: model:ir.model.fields,field_description:delivery_iot.field_stock_picking_type__iot_scale_ids
 msgid "Scales"
-msgstr ""
+msgstr "Balanças"
 
 #. module: delivery_iot
 #: model:ir.model.fields,field_description:delivery_iot.field_stock_picking_type__iot_printer_id
 msgid "Shipping Labels Printer"
-msgstr ""
+msgstr "Impressora de etiquetas de envio"
 
 #. module: delivery_iot
 #: model:ir.model,name:delivery_iot.model_stock_picking

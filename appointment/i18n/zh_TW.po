@@ -3,11 +3,11 @@
 # 	* appointment
 # 
 # Translators:
-# Martin Trigaux, 2021
 # amos lin <seeing@edirect168.com>, 2021
 # Ying <acc.tou@gmail.com>, 2021
 # Mandy Choy <mnc@odoo.com>, 2021
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2021
+# Martin Trigaux, 2023
 # Tony Ng, 2023
 # 
 msgid ""
@@ -606,7 +606,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_type_view_form
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_type_view_tree
 msgid "Appointment Type"
-msgstr "預約類別"
+msgstr "預約類型"
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_type_view_search
@@ -627,7 +627,7 @@ msgstr "預約:"
 #: model_terms:ir.ui.view,arch_db:appointment.portal_my_home_appointment
 #: model_terms:ir.ui.view,arch_db:appointment.portal_my_home_menu_appointment
 msgid "Appointments"
-msgstr "約會"
+msgstr "預約"
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.portal_my_appointments
@@ -944,13 +944,13 @@ msgstr "關注人（業務夥伴）"
 #. module: appointment
 #: model:ir.model.fields.selection,name:appointment.selection__calendar_appointment_slot__weekday__5
 msgid "Friday"
-msgstr "五"
+msgstr "星期五"
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_slot__start_datetime
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_type_view_form
 msgid "From"
-msgstr "來自"
+msgstr "由"
 
 #. module: appointment
 #. openerp-web
@@ -1134,7 +1134,7 @@ msgstr "手機號碼: %s"
 #. module: appointment
 #: model:ir.model.fields.selection,name:appointment.selection__calendar_appointment_slot__weekday__1
 msgid "Monday"
-msgstr "一"
+msgstr "星期一"
 
 #. module: appointment
 #: model:ir.model.fields.selection,name:appointment.selection__calendar_appointment_question__question_type__text
@@ -1298,7 +1298,7 @@ msgstr "隨機"
 #. module: appointment
 #: model:ir.model.fields.selection,name:appointment.selection__calendar_appointment_slot__slot_type__recurring
 msgid "Recurring"
-msgstr ""
+msgstr "經常性"
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_type__reminder_ids
@@ -1344,7 +1344,7 @@ msgstr "簡訊 - 1小時"
 #. module: appointment
 #: model:ir.model.fields.selection,name:appointment.selection__calendar_appointment_slot__weekday__6
 msgid "Saturday"
-msgstr "六"
+msgstr "星期六"
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.calendar_appointment_type_view_form
@@ -1468,7 +1468,7 @@ msgstr "開始時間"
 #. module: appointment
 #: model:ir.model.fields.selection,name:appointment.selection__calendar_appointment_slot__weekday__7
 msgid "Sunday"
-msgstr "日"
+msgstr "星期日"
 
 #. module: appointment
 #: model:calendar.appointment.question,name:appointment.calendar_appointment_1_question_1
@@ -1509,7 +1509,7 @@ msgstr ""
 #. module: appointment
 #: model:ir.model.fields.selection,name:appointment.selection__calendar_appointment_slot__weekday__4
 msgid "Thursday"
-msgstr "四"
+msgstr "星期四"
 
 #. module: appointment
 #: model_terms:ir.ui.view,arch_db:appointment.appointment_calendar
@@ -1547,7 +1547,7 @@ msgstr "總計:"
 #. module: appointment
 #: model:ir.model.fields.selection,name:appointment.selection__calendar_appointment_slot__weekday__2
 msgid "Tuesday"
-msgstr "二"
+msgstr "星期二"
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_type__message_unread
@@ -1619,7 +1619,7 @@ msgstr "網站溝通記錄"
 #. module: appointment
 #: model:ir.model.fields.selection,name:appointment.selection__calendar_appointment_slot__weekday__3
 msgid "Wednesday"
-msgstr "三"
+msgstr "星期三"
 
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_slot__weekday

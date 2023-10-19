@@ -1280,7 +1280,7 @@ msgstr "Verleden"
 #. module: appointment
 #: model:ir.model.fields,field_description:appointment.field_calendar_appointment_question__placeholder
 msgid "Placeholder"
-msgstr "Label"
+msgstr "Placeholder"
 
 #. module: appointment
 #: code:addons/appointment/models/calendar_appointment_slot.py:0

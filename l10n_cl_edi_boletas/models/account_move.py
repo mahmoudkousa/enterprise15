@@ -14,13 +14,12 @@ class AccountMove(models.Model):
     l10n_cl_daily_sales_book_id = fields.Many2one('l10n_cl.daily.sales.book', copy=False)
 
     def _l10n_cl_edi_post_validation(self):
-        if self.l10n_latam_document_type_id.code == '39':
+        if self.l10n_latam_document_type_id.code in ['39', '41']:
             if self.line_ids.filtered(lambda x: x.tax_group_id.id in [
                     self.env.ref('l10n_cl.tax_group_ila').id, self.env.ref('l10n_cl.tax_group_retenciones').id]):
                 raise UserError(_('Receipts with withholding taxes are not allowed'))
-            if any(self.invoice_line_ids.mapped('tax_ids.price_include')):
-                raise UserError(_('Tax included in price is not supported for boletas. '
-                                  'Please change the tax to not included in price.'))
+            if self.company_id.currency_id != self.currency_id:
+                raise UserError(_('It is not allowed to create receipts in a different currency than CLP'))
         super()._l10n_cl_edi_post_validation()
 
     def _l10n_cl_edi_validate_boletas(self):

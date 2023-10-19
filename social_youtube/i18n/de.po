@@ -3,10 +3,9 @@
 # 	* social_youtube
 # 
 # Translators:
-# Martin Trigaux, 2021
-# Raymond Vetter, 2021
 # Friederike Fasterling-Nesselbosch, 2022
 # Larissa Manderfeld, 2023
+# Martin Trigaux, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:01+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Larissa Manderfeld, 2023\n"
+"Last-Translator: Martin Trigaux, 2023\n"
 "Language-Team: German (https://app.transifex.com/odoo/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +27,7 @@ msgid ""
 "'Uploads' Playlist ID provided by the YouTube API, this should never be set "
 "manually."
 msgstr ""
-"'Uploads' Wiedergabelisten-ID, die von der YouTube-API bereitgestellt wird; "
+"„Uploads“-Wiedergabelisten-ID, die von der YouTube-API bereitgestellt wird; "
 "diese sollte niemals manuell eingestellt werden."
 
 #. module: social_youtube
@@ -73,15 +72,15 @@ msgstr ""
 #. module: social_youtube
 #: model_terms:ir.ui.view,arch_db:social_youtube.social_account_view_form
 msgid "Access to your account can be revoked at any time from"
-msgstr "Der Zugang zu Ihrem Konto kann jederzeit widerrufen werden ab"
+msgstr "Der Zugang zu Ihrem Konto kann jederzeit widerrufen werden über"
 
 #. module: social_youtube
 #: model:ir.model.fields,help:social_youtube.field_social_account__youtube_access_token
 msgid ""
 "Access token provided by the YouTube API, this should never be set manually."
 msgstr ""
-"Zugriffstoken, der von der YouTube-API bereitgestellt wird. Dieser sollte "
-"niemals manuell gesetzt werden."
+"Zugriffstoken, das von der YouTube-API bereitgestellt wird. Dieses sollte "
+"niemals manuell eingestellt werden."
 
 #. module: social_youtube
 #: code:addons/social_youtube/models/social_live_post.py:0
@@ -95,7 +94,7 @@ msgstr "Es ist ein Fehler aufgetreten."
 #, python-format
 msgid "Auth endpoint did not provide a refresh token. Please try again."
 msgstr ""
-"Der Auth-Endpunkt hat kein Aktualisierungs-Token bereitgestellt. Bitte "
+"Der Auth-Endpunkt hat kein Aktualisierungstoken bereitgestellt. Bitte "
 "versuchen Sie es erneut."
 
 #. module: social_youtube
@@ -104,13 +103,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:social_youtube.social_stream_post_view_kanban
 #, python-format
 msgid "Author Image"
-msgstr "Author Image"
+msgstr "Bild des Autors"
 
 #. module: social_youtube
 #: model_terms:ir.ui.view,arch_db:social_youtube.social_account_view_form
 msgid "By using our Social YouTube Application, you implicitly agree to the:"
 msgstr ""
-"Durch die Nutzung unserer Social YouTube-Anwendung erklären Sie sich mit den"
+"Durch die Nutzung unserer Social-YouTube-Anwendung erklären Sie sich mit den"
 " folgenden Bestimmungen einverstanden:"
 
 #. module: social_youtube
@@ -124,7 +123,7 @@ msgstr "Kanal"
 #: code:addons/social_youtube/static/src/xml/social_youtube_templates.xml:0
 #, python-format
 msgid "Clear"
-msgstr "Löschen"
+msgstr "Leeren"
 
 #. module: social_youtube
 #: code:addons/social_youtube/models/social_stream_post.py:0
@@ -133,13 +132,13 @@ msgid ""
 "Comments are marked as 'disabled' for this video. It could have been set as "
 "'private'."
 msgstr ""
-"Kommentare sind für dieses Video als \"deaktiviert\" gekennzeichnet. Es "
-"könnte als 'privat' eingestellt worden sein."
+"Kommentare sind für dieses Video als „deaktiviert“ gekennzeichnet. Es könnte"
+" als „privat“ eingestellt worden sein."
 
 #. module: social_youtube
 #: model:ir.model,name:social_youtube.model_res_config_settings
 msgid "Config Settings"
-msgstr "Konfiguration "
+msgstr "Konfigurationseinstellungen"
 
 #. module: social_youtube
 #. openerp-web
@@ -195,17 +194,17 @@ msgstr ""
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_social_account__youtube_access_token
 msgid "Google Access Token"
-msgstr "Google Zugangs-Token"
+msgstr "Google-Zugriffstoken"
 
 #. module: social_youtube
 #: model_terms:ir.ui.view,arch_db:social_youtube.social_account_view_form
 msgid "Google Privacy Policy"
-msgstr "Google Datenschutzerklärung"
+msgstr "Google-Datenschutzerklärung"
 
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_social_account__youtube_refresh_token
 msgid "Google Refresh Token"
-msgstr "Google Refresh-Token"
+msgstr "Google-Aktualisierungstoken"
 
 #. module: social_youtube
 #. openerp-web
@@ -217,7 +216,7 @@ msgstr "Likes"
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_social_media__media_type
 msgid "Media Type"
-msgstr "Medien Typ"
+msgstr "Medientyp"
 
 #. module: social_youtube
 #. openerp-web
@@ -229,12 +228,12 @@ msgstr "Nein"
 #. module: social_youtube
 #: model_terms:ir.ui.view,arch_db:social_youtube.res_config_settings_view_form
 msgid "OAuth Client ID"
-msgstr "OAuth Client ID"
+msgstr "OAuth-Client-ID"
 
 #. module: social_youtube
 #: model_terms:ir.ui.view,arch_db:social_youtube.res_config_settings_view_form
 msgid "OAuth Client Secret"
-msgstr "OAuth Client Secret"
+msgstr "OAuth-Client-Geheimnis"
 
 #. module: social_youtube
 #: code:addons/social_youtube/models/social_post.py:0
@@ -255,7 +254,7 @@ msgid ""
 "Refresh token provided by the YouTube API, this should never be set "
 "manually."
 msgstr ""
-"Aktualisierungs-Token, der von der YouTube-API zur Verfügung gestellt wird; "
+"Aktualisierungstoken, der von der YouTube-API zur Verfügung gestellt wird; "
 "dieser sollte niemals manuell gesetzt werden."
 
 #. module: social_youtube
@@ -287,43 +286,43 @@ msgstr ""
 #. module: social_youtube
 #: model:ir.model,name:social_youtube.model_social_account
 msgid "Social Account"
-msgstr "Soziales Konto"
+msgstr "Social-Media-Konto"
 
 #. module: social_youtube
 #: model:ir.model,name:social_youtube.model_social_live_post
 msgid "Social Live Post"
-msgstr "Sozialer Live-Post"
+msgstr "Live-Beitrag in Social Media"
 
 #. module: social_youtube
 #: model:ir.model,name:social_youtube.model_social_media
 msgid "Social Media"
-msgstr "Soziale Medien"
+msgstr "Social Media"
 
 #. module: social_youtube
 #: model:ir.model,name:social_youtube.model_social_post
 msgid "Social Post"
-msgstr "Soziales Netzwerk Beitrag"
+msgstr "Social-Media-Beitrag"
 
 #. module: social_youtube
 #: model:ir.model,name:social_youtube.model_social_post_template
 msgid "Social Post Template"
-msgstr "Vorlage für soziale Beiträge"
+msgstr "Vorlage für Social-Media-Beiträge"
 
 #. module: social_youtube
 #: model:ir.model,name:social_youtube.model_social_stream
 msgid "Social Stream"
-msgstr "News aus Sozialen Netzwerken"
+msgstr "Social-Media-Stream"
 
 #. module: social_youtube
 #: model:ir.model,name:social_youtube.model_social_stream_post
 msgid "Social Stream Post"
-msgstr "Social Stream Post"
+msgstr "Beitrag aus Social-Media-Stream"
 
 #. module: social_youtube
 #: code:addons/social_youtube/models/social_post.py:0
 #, python-format
 msgid "The 'message' field is required for post ID %s"
-msgstr "Das Feld \"Nachricht\" ist für die Post-ID erforderlich %s"
+msgstr "Das Feld „Nachricht“ ist für die Beitrags-ID %s erforderlich "
 
 #. module: social_youtube
 #. openerp-web
@@ -409,7 +408,7 @@ msgstr "Upload...0%"
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_res_config_settings__youtube_use_own_account
 msgid "Use your own YouTube Account"
-msgstr "Nutzen Sie Ihr eigenes YouTube-Konto"
+msgstr "Benutzen Sie Ihr eigenes YouTube-Konto"
 
 #. module: social_youtube
 #: model_terms:ir.ui.view,arch_db:social_youtube.res_config_settings_view_form
@@ -424,7 +423,7 @@ msgid ""
 "specific media ('facebook', 'twitter', ...)."
 msgstr ""
 "Wird verwendet, um Vergleiche anzustellen, wenn wir einige Funktionen auf "
-"ein bestimmtes Medium beschränken müssen (\"Facebook\", \"Twitter\", ...)."
+"ein bestimmtes Medium beschränken müssen („Facebook“, „Twitter“ ...)."
 
 #. module: social_youtube
 #: code:addons/social_youtube/models/social_post.py:0
@@ -473,7 +472,7 @@ msgstr "Ja, löschen"
 #: code:addons/social_youtube/models/social_media.py:0
 #, python-format
 msgid "You don't have an active subscription. Please buy one here: %s"
-msgstr "Sie haben kein aktives Abo. Bitte erwerben sie eines hier:%s"
+msgstr "Sie haben kein aktives Abo. Bitte erwerben sie eines hier: %s"
 
 #. module: social_youtube
 #: code:addons/social_youtube/models/social_post.py:0
@@ -490,7 +489,7 @@ msgstr "YouTube"
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_social_post__youtube_access_token
 msgid "YouTube Access Token"
-msgstr "YouTube Zugangs-Token"
+msgstr "YouTube-Zugriffstoken"
 
 #. module: social_youtube
 #: model_terms:ir.ui.view,arch_db:social_youtube.res_config_settings_view_form
@@ -526,22 +525,22 @@ msgstr "Anzahl YouTube-Kommentare"
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_social_stream_post__youtube_dislikes_count
 msgid "YouTube Dislikes"
-msgstr "YouTube Dislikes"
+msgstr "YouTube-Dislikes"
 
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_social_stream_post__youtube_likes_count
 msgid "YouTube Likes"
-msgstr "YouTube Likes"
+msgstr "YouTube-Likes"
 
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_res_config_settings__youtube_oauth_client_id
 msgid "YouTube OAuth Client ID"
-msgstr "YouTube OAuth Client ID"
+msgstr "OAuth-Client-ID von YouTube"
 
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_res_config_settings__youtube_oauth_client_secret
 msgid "YouTube OAuth Client Secret"
-msgstr "YouTube OAuth Client Secret"
+msgstr "OAuth-Client-Geheimnis von YouTube"
 
 #. module: social_youtube
 #: model_terms:ir.ui.view,arch_db:social_youtube.social_post_view_form
@@ -556,22 +555,22 @@ msgstr "YouTube-Platzhalter"
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_social_post__youtube_preview
 msgid "YouTube Preview"
-msgstr "YouTube Vorschau"
+msgstr "YouTube-Vorschau"
 
 #. module: social_youtube
 #: model_terms:ir.ui.view,arch_db:social_youtube.social_account_view_form
 msgid "YouTube Terms of Service (ToS)"
-msgstr "YouTube Nutzungsbedingungen"
+msgstr "YouTube-Nutzungsbedingungen"
 
 #. module: social_youtube
 #: model_terms:ir.ui.view,arch_db:social_youtube.social_stream_post_view_kanban
 msgid "YouTube Thumbnail"
-msgstr "YouTube Thumbnail"
+msgstr "YouTube-Vorschaubild"
 
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_social_account__youtube_upload_playlist_id
 msgid "YouTube Upload Playlist ID"
-msgstr "YouTube Upload Playlist ID"
+msgstr "Upload-Playlist-ID von YouTube"
 
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_social_post__youtube_video
@@ -581,7 +580,7 @@ msgstr "YouTube-Video"
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_social_post__youtube_description
 msgid "YouTube Video Description"
-msgstr "YouTube Video-Beschreibung"
+msgstr "YouTube-Video-Beschreibung"
 
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_social_stream_post__youtube_video_duration
@@ -591,7 +590,7 @@ msgstr "YouTube Video-Dauer"
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_social_stream_post__youtube_video_id
 msgid "YouTube Video ID"
-msgstr "YouTube Video ID"
+msgstr "YouTube-Video-ID"
 
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_social_live_post__youtube_video_id
@@ -602,7 +601,7 @@ msgstr "YouTube-Video-ID"
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_social_post__youtube_title
 msgid "YouTube Video Title"
-msgstr "YouTube Videotitel"
+msgstr "YouTube-Videotitel"
 
 #. module: social_youtube
 #: model:ir.model.fields,field_description:social_youtube.field_social_stream_post__youtube_views_count
@@ -614,8 +613,8 @@ msgstr "YouTube-Ansichten"
 #, python-format
 msgid "YouTube did not provide a valid access token or it may have expired."
 msgstr ""
-"YouTube hat kein gültiges Zugangstoken zur Verfügung gestellt oder es ist "
-"abgelaufen."
+"YouTube hat kein gültiges Zugriffstoken zur Verfügung gestellt oder es ist "
+"möglicherweise abgelaufen."
 
 #. module: social_youtube
 #: code:addons/social_youtube/controllers/main.py:0
@@ -668,13 +667,13 @@ msgid ""
 "e.g. Engage your entire community with a single app! "
 "https://www.odoo.com/trial"
 msgstr ""
-"z.B.: Binden Sie Ihre gesamte Gemeinschaft mit einer einzigen App ein! "
+"z. B.: Binden Sie Ihre gesamte Community mit einer einzigen App ein! "
 "https://www.odoo.com/trial"
 
 #. module: social_youtube
 #: model_terms:ir.ui.view,arch_db:social_youtube.social_post_view_form
 msgid "e.g. Odoo Social Tutorial"
-msgstr "z.B. Odoo Social Tutorial"
+msgstr "z. B. Odoo Social Tutorial"
 
 #. module: social_youtube
 #: model_terms:ir.ui.view,arch_db:social_youtube.social_account_view_form

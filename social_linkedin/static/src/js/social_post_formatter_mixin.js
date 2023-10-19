@@ -13,8 +13,10 @@ SocialPostFormatterMixin._formatPost = function (formattedValue) {
     formattedValue = _superFormatPost.apply(this, arguments);
     var mediaType = SocialPostFormatterMixin._getMediaType.apply(this, arguments);
     if (mediaType === 'linkedin') {
-       formattedValue = formattedValue.replace(SocialPostFormatterMixin.REGEX_HASHTAG,
-                `<a href='https://www.linkedin.com/feed/hashtag/$1' target='_blank'>#$1</a>`);
+        const LINKEDIN_HASHTAG_REGEX = /{hashtag\|#\|([a-zA-Z\d\-_]+)}/g;
+        const hashtagReplacement = `<a href='https://www.linkedin.com/feed/hashtag/$1' target='_blank'>#$1</a>`;
+        formattedValue = formattedValue.replace(SocialPostFormatterMixin.REGEX_HASHTAG, hashtagReplacement);
+        formattedValue = formattedValue.replace(LINKEDIN_HASHTAG_REGEX, hashtagReplacement);
     }
     return formattedValue;
 };

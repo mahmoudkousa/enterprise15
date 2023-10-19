@@ -4,8 +4,10 @@
 # 
 # Translators:
 # Martin Trigaux, 2021
-# Lucia Pacheco <lpo@odoo.com>, 2021
+# Lucia Pacheco, 2021
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2021
+# Fernanda Alvarez, 2023
+# Iran Villalobos López, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,13 +15,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 11:01+0000\n"
 "PO-Revision-Date: 2021-09-14 12:43+0000\n"
-"Last-Translator: Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2021\n"
-"Language-Team: Spanish (Mexico) (https://www.transifex.com/odoo/teams/41243/es_MX/)\n"
+"Last-Translator: Iran Villalobos López, 2023\n"
+"Language-Team: Spanish (Mexico) (https://app.transifex.com/odoo/teams/41243/es_MX/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Language: es_MX\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. module: social_twitter
 #: model_terms:ir.ui.view,arch_db:social_twitter.twitter_preview
@@ -41,12 +43,28 @@ msgid "<i class=\"fa fa-heart\" title=\"Likes\"/>"
 msgstr "<i class=\"fa fa-heart\" title=\"Likes\"/>"
 
 #. module: social_twitter
+#: code:addons/social_twitter/controllers/main.py:0
+#, python-format
+msgid "Authentication failed. Please enter valid credentials."
+msgstr "Ocurrió un error con la autenticación. Ingrese credenciales válidas."
+
+#. module: social_twitter
 #. openerp-web
 #: code:addons/social_twitter/static/src/xml/social_twitter_templates.xml:0
 #: model_terms:ir.ui.view,arch_db:social_twitter.social_stream_post_view_kanban
 #, python-format
 msgid "Author Image"
 msgstr "Autor de la imagen"
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid ""
+"Can not like / unlike the tweet\n"
+"%s."
+msgstr ""
+"No se puede dar me gusta o quitar el me gusta del tweet\n"
+"%s."
 
 #. module: social_twitter
 #: model:ir.model.fields,help:social_twitter.field_res_config_settings__twitter_use_own_account
@@ -97,6 +115,38 @@ msgstr "Nombre en pantalla"
 #: model:ir.model.fields,field_description:social_twitter.field_social_post_template__display_twitter_preview
 msgid "Display Twitter Preview"
 msgstr "Mostrar la previsualización de Twitter"
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid ""
+"Failed to delete the Tweet\n"
+"%s."
+msgstr ""
+"Ocurrió un error al eliminar el tweet\n"
+"%s."
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid "Failed to fetch the conversation id: '%s' using the account %i."
+msgstr ""
+"No se pudo obtener el id de la conversación : '%s' usando la cuenta %i."
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid ""
+"Failed to fetch the tweets in the same thread: '%s' using the account %i."
+msgstr ""
+"No se pudieron recuperar los tweets en el mismo hilo: '%s' usando la cuenta "
+"%i."
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid "Failed to post comment: %s with the account %i."
+msgstr "Ocurrió un error al publicar el comentario %s con la cuenta %i."
 
 #. module: social_twitter
 #: model:social.stream.type,name:social_twitter.stream_type_twitter_likes
@@ -265,6 +315,12 @@ msgstr ""
 "autor de la aplicación."
 
 #. module: social_twitter
+#: code:addons/social_twitter/models/social_stream_post.py:0
+#, python-format
+msgid "This tweet is older than 7 days and so we can not get the replies."
+msgstr "Este tweet tiene más de 7 días, no podemos obtener las respuestas."
+
+#. module: social_twitter
 #: model:social.stream.type,name:social_twitter.stream_type_twitter_follow
 msgid "Tweets of"
 msgstr "Tuits de"
@@ -414,6 +470,16 @@ msgid ""
 msgstr ""
 "Se utiliza para hacer comparaciones cuando necesitamos restringir algunas "
 "características para una red social específica ('facebook', 'twitter', ...)."
+
+#. module: social_twitter
+#: code:addons/social_twitter/models/social_account.py:0
+#, python-format
+msgid ""
+"We could not upload your image, it may be corrupted, it may exceed size "
+"limit or API may have send improper response (error: %s)."
+msgstr ""
+"No pudimos subir su imagen, puede estar dañada, exceder el límite de tamaño "
+"o la API puede haber enviado una respuesta que no es correcta (error: %s)."
 
 #. module: social_twitter
 #: code:addons/social_twitter/models/social_account.py:0

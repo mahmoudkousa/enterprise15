@@ -45,7 +45,7 @@ msgstr ""
 #. module: sale_planning
 #: model_terms:ir.ui.view,arch_db:sale_planning.view_order_form_inherit_sale_planning
 msgid "<span>Hours</span>"
-msgstr ""
+msgstr "<span>時間</span>"
 
 #. module: sale_planning
 #: model_terms:ir.ui.view,arch_db:sale_planning.planning_slot_view_gantt_inherit_sale_planning

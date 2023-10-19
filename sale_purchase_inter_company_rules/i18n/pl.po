@@ -3,7 +3,6 @@
 # 	* sale_purchase_inter_company_rules
 # 
 # Translators:
-# Piotr Strębski <strebski@gmail.com>, 2021
 # Martin Trigaux, 2021
 # Tomasz Leppich <t.leppich@gmail.com>, 2021
 # Piotr Szlązak <szlazakpiotr@gmail.com>, 2021
@@ -123,8 +122,8 @@ msgstr ""
 #. module: sale_purchase_inter_company_rules
 #: code:addons/sale_purchase_inter_company_rules/models/sale_order.py:0
 #, python-format
-msgid "Provide one user for intercompany relation for % "
-msgstr "Dostarcz jednego użytkownika dla relacji między firmami dla %."
+msgid "Provide one user for intercompany relation for %(name)s "
+msgstr ""
 
 #. module: sale_purchase_inter_company_rules
 #: model:ir.model,name:sale_purchase_inter_company_rules.model_purchase_order
@@ -210,7 +209,7 @@ msgstr ""
 #: code:addons/sale_purchase_inter_company_rules/models/res_company.py:0
 #, python-format
 msgid "draft"
-msgstr "szkic"
+msgstr "projekt"
 
 #. module: sale_purchase_inter_company_rules
 #: code:addons/sale_purchase_inter_company_rules/models/res_company.py:0
@@ -242,4 +241,4 @@ msgstr "zamówienie sprzedaży/zakupu"
 #: code:addons/sale_purchase_inter_company_rules/models/res_company.py:0
 #, python-format
 msgid "validated"
-msgstr "zweryfikowane"
+msgstr "zatwierdzone"

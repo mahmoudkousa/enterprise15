@@ -230,6 +230,7 @@ QUnit.module("Studio", (hooks) => {
 
         await openStudio(webClient);
         await webClient.env.services.studio.reload();
+        await legacyExtraNextTick();
 
         assert.containsOnce(
             webClient,

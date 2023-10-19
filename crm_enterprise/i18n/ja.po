@@ -39,7 +39,7 @@ msgstr "アーカイブ済"
 #. module: crm_enterprise
 #: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
 msgid "Average Deal Size"
-msgstr ""
+msgstr "平均成約サイズ"
 
 #. module: crm_enterprise
 #: model:ir.model,name:crm_enterprise.model_crm_activity_report

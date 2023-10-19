@@ -4,8 +4,9 @@
 # 
 # Translators:
 # Martin Trigaux, 2022
-# Geoffrey_GMF <gmf@odoo.com>, 2022
 # Cécile Collart <cco@odoo.com>, 2022
+# Geoffrey_GMF <gmf@odoo.com>, 2022
+# Jolien De Paepe, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-08 11:15+0000\n"
 "PO-Revision-Date: 2022-04-08 12:42+0000\n"
-"Last-Translator: Cécile Collart <cco@odoo.com>, 2022\n"
+"Last-Translator: Jolien De Paepe, 2023\n"
 "Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +35,7 @@ msgstr "150 €"
 #. module: l10n_be_hr_contract_salary
 #: model:hr.contract.salary.advantage.value,name:l10n_be_hr_contract_salary.l10n_be_mobile_value_1
 msgid "30.0 €"
-msgstr "30.0 €"
+msgstr "30,0 €"
 
 #. module: l10n_be_hr_contract_salary
 #: model_terms:ir.ui.view,arch_db:l10n_be_hr_contract_salary.hr_contract_view_form
@@ -99,7 +100,7 @@ msgstr "Enfants handicapés"
 #. module: l10n_be_hr_contract_salary
 #: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_disabled_spouse_bool
 msgid "Disabled Spouse"
-msgstr "Conjoint handicapé"
+msgstr "Conjoint(e) handicapé(e)"
 
 #. module: l10n_be_hr_contract_salary
 #: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_other_disabled_juniors_dependant
@@ -119,12 +120,12 @@ msgstr "Divorcé(e)"
 #. module: l10n_be_hr_contract_salary
 #: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_double_holiday
 msgid "Double Holiday Pay"
-msgstr "Double Pécule"
+msgstr "Double pécule de vacances"
 
 #. module: l10n_be_hr_contract_salary
 #: model:ir.model.fields,field_description:l10n_be_hr_contract_salary.field_hr_contract__double_holiday_wage
 msgid "Double Holiday Wage"
-msgstr "Solde du pécule de Double Vacances"
+msgstr "Double pécule de vacances"
 
 #. module: l10n_be_hr_contract_salary
 #: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_driving_license
@@ -165,7 +166,7 @@ msgstr "Afficher la liste des véhicules neufs"
 #. module: l10n_be_hr_contract_salary
 #: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_fuel_card
 msgid "Fuel Card"
-msgstr "Carte Essence"
+msgstr "Carte essence"
 
 #. module: l10n_be_hr_contract_salary
 #: model:ir.model,name:l10n_be_hr_contract_salary.model_generate_simulation_link
@@ -175,7 +176,7 @@ msgstr "Générer le lien de simulation"
 #. module: l10n_be_hr_contract_salary
 #: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_hospital_insurance
 msgid "Hospital Insurance"
-msgstr "Assurance Hospitalisation"
+msgstr "Assurance hospitalisation"
 
 #. module: l10n_be_hr_contract_salary
 #: model:ir.model.fields,field_description:l10n_be_hr_contract_salary.field_hr_contract__id_card
@@ -190,7 +191,7 @@ msgstr "Copie de la carte d'identité (recto-verso)"
 #. module: l10n_be_hr_contract_salary
 #: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_intellectual_property
 msgid "Intellectual Property"
-msgstr "Propriété Intellectuelle"
+msgstr "Propriété intellectuelle"
 
 #. module: l10n_be_hr_contract_salary
 #: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_internet
@@ -206,7 +207,7 @@ msgstr "Facture d'abonnement internet"
 #. module: l10n_be_hr_contract_salary
 #: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_km_home_work
 msgid "Km Home/Work"
-msgstr "Km Domicile - Bureau"
+msgstr "Km Domicile/Lieu de travail"
 
 #. module: l10n_be_hr_contract_salary
 #: model:hr.contract.salary.personal.info.value,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_marital_cohabitant
@@ -226,7 +227,7 @@ msgstr "Marié(e)"
 #. module: l10n_be_hr_contract_salary
 #: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_meal_vouchers
 msgid "Meal Vouchers"
-msgstr "Chèques Repas"
+msgstr "Chèques-repas"
 
 #. module: l10n_be_hr_contract_salary
 #: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_mobile_invoice
@@ -255,7 +256,7 @@ msgstr "Nombre d'enfants à charge"
 #. module: l10n_be_hr_contract_salary
 #: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_disabled_children_number
 msgid "Number of Disabled Children"
-msgstr "Hombre d'enfants handicapés"
+msgstr "Nombre d'enfants handicapés"
 
 #. module: l10n_be_hr_contract_salary
 #: code:addons/l10n_be_hr_contract_salary/controllers/main.py:0
@@ -276,7 +277,7 @@ msgstr "Congés payés"
 #. module: l10n_be_hr_contract_salary
 #: model:ir.model,name:l10n_be_hr_contract_salary.model_hr_payslip
 msgid "Pay Slip"
-msgstr "Feuille de paie"
+msgstr "Fiche de paie"
 
 #. module: l10n_be_hr_contract_salary
 #: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_lang
@@ -296,7 +297,7 @@ msgstr "Abonnement téléphonique"
 #. module: l10n_be_hr_contract_salary
 #: model:hr.contract.salary.advantage,name:l10n_be_hr_contract_salary.l10n_be_representation_fees
 msgid "Representation Fees"
-msgstr "Frais de Représentation"
+msgstr "Frais de représentation"
 
 #. module: l10n_be_hr_contract_salary
 #: model:ir.model.fields,field_description:l10n_be_hr_contract_salary.field_hr_contract__sim_card
@@ -341,17 +342,17 @@ msgstr ""
 #. module: l10n_be_hr_contract_salary
 #: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_spouse_birthdate
 msgid "Spouse Birthdate"
-msgstr "Date de naissance du conjoint"
+msgstr "Date de naissance du (de la) conjoint(e)"
 
 #. module: l10n_be_hr_contract_salary
 #: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_spouse_complete_name
 msgid "Spouse Name and First Name"
-msgstr "Nom et prénom du conjoint"
+msgstr "Nom et prénom du (de la) conjoint(e)"
 
 #. module: l10n_be_hr_contract_salary
 #: model:hr.contract.salary.personal.info,name:l10n_be_hr_contract_salary.hr_contract_salary_personal_info_spouse_fiscal_status
 msgid "Spouse Professional Situation"
-msgstr "Situation professionnelle du conjoint"
+msgstr "Situation professionnelle du (de la) conjoint(e)"
 
 #. module: l10n_be_hr_contract_salary
 #: model:ir.model.fields,help:l10n_be_hr_contract_salary.field_generate_simulation_link__new_car
@@ -378,7 +379,7 @@ msgid ""
 "Total yearly cost of the employee for the employer for a full time "
 "equivalent."
 msgstr ""
-"Coût annuel total du salarié pour l'employeur pour un équivalent temps "
+"Coût annuel total de l'employé pour l'employeur pour un équivalent temps "
 "plein."
 
 #. module: l10n_be_hr_contract_salary
@@ -432,4 +433,4 @@ msgstr "Oui"
 #: code:addons/l10n_be_hr_contract_salary/controllers/main.py:0
 #, python-format
 msgid "• Available in %s"
-msgstr "Disponible dans %s"
+msgstr "• Disponible dans %s"

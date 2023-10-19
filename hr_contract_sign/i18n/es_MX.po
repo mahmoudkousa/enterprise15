@@ -25,7 +25,7 @@ msgstr ""
 #: code:addons/hr_contract_sign/wizard/hr_contract_sign_document_wizard.py:0
 #, python-format
 msgid "%s and %s are the signatories."
-msgstr "%s y %s son signatarios."
+msgstr "%s y %s son quienes firman."
 
 #. module: hr_contract_sign
 #: code:addons/hr_contract_sign/wizard/hr_contract_sign_document_wizard.py:0
@@ -94,7 +94,7 @@ msgid ""
 "        Documents with 1 responsible will only have to be signed by the employee while documents with 2 different responsible will have to be signed by both the employee and the responsible.\n"
 "        "
 msgstr ""
-"Documentos para firmar. Solo se pueden seleccionar los documentos con 1 o 2 responsables diferentes.\n"
+"Documentos a firmar. Solo se pueden seleccionar los documentos con 1 o 2 responsables diferentes.\n"
 "        Los documentos con 1 responsable solo tendrán que ser firmados por el empleado, mientras que los documentos con 2 responsables diferentes tendrán que ser firmados tanto por el empleado como por el responsable.\n"
 "        "
 
@@ -118,7 +118,7 @@ msgstr "Función del empleado"
 #: code:addons/hr_contract_sign/wizard/hr_contract_sign_document_wizard.py:0
 #, python-format
 msgid "Employee must be linked to a user and a partner."
-msgstr "El empleado debe estar vinculado a un usuario y un partner."
+msgstr "El empleado debe estar vinculado a un usuario y un contacto."
 
 #. module: hr_contract_sign
 #: model:ir.model.fields,help:hr_contract_sign.field_hr_contract_sign_document_wizard__employee_role_id

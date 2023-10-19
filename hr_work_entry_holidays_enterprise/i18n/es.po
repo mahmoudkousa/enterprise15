@@ -4,7 +4,6 @@
 # 
 # Translators:
 # Daniela Cervantes <dace@odoo.com>, 2021
-# Martin Trigaux, 2021
 # Jon Perez <jop@odoo.com>, 2021
 # Pedro M. Baeza <pedro.baeza@tecnativa.com>, 2023
 # 
@@ -44,7 +43,7 @@ msgstr "Autorizar tiempo personal"
 #. module: hr_work_entry_holidays_enterprise
 #: model_terms:ir.actions.act_window,help:hr_work_entry_holidays_enterprise.hr_leave_work_entry_action
 msgid "Meet the time off dashboard."
-msgstr "Conoce el tablero de ausencias"
+msgstr "Conozca el tablero de ausencias."
 
 #. module: hr_work_entry_holidays_enterprise
 #: model_terms:ir.ui.view,arch_db:hr_work_entry_holidays_enterprise.payroll_hr_work_entry_view_form_inherit

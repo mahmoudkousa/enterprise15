@@ -7,6 +7,8 @@
 # Cécile Collart <cco@odoo.com>, 2021
 # Patricia Gutiérrez Capetillo <pagc@odoo.com>, 2021
 # Braulio D. López Vázquez <bdl@odoo.com>, 2022
+# Iran Villalobos López, 2023
+# Wil Odoo, 2023
 # Fernanda Alvarez, 2023
 # 
 msgid ""
@@ -1382,7 +1384,7 @@ msgstr "Agrupar por"
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_work_entry_type
 msgid "HR Work Entry Type"
-msgstr "Tipo de entrada de trabajo RR.HH."
+msgstr "Tipo de entrada de trabajo de RR. HH."
 
 #. module: hr_payroll
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_work_entry_type__round_days__half
@@ -1719,7 +1721,7 @@ msgstr ""
 #. module: hr_payroll
 #: model:ir.model.fields,help:hr_payroll.field_hr_payslip__email_cc
 msgid "List of cc from incoming emails."
-msgstr "Listado de cc en correos electrónicos entrantes."
+msgstr "Lista de cc en correos electrónicos entrantes."
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payslip__paid
@@ -2597,7 +2599,7 @@ msgstr "Salario"
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_salary_attachment_view_form
 #, python-format
 msgid "Salary Attachment"
-msgstr "Archivo adjunto del salario"
+msgstr "Deducción salarial"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_salary_attachment_report
@@ -3257,7 +3259,7 @@ msgstr "Validar"
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.hr_payroll_edit_payslip_lines_form_wizard
 msgid "Validate Edition"
-msgstr "Edición validada"
+msgstr "Validar edición"
 
 #. module: hr_payroll
 #: model:ir.model.fields.selection,name:hr_payroll.selection__hr_work_entry_report__state__validated
@@ -3487,6 +3489,15 @@ msgstr "Condición de rango errónea definida para:"
 #, python-format
 msgid "You can't validate a cancelled payslip."
 msgstr "No puede validar un recibo de nómina cancelado."
+
+#. module: hr_payroll
+#: code:addons/hr_payroll/models/hr_payslip_input_type.py:0
+#, python-format
+msgid ""
+"You cannot delete %s as it is used in another module but you can archive it "
+"instead."
+msgstr ""
+"No puede eliminar %s ya que se utiliza en otro módulo pero puede archivarlo."
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/models/hr_payslip_run.py:0

@@ -53,7 +53,7 @@ msgid ""
 "                                    Avatax portal"
 msgstr ""
 "<i title=\"Ir al portal Avatax\" role=\"img\" aria-label=\"Ir al portal Avatax\" class=\"fa fa-external-link-square fa-fw\"/>\n"
-"                                    Portal Avatax"
+"                                    Portal de AvaTax"
 
 #. module: account_avatax
 #: model_terms:ir.ui.view,arch_db:account_avatax.res_config_settings_view_form
@@ -70,8 +70,8 @@ msgid ""
 "<i title=\"Start logging for 30 minutes\" role=\"img\" aria-label=\"Start logging for 30 minutes\" class=\"fa fa-file-text-o\"/>\n"
 "                                    Start logging for 30 minutes"
 msgstr ""
-"<i title=\"Iniciar inicio de sesión por 30 minutos\" role=\"img\" aria-label=\"Iniciar inicio de sesión por 30 minutos\" class=\"fa fa-file-text-o\"/>\n"
-"                                    Iniciar inicio de sesión por 30 minutos"
+"<i title=\"Iniciar sesión por 30 minutos\" role=\"img\" aria-label=\"Iniciar sesión por 30 minutos\" class=\"fa fa-file-text-o\"/>\n"
+"                                Iniciar sesión por 30 minutos"
 
 #. module: account_avatax
 #: model_terms:ir.ui.view,arch_db:account_avatax.res_config_settings_view_form
@@ -80,7 +80,7 @@ msgid ""
 "                                    Sync Parameters"
 msgstr ""
 "<i title=\"Sincronizar parámetros\" role=\"img\" aria-label=\"Sincronizar parámetros\" class=\"fa fa-refresh\"/>\n"
-"                                    Sync Parameters"
+"                                    Sincronizar parámetros"
 
 #. module: account_avatax
 #: model_terms:ir.ui.view,arch_db:account_avatax.res_config_settings_view_form
@@ -109,12 +109,12 @@ msgstr "Clave API"
 #. module: account_avatax
 #: model:ir.model.fields,help:account_avatax.field_account_fiscal_position__avatax_invoice_account_id
 msgid "Account that will be used by Avatax taxes for invoices."
-msgstr "Cuenta que se usará para los impuestos en Avatax para las facturas."
+msgstr "Cuenta que se usará para los impuestos en AvaTax para las facturas."
 
 #. module: account_avatax
 #: model:ir.model.fields,help:account_avatax.field_account_fiscal_position__avatax_refund_account_id
 msgid "Account that will be used by Avatax taxes for refunds."
-msgstr "Cuenta que se usará para los impuestos en Avatax para las reembolsos."
+msgstr "Cuenta que se usará para los impuestos en AvaTax para los reembolsos."
 
 #. module: account_avatax
 #: model_terms:ir.ui.view,arch_db:account_avatax.res_config_settings_view_form
@@ -138,7 +138,7 @@ msgstr ""
 #, python-format
 msgid "Address validation is only supported for North American addresses."
 msgstr ""
-"La validación de direcciones solo funciona con direcciones de Norteamérica."
+"La validación de dirección solo funciona con direcciones de Norteamérica."
 
 #. module: account_avatax
 #: model_terms:ir.ui.view,arch_db:account_avatax.res_config_settings_view_form
@@ -211,41 +211,41 @@ msgstr "Mostrar la validación de la dirección Avalara"
 #. module: account_avatax
 #: model_terms:ir.ui.view,arch_db:account_avatax.account_fiscal_position_form_inherit
 msgid "Avatax"
-msgstr "Avatax"
+msgstr "AvaTax"
 
 #. module: account_avatax
 #: model:ir.model.fields,field_description:account_avatax.field_product_category__avatax_category_id
 #: model:ir.model.fields,field_description:account_avatax.field_product_product__avatax_category_id
 #: model:ir.model.fields,field_description:account_avatax.field_product_template__avatax_category_id
 msgid "Avatax Category"
-msgstr "Categoría de Avatax"
+msgstr "Categoría de AvaTax"
 
 #. module: account_avatax
 #: model:ir.model.fields,field_description:account_avatax.field_account_bank_statement_line__avatax_tax_date
 #: model:ir.model.fields,field_description:account_avatax.field_account_move__avatax_tax_date
 #: model:ir.model.fields,field_description:account_avatax.field_account_payment__avatax_tax_date
 msgid "Avatax Date"
-msgstr "Fecha Avatax"
+msgstr "Fecha de AvaTax"
 
 #. module: account_avatax
 #: model:ir.model.fields,field_description:account_avatax.field_account_fiscal_position__avatax_invoice_account_id
 msgid "Avatax Invoice Account"
-msgstr "Cuenta de factura Avatax"
+msgstr "Cuenta de factura AvaTax"
 
 #. module: account_avatax
 #: model:ir.model,name:account_avatax.model_avatax_exemption
 msgid "Avatax Partner Exemption Codes"
-msgstr "Códigos de excepción del contacto de Avatax"
+msgstr "Códigos de excepción del contacto de AvaTax"
 
 #. module: account_avatax
 #: model:ir.model,name:account_avatax.model_product_avatax_category
 msgid "Avatax Product Category"
-msgstr "Categoría del producto Avatax"
+msgstr "Categoría del producto AvaTax"
 
 #. module: account_avatax
 #: model:ir.model.fields,field_description:account_avatax.field_account_fiscal_position__avatax_refund_account_id
 msgid "Avatax Refund Account"
-msgstr "Cuenta de reembolso Avatax"
+msgstr "Cuenta de reembolso AvaTax"
 
 #. module: account_avatax
 #: model:ir.model.fields,help:account_avatax.field_account_bank_statement_line__avatax_tax_date
@@ -255,7 +255,7 @@ msgid ""
 "Avatax will use this date to calculate the tax on this invoice. If not "
 "specified it will use the Invoice Date."
 msgstr ""
-"Avatax utilizará esta fecha para calcular el impuesto de esta factura. Si no"
+"AvaTax utilizará esta fecha para calcular el impuesto de esta factura. Si no"
 " se especifica, se utilizará la fecha de la factura."
 
 #. module: account_avatax
@@ -284,7 +284,7 @@ msgstr "Confirmar transacciones"
 #: model:ir.model.fields,field_description:account_avatax.field_res_company__avalara_commit
 #: model:ir.model.fields,field_description:account_avatax.field_res_config_settings__avalara_commit
 msgid "Commit in Avatax"
-msgstr "Confirmar en Avatax"
+msgstr "Confirmar en AvaTax"
 
 #. module: account_avatax
 #: model:ir.model,name:account_avatax.model_res_company
@@ -421,7 +421,7 @@ msgstr "Es AvaTax"
 #. module: account_avatax
 #: model:ir.model,name:account_avatax.model_account_move
 msgid "Journal Entry"
-msgstr "Asiento de diario"
+msgstr "Asiento contable"
 
 #. module: account_avatax
 #: model:ir.model.fields,field_description:account_avatax.field_account_avatax____last_update
@@ -458,13 +458,13 @@ msgstr "Última actualización realizada"
 #. module: account_avatax
 #: model:ir.model,name:account_avatax.model_account_avatax_unique_code
 msgid "Mixin to generate unique ids for Avatax"
-msgstr "Mixin para generar identificadores únicos para Avatax"
+msgstr "Mixin para generar ids únicos para AvaTax"
 
 #. module: account_avatax
 #: model:ir.model,name:account_avatax.model_account_avatax
 msgid "Mixin to manage taxes with Avatax on various business documents"
 msgstr ""
-"Mixin para gestionar impuestos con Avatax en varios documentos comerciales"
+"Mixin para gestionar impuestos con AvaTax en varios documentos comerciales"
 
 #. module: account_avatax
 #: model:ir.model.fields,field_description:account_avatax.field_avatax_exemption__name
@@ -480,7 +480,7 @@ msgid ""
 "Please check the status of `%(technical)s` in the AvaTax portal."
 msgstr ""
 "Odoo no pudo cambiar el estado de la transacción relacionada con %(document)s en AvaTax\n"
-"Por favor compruebe el estado de `%(technical)s` en el portal de AvaTax"
+"Compruebe el estado de `%(technical)s` en el portal de AvaTax."
 
 #. module: account_avatax
 #: code:addons/account_avatax/models/res_company.py:0
@@ -498,7 +498,7 @@ msgid ""
 "Please check the status of `%(technical)s` in the AvaTax portal."
 msgstr ""
 "Odoo no pudo obtener los impuestos relacionados con %(document)s.\n"
-"Compruebe el estado de `%(technical)s` en el portal de AvaTax"
+"Compruebe el estado de `%(technical)s` en el portal de AvaTax."
 
 #. module: account_avatax
 #: code:addons/account_avatax/wizard/avatax_validate_address.py:0
@@ -516,7 +516,7 @@ msgid ""
 "Please check the status of `%(technical)s` in the AvaTax portal."
 msgstr ""
 "Odoo no pudo anular la transacción relacionada con %(document)s en AvaTax\n"
-"Compruebe el estado de `%(technical)s` en el portal de AvaTax"
+"Compruebe el estado de `%(technical)s` en el portal de AvaTax."
 
 #. module: account_avatax
 #: model_terms:ir.ui.view,arch_db:account_avatax.avatax_validate_address_view_form
@@ -526,7 +526,7 @@ msgstr "Dirección original"
 #. module: account_avatax
 #: model:ir.model.fields,field_description:account_avatax.field_avatax_validate_address__partner_id
 msgid "Partner"
-msgstr "Partner"
+msgstr "Contacto"
 
 #. module: account_avatax
 #: code:addons/account_avatax/models/account_avatax.py:0
@@ -580,7 +580,7 @@ msgid ""
 "Server Response:\n"
 "%s"
 msgstr ""
-"Respuestas del servidor:\n"
+"Respuesta del servidor:\n"
 "%s"
 
 #. module: account_avatax
@@ -603,12 +603,12 @@ msgstr "Calle2"
 #. module: account_avatax
 #: model:ir.model,name:account_avatax.model_avatax_validate_address
 msgid "Suggests validated addresses from Avatax"
-msgstr "Sugiere direcciones validadas desde Avatax"
+msgstr "Sugiere direcciones validadas desde AvaTax"
 
 #. module: account_avatax
 #: model_terms:ir.ui.view,arch_db:account_avatax.res_config_settings_view_form
 msgid "Synchronize the exemption codes from Avatax"
-msgstr "Sincronice los códigos de exención de Avatax"
+msgstr "Sincronice los códigos de exención de AvaTax"
 
 #. module: account_avatax
 #: model:ir.model.fields,help:account_avatax.field_avatax_validate_address__is_already_valid
@@ -654,7 +654,7 @@ msgid ""
 "See https://taxcode.avatax.avalara.com/"
 msgstr ""
 "Se necesita el código de impuesto de Avalara para %(name)s (#%(id)s)\n"
-"Vaya a  https://taxcode.avatax.avalara.com/"
+"Vaya a https://taxcode.avatax.avalara.com/"
 
 #. module: account_avatax
 #: code:addons/account_avatax/models/account_avatax.py:0
@@ -669,7 +669,7 @@ msgstr ""
 #. module: account_avatax
 #: model:ir.model.fields,help:account_avatax.field_res_config_settings__avalara_commit
 msgid "The transactions will be committed for reporting in Avatax."
-msgstr "Las transacciones se reportarán en Avatax."
+msgstr "Las transacciones se reportarán en AvaTax."
 
 #. module: account_avatax
 #: model_terms:ir.ui.view,arch_db:account_avatax.avatax_validate_address_view_form
@@ -692,8 +692,8 @@ msgstr "Use UPC"
 #: model:ir.model.fields,help:account_avatax.field_res_config_settings__avalara_use_upc
 msgid "Use Universal Product Code instead of custom defined codes in Avalara."
 msgstr ""
-"Use el código universal de producto en lugar de los códigos definidos en "
-"Avalara."
+"Use el código universal de producto en lugar de los códigos personalizados "
+"definidos en Avalara."
 
 #. module: account_avatax
 #: model:ir.model.fields,help:account_avatax.field_account_avatax__avatax_unique_code

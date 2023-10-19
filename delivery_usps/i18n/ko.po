@@ -6,6 +6,7 @@
 # Martin Trigaux, 2021
 # JH CHOI <hwangtog@gmail.com>, 2021
 # Linkup <link-up@naver.com>, 2021
+# Daye Jeong, 2023
 # Sarah Park, 2023
 # 
 msgid ""
@@ -191,17 +192,17 @@ msgstr "포장품"
 #. module: delivery_usps
 #: model:ir.model.fields,field_description:delivery_usps.field_delivery_carrier__usps_custom_container_girth
 msgid "Package Girth"
-msgstr ""
+msgstr "패키지 둘레"
 
 #. module: delivery_usps
 #: model:ir.model.fields,field_description:delivery_usps.field_delivery_carrier__usps_custom_container_height
 msgid "Package Height"
-msgstr ""
+msgstr "패키지 높이"
 
 #. module: delivery_usps
 #: model:ir.model.fields,field_description:delivery_usps.field_delivery_carrier__usps_custom_container_length
 msgid "Package Length"
-msgstr ""
+msgstr "패키지 길이"
 
 #. module: delivery_usps
 #: model:ir.model.fields.selection,name:delivery_usps.selection__delivery_carrier__usps_first_class_mail_type__package_service
@@ -211,7 +212,7 @@ msgstr "패키지 서비스"
 #. module: delivery_usps
 #: model:ir.model.fields,field_description:delivery_usps.field_delivery_carrier__usps_custom_container_width
 msgid "Package Width"
-msgstr ""
+msgstr "패키지 폭"
 
 #. module: delivery_usps
 #: model:ir.model.fields.selection,name:delivery_usps.selection__delivery_carrier__usps_domestic_regular_container__padded_flat_rate_envelope
@@ -330,7 +331,7 @@ msgstr "견본"
 #: code:addons/delivery_usps/models/delivery_usps.py:0
 #, python-format
 msgid "Shipment #%s has been cancelled"
-msgstr ""
+msgstr "#%s 배송이 취소되었습니다"
 
 #. module: delivery_usps
 #: code:addons/delivery_usps/models/delivery_usps.py:0
@@ -504,4 +505,4 @@ msgstr "회사 또는 수신자 우편 번호가 잘못되었습니다."
 #. module: delivery_usps
 #: model_terms:ir.ui.view,arch_db:delivery_usps.view_delivery_carrier_form_with_provider_usps
 msgid "inch"
-msgstr ""
+msgstr "인치"

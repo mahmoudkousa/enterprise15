@@ -578,7 +578,7 @@ msgstr "街道"
 #. module: account_avatax
 #: model:ir.model.fields,field_description:account_avatax.field_avatax_validate_address__street2
 msgid "Street2"
-msgstr "街道2"
+msgstr "街道第二行"
 
 #. module: account_avatax
 #: model:ir.model,name:account_avatax.model_avatax_validate_address
